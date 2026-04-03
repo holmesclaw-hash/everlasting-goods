@@ -98,7 +98,7 @@ export const products: Product[] = [
     category: "kitchen",
     price: "$29.90",
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1585442133735-1ab2e3f68668?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=600&h=400&fit=crop",
     description:
       "Pre-seasoned and ready to use right out of the box. Lodge has been making cast iron in Tennessee since 1896. This skillet will outlive you — and your grandchildren will fight over it.",
     affiliateUrl: amazonLink("B00006JSUA"),
@@ -174,7 +174,7 @@ export const products: Product[] = [
     category: "edc",
     price: "$169.00",
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1567186937-efc3150e4098?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop",
     description:
       "Machined from aerospace aluminum, dual-fuel compatible, and virtually indestructible. SureFire has been the go-to for military and law enforcement for decades. This is the flashlight you buy once.",
     affiliateUrl: amazonLink("B09M8WYN9X"),
@@ -214,7 +214,7 @@ export const articles: Article[] = [
     excerpt:
       "A well-seasoned cast iron skillet is the ultimate buy-it-for-life kitchen essential. We tested and reviewed the best options for 2024.",
     category: "kitchen",
-    image: "https://images.unsplash.com/photo-1585442133735-1ab2e3f68668?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=800&h=500&fit=crop",
     author: "James Chen",
     date: "2024-11-15",
     readTime: "12 min read",
@@ -368,7 +368,7 @@ export const articles: Article[] = [
     excerpt:
       "A quality flashlight is one of the most practical EDC items you can carry. These lights are built to survive anything.",
     category: "edc",
-    image: "https://images.unsplash.com/photo-1567186937-efc3150e4098?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=500&fit=crop",
     author: "Alex Nakamura",
     date: "2024-09-05",
     readTime: "11 min read",
@@ -699,7 +699,7 @@ export const articles: Article[] = [
     title: "Best Buy It For Life Gifts Under $50: Quality Picks That Last",
     excerpt: "Discover our top picks for durable gifts under $50, including knives, pens, socks, cookware, and water bottles that promise longevity and quality. Perfect fo...",
     category: "home",
-    image: "https://images.unsplash.com/photo-1549465220-1a8b9238f4e1?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&h=500&fit=crop",
     author: "James Cooper",
     date: "April 3, 2026",
     readTime: "8 min read",
@@ -774,7 +774,7 @@ Cons:<ul><li>Limited color choices compared to plastic bottles</li><li>Slightly 
     title: "Best Buy It For Life Chef's Knives: Professional Picks",
     excerpt: "Discover the best chef’s knives that last a lifetime, perfect for professional kitchens and serious home cooks.",
     category: "kitchen",
-    image: "https://images.unsplash.com/photo-1566454419290-57a0589c9b17?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&h=500&fit=crop",
     author: "Elena Torres",
     date: "April 3, 2026",
     readTime: "8 min read",
