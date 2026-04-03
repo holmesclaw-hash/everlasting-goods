@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://everlastinggoods.com"),
+  metadataBase: new URL("https://everlasting-goods.com"),
   title: {
     default: "Everlasting Goods — Buy It For Life Product Reviews",
     template: "%s | Everlasting Goods",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://everlastinggoods.com",
+    url: "https://everlasting-goods.com",
     siteName: "Everlasting Goods",
     title: "Everlasting Goods — Buy It For Life Product Reviews",
     description:
@@ -68,6 +68,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=GT-MR86JNFG"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GT-MR86JNFG');`,
+          }}
+        />
+      </head>
       <body className="font-sans bg-cream text-charcoal antialiased">
         <Header />
         <main className="min-h-screen">{children}</main>

@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { articles, categories } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://everlastinggoods.com";
+  const baseUrl = "https://everlasting-goods.com";
 
   const staticPages = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 1 },

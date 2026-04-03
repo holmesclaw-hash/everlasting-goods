@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://everlastinggoods.com/sitemap.xml",
+    sitemap: "https://everlasting-goods.com/sitemap.xml",
   };
 }
