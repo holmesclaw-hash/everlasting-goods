@@ -69,6 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
+        <meta name="google-site-verification" content="_Dfl-AtAcFZ0zYQN6G8KBjAbzoAPtTc67TuYa_GJSfo" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=GT-MR86JNFG"></script>
         <script
           dangerouslySetInnerHTML={{
