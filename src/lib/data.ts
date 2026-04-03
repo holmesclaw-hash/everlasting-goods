@@ -544,7 +544,6 @@ export const articles: Article[] = [
 <p>You don't need to buy everything at once. Start with a quality bench plane (Lie-Nielsen or Veritas), a set of Narex chisels, and a Gyokucho Razorsaw — under $400 total for a lifetime of capable hand tool work. Add the Veritas Marking Gauge and specialized planes as your skills and projects demand. Quality hand tools don't depreciate — they appreciate. Buy them once, care for them, pass them down.</p>
     `,
   },
-,
   {
     slug: "best-lodge-cast-iron-pieces-the-complete-collection-guide",
     title: "Best Lodge Cast Iron Pieces: The Complete Collection Guide",
