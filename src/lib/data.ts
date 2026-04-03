@@ -98,7 +98,7 @@ export const products: Product[] = [
     category: "kitchen",
     price: "$29.90",
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=600&h=400&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lodge_skillet.jpg/960px-Lodge_skillet.jpg",
     description:
       "Pre-seasoned and ready to use right out of the box. Lodge has been making cast iron in Tennessee since 1896. This skillet will outlive you — and your grandchildren will fight over it.",
     affiliateUrl: amazonLink("B00006JSUA"),
@@ -136,7 +136,7 @@ export const products: Product[] = [
     category: "clothing",
     price: "$339.99",
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=600&h=400&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Red_Wing_Iron_Rangers.jpg/960px-Red_Wing_Iron_Rangers.jpg",
     description:
       "Amber Harness leather, Vibram mini-lug outsole, triple-stitched quality. These boots are built to be resoled and worn for 20+ years. They only get better with age.",
     affiliateUrl: amazonLink("B001IOEQH8"),
@@ -174,7 +174,7 @@ export const products: Product[] = [
     category: "edc",
     price: "$169.00",
     rating: 4.6,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tactical_and_EDC_flashlights_by_Olight.jpg/960px-Tactical_and_EDC_flashlights_by_Olight.jpg",
     description:
       "Machined from aerospace aluminum, dual-fuel compatible, and virtually indestructible. SureFire has been the go-to for military and law enforcement for decades. This is the flashlight you buy once.",
     affiliateUrl: amazonLink("B09M8WYN9X"),
@@ -214,7 +214,7 @@ export const articles: Article[] = [
     excerpt:
       "A well-seasoned cast iron skillet is the ultimate buy-it-for-life kitchen essential. We tested and reviewed the best options for 2024.",
     category: "kitchen",
-    image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=800&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lodge_skillet.jpg/960px-Lodge_skillet.jpg",
     author: "James Chen",
     date: "2024-11-15",
     readTime: "12 min read",
@@ -290,7 +290,7 @@ export const articles: Article[] = [
     excerpt:
       "A great chef's knife is the most important tool in your kitchen. These knives are built to perform for decades with proper care.",
     category: "kitchen",
-    image: "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kitchen_knife_by_yashima.jpg",
     author: "James Chen",
     date: "2024-10-10",
     readTime: "14 min read",
@@ -329,7 +329,7 @@ export const articles: Article[] = [
     excerpt:
       "Invest in a pair of quality leather boots and you'll never look back. These boots are built to be resoled and worn for decades.",
     category: "clothing",
-    image: "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Red_Wing_Iron_Rangers.jpg/960px-Red_Wing_Iron_Rangers.jpg",
     author: "Marcus Rivera",
     date: "2024-09-22",
     readTime: "16 min read",
@@ -368,7 +368,7 @@ export const articles: Article[] = [
     excerpt:
       "A quality flashlight is one of the most practical EDC items you can carry. These lights are built to survive anything.",
     category: "edc",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tactical_and_EDC_flashlights_by_Olight.jpg/960px-Tactical_and_EDC_flashlights_by_Olight.jpg",
     author: "Alex Nakamura",
     date: "2024-09-05",
     readTime: "11 min read",
@@ -500,7 +500,7 @@ export const articles: Article[] = [
     excerpt:
       "Quality woodworking hand tools are among the most BIFL-worthy purchases on the planet. A Victorian-era plane still cuts perfectly after a sharpening — these are tools made before planned obsolescence existed.",
     category: "tools",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&h=500&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Woodworking_with_Hand_Tools_at_the_North_House_Folk_School_in_Grand_Marais%2C_MN.jpg/960px-Woodworking_with_Hand_Tools_at_the_North_House_Folk_School_in_Grand_Marais%2C_MN.jpg",
     author: "Marcus Rivera",
     date: "2026-04-03",
     readTime: "15 min read",
