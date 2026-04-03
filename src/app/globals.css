@@ -57,39 +57,15 @@ body {
 }
 
 .article-content a[href*="amazon.com"] {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
   color: #2d6a4f;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
-  background: linear-gradient(135deg, #d8f3dc, #b7e4c7);
-  padding: 0.25rem 0.75rem;
-  border-radius: 0.5rem;
-  border: 1px solid #95d5b2;
-  transition: all 0.2s ease;
-  font-size: 0.95em;
-  white-space: nowrap;
+  transition: color 0.2s ease;
 }
 
 .article-content a[href*="amazon.com"]:hover {
-  background: linear-gradient(135deg, #b7e4c7, #95d5b2);
   color: #1b4332;
-  border-color: #74c69d;
-  box-shadow: 0 2px 8px rgba(45, 106, 79, 0.2);
-  transform: translateY(-1px);
-}
-
-.article-content a[href*="amazon.com"]::after {
-  content: '→';
-  font-size: 0.85em;
-  opacity: 0.6;
-  transition: transform 0.2s ease;
-}
-
-.article-content a[href*="amazon.com"]:hover::after {
-  transform: translateX(2px);
-  opacity: 1;
+  text-decoration: underline;
 }
 
 .article-content a:not([href*="amazon.com"]) {
