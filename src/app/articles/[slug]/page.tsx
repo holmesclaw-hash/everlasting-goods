@@ -55,6 +55,16 @@ function extractHeadings(content: string): { id: string; text: string }[] {
   return headings;
 }
 
+function extractFAQs(content: string): { question: string; answer: string }[] {
+  const faqRegex = /<div class="faq-item">\s*<h3[^>]*>([^<]+)<\/h3>\s*<p>([^<]+(?:<[^/][^>]*>[^<]*<\/[^>]+>[^<]*)*)<\/p>\s*<\/div>/g;
+  const faqs: { question: string; answer: string }[] = [];
+  let match;
+  while ((match = faqRegex.exec(content)) !== null) {
+    faqs.push({ question: match[1], answer: match[2].replace(/<[^>]+>/g, '') });
+  }
+  return faqs;
+}
+
 export default function ArticlePage({ params }: PageProps) {
   const article = getArticleBySlug(params.slug);
   if (!article) notFound();
@@ -65,9 +75,48 @@ export default function ArticlePage({ params }: PageProps) {
     .map(getProductBySlug)
     .filter(Boolean);
   const relatedArticles = getRelatedArticles(article.slug, article.category);
+  const faqs = extractFAQs(article.content);
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.excerpt,
+    author: { "@type": "Person", name: article.author },
+    datePublished: article.date,
+    image: article.image,
+    publisher: {
+      "@type": "Organization",
+      name: "Everlasting Goods",
+      url: "https://everlasting-goods.com",
+    },
+  };
+
+  const faqJsonLd = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       {/* Hero */}
       <section className="relative bg-charcoal">
         <Image
