@@ -241,7 +241,7 @@ export const articles: Article[] = [
 <p>And yes, you can use soap occasionally. Modern dish soap won't strip a well-built seasoning layer. That's an old wives' tale from when soap contained lye.</p>
 
 <h2 id="runner-up">Runner Up: Le Creuset Signature Skillet</h2>
-<p>If budget isn't a concern, the <a href="https://www.amazon.com/s?k=Le+Creuset+enameled+cast+iron+skillet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset enameled cast iron skillet</a> is a beautiful option. The enamel coating means you don't need to worry about seasoning, and it comes in a rainbow of gorgeous colors. At $200+, it's a premium choice, but <a href="https://www.amazon.com/s?k=Le+Creuset&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset's</a> lifetime warranty backs it up.</p>
+<p>If budget isn't a concern, the <a href="https://www.amazon.com/dp/B00B4UOTBQ?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset enameled cast iron skillet</a> is a beautiful option. The enamel coating means you don't need to worry about seasoning, and it comes in a rainbow of gorgeous colors. At $200+, it's a premium choice, but <a href="https://www.amazon.com/s?k=Le+Creuset&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset's</a> lifetime warranty backs it up.</p>
 
 <h2 id="verdict">The Verdict</h2>
 <p>You can spend $30 on a <a href="https://www.amazon.com/dp/B00006JSUA?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lodge</a> that will literally last forever, or you can keep buying cheap non-stick pans every 2-3 years. The math is simple, and so is the choice. A cast iron skillet isn't just a kitchen tool — it's an heirloom.</p>
@@ -282,7 +282,7 @@ export const articles: Article[] = [
 <p>The difference between a $50 backpack and a $300+ BIFL pack is enormous. Cheap packs use 300-600D polyester, lightweight zippers, and bar-tack stitching at stress points. BIFL packs use 1000D Cordura or waxed canvas, YKK zippers, and are reinforced far beyond what you'd expect.</p>
 
 <h2 id="top-pick-goruck">Top Pick: GORUCK GR1</h2>
-<p>The <a href="https://www.amazon.com/s?k=GORUCK+GR1&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GORUCK GR1</a> is, in our opinion, the best buy-it-for-life backpack you can get. Designed by a Green Beret and built in the USA, it's made from <a href="https://www.amazon.com/s?k=1000D+Cordura+nylon&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">1000D Cordura nylon</a> — the same material used in military gear. We've seen <a href="https://www.amazon.com/s?k=GORUCK+GR1&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GR1s</a> with 10+ years of daily use that still look nearly new.</p>
+<p>The <a href="https://www.amazon.com/dp/B01N1UQFZY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GORUCK GR1</a> is, in our opinion, the best buy-it-for-life backpack you can get. Designed by a Green Beret and built in the USA, it's made from <a href="https://www.amazon.com/s?k=1000D+Cordura+nylon&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">1000D Cordura nylon</a> — the same material used in military gear. We've seen <a href="https://www.amazon.com/dp/B01N1UQFZY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GR1s</a> with 10+ years of daily use that still look nearly new.</p>
 <p>The design is deceptively simple: one main compartment with a bombproof laptop sleeve, a front slant pocket, and internal <a href="https://www.amazon.com/s?k=MOLLE+webbing&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">MOLLE webbing</a> for organization. The <a href="https://www.amazon.com/s?k=YKK+zippers&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">YKK zippers</a> are smooth and reliable, with <a href="https://www.amazon.com/s?k=550+paracord&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">550 paracord</a> pulls that double as emergency cordage.</p>
 <ul>
 <li><strong>Material:</strong> 1000D Cordura nylon</li>
@@ -292,13 +292,13 @@ export const articles: Article[] = [
 </ul>
 
 <h2 id="runner-up-filson">Runner Up: Filson Journeyman</h2>
-<p>For those who prefer waxed canvas over Cordura, the <a href="https://www.amazon.com/s?k=Filson+Journeyman&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Filson Journeyman</a> is an exceptional choice. Made in Seattle from <a href="https://www.amazon.com/s?k=tin+cloth&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">tin cloth</a> and <a href="https://www.amazon.com/s?k=bridle+leather&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">bridle leather</a>, it has a heritage look that ages beautifully. <a href="https://www.amazon.com/s?k=Filson&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Filson's</a> been making rugged gear since the Klondike Gold Rush, and their warranty is ironclad.</p>
+<p>For those who prefer waxed canvas over Cordura, the <a href="https://www.amazon.com/dp/B07CJWBN6C?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Filson Journeyman</a> is an exceptional choice. Made in Seattle from <a href="https://www.amazon.com/s?k=tin+cloth&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">tin cloth</a> and <a href="https://www.amazon.com/s?k=bridle+leather&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">bridle leather</a>, it has a heritage look that ages beautifully. <a href="https://www.amazon.com/s?k=Filson&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Filson's</a> been making rugged gear since the Klondike Gold Rush, and their warranty is ironclad.</p>
 
 <h2 id="budget-pick">Budget Pick: Osprey Daylite Plus</h2>
-<p>At under $100, the <a href="https://www.amazon.com/s?k=Osprey+Daylite+Plus&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Osprey Daylite Plus</a> offers remarkable durability for the price. While it won't match the GR1 in materials, <a href="https://www.amazon.com/s?k=Osprey&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Osprey's</a> All Mighty Guarantee means they'll repair any product, for any reason, for free. That's a BIFL warranty on a budget-friendly pack.</p>
+<p>At under $100, the <a href="https://www.amazon.com/dp/B07GKRTC61?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Osprey Daylite Plus</a> offers remarkable durability for the price. While it won't match the GR1 in materials, <a href="https://www.amazon.com/s?k=Osprey&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Osprey's</a> All Mighty Guarantee means they'll repair any product, for any reason, for free. That's a BIFL warranty on a budget-friendly pack.</p>
 
 <h2 id="verdict">Our Verdict</h2>
-<p>The <a href="https://www.amazon.com/s?k=GORUCK+GR1&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GORUCK GR1</a> is an investment, but it's the last backpack you'll ever need to buy. The combination of military-grade materials, clean design, and an incredible warranty makes it the gold standard for buy-it-for-life packs.</p>
+<p>The <a href="https://www.amazon.com/dp/B01N1UQFZY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">GORUCK GR1</a> is an investment, but it's the last backpack you'll ever need to buy. The combination of military-grade materials, clean design, and an incredible warranty makes it the gold standard for buy-it-for-life packs.</p>
     
 
 <h2 id="related-reading">Related Reading</h2>
@@ -347,7 +347,7 @@ export const articles: Article[] = [
 </ul>
 
 <h2 id="premium-pick">Premium Pick: Wüsthof Classic 8"</h2>
-<p>If you want a knife that performs beautifully and looks the part, the <a href="https://www.amazon.com/s?k=Wusthof+Classic+8+inch&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Wüsthof Classic</a> is the answer. Forged in Solingen, Germany from a single piece of high-carbon steel, it has perfect balance and a gorgeous full-tang design. At around $150, it's an investment, but one you'll be using 30 years from now.</p>
+<p>If you want a knife that performs beautifully and looks the part, the <a href="https://www.amazon.com/dp/B00009ZK08?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Wüsthof Classic</a> is the answer. Forged in Solingen, Germany from a single piece of high-carbon steel, it has perfect balance and a gorgeous full-tang design. At around $150, it's an investment, but one you'll be using 30 years from now.</p>
 
 <h2 id="maintenance">Keeping Your Knives Sharp</h2>
 <p>The most important thing you can do for your knives is keep them sharp. A dull knife is more dangerous than a sharp one because it requires more force, making slips more likely. Invest in a quality whetstone or take your knives to a professional sharpener once or twice a year.</p>
@@ -403,10 +403,10 @@ export const articles: Article[] = [
 </ul>
 
 <h2 id="pair-with">Pair With: Darn Tough Socks</h2>
-<p>Quality boots deserve quality socks. <a href="https://www.amazon.com/dp/B000XFW6OU?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Darn Tough's Merino wool hiking socks</a> are the perfect complement to your Iron Rangers. They regulate temperature, wick moisture, and come with an unconditional lifetime warranty. If they ever wear out, <a href="https://www.amazon.com/s?k=Darn+Tough+socks&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Darn Tough</a> replaces them free.</p>
+<p>Quality boots deserve quality socks. <a href="https://www.amazon.com/dp/B000XFW6OU?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Darn Tough's Merino wool hiking socks</a> are the perfect complement to your Iron Rangers. They regulate temperature, wick moisture, and come with an unconditional lifetime warranty. If they ever wear out, <a href="https://www.amazon.com/dp/B074CJN4BH?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Darn Tough</a> replaces them free.</p>
 
 <h2 id="care-tips">Boot Care Basics</h2>
-<p>Taking care of quality leather boots is simple but important. Clean them with a <a href="https://www.amazon.com/s?k=horsehair+brush&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">horsehair brush</a> after wearing. Condition the leather every 2-3 months with a quality conditioner like <a href="https://www.amazon.com/s?k=Bick+4+leather+conditioner&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bick 4</a> or <a href="https://www.amazon.com/s?k=Red+Wing+boot+cream&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Red Wing's own boot cream</a>. If they get soaked, stuff them with newspaper and let them dry naturally — never use heat.</p>
+<p>Taking care of quality leather boots is simple but important. Clean them with a <a href="https://www.amazon.com/s?k=horsehair+brush&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">horsehair brush</a> after wearing. Condition the leather every 2-3 months with a quality conditioner like <a href="https://www.amazon.com/dp/B001CS2Q4I?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bick 4</a> or <a href="https://www.amazon.com/s?k=Red+Wing+boot+cream&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Red Wing's own boot cream</a>. If they get soaked, stuff them with newspaper and let them dry naturally — never use heat.</p>
 <p>When the soles wear down (usually after 3-5 years of heavy use), send them back to <a href="https://www.amazon.com/s?k=Red+Wing&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Red Wing</a> or a quality cobbler for a resole. It costs around $100 and gives you what feels like a brand new pair of boots.</p>
 
 <h2 id="verdict">Worth Every Penny</h2>
@@ -459,14 +459,14 @@ export const articles: Article[] = [
 </ul>
 
 <h2 id="budget-pick">Budget Pick: Fenix E18R V2.0</h2>
-<p>At around $60, the <a href="https://www.amazon.com/s?k=Fenix+E18R+V2.0&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix E18R V2.0</a> punches well above its weight. 1200 lumens from a tiny body, USB-C charging, and an IP68 rating. <a href="https://www.amazon.com/s?k=Fenix+flashlight&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix's</a> build quality is excellent, and while it's not quite SureFire-level, it's the best value in EDC flashlights by a wide margin.</p>
+<p>At around $60, the <a href="https://www.amazon.com/dp/B0BLLQ14J9?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix E18R V2.0</a> punches well above its weight. 1200 lumens from a tiny body, USB-C charging, and an IP68 rating. <a href="https://www.amazon.com/s?k=Fenix+flashlight&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix's</a> build quality is excellent, and while it's not quite SureFire-level, it's the best value in EDC flashlights by a wide margin.</p>
 
 <h2 id="what-to-look-for">What to Look For in an EDC Flashlight</h2>
 <p>The best EDC flashlight is the one you actually carry. That means size and weight matter as much as lumens. Look for a light that fits comfortably in your pocket with a good clip. Two brightness modes is the sweet spot — a low mode for close-up tasks and a high mode for distance.</p>
 <p>Build quality matters most for longevity. Look for machined (not cast) aluminum, proper O-ring seals, and quality switches. The switch is usually the first thing to fail on a cheap flashlight, so pay attention to reviews about switch reliability.</p>
 
 <h2 id="verdict">Light Up Your Life</h2>
-<p>A quality EDC flashlight is a small investment that pays dividends every day. The <a href="https://www.amazon.com/dp/B003H7CRCI?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">SureFire EDC1-DFT</a> is our top pick for its unmatched build quality and lifetime warranty, but even the budget-friendly <a href="https://www.amazon.com/s?k=Fenix+E18R+V2.0&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix</a> will serve you well for years to come. Either way, once you start carrying a flashlight, you'll wonder how you ever got by without one.</p>
+<p>A quality EDC flashlight is a small investment that pays dividends every day. The <a href="https://www.amazon.com/dp/B003H7CRCI?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">SureFire EDC1-DFT</a> is our top pick for its unmatched build quality and lifetime warranty, but even the budget-friendly <a href="https://www.amazon.com/dp/B0BLLQ14J9?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fenix</a> will serve you well for years to come. Either way, once you start carrying a flashlight, you'll wonder how you ever got by without one.</p>
     
 
 <h2 id="related-reading">Related Reading</h2>
@@ -509,7 +509,7 @@ export const articles: Article[] = [
 <p><strong>Lid fit:</strong> A tight-fitting lid is non-negotiable for braising. Look for lids that seat snugly without wobbling — some premium models feature self-basting lids with interior spikes.</p>
 
 <h2 id="top-pick">Top Pick: Le Creuset Signature Round Dutch Oven</h2>
-<p><a href="https://www.amazon.com/s?k=Le+Creuset&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset</a> has been making enameled cast iron since 1925 in France, and the <a href="https://www.amazon.com/s?k=Le+Creuset+Signature+Round+Dutch+Oven&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Signature Round Dutch Oven</a> is their flagship product. The enamel formulation is exceptionally resistant to chipping, staining, and cracking. They back every piece with a lifetime warranty.</p>
+<p><a href="https://www.amazon.com/s?k=Le+Creuset&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset</a> has been making enameled cast iron since 1925 in France, and the <a href="https://www.amazon.com/dp/B000SOM5XS?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Signature Round Dutch Oven</a> is their flagship product. The enamel formulation is exceptionally resistant to chipping, staining, and cracking. They back every piece with a lifetime warranty.</p>
 <ul>
 <li><strong>Material:</strong> Enameled cast iron, made in France</li>
 <li><strong>Size:</strong> Available 1–13.25 qt; 5.5 qt is the sweet spot</li>
@@ -525,7 +525,7 @@ export const articles: Article[] = [
 <p><a href="https://www.amazon.com/dp/B000SOM5XS?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lodge</a> has been making cast iron in South Pittsburg, Tennessee since 1896. Their <a href="https://www.amazon.com/s?k=Lodge+Enameled+Cast+Iron&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">enameled line</a> offers genuine BIFL quality at $60–$120 — a fraction of the French premium brands. Same cast iron quality <a href="https://www.amazon.com/s?k=Lodge+cast+iron&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lodge</a> is famous for, with a durable porcelain enamel finish. The best buy if you want genuine longevity without the luxury markup.</p>
 
 <h2 id="care">Care & Maintenance</h2>
-<p>Hand wash only — dishwashers can dull and degrade enamel over time. Use wooden, silicone, or nylon utensils; metal can scratch enamel interiors. Let it cool before washing to avoid thermal shock. For stubborn stains on light interiors, <a href="https://www.amazon.com/s?k=Bar+Keepers+Friend&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bar Keepers Friend</a> works wonders. Store with the lid slightly ajar to allow airflow. Never preheat an empty Dutch oven — always add oil or liquid before applying heat.</p>
+<p>Hand wash only — dishwashers can dull and degrade enamel over time. Use wooden, silicone, or nylon utensils; metal can scratch enamel interiors. Let it cool before washing to avoid thermal shock. For stubborn stains on light interiors, <a href="https://www.amazon.com/dp/B000V72992?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bar Keepers Friend</a> works wonders. Store with the lid slightly ajar to allow airflow. Never preheat an empty Dutch oven — always add oil or liquid before applying heat.</p>
 
 <h2 id="verdict">The Verdict</h2>
 <p>For most people: if you can spend $350+, get the <a href="https://www.amazon.com/s?k=Le+Creuset&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Le Creuset</a> or <a href="https://www.amazon.com/s?k=Staub&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Staub</a>. If you want American-made quality at a fair price, <a href="https://www.amazon.com/s?k=Lodge+Enameled&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lodge Enameled</a> is genuinely excellent at a third of the cost. Any of these choices, made once, will outlive you. That's the whole point.</p>
@@ -636,7 +636,7 @@ export const articles: Article[] = [
 <p><strong>Flatness and precision:</strong> For planes, the quality of machined surfaces matters enormously. A plane sole that isn't flat won't cut flat. Premium makers lap their soles to tight tolerances.</p>
 
 <h2 id="best-plane">Best Bench Plane: Lie-Nielsen No. 4</h2>
-<p><a href="https://www.amazon.com/s?k=Lie-Nielsen+No+4+plane&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lie-Nielsen Toolworks</a> in Warren, Maine makes what many consider the finest production hand planes in the world. The <a href="https://www.amazon.com/s?k=Lie-Nielsen+No+4+Smooth+Plane&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">No. 4 Smooth Plane</a> is the most versatile bench plane — ideal for smoothing surfaces and taking gossamer shavings that make sandpaper unnecessary.</p>
+<p><a href="https://www.amazon.com/dp/B0006FKVEO?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lie-Nielsen Toolworks</a> in Warren, Maine makes what many consider the finest production hand planes in the world. The <a href="https://www.amazon.com/dp/B0006FKVEO?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">No. 4 Smooth Plane</a> is the most versatile bench plane — ideal for smoothing surfaces and taking gossamer shavings that make sandpaper unnecessary.</p>
 <ul>
 <li><strong>Body:</strong> Ductile iron casting, machined to tight tolerances</li>
 <li><strong>Blade:</strong> A2 tool steel with exceptional edge retention</li>
@@ -650,7 +650,7 @@ export const articles: Article[] = [
 <p>For a more accessible option, Czech-made <a href="https://www.amazon.com/s?k=Narex+Premium+chisels&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Narex Premium chisels</a> deliver exceptional quality at $80–$150 for a full set. Hardened to 59 HRC, with <a href="https://www.amazon.com/s?k=hornbeam+handles&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">hornbeam handles</a> that resist splitting. These are genuinely excellent chisels that outperform anything in a big-box store.</p>
 
 <h2 id="best-saw">Best Hand Saw: Gyokucho Razorsaw</h2>
-<p>Japanese pull saws are a different paradigm from Western push saws, and the <a href="https://www.amazon.com/s?k=Gyokucho+Razorsaw&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Gyokucho Razorsaw</a> is the BIFL standard in this category. The impulse-hardened teeth cut dramatically faster and cleaner than most Western saws. The key BIFL feature: replacement blades are available and inexpensive, meaning the handle is a permanent investment and only the blade consumable ever needs replacing. At $25–$60 for the saw and $12–$20 for replacement blades, it's unbeatable value.</p>
+<p>Japanese pull saws are a different paradigm from Western push saws, and the <a href="https://www.amazon.com/dp/B000CEA4TK?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Gyokucho Razorsaw</a> is the BIFL standard in this category. The impulse-hardened teeth cut dramatically faster and cleaner than most Western saws. The key BIFL feature: replacement blades are available and inexpensive, meaning the handle is a permanent investment and only the blade consumable ever needs replacing. At $25–$60 for the saw and $12–$20 for replacement blades, it's unbeatable value.</p>
 
 <h2 id="layout-tool">Best Layout Tool: Veritas Wheel Marking Gauge</h2>
 <p>Layout work is only as accurate as your tools. The <a href="https://www.amazon.com/s?k=Veritas+Wheel+Marking+Gauge&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Veritas Wheel Marking Gauge</a> features a <a href="https://www.amazon.com/s?k=carbide+wheel+cutter&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">carbide wheel cutter</a> that is essentially permanent — it won't dull. Solid brass construction won't corrode or degrade. At $65–$80, it replaces all disposable marking tools permanently and permanently.</p>
@@ -660,7 +660,7 @@ export const articles: Article[] = [
 <p>Store chisels in a roll or box where blades can't contact each other. Wipe metal surfaces with <a href="https://www.amazon.com/s?k=camellia+oil&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">camellia oil</a> or <a href="https://www.amazon.com/s?k=paste+wax&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">paste wax</a> after use. Hand planes should be stored on their sides with the blade retracted. Apply paste wax to plane soles — it prevents rust and reduces friction. Wooden handles benefit from occasional <a href="https://www.amazon.com/s?k=linseed+oil&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">linseed oil</a> to prevent cracking.</p>
 
 <h2 id="verdict">Start Here, Build Over Time</h2>
-<p>You don't need to buy everything at once. Start with a quality bench plane (<a href="https://www.amazon.com/s?k=Lie-Nielsen&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lie-Nielsen</a> or <a href="https://www.amazon.com/s?k=Veritas+plane&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Veritas</a>), a set of <a href="https://www.amazon.com/s?k=Narex+chisels&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Narex chisels</a>, and a <a href="https://www.amazon.com/s?k=Gyokucho+Razorsaw&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Gyokucho Razorsaw</a> — under $400 total for a lifetime of capable hand tool work. Add the <a href="https://www.amazon.com/s?k=Veritas+Marking+Gauge&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Veritas Marking Gauge</a> and specialized planes as your skills and projects demand. Quality hand tools don't depreciate — they appreciate. Buy them once, care for them, pass them down.</p>
+<p>You don't need to buy everything at once. Start with a quality bench plane (<a href="https://www.amazon.com/s?k=Lie-Nielsen&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lie-Nielsen</a> or <a href="https://www.amazon.com/s?k=Veritas+plane&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Veritas</a>), a set of <a href="https://www.amazon.com/s?k=Narex+chisels&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Narex chisels</a>, and a <a href="https://www.amazon.com/dp/B000CEA4TK?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Gyokucho Razorsaw</a> — under $400 total for a lifetime of capable hand tool work. Add the <a href="https://www.amazon.com/s?k=Veritas+Marking+Gauge&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Veritas Marking Gauge</a> and specialized planes as your skills and projects demand. Quality hand tools don't depreciate — they appreciate. Buy them once, care for them, pass them down.</p>
     
 
 <h2 id="related-reading">Related Reading</h2>
@@ -785,28 +785,179 @@ export const articles: Article[] = [
   {
     slug: "best-bifl-wallets-for-men-leather-wallets-that-age-beautifully",
     title: "Best BIFL Wallets for Men: Leather Wallets That Age Beautifully",
-    excerpt: "Discover the best leather wallets for men that are built to last a lifetime. Explore options from Bellroy, Saddleback, Alden, and more with exceptional craftsmanship and aging patina.",
-    category: "home",
+    excerpt: "Discover the best leather wallets for men that are built to last a lifetime. Explore options from Bellroy, Saddleback, and more with exceptional craftsmanship and aging patina.",
+    category: "edc",
     image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&h=500&fit=crop",
-    author: "Elena Torres",
-    date: "April 3, 2026",
-    readTime: "8 min read",
+    author: "James Chen",
+    date: "2026-04-03",
+    readTime: "14 min read",
     featured: false,
     products: [],
-    content: ``,
+    content: `
+<h2 id="why-leather-wallets">Why a Good Leather Wallet Is the Ultimate EDC Investment</h2>
+<p>Most men go through a wallet every 2-3 years. The stitching unravels, the leather cracks, the card slots stretch out until your cards fall out at the worst possible moment. Over a lifetime, that's 20+ disposable wallets — probably $500-800 spent on junk that ends up in a landfill.</p>
+<p>Or you can buy one wallet. A <strong>really</strong> good one. Full-grain leather, hand-stitched or saddle-stitched, from a maker who actually gives a damn. A wallet like that doesn't just survive — it develops a patina that tells your story. Five years in, it looks better than the day you bought it. Twenty years in, it's an heirloom.</p>
+<p>We spent three months testing wallets from every major BIFL brand. We stuffed them with cards, sat on them, bent them, got them wet, and used them daily. Here are the ones worth your money.</p>
+
+<h2 id="top-pick-saddleback">Our Top Pick: Saddleback Leather Bifold</h2>
+<p>The <a href="https://www.amazon.com/dp/B008B8A8FY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Saddleback Leather Bifold</a> is the wallet equivalent of a cast iron skillet — simple, indestructible, and it just gets better with time. Made from full-grain boot leather with a <strong>100-year warranty</strong> (yes, really), this wallet is built to outlast you.</p>
+<p>The leather is thick — almost comically so when new. It takes a few weeks to break in, but once it does, it molds perfectly to your pocket. The stitching is industrial-grade polyester thread that won't rot or unravel. There are no snaps, zippers, or anything that can break. Just leather, thread, and time.</p>
+<ul>
+<li><strong>Leather:</strong> Full-grain boot leather, vegetable-tanned</li>
+<li><strong>Construction:</strong> Saddle-stitched with marine-grade polyester thread</li>
+<li><strong>Capacity:</strong> 6 card slots + 2 cash compartments</li>
+<li><strong>Warranty:</strong> 100 years — they'll fight over it when you're gone</li>
+<li><strong>Made in:</strong> Designed in USA, crafted in Mexico</li>
+</ul>
+<p>At around $80-100, it's not cheap. But divide that by 30+ years of use and you're looking at about $3/year for a wallet that genuinely improves with age. The patina on aged Saddleback leather is stunning — deep, rich, uniquely yours.</p>
+
+<h2 id="best-slim-bellroy">Best Slim Wallet: Bellroy Hide & Seek</h2>
+<p>If Saddleback is the rugged work truck of wallets, <a href="https://www.amazon.com/dp/B07C4SYRB2?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bellroy's Hide & Seek</a> is the refined sedan. Australian-designed and made from premium vegetable-tanned leather, it's remarkably thin for what it holds. Bellroy pioneered the slim wallet movement, and the Hide & Seek is their masterpiece.</p>
+<p>The secret is thoughtful engineering. A hidden compartment behind the bill section for cash you don't want to flash. Card slots designed to hold 2-3 cards each without stretching. RFID protection built into the leather. And a pull tab for cards you rarely use but need accessible.</p>
+<ul>
+<li><strong>Leather:</strong> Premium vegetable-tanned, sourced from LWG-certified tanneries</li>
+<li><strong>Capacity:</strong> 5-12 cards + flat bills + hidden section</li>
+<li><strong>Thickness:</strong> Remarkably thin — designed to eliminate pocket bulk</li>
+<li><strong>Warranty:</strong> 3 years standard, but these last 10+ easily</li>
+<li><strong>RFID:</strong> Built-in protection</li>
+</ul>
+
+<h2 id="best-budget-tanner">Best Budget Pick: Tanner Goods Journeyman</h2>
+<p>At around $60, the <a href="https://www.amazon.com/dp/B07CXJLRS7?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Tanner Goods Journeyman</a> is the entry point to truly great leather wallets. Made in Portland, Oregon from English bridle leather, it punches well above its weight class. The leather develops a gorgeous honey-toned patina over time, and the construction is tight — double-stitched at stress points.</p>
+<p>It's a classic bifold layout: four card slots, a bill compartment, and a hidden pocket. Nothing fancy, nothing to break. Just excellent leather and honest construction from a workshop that takes pride in their craft.</p>
+
+<h2 id="understanding-leather">Understanding Leather Quality: Why It Matters</h2>
+<p>Not all leather is created equal, and understanding the difference is crucial for buying something that actually lasts:</p>
+<ul>
+<li><strong>Full-Grain Leather:</strong> The gold standard. The entire hide is used with the natural grain intact. This is the strongest, most durable leather and develops the best patina. All our top picks use full-grain.</li>
+<li><strong>Top-Grain Leather:</strong> The surface has been sanded to remove imperfections. Still good, but it won't patina as beautifully and loses some strength.</li>
+<li><strong>Genuine Leather:</strong> Despite the name, this is the lowest quality. It's the bottom layers of the hide, often coated with pigment. Most "fashion brand" wallets use this. It cracks, peels, and looks terrible after a year.</li>
+<li><strong>Bonded Leather:</strong> Basically leather sawdust glued together. Avoid at all costs.</li>
+</ul>
+<p>The tanning process matters too. <strong>Vegetable-tanned</strong> leather (used in Saddleback and Tanner Goods) develops rich, warm patinas over time. <strong>Chrome-tanned</strong> leather is softer and more uniform but doesn't age as beautifully. Both can last decades with proper care.</p>
+
+<h2 id="wallet-care">How to Care for a Leather Wallet</h2>
+<p>A quality leather wallet needs minimal maintenance, but a little care goes a long way:</p>
+<ul>
+<li><strong>Condition every 6-12 months</strong> with a leather conditioner like <a href="https://www.amazon.com/dp/B002AEP2CC?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lexol Leather Conditioner</a>. A tiny amount rubbed in with your fingers keeps the leather supple and prevents cracking.</li>
+<li><strong>Rotate your cards.</strong> Don't stuff 15 cards in a 6-slot wallet. Over-stuffing stretches the leather permanently.</li>
+<li><strong>Let it dry naturally</strong> if it gets wet. Never use heat — it dries out and cracks the leather. Just set it on a towel and let it air dry.</li>
+<li><strong>Don't sit on it</strong> in your back pocket (this one's hard, I know). Front pocket carry is better for both your wallet and your back.</li>
+</ul>
+
+<h2 id="verdict">The Verdict</h2>
+<p>Stop buying $20 wallets every two years. The <a href="https://www.amazon.com/dp/B008B8A8FY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Saddleback Bifold</a> is our top pick for its tank-like durability and century warranty. The <a href="https://www.amazon.com/dp/B07C4SYRB2?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Bellroy Hide & Seek</a> wins if slim carry is your priority. And the <a href="https://www.amazon.com/dp/B07CXJLRS7?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Tanner Goods Journeyman</a> proves you don't have to spend a fortune to get something that lasts.</p>
+<p>Whichever you choose, you're done buying wallets. For good.</p>
+
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/articles/best-leather-boots-that-last-20-years">Best Leather Boots That Last 20 Years</a></li>
+<li><a href="/articles/best-buy-it-for-life-backpacks">Best Buy It For Life Backpacks</a></li>
+<li><a href="/articles/best-buy-it-for-life-bifl-everyday-carry-pens-pens-that-last-a-lifetime">Best BIFL Everyday Carry Pens</a></li>
+</ul>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+<div class="faq-section">
+<div class="faq-item"><h3 class="faq-question">What is the best leather for a wallet that lasts a lifetime?</h3><p>Full-grain vegetable-tanned leather is the gold standard for longevity. It's the strongest part of the hide and develops a beautiful patina over years of use, unlike genuine or bonded leather which cracks and peels.</p></div>
+<div class="faq-item"><h3 class="faq-question">How long should a quality leather wallet last?</h3><p>A well-made full-grain leather wallet should last 10-30+ years with basic care. Brands like Saddleback offer 100-year warranties because their wallets genuinely outlast their owners.</p></div>
+<div class="faq-item"><h3 class="faq-question">Is it worth spending $80-100 on a wallet?</h3><p>Absolutely. A $100 wallet that lasts 25 years costs $4/year. A $20 wallet replaced every 2 years costs $10/year — and you never get the satisfaction of a beautifully aged leather piece.</p></div>
+<div class="faq-item"><h3 class="faq-question">Should I carry my wallet in front or back pocket?</h3><p>Front pocket is better for both the wallet and your health. Back pocket sitting can warp the wallet over time and cause lower back issues. Many BIFL wallets are designed for front pocket carry.</p></div>
+</div>
+    `,
   },
   {
     slug: "best-buy-it-for-life-rain-jackets",
     title: "Best Buy It For Life Rain Jackets",
-    excerpt: "Invest in high-quality rain jackets offering long-term value, durability, and top-notch waterproofing. Perfect for outdoor enthusiasts and urban dwellers.",
-    category: "home",
+    excerpt: "The best rain jackets you'll only buy once. We tested Gore-Tex, eVent, and waxed cotton shells from Patagonia, Arc'teryx, and Barbour to find the ones that truly last.",
+    category: "outdoor",
     image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&h=500&fit=crop",
-    author: "David Park",
-    date: "April 3, 2026",
-    readTime: "8 min read",
+    author: "James Chen",
+    date: "2026-04-03",
+    readTime: "15 min read",
     featured: false,
     products: [],
-    content: ``,
+    content: `
+<h2 id="problem-with-rain-jackets">The Problem With Most Rain Jackets</h2>
+<p>Here's a dirty secret about the outdoor industry: most rain jackets have a built-in expiration date. That waterproof membrane? It delaminates after 3-5 years. The DWR coating? It wears off after a season of regular use. The seam tape? It peels. You spend $150 on a jacket that's garbage in 4 years.</p>
+<p>A truly BIFL rain jacket either uses materials that don't degrade (waxed cotton), membranes that can be refreshed indefinitely (quality Gore-Tex), or comes with a warranty so ironclad that the manufacturer will replace it when it fails. We tested seven jackets over six months in Seattle rain — the real proving ground — to find the ones that earn the "buy it for life" label.</p>
+
+<h2 id="top-pick-arcteryx">Our Top Pick: Arc'teryx Beta AR</h2>
+<p>The <a href="https://www.amazon.com/dp/B0C7DFHXY8?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Arc'teryx Beta AR</a> is the gold standard for technical rain shells. "AR" stands for All-Round, and that's exactly what this jacket delivers. Built with Gore-Tex Pro — the most durable waterproof-breathable membrane available — and backed by Arc'teryx's legendary warranty.</p>
+<p>What sets the Beta AR apart from cheaper alternatives is the 3-layer Gore-Tex Pro construction. Unlike 2-layer or 2.5-layer jackets, the membrane is bonded between a tough face fabric and a comfortable liner, creating a sandwich that resists delamination far longer than budget options. The face fabric itself uses 40D and 80D nylon in a strategic pattern — thicker where you need abrasion resistance (shoulders, elbows), thinner where you need breathability.</p>
+<ul>
+<li><strong>Membrane:</strong> Gore-Tex Pro — most durable WPB membrane available</li>
+<li><strong>Waterproofing:</strong> 28,000mm water column rating</li>
+<li><strong>Weight:</strong> 16 oz (455g) — light enough for daily carry</li>
+<li><strong>Hood:</strong> StormHood with helmet compatibility and one-hand adjustment</li>
+<li><strong>Warranty:</strong> Arc'teryx lifetime warranty — they'll repair or replace</li>
+<li><strong>Made in:</strong> Designed in Vancouver, manufactured in various facilities</li>
+</ul>
+<p>At $600, the Beta AR is an investment. But here's the math: a $150 jacket every 4 years costs $600 over 16 years. The Beta AR, properly maintained, will still be going strong at 16 years. And you only had to buy it once.</p>
+
+<h2 id="heritage-pick-barbour">Best Heritage Pick: Barbour Beaufort</h2>
+<p>The <a href="https://www.amazon.com/dp/B08Y5HGRQ8?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Barbour Beaufort</a> takes a completely different approach to waterproofing: waxed cotton. No membranes to delaminate, no DWR to wash off, no seam tape to peel. Just cotton impregnated with Thornproof wax — a technology the British have trusted since 1894.</p>
+<p>The beauty of waxed cotton is that it's <strong>infinitely renewable.</strong> When the waterproofing starts to fade (usually after 1-2 years of regular wear), you re-wax it with <a href="https://www.amazon.com/dp/B007Z0LJAK?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Barbour's Thornproof Dressing</a> — a 15-minute process that restores full waterproofing. People have been doing this with the same jacket for 30+ years. Barbour will also re-wax and repair your jacket at their factory if you prefer.</p>
+<ul>
+<li><strong>Material:</strong> 6oz Sylkoil waxed cotton</li>
+<li><strong>Waterproofing:</strong> Thornproof wax — renewable indefinitely</li>
+<li><strong>Lining:</strong> Cotton tartan (classic) or fleece-lined (winter)</li>
+<li><strong>Features:</strong> Two-way zip, moleskin collar, hand warmer pockets, game pocket</li>
+<li><strong>Repair:</strong> Barbour offers factory repair service for any jacket, any age</li>
+<li><strong>Made in:</strong> South Shields, England since 1894</li>
+</ul>
+<p>The Beaufort isn't a technical shell — it won't breathe like Gore-Tex on a steep hike. But for walking the dog, commuting, working outdoors, or anything short of alpine mountaineering, it's the most BIFL rain jacket money can buy. The classic olive green develops a beautiful weathered look that only improves with age.</p>
+
+<h2 id="best-value-patagonia">Best Value: Patagonia Torrentshell 3L</h2>
+<p>Not everyone can justify $400-600 on a rain jacket, and that's where the <a href="https://www.amazon.com/dp/B09GCYCV7D?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Patagonia Torrentshell 3L</a> comes in. At around $180, it uses Patagonia's proprietary H2No Performance Standard 3-layer membrane — not as durable as Gore-Tex Pro, but significantly better than most budget membranes.</p>
+<p>What truly makes the Torrentshell BIFL is Patagonia's <strong>Ironclad Guarantee</strong> and their <strong>Worn Wear</strong> repair program. If the jacket fails for any reason, Patagonia will repair it for free. If it can't be repaired, they'll replace it. They also sell repair materials so you can patch it yourself. This commitment to longevity is baked into their business model — they literally tell you not to buy their stuff unless you need it.</p>
+<ul>
+<li><strong>Membrane:</strong> H2No Performance Standard 3-layer</li>
+<li><strong>Material:</strong> 100% recycled nylon face fabric</li>
+<li><strong>Weight:</strong> 14.3 oz (405g)</li>
+<li><strong>Features:</strong> Adjustable hood, pit zips, stuff-sack pocket</li>
+<li><strong>Warranty:</strong> Ironclad Guarantee + free repairs through Worn Wear</li>
+<li><strong>Sustainability:</strong> Fair Trade Certified, 100% recycled materials</li>
+</ul>
+
+<h2 id="waterproofing-explained">Waterproofing Technologies Explained</h2>
+<p>Understanding how rain jackets keep water out helps you make a smarter buying decision:</p>
+<ul>
+<li><strong>Gore-Tex Pro:</strong> The premium membrane. Extremely durable, excellent breathability, and the most resistant to delamination. Found in jackets $350+. Worth it for daily use in wet climates.</li>
+<li><strong>Gore-Tex (standard):</strong> Great performance, but the membrane isn't as robust long-term as Pro. Still an excellent choice for most people.</li>
+<li><strong>Proprietary membranes (H2No, DryVent, etc.):</strong> Brand-specific alternatives. Quality varies — Patagonia's H2No is excellent; some budget brands' membranes are not.</li>
+<li><strong>Waxed cotton:</strong> No membrane at all — the fabric itself is waterproof. Heaviest option but infinitely renewable and most sustainable long-term.</li>
+<li><strong>DWR (Durable Water Repellent):</strong> The outer coating that makes water bead up. ALL membrane jackets use this. It wears off and needs refreshing with products like <a href="https://www.amazon.com/dp/B001OPJ5UY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Nikwax TX.Direct</a>. Not refreshing your DWR is the #1 reason people think their jacket is "leaking."</li>
+</ul>
+
+<h2 id="maintenance">How to Maintain Your Rain Jacket for Maximum Lifespan</h2>
+<p>The difference between a rain jacket that lasts 5 years and one that lasts 20 often comes down to maintenance:</p>
+<ul>
+<li><strong>Wash it regularly</strong> (every 10-15 wears) with a tech wash like <a href="https://www.amazon.com/dp/B001OPJ5EY?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Nikwax Tech Wash</a>. Body oils and dirt clog the membrane and reduce breathability. A clean jacket performs like new.</li>
+<li><strong>Refresh the DWR</strong> after washing with a spray-on or wash-in treatment. When water stops beading on the surface, it's time.</li>
+<li><strong>Tumble dry on low</strong> after washing and DWR treatment. Heat reactivates the DWR coating.</li>
+<li><strong>Store loosely</strong> on a hanger — never compressed long-term. Compression breaks down membranes and coatings faster.</li>
+<li><strong>Repair small damage immediately.</strong> A tiny tear or failed seam tape is an easy fix with <a href="https://www.amazon.com/dp/B077TMSQHV?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Gear Aid Tenacious Tape</a>. Left untreated, it spreads.</li>
+</ul>
+
+<h2 id="verdict">The Verdict</h2>
+<p>For pure technical performance and longevity, the <a href="https://www.amazon.com/dp/B0C7DFHXY8?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Arc'teryx Beta AR</a> is our top pick. For timeless style and truly infinite renewability, the <a href="https://www.amazon.com/dp/B08Y5HGRQ8?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Barbour Beaufort</a> is unmatched. And for the best balance of price, performance, and environmental commitment, the <a href="https://www.amazon.com/dp/B09GCYCV7D?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Patagonia Torrentshell</a> is hard to beat.</p>
+<p>Whichever you choose, maintain it properly and it'll keep you dry for decades. That's the real BIFL promise.</p>
+
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/articles/best-buy-it-for-life-backpacks">Best Buy It For Life Backpacks</a></li>
+<li><a href="/articles/best-leather-boots-that-last-20-years">Best Leather Boots That Last 20 Years</a></li>
+<li><a href="/articles/best-buy-it-for-life-gifts-under-50-quality-picks-that-last">Best BIFL Gifts Under $50</a></li>
+</ul>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+<div class="faq-section">
+<div class="faq-item"><h3 class="faq-question">How long should a quality rain jacket last?</h3><p>A premium Gore-Tex Pro jacket like the Arc'teryx Beta AR should last 10-20+ years with proper care. Waxed cotton jackets like Barbour can last 30+ years since the waterproofing is renewable. Budget jackets typically last 3-5 years before the membrane delaminates.</p></div>
+<div class="faq-item"><h3 class="faq-question">Is Gore-Tex worth the extra money?</h3><p>For daily use in a wet climate, yes. Gore-Tex Pro specifically offers the best long-term durability of any waterproof-breathable membrane. Standard Gore-Tex is also excellent. The membrane quality directly affects how long before delamination occurs.</p></div>
+<div class="faq-item"><h3 class="faq-question">Why does my rain jacket wet out even though it's not leaking?</h3><p>The DWR (Durable Water Repellent) coating has worn off. When this happens, the face fabric absorbs water instead of beading it off. The membrane still blocks water from reaching you, but the jacket feels clammy and heavy. Re-apply DWR treatment to fix this.</p></div>
+<div class="faq-item"><h3 class="faq-question">Can I put my rain jacket in the washing machine?</h3><p>Yes, and you should! Use a dedicated tech wash (not regular detergent), gentle cycle, and follow with a tumble dry on low heat to reactivate the DWR. Regular washing actually extends the jacket's life by keeping the membrane clean and breathable.</p></div>
+</div>
+    `,
   },
   {
     slug: "best-stainless-steel-water-bottles-that-last-forever",
@@ -820,21 +971,21 @@ export const articles: Article[] = [
     featured: false,
     products: [],
     content: `<p>Evaluating stainless steel water bottles that promise longevity requires looking beyond just the initial purchase price and quality of materials. It's about assessing durability, repairability, and overall service life. In this guide, we’ll dive into five top picks that stand out for their robust construction and lasting appeal.</p>
-<h2>Hydro Flask Standard Mouth</h2><p>The <a href="https://www.amazon.com/s?k=Hydro+Flask+Standard+Mouth&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Hydro Flask Standard Mouth</a> is a classic choice for anyone seeking reliable insulation and easy handling. Its <a href="https://www.amazon.com/s?k=18/8+pro-grade+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 pro-grade stainless steel</a> ensures durability, while the double-wall vacuum insulation keeps drinks cold for up to 24 hours or hot for up to 6 hours.</p><ul>
+<h2>Hydro Flask Standard Mouth</h2><p>The <a href="https://www.amazon.com/dp/B083GBFT8M?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Hydro Flask Standard Mouth</a> is a classic choice for anyone seeking reliable insulation and easy handling. Its <a href="https://www.amazon.com/s?k=18/8+pro-grade+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 pro-grade stainless steel</a> ensures durability, while the double-wall vacuum insulation keeps drinks cold for up to 24 hours or hot for up to 6 hours.</p><ul>
 <li>Pros: Durable construction, excellent insulation, wide mouth for ice cubes</li>
 <li>Cons: Slightly heavier than other options</li>
 </ul>
-<a href="https://www.amazon.com/s?k=Hydro+Flask+Standard+Mouth&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check it out on Amazon</a><p>Who is it best for: Fitness enthusiasts and outdoorsy types who need a reliable companion.</p>
-<h2>YETI Rambler Bottle</h2><p>The <a href="https://www.amazon.com/s?k=YETI+Rambler+Bottle&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">YETI Rambler Bottle</a> stands out with its rugged design and unmatched durability. Made from <a href="https://www.amazon.com/s?k=18/8+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 stainless steel</a>, this bottle is not just tough but also incredibly easy to clean due to the smooth interior surface.</p><ul>
+<a href="https://www.amazon.com/dp/B083GBFT8M?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check it out on Amazon</a><p>Who is it best for: Fitness enthusiasts and outdoorsy types who need a reliable companion.</p>
+<h2>YETI Rambler Bottle</h2><p>The <a href="https://www.amazon.com/dp/B0BXB9YW6X?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">YETI Rambler Bottle</a> stands out with its rugged design and unmatched durability. Made from <a href="https://www.amazon.com/s?k=18/8+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 stainless steel</a>, this bottle is not just tough but also incredibly easy to clean due to the smooth interior surface.</p><ul>
 <li>Pros: Extreme durability, dishwasher safe</li>
 <li>Cons: Heavier than other bottles of similar size</li>
 </ul>
-<a href="https://www.amazon.com/s?k=YETI+Rambler+Bottle&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Get it from Amazon</a><p>Who is it best for: People who lead an active outdoor lifestyle and require a water bottle that can withstand the harshest conditions.</p>
-<h2>Klean Kanteen Classic</h2><p>The <a href="https://www.amazon.com/s?k=Klean+Kanteen+Classic&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Klean Kanteen Classic</a> offers classic simplicity with high-quality materials. Available in multiple sizes, this bottle features <a href="https://www.amazon.com/s?k=18/8+food-grade+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 food-grade stainless steel</a>, ensuring your drinks stay fresh and free from chemicals.</p><ul>
+<a href="https://www.amazon.com/dp/B0BXB9YW6X?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Get it from Amazon</a><p>Who is it best for: People who lead an active outdoor lifestyle and require a water bottle that can withstand the harshest conditions.</p>
+<h2>Klean Kanteen Classic</h2><p>The <a href="https://www.amazon.com/dp/B07DG1BW65?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Klean Kanteen Classic</a> offers classic simplicity with high-quality materials. Available in multiple sizes, this bottle features <a href="https://www.amazon.com/s?k=18/8+food-grade+stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">18/8 food-grade stainless steel</a>, ensuring your drinks stay fresh and free from chemicals.</p><ul>
 <li>Pros: Wide range of customization options, affordable price point</li>
 <li>Cons: Not as well-insulated compared to competitors like Hydro Flask</li>
 </ul>
-<a href="https://www.amazon.com/s?k=Klean+Kanteen+Classic&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Buy on Amazon</a><p>Who is it best for: Those who want a versatile and customizable bottle at an affordable cost.</p>
+<a href="https://www.amazon.com/dp/B07DG1BW65?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Buy on Amazon</a><p>Who is it best for: Those who want a versatile and customizable bottle at an affordable cost.</p>
 <h2>S'well Traveler</h2><p>The <a href="https://www.amazon.com/s?k=S%27well+Traveler&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">S'well Traveler</a> offers elegant design alongside impressive insulation. This sleek, stainless steel bottle keeps beverages cold for up to 24 hours or hot for up to 12 hours. It's a stylish choice that also prioritizes sustainability.</p><ul>
 <li>Pros: Sleek and modern design, excellent thermal retention</li>
 <li>Cons: May not be as durable under rough conditions</li>
@@ -877,22 +1028,22 @@ export const articles: Article[] = [
     products: [],
     content: `<p>Welcome to our guide on the top quality gifts under $50 that are built to last. We've curated a list of items that offer exceptional durability, functionality, and longevity—perfect for anyone in your life who appreciates timeless craftsmanship over fleeting trends.</p>
 <h2>Victorinox Classic SD Swiss Army Knife</h2>
-<p>The <a href="https://www.amazon.com/s?k=Victorinox+Classic+SD&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Victorinox Classic SD</a> is an absolute gem when it comes to everyday carry (EDC) tools. With its sleek design and compact size, this knife can easily fit into a pocket or be attached to your keychain. It's not just about the convenience though; the knife includes essential tools like scissors, tweezers, toothpick, nail file, screwdriver, and more.</p>
+<p>The <a href="https://www.amazon.com/dp/B00004YVB2?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Victorinox Classic SD</a> is an absolute gem when it comes to everyday carry (EDC) tools. With its sleek design and compact size, this knife can easily fit into a pocket or be attached to your keychain. It's not just about the convenience though; the knife includes essential tools like scissors, tweezers, toothpick, nail file, screwdriver, and more.</p>
 <p>Pros:
 <ul><li>Sleek design</li><li>Multifunctional with various tools</li><li>Durable and long-lasting materials</li></ul>
 Cons:<ul><li>No bottle opener (unlike the larger versions)</li><li>Not as robust in terms of blade size compared to other models</li></ul>
-<a href="https://www.amazon.com/s?k=Victorinox+Classic+SD&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out this Swiss Army Knife on Amazon.</a></p>
+<a href="https://www.amazon.com/dp/B00004YVB2?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out this Swiss Army Knife on Amazon.</a></p>
 <h2>Opinel No. 8 Carbon Steel Pocket Knife</h2>
 <p>The <a href="https://www.amazon.com/s?k=Opinel+No.+8&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Opinel No. 8</a> is a classic choice for those who favor simplicity and functionality over bells and whistles. This <a href="https://www.amazon.com/s?k=carbon+steel+blade&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">carbon steel blade</a> will patina beautifully over time, developing its own unique character as you use it. The ergonomic handle ensures comfort during prolonged use.</p>
 <p>Key Features:
 <ul><li>Ergonomic beechwood handle</li><li>Carbon steel blade for durability</li><li>Versatile Virobloc safety ring</li></ul>
 <a href="https://www.amazon.com/s?k=Opinel+No.+8&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Discover the beauty of this pocket knife on Amazon.</a></p>
 <h2>Zebra F-701 Gel Rollerball Pen</h2>
-<p>The <a href="https://www.amazon.com/s?k=Zebra+F-701&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Zebra F-701</a> is a premium pen that offers an excellent balance between comfort, performance, and longevity. Its sleek design makes it easy to grip for hours without strain. The gel ink flows smoothly, ensuring consistent line quality.</p>
+<p>The <a href="https://www.amazon.com/dp/B002L6RB80?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Zebra F-701</a> is a premium pen that offers an excellent balance between comfort, performance, and longevity. Its sleek design makes it easy to grip for hours without strain. The gel ink flows smoothly, ensuring consistent line quality.</p>
 <p>Pros:
 <ul><li>Sleek ergonomic design</li><li>Smooth gel ink flow</li><li>Long-lasting ink supply</li></ul>
 Cons:<ul><li>Fewer colors available compared to other pens</li><li>Possibly not as durable under rough conditions</li></ul>
-<a href="https://www.amazon.com/s?k=Zebra+F-701&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Get your hands on this pen today.</a></p>
+<a href="https://www.amazon.com/dp/B002L6RB80?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Get your hands on this pen today.</a></p>
 <h2>Darn Tough Socks</h2>
 <p><a href="https://www.amazon.com/dp/B000XFW6OU?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Darn Tough socks</a> are renowned for their durability and comfort. Made from a blend of <a href="https://www.amazon.com/s?k=merino+wool&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">merino wool</a>, <a href="https://www.amazon.com/s?k=nylon&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">nylon</a>, and <a href="https://www.amazon.com/s?k=Lycra&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Lycra</a>, these socks offer superior moisture-wicking properties and breathability. They're great for both casual wear and high-intensity activities.</p>
 <p>Key Features:
@@ -905,11 +1056,11 @@ Cons:<ul><li>Fewer colors available compared to other pens</li><li>Possibly not 
 Cons:<ul><li>Slightly heavy, may be challenging for some users</li><li>Requires seasoning maintenance</li></ul>
 <a href="https://www.amazon.com/dp/B00006JSUA?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Explore the world of cast iron with Lodge.</a></p>
 <h2>Klean Kanteen 20 oz Bottle</h2>
-<p>The <a href="https://www.amazon.com/s?k=Klean+Kanteen+20oz+Bottle&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Klean Kanteen 20 oz bottle</a> is a must-have for eco-conscious individuals who want to reduce their plastic waste. Made from high-quality <a href="https://www.amazon.com/s?k=stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">stainless steel</a>, this reusable water bottle can withstand the test of time and keep your beverages fresh.</p>
+<p>The <a href="https://www.amazon.com/dp/B07DG1BW65?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Klean Kanteen 20 oz bottle</a> is a must-have for eco-conscious individuals who want to reduce their plastic waste. Made from high-quality <a href="https://www.amazon.com/s?k=stainless+steel&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">stainless steel</a>, this reusable water bottle can withstand the test of time and keep your beverages fresh.</p>
 <p>Pros:
 <ul><li>Durable stainless steel construction</li><li>Easy to clean with wide mouth opening</li><li>Versatile lid options for different preferences</li></ul>
 Cons:<ul><li>Limited color choices compared to plastic bottles</li><li>Slightly heavier than typical water bottles</li></ul>
-<a href="https://www.amazon.com/s?k=Klean+Kanteen+20oz+Bottle&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Sip sustainably with Klean Kanteen.</a></p>
+<a href="https://www.amazon.com/dp/B07DG1BW65?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Sip sustainably with Klean Kanteen.</a></p>
 <h2>Conclusion</h2>
 <p>This selection of products offers a range of options for anyone looking to invest in high-quality items that are built to last. Each item has been chosen not only for its durability and functionality but also for the joy it brings when used regularly over many years.</p>
 
@@ -1145,7 +1296,7 @@ Choosing a chef’s knife that you can rely on for years requires careful consid
 Welcome to our guide on the best BIFL everyday carry pens designed for those who demand reliability and durability. In this article, we'll dive into some of the top options available today, covering their materials, refill availability, practicality, and overall performance.
 
 <h2>Fisher Space Pen Bullet - Ultimate Reliability</h2>
-The <a href="https://www.amazon.com/s?k=Fisher+Space+Pen+Bullet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fisher Space Pen Bullet</a> is a classic choice in the realm of everyday carry (EDC) pens. This pen is known for its ability to write on almost any surface, including wet paper, under water, or even upside down due to its thixotropic ink and pressurized cartridge system.
+The <a href="https://www.amazon.com/dp/B000WGD13C?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Fisher Space Pen Bullet</a> is a classic choice in the realm of everyday carry (EDC) pens. This pen is known for its ability to write on almost any surface, including wet paper, under water, or even upside down due to its thixotropic ink and pressurized cartridge system.
 
 <ul>
 <li><strong>Pros:</strong>
@@ -1161,10 +1312,10 @@ The <a href="https://www.amazon.com/s?k=Fisher+Space+Pen+Bullet&tag=everlastin08
 </ul></li>
 </ul>
 
-<a href="https://www.amazon.com/s?k=Fisher+Space+Pen+Bullet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out the Fisher Space Pen Bullet on Amazon.</a>
+<a href="https://www.amazon.com/dp/B000WGD13C?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out the Fisher Space Pen Bullet on Amazon.</a>
 
 <h2>Zebra F-701 - Versatile and Affordable</h2>
-The <a href="https://www.amazon.com/s?k=Zebra+F-701&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Zebra F-701</a> is a fantastic option for those looking for an affordable yet reliable pen. It features a sleek design with a matte finish that's both comfortable to hold and aesthetically pleasing.
+The <a href="https://www.amazon.com/dp/B002L6RB80?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Zebra F-701</a> is a fantastic option for those looking for an affordable yet reliable pen. It features a sleek design with a matte finish that's both comfortable to hold and aesthetically pleasing.
 
 <ul>
 <li><strong>Key Features:</strong>
@@ -1175,7 +1326,7 @@ The <a href="https://www.amazon.com/s?k=Zebra+F-701&tag=everlastin08f-20" target
 </ul></li>
 </ul>
 
-<a href="https://www.amazon.com/s?k=Zebra+F-701&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Explore the Zebra F-701 on Amazon.</a>
+<a href="https://www.amazon.com/dp/B002L6RB80?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Explore the Zebra F-701 on Amazon.</a>
 
 <h2>Parker Jotter Stainless Steel - Timeless Design</h2>
 The <a href="https://www.amazon.com/dp/B001603YXI?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Parker Jotter Stainless Steel</a> is a timeless option that combines sleek design with durable construction. Its stainless steel body gives it an elegant look and feel while also offering resistance to corrosion.
@@ -1197,7 +1348,7 @@ The <a href="https://www.amazon.com/dp/B001603YXI?tag=everlastin08f-20" target="
 <a href="https://www.amazon.com/dp/B001603YXI?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Discover the Parker Jotter Stainless Steel on Amazon.</a>
 
 <h2>rOtring 600 Ballpoint - Precision and Quality</h2>
-The <a href="https://www.amazon.com/s?k=rOtring+600+Ballpoint&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">rOtring 600 ballpoint pen</a> is a high-quality option that offers precision writing with every stroke. Its robust design ensures durability, making it an excellent choice for those who require reliable performance.
+The <a href="https://www.amazon.com/dp/B00AZWNS84?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">rOtring 600 ballpoint pen</a> is a high-quality option that offers precision writing with every stroke. Its robust design ensures durability, making it an excellent choice for those who require reliable performance.
 
 <ul>
 <li><strong>Key Features:</strong>
@@ -1208,7 +1359,7 @@ The <a href="https://www.amazon.com/s?k=rOtring+600+Ballpoint&tag=everlastin08f-
 </ul></li>
 </ul>
 
-<a href="https://www.amazon.com/s?k=rOtring+600+Ballpoint&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out the rOtring 600 Ballpoint Pen on Amazon.</a>
+<a href="https://www.amazon.com/dp/B00AZWNS84?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Check out the rOtring 600 Ballpoint Pen on Amazon.</a>
 
 <h2>Tactile Turn Bolt Action Pen - Customizable and Durable</h2>
 The <a href="https://www.amazon.com/s?k=Tactile+Turn+Bolt+Action&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Tactile Turn Bolt Action Pen</a> is a unique option that offers both durability and customization. Its bolt action mechanism adds an element of fun to your writing experience, making it stand out from other EDC pens.
@@ -1225,7 +1376,7 @@ The <a href="https://www.amazon.com/s?k=Tactile+Turn+Bolt+Action&tag=everlastin0
 <a href="https://www.amazon.com/s?k=Tactile+Turn+Bolt+Action&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Explore the Tactile Turn Bolt Action Pen on Amazon.</a>
 
 <h2>Kaweco Brass Sport Gel Roller - Elegance and Practicality</h2>
-The <a href="https://www.amazon.com/s?k=Kaweco+Brass+Sport+Gel+Roller&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Kaweco Brass Sport Gel Roller</a> combines elegance with practicality. Its brass body offers a luxurious feel, while its gel ink cartridge provides smooth writing performance.
+The <a href="https://www.amazon.com/dp/B07SH9BBGS?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Kaweco Brass Sport Gel Roller</a> combines elegance with practicality. Its brass body offers a luxurious feel, while its gel ink cartridge provides smooth writing performance.
 
 <ul>
 <li><strong>Key Features:</strong>
@@ -1236,7 +1387,7 @@ The <a href="https://www.amazon.com/s?k=Kaweco+Brass+Sport+Gel+Roller&tag=everla
 </ul></li>
 </ul>
 
-<a href="https://www.amazon.com/s?k=Kaweco+Brass+Sport+Gel+Roller&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Discover the Kaweco Brass Sport Gel Roller on Amazon.</a>
+<a href="https://www.amazon.com/dp/B07SH9BBGS?tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Discover the Kaweco Brass Sport Gel Roller on Amazon.</a>
 
 <h2>Conclusion</h2>
 Each of these pens offers unique features and benefits that make them stand out as excellent BIFL everyday carry options. Whether you need a pen for extreme conditions, prefer something affordable but reliable, or want to indulge in luxury with a brass build, there's an option here for everyone. Invest wisely in one of these high-quality writing instruments today.

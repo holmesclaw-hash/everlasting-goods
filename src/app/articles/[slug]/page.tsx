@@ -29,6 +29,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: article.title,
     description: article.excerpt,
+    alternates: {
+      canonical: `https://everlasting-goods.com/articles/${article.slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.excerpt,
