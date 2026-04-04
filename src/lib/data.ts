@@ -1408,7 +1408,7 @@ Each of these pens offers unique features and benefits that make them stand out 
 <div class="faq-item"><h3 class="faq-question">What features make a pen truly buy-it-for-life?</h3><p>Look for durable materials like stainless steel or brass, robust click or twist mechanisms, widely available refills, and a comfortable grip design.</p></div>
 </div>
     `,
-  }
+  },
   {
     slug: "best-safety-razors-that-last-a-lifetime",
     title: "Best Safety Razors That Last a Lifetime",
