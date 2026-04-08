@@ -54,6 +54,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/best-bifl-products" className="text-sm hover:text-forest-300 transition-colors">
+                  BIFL Guide
+                </Link>
+              </li>
+              <li>
                 <Link href="/products" className="text-sm hover:text-forest-300 transition-colors">
                   Product Directory
                 </Link>

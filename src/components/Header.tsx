@@ -35,6 +35,12 @@ export default function Header() {
               Articles
             </Link>
             <Link
+              href="/best-bifl-products"
+              className="text-sm font-medium text-charcoal/70 hover:text-forest-500 transition-colors"
+            >
+              BIFL Guide
+            </Link>
+            <Link
               href="/products"
               className="text-sm font-medium text-charcoal/70 hover:text-forest-500 transition-colors"
             >
@@ -99,6 +105,13 @@ export default function Header() {
               className="block px-3 py-2.5 text-sm font-medium text-charcoal/70 hover:text-forest-500 hover:bg-cream rounded-lg"
             >
               Articles
+            </Link>
+            <Link
+              href="/best-bifl-products"
+              onClick={() => setMobileOpen(false)}
+              className="block px-3 py-2.5 text-sm font-medium text-charcoal/70 hover:text-forest-500 hover:bg-cream rounded-lg"
+            >
+              BIFL Guide
             </Link>
             <Link
               href="/products"
