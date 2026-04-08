@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -70,18 +71,25 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
         <meta name="google-site-verification" content="_Dfl-AtAcFZ0zYQN6G8KBjAbzoAPtTc67TuYa_GJSfo" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6903539486133095" crossOrigin="anonymous"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GT-MR86JNFG"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GT-MR86JNFG');`,
-          }}
-        />
       </head>
       <body className="font-sans bg-cream text-charcoal antialiased">
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        {/* GA4 — afterInteractive defers until page is interactive, doesn't block render */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GT-MR86JNFG"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GT-MR86JNFG');`}
+        </Script>
+        {/* AdSense — lazyOnload so it never blocks LCP */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6903539486133095"
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );
