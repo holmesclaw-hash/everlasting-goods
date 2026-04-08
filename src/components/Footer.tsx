@@ -105,13 +105,26 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} Everlasting Goods. All rights reserved.
-          </p>
-          <p className="text-xs text-white/30">
-            Affiliate Disclosure: We earn commissions from qualifying purchases through our affiliate links at no extra cost to you.
-          </p>
+        <div className="mt-16 pt-8 border-t border-white/10 space-y-4">
+          <div className="flex flex-wrap items-center gap-4 text-xs text-white/30">
+            <Link href="/privacy" className="hover:text-forest-300 transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:text-forest-300 transition-colors">
+              Terms of Service
+            </Link>
+            <Link href="/contact" className="hover:text-forest-300 transition-colors">
+              Contact
+            </Link>
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs text-white/30">
+              &copy; {new Date().getFullYear()} Everlasting Goods. All rights reserved.
+            </p>
+            <p className="text-xs text-white/30">
+              Affiliate Disclosure: We earn commissions from qualifying purchases through our affiliate links at no extra cost to you.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
