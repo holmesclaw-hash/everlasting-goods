@@ -59,11 +59,11 @@ function extractHeadings(content: string): { id: string; text: string }[] {
 }
 
 function extractFAQs(content: string): { question: string; answer: string }[] {
-  const faqRegex = /<div class="faq-item">\s*<h3[^>]*>([^<]+)<\/h3>\s*<p>([^<]+(?:<[^/][^>]*>[^<]*<\/[^>]+>[^<]*)*)<\/p>\s*<\/div>/g;
+  const faqRegex = /<div class=['"]faq-item['"]>\s*<h3[^>]*>([^<]+)<\/h3>\s*<p>([\s\S]*?)<\/p>\s*<\/div>/g;
   const faqs: { question: string; answer: string }[] = [];
   let match;
   while ((match = faqRegex.exec(content)) !== null) {
-    faqs.push({ question: match[1], answer: match[2].replace(/<[^>]+>/g, '') });
+    faqs.push({ question: match[1], answer: match[2].replace(/<[^>]+>/g, "").trim() });
   }
   return faqs;
 }
@@ -80,9 +80,11 @@ export default function ArticlePage({ params }: PageProps) {
   const relatedArticles = getRelatedArticles(article.slug, article.category);
   const faqs = extractFAQs(article.content);
 
+  const articleType = article.products.length > 0 ? "ProductReview" : "Article";
+
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": articleType,
     headline: article.title,
     description: article.excerpt,
     author: { "@type": "Person", name: article.author },
@@ -92,7 +94,12 @@ export default function ArticlePage({ params }: PageProps) {
       "@type": "Organization",
       name: "Everlasting Goods",
       url: "https://everlasting-goods.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://everlasting-goods.com/icon.png",
+      },
     },
+    mainEntityOfPage: `https://everlasting-goods.com/articles/${article.slug}`,
   };
 
   const faqJsonLd = faqs.length > 0 ? {
