@@ -3,12 +3,14 @@ export default function ContactPage() {
     <main className="max-w-3xl mx-auto px-4 py-16">
       <h1 className="font-serif text-3xl font-bold text-charcoal mb-8">Contact</h1>
       <div className="prose text-charcoal/70 space-y-4">
-        <p><strong>Last updated:</strong> April 10, 2026</p>
-        <p>If you have questions about an article, a product recommendation, or a correction we should make, email us at contact@everlasting-goods.com.</p>
+        <p><strong>Last updated:</strong> April 11, 2026</p>
+        <p>If you have a question, product suggestion, correction, or partnership inquiry, send us an email.</p>
         <h2 className="font-serif text-xl font-bold text-charcoal mt-6">Email</h2>
-        <p><a href="mailto:contact@everlasting-goods.com">contact@everlasting-goods.com</a></p>
-        <h2 className="font-serif text-xl font-bold text-charcoal mt-6">What to include</h2>
-        <p>The product or article you are asking about, plus any useful details or links. That saves everyone time.</p>
+        <p>
+          Reach us at <a href="mailto:contact@everlasting-goods.com">contact@everlasting-goods.com</a>.
+        </p>
+        <h2 className="font-serif text-xl font-bold text-charcoal mt-6">What to Include</h2>
+        <p>If you are asking about a product recommendation, include the category, your budget, and how you plan to use it. That makes a useful reply much easier.</p>
       </div>
     </main>
   );
