@@ -35,16 +35,16 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
-                href="/blog"
+                href="/best-bifl-products"
                 className="inline-flex items-center justify-center px-8 py-3.5 bg-forest-500 text-white font-medium rounded-xl hover:bg-forest-600 transition-colors"
               >
-                Read Our Reviews
+                Start with the BIFL Hub
               </Link>
               <Link
-                href="/products"
+                href="/blog"
                 className="inline-flex items-center justify-center px-8 py-3.5 bg-white/10 text-white font-medium rounded-xl hover:bg-white/20 transition-colors backdrop-blur-sm border border-white/10"
               >
-                Browse Products
+                Read All Reviews
               </Link>
             </div>
           </div>
@@ -57,19 +57,19 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
               <p className="font-serif text-2xl font-bold text-forest-500">50+</p>
-              <p className="text-xs text-charcoal/50 mt-1">Products Reviewed</p>
+              <p className="text-xs text-charcoal/50 mt-1">Articles Published</p>
             </div>
             <div>
-              <p className="font-serif text-2xl font-bold text-forest-500">200+</p>
-              <p className="text-xs text-charcoal/50 mt-1">Hours of Testing</p>
-            </div>
-            <div>
-              <p className="font-serif text-2xl font-bold text-forest-500">10K+</p>
-              <p className="text-xs text-charcoal/50 mt-1">Newsletter Readers</p>
+              <p className="font-serif text-2xl font-bold text-forest-500">6</p>
+              <p className="text-xs text-charcoal/50 mt-1">Core Categories Covered</p>
             </div>
             <div>
               <p className="font-serif text-2xl font-bold text-forest-500">0</p>
               <p className="text-xs text-charcoal/50 mt-1">Sponsored Reviews</p>
+            </div>
+            <div>
+              <p className="font-serif text-2xl font-bold text-forest-500">1</p>
+              <p className="text-xs text-charcoal/50 mt-1">BIFL Hub to Start Here</p>
             </div>
           </div>
         </div>
@@ -87,10 +87,10 @@ export default function HomePage() {
             </h2>
           </div>
           <Link
-            href="/blog"
+            href="/best-bifl-products"
             className="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
           >
-            View all articles
+            View the full BIFL hub
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -103,10 +103,10 @@ export default function HomePage() {
         </div>
         <div className="mt-8 text-center sm:hidden">
           <Link
-            href="/blog"
+            href="/best-bifl-products"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-forest-500"
           >
-            View all articles
+            View the full BIFL hub
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -127,6 +127,17 @@ export default function HomePage() {
             <p className="mt-3 text-charcoal/60 max-w-lg mx-auto">
               From kitchen essentials to everyday carry, we cover the gear that&apos;s worth buying once.
             </p>
+            <div className="mt-6">
+              <Link
+                href="/best-bifl-products"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
+              >
+                See every guide in one place
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
             {categories.map((category) => (

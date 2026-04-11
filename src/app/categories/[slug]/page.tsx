@@ -25,9 +25,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: `${category.name} — Buy It For Life ${category.name} Reviews`,
     description: category.description,
+    alternates: {
+      canonical: `https://everlasting-goods.com/categories/${category.slug}`,
+    },
     openGraph: {
       title: `${category.name} — Everlasting Goods`,
       description: category.description,
+      url: `https://everlasting-goods.com/categories/${category.slug}`,
     },
   };
 }
@@ -58,6 +62,17 @@ export default function CategoryPage({ params }: PageProps) {
           <p className="mt-2 text-charcoal/60 max-w-xl text-lg">
             {category.description}
           </p>
+          <div className="mt-5">
+            <Link
+              href="/best-bifl-products"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
+            >
+              Browse the complete BIFL hub
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </section>
 

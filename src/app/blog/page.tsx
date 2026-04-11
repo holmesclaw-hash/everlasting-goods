@@ -7,10 +7,14 @@ export const metadata: Metadata = {
   title: "Articles — Buy It For Life Product Reviews",
   description:
     "In-depth reviews of the most durable, long-lasting products money can buy. Expert picks across kitchen, EDC, outdoor, clothing, tools & home.",
+  alternates: {
+    canonical: "https://everlasting-goods.com/blog",
+  },
   openGraph: {
     title: "Articles — Everlasting Goods",
     description:
       "In-depth reviews of the most durable, long-lasting products money can buy.",
+    url: "https://everlasting-goods.com/blog",
   },
 };
 
@@ -29,6 +33,17 @@ export default function BlogPage() {
           <p className="mt-3 text-charcoal/60 max-w-xl text-lg">
             Deep-dive reviews, buying guides, and care tips for products that last a lifetime.
           </p>
+          <div className="mt-5">
+            <Link
+              href="/best-bifl-products"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
+            >
+              Start with the complete BIFL hub
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -89,7 +89,9 @@ export default function ArticlePage({ params }: PageProps) {
     description: article.excerpt,
     author: { "@type": "Person", name: article.author },
     datePublished: article.date,
+    dateModified: article.date,
     image: article.image,
+    articleSection: category?.name ?? article.category,
     publisher: {
       "@type": "Organization",
       name: "Everlasting Goods",
@@ -115,6 +117,39 @@ export default function ArticlePage({ params }: PageProps) {
     })),
   } : null;
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://everlasting-goods.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Best BIFL Products",
+        item: "https://everlasting-goods.com/best-bifl-products",
+      },
+      ...(category
+        ? [{
+            "@type": "ListItem",
+            position: 3,
+            name: category.name,
+            item: `https://everlasting-goods.com/categories/${category.slug}`,
+          }]
+        : []),
+      {
+        "@type": "ListItem",
+        position: category ? 4 : 3,
+        name: article.title,
+        item: `https://everlasting-goods.com/articles/${article.slug}`,
+      },
+    ],
+  };
+
   return (
     <>
       <script
@@ -127,6 +162,10 @@ export default function ArticlePage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Hero */}
       <section className="relative bg-charcoal">
         <Image
@@ -192,6 +231,35 @@ export default function ArticlePage({ params }: PageProps) {
                 </div>
               </div>
             )}
+
+            {/* Crawl path links */}
+            <div className="mt-10 rounded-2xl border border-cream-200 bg-white p-6">
+              <h2 className="font-serif text-xl font-bold text-charcoal mb-3">
+                Keep Browsing
+              </h2>
+              <div className="flex flex-wrap gap-3 text-sm">
+                <Link
+                  href="/best-bifl-products"
+                  className="inline-flex items-center rounded-full bg-cream-100 px-4 py-2 text-charcoal/70 hover:bg-cream-200 transition-colors"
+                >
+                  Full BIFL hub
+                </Link>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center rounded-full bg-cream-100 px-4 py-2 text-charcoal/70 hover:bg-cream-200 transition-colors"
+                >
+                  All articles
+                </Link>
+                {category && (
+                  <Link
+                    href={`/categories/${category.slug}`}
+                    className="inline-flex items-center rounded-full bg-cream-100 px-4 py-2 text-charcoal/70 hover:bg-cream-200 transition-colors"
+                  >
+                    More {category.name.toLowerCase()} guides
+                  </Link>
+                )}
+              </div>
+            </div>
 
             {/* Affiliate disclosure */}
             <div className="mt-8 p-4 bg-cream-100 rounded-xl text-xs text-charcoal/50 leading-relaxed">
