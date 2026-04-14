@@ -119,7 +119,7 @@ export default function BIFLHubPage() {
       {/* What is BIFL */}
       <section className="bg-white border-b border-cream-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="font-serif text-2xl font-bold text-charcoal mb-4">What Is "Buy It For Life"?</h2>
+          <h2 className="font-serif text-2xl font-bold text-charcoal mb-4">What Is &quot;Buy It For Life&quot;?</h2>
           <p className="text-charcoal/70 leading-relaxed">
             Buy It For Life (BIFL) is a philosophy of intentional purchasing — choosing well-made, durable products that last decades instead of cheap alternatives you replace every year. A BIFL product costs more upfront but pays for itself through longevity. The best ones come with lifetime warranties, are repairable, and age beautifully with use.
           </p>

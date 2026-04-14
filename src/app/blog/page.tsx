@@ -72,6 +72,29 @@ export default function BlogPage() {
 
       {/* Article grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 md:p-6">
+          <h2 className="font-serif text-xl font-bold text-charcoal">
+            Looking for the fastest way in?
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-charcoal/60 max-w-2xl">
+            Start with the complete BIFL hub for the highest-value guides, or jump straight into a category below if you already know what you are shopping for.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link
+              href="/best-bifl-products"
+              className="inline-flex items-center rounded-full bg-forest-500 px-4 py-2 text-sm font-medium text-white hover:bg-forest-600 transition-colors"
+            >
+              Open the BIFL hub
+            </Link>
+            <Link
+              href="/products"
+              className="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-charcoal/70 hover:bg-cream-200 transition-colors border border-cream-200"
+            >
+              Browse products
+            </Link>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map((article) => (
             <ArticleCard key={article.slug} article={article} />

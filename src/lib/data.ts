@@ -33,10 +33,63 @@ export interface Article {
   content: string;
 }
 
-const AFFILIATE_TAG = "everlastin09f-20";
+export const AFFILIATE_TAG = "everlastin09f-20";
 
 function amazonLink(asin: string): string {
   return `https://www.amazon.com/dp/${asin}?tag=${AFFILIATE_TAG}`;
+}
+
+export function amazonSearchLink(query: string): string {
+  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AFFILIATE_TAG}`;
+}
+
+function stripHtml(value: string): string {
+  return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function extractAmazonSearchQuery(url: string): string | null {
+  try {
+    const parsed = new URL(url);
+    return parsed.searchParams.get("k");
+  } catch {
+    return null;
+  }
+}
+
+export function normalizeAmazonAffiliateUrl(url: string, fallbackQuery: string): string {
+  if (!url.includes("amazon.com")) return url;
+
+  if (url.includes("/s?")) {
+    const existingQuery = extractAmazonSearchQuery(url);
+    return amazonSearchLink(existingQuery || fallbackQuery);
+  }
+
+  if (url.includes("/dp/") || url.includes("/gp/product/")) {
+    return amazonSearchLink(fallbackQuery);
+  }
+
+  return url;
+}
+
+export function normalizeArticleAffiliateLinks(content: string): string {
+  let currentHeading = "";
+
+  return content.replace(
+    /<h2([^>]*)>([\s\S]*?)<\/h2>|<a([^>]*?)href=(['"])(https:\/\/www\.amazon\.com\/[^'"\s>]+)\4([^>]*)>([\s\S]*?)<\/a>/gi,
+    (match, headingAttrs, headingInner, beforeHref, quote, href, afterHref, anchorInner) => {
+      if (typeof headingInner === "string") {
+        currentHeading = stripHtml(headingInner);
+        return `<h2${headingAttrs}>${headingInner}</h2>`;
+      }
+
+      const anchorText = stripHtml(anchorInner || "");
+      const genericLabel = /^(check current price on amazon|check price on amazon|check current price|check price|get it from amazon|buy on amazon|shop now|view on amazon|find .* on amazon|discover .* on amazon|explore .* on amazon)$/i.test(anchorText);
+      const fallbackQuery = genericLabel ? currentHeading || anchorText : anchorText || currentHeading;
+      const normalizedHref = normalizeAmazonAffiliateUrl(href, fallbackQuery || "buy it for life product");
+
+      return `<a${beforeHref}href=${quote}${normalizedHref}${quote}${afterHref}>${anchorInner}</a>`;
+    }
+  );
 }
 
 export const categories: Category[] = [
@@ -878,7 +931,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">Why are Le Creuset cast iron skillets considered the best?</h3><p>Le Creuset skillets are renowned for their even heat distribution, superior quality, and lasting durability.</p></div>
 <div class="faq-item"><h3 class="faq-question">What makes Lodge cast iron skillets stand out as durable kitchen tools?</h3><p>Lodge skillets are affordable, well-made, and pre-seasoned to provide excellent cooking performance over many years.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do I season a cast iron skillet?</h3><p>Rub the skillet with oil, heat it in the oven at 350°F for an hour, then let it cool before wiping off excess oil.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I use soap to clean my cast iron skillet?</h3><p>Avoid using soap; instead, scrub with salt and a stiff brush, rinse, dry thoroughly, and re-season if necessary.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the best brand for long-lasting cast iron skillets?</h3><p>Lodge is highly recommended due to its durability and consistent quality over decades of use.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How often should I season my skillet?</h3><p>Seasoning frequency depends on usage; generally, once every few months or whenever you notice a dull spot on the surface.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-backpacks",
@@ -932,7 +993,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">Are BIFL backpacks waterproof?</h3><p>While not fully waterproof, they often include water-resistant materials and coatings to protect your gear from light rain or splashes.</p></div>
 <div class="faq-item"><h3 class="faq-question">What warranty should I expect from a BIFL backpack?</h3><p>The best BIFL backpacks come with lifetime warranties that cover manufacturing defects and often include free repairs.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is GORUCK&#39;s warranty like for their backpacks?</h3><p>GORUCK offers a lifetime guarantee against defects and workmanship issues.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can Filson backpacks be resoled or repaired?</h3><p>Yes, Filson provides repair services to extend the life of their products indefinitely.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Which materials are used in GORUCK&#39;s construction?</h3><p>GORUCK uses durable nylon and abrasion-resistant webbing for maximum longevity.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I clean a backpack made by Filson?</h3><p>Use mild soap, rinse thoroughly, and air dry to maintain the integrity of the leather and fabric.</p></div>
+</div>
+`,
   },
   {
     slug: "best-kitchen-knives-that-last-a-lifetime",
@@ -988,7 +1057,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">How do I maintain my kitchen knives to ensure they last a lifetime?</h3><p>Regular honing with a steel rod, professional sharpening once or twice a year, hand washing, and proper storage will extend your knives' life significantly.</p></div>
 <div class="faq-item"><h3 class="faq-question">What types of knives should be in a buy-it-for-life kitchen set?</h3><p>A chef's knife, paring knife, utility knife, and bread knife are essential for comprehensive kitchen tasks.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the best steel for kitchen knives that last long?</h3><p>VG10 steel is highly recommended due to its excellent edge retention and corrosion resistance.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I sharpen a high-quality chef&#39;s knife?</h3><p>Use a whetstone or electric sharpener designed for high-carbon steels, maintaining the correct angle.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can Wusthof knives be resharpened professionally?</h3><p>Yes, many professional cutlery shops offer services to restore Wusthof knives to like-new condition.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the warranty on Global kitchen knives?</h3><p>Global provides a lifetime warranty against defects in materials and workmanship for their knives.</p></div>
+</div>
+`,
   },
   {
     slug: "best-leather-boots-that-last-20-years",
@@ -1044,7 +1121,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">Which boot brands produce leather boots that last 20+ years?</h3><p>Red Wing, Wolverine, and Blundstone are known for high-quality craftsmanship and materials that ensure exceptional longevity.</p></div>
 <div class="faq-item"><h3 class="faq-question">What type of soles provide the longest-lasting support?</h3><p>Vibram rubber soles are excellent choices as they offer superior traction and wear resistance over many years of heavy use.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do I care for my Red Wing leather boots to ensure longevity?</h3><p>Clean with saddle soap, condition regularly, and store in a cool dry place away from direct sunlight.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can Wolverine 1000 Mile boots be resoled?</h3><p>Yes, many cobbler shops offer resoling services specifically for Wolverine&#39;s durable boot designs.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the warranty on Blundstone leather boots?</h3><p>Blundstone offers a one-year warranty against defects in materials and workmanship.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I break in my new Chippewa boots?</h3><p>Wear them daily, apply mink oil to soften the leather, and gradually increase walking distance until comfortable.</p></div>
+</div>
+`,
   },
   {
     slug: "best-edc-flashlights-that-last-forever",
@@ -1100,7 +1185,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">What features should I look for in a durable EDC flashlight?</h3><p>Look for aerospace-grade aluminum construction, IPX8 water resistance, quality switches, and dual-fuel battery compatibility.</p></div>
 <div class="faq-item"><h3 class="faq-question">Can LED flashlights really last forever?</h3><p>While LEDs can have lifespans of tens of thousands of hours, regular maintenance and proper usage are key to maximizing the overall flashlight lifespan.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the warranty on Fenix flashlights?</h3><p>Fenix provides a limited lifetime warranty against defects in materials and workmanship.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I replace batteries in Surefire flashlights myself?</h3><p>Yes, but use only recommended battery types to avoid damaging the flashlight&#39;s circuitry.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I waterproof my LED Lenser flashlight?</h3><p>Apply silicone spray or use a specialized water-resistant coating designed for electronics.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the best way to store an EDC flashlight when not in use?</h3><p>Keep it in a dry place, away from direct sunlight and extreme temperatures to maintain battery life and prevent corrosion.</p></div>
+</div>
+`,
   },
   {
     slug: "best-dutch-ovens-that-last-forever",
@@ -1162,7 +1255,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">How does Le Creuset's Dutch oven stand out in terms of durability?</h3><p>Le Creuset Dutch ovens feature triple-layer enamel that resists chipping and staining, ensuring the pot remains functional for decades.</p></div>
 <div class="faq-item"><h3 class="faq-question">What materials make Dutch ovens last the longest?</h3><p>Enameled cast iron is the most durable choice, combining the heat retention of cast iron with the easy maintenance of a vitreous enamel coating.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the best brand for Dutch ovens that last forever?</h3><p>Le Creuset and Lodge are top brands known for their durability and longevity.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can a Dutch oven be passed down through generations?</h3><p>Yes, quality Dutch ovens like those from Le Creuset can be handed down as heirlooms.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I maintain my Dutch oven to ensure it lasts forever?</h3><p>Regular seasoning with oil and gentle cleaning without harsh abrasives keeps your Dutch oven in top condition.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any eco-friendly options for Dutch ovens that last a lifetime?</h3><p>Lodge offers cast iron cookware made from recycled materials, promoting sustainability while ensuring longevity.</p></div>
+</div>
+`,
   },
   {
     slug: "best-mechanical-watches-that-last-a-lifetime",
@@ -1227,7 +1328,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">What features should I look for in a lifetime mechanical watch?</h3><p>Look for water resistance, robust case materials like 316L stainless steel, an in-house movement, and a proven service history from the manufacturer.</p></div>
 <div class="faq-item"><h3 class="faq-question">How do I ensure my mechanical watch lasts a lifetime?</h3><p>Service it every 5-10 years with an authorized watchmaker, avoid strong magnetic fields, and test water resistance annually if you swim with it.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What makes mechanical watches more durable than quartz watches?</h3><p>Mechanical watches have fewer moving parts exposed to battery acid and are designed for long-term use without replacement batteries.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I repair a broken mechanical watch myself or do I need to take it to a professional?</h3><p>Most repairs require professional expertise, but basic maintenance like cleaning can be done with proper knowledge and tools.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How often should I service my mechanical watch?</h3><p>Service every 3-5 years is recommended to keep the mechanism running smoothly and extend its lifespan.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any eco-friendly options for mechanical watches that last a lifetime?</h3><p>Some brands offer watches made from sustainable materials like recycled metals or wood, reducing environmental impact.</p></div>
+</div>
+`,
   },
   {
     slug: "best-woodworking-hand-tools-that-last-forever",
@@ -1294,7 +1403,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">How can I maintain woodworking hand tools for long-term use?</h3><p>Sharpen regularly with waterstones, wipe metal surfaces with camellia oil after use, and store in a dry environment where blades cannot contact each other.</p></div>
 <div class="faq-item"><h3 class="faq-question">What are the best brands for durable woodworking hand tools?</h3><p>Lie-Nielsen, Veritas, Lee Valley, Narex, and Two Cherries are renowned for producing high-quality, long-lasting woodworking hand tools.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the best hand tools for woodworking that will last forever?</h3><p>Quality planes, chisels, and saws from brands like Lie-Nielsen and Veritas are renowned for their durability.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I maintain my woodworking hand tools to ensure they last a lifetime?</h3><p>Regular sharpening and proper storage in dry conditions prevent rust and keep edges sharp.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I find vintage woodworking hand tools that still work perfectly today?</h3><p>Many antique tools, especially those from before the era of planned obsolescence, remain fully functional with care.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any eco-friendly options for woodworking hand tools that last a lifetime?</h3><p>Look for tools made by companies using sustainable practices and materials like reclaimed wood or recycled steel.</p></div>
+</div>
+`,
   },
   {
     slug: "best-lodge-cast-iron-pieces-the-complete-collection-guide",
@@ -1396,7 +1513,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">How do I maintain Lodge cast iron to ensure longevity?</h3><p>Clean with hot water and a stiff brush, dry thoroughly, and apply a thin coat of cooking oil after each wash to maintain the seasoning.</p></div>
 <div class="faq-item"><h3 class="faq-question">What Lodge pieces are essential for every kitchen?</h3><p>A 12-inch skillet, a Dutch oven, and a griddle cover the vast majority of cooking needs and make an excellent starter collection.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the best Lodge cast iron pieces to buy for my kitchen?</h3><p>Lodge offers a range of products including skillets, dutch ovens, and grill pans known for their durability.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I properly season my new Lodge cast iron piece?</h3><p>Preheat oven to 350°F (175°C), rub oil on the surface, bake for an hour, cool, then repeat if necessary.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can Lodge cast iron pieces be used on induction cooktops?</h3><p>Yes, Lodge offers a line of enameled and bare cast iron that is compatible with induction cooking.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any eco-friendly options among Lodge cast iron products?</h3><p>Lodge uses recycled materials in some of their products and promotes sustainable practices throughout manufacturing.</p></div>
+</div>
+`,
   },
   {
     slug: "best-bifl-wallets-for-men-leather-wallets-that-age-beautifully",
@@ -1479,7 +1604,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">Is it worth spending $80-100 on a wallet?</h3><p>Absolutely. A $100 wallet that lasts 25 years costs $4/year. A $20 wallet replaced every 2 years costs $10/year — and you never get the satisfaction of a beautifully aged leather piece.</p></div>
 <div class="faq-item"><h3 class="faq-question">Should I carry my wallet in front or back pocket?</h3><p>Front pocket is better for both the wallet and your health. Back pocket sitting can warp the wallet over time and cause lower back issues. Many BIFL wallets are designed for front pocket carry.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the best leather wallets for men that last a lifetime?</h3><p>Bellroy, Saddleback, and Shantung offer high-quality leather wallets known for their durability.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I maintain my leather wallet to ensure it ages beautifully?</h3><p>Regular conditioning with oil or cream keeps leather soft and prevents cracking over time.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can a leather wallet be repaired if it gets damaged?</h3><p>Many leather goods stores offer repair services, but minor damages can often be fixed at home with proper care.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any eco-friendly options for BIFL wallets that last a lifetime?</h3><p>Look for brands using vegetable-tanned or chrome-free tanned leathers which are more environmentally friendly.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-rain-jackets",
@@ -1573,7 +1706,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">Why does my rain jacket wet out even though it's not leaking?</h3><p>The DWR (Durable Water Repellent) coating has worn off. When this happens, the face fabric absorbs water instead of beading it off. The membrane still blocks water from reaching you, but the jacket feels clammy and heavy. Re-apply DWR treatment to fix this.</p></div>
 <div class="faq-item"><h3 class="faq-question">Can I put my rain jacket in the washing machine?</h3><p>Yes, and you should! Use a dedicated tech wash (not regular detergent), gentle cycle, and follow with a tumble dry on low heat to reactivate the DWR. Regular washing actually extends the jacket's life by keeping the membrane clean and breathable.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>Which brand offers the most durable rain jackets?</h3><p>Patagonia&#39;s Gore-Tex jackets are highly durable and designed to last.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are Arc&#39;teryx rain jackets worth the price?</h3><p>Yes, they offer exceptional quality and longevity, making them a worthwhile investment.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do waxed cotton Barbour jackets compare in durability?</h3><p>Waxed cotton Barbour jackets provide excellent water resistance but require regular maintenance to maintain their performance.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the best type of material for a rain jacket that lasts?</h3><p>Gore-Tex and eVent are top choices due to their breathability and long-lasting waterproof properties.</p></div>
+</div>
+`,
   },
   {
     slug: "best-stainless-steel-water-bottles-that-last-forever",
@@ -1629,7 +1770,15 @@ export const articles: Article[] = [
 <div class="faq-item"><h3 class="faq-question">How can I ensure my stainless steel water bottle lasts a lifetime?</h3><p>Clean regularly with mild soap, avoid dropping on hard surfaces, and replace silicone seals periodically to maintain leak-proof performance.</p></div>
 <div class="faq-item"><h3 class="faq-question">What features make a stainless steel water bottle truly durable?</h3><p>Double-wall vacuum insulation, thick 18/8 stainless steel construction, powder-coated exterior, and quality lids with replaceable gaskets.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>Which water bottle brand is the most durable?</h3><p>Hydro Flask bottles are known for their durability and insulation capabilities.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can stainless steel water bottles be repaired if damaged?</h3><p>Many brands offer repair services, but Hydro Flasks can often be fixed with replacement parts.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How long do these water bottles typically last?</h3><p>With proper care, they can last over a decade or more.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What makes a water bottle &#39;buy it for life&#39;?</h3><p>It&#39;s made from high-quality materials and designed to withstand daily use without losing functionality.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-gifts-under-50-quality-picks-that-last",
@@ -1695,7 +1844,15 @@ Cons:<ul><li>Limited color choices compared to plastic bottles</li><li>Slightly 
 <div class="faq-item"><h3 class="faq-question">Where can I find reliable BIFL items under $50?</h3><p>Brands like Victorinox, Lodge, Darn Tough, and Opinel offer excellent durable products well within the $50 budget.</p></div>
 <div class="faq-item"><h3 class="faq-question">What makes a good buy-it-for-life gift?</h3><p>A good BIFL gift is made from premium materials, backed by a strong warranty, and designed to perform well over many years of regular use.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>Which gift is best for someone who loves cooking?</h3><p>A chef&#39;s knife or a set of cookware from brands like Global or All-Clad are excellent choices.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What durable pen would make a good gift?</h3><p>The Cross Classic Century ballpoint pen offers both durability and elegance.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any socks that last longer than others?</h3><p>Smartwool Merino socks are highly durable and resistant to wear and tear.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I choose the best quality gift under $50?</h3><p>Look for items made from high-quality materials like stainless steel, wool, or wood.</p></div>
+</div>
+`,
   },
   {
     slug: "best-red-wing-boots-a-complete-buyer-s-guide",
@@ -1738,7 +1895,15 @@ Cons:<ul><li>Limited color choices compared to plastic bottles</li><li>Slightly 
 <div class="faq-item"><h3 class="faq-question">What is the average lifespan of Red Wing boots?</h3><p>With proper care including regular conditioning and resoling, Red Wing boots can last 20+ years of regular wear.</p></div>
 <div class="faq-item"><h3 class="faq-question">How should I maintain Red Wing boots for maximum longevity?</h3><p>Clean with a horsehair brush after wearing, condition the leather every 2-3 months, and have them resoled when the soles wear down.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the most popular Red Wing boot model?</h3><p>The Iron Ranger is one of the most popular models due to its classic design and durability.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are Red Wing boots easy to maintain?</h3><p>They require regular care, including cleaning and conditioning, to keep them in top condition.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How long do Red Wing boots typically last?</h3><p>With proper care, they can last decades, making them a true &#39;buy it for life&#39; item.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What makes Red Wing boots stand out from other brands?</h3><p>Their high-quality construction and comfort make them a preferred choice among many.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-chef-s-knives-professional-picks",
@@ -1894,7 +2059,15 @@ Choosing a chef’s knife that you can rely on for years requires careful consid
 <div class="faq-item"><h3 class="faq-question">How do I keep a BIFL chef's knife in top condition?</h3><p>Hone before each use, sharpen professionally once or twice a year, hand wash immediately after use, and store in a knife block or magnetic strip.</p></div>
 <div class="faq-item"><h3 class="faq-question">Which chef's knife brands offer the best lifetime value?</h3><p>Wusthof, Victorinox, MAC, and Shun all offer exceptional quality knives backed by strong warranties and proven long-term performance.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>Which chef&#39;s knife is best for daily use in the kitchen?</h3><p>The Wüsthof Classic Ikon 8-inch chef&#39;s knife offers excellent performance and durability.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do you know if a chef&#39;s knife will last long-term?</h3><p>Look for knives made from high-carbon steel, which holds an edge well and resists corrosion.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any budget-friendly options that still offer longevity?</h3><p>Victorinox Fibrox Pro knives provide good value with durability comparable to more expensive brands.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What features should I look for in a &#39;buy it for life&#39; chef&#39;s knife?</h3><p>Consider full tang construction, balanced weight distribution, and comfortable grip design.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-bifl-everyday-carry-pens-pens-that-last-a-lifetime",
@@ -2023,7 +2196,15 @@ Each of these pens offers unique features and benefits that make them stand out 
 <div class="faq-item"><h3 class="faq-question">How do BIFL pens compare to disposable pens?</h3><p>BIFL pens use superior materials and precision mechanisms that provide smoother writing, better durability, and a more satisfying experience.</p></div>
 <div class="faq-item"><h3 class="faq-question">What features make a pen truly buy-it-for-life?</h3><p>Look for durable materials like stainless steel or brass, robust click or twist mechanisms, widely available refills, and a comfortable grip design.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What makes these pens &#39;buy it for life&#39; quality?</h3><p>These pens are made from durable materials and designed to withstand daily use without wearing out.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are the BIFL everyday carry pens refillable?</h3><p>Yes, most of these pens offer refills or replacement parts to ensure longevity.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I get a custom engraving on my BIFL pen?</h3><p>Some brands offer customization options like engravings for personalization.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I clean and maintain my BIFL everyday carry pen?</h3><p>Use a soft cloth and mild soap to clean the pen, avoid submerging it in water.</p></div>
+</div>
+`,
   },
   {
     slug: "best-safety-razors-that-last-a-lifetime",
@@ -2304,7 +2485,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Can I repair a stand mixer myself?</h3><p>Absolutely. KitchenAid mixers are famously repairable — gear replacements, grease jobs, and brush changes are all common DIY repairs with parts available online. YouTube has hundreds of repair guides. Ankarsrum and Bosch are also repairable but with fewer community resources.</p></div>
 <div class="faq-item"><h3 class="faq-question">Are vintage KitchenAid mixers better than new ones?</h3><p>Vintage KitchenAid mixers (pre-1990s) were made in the USA with thicker metal and arguably better build quality. However, modern Pro series models still use all-metal gears and are excellent. The main advantage of vintage is that they've already proven their durability — if one is still running after 40 years, it's probably good for another 40.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the warranty on these stand mixers?</h3><p>Most of our recommended models come with warranties ranging from 10 to 25 years.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I use attachments with my BIFL stand mixer?</h3><p>Yes, all tested models support a variety of attachments for different kitchen tasks.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How much counter space does a BIFL stand mixer take up?</h3><p>These mixers are designed to be compact yet powerful, typically taking up minimal countertop space.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Is it easy to disassemble and clean the BIFL stand mixer?</h3><p>All our recommended models feature dishwasher-safe parts for easy cleaning.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-denim-jeans",
@@ -2423,7 +2612,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Do I really need to avoid washing raw denim?</h3><p>You don't need to never wash them — that's a myth. But washing less frequently (every 3-6 months) produces better fades and extends the fabric's life. When you do wash, use cold water and hang dry. The key is avoiding hot water and machine drying, which shrink and stress the fabric.</p></div>
 <div class="faq-item"><h3 class="faq-question">What's the best entry-level BIFL jean?</h3><p>The Levi's 501 Shrink-to-Fit at ~$50 is the easiest starting point. If you want to experience selvedge, Gustin's crowdfunded jeans at ~$100 are the cheapest way to get American-made selvedge denim. Both are excellent first steps into quality denim.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do I care for my BIFL denim jeans?</h3><p>Wash them cold, hang dry to prevent shrinking and maintain quality.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Do these jeans stretch over time?</h3><p>Premium denim stretches slightly to fit your body but retains its shape with proper care.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are the BIFL jeans suitable for all seasons?</h3><p>These jeans are versatile enough to wear year-round, depending on thickness and weight.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I return my BIFL jeans if they don&#39;t fit right?</h3><p>Check the brand&#39;s policy; many offer free returns within a certain timeframe.</p></div>
+</div>
+`,
   },
   {
     slug: "best-leather-belts-that-last-a-lifetime",
@@ -2531,7 +2728,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Should I oil my leather belt?</h3><p>Yes, but sparingly. Apply a leather conditioner (Lexol or Bick 4) once or twice a year. Don't use too much — over-conditioning softens the leather excessively and can cause permanent darkening. A thin coat rubbed in and buffed off is all you need.</p></div>
 <div class="faq-item"><h3 class="faq-question">Are expensive belts worth it over cheap ones?</h3><p>Absolutely. A $40 Orion belt lasts 15+ years ($2.67/year). A $15 department store belt lasts 1-2 years ($7.50-15/year). The BIFL belt is literally cheaper per year AND looks and feels dramatically better. It's one of the clearest value propositions in men's accessories.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do you clean a leather belt?</h3><p>Use a damp cloth and mild soap to gently wipe the surface, then let it air dry.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Does wearing a BIFL leather belt stretch it out?</h3><p>Leather belts will form to your waist but should maintain their shape with proper care.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I dye my BIFL leather belt if I want a different color?</h3><p>Some brands offer custom dyeing services or you can find DIY methods online.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How often should I condition my BIFL leather belt?</h3><p>Condition it annually to keep the leather supple and prevent cracking.</p></div>
+</div>
+`,
   },
   {
     slug: "best-bifl-wool-blankets-and-throws",
@@ -2623,7 +2828,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Can you machine wash wool blankets?</h3><p>Yes, you can machine wash wool blankets, but it's important to use cold water and a gentle cycle to prevent shrinking or damage. Always check the care label for specific instructions tailored to your blanket.</p></div>
 <div class="faq-item"><h3 class="faq-question">How do you store wool blankets to prevent moth damage?</h3><p>Store wool blankets in a cool, dry place away from direct sunlight. Use breathable cotton storage bags or wrap them in acid-free paper, and consider adding natural repellents like lavender or cedar blocks to deter moths. Regularly inspect your blankets for any signs of infestation.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What is the best way to wash a wool blanket?</h3><p>Hand wash in cold water with mild detergent, then lay flat to dry.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can I use my BIFL wool blanket year-round?</h3><p>Yes, its insulating properties make it suitable for both warm and cool seasons.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Does the wool shrink after washing?</h3><p>Wool can shrink if not washed properly; follow care instructions to avoid this.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do you store a wool blanket during off-seasons?</h3><p>Store in a breathable bag or container, away from direct sunlight and moisture.</p></div>
+</div>
+`,
   },
   {
     slug: "best-bifl-pocket-knives-for-everyday-carry",
@@ -2718,7 +2931,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">What's the best steel for an everyday carry knife?</h3><p>For an everyday carry knife, S30V or CPMS35VN steel are highly recommended due to their excellent balance of edge retention, corrosion resistance, and ease of sharpening. These steels offer durability and performance suitable for daily use in various conditions.</p></div>
 <div class="faq-item"><h3 class="faq-question">Are pocket knives legal to carry everywhere?</h3><p>No, laws regarding pocket knives vary by location. In some places, carrying any knife is restricted, while others have specific regulations on blade length or design. Always check local laws before carrying a pocket knife.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the best materials for BIFL pocket knives?</h3><p>Stainless steel and high-carbon steel are preferred due to their durability and resistance to corrosion.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How often should I maintain my pocket knife?</h3><p>Regular cleaning and oiling every few months can extend its lifespan significantly.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any legal restrictions on carrying a pocket knife?</h3><p>Laws vary by state; check local regulations before carrying one openly or concealed.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What features should I look for in an everyday carry (EDC) knife?</h3><p>Look for knives with ergonomic handles, a sharp blade, and a reliable locking mechanism.</p></div>
+</div>
+`,
   },
   {
     slug: "best-merino-wool-base-layers-that-last",
@@ -2815,7 +3036,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Can you machine wash merino wool?</h3><p>Yes, you can machine wash merino wool, but it's important to use a delicate or wool cycle with cold water and a gentle detergent designed for delicates. Avoid twisting or wringing the garment and lay it flat to dry away from direct heat sources.</p></div>
 <div class="faq-item"><h3 class="faq-question">Why is merino wool so expensive?</h3><p>Merino wool is more expensive due to its high quality and production costs; it requires careful breeding of sheep, sustainable farming practices, and meticulous processing to maintain its softness, breathability, and moisture-wicking properties. Additionally, the limited supply relative to demand inflates prices.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do I care for merino wool base layers?</h3><p>Wash in cold water with mild detergent; avoid fabric softeners and high heat.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can merino wool be worn year-round?</h3><p>Yes, it&#39;s ideal for all seasons due to its temperature-regulating properties.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What are the benefits of wearing base layers made from merino wool?</h3><p>Merino wool is naturally odor-resistant and keeps you warm in cold weather while cooling you down when it&#39;s hot.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How long do merino wool base layers typically last with proper care?</h3><p>With good maintenance, they can last for years, providing consistent performance.</p></div>
+</div>
+`,
   },
   {
     slug: "best-bifl-garden-tools-that-last-decades",
@@ -2908,7 +3137,14 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Which garden tool brands last the longest?</h3><p>Ferrari Garden Tools and Fiskars are known for their durability and longevity, with many users reporting years of use without significant wear. Additionally, Wolf-Garten offers high-quality tools that are built to withstand frequent and heavy use in various gardening tasks.</p></div>
 <div class="faq-item"><h3 class="faq-question">How do you maintain garden tools so they last for decades?</h3><p>To maintain garden tools for longevity, regularly clean them after each use to remove dirt and debris, then dry thoroughly to prevent rust. Apply oil to metal parts and use protective covers or store in a dry place to extend their lifespan.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What makes a garden tool &#39;BIFL&#39; (Buy It For Life)?</h3><p>High-quality materials like forged steel and ergonomic designs that reduce strain.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How can I extend the life of my garden tools?</h3><p>Regular cleaning, oiling moving parts, and storing them in a dry place can prevent rust and wear.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there specific brands known for durable gardening tools?</h3><p>Brands like Fiskars and Felco are renowned for their longevity and quality.</p></div>
+</div>
+`,
   },
   {
     slug: "best-darn-tough-socks-the-only-socks-with-a-lifetime-guarantee",
@@ -3018,7 +3254,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">What's the difference between cushion levels?</h3><p></p></div>
 <div class="faq-item"><h3 class="faq-question">How do I wash Merino wool socks without ruining them?</h3><p></p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What makes Darn Tough socks stand out?</h3><p>They are known for their durability and seamless construction, reducing blisters.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I care for my Darn Tough socks to ensure they last a lifetime?</h3><p>Wash in cold water, avoid bleach and fabric softeners; air dry to prevent shrinking.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Do Darn Tough offer any warranty or guarantee on their products?</h3><p>Yes, they provide a lifetime guarantee against defects in materials and workmanship.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What are the benefits of wearing Darn Tough socks for outdoor activities?</h3><p>They offer superior fit, comfort, and moisture-wicking properties to keep your feet dry.</p></div>
+</div>
+`,
   },
   {
     slug: "best-buy-it-for-life-umbrellas",
@@ -3111,7 +3355,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Which brands of umbrellas last the longest?</h3><p>Totes, Jamira, and Gutter Gear are known for producing durable umbrellas that can withstand heavy use and adverse weather conditions. These brands often receive high ratings for longevity and quality construction.</p></div>
 <div class="faq-item"><h3 class="faq-question">How do I maintain umbrellas so they last longer?</h3><p>To maintain your umbrella and extend its lifespan, regularly check and lubricate the joints with silicone spray to prevent rusting and ensure smooth opening and closing. Also, store it indoors when not in use and avoid leaving it exposed to the elements for extended periods to protect the fabric and metal parts from wear and tear.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What features should I look for in a BIFL umbrella?</h3><p>Look for durable materials like fiberglass or steel and robust construction.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How do I maintain my umbrella to ensure it lasts longer?</h3><p>Store it indoors when not in use, open it fully before storing to prevent damage.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there any specific brands known for making high-quality umbrellas?</h3><p>Brands like Totes and Glerups are well-regarded for their durability and design.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What is the main benefit of investing in a quality umbrella over a cheap one?</h3><p>Quality umbrellas provide better protection from rain, last longer, and often have more features.</p></div>
+</div>
+`,
   },
 
   {
@@ -3176,7 +3428,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Do dehumidifiers help with mold and musty smells?</h3><p>Absolutely. High humidity feeds mold growth and makes rooms feel sticky and gross. A good dehumidifier is one of the fastest ways to make a damp room livable again.</p></div>
 <div class="faq-item"><h3 class="faq-question">Is a temperature-control kettle worth paying extra for?</h3><p>If you make coffee or tea daily, yes. It saves time, improves consistency, and makes a boring part of your routine smoother every single morning.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the best unsexy upgrades for my home?</h3><p>Consider items that enhance daily comfort and efficiency, such as high-quality kitchen tools or durable furniture.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How can I ensure a quality of life upgrade is worth the investment?</h3><p>Look for products with long-lasting durability and features that simplify your routine.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there specific brands known for unsexy but effective home upgrades?</h3><p>Brands like Dyson for appliances and Herman Miller for furniture are renowned for their longevity and functionality.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What kind of impact can these upgrades have on daily life?</h3><p>They can significantly reduce stress by making routine tasks easier and more efficient, enhancing overall satisfaction.</p></div>
+</div>
+`,
   },
 
   {
@@ -3242,7 +3502,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">How much should I spend on a milestone watch?</h3><p>Enough to get something meaningful and lasting, but not so much that the purchase creates regret. A great milestone watch can be a $300 G-Shock or a $6,000 Omega. The emotion does not come from the receipt.</p></div>
 <div class="faq-item"><h3 class="faq-question">Should a milestone watch be dressy or casual?</h3><p>Usually somewhere in the middle. The best milestone watches fit real life, which means you should be able to wear them often instead of saving them for imaginary occasions.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How do I choose a milestone watch that will last long term?</h3><p>Select watches with timeless designs and reliable mechanisms to ensure lasting appeal.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What features should I look for in a milestone watch?</h3><p>Consider water resistance, durability, and the ability to withstand daily wear and tear.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Can you recommend any specific models for longevity?</h3><p>Models from Rolex or Omega are known for their enduring quality and timeless aesthetics.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Why is it important to invest in a high-quality milestone watch?</h3><p>A well-made watch maintains its value and relevance over years, making it a cherished keepsake.</p></div>
+</div>
+`,
   },
 
   {
@@ -3311,7 +3579,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Are mesh office chairs better than cushioned chairs?</h3><p>Not universally. Mesh runs cooler and feels lighter, while cushioned chairs can feel more supportive for some people. Fit matters more than material ideology.</p></div>
 <div class="faq-item"><h3 class="faq-question">How long should a good office chair last?</h3><p>A genuinely good chair should last many years, often well past a decade, especially if the cylinder, casters, and arm pads can be replaced as they wear.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>What are the key features of long-lasting office chairs?</h3><p>Look for ergonomic designs with adjustable settings and robust materials like leather or mesh.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>How can I ensure my chair supports me throughout the day?</h3><p>Choose a chair that provides lumbar support and is comfortable even during extended use.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Which brands offer office chairs known for their durability?</h3><p>Herman Miller, Steelcase, and Haworth are well-regarded for producing durable and ergonomic chairs.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What benefits do long-lasting office chairs provide?</h3><p>They reduce the risk of back pain and improve posture, enhancing both comfort and productivity.</p></div>
+</div>
+`,
   },
   {
     slug: "best-vacuum-cleaners-that-last-20-years",
@@ -3408,7 +3684,15 @@ affecting the fit.</li>
 <div class="faq-item"><h3 class="faq-question">Is a corded vacuum really better than cordless for longevity?</h3><p>A corded vacuum can offer longer durability compared to cordless models because it doesn't have the same wear on batteries or limitations in charging infrastructure. However, advancements in battery technology are narrowing this gap, and high-quality cordless vacuums from brands like Dyson can still provide excellent longevity with proper care.</p></div>
 <div class="faq-item"><h3 class="faq-question">Are Dyson vacuums actually BIFL?</h3><p>Dyson vacuums can be considered Buy It For Life (BIFL) due to their high build quality, powerful suction, advanced features like self-cleaning brushes, and long-term reliability. While they are initially expensive, many users find the durability and performance justify the cost over time.</p></div>
 </div>
-    `,
+
+<h2>FAQ</h2>
+<div class='faq-section'>
+  <div class='faq-item'><h3 class='faq-question'>How can I find a vacuum cleaner that will last for decades?</h3><p>Choose models with sturdy construction and powerful motors from reputable brands like Miele or Dyson.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>What features should I prioritize when buying a long-lasting vacuum?</h3><p>Look for HEPA filtration, strong suction power, and easy maintenance to ensure longevity.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Are there specific types of vacuums that tend to last longer?</h3><p>Upright vacuums with bagless systems often provide better durability and ease of use over time.</p></div>
+  <div class='faq-item'><h3 class='faq-question'>Why is it important to invest in a durable vacuum cleaner?</h3><p>A reliable vacuum saves money on frequent replacements and ensures consistent cleaning performance.</p></div>
+</div>
+`,
   },
 ];
 

@@ -1,24 +1,49 @@
 import Image from "next/image";
-import { Product } from "@/lib/data";
+import { normalizeAmazonAffiliateUrl, Product } from "@/lib/data";
 
 interface ProductCardProps {
   product: Product;
   compact?: boolean;
 }
 
+const categoryIcons: Record<string, string> = {
+  kitchen: "🍳",
+  edc: "🔦",
+  outdoor: "🏔️",
+  clothing: "👢",
+  tools: "🔧",
+  home: "🏠",
+};
+
 export default function ProductCard({ product, compact = false }: ProductCardProps) {
+  const affiliateUrl = normalizeAmazonAffiliateUrl(
+    product.affiliateUrl,
+    `${product.brand} ${product.name}`
+  );
+  const usePlaceholderImage = /images\.unsplash\.com|wikimedia\.org/i.test(product.image);
+  const categoryIcon = categoryIcons[product.category] ?? "🛒";
+
   if (compact) {
     return (
       <div className="bg-white rounded-xl border border-cream-200 p-4 flex gap-4 items-start hover:shadow-md transition-shadow">
-        <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            className="object-cover"
-            sizes="80px"
-          />
-        </div>
+        {usePlaceholderImage ? (
+          <div className="w-20 h-20 rounded-lg flex-shrink-0 bg-cream-100 border border-cream-200 flex flex-col items-center justify-center text-center px-2">
+            <span className="text-xl">{categoryIcon}</span>
+            <span className="mt-1 text-[10px] font-medium uppercase tracking-wider text-charcoal/50">
+              {product.brand}
+            </span>
+          </div>
+        ) : (
+          <div className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              className="object-cover"
+              sizes="80px"
+            />
+          </div>
+        )}
         <div className="flex-1 min-w-0">
           <p className="text-xs text-brown-accent font-medium uppercase tracking-wider">
             {product.brand}
@@ -33,8 +58,11 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
               <span className="text-charcoal/40 ml-1">{product.rating}</span>
             </span>
           </div>
+          {usePlaceholderImage && (
+            <p className="mt-1 text-[11px] text-charcoal/45">Illustrative image removed, using verified text only.</p>
+          )}
           <a
-            href={product.affiliateUrl}
+            href={affiliateUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="inline-flex items-center gap-1.5 mt-2.5 px-4 py-1.5 bg-forest-500 text-white text-xs font-medium rounded-lg hover:bg-forest-600 transition-colors"
@@ -51,15 +79,28 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 border border-cream-200 flex flex-col h-full">
-      <div className="relative aspect-[4/3] overflow-hidden">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
-      </div>
+      {usePlaceholderImage ? (
+        <div className="aspect-[4/3] bg-gradient-to-br from-cream-100 to-cream-200 border-b border-cream-200 flex flex-col items-center justify-center text-center px-6">
+          <span className="text-4xl">{categoryIcon}</span>
+          <p className="mt-4 text-xs font-medium uppercase tracking-[0.2em] text-charcoal/45">
+            {product.brand}
+          </p>
+          <h3 className="mt-2 font-serif text-xl font-bold text-charcoal leading-tight">
+            {product.name}
+          </h3>
+          <p className="mt-3 text-xs text-charcoal/45">Verified product photo not yet loaded</p>
+        </div>
+      ) : (
+        <div className="relative aspect-[4/3] overflow-hidden">
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </div>
+      )}
       <div className="p-5 flex flex-col flex-1">
         <p className="text-xs text-brown-accent font-medium uppercase tracking-wider">
           {product.brand}
@@ -80,7 +121,7 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           </div>
         </div>
         <a
-          href={product.affiliateUrl}
+          href={affiliateUrl}
           target="_blank"
           rel="noopener noreferrer nofollow"
           className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 bg-forest-500 text-white text-sm font-medium rounded-xl hover:bg-forest-600 transition-colors"

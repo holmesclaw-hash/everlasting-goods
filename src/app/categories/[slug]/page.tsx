@@ -106,6 +106,29 @@ export default function CategoryPage({ params }: PageProps) {
       {/* Articles */}
       {categoryArticles.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+          <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 md:p-6">
+            <h2 className="font-serif text-xl font-bold text-charcoal">
+              Explore this category efficiently
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-charcoal/60 max-w-2xl">
+              Start with the guides below, then use the full BIFL hub to branch into adjacent categories and comparison pieces.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <Link
+                href="/best-bifl-products"
+                className="inline-flex items-center rounded-full bg-forest-500 px-4 py-2 text-sm font-medium text-white hover:bg-forest-600 transition-colors"
+              >
+                Open the BIFL hub
+              </Link>
+              <Link
+                href="/blog"
+                className="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-charcoal/70 hover:bg-cream-200 transition-colors border border-cream-200"
+              >
+                Browse all articles
+              </Link>
+            </div>
+          </div>
+
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal mb-8">
             {category.name} Articles
           </h2>

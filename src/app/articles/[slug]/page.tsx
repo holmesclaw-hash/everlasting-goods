@@ -9,6 +9,7 @@ import {
   getRelatedArticles,
   getCategoryBySlug,
   formatDate,
+  normalizeArticleAffiliateLinks,
 } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
@@ -73,12 +74,13 @@ export default function ArticlePage({ params }: PageProps) {
   if (!article) notFound();
 
   const category = getCategoryBySlug(article.category);
-  const headings = extractHeadings(article.content);
+  const normalizedContent = normalizeArticleAffiliateLinks(article.content);
+  const headings = extractHeadings(normalizedContent);
   const recommendedProducts = article.products
     .map(getProductBySlug)
     .filter(Boolean);
   const relatedArticles = getRelatedArticles(article.slug, article.category);
-  const faqs = extractFAQs(article.content);
+  const faqs = extractFAQs(normalizedContent);
 
   const articleType = article.products.length > 0 ? "ProductReview" : "Article";
 
@@ -208,7 +210,7 @@ export default function ArticlePage({ params }: PageProps) {
           <div>
             <div
               className="article-content"
-              dangerouslySetInnerHTML={{ __html: article.content }}
+              dangerouslySetInnerHTML={{ __html: normalizedContent }}
             />
 
             {/* Product recommendations */}

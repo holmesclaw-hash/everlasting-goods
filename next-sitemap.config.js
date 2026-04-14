@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://everlastinggoods.com",
+  siteUrl: "https://everlasting-goods.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "weekly",
@@ -12,5 +12,6 @@ module.exports = {
         allow: "/",
       },
     ],
+    additionalSitemaps: ["https://everlasting-goods.com/sitemap.xml"],
   },
 };
