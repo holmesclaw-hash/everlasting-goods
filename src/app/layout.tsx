@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AffiliateClickTracker from "@/components/AffiliateClickTracker";
+import ConsentManager from "@/components/ConsentManager";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Everlasting Goods",
   },
   description:
-    "Expert reviews of durable, long-lasting products worth buying once. Quality gear that outlasts trends — kitchen, EDC, outdoor, clothing, tools & home.",
+    "Evidence-led guides to durable, long-lasting products worth buying once. Quality gear that outlasts trends — kitchen, EDC, outdoor, clothing, tools & home.",
   keywords: [
     "buy it for life",
     "BIFL",
@@ -40,10 +41,10 @@ export const metadata: Metadata = {
     siteName: "Everlasting Goods",
     title: "Everlasting Goods — Buy It For Life Product Reviews",
     description:
-      "Expert reviews of durable, long-lasting products worth buying once. Quality gear that outlasts trends.",
+      "Evidence-led guides to durable, long-lasting products worth buying once. Quality gear that outlasts trends.",
     images: [
       {
-        url: "/images/og-default.jpg",
+        url: "/images/og-default.png",
         width: 1200,
         height: 630,
         alt: "Everlasting Goods",
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Everlasting Goods — Buy It For Life Product Reviews",
     description:
-      "Expert reviews of durable, long-lasting products worth buying once.",
+      "Evidence-led guides to durable, long-lasting products worth buying once.",
   },
   robots: {
     index: true,
@@ -76,20 +77,8 @@ export default function RootLayout({
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
-        {/* GA4 — afterInteractive defers until page is interactive, doesn't block render */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GT-MR86JNFG"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'GT-MR86JNFG');`}
-        </Script>
-        {/* AdSense — lazyOnload so it never blocks LCP */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6903539486133095"
-          strategy="lazyOnload"
-          crossOrigin="anonymous"
-        />
+        <AffiliateClickTracker />
+        <ConsentManager />
       </body>
     </html>
   );

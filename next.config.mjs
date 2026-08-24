@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
   compress: true,
+  turbopack: {
+    root: process.cwd(),
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 86400, // 24h cache on optimized images
@@ -31,16 +32,6 @@ const nextConfig = {
           {
             key: "X-Frame-Options",
             value: "DENY",
-          },
-        ],
-      },
-      {
-        // Long cache for static assets
-        source: "/_next/static/(.*)",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
           },
         ],
       },

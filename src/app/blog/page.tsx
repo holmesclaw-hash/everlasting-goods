@@ -6,7 +6,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Articles — Buy It For Life Product Reviews",
   description:
-    "In-depth reviews of the most durable, long-lasting products money can buy. Expert picks across kitchen, EDC, outdoor, clothing, tools & home.",
+    "Evidence-led guides to durable, long-lasting products across kitchen, EDC, outdoor, clothing, tools, and home.",
   alternates: {
     canonical: "https://everlasting-goods.com/blog",
   },

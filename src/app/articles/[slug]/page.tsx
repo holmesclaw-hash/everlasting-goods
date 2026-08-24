@@ -9,23 +9,28 @@ import {
   getRelatedArticles,
   getCategoryBySlug,
   formatDate,
-  normalizeArticleAffiliateLinks,
+  normalizeAmazonAffiliateUrl,
 } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import ArticleCard from "@/components/ArticleCard";
 import Newsletter from "@/components/Newsletter";
+import { articleAuthorJsonLd, publicArticleAuthor } from "@/lib/editorial.mjs";
+import { renderArticleHtml } from "@/lib/article-html.mjs";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return articles.map((article) => ({ slug: article.slug }));
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const article = getArticleBySlug(params.slug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
   if (!article) return {};
+  const publicAuthor = publicArticleAuthor(article.author);
 
   return {
     title: article.title,
@@ -38,7 +43,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       description: article.excerpt,
       type: "article",
       publishedTime: article.date,
-      authors: [article.author],
+      authors: [publicAuthor],
       images: [{ url: article.image, width: 1200, height: 630, alt: article.title }],
     },
     twitter: {
@@ -69,29 +74,30 @@ function extractFAQs(content: string): { question: string; answer: string }[] {
   return faqs;
 }
 
-export default function ArticlePage({ params }: PageProps) {
-  const article = getArticleBySlug(params.slug);
+export default async function ArticlePage({ params }: PageProps) {
+  const { slug } = await params;
+  const article = getArticleBySlug(slug);
   if (!article) notFound();
 
+  const publicAuthor = publicArticleAuthor(article.author);
   const category = getCategoryBySlug(article.category);
-  const normalizedContent = normalizeArticleAffiliateLinks(article.content);
+  const normalizedContent = renderArticleHtml(article.content);
   const headings = extractHeadings(normalizedContent);
   const recommendedProducts = article.products
     .map(getProductBySlug)
     .filter(Boolean);
+  const hasAffiliateLinks = normalizedContent.includes("amazon.com") || recommendedProducts.length > 0;
   const relatedArticles = getRelatedArticles(article.slug, article.category);
   const faqs = extractFAQs(normalizedContent);
 
-  const articleType = article.products.length > 0 ? "ProductReview" : "Article";
-
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": articleType,
+    "@type": "Article",
     headline: article.title,
     description: article.excerpt,
-    author: { "@type": "Person", name: article.author },
+    author: articleAuthorJsonLd(),
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: article.updatedAt ?? article.date,
     image: article.image,
     articleSection: category?.name ?? article.category,
     publisher: {
@@ -194,7 +200,7 @@ export default function ArticlePage({ params }: PageProps) {
             {article.excerpt}
           </p>
           <div className="mt-6 flex items-center justify-center gap-3 text-sm text-white/50">
-            <span>By {article.author}</span>
+            <span>By {publicAuthor}</span>
             <span className="w-1 h-1 bg-white/30 rounded-full" />
             <span>{formatDate(article.date)}</span>
             <span className="w-1 h-1 bg-white/30 rounded-full" />
@@ -208,6 +214,7 @@ export default function ArticlePage({ params }: PageProps) {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-12">
           {/* Article body */}
           <div>
+            {hasAffiliateLinks && <AffiliateDisclosure />}
             <div
               className="article-content"
               dangerouslySetInnerHTML={{ __html: normalizedContent }}
@@ -263,12 +270,7 @@ export default function ArticlePage({ params }: PageProps) {
               </div>
             </div>
 
-            {/* Affiliate disclosure */}
-            <div className="mt-8 p-4 bg-cream-100 rounded-xl text-xs text-charcoal/50 leading-relaxed">
-              <strong className="text-charcoal/70">Affiliate Disclosure:</strong> Everlasting Goods
-              earns commissions from qualifying purchases made through affiliate links in this article.
-              This doesn&apos;t affect the price you pay or our editorial independence.
-            </div>
+
           </div>
 
           {/* Sidebar */}
@@ -306,17 +308,17 @@ export default function ArticlePage({ params }: PageProps) {
                         product && (
                           <a
                             key={product.slug}
-                            href={product.affiliateUrl}
+                            href={normalizeAmazonAffiliateUrl(product.affiliateUrl)}
                             target="_blank"
-                            rel="noopener noreferrer nofollow"
+                            rel="sponsored nofollow noopener noreferrer"
                             className="flex items-center justify-between gap-2 p-3 bg-cream rounded-xl hover:bg-cream-100 transition-colors group"
                           >
                             <div>
                               <p className="text-xs font-medium text-charcoal leading-snug">
                                 {product.name}
                               </p>
-                              <p className="text-xs text-forest-500 font-bold mt-0.5">
-                                {product.price}
+                              <p className="text-xs text-charcoal/45 mt-0.5">
+                                Check current listing
                               </p>
                             </div>
                             <svg

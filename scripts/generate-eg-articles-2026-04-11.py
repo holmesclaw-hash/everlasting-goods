@@ -12,7 +12,7 @@ slug, title, excerpt, category, image, author, date, readTime, featured, product
 content must be a single HTML string.
 Aim for about 1200 to 1700 words.
 Tone: direct, opinionated, useful, zero fluff.
-Use Amazon affiliate links with tag everlastin09f-20 on every product mention.
+Use Amazon affiliate links with tag everlastin08f-20 on every product mention.
 Include: intro, top picks, how to choose, maintenance or care, verdict, related reading, FAQ.
 Do not mention Reddit.
 Do not wrap output in markdown fences.
@@ -27,7 +27,9 @@ image: {topic['image']}
 date: 2026-04-11
 Angle: {topic['topic_angle']}
 Requirements:
-- Byline should be a plausible human name.
+- Byline must be exactly "Everlasting Goods Editorial Team".
+- Never claim first-person ownership, hands-on testing, or years of use unless the prompt supplies documented evidence.
+- Cite primary manufacturer documentation and credible long-term owner evidence in a Sources section.
 - readTime should be around 11 to 15 min read.
 - featured false.
 - excerpt one sentence.

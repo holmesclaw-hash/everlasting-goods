@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { products, categories } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -27,7 +28,7 @@ export default function ProductsPage() {
             BIFL Products
           </h1>
           <p className="mt-3 text-charcoal/60 max-w-xl text-lg">
-            Every product here has earned its place. Tested, vetted, and built to last a lifetime.
+            Every product here is selected for durable construction, repairability, warranty support, and owner evidence.
           </p>
         </div>
       </section>
@@ -57,6 +58,7 @@ export default function ProductsPage() {
 
       {/* Product grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <AffiliateDisclosure />
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 md:p-6">
           <h2 className="font-serif text-xl font-bold text-charcoal">
             Need context before you buy?

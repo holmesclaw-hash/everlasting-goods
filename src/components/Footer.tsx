@@ -1,9 +1,10 @@
-"use client";
-
 import Link from "next/link";
 import { categories } from "@/lib/data";
+import { newsletterSignupUrl } from "@/lib/newsletter.mjs";
 
 export default function Footer() {
+  const signupUrl = newsletterSignupUrl(process.env.NEXT_PUBLIC_NEWSLETTER_ACTION);
+
   return (
     <footer className="bg-charcoal text-white/70">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -19,7 +20,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-white/50">
-              Expert reviews of durable, long-lasting products worth buying once. Quality over quantity, always.
+              Evidence-led guides to durable, long-lasting products worth buying once. Quality over quantity, always.
             </p>
           </div>
 
@@ -74,6 +75,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/methodology" className="text-sm hover:text-forest-300 transition-colors">
+                  Methodology
+                </Link>
+              </li>
+              <li>
                 <Link href="/privacy" className="text-sm hover:text-forest-300 transition-colors">
                   Privacy Policy
                 </Link>
@@ -91,22 +97,29 @@ export default function Footer() {
             <h3 className="text-xs uppercase tracking-wider text-white/40 font-medium mb-4">
               Stay Updated
             </h3>
-            <p className="text-sm text-white/50 mb-3">
-              Get our latest BIFL picks delivered to your inbox.
-            </p>
-            <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder="you@email.com"
-                className="flex-1 px-3 py-2 bg-white/10 border border-white/10 rounded-lg text-sm text-white placeholder-white/30 focus:ring-1 focus:ring-forest-400 focus:border-forest-400"
-              />
-              <button
-                type="submit"
-                className="px-4 py-2 bg-forest-500 text-white text-sm font-medium rounded-lg hover:bg-forest-600 transition-colors"
-              >
-                Join
-              </button>
-            </form>
+            {signupUrl ? (
+              <form action={signupUrl} method="post" className="flex gap-2">
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  autoComplete="email"
+                  aria-label="Email address"
+                  placeholder="you@email.com"
+                  className="flex-1 px-3 py-2 bg-white/10 border border-white/10 rounded-lg text-sm text-white placeholder-white/30 focus:ring-1 focus:ring-forest-400 focus:border-forest-400"
+                />
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-forest-500 text-white text-sm font-medium rounded-lg hover:bg-forest-600 transition-colors"
+                >
+                  Join
+                </button>
+              </form>
+            ) : (
+              <Link href="/blog" className="text-sm text-forest-300 hover:text-white transition-colors">
+                Browse the latest researched guides →
+              </Link>
+            )}
           </div>
         </div>
 
@@ -121,13 +134,16 @@ export default function Footer() {
             <Link href="/contact" className="hover:text-forest-300 transition-colors">
               Contact
             </Link>
+            <Link href="/methodology" className="hover:text-forest-300 transition-colors">
+              Methodology
+            </Link>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-white/30">
               &copy; {new Date().getFullYear()} Everlasting Goods. All rights reserved.
             </p>
             <p className="text-xs text-white/30">
-              Affiliate Disclosure: We earn commissions from qualifying purchases through our affiliate links at no extra cost to you.
+              Affiliate links may earn us a commission at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.
             </p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { articles, categories } from "@/lib/data";
+import { articles, categories, CONTENT_LAST_REVIEWED } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://everlasting-goods.com";
@@ -10,11 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${baseUrl}/products`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5 },
   ];
 
   const articlePages = articles.map((article) => ({
     url: `${baseUrl}/articles/${article.slug}`,
-    lastModified: new Date(article.date),
+    lastModified: new Date(CONTENT_LAST_REVIEWED),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));

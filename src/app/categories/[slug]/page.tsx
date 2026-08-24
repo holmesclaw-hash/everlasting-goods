@@ -8,18 +8,20 @@ import {
 } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
 import ProductCard from "@/components/ProductCard";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import Link from "next/link";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const category = getCategoryBySlug(params.slug);
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const category = getCategoryBySlug(slug);
   if (!category) return {};
 
   return {
@@ -36,12 +38,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
   };
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const category = getCategoryBySlug(params.slug);
+export default async function CategoryPage({ params }: PageProps) {
+  const { slug } = await params;
+  const category = getCategoryBySlug(slug);
   if (!category) notFound();
 
-  const categoryArticles = getArticlesByCategory(params.slug);
-  const categoryProducts = getProductsByCategory(params.slug);
+  const categoryArticles = getArticlesByCategory(slug);
+  const categoryProducts = getProductsByCategory(slug);
 
   return (
     <>
@@ -91,7 +94,7 @@ export default function CategoryPage({ params }: PageProps) {
                 key={cat.slug}
                 href={`/categories/${cat.slug}`}
                 className={`flex-shrink-0 px-4 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                  cat.slug === params.slug
+                  cat.slug === slug
                     ? "bg-forest-500 text-white"
                     : "bg-cream-100 text-charcoal/60 hover:bg-cream-200"
                 }`}
@@ -147,6 +150,7 @@ export default function CategoryPage({ params }: PageProps) {
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal mb-8">
               {category.name} Products
             </h2>
+            <AffiliateDisclosure />
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {categoryProducts.map((product) => (
                 <ProductCard key={product.slug} product={product} />

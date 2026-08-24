@@ -31,7 +31,7 @@ export default function HomePage() {
               <span className="text-forest-300">Outlasts Trends</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-lg">
-              Expert reviews of durable, long-lasting products worth buying once. Stop replacing. Start investing.
+              Evidence-led guides to durable, long-lasting products worth buying once. Stop replacing. Start investing.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
@@ -159,7 +159,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 text-charcoal/60 leading-relaxed">
               In a world of disposable everything, we believe in a different approach. Every product we recommend has been
-              researched, tested, and vetted for long-term durability. We don&apos;t chase trends — we find the gear that will still
+              researched and evaluated for long-term durability. We don&apos;t chase trends — we find the gear that will still
               be going strong in 10, 20, or 50 years.
             </p>
             <p className="mt-4 text-charcoal/60 leading-relaxed">
@@ -180,8 +180,8 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-cream-100 rounded-2xl p-6 text-center">
               <div className="text-3xl mb-3">🔬</div>
-              <h3 className="font-serif font-bold text-charcoal">Tested</h3>
-              <p className="text-xs text-charcoal/50 mt-1">Hands-on with every product</p>
+              <h3 className="font-serif font-bold text-charcoal">Evidence-led</h3>
+              <p className="text-xs text-charcoal/50 mt-1">Materials, warranties, repairs, owner reports</p>
             </div>
             <div className="bg-cream-100 rounded-2xl p-6 text-center">
               <div className="text-3xl mb-3">🛡️</div>

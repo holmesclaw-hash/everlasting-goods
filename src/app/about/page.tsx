@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import Newsletter from "@/components/Newsletter";
 
 export const metadata: Metadata = {
@@ -54,9 +55,9 @@ export default function AboutPage() {
             </h2>
             <p className="text-charcoal/70 leading-relaxed">
               Everlasting Goods exists to help you break free from the cycle of cheap, disposable products.
-              We research, test, and review products that are built to last — the kind of gear you buy once
-              and never think about again. Whether it&apos;s a cast iron skillet, a pair of boots, or a backpack,
-              we find the items that are truly worth your money.
+              The Everlasting Goods Editorial Team compares materials, repairability, warranties, manufacturer
+              documentation, and long-term owner reports. Hands-on testing is identified only when it actually
+              occurred. Read our <Link href="/methodology" className="text-forest-500 underline">review methodology</Link>.
             </p>
           </div>
 
@@ -83,9 +84,9 @@ export default function AboutPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </div>
-                <h3 className="font-serif font-bold text-charcoal mb-1">Testing</h3>
+                <h3 className="font-serif font-bold text-charcoal mb-1">Evidence</h3>
                 <p className="text-sm text-charcoal/60 leading-relaxed">
-                  We get hands-on with every product we recommend. No armchair reviews — real use, real conditions.
+                  We compare materials, repairability, warranties, manufacturer documentation, and long-term owner reports. Hands-on testing is identified only when it actually occurred.
                 </p>
               </div>
               <div className="bg-white rounded-2xl border border-cream-200 p-6">
@@ -96,7 +97,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-serif font-bold text-charcoal mb-1">Longevity</h3>
                 <p className="text-sm text-charcoal/60 leading-relaxed">
-                  We verify long-term durability through community reports, warranty analysis, and years of follow-up.
+                  We assess long-term durability through documented owner reports, warranty analysis, parts support, and repair history.
                 </p>
               </div>
               <div className="bg-white rounded-2xl border border-cream-200 p-6">

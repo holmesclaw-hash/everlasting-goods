@@ -16,10 +16,7 @@ const categoryIcons: Record<string, string> = {
 };
 
 export default function ProductCard({ product, compact = false }: ProductCardProps) {
-  const affiliateUrl = normalizeAmazonAffiliateUrl(
-    product.affiliateUrl,
-    `${product.brand} ${product.name}`
-  );
+  const affiliateUrl = normalizeAmazonAffiliateUrl(product.affiliateUrl);
   const usePlaceholderImage = /images\.unsplash\.com|wikimedia\.org/i.test(product.image);
   const categoryIcon = categoryIcons[product.category] ?? "🛒";
 
@@ -51,20 +48,16 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
           <h4 className="font-serif text-base font-bold text-charcoal mt-0.5 leading-snug">
             {product.name}
           </h4>
-          <div className="flex items-center gap-2 mt-1.5">
-            <span className="text-forest-500 font-bold">{product.price}</span>
-            <span className="flex items-center gap-0.5 text-xs text-amber-500">
-              {"★".repeat(Math.round(product.rating))}
-              <span className="text-charcoal/40 ml-1">{product.rating}</span>
-            </span>
-          </div>
+          <p className="mt-1.5 text-xs text-charcoal/45">
+            See current price and availability on Amazon.
+          </p>
           {usePlaceholderImage && (
             <p className="mt-1 text-[11px] text-charcoal/45">Illustrative image removed, using verified text only.</p>
           )}
           <a
             href={affiliateUrl}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="sponsored nofollow noopener noreferrer"
             className="inline-flex items-center gap-1.5 mt-2.5 px-4 py-1.5 bg-forest-500 text-white text-xs font-medium rounded-lg hover:bg-forest-600 transition-colors"
           >
             Check Price on Amazon
@@ -111,19 +104,13 @@ export default function ProductCard({ product, compact = false }: ProductCardPro
         <p className="mt-2 text-sm text-charcoal/60 leading-relaxed line-clamp-3 flex-1">
           {product.description}
         </p>
-        <div className="mt-4 flex items-center justify-between">
-          <div>
-            <span className="text-lg font-bold text-forest-500">{product.price}</span>
-            <div className="flex items-center gap-0.5 mt-0.5 text-xs text-amber-500">
-              {"★".repeat(Math.round(product.rating))}
-              <span className="text-charcoal/40 ml-1">{product.rating}/5</span>
-            </div>
-          </div>
-        </div>
+        <p className="mt-4 text-xs text-charcoal/45">
+          Price, availability, and customer reviews can change. Check the current listing.
+        </p>
         <a
           href={affiliateUrl}
           target="_blank"
-          rel="noopener noreferrer nofollow"
+          rel="sponsored nofollow noopener noreferrer"
           className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 bg-forest-500 text-white text-sm font-medium rounded-xl hover:bg-forest-600 transition-colors"
         >
           Check Price on Amazon
