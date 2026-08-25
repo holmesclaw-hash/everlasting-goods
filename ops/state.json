@@ -7,18 +7,23 @@
   "affiliate_tag": "everlastin08f-20",
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
-  "program_status": "approved_in_progress",
-  "current_phase": "phase_1_evidence_audit",
+  "program_status": "live_critical_exceptions_remaining",
+  "current_phase": "phase_4_live_waiting_on_temporal_and_account_dependencies",
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
-  "publishing_freeze": true,
-  "publishing_freeze_release_condition": "Phase 1 audit applied cleanly",
-  "last_verified_at": "2026-08-25T12:54:26Z",
-  "last_action": "Audited all 54 article hero images, replaced 28 mismatched or broken images with subject-aligned Pexels photos, added a broad-fallback regression test, and verified every changed live route with HTTP 200, optimized image delivery, canonical, disclosure, affiliate tag, analytics hook, and sitemap inclusion",
-  "last_live_url": "https://everlasting-goods.com/articles/best-office-chairs-that-actually-last",
-  "last_commit": "729b9cae0b75d8149d2ea52f0dc8e42334874c22",
+  "publishing_freeze": false,
+  "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
+  "last_verified_at": "2026-08-25T14:00:29Z",
+  "last_action": "Applied Phase 1 audit; quarantined 54 unsupported legacy article bodies; launched a git-tracked SQLite repairability database with 15 T2 tool records, five generated comparisons, Product/Review JSON-LD without ratings, cost-per-year and repair-or-replace tools, and consent-gated referral classification; verified all 27 sitemap routes and 54 quarantine routes live",
+  "last_live_url": "https://everlasting-goods.com/database",
+  "last_commit": "83e125d7923e9a75f41bf6ae3b72f4b7a81f64c8",
   "blockers": [
     "No newsletter provider endpoint configured",
-    "Google Search Console, Analytics, AdSense, and Amazon earnings data not yet connected to the operator",
-    "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration"
+    "Google Search Console, Analytics, AdSense, and affiliate revenue data are not connected to the operator; live traffic and revenue figures cannot be reported",
+    "Affiliate-program registrations require Daniel to accept program terms and cannot be completed autonomously",
+    "No scheduler change is authorized; weekly digest generation remains on demand",
+    "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
+    "No Daniel-supplied T1 product notes or shop photos are available; all current publishable records are T2",
+    "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
+    "The protected AGENTS.md governance patch was not approved by the file guard; the approved work order and ops/state.json record the controlling posture"
   ]
 }

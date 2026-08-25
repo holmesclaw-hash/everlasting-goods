@@ -1,0 +1,18 @@
+{
+  "verified_date": "2026-08-25",
+  "deployment_commit": "83e125d",
+  "sitemap_status": 200,
+  "sitemap_routes": 27,
+  "unique_sitemap_routes": 27,
+  "database_product_routes": 15,
+  "database_category_routes": 5,
+  "legacy_quarantine_routes_checked": 54,
+  "http_200_routes": 27,
+  "live_amazon_search_links": 0,
+  "live_photo_placeholders": 0,
+  "live_legacy_authors": 0,
+  "legacy_articles_in_sitemap": 0,
+  "analytics_hook": true,
+  "analytics_chunk": "/_next/static/immutable/chunks/2ic3ggwhyzai5.js",
+  "failures": []
+}
