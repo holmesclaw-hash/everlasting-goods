@@ -24,6 +24,25 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/cost-per-year",
+        destination: "/tools/cost-per-year",
+        permanent: true,
+      },
+      {
+        source: "/repair-or-replace",
+        destination: "/tools/repair-or-replace",
+        permanent: true,
+      },
+      {
+        source: "/articles/best-bifl-tool-sets-for-home-repair",
+        destination: "/database",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

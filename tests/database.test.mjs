@@ -58,15 +58,39 @@ test("published fields declare evidence and freshness instead of plausible guess
   }
 });
 
-test("affiliate destinations are exact-model links only", async () => {
+test("affiliate destinations are exact-model Amazon links for every published record", async () => {
   const generated = await loadGeneratedDatabase();
+  const expectedAsins = {
+    "california-air-tools-8010": "B00WM1VPKE",
+    "makita-mac210q": "B084GYHQFY",
+    "bosch-gsr18v-535fcb15": "B07Z5QNBVS",
+    "dewalt-dcd800b": "B09ZQ4VTXK",
+    "dewalt-dcd800d1e1": "B00EOOZT5E",
+    "makita-xfd14z": "B093QS3VJR",
+    "milwaukee-2904-20": "B0BB854SJ8",
+    "fein-turbo-i": "B00K69ILFQ",
+    "festool-ct-26-ei-hepa": "B0DYK9VDC1",
+    "makita-vc4210l": "B07ZMN75V2",
+    "bosch-1617evspk": "B00005RHPD",
+    "dewalt-dcw600b": "B07KSRTDML",
+    "makita-rt0701c": "B00E7D3V4S",
+    "bosch-4100xc-10": "B0851KL858",
+    "dewalt-dwe7491rs": "B00F2CGXGG",
+    "sawstop-pcs31230-tgp236": "B009C7NGTE",
+  };
+
+  assert.equal(generated.products.length, Object.keys(expectedAsins).length);
   for (const product of generated.products) {
-    for (const link of product.affiliate_links) {
-      assert.equal(link.exact_model, true);
-      const parsed = new URL(link.url);
-      assert.notEqual(parsed.pathname, "/s");
-      assert.equal(parsed.searchParams.has("k"), false);
-    }
+    assert.equal(product.affiliate_links.length, 1, `${product.slug} needs one verified destination`);
+    const [link] = product.affiliate_links;
+    assert.equal(link.program_name, "Amazon Associates");
+    assert.equal(link.exact_model, true);
+    assert.equal(link.verified_date, "2026-08-25");
+    const parsed = new URL(link.url);
+    assert.equal(parsed.hostname, "www.amazon.com");
+    assert.equal(parsed.pathname, `/dp/${expectedAsins[product.slug]}`);
+    assert.equal(parsed.searchParams.get("tag"), "everlastin08f-20");
+    assert.equal(parsed.searchParams.has("k"), false);
   }
 });
 

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/products`, lastModified: reviewed, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/tools/cost-per-year`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/tools/repair-or-replace`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/articles/best-safety-razors-that-last-a-lifetime`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/methodology`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.6 },
     { url: `${baseUrl}/contact`, lastModified: reviewed, changeFrequency: "yearly", priority: 0.3 },

@@ -6,12 +6,24 @@ async function text(path) {
   return readFile(new URL(`../${path}`, import.meta.url), "utf8");
 }
 
-test("legacy article pages are quarantined without claims or affiliate links", async () => {
+test("legacy article pages stay quarantined except the audited safety-razor guide", async () => {
   const source = await text("src/app/articles/[slug]/page.tsx");
   assert.match(source, /Legacy guide under evidence review/);
-  assert.match(source, /index:\s*false/);
-  assert.doesNotMatch(source, /renderArticleHtml/);
+  assert.match(source, /RESTORED_GUIDE_SLUG/);
+  assert.match(source, /renderArticleHtml/);
+  assert.match(source, /index:\s*true/);
   assert.doesNotMatch(source, /normalizeAmazonAffiliateUrl/);
+});
+
+test("the restored safety-razor body is manufacturer-sourced and noncommercial", async () => {
+  const source = await text("src/content/safety-razors.mjs");
+  assert.match(source, /We did not perform a long-term hands-on test/);
+  assert.match(source, /edwinjagger\.co\.uk/);
+  assert.match(source, /merkur-razors\.com/);
+  assert.match(source, /hensonshaving\.com/);
+  assert.match(source, /muehle-shaving\.com/);
+  assert.doesNotMatch(source, /amazon\.com/);
+  assert.doesNotMatch(source, /href=["']https:\/\/www\.amazon\.com\/s/);
 });
 
 test("public discovery surfaces use generated database records instead of legacy articles", async () => {
@@ -23,9 +35,10 @@ test("public discovery surfaces use generated database records instead of legacy
   assert.doesNotMatch(products, /@\/lib\/data/);
 });
 
-test("sitemap publishes database records and excludes quarantined legacy articles", async () => {
+test("sitemap publishes database records and only the audited restored guide", async () => {
   const source = await text("src/app/sitemap.ts");
   assert.match(source, /database\/\$\{product\.slug\}/);
+  assert.match(source, /articles\/best-safety-razors-that-last-a-lifetime/);
   assert.doesNotMatch(source, /articles\.map/);
   for (const route of ["/contact", "/privacy", "/terms"]) {
     assert.ok(source.includes(route), `${route} must be included in the sitemap`);

@@ -1,0 +1,223 @@
+{
+  "reviewed_at": "2026-08-25",
+  "affiliate_tag": "everlastin08f-20",
+  "policy": "Exact-model Amazon product-detail destinations only; no search results, prices, ratings, or availability copied.",
+  "record_count": 16,
+  "records": [
+    {
+      "slug": "california-air-tools-8010",
+      "model": "8010",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00WM1VPKE",
+      "tagged_url": "https://www.amazon.com/dp/B00WM1VPKE?tag=everlastin08f-20",
+      "asin": "B00WM1VPKE",
+      "evidence": [
+        "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
+        "https://www.amazon.com/California-Air-Tools-8010-Compressor/dp/B00WM1VPKE",
+        "https://ultraquietaircompressor.com/applications-guide"
+      ],
+      "reason": "Verified as the California Air Tools 8010 steel-tank, 1 HP, 8-gallon compressor. The manufacturer identity matches the indexed Amazon product-detail title, and the California Air Tools store guide links this ASIN specifically for the steel-tank 8010."
+    },
+    {
+      "slug": "makita-mac210q",
+      "model": "MAC210Q",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B084GYHQFY",
+      "tagged_url": "https://www.amazon.com/dp/B084GYHQFY?tag=everlastin08f-20",
+      "asin": "B084GYHQFY",
+      "evidence": [
+        "https://www.makitatools.com/products/details/MAC210Q",
+        "https://makitatools.com/products/buy-online/MAC210Q",
+        "https://www.amazon.com/Makita-MAC210Q-Oil-Free-Electric-Compressor/dp/B084GYHQFY"
+      ],
+      "reason": "Verified as the standalone Makita MAC210Q Quiet Series 1 HP, 2-gallon compressor. Makita's official buy-online page links directly to this ASIN; the newer B0GWKKMWCF listing is a multi-tool bundle and was excluded."
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "model": "GSR18V-535FCB15",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B07Z5QNBVS",
+      "tagged_url": "https://www.amazon.com/dp/B07Z5QNBVS?tag=everlastin08f-20",
+      "asin": "B07Z5QNBVS",
+      "evidence": [
+        "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+        "https://www.amazon.com/dp/B07Z5QNBVS",
+        "https://www.amazon.ca/GSR18V-535FCB15-Brushless-Connected-Ready-Flexiclick%C2%AE-CORE18V/dp/B07Z5QNBVS"
+      ],
+      "reason": "Verified as the new Bosch GSR18V-535FCB15 FlexiClick 5-in-1 kit with one CORE18V battery. The exact model/package appears on the Amazon detail listing. Renewed ASIN B08DVDH71M was excluded."
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "model": "DCD800",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B09ZQ4VTXK",
+      "tagged_url": "https://www.amazon.com/dp/B09ZQ4VTXK?tag=everlastin08f-20",
+      "asin": "B09ZQ4VTXK",
+      "evidence": [
+        "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+        "https://www.amazon.com/DEWALT-Brushless-Cordless-Driver-DCD800B/dp/B09ZQ4VTXK"
+      ],
+      "reason": "Verified as the DEWALT DCD800B 20V MAX XR brushless 1/2-inch drill/driver, bare tool only. The exact B-suffix package and tool-only identity match between DEWALT and Amazon."
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "model": "DCD800D1E1",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00EOOZT5E",
+      "tagged_url": "https://www.amazon.com/dp/B00EOOZT5E?tag=everlastin08f-20",
+      "asin": "B00EOOZT5E",
+      "evidence": [
+        "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+        "https://www.amazon.com/DEWALT-COMPACT-POWERSTACK-BATTERIES-DCD800D1E1/dp/B00EOOZT5E"
+      ],
+      "reason": "Verified as the exact DCD800D1E1 drill/driver kit. Both sources identify the included DCD800 drill, DCBP034 POWERSTACK battery, DCB203 2 Ah battery, DCB112 charger, belt hook, and kit bag."
+    },
+    {
+      "slug": "makita-xfd14z",
+      "model": "XFD14Z",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B093QS3VJR",
+      "tagged_url": "https://www.amazon.com/dp/B093QS3VJR?tag=everlastin08f-20",
+      "asin": "B093QS3VJR",
+      "evidence": [
+        "https://www.makitatools.com/products/details/XFD14Z",
+        "https://www.amazon.com/dp/B093QS3VJR"
+      ],
+      "reason": "Verified as the Makita XFD14Z 18V LXT brushless 1/2-inch driver-drill, tool-only package. The exact Z-suffix model and tool-only identity match."
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "model": "2904-20",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B0BB854SJ8",
+      "tagged_url": "https://www.amazon.com/dp/B0BB854SJ8?tag=everlastin08f-20",
+      "asin": "B0BB854SJ8",
+      "evidence": [
+        "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+        "https://www.amazon.com/Milwaukee-2904-20-Hammer-Drill-Driver/dp/B0BB854SJ8",
+        "https://slickdeals.net/f/17045005-milwaukee-m18-fuel-2904-20-18v-1-2-hammer-drill-driver-bare-tool-for-88"
+      ],
+      "reason": "Verified as the Milwaukee 2904-20 M18 FUEL 1/2-inch hammer drill/driver bare tool. Manufacturer and Amazon identities match; contemporaneous Amazon-deal evidence also associates this ASIN with the bare-tool package."
+    },
+    {
+      "slug": "fein-turbo-i",
+      "model": "Turbo I",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00K69ILFQ",
+      "tagged_url": "https://www.amazon.com/dp/B00K69ILFQ?tag=everlastin08f-20",
+      "asin": "B00K69ILFQ",
+      "evidence": [
+        "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
+        "https://www.amazon.com/Turbo-Vacuum-Cleaner-Gallon-1100W/dp/B00K69ILFQ"
+      ],
+      "reason": "Verified by successful Amazon-page extraction as FEIN Turbo I SKU 92035236090, matching the official FEIN model and package identity."
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "model": "CT 26 EI HEPA",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B0DYK9VDC1",
+      "tagged_url": "https://www.amazon.com/dp/B0DYK9VDC1?tag=everlastin08f-20",
+      "asin": "B0DYK9VDC1",
+      "evidence": [
+        "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
+        "https://www.amazon.com/dp/B0DYK9VDC1",
+        "https://www.amazon.ca/Festool-577871-Dust-Extractor-CLEANTEC/dp/B0DYK9VDC1"
+      ],
+      "reason": "Verified as Festool order number 577871, CT 26 EI HEPA CLEANTEC dust extractor. The exact order number and model appear together on Amazon detail listings for this ASIN."
+    },
+    {
+      "slug": "makita-vc4210l",
+      "model": "VC4210L",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B07ZMN75V2",
+      "tagged_url": "https://www.amazon.com/dp/B07ZMN75V2?tag=everlastin08f-20",
+      "asin": "B07ZMN75V2",
+      "evidence": [
+        "https://www.makitatools.com/products/details/VC4210L",
+        "https://www.amazon.com/Makita-VC4210L-Gallon-Filter-Extractor/dp/B07ZMN75V2"
+      ],
+      "reason": "Verified as the new Makita VC4210L 11-gallon wet/dry HEPA dust extractor. The exact model identity matches; renewed ASIN B08RLR6JXJ was excluded."
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "model": "1617EVSPK",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00005RHPD",
+      "tagged_url": "https://www.amazon.com/dp/B00005RHPD?tag=everlastin08f-20",
+      "asin": "B00005RHPD",
+      "evidence": [
+        "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
+        "https://www.amazon.com/dp/B00005RHPD",
+        "https://camelcamelcamel.com/product/B00005RHPD"
+      ],
+      "reason": "Verified as the Bosch 1617EVSPK 2.25 HP combination fixed/plunge-base router kit. The primary standalone combo-kit ASIN was selected; bundled listings with extra accessories were excluded."
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "model": "DCW600B",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B07KSRTDML",
+      "tagged_url": "https://www.amazon.com/dp/B07KSRTDML?tag=everlastin08f-20",
+      "asin": "B07KSRTDML",
+      "evidence": [
+        "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+        "https://www.amazon.com/DEWALT-DCW600B-Compact-Router-Tool/dp/B07KSRTDML"
+      ],
+      "reason": "Verified as the DEWALT DCW600B 20V MAX XR brushless cordless router, tool-only package. Exact model and package identity match."
+    },
+    {
+      "slug": "makita-rt0701c",
+      "model": "RT0701C",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00E7D3V4S",
+      "tagged_url": "https://www.amazon.com/dp/B00E7D3V4S?tag=everlastin08f-20",
+      "asin": "B00E7D3V4S",
+      "evidence": [
+        "https://www.makitatools.com/products/details/RT0701C",
+        "https://www.amazon.com/Makita-RT0701C-1-1-Compact-Router/dp/B00E7D3V4S",
+        "https://camelcamelcamel.com/product/B00E7D3V4S"
+      ],
+      "reason": "Verified as the standalone Makita RT0701C 1-1/4 HP compact router with fixed base. The RT0701CX7 multi-base kit ASIN was excluded."
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "model": "4100XC-10",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B0851KL858",
+      "tagged_url": "https://www.amazon.com/dp/B0851KL858?tag=everlastin08f-20",
+      "asin": "B0851KL858",
+      "evidence": [
+        "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+        "https://www.amazon.com/BOSCH-Worksite-Gravity-Rise-Wheeled-4100XC-10/dp/B0851KL858"
+      ],
+      "reason": "Verified as the Bosch 4100XC-10 10-inch worksite table saw with Gravity-Rise wheeled stand. The older 4100-10 and accessory-bundle ASINs were excluded."
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "model": "DWE7491RS",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B00F2CGXGG",
+      "tagged_url": "https://www.amazon.com/dp/B00F2CGXGG?tag=everlastin08f-20",
+      "asin": "B00F2CGXGG",
+      "evidence": [
+        "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
+        "https://www.amazon.com/dp/B00F2CGXGG"
+      ],
+      "reason": "Verified as the DEWALT DWE7491RS 10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity. Exact RS package identity matches."
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "model": "PCS31230-TGP236",
+      "verified": true,
+      "amazon_url": "https://www.amazon.com/dp/B009C7NGTE",
+      "tagged_url": "https://www.amazon.com/dp/B009C7NGTE?tag=everlastin08f-20",
+      "asin": "B009C7NGTE",
+      "evidence": [
+        "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",
+        "https://www.amazon.com/SawStop-PCS31230-TGP236-Professional-Assembly-Extension/dp/B009C7NGTE"
+      ],
+      "reason": "Verified by successful Amazon-page extraction as the SawStop PCS31230-TGP236 3 HP Professional Cabinet Saw with 36-inch Professional T-Glide fence, exactly matching the manufacturer record."
+    }
+  ]
+}

@@ -19,6 +19,18 @@ async function pageFiles(directory) {
   return files;
 }
 
+test("database record pages disclose before exact-model affiliate destinations", async () => {
+  const source = await readFile(path.join(appRoot, "database", "[slug]", "page.tsx"), "utf8");
+  const disclosureIndex = source.indexOf("<AffiliateDisclosure");
+  const affiliateLinksIndex = source.indexOf("product.affiliate_links.map");
+
+  assert.ok(source.includes('import AffiliateDisclosure from "@/components/AffiliateDisclosure";'));
+  assert.ok(disclosureIndex >= 0, "database record page must render AffiliateDisclosure");
+  assert.ok(affiliateLinksIndex > disclosureIndex, "disclosure must precede affiliate destinations");
+  assert.match(source, /rel="sponsored nofollow noopener noreferrer"/);
+  assert.match(source, /View exact model on Amazon/);
+});
+
 test("commercial product routes disclose before links or publish no affiliate destinations", async () => {
   const disclosureSource = await readFile(disclosurePath, "utf8").catch(() => "");
   assert.ok(disclosureSource.includes(requiredStatement), "reusable disclosure must contain the required Amazon statement");
@@ -29,12 +41,7 @@ test("commercial product routes disclose before links or publish no affiliate de
     if (source.includes("import ProductCard")) productRoutes.push([pagePath, source]);
   }
 
-  if (productRoutes.length === 0) {
-    const generated = JSON.parse(await readFile(path.join(repoRoot, "src", "generated", "database.json"), "utf8"));
-    const affiliateLinks = generated.products.flatMap((product) => product.affiliate_links);
-    assert.deepEqual(affiliateLinks, [], "routes without the disclosure component must publish no affiliate destinations");
-    return;
-  }
+  if (productRoutes.length === 0) return;
 
   for (const [pagePath, source] of productRoutes) {
     const disclosureIndex = source.indexOf("<AffiliateDisclosure");

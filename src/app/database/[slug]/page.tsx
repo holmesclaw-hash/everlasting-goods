@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
 import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct } from "@/lib/product-database";
 
@@ -89,6 +90,27 @@ export default async function ProductRecordPage({ params }: PageProps) {
         </div>
 
         <aside className="space-y-6">
+          {product.affiliate_links.length > 0 && (
+            <div className="rounded-2xl border border-cream-200 bg-white p-6">
+              <AffiliateDisclosure />
+              <div className="space-y-3">
+                {product.affiliate_links.map((link) => (
+                  <a
+                    key={`${link.program_name}-${link.url}`}
+                    href={link.url}
+                    target="_blank"
+                    rel="sponsored nofollow noopener noreferrer"
+                    className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
+                  >
+                    View exact model on Amazon
+                  </a>
+                ))}
+              </div>
+              <p className="mt-3 text-xs leading-relaxed text-charcoal/45">
+                Exact model destination verified {product.affiliate_links[0].verified_date}. Price and availability are shown only by the merchant.
+              </p>
+            </div>
+          )}
           <div className="rounded-2xl border border-cream-200 bg-white p-6">
             <h2 className="font-serif text-xl font-bold text-charcoal">Repairability</h2>
             <dl className="mt-4 space-y-4 text-sm">

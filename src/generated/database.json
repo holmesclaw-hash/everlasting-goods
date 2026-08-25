@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "6a29a822f56525dd62c405598cf92ea953cf725ccd6e56bd57764afca56071bb",
+  "database_sha256": "9b925b7c9a6a8bbdb9b106c953350336944ad305e084cfdf315b84c2b85f6de0",
   "generated_at": "2026-08-25T00:00:00.000Z",
   "products": [
     {
@@ -136,7 +136,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00WM1VPKE?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 14,
         "parts_availability": "not-yet-verified",
@@ -284,7 +291,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B084GYHQFY?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 15,
         "parts_availability": "partial",
@@ -432,7 +446,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07Z5QNBVS?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 4,
         "parts_availability": "partial",
@@ -580,7 +601,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B09ZQ4VTXK?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 16,
         "parts_availability": "partial",
@@ -728,7 +756,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00EOOZT5E?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 1,
         "parts_availability": "partial",
@@ -876,7 +911,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B093QS3VJR?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 3,
         "parts_availability": "partial",
@@ -1024,7 +1066,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0BB854SJ8?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 2,
         "parts_availability": "partial",
@@ -1172,7 +1221,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00K69ILFQ?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 12,
         "parts_availability": "partial",
@@ -1320,7 +1376,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0DYK9VDC1?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 11,
         "parts_availability": "partial",
@@ -1468,7 +1531,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07ZMN75V2?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 13,
         "parts_availability": "partial",
@@ -1616,7 +1686,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00005RHPD?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 9,
         "parts_availability": "partial",
@@ -1764,7 +1841,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07KSRTDML?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 10,
         "parts_availability": "partial",
@@ -1912,7 +1996,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00E7D3V4S?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 8,
         "parts_availability": "partial",
@@ -2060,7 +2151,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0851KL858?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 7,
         "parts_availability": "partial",
@@ -2208,7 +2306,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00F2CGXGG?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 6,
         "parts_availability": "partial",
@@ -2356,7 +2461,14 @@
           "stale_after": "2027-02-21"
         }
       ],
-      "affiliate_links": [],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B009C7NGTE?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-08-25"
+        }
+      ],
       "repairability": {
         "product_id": 5,
         "parts_availability": "partial",
