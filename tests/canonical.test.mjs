@@ -9,6 +9,9 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const routes = [
   ["src/app/page.tsx", "https://everlasting-goods.com/"],
   ["src/app/products/page.tsx", "https://everlasting-goods.com/products"],
+  ["src/app/contact/page.tsx", "https://everlasting-goods.com/contact"],
+  ["src/app/privacy/page.tsx", "https://everlasting-goods.com/privacy"],
+  ["src/app/terms/page.tsx", "https://everlasting-goods.com/terms"],
 ];
 
 test("primary commercial routes declare their own canonical URLs", async () => {

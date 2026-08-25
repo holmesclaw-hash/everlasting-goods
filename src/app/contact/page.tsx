@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact and Corrections",
+  description: "Contact Everlasting Goods with a correction, source, or product-record question.",
+  alternates: { canonical: "https://everlasting-goods.com/contact" },
+};
+
 export default function ContactPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-16">

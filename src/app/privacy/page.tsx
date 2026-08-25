@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Privacy, consent, analytics, and affiliate-link policy for Everlasting Goods.",
+  alternates: { canonical: "https://everlasting-goods.com/privacy" },
+};
+
 export default function PrivacyPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-16">
@@ -10,7 +18,7 @@ export default function PrivacyPage() {
         <h2 className="font-serif text-xl font-bold text-charcoal mt-6">Cookies</h2>
         <p>Your optional-cookie choice is stored in your browser&apos;s local storage. Rejecting optional cookies keeps analytics and advertising scripts off. Use the Cookie settings control to withdraw or change your choice.</p>
         <h2 className="font-serif text-xl font-bold text-charcoal mt-6">Affiliate Links</h2>
-        <p>This site contains affiliate links to Amazon.com. When you click these links and make a purchase, we may earn a commission at no additional cost to you. As an Amazon Associate I earn from qualifying purchases.</p>
+        <p>If an affiliate link is published, it is identified near the link and may earn a commission at no additional cost to the buyer. The current structured product database publishes no affiliate destination until an exact-model link is verified. As an Amazon Associate I earn from qualifying purchases.</p>
         <h2 className="font-serif text-xl font-bold text-charcoal mt-6">Advertising</h2>
         <p>Google AdSense remains disabled unless the advertising account, regional consent requirements, and site configuration are confirmed. If advertising is enabled later, it will load only after the applicable optional-cookie choice and will be subject to Google&apos;s policies and consent controls.</p>
         <h2 className="font-serif text-xl font-bold text-charcoal mt-6">Email</h2>
