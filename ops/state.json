@@ -7,12 +7,13 @@
   "affiliate_tag": "everlastin08f-20",
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
-  "last_verified_at": "2026-08-24T21:06:42Z",
-  "last_action": "Prepared verified revenue, trust, security, consent, and autonomous-operations foundation for production release",
-  "last_live_url": "https://everlasting-goods.com/",
-  "last_commit": null,
+  "last_verified_at": "2026-08-25T06:24:38Z",
+  "last_action": "Added regression-tested canonical metadata to the home page and product directory; verified both live with HTTP 200, correct canonicals, disclosure, analytics hook, sitemap inclusion, and no stale Amazon tags",
+  "last_live_url": "https://everlasting-goods.com/products",
+  "last_commit": "2d9aa674ed7cdaa550ad2aa8ffecf3fef45556d5",
   "blockers": [
     "No newsletter provider endpoint configured",
-    "Google Search Console, Analytics, AdSense, and Amazon earnings data not yet connected to the operator"
+    "Google Search Console, Analytics, AdSense, and Amazon earnings data not yet connected to the operator",
+    "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration"
   ]
 }
