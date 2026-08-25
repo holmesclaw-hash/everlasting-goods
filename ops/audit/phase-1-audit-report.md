@@ -85,6 +85,6 @@ No T1 claims exist because Daniel has not yet supplied product-specific shop not
 
 ## Deployment verification
 
-All 27 sitemap routes returned HTTP 200. All 15 database record routes and five generated category routes were present. Fifty-four quarantined legacy article URLs returned HTTP 200 with `noindex`, the evidence-review notice, and no Amazon link. Live sitemap pages contained zero Amazon search-result links, zero product-photo placeholders, and zero legacy author names. The consent-gated bundle contained `referral_visit`, `affiliate_click`, and the consent key.
+All 31 sitemap routes returned HTTP 200 with unique URLs and route-level canonicals. All 16 database record routes, five generated category routes, and the contact/privacy/terms routes were present. Fifty-four quarantined legacy article URLs returned HTTP 200 with `noindex`, the evidence-review notice, and no Amazon link. Live sitemap pages contained zero Amazon search-result links, zero product-photo placeholders, and zero legacy author names. The consent-gated bundle contained `referral_visit`, `affiliate_click`, and the consent key. Exact manufacturer manuals and parts catalogs from the independent follow-up research are registered for the reconciled records.
 
 Machine evidence: `ops/audit/deployment-verification.json`
