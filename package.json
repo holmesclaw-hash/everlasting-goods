@@ -10,6 +10,9 @@
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
     "quality": "node scripts/site-quality.mjs",
+    "data:generate": "node scripts/generate-database.mjs",
+    "digest": "node scripts/generate-weekly-digest.mjs",
+    "prebuild": "npm run data:generate",
     "verify": "npm run test && npm run quality && npm run lint && npm run typecheck && npm run build"
   },
   "dependencies": {
@@ -17,7 +20,8 @@
     "next-sitemap": "^4.2.3",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "sanitize-html": "^2.17.7"
+    "sanitize-html": "^2.17.7",
+    "sql.js": "^1.14.2"
   },
   "devDependencies": {
     "@types/node": "^20",

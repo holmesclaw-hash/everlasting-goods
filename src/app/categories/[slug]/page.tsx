@@ -1,186 +1,25 @@
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import {
-  categories,
-  getCategoryBySlug,
-  getArticlesByCategory,
-  getProductsByCategory,
-} from "@/lib/data";
-import ArticleCard from "@/components/ArticleCard";
-import ProductCard from "@/components/ProductCard";
-import AffiliateDisclosure from "@/components/AffiliateDisclosure";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
-interface PageProps {
-  params: Promise<{ slug: string }>;
-}
+import DatabaseProductCard from "@/components/DatabaseProductCard";
+import { categories } from "@/lib/data";
+import { databaseProducts } from "@/lib/product-database";
 
-export function generateStaticParams() {
-  return categories.map((cat) => ({ slug: cat.slug }));
-}
+interface PageProps { params: Promise<{ slug: string }> }
+
+export function generateStaticParams() { return categories.map((category) => ({ slug: category.slug })); }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const category = getCategoryBySlug(slug);
-  if (!category) return {};
-
-  return {
-    title: `${category.name} — Buy It For Life ${category.name} Reviews`,
-    description: category.description,
-    alternates: {
-      canonical: `https://everlasting-goods.com/categories/${category.slug}`,
-    },
-    openGraph: {
-      title: `${category.name} — Everlasting Goods`,
-      description: category.description,
-      url: `https://everlasting-goods.com/categories/${category.slug}`,
-    },
-  };
+  const slug = (await params).slug;
+  if (!categories.some((category) => category.slug === slug)) return {};
+  return { title: `${slug === "tools" ? "Tools & Shop Equipment" : "Category"} Evidence Status`, description: "Verified database status for this category.", alternates: { canonical: `https://everlasting-goods.com/categories/${slug}` }, robots: slug === "tools" ? undefined : { index: false, follow: true } };
 }
 
-export default async function CategoryPage({ params }: PageProps) {
-  const { slug } = await params;
-  const category = getCategoryBySlug(slug);
+export default async function CategoryStatusPage({ params }: PageProps) {
+  const slug = (await params).slug;
+  const category = categories.find((item) => item.slug === slug);
   if (!category) notFound();
-
-  const categoryArticles = getArticlesByCategory(slug);
-  const categoryProducts = getProductsByCategory(slug);
-
-  return (
-    <>
-      {/* Header */}
-      <section className="bg-white border-b border-cream-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="text-4xl">{category.icon}</span>
-            <div>
-              <p className="text-brown-accent text-sm font-medium uppercase tracking-wider">
-                Category
-              </p>
-              <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal">
-                {category.name}
-              </h1>
-            </div>
-          </div>
-          <p className="mt-2 text-charcoal/60 max-w-xl text-lg">
-            {category.description}
-          </p>
-          <div className="mt-5">
-            <Link
-              href="/best-bifl-products"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
-            >
-              Browse the complete BIFL hub
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Category nav */}
-      <section className="bg-white border-b border-cream-200 sticky top-16 lg:top-20 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 overflow-x-auto py-3 scrollbar-hide">
-            <Link
-              href="/blog"
-              className="flex-shrink-0 px-4 py-1.5 bg-cream-100 text-charcoal/60 text-sm font-medium rounded-full hover:bg-cream-200 transition-colors"
-            >
-              All
-            </Link>
-            {categories.map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/categories/${cat.slug}`}
-                className={`flex-shrink-0 px-4 py-1.5 text-sm font-medium rounded-full transition-colors ${
-                  cat.slug === slug
-                    ? "bg-forest-500 text-white"
-                    : "bg-cream-100 text-charcoal/60 hover:bg-cream-200"
-                }`}
-              >
-                {cat.icon} {cat.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Articles */}
-      {categoryArticles.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-          <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 md:p-6">
-            <h2 className="font-serif text-xl font-bold text-charcoal">
-              Explore this category efficiently
-            </h2>
-            <p className="mt-2 text-sm leading-relaxed text-charcoal/60 max-w-2xl">
-              Start with the guides below, then use the full BIFL hub to branch into adjacent categories and comparison pieces.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <Link
-                href="/best-bifl-products"
-                className="inline-flex items-center rounded-full bg-forest-500 px-4 py-2 text-sm font-medium text-white hover:bg-forest-600 transition-colors"
-              >
-                Open the BIFL hub
-              </Link>
-              <Link
-                href="/blog"
-                className="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-charcoal/70 hover:bg-cream-200 transition-colors border border-cream-200"
-              >
-                Browse all articles
-              </Link>
-            </div>
-          </div>
-
-          <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal mb-8">
-            {category.name} Articles
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {categoryArticles.map((article) => (
-              <ArticleCard key={article.slug} article={article} />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Products */}
-      {categoryProducts.length > 0 && (
-        <section className="bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-            <h2 className="font-serif text-2xl md:text-3xl font-bold text-charcoal mb-8">
-              {category.name} Products
-            </h2>
-            <AffiliateDisclosure />
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {categoryProducts.map((product) => (
-                <ProductCard key={product.slug} product={product} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Empty state */}
-      {categoryArticles.length === 0 && categoryProducts.length === 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <p className="text-4xl mb-4">{category.icon}</p>
-          <h2 className="font-serif text-2xl font-bold text-charcoal">
-            Coming Soon
-          </h2>
-          <p className="mt-2 text-charcoal/60">
-            We&apos;re working on reviews for {category.name.toLowerCase()} products. Check back soon!
-          </p>
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-1.5 mt-6 text-sm font-medium text-forest-500 hover:text-forest-600 transition-colors"
-          >
-            Browse all articles
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-        </section>
-      )}
-    </>
-  );
+  const products = slug === "tools" ? databaseProducts : [];
+  return <><section className="border-b border-cream-200 bg-white"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8"><p className="text-sm font-semibold uppercase tracking-wider text-brown-accent">Category evidence status</p><h1 className="mt-3 font-serif text-5xl font-bold text-charcoal">{slug === "tools" ? "Tools & shop equipment" : category.name}</h1><p className="mt-4 max-w-3xl text-lg text-charcoal/60">{products.length ? `${products.length} manufacturer-documented records are published below.` : "No product record in this category has reached publishable evidence status. Legacy guides remain quarantined."}</p></div></section>{products.length ? <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8"><div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">{products.map((product) => <DatabaseProductCard key={product.slug} product={product} />)}</div></section> : <section className="mx-auto max-w-3xl px-4 py-20 text-center"><Link href="/database" className="rounded-xl bg-forest-500 px-6 py-3 font-semibold text-white hover:bg-forest-600">Browse verified tools</Link></section>}</>;
 }

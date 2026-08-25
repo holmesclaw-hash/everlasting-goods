@@ -3,7 +3,9 @@ import test from "node:test";
 
 import {
   affiliateClickEvent,
+  classifyReferral,
   isAmazonAffiliateUrl,
+  referralVisitEvent,
   trackAffiliateClick,
 } from "../src/lib/analytics.mjs";
 
@@ -56,4 +58,23 @@ test("dispatches the affiliate event through the supplied GA4 function", () => {
       page_path: "/products",
     },
   ]]);
+});
+
+test("classifies LLM, organic, direct, and other referrals without guessing", () => {
+  assert.equal(classifyReferral("https://chatgpt.com/c/abc"), "llm");
+  assert.equal(classifyReferral("https://perplexity.ai/search/test"), "llm");
+  assert.equal(classifyReferral("https://www.google.com/search?q=repairability"), "organic");
+  assert.equal(classifyReferral(""), "direct");
+  assert.equal(classifyReferral("https://example.com/link"), "referral");
+});
+
+test("builds a referral visit event with source class and host", () => {
+  assert.deepEqual(referralVisitEvent("https://claude.ai/chat/123", "/database/test"), {
+    eventName: "referral_visit",
+    parameters: {
+      referral_class: "llm",
+      referral_host: "claude.ai",
+      page_path: "/database/test",
+    },
+  });
 });

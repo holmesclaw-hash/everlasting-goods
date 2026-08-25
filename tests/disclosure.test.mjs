@@ -19,7 +19,7 @@ async function pageFiles(directory) {
   return files;
 }
 
-test("every ProductCard route renders the required disclosure before its first product link", async () => {
+test("commercial product routes disclose before links or publish no affiliate destinations", async () => {
   const disclosureSource = await readFile(disclosurePath, "utf8").catch(() => "");
   assert.ok(disclosureSource.includes(requiredStatement), "reusable disclosure must contain the required Amazon statement");
 
@@ -29,7 +29,13 @@ test("every ProductCard route renders the required disclosure before its first p
     if (source.includes("import ProductCard")) productRoutes.push([pagePath, source]);
   }
 
-  assert.ok(productRoutes.length > 0, "expected at least one ProductCard route");
+  if (productRoutes.length === 0) {
+    const generated = JSON.parse(await readFile(path.join(repoRoot, "src", "generated", "database.json"), "utf8"));
+    const affiliateLinks = generated.products.flatMap((product) => product.affiliate_links);
+    assert.deepEqual(affiliateLinks, [], "routes without the disclosure component must publish no affiliate destinations");
+    return;
+  }
+
   for (const [pagePath, source] of productRoutes) {
     const disclosureIndex = source.indexOf("<AffiliateDisclosure");
     const firstProductCardIndex = source.indexOf("<ProductCard");

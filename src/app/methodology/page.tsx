@@ -1,73 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Review Methodology and Editorial Standards",
-  description:
-    "How Everlasting Goods researches durable products, handles evidence and AI assistance, discloses affiliate relationships, and corrects errors.",
-  alternates: {
-    canonical: "https://everlasting-goods.com/methodology",
-  },
-};
+export const metadata: Metadata = { title: "Evidence & Database Methodology", description: "Evidence tiers, field-level citations, freshness rules, authorship, and correction policy for the Everlasting Goods database.", alternates: { canonical: "https://everlasting-goods.com/methodology" } };
+
+const tiers = [
+  ["T1 — First-party", "A dated note or media record supplied by Daniel or the shop. Hermes cannot create or extend T1 evidence."],
+  ["T2 — Manufacturer documentation", "An official product page, manual, warranty document, parts catalog, or manufacturer support page with retrieval date."],
+  ["T3 — Corroborated owner reports", "At least three independent cited sources support the same claim. Each source remains attached to the field."],
+  ["T4 — Not yet verified", "The field is not published as fact. The visible value remains “Not yet verified.”"],
+] as const;
 
 export default function MethodologyPage() {
-  return (
-    <main className="max-w-3xl mx-auto px-4 py-16">
-      <p className="text-sm font-medium uppercase tracking-wider text-brown-accent">
-        Editorial standards
-      </p>
-      <h1 className="mt-3 font-serif text-3xl md:text-4xl font-bold text-charcoal">
-        How We Research Buy It For Life Products
-      </h1>
-      <p className="mt-4 text-charcoal/60 leading-relaxed">
-        Everlasting Goods publishes evidence-led buying guides under the Everlasting Goods Editorial Team.
-        We do not invent human authors, ownership stories, laboratory results, or years of personal use.
-      </p>
-
-      <div className="mt-10 prose prose-neutral max-w-none text-charcoal/70">
-        <h2>What we evaluate</h2>
-        <p>
-          We prioritize materials and construction, common failure modes, repairability, replacement parts,
-          warranty terms, maintenance requirements, manufacturer documentation, and credible long-term owner reports.
-          A product does not qualify merely because it is expensive, popular, or marketed as sustainable.
-        </p>
-
-        <h2>Evidence hierarchy</h2>
-        <ol>
-          <li>Primary manufacturer specifications, manuals, warranty terms, and repair documentation.</li>
-          <li>Independent technical or professional sources that identify the exact product or model.</li>
-          <li>Consistent long-term owner reports, clearly described as owner reports rather than controlled tests.</li>
-          <li>Editorial judgment that explains its assumptions and limitations.</li>
-        </ol>
-
-        <h2>Hands-on testing</h2>
-        <p>
-          We use terms such as “tested,” “used,” or “owned” only when a dated record identifies the tester,
-          exact product, method, duration, and results. If that evidence does not exist, the article uses research
-          language and says what kind of evidence supports the recommendation.
-        </p>
-
-        <h2>AI assistance</h2>
-        <p>
-          Automated tools may assist with research organization, drafting, link maintenance, and quality checks.
-          They may not fabricate experience or evidence. Every publishable change must pass automated tests for
-          affiliate attribution, deceptive claims, editorial identity, and build integrity.
-        </p>
-
-        <h2>Affiliate relationships</h2>
-        <p>
-          Some links earn a commission at no extra cost to the buyer. Commission availability does not decide rankings.
-          We prefer exact product destinations and remove stale prices or ratings when no approved current data source exists.
-          As an Amazon Associate I earn from qualifying purchases.
-        </p>
-
-        <h2>Corrections and updates</h2>
-        <p>
-          Products, warranty terms, and parts support change. If you find an error, send the exact page, product,
-          and correction evidence through our <Link href="/contact">contact page</Link>. We correct material errors
-          and record substantive updates in the site&apos;s version history.
-        </p>
-      </div>
-    </main>
-  );
+  return <main className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8"><p className="text-sm font-semibold uppercase tracking-wider text-brown-accent">Methodology</p><h1 className="mt-4 font-serif text-5xl font-bold text-charcoal">Evidence lives with the field.</h1><p className="mt-6 text-xl leading-relaxed text-charcoal/65">The tracked SQLite database is the factual source. Pages, comparisons, freshness queues, and structured data are generated from it. A claim that exists only in prose is a defect.</p><section className="mt-12"><h2 className="font-serif text-3xl font-bold text-charcoal">Evidence tiers</h2><div className="mt-6 space-y-4">{tiers.map(([name, description]) => <div key={name} className="rounded-2xl border border-cream-200 bg-white p-6"><h3 className="font-serif text-xl font-bold text-charcoal">{name}</h3><p className="mt-2 text-charcoal/65">{description}</p></div>)}</div></section><section className="mt-12 grid gap-6 md:grid-cols-2"><div className="rounded-2xl bg-cream-100 p-7"><h2 className="font-serif text-2xl font-bold text-charcoal">Freshness</h2><p className="mt-3 text-charcoal/65">Price fields re-enter verification after 30 days. Warranty and parts fields re-enter after 180 days. Pages display the verification and stale-after dates.</p></div><div className="rounded-2xl bg-cream-100 p-7"><h2 className="font-serif text-2xl font-bold text-charcoal">Economics</h2><p className="mt-3 text-charcoal/65">Cost per year is calculated only when both price and expected service life are verified: (price ÷ service life) + annual maintenance.</p></div><div className="rounded-2xl bg-cream-100 p-7"><h2 className="font-serif text-2xl font-bold text-charcoal">Authorship</h2><p className="mt-3 text-charcoal/65">The public author is Everlasting Goods Editorial Team. Testing, ownership, and repair history appear only as attributed T1 evidence.</p></div><div className="rounded-2xl bg-cream-100 p-7"><h2 className="font-serif text-2xl font-bold text-charcoal">Commercial links</h2><p className="mt-3 text-charcoal/65">Only exact-model affiliate destinations are eligible. Search-result destinations, stale ratings, and undated prices are not published.</p></div></section><section className="mt-12 rounded-2xl border border-forest-500/15 bg-forest-500/5 p-8"><h2 className="font-serif text-2xl font-bold text-charcoal">Corrections</h2><p className="mt-3 text-charcoal/65">Send the exact URL, field, and source through the <Link href="/contact" className="font-semibold text-forest-600 underline">contact page</Link>. Material changes are recorded in git and update the field verification date only after the source is retrieved.</p></section></main>;
 }

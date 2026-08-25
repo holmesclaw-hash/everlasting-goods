@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AffiliateClickTracker from "@/components/AffiliateClickTracker";
+import ReferralTracker from "@/components/ReferralTracker";
 import ConsentManager from "@/components/ConsentManager";
 
 const playfair = Playfair_Display({
@@ -21,41 +22,41 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://everlasting-goods.com"),
   title: {
-    default: "Everlasting Goods — Buy It For Life Product Reviews",
+    default: "Everlasting Goods — Repairability & Durability Database",
     template: "%s | Everlasting Goods",
   },
   description:
-    "Evidence-led guides to durable, long-lasting products worth buying once. Quality gear that outlasts trends — kitchen, EDC, outdoor, clothing, tools & home.",
+    "Evidence-tiered manufacturer documentation for repairability, warranty, parts support, serviceability, and true-cost analysis.",
   keywords: [
-    "buy it for life",
-    "BIFL",
-    "durable products",
-    "product reviews",
-    "long lasting",
-    "quality gear",
+    "repairability database",
+    "durable tools",
+    "parts availability",
+    "product warranty",
+    "cost per year",
+    "repair or replace",
   ],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://everlasting-goods.com",
     siteName: "Everlasting Goods",
-    title: "Everlasting Goods — Buy It For Life Product Reviews",
+    title: "Everlasting Goods — Repairability & Durability Database",
     description:
-      "Evidence-led guides to durable, long-lasting products worth buying once. Quality gear that outlasts trends.",
+      "Manufacturer-sourced product records with evidence tiers, verification dates, and explicit unknowns.",
     images: [
       {
         url: "/images/og-default.png",
         width: 1200,
         height: 630,
-        alt: "Everlasting Goods",
+        alt: "Everlasting Goods repairability database",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Everlasting Goods — Buy It For Life Product Reviews",
+    title: "Everlasting Goods — Repairability Database",
     description:
-      "Evidence-led guides to durable, long-lasting products worth buying once.",
+      "Evidence-tiered product records for repairability, durability, and true cost.",
   },
   robots: {
     index: true,
@@ -78,6 +79,7 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer />
         <AffiliateClickTracker />
+        <ReferralTracker />
         <ConsentManager />
       </body>
     </html>

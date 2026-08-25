@@ -1,0 +1,3189 @@
+{
+  "schema_version": 1,
+  "database_sha256": "890383a2aed05940a624231ae50125861aa53813306b3fd9403b5b16b58a1ab0",
+  "generated_at": "2026-08-25T00:00:00.000Z",
+  "products": [
+    {
+      "id": 14,
+      "slug": "california-air-tools-8010",
+      "brand": "California Air Tools",
+      "model": "8010",
+      "sku": "8010",
+      "category": "air-compressors",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
+          "title": "California Air Tools 8010 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
+          "title": "California Air Tools 8010 official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://californiaairtools.com/contact-us",
+          "title": "California Air Tools parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://californiaairtools.com/wp-content/uploads/2026/02/CAT-WARRANTY-POLICY.pdf",
+          "title": "California Air Tools warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "1.0 HP oil-free lightweight 8-gallon air compressor",
+          "display_value": "1.0 HP oil-free lightweight 8-gallon air compressor",
+          "evidence_tier": "T2",
+          "source_url": "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See the current California Air Tools limited warranty policy PDF.",
+          "display_value": "See the current California Air Tools limited warranty policy PDF.",
+          "evidence_tier": "T2",
+          "source_url": "https://californiaairtools.com/wp-content/uploads/2026/02/CAT-WARRANTY-POLICY.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 14,
+        "parts_availability": "not-yet-verified",
+        "parts_url": "https://californiaairtools.com/contact-us",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 37,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 15,
+      "slug": "makita-mac210q",
+      "brand": "Makita",
+      "model": "MAC210Q",
+      "sku": "MAC210Q",
+      "category": "air-compressors",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/products/details/MAC210Q",
+          "title": "Makita MAC210Q official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
+          "title": "Makita MAC210Q official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
+          "title": "Makita parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Quiet Series 1 HP, 2-gallon, oil-free electric air compressor; manufacturer lists 60 dB and 135 PSI maximum pressure",
+          "display_value": "Quiet Series 1 HP, 2-gallon, oil-free electric air compressor; manufacturer lists 60 dB and 135 PSI maximum pressure",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/MAC210Q",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Makita USA warranty policy for this model.",
+          "display_value": "See current Makita USA warranty policy for this model.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 15,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 40,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 4,
+      "slug": "bosch-gsr18v-535fcb15",
+      "brand": "Bosch",
+      "model": "GSR18V-535FCB15",
+      "sku": "GSR18V-535FCB15",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "title": "Bosch GSR18V-535FCB15 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "title": "Bosch GSR18V-535FCB15 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "title": "Bosch parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "title": "Bosch warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "18V Connected-Ready FlexiClick drill/driver kit",
+          "display_value": "18V Connected-Ready FlexiClick drill/driver kit",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Bosch publishes a five-year limited warranty for 18V cordless power tools, subject to exclusions.",
+          "display_value": "Bosch publishes a five-year limited warranty for 18V cordless power tools, subject to exclusions.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 4,
+        "parts_availability": "partial",
+        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 11,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 1,
+      "slug": "dewalt-dcd800d1e1",
+      "brand": "DEWALT",
+      "model": "DCD800D1E1",
+      "sku": "DCD800D1E1",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+          "title": "DEWALT DCD800D1E1 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+          "title": "DEWALT DCD800D1E1 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.dewalt.com/service-center",
+          "title": "DEWALT parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "20V MAX XR brushless cordless 1/2-inch drill/driver kit",
+          "display_value": "20V MAX XR brushless cordless 1/2-inch drill/driver kit",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/service-center",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Manufacturer publishes general warranty terms; exact package eligibility should be checked at purchase.",
+          "display_value": "Manufacturer publishes general warranty terms; exact package eligibility should be checked at purchase.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 1,
+        "parts_availability": "partial",
+        "parts_url": "https://www.dewalt.com/service-center",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 3,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 3,
+      "slug": "makita-xfd14z",
+      "brand": "Makita",
+      "model": "XFD14Z",
+      "sku": "XFD14Z",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/products/details/XFD14Z",
+          "title": "Makita XFD14Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/XFD14Z",
+          "title": "Makita XFD14Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/XFD14Z",
+          "title": "Makita XFD14Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "18V LXT brushless 1/2-inch driver-drill, tool only",
+          "display_value": "18V LXT brushless 1/2-inch driver-drill, tool only",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Makita USA warranty policy for this model.",
+          "display_value": "See current Makita USA warranty policy for this model.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 3,
+        "parts_availability": "partial",
+        "parts_url": "https://www.makitatools.com/products/details/XFD14Z",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.makitatools.com/products/details/XFD14Z",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 7,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 2,
+      "slug": "milwaukee-2904-20",
+      "brand": "Milwaukee",
+      "model": "2904-20",
+      "sku": "2904-20",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "title": "Milwaukee 2904-20 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "title": "Milwaukee 2904-20 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/support",
+          "title": "Milwaukee parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+          "title": "Milwaukee warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "M18 FUEL 1/2-inch Hammer Drill/Driver",
+          "display_value": "M18 FUEL 1/2-inch Hammer Drill/Driver",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/support",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Manufacturer publishes a five-year limited power-tool warranty subject to listed exceptions.",
+          "display_value": "Manufacturer publishes a five-year limited power-tool warranty subject to listed exceptions.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 2,
+        "parts_availability": "partial",
+        "parts_url": "https://www.milwaukeetool.com/support",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 6,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 12,
+      "slug": "fein-turbo-i",
+      "brand": "FEIN",
+      "model": "Turbo I",
+      "sku": "9 20 35 236 09 0",
+      "category": "dust-extractors",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
+          "title": "FEIN Turbo I official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+          "title": "FEIN Turbo I official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://fein.com/en/service/",
+          "title": "FEIN parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://fein.com/en/service/3-year-fein-plus-warranty/",
+          "title": "FEIN warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Wet/dry dust extractor with power-tool connection",
+          "display_value": "Wet/dry dust extractor with power-tool connection",
+          "evidence_tier": "T2",
+          "source_url": "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://fein.com/en/service/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "FEIN publishes a three-year PLUS warranty program; registration and conditions apply.",
+          "display_value": "FEIN publishes a three-year PLUS warranty program; registration and conditions apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://fein.com/en/service/3-year-fein-plus-warranty/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 12,
+        "parts_availability": "partial",
+        "parts_url": "https://fein.com/en/service/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 30,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 11,
+      "slug": "festool-ct-26-ei-hepa",
+      "brand": "Festool",
+      "model": "CT 26 EI HEPA",
+      "sku": "577871",
+      "category": "dust-extractors",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
+          "title": "Festool CT 26 EI HEPA official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.festoolusa.com/service/downloads",
+          "title": "Festool CT 26 EI HEPA official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.festoolusa.com/service/repair-service",
+          "title": "Festool parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.festoolusa.com/knowledge/faqs/faq-warranty-all-inclusive",
+          "title": "Festool warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "CT 26 EI HEPA CLEANTEC dust extractor",
+          "display_value": "CT 26 EI HEPA CLEANTEC dust extractor",
+          "evidence_tier": "T2",
+          "source_url": "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.festoolusa.com/service/repair-service",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.festoolusa.com/service/downloads",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Warranty All-Inclusive terms are published by Festool; registration and eligibility conditions apply.",
+          "display_value": "Warranty All-Inclusive terms are published by Festool; registration and eligibility conditions apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.festoolusa.com/knowledge/faqs/faq-warranty-all-inclusive",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 11,
+        "parts_availability": "partial",
+        "parts_url": "https://www.festoolusa.com/service/repair-service",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.festoolusa.com/service/downloads",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 26,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 13,
+      "slug": "makita-vc4210l",
+      "brand": "Makita",
+      "model": "VC4210L",
+      "sku": "VC4210L",
+      "category": "dust-extractors",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/products/details/VC4210L",
+          "title": "Makita VC4210L official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
+          "title": "Makita VC4210L official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
+          "title": "Makita parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "11-gallon wet/dry HEPA filter dust extractor/vacuum, AWS capable",
+          "display_value": "11-gallon wet/dry HEPA filter dust extractor/vacuum, AWS capable",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/VC4210L",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Makita USA warranty policy for this model.",
+          "display_value": "See current Makita USA warranty policy for this model.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 13,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 33,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 9,
+      "slug": "bosch-1617evspk",
+      "brand": "Bosch",
+      "model": "1617EVSPK",
+      "sku": "1617EVSPK",
+      "category": "routers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
+          "title": "Bosch 1617EVSPK official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
+          "title": "Bosch 1617EVSPK official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "title": "Bosch parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "title": "Bosch warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "2.25 HP variable-speed router combo kit",
+          "display_value": "2.25 HP variable-speed router combo kit",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Bosch warranty policy for corded power tools.",
+          "display_value": "See current Bosch warranty policy for corded power tools.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 9,
+        "parts_availability": "partial",
+        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 11,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 10,
+      "slug": "dewalt-dcw600b",
+      "brand": "DEWALT",
+      "model": "DCW600B",
+      "sku": "DCW600B",
+      "category": "routers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+          "title": "DEWALT DCW600B official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+          "title": "DEWALT DCW600B official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.dewalt.com/service-center",
+          "title": "DEWALT parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "20V MAX XR brushless cordless router, tool only",
+          "display_value": "20V MAX XR brushless cordless router, tool only",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/service-center",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "display_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 10,
+        "parts_availability": "partial",
+        "parts_url": "https://www.dewalt.com/service-center",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 3,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 8,
+      "slug": "makita-rt0701c",
+      "brand": "Makita",
+      "model": "RT0701C",
+      "sku": "RT0701C",
+      "category": "routers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/products/details/RT0701C",
+          "title": "Makita RT0701C official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/RT0701C",
+          "title": "Makita RT0701C official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/RT0701C",
+          "title": "Makita RT0701C official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "1-1/4 HP compact router",
+          "display_value": "1-1/4 HP compact router",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/RT0701C",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/RT0701C",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/RT0701C",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Makita USA warranty policy for this model.",
+          "display_value": "See current Makita USA warranty policy for this model.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 8,
+        "parts_availability": "partial",
+        "parts_url": "https://www.makitatools.com/products/details/RT0701C",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.makitatools.com/products/details/RT0701C",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 19,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 7,
+      "slug": "bosch-4100xc-10",
+      "brand": "Bosch",
+      "model": "4100XC-10",
+      "sku": "4100XC-10",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+          "title": "Bosch 4100XC-10 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+          "title": "Bosch 4100XC-10 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "title": "Bosch parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "title": "Bosch warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "10-inch worksite table saw with Gravity-Rise wheeled stand",
+          "display_value": "10-inch worksite table saw with Gravity-Rise wheeled stand",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "See current Bosch warranty policy for corded benchtop tools.",
+          "display_value": "See current Bosch warranty policy for corded benchtop tools.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 7,
+        "parts_availability": "partial",
+        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 11,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 6,
+      "slug": "dewalt-dwe7491rs",
+      "brand": "DEWALT",
+      "model": "DWE7491RS",
+      "sku": "DWE7491RS",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
+          "title": "DEWALT DWE7491RS official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+          "title": "DEWALT DWE7491RS official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.dewalt.com/service-center",
+          "title": "DEWALT parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity",
+          "display_value": "10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/service-center",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "display_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 6,
+        "parts_availability": "partial",
+        "parts_url": "https://www.dewalt.com/service-center",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 3,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 5,
+      "slug": "sawstop-pcs31230-tgp236",
+      "brand": "SawStop",
+      "model": "PCS31230-TGP236",
+      "sku": "PCS31230-TGP236",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",
+          "title": "SawStop PCS31230-TGP236 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
+          "title": "SawStop PCS31230-TGP236 official manual or downloads",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://www.sawstop.com/support/",
+          "title": "SawStop parts or service support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.sawstop.com/support/warranty-information/",
+          "title": "SawStop warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "10-inch Professional Cabinet Saw, 3 HP, 36-inch T-Glide fence system",
+          "display_value": "10-inch Professional Cabinet Saw, 3 HP, 36-inch T-Glide fence system",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official parts or service support is linked.",
+          "display_value": "Partial: official parts or service support is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/support/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official manual or downloads are linked.",
+          "display_value": "Official manual or downloads are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Two-year limited warranty for a new Professional Cabinet Saw purchased from an authorized distributor.",
+          "display_value": "Two-year limited warranty for a new Professional Cabinet Saw purchased from an authorized distributor.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/support/warranty-information/",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 5,
+        "parts_availability": "partial",
+        "parts_url": "https://www.sawstop.com/support/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 15,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    }
+  ],
+  "freshness_queue": [
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-4100xc-10",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "california-air-tools-8010",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    }
+  ]
+}
