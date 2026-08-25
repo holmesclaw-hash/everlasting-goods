@@ -1,0 +1,25 @@
+{
+  "retrieved_date": "2026-08-25",
+  "sitemap_pages": 66,
+  "by_type": {
+    "static": 3,
+    "hub": 2,
+    "hub_product_directory": 1,
+    "article": 54,
+    "hub_category": 6
+  },
+  "claim_rows": 929,
+  "claim_classes": {
+    "warranty": 277,
+    "specification": 284,
+    "price": 307,
+    "testing_experience": 6,
+    "rating_score": 1,
+    "author_identity": 54
+  },
+  "amazon_links": 493,
+  "amazon_search_links": 239,
+  "photo_placeholders": 5,
+  "disclosure_failures": 0,
+  "http_failures": 0
+}
