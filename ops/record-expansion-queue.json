@@ -1,0 +1,1267 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-25",
+  "current_published_records": 16,
+  "target_total_records": 100,
+  "candidate_count": 84,
+  "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
+  "candidates": [
+    {
+      "brand": "DEWALT",
+      "model": "DCD794",
+      "sku": "DCD794B",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dcd794b/20v-max-atomic-brushless-cordless-12-drilldriver-tool-only",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact drill-driver model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DCD793",
+      "sku": "DCD793B",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dcd793b/20v-max-brushless-cordless-12-drilldriver-tool-only",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact drill-driver model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DCD801",
+      "sku": "DCD801B",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dcd801b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact drill-driver model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "2803-20",
+      "sku": "2803-20",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-drill-driver-tool-only/2803-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "2903-20",
+      "sku": "2903-20",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-drill-driver/2903-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "3601-20",
+      "sku": "3601-20",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "3403-20",
+      "sku": "3403-20",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m12-fuel-1-2-drill-driver/3403-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "2505-20",
+      "sku": "2505-20",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m12-fuel-installation-drill-driver-tool-only/2505-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "XFD15ZB",
+      "sku": "XFD15ZB",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.makitatools.com/products/details/XFD15ZB",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact drill-driver model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "XFD16Z",
+      "sku": "XFD16Z",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.makitatools.com/products/details/XFD16Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact drill-driver model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "GFD01Z",
+      "sku": "GFD01Z",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.makitatools.com/products/details/GFD01Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact drill-driver model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GSR18V-400B22",
+      "sku": "06019K3219",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gsr18v-400b22-06019K3219",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact drill-driver model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GSR18V-800CN",
+      "sku": "06019K6010",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gsr18v-800cn-06019K6010",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact drill-driver model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GSR18V-535CN",
+      "sku": "06019G1118",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gsr18v-535cn-06019G1118",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch page identifies order number 06019G1118 as GSR18V-535CN; it is a different exact SKU from the excluded GSR18V-535FCB15, and Bosch provides official warranty evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GSR18V-400B12",
+      "sku": "06019K3218",
+      "category": "drill-drivers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gsr18v-400b12-06019K3218",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact drill-driver model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DWP611",
+      "sku": "DWP611",
+      "category": "routers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dwp611/1-14-hp-max-torque-variable-speed-compact-router",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact router model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DW618PKB",
+      "sku": "DW618PKB",
+      "category": "routers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dw618pkb/2-14-hp-max-motor-hp-evs-fixed-baseplunge-router-combo-kit-soft-start",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact router model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DW616",
+      "sku": "DW616",
+      "category": "routers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dw616/1-34-hp-fixed-base-router-11-amp",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact router model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DCW620",
+      "sku": "DCW620B",
+      "category": "routers",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dcw620b/20v-max-xr-2-14-peak-hp-plunge-router-tool-only",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty",
+        "https://assets.dewalt.com/GLOBALBOM/QU/DCW620B/1/Instruction_Manual/EN/NA322395_DCW620__T1_NA.pdf"
+      ],
+      "reason": "The official DEWALT product page identifies DCW620B as the exact plunge-router SKU and links its model-specific official instruction manual.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "XTR01Z",
+      "sku": "XTR01Z",
+      "category": "routers",
+      "official_product_url": "https://www.makitatools.com/products/details/XTR01Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact router model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "GTR01Z",
+      "sku": "GTR01Z",
+      "category": "routers",
+      "official_product_url": "https://www.makitatools.com/products/details/GTR01Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact router model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "RP2301FC",
+      "sku": "RP2301FC",
+      "category": "routers",
+      "official_product_url": "https://www.makitatools.com/products/details/RP2301FC",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact router model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "RF1101",
+      "sku": "RF1101",
+      "category": "routers",
+      "official_product_url": "https://www.makitatools.com/products/details/RF1101",
+      "evidence_urls": [
+        "https://www.makitatools.com/service/warranty"
+      ],
+      "reason": "The official Makita product page identifies this exact router model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "MRC23EVSK",
+      "sku": "0601624012",
+      "category": "routers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/mrc23evsk-0601624012",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "PR20EVS",
+      "sku": "060160A71A",
+      "category": "routers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/pr20evs-060160A71A",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "1617EVS",
+      "sku": "0601617763",
+      "category": "routers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/1617evs-0601617763",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GKF125CEN",
+      "sku": "0601628010",
+      "category": "routers",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gkf125cen-0601628010",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty"
+      ],
+      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Festool",
+      "model": "OF 1010 REBQ-Plus",
+      "sku": "574339",
+      "category": "routers",
+      "official_product_url": "https://www.festoolusa.com/products/routing/routers/574339---of-1010-eq-plus-usa",
+      "evidence_urls": [
+        "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions"
+      ],
+      "reason": "The official Festool product page identifies this exact router model/SKU, and the official Festool warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Festool",
+      "model": "OF 1400 EQ-F-Plus",
+      "sku": "576213",
+      "category": "routers",
+      "official_product_url": "https://www.festoolusa.com/products/routing/routers/576213---of-1400-eq-f-plus-us",
+      "evidence_urls": [
+        "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions"
+      ],
+      "reason": "The official Festool product page identifies this exact router model/SKU, and the official Festool warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Festool",
+      "model": "OF 2200 EB-F-Plus",
+      "sku": "574689",
+      "category": "routers",
+      "official_product_url": "https://www.festoolusa.com/products/routing/routers/574689---of-2200-eb-f-plus-usa",
+      "evidence_urls": [
+        "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions"
+      ],
+      "reason": "The official Festool product page identifies this exact router model/SKU, and the official Festool warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DWE7485",
+      "sku": "DWE7485",
+      "category": "table-saws",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dwe7485/15-amp-8-14-compact-portable-jobsite-table-saw",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact table-saw model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "DEWALT",
+      "model": "DCS7485",
+      "sku": "DCS7485B",
+      "category": "table-saws",
+      "official_product_url": "https://www.dewalt.com/en-us/product/dcs7485b/60v-max-table-saw-tool-only",
+      "evidence_urls": [
+        "https://www.dewalt.com/en-us/support/warranty"
+      ],
+      "reason": "The official DEWALT product page identifies this exact table-saw model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Milwaukee",
+      "model": "2736-20",
+      "sku": "2736-20",
+      "category": "table-saws",
+      "official_product_url": "https://www.milwaukeetool.com/products/details/m18-fuel-8-1-4-table-saw-w-one-key/2736-20",
+      "evidence_urls": [
+        "https://www.milwaukeetool.com/support/registration-and-warranty"
+      ],
+      "reason": "The official Milwaukee product page identifies this exact table-saw model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Bosch",
+      "model": "GTS15-10",
+      "sku": "0601B54013",
+      "category": "table-saws",
+      "official_product_url": "https://www.boschtools.com/us/en/products/gts15-10-0601B54013",
+      "evidence_urls": [
+        "https://www.boschtools.com/us/en/service/product-warranty",
+        "https://ocsmedia.boschtools.com/binary/manualsmedia/o255240v2_1609B07797_GTS1510_Table_Saw_OSI_20230420.pdf"
+      ],
+      "reason": "The official Bosch product page identifies order number 0601B54013 as GTS15-10, and Bosch publishes an exact-model instruction manual.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "SawStop",
+      "model": "Contractor Saw",
+      "sku": "CNS175-TGP236",
+      "category": "table-saws",
+      "official_product_url": "https://www.sawstop.com/product/contractor-saw-cns175-tgp236",
+      "evidence_urls": [
+        "https://www.sawstop.com/support/warranty-information/"
+      ],
+      "reason": "The official SawStop product page identifies this exact table-saw configuration/SKU, and the official SawStop warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "SawStop",
+      "model": "Professional Cabinet Saw",
+      "sku": "PCS175-PFA30",
+      "category": "table-saws",
+      "official_product_url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs175-pfa30",
+      "evidence_urls": [
+        "https://www.sawstop.com/support/warranty-information/"
+      ],
+      "reason": "The official SawStop product page identifies this exact table-saw configuration/SKU, and the official SawStop warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "SawStop",
+      "model": "Compact Table Saw",
+      "sku": "CTS-120A60",
+      "category": "table-saws",
+      "official_product_url": "https://www.sawstop.com/product/compact-table-saw",
+      "evidence_urls": [
+        "https://www.sawstop.com/support/warranty-information/"
+      ],
+      "reason": "The official SawStop product page identifies CTS-120A60 as the Compact Table Saw and states its warranty coverage; SawStop's official warranty page provides additional support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "SawStop",
+      "model": "Jobsite Saw Pro",
+      "sku": "JSS-120A60",
+      "category": "table-saws",
+      "official_product_url": "https://www.sawstop.com/product/jobsite-saw-pro-jss-120a60",
+      "evidence_urls": [
+        "https://www.sawstop.com/support/warranty-information/"
+      ],
+      "reason": "The official SawStop product page identifies this exact table-saw model/SKU, and the official SawStop warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "SawStop",
+      "model": "Industrial Cabinet Saw",
+      "sku": "ICS51230-52",
+      "category": "table-saws",
+      "official_product_url": "https://www.sawstop.com/product/industrial-cabinet-saw-ics51230-tgi252",
+      "evidence_urls": [
+        "https://www.sawstop.com/support/warranty-information/"
+      ],
+      "reason": "The official SawStop product page resolves to and identifies the ICS51230-52 Industrial Cabinet Saw configuration; SawStop's official warranty page provides support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Metabo HPT",
+      "model": "C10RJS",
+      "sku": "C10RJS",
+      "category": "table-saws",
+      "official_product_url": "https://metabo-hpt.com/products/product/c10rjs-10-jobsite-table-saw-w-fold-roll-stand-metabo-hpt",
+      "evidence_urls": [
+        "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty"
+      ],
+      "reason": "The official Metabo HPT product page identifies this exact table-saw model/SKU, and the official Metabo HPT warranty page provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "G0771Z",
+      "sku": "G0771Z",
+      "category": "table-saws",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-10-2-hp-120v-hybrid-table-saw-w-t-shaped-fence/g0771z",
+      "evidence_urls": [
+        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty"
+      ],
+      "reason": "The official Grizzly product page identifies this exact table-saw model/SKU, and Grizzly's official support site provides warranty evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "G0899",
+      "sku": "G0899",
+      "category": "table-saws",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
+      "evidence_urls": [
+        "https://www.grizzly.com/products/g0899/parts",
+        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty"
+      ],
+      "reason": "The official Grizzly product page identifies G0899 as the exact cabinet-saw model/SKU, and Grizzly provides an exact-model parts page plus official warranty evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "18V LXT Brushless 2 Gallon HEPA Filter Portable Wet/Dry Dust Extractor/Vacuum, Tool Only",
+      "sku": "XCV11Z",
+      "category": "dust extractor",
+      "official_product_url": "https://www.makitatools.com/products/details/XCV11Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita's model-specific product page identifies XCV11Z as a portable HEPA wet/dry dust extractor, and Makita publishes manufacturer warranty support for its products.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "36V (18V X2) LXT/Corded 2.1 Gallon HEPA Filter Dry Dust Extractor/Vacuum, Tool Only",
+      "sku": "XCV04Z",
+      "category": "dust extractor",
+      "official_product_url": "https://www.makitatools.com/products/details/XCV04Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita's exact-SKU page documents a corded/cordless HEPA dust extractor configuration and is backed by the manufacturer's warranty page.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "36V (18V X2) LXT Brushless 2.1 Gallon HEPA Filter Dry Dust Extractor/Vacuum with AWS, Kit",
+      "sku": "XCV22PTU",
+      "category": "dust extractor",
+      "official_product_url": "https://www.makitatools.com/products/details/XCV22PTU",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The official product page identifies the complete XCV22PTU kit and its HEPA dust-extraction application; Makita's official warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "36V (18V X2) LXT Brushless 4 Gallon Wet/Dry Dust Extractor/Vacuum, Tool Only",
+      "sku": "XCV23Z",
+      "category": "dust extractor",
+      "official_product_url": "https://www.makitatools.com/products/details/XCV23Z",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita publishes a dedicated exact-SKU page for this four-gallon wet/dry extractor and an official warranty applicable to Makita products.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "36V (18V X2) LXT Brushless 4 Gallon HEPA Filter Dry Dust Extractor, Tool Only",
+      "sku": "XCV24ZX",
+      "category": "dust extractor",
+      "official_product_url": "https://www.makitatools.com/products/details/XCV24ZX",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The manufacturer page identifies XCV24ZX as a four-gallon HEPA dry dust extractor, while Makita's official warranty provides support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "2.5 HP Big Bore Air Compressor",
+      "sku": "MAC2400",
+      "category": "air compressor",
+      "official_product_url": "https://www.makitatools.com/products/details/MAC2400",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita's exact-model page describes the MAC2400 compressor and its jobsite-oriented configuration; the official warranty page establishes manufacturer support.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "3.0 HP Big Bore Air Compressor",
+      "sku": "MAC5200",
+      "category": "air compressor",
+      "official_product_url": "https://www.makitatools.com/products/details/MAC5200",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The official manufacturer page identifies the MAC5200 as a wheeled Big Bore air compressor, with support evidence supplied by Makita's warranty page.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "Quiet Series 1-1/2 HP, 3 Gallon, Oil-Free Electric Air Compressor",
+      "sku": "MAC320Q",
+      "category": "air compressor",
+      "official_product_url": "https://www.makitatools.com/products/details/MAC320Q",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita maintains a model-specific page for this three-gallon oil-free shop compressor and an official manufacturer warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "2.0 HP Big Bore Air Compressor",
+      "sku": "MAC700",
+      "category": "air compressor",
+      "official_product_url": "https://www.makitatools.com/products/details/MAC700",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The official product page verifies the MAC700 model identity and compressor category; Makita's warranty page supplies manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "Quiet Series 1/2 HP, 1 Gallon Compact, Oil-Free Electric Air Compressor",
+      "sku": "MAC100Q",
+      "category": "air compressor",
+      "official_product_url": "https://www.makitatools.com/products/details/MAC100Q",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita's exact-SKU page documents this compact oil-free compressor, and the official warranty page provides a manufacturer support path.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "8-1/2-Inch Slide Compound Miter Saw",
+      "sku": "LS0816F",
+      "category": "miter saw",
+      "official_product_url": "https://www.makitatools.com/products/details/LS0816F",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The manufacturer publishes a dedicated product page for the LS0816F slide compound miter saw and an official warranty covering Makita products.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "10-Inch Slide Compound Miter Saw",
+      "sku": "LS1110F",
+      "category": "miter saw",
+      "official_product_url": "https://www.makitatools.com/products/details/LS1110F",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita's exact-model page verifies the LS1110F and its shop-cutting application; the manufacturer's warranty page supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "12-Inch Dual-Bevel Sliding Compound Miter Saw with Laser",
+      "sku": "LS1219L",
+      "category": "miter saw",
+      "official_product_url": "https://www.makitatools.com/products/details/LS1219L",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The official product page identifies the exact LS1219L laser-equipped sliding miter saw, with manufacturer support documented by Makita's warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "10-Inch Dual-Bevel Sliding Compound Miter Saw with Laser",
+      "sku": "LS1019L",
+      "category": "miter saw",
+      "official_product_url": "https://www.makitatools.com/products/details/LS1019L",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "Makita maintains a model-specific page for the LS1019L dual-bevel sliding saw and an official warranty support page.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Makita",
+      "model": "3-1/4-Inch Planer with Tool Case",
+      "sku": "KP0800K",
+      "category": "handheld planer",
+      "official_product_url": "https://www.makitatools.com/products/details/KP0800K",
+      "evidence_urls": [
+        "https://www.makitatools.com/warranty"
+      ],
+      "reason": "The official Makita page identifies the KP0800K planer and exact kit configuration; Makita's warranty supplies manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "1-1/2 HP Wall-Mount Dust Collector with Canister Filter",
+      "sku": "G0944",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-wall-mount-dust-collector-with-canister-filter/g0944",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's exact-model page verifies the wall-mounted canister-filter collector, and Grizzly's official warranty covers its house-brand products.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "1-1/2 HP Portable Cyclone Dust Collector",
+      "sku": "G0860",
+      "category": "cyclone dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-portable-cyclone-dust-collector/g0860",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official manufacturer page identifies G0860 as a portable cyclone collector, while Grizzly's warranty page supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "1-1/2 HP Wall Mount Dust Collector with HEPA Filter",
+      "sku": "G0944HEP",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-wall-mount-dust-collector-with-hepa-filter/g0944hep",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly publishes a dedicated exact-SKU page for the HEPA-equipped G0944HEP and an official house-brand warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "1 HP Wall-Mount Dust Collector with Canister Filter",
+      "sku": "G0785",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-1-hp-wall-mount-dust-collector-with-canister-filter/g0785",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The model-specific Grizzly page verifies the G0785 wall-mount collector and canister configuration; the official warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "5 HP Industrial Dust Collector",
+      "sku": "G0672",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-5-hp-industrial-dust-collector/g0672",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's official product page identifies the exact G0672 industrial collector, and its official warranty documents house-brand support.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "2 HP Canister Dust Collector with Aluminum Impeller",
+      "sku": "G0548ZP",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-2-hp-canister-dust-collector-w-aluminum-impeller/g0548zp",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The manufacturer page verifies the G0548ZP model and its canister-filter configuration, with support evidence from Grizzly's warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "1-1/2 HP Portable Dust Collector",
+      "sku": "G1028Z2",
+      "category": "dust collector",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-portable-dust-collector/g1028z2",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly publishes a dedicated page for the G1028Z2 portable collector and an official warranty for Grizzly house-brand equipment.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "13-Inch 2 HP Benchtop Planer with Helical Cutterhead",
+      "sku": "G0940",
+      "category": "benchtop planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer-w-helical-cutterhead/g0940",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official model page verifies the G0940 benchtop planer and helical cutterhead; Grizzly's warranty provides manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "15-Inch 3 HP Heavy-Duty Planer",
+      "sku": "G0815",
+      "category": "planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-15-3-hp-heavy-duty-planer/g0815",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's exact-model product page establishes the G0815 planer identity, and the official warranty covers Grizzly house-brand machinery.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "15-Inch 3 HP Planer with Spiral Cutterhead",
+      "sku": "G0453Z",
+      "category": "planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-w-spiral-cutterhead/g0453z",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The manufacturer maintains a dedicated G0453Z page identifying its spiral-cutterhead configuration and an official warranty support page.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "15-Inch 2 HP Benchtop Planer with Spiral Cutterhead",
+      "sku": "G0999",
+      "category": "benchtop planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-15-2-hp-benchtop-planer-with-spiral-cutterhead/g0999",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's model-specific page verifies the G0999 benchtop planer and spiral cutterhead, with warranty evidence from the manufacturer.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "13-Inch 2 HP Benchtop Planer",
+      "sku": "G0939",
+      "category": "benchtop planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer/g0939",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official Grizzly page identifies the exact G0939 benchtop planer, and Grizzly's house-brand warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "15-Inch 3 HP Planer with Cabinet Stand",
+      "sku": "G1021Z",
+      "category": "planer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-with-cabinet-stand/g1021z",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The manufacturer's exact-model page verifies the G1021Z and cabinet-stand configuration; Grizzly's official warranty provides support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "12-Inch Combo Planer/Jointer with Helical Cutterhead",
+      "sku": "G0959",
+      "category": "combo planer/jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-12-combo-planer-jointer-with-helical-cutterhead/g0959",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly publishes an exact G0959 product page for this space-efficient combination machine and an official house-brand warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "8-Inch Combo Planer/Jointer with Helical Cutterhead",
+      "sku": "G0958",
+      "category": "combo planer/jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-8-combo-planer-jointer-with-helical-cutterhead/g0958",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official model page verifies the G0958 combination planer/jointer and helical cutterhead; Grizzly's warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "6-Inch Benchtop Jointer with Spiral-Type Cutterhead",
+      "sku": "G0946",
+      "category": "benchtop jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-6-benchtop-jointer-with-spiral-type-cutterhead/g0946",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's dedicated G0946 page identifies this spiral-type benchtop jointer, and the manufacturer publishes an applicable warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "8-Inch Benchtop Jointer with Spiral-Type Cutterhead",
+      "sku": "G0947",
+      "category": "benchtop jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-8-benchtop-jointer-with-spiral-type-cutterhead/g0947",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The exact-model manufacturer page verifies the G0947 jointer and cutterhead configuration, with warranty evidence from Grizzly.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "10-Inch Benchtop Jointer with Spiral-Type Cutterhead",
+      "sku": "G0986",
+      "category": "benchtop jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-10-benchtop-jointer-with-spiral-type-cutterhead/g0986",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly publishes a model-specific page for the G0986 ten-inch benchtop jointer and an official house-brand warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "6-Inch Benchtop Jointer",
+      "sku": "G0945",
+      "category": "benchtop jointer",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-6-benchtop-jointer/g0945",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official product page establishes the exact G0945 jointer identity, while Grizzly's warranty supplies manufacturer support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "8-Inch Benchtop Drill Press",
+      "sku": "G0925",
+      "category": "drill press",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-8-benchtop-drill-press/g0925",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's dedicated G0925 page identifies this compact benchtop drill press, and its official warranty documents house-brand support.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "14-Inch Floor Drill Press with Laser and DRO",
+      "sku": "G0794",
+      "category": "drill press",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-14-floor-drill-press-with-laser-and-dro/g0794",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The manufacturer page verifies the G0794 floor drill press and its laser/DRO configuration; Grizzly's warranty provides support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "12-Inch Variable-Speed Benchtop Drill Press with Laser",
+      "sku": "T31739",
+      "category": "drill press",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-12-variable-speed-benchtop-drill-press-with-laser/t31739",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's exact-SKU page verifies the T31739 variable-speed drill press, and the official house-brand warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "22-Inch Heavy-Duty Gearhead Drill Press with Cross-Slide Table",
+      "sku": "G0751",
+      "category": "drill press",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-22-heavy-duty-gearhead-drill-press-w-cross-slide-table/g0751",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official Grizzly page identifies the exact G0751 gearhead drill press and cross-slide table, with manufacturer warranty support.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "6-Inch x 48-Inch Belt/9-Inch Disc Z Series Combo Sander",
+      "sku": "G1014Z",
+      "category": "combo sander",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-6-x-48-belt-9-disc-z-series-combo-sander/g1014z",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly maintains a dedicated exact-model page for the G1014Z combination sander and an official house-brand warranty.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "10-Inch 1 HP Drum Sander",
+      "sku": "G0716",
+      "category": "drum sander",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-10-1-hp-drum-sander/g0716",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The manufacturer page verifies the G0716 drum sander and exact model identity, while Grizzly's warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "4-Inch x 36-Inch Horizontal/Vertical Belt Sander with 6-Inch Disc",
+      "sku": "G0787",
+      "category": "belt/disc sander",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-4-x-36-horizontal-vertical-belt-sander-with-6-disc/g0787",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "Grizzly's exact-model page identifies the G0787 belt/disc sander configuration, and the manufacturer's warranty provides support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    },
+    {
+      "brand": "Grizzly",
+      "model": "4-Inch x 48-Inch 2-Wheel Metal Belt Grinder/Sander",
+      "sku": "G0897",
+      "category": "belt grinder/sander",
+      "official_product_url": "https://www.grizzly.com/products/grizzly-4-x-48-2-wheel-metal-belt-grinder-sander/g0897",
+      "evidence_urls": [
+        "https://grizzly.com/forms/warranty"
+      ],
+      "reason": "The official G0897 product page verifies this metalworking grinder/sander, and Grizzly's house-brand warranty supplies support evidence.",
+      "status": "research-candidate",
+      "publish_ready": false,
+      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+    }
+  ],
+  "exclusions": [
+    {
+      "model": "DEWALT DCD800",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "DEWALT DCD800B",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "DEWALT DCD800D1E1",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Milwaukee 2904-20",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Makita XFD14Z",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Bosch GSR18V-535FCB15",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "SawStop PCS31230-TGP236",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "DEWALT DWE7491RS",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Bosch 4100XC-10",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Makita RT0701C",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Bosch 1617EVSPK",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "DEWALT DCW600B",
+      "reason": "Excluded because it is in the user-supplied existing-model list; this queue contains additional models only."
+    },
+    {
+      "model": "Festool CT 26 EI HEPA 577871",
+      "reason": "Explicitly excluded because it is already an existing Everlasting Goods model."
+    },
+    {
+      "model": "FEIN Turbo I 92035236090",
+      "reason": "Explicitly excluded because it is already an existing Everlasting Goods model."
+    },
+    {
+      "model": "Makita VC4210L",
+      "reason": "Explicitly excluded because it is already an existing Everlasting Goods model."
+    },
+    {
+      "model": "California Air Tools 8010",
+      "reason": "Explicitly excluded because it is already an existing Everlasting Goods model."
+    },
+    {
+      "model": "Makita MAC210Q",
+      "reason": "Explicitly excluded because it is already an existing Everlasting Goods model."
+    },
+    {
+      "model": "Makita XCV13Z",
+      "reason": "Excluded because Makita's official product page marks this model discontinued."
+    },
+    {
+      "model": "Makita XCV10ZX",
+      "reason": "Excluded because Makita's official product page marks this model discontinued."
+    }
+  ]
+}

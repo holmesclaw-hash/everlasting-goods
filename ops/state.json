@@ -7,6 +7,13 @@
   "affiliate_tag": "everlastin08f-20",
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
+  "record_expansion_queue": {
+    "current_published_records": 16,
+    "research_candidates": 84,
+    "target_total_records": 100,
+    "status": "research_only_not_publish_ready",
+    "path": "ops/record-expansion-queue.json"
+  },
   "program_status": "live_revenue_paths_active_account_integrations_remaining",
   "current_phase": "phase_4_live_revenue_activation_account_dependencies",
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
