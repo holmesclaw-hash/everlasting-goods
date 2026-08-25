@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Product Directory — BIFL Products Worth Buying",
   description:
     "Browse our curated directory of buy-it-for-life products. Durable, long-lasting gear across kitchen, EDC, outdoor, clothing, tools & home.",
+  alternates: {
+    canonical: "https://everlasting-goods.com/products",
+  },
   openGraph: {
     title: "Product Directory — Everlasting Goods",
     description:

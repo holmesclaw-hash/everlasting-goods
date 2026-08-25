@@ -1,9 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { articles, categories } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
 import CategoryCard from "@/components/CategoryCard";
 import Newsletter from "@/components/Newsletter";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://everlasting-goods.com/",
+  },
+};
 
 export default function HomePage() {
   const latestArticles = articles.slice(0, 3);
