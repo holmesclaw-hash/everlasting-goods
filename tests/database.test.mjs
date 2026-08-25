@@ -69,3 +69,21 @@ test("affiliate destinations are exact-model links only", async () => {
     }
   }
 });
+
+test("manufacturer research is reconciled to exact manuals and parts catalogs", async () => {
+  const generated = await loadGeneratedDatabase();
+  const expected = {
+    "dewalt-dcd800b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA043446_DCD800_DCD805_NA.pdf", "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
+    "milwaukee-2904-20": ["https://documents.milwaukeetool.com/58-14-9998d1.pdf", "https://documents.milwaukeetool.com/54-24-2990R.pdf"],
+    "makita-xfd14z": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf"],
+    "bosch-gsr18v-535fcb15": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110"],
+    "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
+    "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
+  };
+  for (const [slug, urls] of Object.entries(expected)) {
+    const product = generated.products.find((item) => item.slug === slug);
+    assert.ok(product, `${slug} must exist`);
+    const sourceUrls = new Set(product.sources.map((source) => source.url));
+    for (const url of urls) assert.ok(sourceUrls.has(url), `${slug} missing ${url}`);
+  }
+});

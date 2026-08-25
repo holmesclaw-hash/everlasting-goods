@@ -27,6 +27,9 @@ test("sitemap publishes database records and excludes quarantined legacy article
   const source = await text("src/app/sitemap.ts");
   assert.match(source, /database\/\$\{product\.slug\}/);
   assert.doesNotMatch(source, /articles\.map/);
+  for (const route of ["/contact", "/privacy", "/terms"]) {
+    assert.ok(source.includes(route), `${route} must be included in the sitemap`);
+  }
 });
 
 test("legacy source author fields use the transparent editorial identity", async () => {

@@ -14,6 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/repair-or-replace`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/about`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/methodology`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${baseUrl}/contact`, lastModified: reviewed, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/privacy`, lastModified: reviewed, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${baseUrl}/terms`, lastModified: reviewed, changeFrequency: "yearly", priority: 0.2 },
   ];
   const productPages: MetadataRoute.Sitemap = database.products.map((product) => ({ url: `${baseUrl}/database/${product.slug}`, lastModified: new Date(product.last_reviewed_date), changeFrequency: "monthly", priority: 0.8 }));
   const categoryPages: MetadataRoute.Sitemap = databaseCategories.map((category) => ({ url: `${baseUrl}/database/category/${category}`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.7 }));

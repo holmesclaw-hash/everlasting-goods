@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "890383a2aed05940a624231ae50125861aa53813306b3fd9403b5b16b58a1ab0",
+  "database_sha256": "6a29a822f56525dd62c405598cf92ea953cf725ccd6e56bd57764afca56071bb",
   "generated_at": "2026-08-25T00:00:00.000Z",
   "products": [
     {
@@ -329,15 +329,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
-          "title": "Bosch GSR18V-535FCB15 official product page",
+          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
+          "title": "Bosch GSR18V-535FC instruction manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
-          "title": "Bosch parts or service support",
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
+          "title": "Bosch GSR18V-535FCB15 spare-parts catalog",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -383,10 +383,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: exact manufacturer spare-parts catalog is linked.",
+          "display_value": "Partial: exact manufacturer spare-parts catalog is linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -396,7 +396,7 @@
           "raw_value": "Official manual or downloads are linked.",
           "display_value": "Official manual or downloads are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -436,12 +436,160 @@
       "repairability": {
         "product_id": 4,
         "parts_availability": "partial",
-        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+        "repair_manual_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 11,
+        "source_id": 49,
+        "verified_date": "2026-08-25"
+      },
+      "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 16,
+      "slug": "dewalt-dcd800b",
+      "brand": "DEWALT",
+      "model": "DCD800",
+      "sku": "DCD800B",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": null,
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Not yet verified",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-08-25",
+      "sources": [
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+          "title": "DEWALT DCD800B official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA043446_DCD800_DCD805_NA.pdf",
+          "title": "DEWALT DCD800/DCD805 instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "manual"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
+          "title": "DEWALT DCD800 exploded diagram",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "parts"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-08-25",
+          "purpose": "warranty"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "identity",
+          "raw_value": "20V MAX XR brushless cordless 1/2-inch drill/driver, DCD800B tool-only package; 0-650 / 0-2,000 RPM and 6.37-inch tool-head length documented.",
+          "display_value": "20V MAX XR brushless cordless 1/2-inch drill/driver, DCD800B tool-only package; 0-650 / 0-2,000 RPM and 6.37-inch tool-head length documented.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Partial: official exploded diagram and manufacturer support are linked.",
+          "display_value": "Partial: official exploded diagram and manufacturer support are linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official DCD800/DCD805 instruction manual is linked.",
+          "display_value": "Official DCD800/DCD805 instruction manual is linked.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA043446_DCD800_DCD805_NA.pdf",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-08-25",
+          "reverify_days": 30,
+          "stale_after": "2026-09-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "3-year limited warranty, 1-year free service, and 90-day satisfaction guarantee, subject to manufacturer terms.",
+          "display_value": "3-year limited warranty, 1-year free service, and 90-day satisfaction guarantee, subject to manufacturer terms.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-08-25",
+          "reverify_days": 180,
+          "stale_after": "2027-02-21"
+        }
+      ],
+      "affiliate_links": [],
+      "repairability": {
+        "product_id": 16,
+        "parts_availability": "partial",
+        "parts_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA043446_DCD800_DCD805_NA.pdf",
+        "serviceability": "not-yet-verified",
+        "ifixit_score": null,
+        "source_id": 43,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -625,15 +773,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.makitatools.com/products/details/XFD14Z",
-          "title": "Makita XFD14Z official product page",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
+          "title": "Makita XFD14 instruction manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.makitatools.com/products/details/XFD14Z",
-          "title": "Makita XFD14Z official product page",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
+          "title": "Makita XFD14 parts breakdown",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -679,10 +827,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: official exploded parts breakdown and service path are linked.",
+          "display_value": "Partial: official exploded parts breakdown and service path are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -692,7 +840,7 @@
           "raw_value": "Official manual or downloads are linked.",
           "display_value": "Official manual or downloads are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -732,12 +880,12 @@
       "repairability": {
         "product_id": 3,
         "parts_availability": "partial",
-        "parts_url": "https://www.makitatools.com/products/details/XFD14Z",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.makitatools.com/products/details/XFD14Z",
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 7,
+        "source_id": 47,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -773,15 +921,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
-          "title": "Milwaukee 2904-20 official product page",
+          "url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
+          "title": "Milwaukee 2904-20 operator manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.milwaukeetool.com/support",
-          "title": "Milwaukee parts or service support",
+          "url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
+          "title": "Milwaukee 2904-20 service parts list",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -827,20 +975,20 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: manufacturer service-parts list and repair portal are linked.",
+          "display_value": "Partial: manufacturer service-parts list and repair portal are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.milwaukeetool.com/support",
+          "source_url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Official operator manual is linked.",
+          "display_value": "Official operator manual is linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "source_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -880,12 +1028,12 @@
       "repairability": {
         "product_id": 2,
         "parts_availability": "partial",
-        "parts_url": "https://www.milwaukeetool.com/support",
+        "parts_url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+        "repair_manual_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 6,
+        "source_id": 45,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -1661,15 +1809,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.makitatools.com/products/details/RT0701C",
-          "title": "Makita RT0701C official product page",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
+          "title": "Makita RT0701C instruction manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.makitatools.com/products/details/RT0701C",
-          "title": "Makita RT0701C official product page",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
+          "title": "Makita RT0701C parts breakdown",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -1715,10 +1863,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: official parts breakdown and factory/authorized service path are linked.",
+          "display_value": "Partial: official parts breakdown and factory/authorized service path are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.makitatools.com/products/details/RT0701C",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -1728,7 +1876,7 @@
           "raw_value": "Official manual or downloads are linked.",
           "display_value": "Official manual or downloads are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.makitatools.com/products/details/RT0701C",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -1768,12 +1916,12 @@
       "repairability": {
         "product_id": 8,
         "parts_availability": "partial",
-        "parts_url": "https://www.makitatools.com/products/details/RT0701C",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.makitatools.com/products/details/RT0701C",
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 19,
+        "source_id": 56,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -1809,15 +1957,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
-          "title": "Bosch 4100XC-10 official product page",
+          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf",
+          "title": "Bosch 4100XC instruction manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
-          "title": "Bosch parts or service support",
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015",
+          "title": "Bosch 4100XC-10 spare-parts catalog",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -1863,10 +2011,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: exact manufacturer spare-parts catalog is linked.",
+          "display_value": "Partial: exact manufacturer spare-parts catalog is linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+          "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -1876,7 +2024,7 @@
           "raw_value": "Official manual or downloads are linked.",
           "display_value": "Official manual or downloads are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+          "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -1916,12 +2064,12 @@
       "repairability": {
         "product_id": 7,
         "parts_availability": "partial",
-        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
+        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
+        "repair_manual_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 11,
+        "source_id": 54,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -1957,15 +2105,15 @@
           "purpose": "identity"
         },
         {
-          "url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
-          "title": "DEWALT DWE7491RS official manual or downloads",
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+          "title": "DEWALT DWE7491RS instruction manual",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
         },
         {
-          "url": "https://www.dewalt.com/service-center",
-          "title": "DEWALT parts or service support",
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Exploded_Diagram/EN/EA024890.gif",
+          "title": "DEWALT DWE7491RS exploded diagram",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -2011,10 +2159,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: manufacturer exploded diagram and ServiceNet support are linked.",
+          "display_value": "Partial: manufacturer exploded diagram and ServiceNet support are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/service-center",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Exploded_Diagram/EN/EA024890.gif",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -2024,7 +2172,7 @@
           "raw_value": "Official manual or downloads are linked.",
           "display_value": "Official manual or downloads are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -2064,12 +2212,12 @@
       "repairability": {
         "product_id": 6,
         "parts_availability": "partial",
-        "parts_url": "https://www.dewalt.com/service-center",
+        "parts_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Exploded_Diagram/EN/EA024890.gif",
         "repair_manual_available": 1,
-        "repair_manual_url": "https://www.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 3,
+        "source_id": 52,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -2112,8 +2260,8 @@
           "purpose": "manual"
         },
         {
-          "url": "https://www.sawstop.com/support/",
-          "title": "SawStop parts or service support",
+          "url": "https://www.sawstop.com/product-category/parts/pcs",
+          "title": "SawStop PCS replacement-parts storefront",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "parts"
@@ -2159,10 +2307,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Partial: manufacturer PCS replacement-parts storefront and support manuals are linked.",
+          "display_value": "Partial: manufacturer PCS replacement-parts storefront and support manuals are linked.",
           "evidence_tier": "T2",
-          "source_url": "https://www.sawstop.com/support/",
+          "source_url": "https://www.sawstop.com/product-category/parts/pcs",
           "verified_date": "2026-08-25",
           "reverify_days": 180,
           "stale_after": "2027-02-21"
@@ -2212,12 +2360,12 @@
       "repairability": {
         "product_id": 5,
         "parts_availability": "partial",
-        "parts_url": "https://www.sawstop.com/support/",
+        "parts_url": "https://www.sawstop.com/product-category/parts/pcs",
         "repair_manual_available": 1,
         "repair_manual_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
         "serviceability": "not-yet-verified",
         "ifixit_score": null,
-        "source_id": 15,
+        "source_id": 50,
         "verified_date": "2026-08-25"
       },
       "warranty": null,
@@ -2251,6 +2399,14 @@
     },
     {
       "slug": "california-air-tools-8010",
+      "field_name": "street_price",
+      "verified_date": "2026-08-25",
+      "reverify_days": 30,
+      "stale_after": "2026-09-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
       "reverify_days": 30,
@@ -2563,6 +2719,62 @@
     },
     {
       "slug": "california-air-tools-8010",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
