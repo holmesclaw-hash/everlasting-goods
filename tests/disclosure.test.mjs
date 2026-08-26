@@ -31,6 +31,19 @@ test("database record pages disclose before exact-model affiliate destinations",
   assert.match(source, /View exact model on Amazon/);
 });
 
+test("category comparison pages disclose before exact-model affiliate destinations", async () => {
+  const source = await readFile(path.join(appRoot, "database", "category", "[category]", "page.tsx"), "utf8");
+  const disclosureIndex = source.indexOf("<AffiliateDisclosure");
+  const affiliateLinkIndex = source.indexOf("product.affiliate_links[0]");
+
+  assert.ok(source.includes('import AffiliateDisclosure from "@/components/AffiliateDisclosure";'));
+  assert.ok(disclosureIndex >= 0, "category comparison page must render AffiliateDisclosure");
+  assert.ok(affiliateLinkIndex > disclosureIndex, "disclosure must precede affiliate destinations");
+  assert.match(source, /rel="sponsored nofollow noopener noreferrer"/);
+  assert.match(source, /View exact model on Amazon/);
+  assert.match(source, /Price and availability are shown only by the merchant/);
+});
+
 test("commercial product routes disclose before links or publish no affiliate destinations", async () => {
   const disclosureSource = await readFile(disclosurePath, "utf8").catch(() => "");
   assert.ok(disclosureSource.includes(requiredStatement), "reusable disclosure must contain the required Amazon statement");

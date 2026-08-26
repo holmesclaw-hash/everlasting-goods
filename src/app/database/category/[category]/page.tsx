@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
 import { databaseCategories, fieldFor, formatCategory, getDatabaseProductsByCategory } from "@/lib/product-database";
 
@@ -36,20 +37,34 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
         </div>
       </section>
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <AffiliateDisclosure />
         <div className="overflow-x-auto rounded-2xl border border-cream-200 bg-white">
           <table className="min-w-full text-left text-sm">
-            <thead className="bg-cream-100 text-charcoal"><tr><th className="p-4">Product</th><th className="p-4">Evidence</th><th className="p-4">Warranty</th><th className="p-4">Parts</th><th className="p-4">Manual</th><th className="p-4">Cost/year</th></tr></thead>
+            <thead className="bg-cream-100 text-charcoal"><tr><th className="p-4">Product</th><th className="p-4">Evidence</th><th className="p-4">Warranty</th><th className="p-4">Parts</th><th className="p-4">Manual</th><th className="p-4">Cost/year</th><th className="p-4">Exact model</th></tr></thead>
             <tbody>
-              {products.map((product) => (
-                <tr key={product.slug} className="border-t border-cream-200 align-top">
-                  <td className="p-4"><Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link><p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p></td>
-                  <td className="p-4"><EvidenceBadge tier={product.evidence_tier} /></td>
-                  <td className="p-4 text-charcoal/65">{fieldFor(product, "warranty")?.display_value}</td>
-                  <td className="p-4 text-charcoal/65">{fieldFor(product, "parts_availability")?.display_value}</td>
-                  <td className="p-4 text-charcoal/65">{fieldFor(product, "repair_manual")?.display_value}</td>
-                  <td className="p-4 font-semibold text-charcoal">{product.cost_per_year == null ? "Not yet verified" : `$${product.cost_per_year}`}</td>
-                </tr>
-              ))}
+              {products.map((product) => {
+                const affiliateLink = product.affiliate_links[0];
+                return (
+                  <tr key={product.slug} className="border-t border-cream-200 align-top">
+                    <td className="p-4"><Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link><p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p></td>
+                    <td className="p-4"><EvidenceBadge tier={product.evidence_tier} /></td>
+                    <td className="p-4 text-charcoal/65">{fieldFor(product, "warranty")?.display_value}</td>
+                    <td className="p-4 text-charcoal/65">{fieldFor(product, "parts_availability")?.display_value}</td>
+                    <td className="p-4 text-charcoal/65">{fieldFor(product, "repair_manual")?.display_value}</td>
+                    <td className="p-4 font-semibold text-charcoal">{product.cost_per_year == null ? "Not yet verified" : `$${product.cost_per_year}`}</td>
+                    <td className="min-w-52 p-4">
+                      {affiliateLink ? (
+                        <>
+                          <a href={affiliateLink.url} target="_blank" rel="sponsored nofollow noopener noreferrer" className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark">View exact model on Amazon</a>
+                          <p className="mt-2 text-xs leading-relaxed text-charcoal/45">Destination verified {affiliateLink.verified_date}. Price and availability are shown only by the merchant.</p>
+                        </>
+                      ) : (
+                        <span className="text-xs text-charcoal/45">No verified destination</span>
+                      )}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
