@@ -19,10 +19,21 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-25T19:41:39Z",
-  "last_action": "Activated verified monetization paths: added exact tagged Amazon destinations and disclosure-first CTAs to all 16 published database records, permanently redirected two legacy tool URLs and the closest broad tool-set guide, restored one manufacturer-sourced safety-razor guide without commercial or hands-on claims, and live-verified 16 product routes plus the sitemap and redirects",
-  "last_live_url": "https://everlasting-goods.com/database/dewalt-dwe7491rs",
-  "last_commit": "a141f41c70c355693cd422d6e2c3b74ad3ed9b5e",
+  "last_verified_at": "2026-08-26T06:21:56Z",
+  "last_action": "Added disclosure-first exact-model Amazon CTAs to all five high-intent database category comparison pages, preserving the comparison links and merchant-only price/availability notice",
+  "last_live_url": "https://everlasting-goods.com/database/category/table-saws",
+  "last_commit": "020b943b28354c9d4f0bb5886a207144c64537eb",
+  "last_evidence": {
+    "local_gates": "npm run verify passed 54 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities",
+    "live_readback": "All five category routes returned HTTP 200 with route-level canonicals, disclosure before the first CTA, 16 unique exact /dp/ destinations using tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer rels, merchant-only price/availability notices, sitemap inclusion, and the consent-gated affiliate_click bundle hook",
+    "live_routes": [
+      "https://everlasting-goods.com/database/category/air-compressors",
+      "https://everlasting-goods.com/database/category/drill-drivers",
+      "https://everlasting-goods.com/database/category/dust-extractors",
+      "https://everlasting-goods.com/database/category/routers",
+      "https://everlasting-goods.com/database/category/table-saws"
+    ]
+  },
   "blockers": [
     "No newsletter provider endpoint configured",
     "Google Search Console, Analytics, AdSense, and affiliate revenue data are not connected to the operator; live traffic and revenue figures cannot be reported",
