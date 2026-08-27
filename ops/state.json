@@ -14,20 +14,27 @@
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
   },
+  "article_photo_policy": {
+    "status": "active",
+    "requirement": "Every publishable article needs a lawful genuine photo of an exact named product",
+    "provenance_source": "src/content/article-image-evidence.mjs",
+    "policy_path": "ops/editorial-photo-policy.md"
+  },
   "program_status": "live_revenue_paths_active_account_integrations_remaining",
   "current_phase": "phase_4_live_revenue_activation_account_dependencies",
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-27T06:23:16Z",
-  "last_action": "Added disclosure-first exact-model Amazon CTAs to all 16 verified cards on the high-intent products hub while preserving each card's internal evidence link",
-  "last_live_url": "https://everlasting-goods.com/products",
-  "last_commit": "32bdc566716f54fe10dd3ade18d5f19012c50e60",
+  "last_verified_at": "2026-08-27T17:28:40Z",
+  "last_action": "Activated the exact-product article-photo gate and replaced the restored safety-razor guide's generic stock hero with a documented MERKUR 34C open-license photograph and visible attribution",
+  "last_live_url": "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+  "last_commit": "2b41bfbc9ef42461d8a12a4f9f8e96057a84bdea",
   "last_evidence": {
-    "local_gates": "npm run verify passed 55 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities",
-    "live_readback": "The products hub returned HTTP 200 with its route-level canonical, disclosure before the first CTA, 16 unique exact /dp/ destinations using tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer rels, merchant-only price/availability notices, sitemap inclusion, and the consent-gated affiliate_click bundle hook; both Vercel project checks reported success",
+    "local_gates": "npm run verify passed 58 tests plus quality, lint, typecheck, and production build",
+    "live_readback": "The restored guide returned HTTP 200 with its canonical, exact MERKUR 34C hero and model-specific alt text, visible Hustvedt/Wikimedia Commons attribution, CC BY-SA 3.0 license link, no Pexels fallback, and sitemap inclusion; the image route returned HTTP 200 image/jpeg; both Vercel project checks reported success",
     "live_routes": [
-      "https://everlasting-goods.com/products"
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/images/articles/merkur-34c-safety-razor.jpg"
     ]
   },
   "blockers": [
@@ -38,6 +45,6 @@
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "No Daniel-supplied T1 product notes or shop photos are available; all current publishable records are T2",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
-    "The protected AGENTS.md governance patch was not approved by the file guard; the approved work order and ops/state.json record the controlling posture"
+    "The protected AGENTS.md governance patch timed out at the file guard; the active exact-product photo requirement is recorded in ops/editorial-photo-policy.md, ops/state.json, and regression tests"
   ]
 }
