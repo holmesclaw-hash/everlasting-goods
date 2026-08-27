@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
+import { articleImageEvidence } from "../src/content/article-image-evidence.mjs";
+
 const dataSource = await readFile(new URL("../src/lib/data.ts", import.meta.url), "utf8");
 const articlesSource = dataSource.slice(
   dataSource.indexOf("export const articles: Article[] = ["),
@@ -16,7 +18,11 @@ const articleImages = Array.from(
 test("every article has a parsed hero image", () => {
   assert.equal(articleImages.length, 54);
   for (const { slug, image } of articleImages) {
-    assert.match(image, /^https:\/\//, `${slug} must use an absolute HTTPS hero image URL`);
+    if (image.startsWith("/images/articles/")) {
+      assert.equal(articleImageEvidence[slug]?.image, image, `${slug} local image needs provenance`);
+    } else {
+      assert.match(image, /^https:\/\//, `${slug} must use an absolute HTTPS or documented local image`);
+    }
   }
 });
 

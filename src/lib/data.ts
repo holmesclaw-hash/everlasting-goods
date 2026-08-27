@@ -2167,7 +2167,7 @@ Each of these pens offers unique features and benefits that make them stand out 
     title: "Best Safety Razors That Last a Lifetime",
     excerpt: "An evidence-led guide to durable safety razors, comparing head design, materials, maintenance, and manufacturer documentation.",
     category: "home",
-    image: "https://images.pexels.com/photos/8789602/pexels-photo-8789602.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1600&h=900",
+    image: "/images/articles/merkur-34c-safety-razor.jpg",
     author: "Everlasting Goods Editorial Team",
     date: "2026-04-04",
     readTime: "11 min read",

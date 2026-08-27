@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+
+import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 
 import { renderArticleHtml } from "@/lib/article-html.mjs";
 import { articles, getArticleBySlug } from "@/lib/data";
@@ -21,6 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
 
   if (article.slug === RESTORED_GUIDE_SLUG) {
+    const imageEvidence = articleImageEvidence[RESTORED_GUIDE_SLUG];
     return {
       title: RESTORED_GUIDE_TITLE,
       description: RESTORED_GUIDE_DESCRIPTION,
@@ -31,6 +35,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: RESTORED_GUIDE_TITLE,
         description: RESTORED_GUIDE_DESCRIPTION,
         url: canonical,
+        images: [{ url: imageEvidence.image, alt: imageEvidence.alt }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: RESTORED_GUIDE_TITLE,
+        description: RESTORED_GUIDE_DESCRIPTION,
+        images: [imageEvidence.image],
       },
     };
   }
@@ -46,6 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType<typeof getArticleBySlug>> }) {
   const content = renderArticleHtml(article.content);
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
+  const imageEvidence = articleImageEvidence[RESTORED_GUIDE_SLUG];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -55,6 +67,7 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
     publisher: { "@type": "Organization", name: "Everlasting Goods", url: "https://everlasting-goods.com" },
     datePublished: article.date,
     dateModified: article.updatedAt ?? article.date,
+    image: `https://everlasting-goods.com${imageEvidence.image}`,
     mainEntityOfPage: canonical,
   };
 
@@ -69,6 +82,23 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
           <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer sources reviewed 2026-08-25</p>
         </div>
       </section>
+      <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
+        <div className="overflow-hidden rounded-2xl border border-cream-200 bg-white">
+          <Image
+            src={imageEvidence.image}
+            alt={imageEvidence.alt}
+            width={1504}
+            height={1000}
+            className="h-auto w-full object-cover"
+            priority
+          />
+        </div>
+        <figcaption className="mt-3 text-sm leading-relaxed text-charcoal/55">
+          {imageEvidence.exact_product_model}. Photo: {imageEvidence.attribution}. Source:{" "}
+          <a href={imageEvidence.source_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">Wikimedia Commons</a>. Licensed under{" "}
+          <a href={imageEvidence.license_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">{imageEvidence.license}</a>.
+        </figcaption>
+      </figure>
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 text-sm leading-relaxed text-charcoal/65">
           This restored guide contains no affiliate destination, price, rating, availability, or hands-on claim. Manufacturer statements are attributed; editorial observations are identified as such.
