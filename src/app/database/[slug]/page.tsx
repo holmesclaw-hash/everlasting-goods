@@ -30,25 +30,14 @@ export default async function ProductRecordPage({ params }: PageProps) {
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Product",
-        name: `${product.brand} ${product.model}`,
-        model: product.model,
-        sku: product.sku,
-        brand: { "@type": "Brand", name: product.brand },
-        category: formatCategory(product.category),
-        description: identity,
-        url: `https://everlasting-goods.com/database/${product.slug}`,
-      },
-      {
-        "@type": "Review",
-        itemReviewed: { "@type": "Product", name: `${product.brand} ${product.model}` },
-        author: { "@type": "Organization", name: "Everlasting Goods Editorial Team" },
-        datePublished: product.last_reviewed_date,
-        reviewBody: "Evidence profile based on linked manufacturer documentation. No hands-on rating is asserted. Unverified fields are displayed as gaps.",
-      },
-    ],
+    "@type": "Product",
+    name: `${product.brand} ${product.model}`,
+    model: product.model,
+    sku: product.sku,
+    brand: { "@type": "Brand", name: product.brand },
+    category: formatCategory(product.category),
+    description: identity,
+    url: `https://everlasting-goods.com/database/${product.slug}`,
   };
 
   return (
