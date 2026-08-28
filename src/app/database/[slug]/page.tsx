@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -20,6 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${product.brand} ${product.model} Repairability Record`,
     description: `${identity}. Evidence-tiered manufacturer sources, warranty, manuals, parts support, and explicit unverified gaps.`,
     alternates: { canonical: `https://everlasting-goods.com/database/${product.slug}` },
+    ...(product.image_url && product.image_alt ? {
+      openGraph: { images: [{ url: product.image_url, alt: product.image_alt }] },
+      twitter: { card: "summary_large_image", images: [product.image_url] },
+    } : {}),
   };
 }
 
@@ -28,6 +33,15 @@ export default async function ProductRecordPage({ params }: PageProps) {
   if (!product) notFound();
 
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
+  const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
+    ? {
+        url: product.image_url,
+        sourceUrl: product.image_source_url,
+        licenseUrl: product.image_license_url,
+        attribution: product.image_attribution,
+        alt: product.image_alt,
+      }
+    : null;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -38,6 +52,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
     category: formatCategory(product.category),
     description: identity,
     url: `https://everlasting-goods.com/database/${product.slug}`,
+    ...(product.image_url ? { image: `https://everlasting-goods.com${product.image_url}` } : {}),
   };
 
   return (
@@ -57,6 +72,19 @@ export default async function ProductRecordPage({ params }: PageProps) {
           <p className="mt-6 text-sm text-charcoal/45">Last reviewed: {product.last_reviewed_date}</p>
         </div>
       </section>
+
+      {image && (
+        <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
+          <div className="overflow-hidden rounded-2xl border border-cream-200 bg-white">
+            <Image src={image.url} alt={image.alt} width={1200} height={900} className="h-auto w-full object-contain p-6" priority />
+          </div>
+          <figcaption className="mt-3 text-sm leading-relaxed text-charcoal/55">
+            {image.attribution}.{" "}
+            <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">Photo source</a>{" "}
+            · <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">Rights</a>
+          </figcaption>
+        </figure>
+      )}
 
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_340px] lg:px-8">
         <div>

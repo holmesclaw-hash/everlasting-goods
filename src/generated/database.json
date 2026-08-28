@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "9b925b7c9a6a8bbdb9b106c953350336944ad305e084cfdf315b84c2b85f6de0",
+  "database_sha256": "de4e0be4c417bff6c70f44306284b37db309b7248ec2d4fe69e8e5fe5352cd5a",
   "generated_at": "2026-08-25T00:00:00.000Z",
   "products": [
     {
@@ -24,6 +24,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
@@ -179,6 +182,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.makitatools.com/products/details/MAC210Q",
@@ -334,6 +340,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
@@ -489,6 +498,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
@@ -644,6 +656,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.dewalt.com/en-us/product/dcd800d1e1/dewalt-20v-max-xr-brushless-cordless-12-drilldriver-kit",
@@ -799,6 +814,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.makitatools.com/products/details/XFD14Z",
@@ -954,6 +972,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
@@ -1109,6 +1130,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
@@ -1264,6 +1288,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
@@ -1419,6 +1446,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.makitatools.com/products/details/VC4210L",
@@ -1574,6 +1604,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
@@ -1729,6 +1762,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
@@ -1884,6 +1920,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.makitatools.com/products/details/RT0701C",
@@ -2039,6 +2078,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.boschtools.com/us/en/products/4100xc-10-0601B13016",
@@ -2194,6 +2236,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
@@ -2349,6 +2394,9 @@
       "image_source_url": null,
       "image_license_basis": null,
       "last_reviewed_date": "2026-08-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
       "sources": [
         {
           "url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",

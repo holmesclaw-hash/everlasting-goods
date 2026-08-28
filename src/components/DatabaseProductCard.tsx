@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import EvidenceBadge from "@/components/EvidenceBadge";
@@ -10,9 +11,37 @@ interface DatabaseProductCardProps {
 
 export default function DatabaseProductCard({ product, showAffiliateCta = false }: DatabaseProductCardProps) {
   const affiliateLink = showAffiliateCta ? product.affiliate_links[0] : undefined;
+  const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
+    ? {
+        url: product.image_url,
+        sourceUrl: product.image_source_url,
+        licenseUrl: product.image_license_url,
+        attribution: product.image_attribution,
+        alt: product.image_alt,
+      }
+    : null;
 
   return (
-    <article className="flex flex-col rounded-2xl border border-cream-200 bg-white p-6 transition hover:border-forest-500/40 hover:shadow-sm">
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-cream-200 bg-white transition hover:border-forest-500/40 hover:shadow-sm">
+      {image && (
+        <figure className="border-b border-cream-200 bg-cream-50">
+          <Link href={`/database/${product.slug}`} className="block">
+            <Image
+              src={image.url}
+              alt={image.alt}
+              width={800}
+              height={600}
+              className="aspect-[4/3] h-auto w-full object-contain p-4"
+            />
+          </Link>
+          <figcaption className="px-4 pb-3 text-[11px] leading-relaxed text-charcoal/45">
+            {image.attribution}.{" "}
+            <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">Photo source</a>{" "}
+            · <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">Rights</a>
+          </figcaption>
+        </figure>
+      )}
+      <div className="flex flex-1 flex-col p-6">
       <Link href={`/database/${product.slug}`} className="block flex-1">
         <div className="flex items-start justify-between gap-4">
           <div>
@@ -42,6 +71,7 @@ export default function DatabaseProductCard({ product, showAffiliateCta = false 
           </p>
         </div>
       )}
+      </div>
     </article>
   );
 }
