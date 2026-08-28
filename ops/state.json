@@ -20,36 +20,33 @@
     "provenance_source": "src/content/article-image-evidence.mjs",
     "policy_path": "ops/editorial-photo-policy.md"
   },
+  "product_photo_pipeline": {
+    "status": "ready_blocked_on_rights",
+    "verified_images": 0,
+    "blocked_models": 16,
+    "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
+    "accepted_paths": [
+      "Daniel-supplied owned originals",
+      "Approved Amazon Product Advertising API images configured outside chat",
+      "Written manufacturer editorial-use permission"
+    ]
+  },
   "program_status": "live_revenue_paths_active_account_integrations_remaining",
   "current_phase": "phase_4_live_revenue_activation_account_dependencies",
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-28T06:24:06Z",
-  "last_action": "Removed unsupported Review structured data from all 16 unrated manufacturer-documentation product records while preserving factual Product schema",
-  "last_live_url": "https://everlasting-goods.com/database/california-air-tools-8010",
-  "last_commit": "05a37d8d17b4b9f50842a354510fad0e2995b29c",
+  "last_verified_at": "2026-08-28T15:21:56Z",
+  "last_action": "Added a rights-safe exact-product image pipeline with complete provenance fields, card and record rendering, social metadata, and structured-data image support; audited all 16 current records and safely blocked every available manufacturer image because reusable editorial rights were not documented",
+  "last_live_url": "https://everlasting-goods.com/products",
+  "last_commit": "2d7a2ba70339e5b4044c16ca097e7213b187f950",
   "last_evidence": {
-    "local_gates": "npm run verify passed 59 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities",
-    "deployment": "Both Vercel project statuses for commit 05a37d8 completed successfully",
-    "live_readback": "All 16 database record routes returned HTTP 200 with the exact canonical, factual Product schema, no Review schema, approved affiliate tag, no stale tag, disclosure, exact model text, sitemap inclusion, and the consent-gated affiliate_click analytics bundle",
+    "local_gates": "npm run verify passed 62 tests plus quality, lint, typecheck, and production build",
+    "deployment": "Both Vercel project statuses for commit 2d7a2ba completed successfully",
+    "live_readback": "The image-ready templates deployed without changing the truthful no-photo state; exact-product images render only after all provenance fields are populated. No retailer, Amazon, generic, or unlicensed manufacturer image was published.",
     "live_routes": [
-      "https://everlasting-goods.com/database/california-air-tools-8010",
-      "https://everlasting-goods.com/database/makita-mac210q",
-      "https://everlasting-goods.com/database/bosch-gsr18v-535fcb15",
-      "https://everlasting-goods.com/database/dewalt-dcd800b",
-      "https://everlasting-goods.com/database/dewalt-dcd800d1e1",
-      "https://everlasting-goods.com/database/makita-xfd14z",
-      "https://everlasting-goods.com/database/milwaukee-2904-20",
-      "https://everlasting-goods.com/database/fein-turbo-i",
-      "https://everlasting-goods.com/database/festool-ct-26-ei-hepa",
-      "https://everlasting-goods.com/database/makita-vc4210l",
-      "https://everlasting-goods.com/database/bosch-1617evspk",
-      "https://everlasting-goods.com/database/dewalt-dcw600b",
-      "https://everlasting-goods.com/database/makita-rt0701c",
-      "https://everlasting-goods.com/database/bosch-4100xc-10",
-      "https://everlasting-goods.com/database/dewalt-dwe7491rs",
-      "https://everlasting-goods.com/database/sawstop-pcs31230-tgp236"
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/california-air-tools-8010"
     ]
   },
   "blockers": [
@@ -59,6 +56,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "No Daniel-supplied T1 product notes or shop photos are available; all current publishable records are T2",
+    "All 16 exact-model product images are blocked on reusable rights: manufacturer pages confirm identity but their terms do not grant commercial editorial reuse; no exact open-license alternatives or approved Product Advertising API path were available",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "The protected AGENTS.md governance patch timed out at the file guard; the active exact-product photo requirement is recorded in ops/editorial-photo-policy.md, ops/state.json, and regression tests"
   ]
