@@ -36,17 +36,16 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-28T15:21:56Z",
-  "last_action": "Added a rights-safe exact-product image pipeline with complete provenance fields, card and record rendering, social metadata, and structured-data image support; audited all 16 current records and safely blocked every available manufacturer image because reusable editorial rights were not documented",
-  "last_live_url": "https://everlasting-goods.com/products",
-  "last_commit": "2d7a2ba70339e5b4044c16ca097e7213b187f950",
+  "last_verified_at": "2026-08-29T06:24:05Z",
+  "last_action": "Added one disclosed exact-model Amazon revenue path to the audited safety-razor guide after independently verifying MERKUR 34C ASIN B002A8JO1Q; added dated long-term owner reports and explicit evidence limits without publishing price, rating, availability, lifespan, or hands-on claims",
+  "last_live_url": "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+  "last_commit": "57111ea0d0750c92fe746faf7580e7557c096c10",
   "last_evidence": {
-    "local_gates": "npm run verify passed 62 tests plus quality, lint, typecheck, and production build",
-    "deployment": "Both Vercel project statuses for commit 2d7a2ba completed successfully",
-    "live_readback": "The image-ready templates deployed without changing the truthful no-photo state; exact-product images render only after all provenance fields are populated. No retailer, Amazon, generic, or unlicensed manufacturer image was published.",
+    "local_gates": "npm run verify passed 64 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed strict verification at 50% coverage",
+    "deployment": "Both Vercel project statuses for commit 57111ea completed successfully",
+    "live_readback": "The changed guide returned HTTP 200 with the exact canonical, sitemap inclusion, CC BY-SA 3.0 exact-product MERKUR 34C photo and attribution, dated manufacturer and owner evidence, disclosure before the single exact ASIN B002A8JO1Q destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price or rating, and consent-gated affiliate_click analytics code in the deployed bundle",
     "live_routes": [
-      "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/database/california-air-tools-8010"
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime"
     ]
   },
   "blockers": [
