@@ -21,6 +21,10 @@ export const safetyRazorContent = `
 <p>MÜHLE identifies the <a href="https://www.muehle-shaving.com/en/TRADITIONAL-Razor/R-41" target="_blank" rel="noopener noreferrer">R 41</a> as a chrome-plated metal safety razor with an open comb. The manufacturer explicitly positions the direct open-comb design for advanced and professional users who can maintain a steady technique.</p>
 <p>That warning should be treated as a product limitation. This guide does not infer safety, comfort, or shaving results beyond the manufacturer&apos;s description.</p>
 
+<h2 id="owner-evidence">Long-Term Owner Evidence and Its Limits</h2>
+<p>A 2024 Badger &amp; Blade discussion includes one participant&apos;s report: <a href="https://www.badgerandblade.com/forum/threads/original-34c-thursdays.656755/" target="_blank" rel="noopener noreferrer">“Started wet shaving 8 years ago with a 34C and still revisit it frequently”</a>; that participant also reported three years of daily use. A separate 2021 discussion includes another participant&apos;s report: <a href="https://www.badgerandblade.com/forum/threads/merkur-34c.612135/" target="_blank" rel="noopener noreferrer">“Been my daily driver for 5 years.”</a> These are individual owner reports, not controlled durability testing, and they do not establish an expected lifespan for a current production razor.</p>
+<p>The 2024 thread also records one participant&apos;s concern that wear through plating on a zinc threaded post could end the razor&apos;s service life. That is not manufacturer documentation or failure-rate data. It is a reason to inspect the finish and threads and avoid a lifetime guarantee, especially because the same discussion describes design changes between versions.</p>
+
 <h2 id="comparison-checklist">Evidence-First Comparison Checklist</h2>
 <ul>
 <li><strong>Confirm the exact variant.</strong> Handle length, finish, head design, and included parts can change under a product family name.</li>
@@ -45,6 +49,12 @@ export const safetyRazorContent = `
 <li><a href="https://merkur-razors.com/produkt/merkur-34c/?lang=en" target="_blank" rel="noopener noreferrer">MERKUR 34C / 34001 product page</a></li>
 <li><a href="https://hensonshaving.com/products/henson-al13-in-aircraft-aluminum" target="_blank" rel="noopener noreferrer">Henson AL13 product page</a></li>
 <li><a href="https://www.muehle-shaving.com/en/TRADITIONAL-Razor/R-41" target="_blank" rel="noopener noreferrer">MÜHLE R 41 product page</a></li>
+</ul>
+
+<h2 id="owner-sources">Long-Term Owner Sources</h2>
+<ul>
+<li><a href="https://www.badgerandblade.com/forum/threads/original-34c-thursdays.656755/" target="_blank" rel="noopener noreferrer">Badger &amp; Blade: Original 34C Thursdays (2024)</a></li>
+<li><a href="https://www.badgerandblade.com/forum/threads/merkur-34c.612135/" target="_blank" rel="noopener noreferrer">Badger &amp; Blade: MERKUR 34C owner discussion (2021)</a></li>
 </ul>
 
 <h2 id="faq">Frequently Asked Questions</h2>

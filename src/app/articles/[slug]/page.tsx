@@ -3,8 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 
+import { amazonLink } from "@/lib/affiliate.mjs";
 import { renderArticleHtml } from "@/lib/article-html.mjs";
 import { articles, getArticleBySlug } from "@/lib/data";
 
@@ -79,7 +81,7 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-forest-600">Restored after evidence review</p>
           <h1 className="mt-4 font-serif text-4xl font-bold text-charcoal md:text-5xl">{RESTORED_GUIDE_TITLE}</h1>
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-charcoal/65">{RESTORED_GUIDE_DESCRIPTION}</p>
-          <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer sources reviewed 2026-08-25</p>
+          <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer and owner sources reviewed 2026-08-29</p>
         </div>
       </section>
       <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
@@ -101,7 +103,22 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
       </figure>
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 text-sm leading-relaxed text-charcoal/65">
-          This restored guide contains no affiliate destination, price, rating, availability, or hands-on claim. Manufacturer statements are attributed; editorial observations are identified as such.
+          This restored guide contains one independently identity-checked exact-product affiliate destination. It contains no price, rating, availability, or hands-on claim. Manufacturer statements and owner reports are attributed; editorial observations are identified as such.
+        </div>
+        <div className="mb-10 rounded-2xl border border-cream-200 bg-white p-6">
+          <AffiliateDisclosure />
+          <h2 className="font-serif text-2xl font-bold text-charcoal">Exact model checked</h2>
+          <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
+            The destination below was checked for MERKUR Classic MK-34C, ASIN B002A8JO1Q. Confirm the model, finish, seller, and included items before ordering. Price and availability are shown only by the merchant.
+          </p>
+          <a
+            href={amazonLink("B002A8JO1Q")}
+            target="_blank"
+            rel="sponsored nofollow noopener noreferrer"
+            className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"
+          >
+            View exact MERKUR 34C on Amazon
+          </a>
         </div>
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
         <div className="mt-12 flex flex-wrap gap-3 border-t border-cream-200 pt-8">

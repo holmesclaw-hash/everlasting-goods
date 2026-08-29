@@ -4756,7 +4756,12 @@ export function getArticleBySlug(slug: string): Article | undefined {
   if (!article) return undefined;
   const reviewedArticle = { ...article, updatedAt: CONTENT_LAST_REVIEWED };
   if (slug === "best-safety-razors-that-last-a-lifetime") {
-    return { ...reviewedArticle, content: safetyRazorContent, author: "Everlasting Goods Editorial Team" };
+    return {
+      ...reviewedArticle,
+      content: safetyRazorContent,
+      updatedAt: "2026-08-29",
+      author: "Everlasting Goods Editorial Team",
+    };
   }
   return reviewedArticle;
 }
