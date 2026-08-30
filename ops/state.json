@@ -36,16 +36,16 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-29T06:24:05Z",
-  "last_action": "Added one disclosed exact-model Amazon revenue path to the audited safety-razor guide after independently verifying MERKUR 34C ASIN B002A8JO1Q; added dated long-term owner reports and explicit evidence limits without publishing price, rating, availability, lifespan, or hands-on claims",
-  "last_live_url": "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
-  "last_commit": "57111ea0d0750c92fe746faf7580e7557c096c10",
+  "last_verified_at": "2026-08-30T06:27:56Z",
+  "last_action": "Restored the existing high-intent cast-iron guide as an evidence-limited Lodge 12-inch review with a CC BY-SA 3.0 exact-product photo, current manufacturer care and warranty documentation, dated owner evidence, explicit tradeoffs, and one disclosed exact-model Amazon destination for ASIN B00006JSUB",
+  "last_live_url": "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+  "last_commit": "7a03853215825e55f7ba457ec8ad85a2378d47df",
   "last_evidence": {
-    "local_gates": "npm run verify passed 64 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed strict verification at 50% coverage",
-    "deployment": "Both Vercel project statuses for commit 57111ea completed successfully",
-    "live_readback": "The changed guide returned HTTP 200 with the exact canonical, sitemap inclusion, CC BY-SA 3.0 exact-product MERKUR 34C photo and attribution, dated manufacturer and owner evidence, disclosure before the single exact ASIN B002A8JO1Q destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price or rating, and consent-gated affiliate_click analytics code in the deployed bundle",
+    "local_gates": "npm run verify passed 67 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed verification at 70% coverage; local production readback passed all route checks",
+    "deployment": "Both Vercel project statuses for commit 7a03853215825e55f7ba457ec8ad85a2378d47df completed successfully",
+    "live_readback": "The restored cast-iron guide returned HTTP 200 with the exact canonical, indexable metadata, sitemap inclusion, CC BY-SA 3.0 exact-product Lodge 12-inch photo and attribution, current manufacturer and dated owner evidence, disclosure before the exact ASIN B00006JSUB destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price or rating, and consent-gated affiliate_click analytics code in the deployed bundle; the deployed image matched SHA-256 dbaa0e787a43030f451aa1415e41f4c8c0013669df4e3db280eb50ca354269a4",
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime"
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever"
     ]
   },
   "blockers": [
