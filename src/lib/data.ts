@@ -1,6 +1,7 @@
 import {
   amazonLink,
 } from "./affiliate.mjs";
+import { castIronSkilletContent } from "../content/cast-iron-skillets.mjs";
 import { safetyRazorContent } from "../content/safety-razors.mjs";
 
 export {
@@ -839,7 +840,7 @@ export const articles: Article[] = [
     excerpt:
       "A well-seasoned cast iron skillet is the ultimate buy-it-for-life kitchen essential. We compared materials, warranties, repairability, and long-term owner reports.",
     category: "kitchen",
-    image: "https://images.pexels.com/photos/13523059/pexels-photo-13523059.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1600&h=900",
+    image: "/images/articles/lodge-12-inch-skillet.jpg",
     author: "Everlasting Goods Editorial Team",
     date: "2024-11-15",
     readTime: "12 min read",
@@ -4755,6 +4756,14 @@ export function getArticleBySlug(slug: string): Article | undefined {
   const article = articles.find((a) => a.slug === slug);
   if (!article) return undefined;
   const reviewedArticle = { ...article, updatedAt: CONTENT_LAST_REVIEWED };
+  if (slug === "best-cast-iron-skillets-that-last-forever") {
+    return {
+      ...reviewedArticle,
+      content: castIronSkilletContent,
+      updatedAt: "2026-08-30",
+      author: "Everlasting Goods Editorial Team",
+    };
+  }
   if (slug === "best-safety-razors-that-last-a-lifetime") {
     return {
       ...reviewedArticle,

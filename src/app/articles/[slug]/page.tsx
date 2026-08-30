@@ -13,8 +13,37 @@ import { articles, getArticleBySlug } from "@/lib/data";
 interface PageProps { params: Promise<{ slug: string }> }
 
 const RESTORED_GUIDE_SLUG = "best-safety-razors-that-last-a-lifetime";
-const RESTORED_GUIDE_TITLE = "Safety Razors: Construction, Blade Format, and Maintenance";
-const RESTORED_GUIDE_DESCRIPTION = "A manufacturer-sourced comparison of Edwin Jagger DE89, MERKUR 34C, Henson AL13, and MÜHLE R 41 construction and maintainability.";
+const CAST_IRON_GUIDE_SLUG = "best-cast-iron-skillets-that-last-forever";
+
+const restoredGuides = {
+  [RESTORED_GUIDE_SLUG]: {
+    slug: RESTORED_GUIDE_SLUG,
+    title: "Safety Razors: Construction, Blade Format, and Maintenance",
+    description: "A manufacturer-sourced comparison of Edwin Jagger DE89, MERKUR 34C, Henson AL13, and MÜHLE R 41 construction and maintainability.",
+    reviewedAt: "2026-08-29",
+    destinationDescription: "MERKUR Classic MK-34C, ASIN B002A8JO1Q",
+    destinationLabel: "View exact MERKUR 34C on Amazon",
+    imageWidth: 1504,
+    imageHeight: 1000,
+  },
+  [CAST_IRON_GUIDE_SLUG]: {
+    slug: CAST_IRON_GUIDE_SLUG,
+    title: "Cast-Iron Skillets That Last: Lodge 12-Inch Evidence Review",
+    description: "A source-checked review of the Lodge 12-inch Classic Cast Iron Skillet, including maintainable seasoning, warranty limits, ownership tradeoffs, and dated owner evidence.",
+    reviewedAt: "2026-08-30",
+    destinationDescription: "the standalone Lodge L10SK3 12-inch skillet, ASIN B00006JSUB",
+    destinationLabel: "View exact Lodge L10SK3 on Amazon",
+    imageWidth: 1494,
+    imageHeight: 1742,
+  },
+} as const;
+
+type RestoredGuideSlug = keyof typeof restoredGuides;
+type RestoredGuideConfig = (typeof restoredGuides)[RestoredGuideSlug];
+
+function restoredGuideFor(slug: string): RestoredGuideConfig | undefined {
+  return restoredGuides[slug as RestoredGuideSlug];
+}
 
 export function generateStaticParams() {
   return articles.map((article) => ({ slug: article.slug }));
@@ -24,25 +53,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getArticleBySlug((await params).slug);
   if (!article) return {};
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
+  const config = restoredGuideFor(article.slug);
 
-  if (article.slug === RESTORED_GUIDE_SLUG) {
-    const imageEvidence = articleImageEvidence[RESTORED_GUIDE_SLUG];
+  if (config) {
+    const imageEvidence = articleImageEvidence[config.slug];
     return {
-      title: RESTORED_GUIDE_TITLE,
-      description: RESTORED_GUIDE_DESCRIPTION,
+      title: config.title,
+      description: config.description,
       robots: { index: true, follow: true },
       alternates: { canonical },
       openGraph: {
         type: "article",
-        title: RESTORED_GUIDE_TITLE,
-        description: RESTORED_GUIDE_DESCRIPTION,
+        title: config.title,
+        description: config.description,
         url: canonical,
         images: [{ url: imageEvidence.image, alt: imageEvidence.alt }],
       },
       twitter: {
         card: "summary_large_image",
-        title: RESTORED_GUIDE_TITLE,
-        description: RESTORED_GUIDE_DESCRIPTION,
+        title: config.title,
+        description: config.description,
         images: [imageEvidence.image],
       },
     };
@@ -56,15 +86,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType<typeof getArticleBySlug>> }) {
+function RestoredGuide({
+  article,
+  config,
+}: {
+  article: NonNullable<ReturnType<typeof getArticleBySlug>>;
+  config: RestoredGuideConfig;
+}) {
   const content = renderArticleHtml(article.content);
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
-  const imageEvidence = articleImageEvidence[RESTORED_GUIDE_SLUG];
+  const imageEvidence = articleImageEvidence[config.slug];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: RESTORED_GUIDE_TITLE,
-    description: RESTORED_GUIDE_DESCRIPTION,
+    headline: config.title,
+    description: config.description,
     author: { "@type": "Organization", name: "Everlasting Goods Editorial Team" },
     publisher: { "@type": "Organization", name: "Everlasting Goods", url: "https://everlasting-goods.com" },
     datePublished: article.date,
@@ -79,9 +115,9 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
       <section className="border-b border-cream-200 bg-white">
         <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-forest-600">Restored after evidence review</p>
-          <h1 className="mt-4 font-serif text-4xl font-bold text-charcoal md:text-5xl">{RESTORED_GUIDE_TITLE}</h1>
-          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-charcoal/65">{RESTORED_GUIDE_DESCRIPTION}</p>
-          <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer and owner sources reviewed 2026-08-29</p>
+          <h1 className="mt-4 font-serif text-4xl font-bold text-charcoal md:text-5xl">{config.title}</h1>
+          <p className="mt-5 max-w-3xl text-lg leading-relaxed text-charcoal/65">{config.description}</p>
+          <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer and owner sources reviewed {config.reviewedAt}</p>
         </div>
       </section>
       <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
@@ -89,8 +125,8 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
           <Image
             src={imageEvidence.image}
             alt={imageEvidence.alt}
-            width={1504}
-            height={1000}
+            width={config.imageWidth}
+            height={config.imageHeight}
             className="h-auto w-full object-cover"
             priority
           />
@@ -109,15 +145,15 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
           <AffiliateDisclosure />
           <h2 className="font-serif text-2xl font-bold text-charcoal">Exact model checked</h2>
           <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-            The destination below was checked for MERKUR Classic MK-34C, ASIN B002A8JO1Q. Confirm the model, finish, seller, and included items before ordering. Price and availability are shown only by the merchant.
+            The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
           </p>
           <a
-            href={amazonLink("B002A8JO1Q")}
+            href={config.slug === CAST_IRON_GUIDE_SLUG ? amazonLink("B00006JSUB") : amazonLink("B002A8JO1Q")}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"
           >
-            View exact MERKUR 34C on Amazon
+            {config.destinationLabel}
           </a>
         </div>
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
@@ -133,9 +169,10 @@ function RestoredSafetyRazorGuide({ article }: { article: NonNullable<ReturnType
 export default async function ArticlePage({ params }: PageProps) {
   const article = getArticleBySlug((await params).slug);
   if (!article) notFound();
+  const config = restoredGuideFor(article.slug);
 
-  if (article.slug === RESTORED_GUIDE_SLUG) {
-    return <RestoredSafetyRazorGuide article={article} />;
+  if (config) {
+    return <RestoredGuide article={article} config={config} />;
   }
 
   return (

@@ -6,7 +6,7 @@ async function text(path) {
   return readFile(new URL(`../${path}`, import.meta.url), "utf8");
 }
 
-test("legacy article pages stay quarantined except the audited safety-razor guide", async () => {
+test("legacy article pages stay quarantined except audited restored guides", async () => {
   const source = await text("src/app/articles/[slug]/page.tsx");
   assert.match(source, /Legacy guide under evidence review/);
   assert.match(source, /RESTORED_GUIDE_SLUG/);
@@ -35,9 +35,10 @@ test("public discovery surfaces use generated database records instead of legacy
   assert.doesNotMatch(products, /@\/lib\/data/);
 });
 
-test("sitemap publishes database records and only the audited restored guide", async () => {
+test("sitemap publishes database records and only audited restored guides", async () => {
   const source = await text("src/app/sitemap.ts");
   assert.match(source, /database\/\$\{product\.slug\}/);
+  assert.match(source, /articles\/best-cast-iron-skillets-that-last-forever/);
   assert.match(source, /articles\/best-safety-razors-that-last-a-lifetime/);
   assert.doesNotMatch(source, /articles\.map/);
   for (const route of ["/contact", "/privacy", "/terms"]) {
