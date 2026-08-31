@@ -21,9 +21,9 @@
     "policy_path": "ops/editorial-photo-policy.md"
   },
   "product_photo_pipeline": {
-    "status": "ready_blocked_on_rights",
+    "status": "one_open_license_image_resolved_not_loaded_to_product_database",
     "verified_images": 0,
-    "blocked_models": 16,
+    "blocked_models": 15,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,16 +36,16 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-30T06:27:56Z",
-  "last_action": "Restored the existing high-intent cast-iron guide as an evidence-limited Lodge 12-inch review with a CC BY-SA 3.0 exact-product photo, current manufacturer care and warranty documentation, dated owner evidence, explicit tradeoffs, and one disclosed exact-model Amazon destination for ASIN B00006JSUB",
-  "last_live_url": "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
-  "last_commit": "7a03853215825e55f7ba457ec8ad85a2378d47df",
+  "last_verified_at": "2026-08-31T06:33:57Z",
+  "last_action": "Restored the existing high-intent kitchen-knives URL as an evidence-limited Victorinox Fibrox 5.2063.20 review with a CC BY-SA 4.0 exact-product photo, current manufacturer product, maintenance, and warranty documentation, dated long-term owner evidence, explicit repairability limits, and one disclosed exact-model Amazon destination for ASIN B008M5U1C2",
+  "last_live_url": "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+  "last_commit": "ac0c38e0452e9a62203ed1fcfa43f46c963eef73",
   "last_evidence": {
-    "local_gates": "npm run verify passed 67 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed verification at 70% coverage; local production readback passed all route checks",
-    "deployment": "Both Vercel project statuses for commit 7a03853215825e55f7ba457ec8ad85a2378d47df completed successfully",
-    "live_readback": "The restored cast-iron guide returned HTTP 200 with the exact canonical, indexable metadata, sitemap inclusion, CC BY-SA 3.0 exact-product Lodge 12-inch photo and attribution, current manufacturer and dated owner evidence, disclosure before the exact ASIN B00006JSUB destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price or rating, and consent-gated affiliate_click analytics code in the deployed bundle; the deployed image matched SHA-256 dbaa0e787a43030f451aa1415e41f4c8c0013669df4e3db280eb50ca354269a4",
+    "local_gates": "npm run verify passed 70 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed verification at 79% coverage; local production readback passed all route checks",
+    "deployment": "Both Vercel project statuses for commit ac0c38e0452e9a62203ed1fcfa43f46c963eef73 completed successfully",
+    "live_readback": "The restored kitchen-knives guide returned HTTP 200 with the exact canonical, indexable metadata, sitemap inclusion, CC BY-SA 4.0 exact-product Victorinox Fibrox 5.2063.20 photo and attribution, current manufacturer and dated owner evidence, disclosure before the exact ASIN B008M5U1C2 destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price, and consent-gated affiliate_click analytics code in the deployed bundle; the deployed image matched SHA-256 8ceb5b96702993cb23142e9855a1a2046f207e13779685890c11757270ffd3b5",
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever"
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime"
     ]
   },
   "blockers": [
@@ -55,7 +55,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "No Daniel-supplied T1 product notes or shop photos are available; all current publishable records are T2",
-    "All 16 exact-model product images are blocked on reusable rights: manufacturer pages confirm identity but their terms do not grant commercial editorial reuse; no exact open-license alternatives or approved Product Advertising API path were available",
+    "Fifteen exact-model product images remain blocked on reusable rights; the Victorinox Fibrox 5.2063.20 open-license image is resolved for article use but is not yet loaded into the structured product-photo fields",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "The protected AGENTS.md governance patch timed out at the file guard; the active exact-product photo requirement is recorded in ops/editorial-photo-policy.md, ops/state.json, and regression tests"
   ]
