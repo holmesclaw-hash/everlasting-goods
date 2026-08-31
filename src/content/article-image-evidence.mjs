@@ -1,4 +1,14 @@
 export const articleImageEvidence = {
+  "best-kitchen-knives-that-last-a-lifetime": {
+    image: "/images/articles/victorinox-fibrox-5-2063-20.jpg",
+    exact_product_model: "Victorinox Fibrox 5.2063.20 Chef’s Knife Extra Wide, 8 in",
+    source_url: "https://commons.wikimedia.org/wiki/File:Victorinox_Fibrox_5.2063.20_chef%27s_knife.jpg",
+    rights_basis: "open-license",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Francis Flinch / Wikimedia Commons",
+    alt: "Victorinox Fibrox 5.2063.20 eight-inch chef’s knife with a black textured TPE handle on a white background",
+  },
   "best-cast-iron-skillets-that-last-forever": {
     image: "/images/articles/lodge-12-inch-skillet.jpg",
     exact_product_model: "Lodge 12-inch cast-iron skillet",

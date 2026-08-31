@@ -14,6 +14,7 @@ interface PageProps { params: Promise<{ slug: string }> }
 
 const RESTORED_GUIDE_SLUG = "best-safety-razors-that-last-a-lifetime";
 const CAST_IRON_GUIDE_SLUG = "best-cast-iron-skillets-that-last-forever";
+const VICTORINOX_GUIDE_SLUG = "best-kitchen-knives-that-last-a-lifetime";
 
 const restoredGuides = {
   [RESTORED_GUIDE_SLUG]: {
@@ -35,6 +36,16 @@ const restoredGuides = {
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
     imageWidth: 1494,
     imageHeight: 1742,
+  },
+  [VICTORINOX_GUIDE_SLUG]: {
+    slug: VICTORINOX_GUIDE_SLUG,
+    title: "Kitchen Knives That Last: Victorinox Fibrox 8-Inch Evidence Review",
+    description: "A source-checked review of the Victorinox Fibrox 5.2063.20 chef’s knife, including edge maintenance, warranty limits, repairability boundaries, and dated owner evidence.",
+    reviewedAt: "2026-08-31",
+    destinationDescription: "the black Victorinox Fibrox Pro 8-inch chef’s knife, ASIN B008M5U1C2",
+    destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",
+    imageWidth: 1198,
+    imageHeight: 674,
   },
 } as const;
 
@@ -148,7 +159,11 @@ function RestoredGuide({
             The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
           </p>
           <a
-            href={config.slug === CAST_IRON_GUIDE_SLUG ? amazonLink("B00006JSUB") : amazonLink("B002A8JO1Q")}
+            href={config.slug === CAST_IRON_GUIDE_SLUG
+              ? amazonLink("B00006JSUB")
+              : config.slug === VICTORINOX_GUIDE_SLUG
+                ? amazonLink("B008M5U1C2")
+                : amazonLink("B002A8JO1Q")}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"

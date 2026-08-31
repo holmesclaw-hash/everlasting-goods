@@ -3,6 +3,7 @@ import {
 } from "./affiliate.mjs";
 import { castIronSkilletContent } from "../content/cast-iron-skillets.mjs";
 import { safetyRazorContent } from "../content/safety-razors.mjs";
+import { victorinoxFibroxContent } from "../content/victorinox-fibrox.mjs";
 
 export {
   AFFILIATE_TAG,
@@ -966,7 +967,7 @@ export const articles: Article[] = [
     excerpt:
       "A great chef's knife is the most important tool in your kitchen. These knives are built to perform for decades with proper care.",
     category: "kitchen",
-    image: "https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/articles/victorinox-fibrox-5-2063-20.jpg",
     author: "Everlasting Goods Editorial Team",
     date: "2024-10-10",
     readTime: "14 min read",
@@ -4769,6 +4770,14 @@ export function getArticleBySlug(slug: string): Article | undefined {
       ...reviewedArticle,
       content: safetyRazorContent,
       updatedAt: "2026-08-29",
+      author: "Everlasting Goods Editorial Team",
+    };
+  }
+  if (slug === "best-kitchen-knives-that-last-a-lifetime") {
+    return {
+      ...reviewedArticle,
+      content: victorinoxFibroxContent,
+      updatedAt: "2026-08-31",
       author: "Everlasting Goods Editorial Team",
     };
   }

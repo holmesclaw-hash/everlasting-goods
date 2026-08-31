@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tools/cost-per-year`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/tools/repair-or-replace`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/articles/best-cast-iron-skillets-that-last-forever`, lastModified: new Date("2026-08-30"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/articles/best-kitchen-knives-that-last-a-lifetime`, lastModified: new Date("2026-08-31"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/articles/best-safety-razors-that-last-a-lifetime`, lastModified: new Date("2026-08-29"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/methodology`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.6 },
