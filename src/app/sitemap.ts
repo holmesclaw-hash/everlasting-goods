@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: baseUrl, lastModified: reviewed, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/database`, lastModified: reviewed, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/products`, lastModified: reviewed, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/blog`, lastModified: new Date("2026-09-01"), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/tools/cost-per-year`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/tools/repair-or-replace`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/articles/best-cast-iron-skillets-that-last-forever`, lastModified: new Date("2026-08-30"), changeFrequency: "monthly", priority: 0.8 },
