@@ -36,16 +36,18 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-08-31T06:33:57Z",
-  "last_action": "Restored the existing high-intent kitchen-knives URL as an evidence-limited Victorinox Fibrox 5.2063.20 review with a CC BY-SA 4.0 exact-product photo, current manufacturer product, maintenance, and warranty documentation, dated long-term owner evidence, explicit repairability limits, and one disclosed exact-model Amazon destination for ASIN B008M5U1C2",
-  "last_live_url": "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
-  "last_commit": "ac0c38e0452e9a62203ed1fcfa43f46c963eef73",
+  "last_verified_at": "2026-09-01T06:23:46Z",
+  "last_action": "Replaced the noindex legacy blog notice with an indexable verified-guide hub that surfaces only the three restored revenue guides, reuses their documented exact-product photos and license attribution, links the homepage to the hub, and adds the hub to the sitemap without adding commercial links",
+  "last_live_url": "https://everlasting-goods.com/blog",
+  "last_commit": "3e57df2b2fe6447cbb420cd43c055379f7aa4beb",
   "last_evidence": {
-    "local_gates": "npm run verify passed 70 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; grounded-citation research card passed verification at 79% coverage; local production readback passed all route checks",
-    "deployment": "Both Vercel project statuses for commit ac0c38e0452e9a62203ed1fcfa43f46c963eef73 completed successfully",
-    "live_readback": "The restored kitchen-knives guide returned HTTP 200 with the exact canonical, indexable metadata, sitemap inclusion, CC BY-SA 4.0 exact-product Victorinox Fibrox 5.2063.20 photo and attribution, current manufacturer and dated owner evidence, disclosure before the exact ASIN B008M5U1C2 destination, approved everlastin08f-20 tag, no stale tag, sponsored rel, no visible Amazon price, and consent-gated affiliate_click analytics code in the deployed bundle; the deployed image matched SHA-256 8ceb5b96702993cb23142e9855a1a2046f207e13779685890c11757270ffd3b5",
+    "local_gates": "A regression test failed before implementation and passed afterward; npm run verify passed 72 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; local production readback passed all homepage, guide-hub, image-attribution, canonical, analytics-hook, and sitemap checks",
+    "deployment": "Both Vercel project statuses for commit 3e57df2b2fe6447cbb420cd43c055379f7aa4beb completed successfully",
+    "live_readback": "The homepage, /blog, and sitemap returned HTTP 200. The homepage links to the hub; /blog is indexable with the exact canonical, links only the three restored guides, displays their three exact-product images with recorded attribution and licenses, and contains no Amazon destination or affiliate tag; the sitemap includes the hub and all three guides; deployed JavaScript contains consent-gated affiliate_click tracking",
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime"
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/blog",
+      "https://everlasting-goods.com/sitemap.xml"
     ]
   },
   "blockers": [
