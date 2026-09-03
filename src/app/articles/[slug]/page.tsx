@@ -22,6 +22,7 @@ const restoredGuides = {
     title: "Safety Razors: Construction, Blade Format, and Maintenance",
     description: "A manufacturer-sourced comparison of Edwin Jagger DE89, MERKUR 34C, Henson AL13, and MÜHLE R 41 construction and maintainability.",
     reviewedAt: "2026-08-29",
+    asin: "B002A8JO1Q",
     destinationDescription: "MERKUR Classic MK-34C, ASIN B002A8JO1Q",
     destinationLabel: "View exact MERKUR 34C on Amazon",
     imageWidth: 1504,
@@ -32,6 +33,7 @@ const restoredGuides = {
     title: "Cast-Iron Skillets That Last: Lodge 12-Inch Evidence Review",
     description: "A source-checked review of the Lodge 12-inch Classic Cast Iron Skillet, including maintainable seasoning, warranty limits, ownership tradeoffs, and dated owner evidence.",
     reviewedAt: "2026-08-30",
+    asin: "B00006JSUB",
     destinationDescription: "the standalone Lodge L10SK3 12-inch skillet, ASIN B00006JSUB",
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
     imageWidth: 1494,
@@ -42,6 +44,7 @@ const restoredGuides = {
     title: "Kitchen Knives That Last: Victorinox Fibrox 8-Inch Evidence Review",
     description: "A source-checked review of the Victorinox Fibrox 5.2063.20 chef’s knife, including edge maintenance, warranty limits, repairability boundaries, and dated owner evidence.",
     reviewedAt: "2026-08-31",
+    asin: "B008M5U1C2",
     destinationDescription: "the black Victorinox Fibrox Pro 8-inch chef’s knife, ASIN B008M5U1C2",
     destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",
     imageWidth: 1198,
@@ -54,6 +57,37 @@ type RestoredGuideConfig = (typeof restoredGuides)[RestoredGuideSlug];
 
 function restoredGuideFor(slug: string): RestoredGuideConfig | undefined {
   return restoredGuides[slug as RestoredGuideSlug];
+}
+
+function ExactModelDestination({
+  config,
+  placement,
+}: {
+  config: RestoredGuideConfig;
+  placement: "decision-start" | "decision-end";
+}) {
+  return (
+    <div className={placement === "decision-start"
+      ? "mb-10 rounded-2xl border border-cream-200 bg-white p-6"
+      : "mt-12 rounded-2xl border border-forest-200 bg-white p-6"}>
+      <AffiliateDisclosure />
+      <h2 className="font-serif text-2xl font-bold text-charcoal">
+        {placement === "decision-start" ? "Exact model checked" : "Compare the exact model"}
+      </h2>
+      <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
+        The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
+      </p>
+      <a
+        href={amazonLink(config.asin)}
+        data-affiliate-placement={placement}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"
+      >
+        {config.destinationLabel}
+      </a>
+    </div>
+  );
 }
 
 export function generateStaticParams() {
@@ -150,28 +184,11 @@ function RestoredGuide({
       </figure>
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 text-sm leading-relaxed text-charcoal/65">
-          This restored guide contains one independently identity-checked exact-product affiliate destination. It contains no price, rating, availability, or hands-on claim. Manufacturer statements and owner reports are attributed; editorial observations are identified as such.
+          This restored guide uses two disclosed links to one independently identity-checked exact-product affiliate destination. It contains no price, rating, availability, or hands-on claim. Manufacturer statements and owner reports are attributed; editorial observations are identified as such.
         </div>
-        <div className="mb-10 rounded-2xl border border-cream-200 bg-white p-6">
-          <AffiliateDisclosure />
-          <h2 className="font-serif text-2xl font-bold text-charcoal">Exact model checked</h2>
-          <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-            The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
-          </p>
-          <a
-            href={config.slug === CAST_IRON_GUIDE_SLUG
-              ? amazonLink("B00006JSUB")
-              : config.slug === VICTORINOX_GUIDE_SLUG
-                ? amazonLink("B008M5U1C2")
-                : amazonLink("B002A8JO1Q")}
-            target="_blank"
-            rel="sponsored nofollow noopener noreferrer"
-            className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"
-          >
-            {config.destinationLabel}
-          </a>
-        </div>
+        <ExactModelDestination config={config} placement="decision-start" />
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
+        <ExactModelDestination config={config} placement="decision-end" />
         <div className="mt-12 flex flex-wrap gap-3 border-t border-cream-200 pt-8">
           <Link href="/methodology" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Evidence methodology</Link>
           <Link href="/database" className="rounded-xl border border-cream-200 bg-white px-5 py-3 font-semibold text-charcoal hover:bg-cream-100">Verified product database</Link>

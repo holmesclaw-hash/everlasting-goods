@@ -43,9 +43,10 @@ test("restored Victorinox guide separates current specifications, owner evidence
 test("restored Victorinox guide discloses before its verified exact-model destination", async () => {
   const page = await text("src/app/articles/[slug]/page.tsx");
   const disclosureIndex = page.indexOf("<AffiliateDisclosure");
-  const destinationIndex = page.indexOf('amazonLink("B008M5U1C2")');
+  const destinationIndex = page.indexOf("amazonLink(config.asin)");
 
   assert.match(page, /VICTORINOX_GUIDE_SLUG/);
+  assert.match(page, /asin: "B008M5U1C2"/);
   assert.ok(disclosureIndex >= 0, "restored guide must render the affiliate disclosure");
   assert.ok(destinationIndex > disclosureIndex, "disclosure must precede the exact-model destination");
   assert.match(page, /View exact Victorinox Fibrox 8-inch on Amazon/);

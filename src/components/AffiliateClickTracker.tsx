@@ -35,7 +35,8 @@ export default function AffiliateClickTracker() {
         gtag,
         anchor.href,
         anchor.textContent ?? "",
-        window.location.pathname
+        window.location.pathname,
+        anchor.dataset.affiliatePlacement
       );
     };
 

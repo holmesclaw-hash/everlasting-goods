@@ -9,9 +9,10 @@ async function text(path) {
 test("restored safety-razor guide discloses before its verified exact-model destination", async () => {
   const page = await text("src/app/articles/[slug]/page.tsx");
   const disclosureIndex = page.indexOf("<AffiliateDisclosure");
-  const destinationIndex = page.indexOf('amazonLink("B002A8JO1Q")');
+  const destinationIndex = page.indexOf("amazonLink(config.asin)");
 
   assert.match(page, /import AffiliateDisclosure from "@\/components\/AffiliateDisclosure"/);
+  assert.match(page, /asin: "B002A8JO1Q"/);
   assert.ok(disclosureIndex >= 0, "restored guide must render the affiliate disclosure");
   assert.ok(destinationIndex > disclosureIndex, "disclosure must precede the exact-model destination");
   assert.match(page, /View exact MERKUR 34C on Amazon/);
