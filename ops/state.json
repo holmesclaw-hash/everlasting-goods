@@ -36,17 +36,26 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-01T06:23:46Z",
-  "last_action": "Replaced the noindex legacy blog notice with an indexable verified-guide hub that surfaces only the three restored revenue guides, reuses their documented exact-product photos and license attribution, links the homepage to the hub, and adds the hub to the sitemap without adding commercial links",
-  "last_live_url": "https://everlasting-goods.com/blog",
-  "last_commit": "3e57df2b2fe6447cbb420cd43c055379f7aa4beb",
+  "last_verified_at": "2026-09-03T06:23:02Z",
+  "last_action": "Added a second disclosed exact-model affiliate decision point after the evidence review on each of the three restored guides, consolidated each guide's ASIN into its checked configuration, and added consent-gated CTA placement measurement so decision-start and decision-end clicks can be distinguished",
+  "last_live_url": "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+  "last_commit": "64d96f29714414c93289c502f291d626ce7bde2c",
   "last_evidence": {
-    "local_gates": "A regression test failed before implementation and passed afterward; npm run verify passed 72 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; local production readback passed all homepage, guide-hub, image-attribution, canonical, analytics-hook, and sitemap checks",
-    "deployment": "Both Vercel project statuses for commit 3e57df2b2fe6447cbb420cd43c055379f7aa4beb completed successfully",
-    "live_readback": "The homepage, /blog, and sitemap returned HTTP 200. The homepage links to the hub; /blog is indexable with the exact canonical, links only the three restored guides, displays their three exact-product images with recorded attribution and licenses, and contains no Amazon destination or affiliate tag; the sitemap includes the hub and all three guides; deployed JavaScript contains consent-gated affiliate_click tracking",
+    "local_gates": "Three regression tests failed before implementation and passed afterward; npm run verify passed 75 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; local production readback passed exact-destination, approved-tag, disclosure, CTA-placement, canonical, analytics-hook, and sitemap checks",
+    "deployment": "Both Vercel project statuses for commit 64d96f29714414c93289c502f291d626ce7bde2c completed successfully",
+    "live_readback": "All three restored guides and the sitemap returned HTTP 200. Each guide renders exactly two links to its one checked ASIN with tag everlastin08f-20, one decision-start and one decision-end placement, two nearby affiliate disclosures, the exact canonical, and no stale tag; the sitemap includes all three routes; deployed JavaScript contains affiliate_click and link_placement handling",
+    "source_urls": [
+      "https://www.merkur-razors.com/produkt/merkur-34c/?lang=en",
+      "https://www.amazon.com/Merkur-Mk34c-Double-Razor-Handle/dp/B002A8JO1Q",
+      "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet",
+      "https://www.amazon.com/dp/B00006JSUB",
+      "https://www.victorinox.com/en-US/Products/Cutlery/Chef%27s-Knives/Fibrox%C2%AE-Chef%E2%80%99s-Knife-Extra-Wide/p/5.2063.20",
+      "https://www.amazon.com/dp/B008M5U1C2"
+    ],
     "live_routes": [
-      "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/blog",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
       "https://everlasting-goods.com/sitemap.xml"
     ]
   },
@@ -56,7 +65,6 @@
     "Affiliate-program registrations require Daniel to accept program terms and cannot be completed autonomously",
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
-    "No Daniel-supplied T1 product notes or shop photos are available; all current publishable records are T2",
     "Fifteen exact-model product images remain blocked on reusable rights; the Victorinox Fibrox 5.2063.20 open-license image is resolved for article use but is not yet loaded into the structured product-photo fields",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "The protected AGENTS.md governance patch timed out at the file guard; the active exact-product photo requirement is recorded in ops/editorial-photo-policy.md, ops/state.json, and regression tests"
