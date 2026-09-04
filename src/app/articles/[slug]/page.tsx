@@ -14,6 +14,7 @@ interface PageProps { params: Promise<{ slug: string }> }
 
 const RESTORED_GUIDE_SLUG = "best-safety-razors-that-last-a-lifetime";
 const CAST_IRON_GUIDE_SLUG = "best-cast-iron-skillets-that-last-forever";
+const ESTWING_GUIDE_SLUG = "best-estwing-hammers-that-last-a-lifetime";
 const VICTORINOX_GUIDE_SLUG = "best-kitchen-knives-that-last-a-lifetime";
 
 const restoredGuides = {
@@ -38,6 +39,17 @@ const restoredGuides = {
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
     imageWidth: 1494,
     imageHeight: 1742,
+  },
+  [ESTWING_GUIDE_SLUG]: {
+    slug: ESTWING_GUIDE_SLUG,
+    title: "Estwing B3-3LB Drilling Hammer: Durability and Limits",
+    description: "A source-checked review of the Estwing B3-3LB 3-lb drilling hammer, including one-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs.",
+    reviewedAt: "2026-09-04",
+    asin: "B00002N5NI",
+    destinationDescription: "the Estwing B3-3LB 3-lb drilling/crack hammer, ASIN B00002N5NI",
+    destinationLabel: "View exact Estwing B3-3LB on Amazon",
+    imageWidth: 1800,
+    imageHeight: 3264,
   },
   [VICTORINOX_GUIDE_SLUG]: {
     slug: VICTORINOX_GUIDE_SLUG,

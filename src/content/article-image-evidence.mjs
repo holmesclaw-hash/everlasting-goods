@@ -19,6 +19,16 @@ export const articleImageEvidence = {
     attribution: "Jim Heaphy (Cullen328) / Wikimedia Commons",
     alt: "Lodge 12-inch cast-iron skillet viewed from above, showing the seasoned cooking surface, long handle, helper handle, and pour spouts",
   },
+  "best-estwing-hammers-that-last-a-lifetime": {
+    image: "/images/articles/estwing-b3-3lb-drilling-hammer.jpg",
+    exact_product_model: "Estwing B3-3LB 3-lb drilling hammer family",
+    source_url: "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
+    rights_basis: "open-license",
+    license: "CC BY-SA 3.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/3.0",
+    attribution: "J.C. Fields (Typhoon) / Wikimedia Commons",
+    alt: "Estwing 3-lb drilling hammer with one-piece steel body and blue molded grip",
+  },
   "best-safety-razors-that-last-a-lifetime": {
     image: "/images/articles/merkur-34c-safety-razor.jpg",
     exact_product_model: "MERKUR 34C",

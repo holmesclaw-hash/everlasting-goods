@@ -13,6 +13,12 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    slug: "best-estwing-hammers-that-last-a-lifetime",
+    title: "Estwing B3-3LB Drilling Hammer Evidence Review",
+    description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
+    reviewedAt: "2026-09-04",
+  },
+  {
     slug: "best-kitchen-knives-that-last-a-lifetime",
     title: "Victorinox Fibrox 8-Inch Evidence Review",
     description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",

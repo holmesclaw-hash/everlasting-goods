@@ -8,6 +8,7 @@ async function text(path) {
 
 const restoredGuideSlugs = [
   "best-cast-iron-skillets-that-last-forever",
+  "best-estwing-hammers-that-last-a-lifetime",
   "best-kitchen-knives-that-last-a-lifetime",
   "best-safety-razors-that-last-a-lifetime",
 ];
