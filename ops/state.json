@@ -36,26 +36,25 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-03T06:23:02Z",
-  "last_action": "Added a second disclosed exact-model affiliate decision point after the evidence review on each of the three restored guides, consolidated each guide's ASIN into its checked configuration, and added consent-gated CTA placement measurement so decision-start and decision-end clicks can be distinguished",
-  "last_live_url": "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
-  "last_commit": "64d96f29714414c93289c502f291d626ce7bde2c",
+  "last_verified_at": "2026-09-04T06:36:23Z",
+  "last_action": "Restored the high-intent Estwing hammer article as a narrow evidence review of the B3-3LB 3-lb drilling hammer, replacing unsupported rankings, generic Amazon searches, false lifetime-warranty language, and dead related links with current manufacturer specifications, explicit warranty and repair limits, attributed owner evidence, a licensed exact-product-family image, and two measured exact-ASIN decision points",
+  "last_live_url": "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+  "last_commit": "81a6bff602de14c7eac186767444444a06a2246c",
   "last_evidence": {
-    "local_gates": "Three regression tests failed before implementation and passed afterward; npm run verify passed 75 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev found 0 vulnerabilities; local production readback passed exact-destination, approved-tag, disclosure, CTA-placement, canonical, analytics-hook, and sitemap checks",
-    "deployment": "Both Vercel project statuses for commit 64d96f29714414c93289c502f291d626ce7bde2c completed successfully",
-    "live_readback": "All three restored guides and the sitemap returned HTTP 200. Each guide renders exactly two links to its one checked ASIN with tag everlastin08f-20, one decision-start and one decision-end placement, two nearby affiliate disclosures, the exact canonical, and no stale tag; the sitemap includes all three routes; deployed JavaScript contains affiliate_click and link_placement handling",
+    "local_gates": "Four regression tests failed before implementation and passed afterward; npm run verify passed 78 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev passed with 0 vulnerabilities before a later registry timeout, and npm audit --omit=dev --offline reconfirmed 0 vulnerabilities; local production readback passed exact-destination, approved-tag, disclosure, CTA-placement, canonical, image-attribution, guide-hub, and sitemap checks",
+    "deployment": "Both Vercel project statuses for commit 81a6bff602de14c7eac186767444444a06a2246c completed successfully",
+    "live_readback": "The restored Estwing guide, guide hub, and sitemap returned HTTP 200. The guide renders exactly two links to checked ASIN B00002N5NI with tag everlastin08f-20, one decision-start and one decision-end placement, two nearby affiliate disclosures, the exact canonical, licensed-image attribution, and no stale tag; the guide hub and sitemap include the route; deployed JavaScript contains affiliate_click and link_placement handling",
     "source_urls": [
-      "https://www.merkur-razors.com/produkt/merkur-34c/?lang=en",
-      "https://www.amazon.com/Merkur-Mk34c-Double-Razor-Handle/dp/B002A8JO1Q",
-      "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet",
-      "https://www.amazon.com/dp/B00006JSUB",
-      "https://www.victorinox.com/en-US/Products/Cutlery/Chef%27s-Knives/Fibrox%C2%AE-Chef%E2%80%99s-Knife-Extra-Wide/p/5.2063.20",
-      "https://www.amazon.com/dp/B008M5U1C2"
+      "https://www.estwing.com/product/drilling-hammer/",
+      "https://www.estwing.com/resources/warranty/",
+      "https://www.amazon.com/dp/B00002N5NI",
+      "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
+      "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
+      "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
-      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+      "https://everlasting-goods.com/blog",
       "https://everlasting-goods.com/sitemap.xml"
     ]
   },
