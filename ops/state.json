@@ -16,7 +16,7 @@
   },
   "article_photo_policy": {
     "status": "active",
-    "requirement": "Every publishable article needs a lawful genuine photo of an exact named product",
+    "requirement": "Use a lawful exact-product photo when available; otherwise publish fully sourced work in an explicit text-first layout without generic or unlicensed product imagery",
     "provenance_source": "src/content/article-image-evidence.mjs",
     "policy_path": "ops/editorial-photo-policy.md"
   },
@@ -36,24 +36,24 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-04T06:36:23Z",
-  "last_action": "Restored the high-intent Estwing hammer article as a narrow evidence review of the B3-3LB 3-lb drilling hammer, replacing unsupported rankings, generic Amazon searches, false lifetime-warranty language, and dead related links with current manufacturer specifications, explicit warranty and repair limits, attributed owner evidence, a licensed exact-product-family image, and two measured exact-ASIN decision points",
-  "last_live_url": "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-  "last_commit": "81a6bff602de14c7eac186767444444a06a2246c",
+  "last_verified_at": "2026-09-05T06:39:08Z",
+  "last_action": "Restored the high-intent faucet article as a narrow evidence review of the standard Delta Essa 9113-AR-DST, replacing unsupported brand rankings, generic Amazon searches, stale warranty implications, and unsourced lifespan claims with current manufacturer specifications, model-family replacement-part identities, installation and leak guidance, warranty limits, attributed mixed owner reports, an explicit text-first presentation, and two measured exact-ASIN decision points",
+  "last_live_url": "https://everlasting-goods.com/articles/best-faucet-brands-that-actually-last",
+  "last_commit": "fc8064900137f3855fe652abf8779735935a42da",
   "last_evidence": {
-    "local_gates": "Four regression tests failed before implementation and passed afterward; npm run verify passed 78 tests plus quality, lint, typecheck, and production build; npm audit --omit=dev passed with 0 vulnerabilities before a later registry timeout, and npm audit --omit=dev --offline reconfirmed 0 vulnerabilities; local production readback passed exact-destination, approved-tag, disclosure, CTA-placement, canonical, image-attribution, guide-hub, and sitemap checks",
-    "deployment": "Both Vercel project statuses for commit 81a6bff602de14c7eac186767444444a06a2246c completed successfully",
-    "live_readback": "The restored Estwing guide, guide hub, and sitemap returned HTTP 200. The guide renders exactly two links to checked ASIN B00002N5NI with tag everlastin08f-20, one decision-start and one decision-end placement, two nearby affiliate disclosures, the exact canonical, licensed-image attribution, and no stale tag; the guide hub and sitemap include the route; deployed JavaScript contains affiliate_click and link_placement handling",
+    "local_gates": "Targeted regression expectations failed before their corresponding implementations and passed afterward; npm run verify passed 81 tests plus quality, lint, typecheck, and the production build; npm audit --omit=dev passed with 0 vulnerabilities; local production readback passed exact-destination, approved-tag, disclosure, CTA-placement, canonical, modified-date, text-first, guide-hub, and sitemap checks",
+    "deployment": "Both Vercel project statuses for commit fc8064900137f3855fe652abf8779735935a42da completed successfully",
+    "live_readback": "The restored Delta Essa guide, guide hub, and sitemap returned HTTP 200. The guide renders exactly two links to checked ASIN B012I44K8S with tag everlastin08f-20, one decision-start and one decision-end placement, two nearby affiliate disclosures, the exact canonical, a 2026-09-05 structured modified date, an explicit text-first notice with no article Open Graph image, and no stale tag; the guide hub and sitemap include the route; deployed JavaScript contains affiliate_click and placement capture handling",
     "source_urls": [
-      "https://www.estwing.com/product/drilling-hammer/",
-      "https://www.estwing.com/resources/warranty/",
-      "https://www.amazon.com/dp/B00002N5NI",
-      "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
-      "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
-      "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg"
+      "https://www.deltafaucet.com/kitchen/product/9113-AR-DST.html",
+      "https://media.deltafaucet.com/PartsDiagram/DPD-K-9113-DST%20Rev%20G.pdf",
+      "https://media.deltafaucet.com/MandI/106557%20Rev%20H.pdf",
+      "https://deltafaucet.com/warranty",
+      "https://www.deltafaucet.com/kitchen/product/9113-AR-DST.html?bvstate=pg%3A2%2Fct%3Ar",
+      "https://www.amazon.com/dp/B012I44K8S"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-faucet-brands-that-actually-last",
       "https://everlasting-goods.com/blog",
       "https://everlasting-goods.com/sitemap.xml"
     ]
@@ -64,8 +64,7 @@
     "Affiliate-program registrations require Daniel to accept program terms and cannot be completed autonomously",
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
-    "Fifteen exact-model product images remain blocked on reusable rights; the Victorinox Fibrox 5.2063.20 open-license image is resolved for article use but is not yet loaded into the structured product-photo fields",
-    "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
-    "The protected AGENTS.md governance patch timed out at the file guard; the active exact-product photo requirement is recorded in ops/editorial-photo-policy.md, ops/state.json, and regression tests"
+    "Fifteen exact-model product images remain unavailable on reusable rights; text-first article publication is allowed, while structured product-photo fields still require exact-model provenance",
+    "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration"
   ]
 }
