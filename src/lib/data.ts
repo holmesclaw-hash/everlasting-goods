@@ -2,6 +2,7 @@ import {
   amazonLink,
 } from "./affiliate.mjs";
 import { castIronSkilletContent } from "../content/cast-iron-skillets.mjs";
+import { deltaEssaFaucetContent } from "../content/delta-essa-faucet.mjs";
 import { estwingDrillingHammerContent } from "../content/estwing-drilling-hammer.mjs";
 import { safetyRazorContent } from "../content/safety-razors.mjs";
 import { victorinoxFibroxContent } from "../content/victorinox-fibrox.mjs";
@@ -724,60 +725,18 @@ export const articles: Article[] = [
 
       {
         slug: "best-faucet-brands-that-actually-last",
-        title: "Best Faucet Brands That Actually Last",
+        title: "Delta Essa 9113-AR-DST: Parts, Warranty, and Durability",
         excerpt:
-          "Kitchen and bath faucets fail in depressingly predictable ways: cheap cartridges, plated pot metal, and parts you can’t source five years later. These are the faucet brands and models worth trusting.",
+          "A source-checked review of the Delta Essa 9113-AR-DST pull-down kitchen faucet, including replacement-part identities, warranty limits, maintenance guidance, and owner-reported leaks.",
         category: "home",
-        image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=80",
+        image: "text-only:delta-essa-9113-ar-dst",
         author: "Everlasting Goods Editorial Team",
         date: "2026-04-08",
-        readTime: "14 min read",
+        readTime: "11 min read",
         featured: false,
         products: [],
-        content: `
-<h2>Why It Matters</h2>
-<p>The debate between Moen vs Kohler in terms of faucet durability is heating up on BuyItForLife, with users weighing the pros and cons of each brand's kitchen faucets. When you're considering a fixture that will serve your home for years to come, it pays to be discerning about materials and construction. A solid brass faucet from <a href="https://www.amazon.com/s?k=solid+brass+faucet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Moentm</a> or <a href="https://www.amazon.com/s?k=solid+brass+faucet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">Delta</a>, for instance, can offer superior longevity and performance compared to less durable alternatives. It is the same logic that makes <a href='/articles/best-stainless-steel-water-bottles-that-last-forever'>stainless steel water bottles</a> and <a href='/articles/best-dutch-ovens-that-last-forever'>enameled Dutch ovens</a> safer long-term bets than plated junk.</p>
-<h2>Top Picks</h2>
-<p>Here are the top faucet brands known for their durability:</p>
-<ul>
-    <li><strong>Moen</strong>: The Moen kitchen faucet (<a href="https://www.amazon.com/s?k=Moen+kitchen+faucet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">view on Amazon</a>) is a best-seller, favored for its robust construction and longevity.</li>
-    <li><strong>Deltam</strong>: Delta's kitchen faucet (<a href="https://www.amazon.com/s?k=Delta+kitchen+faucet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">view on Amazon</a>) is a premium choice for those looking to invest in quality.</li>
-    <li><strong>Kohler</strong>: Kohler's kitchen faucet (<a href="https://www.amazon.com/s?k=Kohler+kitchen+faucet&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">view on Amazon</a>) is another top pick, known for its reliability and durability.</li>
-</ul>
-<h2>How to Choose the Right Faucet</h2>
-<p>Selecting a faucet involves more than just picking your favorite finish. Consider these factors:</p>
-<ul>
-    <li><strong>Material Quality:</strong> Opt for solid brass or stainless steel over less durable materials like plastic or zinc alloy.</li>
-    <li><strong>Mechanical Design:</strong> Look for features such as a ceramic disc valve, which provides longevity and durability. If replaceable parts and serviceability matter to you, that same mindset shows up in <a href='/articles/best-mechanical-watches-that-last-a-lifetime'>mechanical watches built for service</a> and <a href='/articles/best-red-wing-boots-a-complete-buyer-s-guide'>resoleable Red Wing boots</a>.</li>
-    <li><strong>Lifetime Warranty:</strong> Brands offering extended warranties indicate confidence in their product's longevity. Moen and Delta both offer lifetime warranties on some models.</li>
-</ul>
-<h2>Maintenance & Care Tips</h2>
-<p>Proper care can extend the life of your faucet significantly:</p>
-<ul>
-    <li><strong>Clean Regularly:</strong> Use a mild detergent and a soft cloth to clean around the handle and spout. Avoid abrasive cleaners.</li>
-    <li><strong>Protect from Hard Water:</strong> Apply a protective film to prevent hard water buildup, which can corrode metal surfaces over time.</li>
-</ul>
-<h2>Verdict</h2>
-<p>The debate between Moen vs Kohler in terms of kitchen faucet durability is not just about brand loyalty but practicality and long-term value. Both brands offer robust options that stand up to daily use without breaking the bank or sacrificing style. For those who prioritize longevity, a solid brass faucet from either manufacturer should be at the top of your list.</p>
-<h2>Related Reading</h2>
-<p>If you're looking for more insights into home improvement and long-lasting fixtures:</p>
-<ul>
-    <li><a href="#">10 Tips to Extend the Life of Your Plumbing Fixtures</a></li>
-    <li><a href="#">How to Choose a Faucet That Will Last Forever</a></li>
-    <li><a href="#">The Most Durable Kitchen Faucets for 2023</a></li>
-</ul>
-<h2>FAQ</h2>
-<ul>
-    <li><strong>Q: What is the best material for kitchen faucets?</strong><br>
-        A: Solid brass and stainless steel are the top materials due to their durability and resistance to corrosion.</li>
-    <li><strong>Q: Do Moen or Kohler faucets last longer?</strong><br>
-        A: Both brands offer high-quality options with longevity in mind, but individual experiences can vary based on usage and maintenance.</li>
-    <li><strong>Q: How often should I replace a faucet cartridge?</strong><br>
-        A: Most faucet cartridges need replacement every 5-10 years or when you start noticing leaks or reduced water flow. You can find replacements like this one (<a href="https://www.amazon.com/s?k=faucet+cartridge+replacement&tag=everlastin08f-20" target="_blank" rel="nofollow noopener">view on Amazon</a>).</li>
-    <li><strong>Q: Can I install a kitchen faucet myself?</strong><br>
-        A: While many models are DIY-friendly, it's recommended to consult with a professional if you're unsure about your plumbing skills.</li>
-</ul>
-    `,
+        content: deltaEssaFaucetContent,
+        updatedAt: "2026-09-05",
       },
   {
     slug: "best-cast-iron-skillets-that-last-forever",
@@ -4700,7 +4659,7 @@ affecting the fit.</li>
 export function getArticleBySlug(slug: string): Article | undefined {
   const article = articles.find((a) => a.slug === slug);
   if (!article) return undefined;
-  const reviewedArticle = { ...article, updatedAt: CONTENT_LAST_REVIEWED };
+  const reviewedArticle = { ...article, updatedAt: article.updatedAt ?? CONTENT_LAST_REVIEWED };
   if (slug === "best-cast-iron-skillets-that-last-forever") {
     return {
       ...reviewedArticle,

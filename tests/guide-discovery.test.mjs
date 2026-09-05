@@ -9,6 +9,7 @@ async function text(path) {
 const restoredGuideSlugs = [
   "best-cast-iron-skillets-that-last-forever",
   "best-estwing-hammers-that-last-a-lifetime",
+  "best-faucet-brands-that-actually-last",
   "best-kitchen-knives-that-last-a-lifetime",
   "best-safety-razors-that-last-a-lifetime",
 ];
@@ -21,6 +22,7 @@ test("the guide hub is an indexable discovery page for only restored guides", as
   assert.match(hub, /robots: \{ index: true, follow: true \}/);
   assert.match(hub, /articleImageEvidence/);
   assert.match(hub, /Image/);
+  assert.match(hub, /text-only/);
   assert.doesNotMatch(hub, /amazon\.com|amazonLink|amazonSearchLink/);
 
   for (const slug of restoredGuideSlugs) {

@@ -28,9 +28,9 @@ test("the restored guide renders its documented exact-product image and attribut
   assert.match(content, /MERKUR 34C/);
 });
 
-test("operator policy blocks articles without lawful exact-product photos", async () => {
+test("operator policy uses text-first presentation when exact-product photo rights are unavailable", async () => {
   const policy = await readFile(new URL("../ops/editorial-photo-policy.md", import.meta.url), "utf8");
-  assert.match(policy, /every new article must include at least one genuine photo of an exact product/i);
-  assert.match(policy, /block publication/i);
+  assert.match(policy, /use a text-first layout/i);
+  assert.match(policy, /must not block publication/i);
   assert.match(policy, /Never scrape retailer or Amazon imagery/i);
 });

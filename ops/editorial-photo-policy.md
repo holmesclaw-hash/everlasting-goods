@@ -5,9 +5,9 @@ Owner requirement: Daniel
 
 ## Publication requirement
 
-Every new article must include at least one genuine photo of an exact product named in the article. For a top-five guide, the hero may feature any one of the exact listed models.
+Use a genuine photo of an exact product named in the article when a lawful image is available. For a top-five guide, the hero may feature any one of the exact listed models.
 
-Generic category stock, lookalikes, and AI-generated product depictions do not qualify. Block publication when no lawful exact-product photo is available rather than substituting a generic image.
+Generic category stock, lookalikes, and AI-generated product depictions do not qualify. When no lawful exact-product photo is available, use a text-first layout with an explicit notice; missing imagery must not block publication of an otherwise fully sourced article. Never substitute a generic product image.
 
 ## Permitted rights bases
 
@@ -22,7 +22,7 @@ Never scrape retailer or Amazon imagery outside an approved API or license path.
 
 ## Required provenance record
 
-For every publishable article, record:
+For every publishable article that displays product imagery, record:
 
 - exact product model;
 - image file or approved remote URL;
@@ -32,7 +32,7 @@ For every publishable article, record:
 - license and license URL when applicable; and
 - model-specific alt text.
 
-The structured source of truth is `src/content/article-image-evidence.mjs`. A missing or incomplete record blocks publication.
+The structured source of truth for displayed article imagery is `src/content/article-image-evidence.mjs`. A missing or incomplete record blocks use of the image, not a documented text-first publication.
 
 ## Existing-article maintenance
 

@@ -15,11 +15,14 @@ const articleImages = Array.from(
   ([, slug, image]) => ({ slug, image }),
 );
 
-test("every article has a parsed hero image", () => {
+test("every article has a parsed image or explicit text-only presentation", () => {
   assert.equal(articleImages.length, 54);
   for (const { slug, image } of articleImages) {
     if (image.startsWith("/images/articles/")) {
       assert.equal(articleImageEvidence[slug]?.image, image, `${slug} local image needs provenance`);
+    } else if (image.startsWith("text-only:")) {
+      assert.match(image, /^text-only:[a-z0-9]+(?:-[a-z0-9]+)*$/, `${slug} needs a stable text-only marker`);
+      assert.equal(articleImageEvidence[slug], undefined, `${slug} text-only presentation must not claim image evidence`);
     } else {
       assert.match(image, /^https:\/\//, `${slug} must use an absolute HTTPS or documented local image`);
     }
