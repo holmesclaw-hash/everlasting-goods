@@ -15,7 +15,6 @@ interface PageProps { params: Promise<{ slug: string }> }
 const RESTORED_GUIDE_SLUG = "best-safety-razors-that-last-a-lifetime";
 const CAST_IRON_GUIDE_SLUG = "best-cast-iron-skillets-that-last-forever";
 const ESTWING_GUIDE_SLUG = "best-estwing-hammers-that-last-a-lifetime";
-const FAUCET_GUIDE_SLUG = "best-faucet-brands-that-actually-last";
 const VICTORINOX_GUIDE_SLUG = "best-kitchen-knives-that-last-a-lifetime";
 
 const restoredGuides = {
@@ -27,7 +26,6 @@ const restoredGuides = {
     asin: "B002A8JO1Q",
     destinationDescription: "MERKUR Classic MK-34C, ASIN B002A8JO1Q",
     destinationLabel: "View exact MERKUR 34C on Amazon",
-    visualMode: "image",
     imageWidth: 1504,
     imageHeight: 1000,
   },
@@ -39,7 +37,6 @@ const restoredGuides = {
     asin: "B00006JSUB",
     destinationDescription: "the standalone Lodge L10SK3 12-inch skillet, ASIN B00006JSUB",
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
-    visualMode: "image",
     imageWidth: 1494,
     imageHeight: 1742,
   },
@@ -51,19 +48,8 @@ const restoredGuides = {
     asin: "B00002N5NI",
     destinationDescription: "the Estwing B3-3LB 3-lb drilling/crack hammer, ASIN B00002N5NI",
     destinationLabel: "View exact Estwing B3-3LB on Amazon",
-    visualMode: "image",
     imageWidth: 1800,
     imageHeight: 3264,
-  },
-  [FAUCET_GUIDE_SLUG]: {
-    slug: FAUCET_GUIDE_SLUG,
-    title: "Delta Essa 9113-AR-DST: Parts, Warranty, and Durability",
-    description: "A source-checked review of the Delta Essa 9113-AR-DST pull-down kitchen faucet, including replacement parts, warranty limits, maintenance guidance, and owner-reported leaks.",
-    reviewedAt: "2026-09-05",
-    asin: "B012I44K8S",
-    destinationDescription: "the Arctic Stainless Delta Essa 9113-AR-DST, ASIN B012I44K8S",
-    destinationLabel: "View exact Delta Essa 9113-AR-DST on Amazon",
-    visualMode: "text-only",
   },
   [VICTORINOX_GUIDE_SLUG]: {
     slug: VICTORINOX_GUIDE_SLUG,
@@ -73,7 +59,6 @@ const restoredGuides = {
     asin: "B008M5U1C2",
     destinationDescription: "the black Victorinox Fibrox Pro 8-inch chef’s knife, ASIN B008M5U1C2",
     destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",
-    visualMode: "image",
     imageWidth: 1198,
     imageHeight: 674,
   },
@@ -84,6 +69,12 @@ type RestoredGuideConfig = (typeof restoredGuides)[RestoredGuideSlug];
 
 function restoredGuideFor(slug: string): RestoredGuideConfig | undefined {
   return restoredGuides[slug as RestoredGuideSlug];
+}
+
+function publishableGuideFor(slug: string): RestoredGuideConfig | undefined {
+  const config = restoredGuideFor(slug);
+  if (!config || !articleImageEvidence[slug]) return undefined;
+  return config;
 }
 
 function ExactModelDestination({
@@ -125,10 +116,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getArticleBySlug((await params).slug);
   if (!article) return {};
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
-  const config = restoredGuideFor(article.slug);
+  const config = publishableGuideFor(article.slug);
 
   if (config) {
-    const imageEvidence = config.visualMode === "image" ? articleImageEvidence[config.slug] : undefined;
+    const imageEvidence = articleImageEvidence[config.slug];
     return {
       title: config.title,
       description: config.description,
@@ -167,7 +158,7 @@ function RestoredGuide({
 }) {
   const content = renderArticleHtml(article.content);
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
-  const imageEvidence = config.visualMode === "image" ? articleImageEvidence[config.slug] : undefined;
+  const imageEvidence = articleImageEvidence[config.slug];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -192,7 +183,7 @@ function RestoredGuide({
           <p className="mt-5 text-sm text-charcoal/45">By Everlasting Goods Editorial Team · Manufacturer and owner sources reviewed {config.reviewedAt}</p>
         </div>
       </section>
-      {config.visualMode === "image" && imageEvidence ? (
+      {imageEvidence ? (
         <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-2xl border border-cream-200 bg-white">
             <Image
@@ -210,13 +201,7 @@ function RestoredGuide({
             <a href={imageEvidence.license_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-forest-600 hover:underline">{imageEvidence.license}</a>.
           </figcaption>
         </figure>
-      ) : (
-        <section className="mx-auto max-w-4xl px-4 pt-10 sm:px-6 lg:px-8" aria-label="Text-first evidence notice">
-          <div className="rounded-2xl border border-cream-200 bg-cream-100 p-6 text-sm leading-relaxed text-charcoal/65">
-            <strong>Text-first evidence review.</strong> No product image is shown because we did not verify reusable rights for an exact Delta Essa 9113-AR-DST photograph. Generic stock and retailer images are not substitutes for exact-product evidence.
-          </div>
-        </section>
-      )}
+      ) : null}
       <section className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 text-sm leading-relaxed text-charcoal/65">
           This restored guide uses two disclosed links to one independently identity-checked exact-product affiliate destination. It contains no price, rating, availability, or hands-on claim. Manufacturer statements and owner reports are attributed; editorial observations are identified as such.
@@ -236,7 +221,7 @@ function RestoredGuide({
 export default async function ArticlePage({ params }: PageProps) {
   const article = getArticleBySlug((await params).slug);
   if (!article) notFound();
-  const config = restoredGuideFor(article.slug);
+  const config = publishableGuideFor(article.slug);
 
   if (config) {
     return <RestoredGuide article={article} config={config} />;

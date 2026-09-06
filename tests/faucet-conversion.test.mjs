@@ -6,7 +6,7 @@ async function text(path) {
   return readFile(new URL(`../${path}`, import.meta.url), "utf8");
 }
 
-test("restored Delta Essa guide separates manufacturer facts, support, warranty, and owner reports", async () => {
+test("Delta Essa research stays preserved while the image-blocked route remains quarantined", async () => {
   const content = await text("src/content/delta-essa-faucet.mjs");
   const data = await text("src/lib/data.ts");
   const sitemap = await text("src/app/sitemap.ts");
@@ -24,34 +24,27 @@ test("restored Delta Essa guide separates manufacturer facts, support, warranty,
   assert.match(data, /content:\s*deltaEssaFaucetContent,\s*updatedAt: "2026-09-05"/);
   assert.match(data, /article\.updatedAt \?\? CONTENT_LAST_REVIEWED/);
   assert.match(data, /slug: "best-faucet-brands-that-actually-last"[\s\S]*?image: "text-only:delta-essa-9113-ar-dst"/);
-  assert.match(sitemap, /articles\/best-faucet-brands-that-actually-last/);
+  assert.doesNotMatch(sitemap, /articles\/best-faucet-brands-that-actually-last/);
 });
 
-test("restored Delta Essa guide uses a disclosed exact-model Amazon destination without merchant claims", async () => {
+test("image-blocked Delta Essa route is not configured as a restored commercial guide", async () => {
   const page = await text("src/app/articles/[slug]/page.tsx");
-  const disclosureIndex = page.indexOf("<AffiliateDisclosure");
-  const destinationIndex = page.indexOf("amazonLink(config.asin)");
-
-  assert.match(page, /FAUCET_GUIDE_SLUG/);
-  assert.match(page, /asin: "B012I44K8S"/);
-  assert.match(page, /View exact Delta Essa 9113-AR-DST on Amazon/);
-  assert.ok(disclosureIndex >= 0, "restored guide must render the affiliate disclosure");
-  assert.ok(destinationIndex > disclosureIndex, "disclosure must precede the exact-model destination");
-  assert.match(page, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(page, /Price and availability are shown only by the merchant/);
+  assert.doesNotMatch(page, /FAUCET_GUIDE_SLUG/);
+  assert.doesNotMatch(page, /asin: "B012I44K8S"/);
+  assert.doesNotMatch(page, /View exact Delta Essa 9113-AR-DST on Amazon/);
+  assert.match(page, /robots: \{ index: false, follow: true \}/);
+  assert.match(page, /Legacy guide under evidence review/);
 });
 
-test("restored guide supports an explicit text-first hero when product imagery lacks reusable rights", async () => {
+test("image-blocked Delta Essa guide is absent from discovery and policy requires a photo", async () => {
   const page = await text("src/app/articles/[slug]/page.tsx");
   const hub = await text("src/app/blog/page.tsx");
   const policy = await text("ops/editorial-photo-policy.md");
 
-  assert.match(page, /visualMode: "text-only"/);
-  assert.match(page, /config\.visualMode === "image"/);
-  assert.match(page, /No product image is shown/);
-  assert.match(hub, /guide\.visualMode === "image"/);
-  assert.match(hub, /Text-first evidence review/);
-  assert.match(policy, /text-first/i);
-  assert.match(policy, /must not block publication/i);
+  assert.doesNotMatch(page, /visualMode: "text-only"/);
+  assert.doesNotMatch(hub, /best-faucet-brands-that-actually-last/);
+  assert.doesNotMatch(hub, /Text-first evidence review/);
+  assert.match(policy, /block publication/i);
+  assert.doesNotMatch(policy, /must not block publication/i);
   assert.match(policy, /Never scrape retailer or Amazon imagery/i);
 });

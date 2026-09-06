@@ -6,48 +6,39 @@ import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 
 export const metadata: Metadata = {
   title: "Durable Product Guides",
-  description: "Evidence-reviewed guides to durable products, using lawful exact-model photography or an explicit text-first format, manufacturer documentation, owner evidence, and visible limitations.",
+  description: "Evidence-reviewed guides to durable products, using lawful exact-model photography, manufacturer documentation, owner evidence, and visible limitations.",
   alternates: { canonical: "https://everlasting-goods.com/blog" },
   robots: { index: true, follow: true },
 };
 
-const guides = [
-  {
-    slug: "best-faucet-brands-that-actually-last",
-    title: "Delta Essa 9113-AR-DST Evidence Review",
-    description: "Replacement-part identities, warranty limits, maintenance guidance, and owner-reported leaks for Delta’s standard mechanical pull-down faucet.",
-    reviewedAt: "2026-09-05",
-    visualMode: "text-only",
-  },
+const guideCandidates = [
   {
     slug: "best-estwing-hammers-that-last-a-lifetime",
     title: "Estwing B3-3LB Drilling Hammer Evidence Review",
     description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
     reviewedAt: "2026-09-04",
-    visualMode: "image",
   },
   {
     slug: "best-kitchen-knives-that-last-a-lifetime",
     title: "Victorinox Fibrox 8-Inch Evidence Review",
     description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",
     reviewedAt: "2026-08-31",
-    visualMode: "image",
   },
   {
     slug: "best-cast-iron-skillets-that-last-forever",
     title: "Lodge 12-Inch Cast-Iron Skillet Evidence Review",
     description: "Maintainable seasoning, warranty exclusions, ownership tradeoffs, and dated owner evidence for the Lodge 12-inch skillet.",
     reviewedAt: "2026-08-30",
-    visualMode: "image",
   },
   {
     slug: "best-safety-razors-that-last-a-lifetime",
     title: "Safety Razors: Construction and Maintenance",
     description: "Manufacturer-documented materials and blade systems, plus clearly limited owner evidence for the MERKUR 34C.",
     reviewedAt: "2026-08-29",
-    visualMode: "image",
   },
 ] as const;
+
+const guides = guideCandidates.filter((guide) => articleImageEvidence[guide.slug]);
 
 export default function GuideHubPage() {
   return (
@@ -65,10 +56,10 @@ export default function GuideHubPage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
           {guides.map((guide) => {
-            const image = guide.visualMode === "image" ? articleImageEvidence[guide.slug] : undefined;
+            const image = articleImageEvidence[guide.slug];
             return (
               <article key={guide.slug} className="flex flex-col overflow-hidden rounded-2xl border border-cream-200 bg-white shadow-sm">
-                {guide.visualMode === "image" && image ? (
+                {image ? (
                   <Link href={`/articles/${guide.slug}`} className="block border-b border-cream-200 bg-cream-50">
                     <Image
                       src={image.image}
@@ -78,11 +69,7 @@ export default function GuideHubPage() {
                       className="aspect-[4/3] h-auto w-full object-contain p-4"
                     />
                   </Link>
-                ) : (
-                  <Link href={`/articles/${guide.slug}`} className="flex aspect-[4/3] items-center justify-center border-b border-cream-200 bg-forest-950 p-8 text-center text-white">
-                    <span><strong className="block font-serif text-3xl">Text-first evidence review</strong><span className="mt-3 block text-sm text-white/65">No unlicensed or generic product image used.</span></span>
-                  </Link>
-                )}
+                ) : null}
                 <div className="flex flex-1 flex-col p-6">
                   <p className="text-xs font-semibold uppercase tracking-wider text-brown-accent">Reviewed {guide.reviewedAt}</p>
                   <h2 className="mt-2 font-serif text-2xl font-bold leading-tight text-charcoal">

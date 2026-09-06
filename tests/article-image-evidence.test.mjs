@@ -24,13 +24,15 @@ test("the restored guide renders its documented exact-product image and attribut
   const page = await readFile(new URL("../src/app/articles/[slug]/page.tsx", import.meta.url), "utf8");
   const content = await readFile(new URL("../src/content/safety-razors.mjs", import.meta.url), "utf8");
   assert.match(page, /articleImageEvidence/);
+  assert.match(page, /publishableGuideFor/);
+  assert.match(page, /!articleImageEvidence\[slug\]/);
   assert.match(page, /imageEvidence\.attribution/);
   assert.match(content, /MERKUR 34C/);
 });
 
-test("operator policy uses text-first presentation when exact-product photo rights are unavailable", async () => {
+test("operator policy blocks publication when exact-product photo rights are unavailable", async () => {
   const policy = await readFile(new URL("../ops/editorial-photo-policy.md", import.meta.url), "utf8");
-  assert.match(policy, /use a text-first layout/i);
-  assert.match(policy, /must not block publication/i);
+  assert.match(policy, /block publication/i);
+  assert.doesNotMatch(policy, /must not block publication/i);
   assert.match(policy, /Never scrape retailer or Amazon imagery/i);
 });
