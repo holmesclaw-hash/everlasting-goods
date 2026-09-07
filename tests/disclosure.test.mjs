@@ -53,7 +53,7 @@ test("verified products hub discloses before card-level exact-model destinations
   assert.ok(pageSource.includes('import AffiliateDisclosure from "@/components/AffiliateDisclosure";'));
   assert.ok(disclosureIndex >= 0, "products hub must render AffiliateDisclosure");
   assert.ok(productCardsIndex > disclosureIndex, "disclosure must precede product cards");
-  assert.match(pageSource, /showAffiliateCta/);
+  assert.match(pageSource, /affiliatePlacement="products-grid"/);
   assert.match(cardSource, /product\.affiliate_links\[0\]/);
   assert.match(cardSource, /rel="sponsored nofollow noopener noreferrer"/);
   assert.match(cardSource, /View exact model on Amazon/);

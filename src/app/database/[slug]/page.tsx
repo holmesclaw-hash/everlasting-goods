@@ -115,6 +115,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
                   <a
                     key={`${link.program_name}-${link.url}`}
                     href={link.url}
+                    data-affiliate-placement="database-record-sidebar"
                     target="_blank"
                     rel="sponsored nofollow noopener noreferrer"
                     className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"

@@ -55,7 +55,7 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                     <td className="min-w-52 p-4">
                       {affiliateLink ? (
                         <>
-                          <a href={affiliateLink.url} target="_blank" rel="sponsored nofollow noopener noreferrer" className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark">View exact model on Amazon</a>
+                          <a href={affiliateLink.url} data-affiliate-placement="database-category-comparison" target="_blank" rel="sponsored nofollow noopener noreferrer" className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark">View exact model on Amazon</a>
                           <p className="mt-2 text-xs leading-relaxed text-charcoal/45">Destination verified {affiliateLink.verified_date}. Price and availability are shown only by the merchant.</p>
                         </>
                       ) : (

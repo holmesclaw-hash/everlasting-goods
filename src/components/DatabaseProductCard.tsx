@@ -6,11 +6,11 @@ import type { DatabaseProduct } from "@/lib/product-database";
 
 interface DatabaseProductCardProps {
   product: DatabaseProduct;
-  showAffiliateCta?: boolean;
+  affiliatePlacement?: string;
 }
 
-export default function DatabaseProductCard({ product, showAffiliateCta = false }: DatabaseProductCardProps) {
-  const affiliateLink = showAffiliateCta ? product.affiliate_links[0] : undefined;
+export default function DatabaseProductCard({ product, affiliatePlacement }: DatabaseProductCardProps) {
+  const affiliateLink = affiliatePlacement ? product.affiliate_links[0] : undefined;
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,
@@ -60,6 +60,7 @@ export default function DatabaseProductCard({ product, showAffiliateCta = false 
         <div className="mt-5 border-t border-cream-200 pt-5">
           <a
             href={affiliateLink.url}
+            data-affiliate-placement={affiliatePlacement}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
