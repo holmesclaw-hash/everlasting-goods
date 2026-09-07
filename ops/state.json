@@ -36,23 +36,25 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-06T05:24:57Z",
-  "last_action": "Corrected an article-photo policy regression by removing the image-blocked Delta Essa 9113-AR-DST guide from the restored commercial allowlist, guide hub, and sitemap; the source-checked research remains preserved while the public route is again a noindex evidence-review quarantine",
-  "last_live_url": "https://everlasting-goods.com/articles/best-faucet-brands-that-actually-last",
-  "last_commit": "fe87c23ce956addc1e351157aa312705ed47dddf",
+  "last_verified_at": "2026-09-07T06:23:32Z",
+  "last_action": "Added stable affiliate placement labels to every verified-product commercial surface so consented GA4 events distinguish product-grid, category-comparison, and database-record clicks without changing destinations or disclosures",
+  "last_live_url": "https://everlasting-goods.com/products",
+  "last_commit": "52bc86f8bf7cffcc08e4244b54121cbd03cac532",
   "last_evidence": {
-    "local_gates": "Targeted regression tests failed before the publication gate was strengthened and passed afterward; npm run verify passed 81 tests plus quality, lint, typecheck, and the production build; npm audit --omit=dev passed with 0 vulnerabilities; local production readback confirmed the faucet route was quarantined, noindex, and noncommercial and was absent from the guide hub and sitemap",
-    "deployment": "Both Vercel project statuses for commit fe87c23ce956addc1e351157aa312705ed47dddf completed successfully",
-    "live_readback": "The faucet route, guide hub, and sitemap returned HTTP 200 on the custom domain. Cache-busted readback showed the faucet route as Legacy guide under evidence review with noindex, no ASIN B012I44K8S, and no approved affiliate tag; the guide hub and sitemap contain no Delta Essa route. Publishable restored-guide rendering and discovery now both require an entry in the exact-product image-provenance registry.",
+    "local_gates": "A new verified-product placement regression test failed before implementation and passed afterward; npm run verify passed 82 tests plus quality, lint, typecheck, and the production build; npm audit --omit=dev passed with 0 vulnerabilities",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit 52bc86f8bf7cffcc08e4244b54121cbd03cac532 completed successfully",
+    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the products hub, drill-driver comparison, and DCD800B record. Each route retained its canonical URL, nearby affiliate disclosure, approved everlastin08f-20 tag, no stale tag, and the intended placement label: products-grid, database-category-comparison, or database-record-sidebar. The deployed JavaScript contains the affiliate_click handler and affiliatePlacement lookup, and all three routes remain in the sitemap.",
     "source_urls": [
-      "https://everlasting-goods.com/articles/best-faucet-brands-that-actually-last",
-      "https://everlasting-goods.com/blog",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/52bc86f/status",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/drill-drivers",
+      "https://everlasting-goods.com/database/dewalt-dcd800b",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/articles/best-faucet-brands-that-actually-last",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/drill-drivers",
+      "https://everlasting-goods.com/database/dewalt-dcd800b"
     ]
   },
   "blockers": [
