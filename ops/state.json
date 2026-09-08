@@ -8,7 +8,7 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 16,
+    "current_published_records": 17,
     "research_candidates": 84,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
@@ -21,9 +21,9 @@
     "policy_path": "ops/editorial-photo-policy.md"
   },
   "product_photo_pipeline": {
-    "status": "one_open_license_image_resolved_not_loaded_to_product_database",
-    "verified_images": 0,
-    "blocked_models": 15,
+    "status": "one_open_license_exact_product_image_live_in_product_database",
+    "verified_images": 1,
+    "blocked_models": 16,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,25 +36,33 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-07T06:23:32Z",
-  "last_action": "Added stable affiliate placement labels to every verified-product commercial surface so consented GA4 events distinguish product-grid, category-comparison, and database-record clicks without changing destinations or disclosures",
-  "last_live_url": "https://everlasting-goods.com/products",
-  "last_commit": "52bc86f8bf7cffcc08e4244b54121cbd03cac532",
+  "last_verified_at": "2026-09-08T06:32:32Z",
+  "last_action": "Published a T2 Estwing B3-3LB structured repairability record from current manufacturer documentation and attributed owner context, loaded its CC BY-SA 3.0 exact-product photo, preserved the verified ASIN B00002N5NI destination, and linked the existing Estwing evidence guide to the record",
+  "last_live_url": "https://everlasting-goods.com/database/estwing-b3-3lb",
+  "last_commit": "9dc3b08cf38ae5aa2e8ff7a173559eb899ba0f17",
   "last_evidence": {
-    "local_gates": "A new verified-product placement regression test failed before implementation and passed afterward; npm run verify passed 82 tests plus quality, lint, typecheck, and the production build; npm audit --omit=dev passed with 0 vulnerabilities",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit 52bc86f8bf7cffcc08e4244b54121cbd03cac532 completed successfully",
-    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the products hub, drill-driver comparison, and DCD800B record. Each route retained its canonical URL, nearby affiliate disclosure, approved everlastin08f-20 tag, no stale tag, and the intended placement label: products-grid, database-category-comparison, or database-record-sidebar. The deployed JavaScript contains the affiliate_click handler and affiliatePlacement lookup, and all three routes remain in the sitemap.",
+    "local_gates": "Two new Estwing structured-record regressions failed before implementation and passed afterward; npm run verify passed 84 tests plus quality, lint, typecheck, and the production build; npm audit --omit=dev passed with 0 vulnerabilities; SQLite migration replay, integrity check, and foreign-key check passed",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit 9dc3b08cf38ae5aa2e8ff7a173559eb899ba0f17 completed successfully",
+    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the Estwing record, hammers comparison, products hub, and existing Estwing guide. Each retained its exact canonical URL, nearby affiliate disclosure, approved everlastin08f-20 tag, no stale tag, and intended placement label. The record displayed B3-3LB identity, non-serviceable status, CC BY-SA 3.0 photo attribution, no visible price, rating, or availability claim, and the exact ASIN B00002N5NI destination. The guide linked to the new record and showed the 2026-09-08 review date. The deployed JavaScript contains the affiliate_click handler and affiliatePlacement lookup, and the new record, category, and guide are in the sitemap.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/52bc86f/status",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/9dc3b08cf38ae5aa2e8ff7a173559eb899ba0f17/status",
+      "https://www.estwing.com/product/drilling-hammer/",
+      "https://www.estwing.com/resources/warranty/",
+      "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
+      "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
+      "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
+      "https://www.amazon.com/dp/B00002N5NI?tag=everlastin08f-20",
+      "https://everlasting-goods.com/database/estwing-b3-3lb",
+      "https://everlasting-goods.com/database/category/hammers",
       "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/database/category/drill-drivers",
-      "https://everlasting-goods.com/database/dewalt-dcd800b",
+      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
+      "https://everlasting-goods.com/database/estwing-b3-3lb",
+      "https://everlasting-goods.com/database/category/hammers",
       "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/database/category/drill-drivers",
-      "https://everlasting-goods.com/database/dewalt-dcd800b"
+      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime"
     ]
   },
   "blockers": [
@@ -64,7 +72,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
-    "Fifteen exact-model structured product images remain unavailable on reusable rights; product-photo fields require exact-model provenance",
+    "Sixteen legacy structured product images remain unavailable on reusable rights; the new Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration"
   ]
 }
