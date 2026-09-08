@@ -42,9 +42,10 @@ const restoredGuides = {
   },
   [ESTWING_GUIDE_SLUG]: {
     slug: ESTWING_GUIDE_SLUG,
+    databaseSlug: "estwing-b3-3lb",
     title: "Estwing B3-3LB Drilling Hammer: Durability and Limits",
     description: "A source-checked review of the Estwing B3-3LB 3-lb drilling hammer, including one-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs.",
-    reviewedAt: "2026-09-04",
+    reviewedAt: "2026-09-08",
     asin: "B00002N5NI",
     destinationDescription: "the Estwing B3-3LB 3-lb drilling/crack hammer, ASIN B00002N5NI",
     destinationLabel: "View exact Estwing B3-3LB on Amazon",
@@ -210,6 +211,9 @@ function RestoredGuide({
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
         <ExactModelDestination config={config} placement="decision-end" />
         <div className="mt-12 flex flex-wrap gap-3 border-t border-cream-200 pt-8">
+          {"databaseSlug" in config ? (
+            <Link href={`/database/${config.databaseSlug}`} className="rounded-xl bg-brown-accent px-5 py-3 font-semibold text-white hover:bg-brown-dark">Review repairability record</Link>
+          ) : null}
           <Link href="/methodology" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Evidence methodology</Link>
           <Link href="/database" className="rounded-xl border border-cream-200 bg-white px-5 py-3 font-semibold text-charcoal hover:bg-cream-100">Verified product database</Link>
         </div>

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "de4e0be4c417bff6c70f44306284b37db309b7248ec2d4fe69e8e5fe5352cd5a",
-  "generated_at": "2026-08-25T00:00:00.000Z",
+  "database_sha256": "d569b8f85287fecc0750c11f807fd8f6391189b291f064f99b3a657505d23f46",
+  "generated_at": "2026-09-08T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1584,6 +1584,177 @@
       "cost_per_year": null
     },
     {
+      "id": 17,
+      "slug": "estwing-b3-3lb",
+      "brand": "Estwing",
+      "model": "B3-3LB",
+      "sku": "B3-3LB",
+      "category": "hammers",
+      "category_group": "tools-shop",
+      "variant_notes": "Three-pound model in Estwing's B3 drilling-hammer family; do not substitute the B3-2LB or B3-4LB variants.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Manufacturer documentation verifies one-piece forged construction but also says used striking tools cannot be repaired, re-gripped, or refurbished. Two owner discussions provide useful fit and longevity context but do not meet the three-source T3 threshold or establish expected service life.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": "/images/products/estwing-b3-3lb-drilling-hammer.jpg",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
+      "image_license_basis": "Open-license photograph identifies the exact model class as an Estwing 3-lb drilling hammer; Estwing identifies B3-3LB as its 3-lb drilling-hammer model.",
+      "last_reviewed_date": "2026-09-08",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "image_attribution": "J.C. Fields (Typhoon) / Wikimedia Commons",
+      "image_alt": "Estwing B3-3LB 3-lb drilling hammer with one-piece steel body and blue molded grip",
+      "sources": [
+        {
+          "url": "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
+          "title": "Garage Journal: Estwing sledgehammer? exact-product owner discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-08",
+          "purpose": "exact-product owner context"
+        },
+        {
+          "url": "https://www.estwing.com/product/drilling-hammer/",
+          "title": "Estwing B3-3LB drilling-hammer product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-08",
+          "purpose": "identity and construction"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
+          "title": "Wikimedia Commons: Estwing 3-lb. drilling hammer",
+          "source_type": "other",
+          "retrieved_date": "2026-09-08",
+          "purpose": "image rights and exact-product evidence"
+        },
+        {
+          "url": "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
+          "title": "Practical Machinist: long-term Estwing owner discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-08",
+          "purpose": "long-term owner context"
+        },
+        {
+          "url": "https://www.estwing.com/resources/warranty/",
+          "title": "Estwing warranty and striking-tool service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-08",
+          "purpose": "warranty and repairability"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "identity",
+          "raw_value": "B3-3LB; 3 lb / 1.3 kg head; 11 in / 279 mm overall length; head and handle forged in one piece.",
+          "display_value": "B3-3LB 3-lb drilling hammer; 11-inch overall length; head and handle forged in one piece.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.estwing.com/product/drilling-hammer/",
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Estwing says it cannot repair, re-grip, or refurbish any used striking or struck tool.",
+          "display_value": "None documented; Estwing says it cannot repair, re-grip, or refurbish used striking tools.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.estwing.com/resources/warranty/",
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Estwing says it cannot repair, re-grip, or refurbish any used striking or struck tool.",
+          "display_value": "No repair manual or refurbishment path: Estwing says it cannot repair, re-grip, or refurbish used striking tools.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.estwing.com/resources/warranty/",
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Manufacturer-documented non-serviceable striking tool.",
+          "display_value": "Non-serviceable under Estwing's published striking-tool policy.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.estwing.com/resources/warranty/",
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-08",
+          "reverify_days": 30,
+          "stale_after": "2026-10-08"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Estwing says the warranty is not a lifetime warranty and warrants all-steel hammers against failure in normal use, excluding misuse, abuse, and wearing out.",
+          "display_value": "Not a lifetime warranty; all-steel hammer failure in normal use is covered subject to Estwing's exclusions.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.estwing.com/resources/warranty/",
+          "verified_date": "2026-09-08",
+          "reverify_days": 180,
+          "stale_after": "2027-03-07"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00002N5NI?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-08"
+        }
+      ],
+      "repairability": {
+        "product_id": 17,
+        "parts_availability": "none",
+        "parts_url": "https://www.estwing.com/resources/warranty/",
+        "repair_manual_available": 0,
+        "repair_manual_url": null,
+        "serviceability": "non-serviceable",
+        "ifixit_score": null,
+        "source_id": 58,
+        "verified_date": "2026-09-08"
+      },
+      "warranty": {
+        "warranty_length": "No fixed lifetime term; Estwing explicitly says this is not a lifetime warranty.",
+        "warranty_coverage": "All-steel hammers are warranted against failure in normal use.",
+        "warranty_exclusions": "Misuse, abuse, wearing out, unauthorized repairs, alterations, tampering, and listed damage are excluded or require disposal.",
+        "source_url": "https://www.estwing.com/resources/warranty/",
+        "verified_date": "2026-09-08"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 9,
       "slug": "bosch-1617evspk",
       "brand": "Bosch",
@@ -2662,6 +2833,14 @@
       "is_stale": false
     },
     {
+      "slug": "estwing-b3-3lb",
+      "field_name": "street_price",
+      "verified_date": "2026-09-08",
+      "reverify_days": 30,
+      "stale_after": "2026-10-08",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -3555,6 +3734,62 @@
       "verified_date": "2026-08-25",
       "reverify_days": 180,
       "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "identity",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "warranty",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
       "is_stale": false
     }
   ]

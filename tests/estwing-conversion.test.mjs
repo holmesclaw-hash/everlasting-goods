@@ -10,16 +10,16 @@ async function text(path) {
   return readFile(new URL(`../${path}`, import.meta.url), "utf8");
 }
 
-test("restored Estwing guide has a lawful exact-product-family photo", async () => {
+test("restored Estwing guide has a lawful exact-product photo", async () => {
   const evidence = articleImageEvidence[slug];
   assert.ok(evidence, `${slug} needs image evidence`);
-  assert.equal(evidence.exact_product_model, "Estwing B3-3LB 3-lb drilling hammer family");
+  assert.equal(evidence.exact_product_model, "Estwing B3-3LB 3-lb drilling hammer");
   assert.equal(evidence.rights_basis, "open-license");
   assert.equal(evidence.license, "CC BY-SA 3.0");
   assert.equal(evidence.license_url, "https://creativecommons.org/licenses/by-sa/3.0");
   assert.equal(evidence.source_url, "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg");
   assert.match(evidence.attribution, /J\.C\. Fields/);
-  assert.match(evidence.alt, /Estwing 3-lb drilling hammer/i);
+  assert.match(evidence.alt, /Estwing B3-3LB 3-lb drilling hammer/i);
   await access(new URL(`../public${evidence.image}`, import.meta.url));
 });
 
@@ -37,7 +37,7 @@ test("restored Estwing guide separates product facts, owner reports, warranty li
   assert.match(content, /not a lifetime warranty/i);
   assert.match(content, /cannot repair, re-grip, or refurbish/i);
   assert.match(content, /manufacturer’s stated uses/i);
-  assert.match(data, /content:\s*estwingDrillingHammerContent,\s*updatedAt: "2026-09-04"/);
+  assert.match(data, /content:\s*estwingDrillingHammerContent,\s*updatedAt: "2026-09-08"/);
   assert.match(data, /slug: "best-estwing-hammers-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/estwing-b3-3lb-drilling-hammer\.jpg"/);
   assert.match(sitemap, /articles\/best-estwing-hammers-that-last-a-lifetime/);
 });
