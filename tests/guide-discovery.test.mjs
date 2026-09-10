@@ -14,20 +14,24 @@ const restoredGuideSlugs = [
 ];
 
 test("the guide hub is an indexable discovery page for only restored guides", async () => {
-  const hub = await text("src/app/blog/page.tsx");
+  const [hub, guideRegistry] = await Promise.all([
+    text("src/app/blog/page.tsx"),
+    text("src/content/restored-guides.ts"),
+  ]);
 
   assert.match(hub, /title: "Durable Product Guides"/);
   assert.match(hub, /canonical: "https:\/\/everlasting-goods\.com\/blog"/);
   assert.match(hub, /robots: \{ index: true, follow: true \}/);
-  assert.match(hub, /articleImageEvidence/);
-  assert.match(hub, /\.filter\(\(guide\) => articleImageEvidence\[guide\.slug\]\)/);
+  assert.match(hub, /restoredGuides/);
+  assert.match(guideRegistry, /articleImageEvidence/);
+  assert.match(guideRegistry, /\.filter\(\(guide\) => articleImageEvidence\[guide\.slug\]\)/);
   assert.match(hub, /Image/);
   assert.doesNotMatch(hub, /text-only/);
   assert.doesNotMatch(hub, /best-faucet-brands-that-actually-last/);
   assert.doesNotMatch(hub, /amazon\.com|amazonLink|amazonSearchLink/);
 
   for (const slug of restoredGuideSlugs) {
-    assert.ok(hub.includes(slug), `guide hub must link ${slug}`);
+    assert.ok(guideRegistry.includes(slug), `guide registry must include ${slug}`);
   }
 });
 
@@ -38,6 +42,9 @@ test("the homepage and sitemap expose the restored-guide hub without replacing t
   ]);
 
   assert.match(home, /generated\/database\.json/);
+  assert.match(home, /restoredGuideCount/);
+  assert.match(home, /\{restoredGuideCount\} restored guides are ready to read/);
+  assert.doesNotMatch(home, /Three restored guides are ready to read/);
   assert.match(home, /href="\/blog"/);
   assert.match(home, /Evidence-reviewed guides/);
   assert.match(sitemap, /\$\{baseUrl\}\/blog/);

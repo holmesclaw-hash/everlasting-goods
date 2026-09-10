@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
+import { restoredGuides } from "@/content/restored-guides";
 
 export const metadata: Metadata = {
   title: "Durable Product Guides",
@@ -10,35 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://everlasting-goods.com/blog" },
   robots: { index: true, follow: true },
 };
-
-const guideCandidates = [
-  {
-    slug: "best-estwing-hammers-that-last-a-lifetime",
-    title: "Estwing B3-3LB Drilling Hammer Evidence Review",
-    description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
-    reviewedAt: "2026-09-04",
-  },
-  {
-    slug: "best-kitchen-knives-that-last-a-lifetime",
-    title: "Victorinox Fibrox 8-Inch Evidence Review",
-    description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",
-    reviewedAt: "2026-08-31",
-  },
-  {
-    slug: "best-cast-iron-skillets-that-last-forever",
-    title: "Lodge 12-Inch Cast-Iron Skillet Evidence Review",
-    description: "Maintainable seasoning, warranty exclusions, ownership tradeoffs, and dated owner evidence for the Lodge 12-inch skillet.",
-    reviewedAt: "2026-08-30",
-  },
-  {
-    slug: "best-safety-razors-that-last-a-lifetime",
-    title: "Safety Razors: Construction and Maintenance",
-    description: "Manufacturer-documented materials and blade systems, plus clearly limited owner evidence for the MERKUR 34C.",
-    reviewedAt: "2026-08-29",
-  },
-] as const;
-
-const guides = guideCandidates.filter((guide) => articleImageEvidence[guide.slug]);
 
 export default function GuideHubPage() {
   return (
@@ -55,7 +27,7 @@ export default function GuideHubPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-          {guides.map((guide) => {
+          {restoredGuides.map((guide) => {
             const image = articleImageEvidence[guide.slug];
             return (
               <article key={guide.slug} className="flex flex-col overflow-hidden rounded-2xl border border-cream-200 bg-white shadow-sm">
