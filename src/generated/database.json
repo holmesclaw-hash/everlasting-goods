@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "d569b8f85287fecc0750c11f807fd8f6391189b291f064f99b3a657505d23f46",
-  "generated_at": "2026-09-08T00:00:00.000Z",
+  "database_sha256": "32c3f655399ea05c159669f9f9e2b2145461667b16fc06bde2dad2b250f25f99",
+  "generated_at": "2026-09-11T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -2545,6 +2545,184 @@
       "cost_per_year": null
     },
     {
+      "id": 18,
+      "slug": "grizzly-g0899",
+      "brand": "Grizzly",
+      "model": "G0899",
+      "sku": "G0899",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": "Current 10-inch 2 HP 115V/230V cabinet-saw configuration; verify the manufacture date against the matching manual revision before ordering service parts.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Manufacturer documentation verifies cast-iron tables and trunnions, a detailed owner-service manual, an exact-model parts catalog, and a one-year limited warranty. Two exact-model owner reports provide mixed quality context but do not establish expected service life or a recommendation.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-09-11",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
+          "title": "Grizzly G0899 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-11",
+          "purpose": "identity and construction"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+          "title": "Grizzly G0899 owner manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-11",
+          "purpose": "maintenance and service manual"
+        },
+        {
+          "url": "https://www.reddit.com/r/woodworking/comments/1w68e2p/tablesaw_recommendations/",
+          "title": "Reddit: current G0899 owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-11",
+          "purpose": "owner-reported durability and accuracy context"
+        },
+        {
+          "url": "https://www.reddit.com/r/woodworking/comments/rdhckn/awful_experience_with_grizzly/",
+          "title": "Reddit: G0899 owner quality and service report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-11",
+          "purpose": "owner-reported initial quality and service context"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0899/parts",
+          "title": "Grizzly G0899 exact-model parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-11",
+          "purpose": "parts availability"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-11",
+          "purpose": "warranty terms"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "identity",
+          "raw_value": "G0899 10-inch 2 HP 115V/230V cabinet table saw with precision-ground cast-iron table and cabinet-mounted cast-iron trunnion.",
+          "display_value": "G0899 10-inch 2 HP 115V/230V cabinet table saw with a precision-ground cast-iron table and cabinet-mounted cast-iron trunnion.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Exact-model online catalog and parts list provide diagrams, revision-specific part numbers, replacements, and availability status; Grizzly does not guarantee every shown part remains available.",
+          "display_value": "Partial: exact-model parts diagrams and ordering links are published, but Grizzly states that availability is not guaranteed for every listed part.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.grizzly.com/products/g0899/parts",
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Official G0899 owner manual includes maintenance, service, troubleshooting, alignment, belt replacement, wiring, and parts sections.",
+          "display_value": "Official owner manual includes maintenance, service, troubleshooting, alignment, belt replacement, wiring, and parts sections.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The owner manual documents maintenance, alignment, troubleshooting, and belt replacement; electrical installation and conversion are reserved for qualified personnel.",
+          "display_value": "User-serviceable for documented maintenance, alignment, and belt replacement; electrical work is reserved for qualified personnel.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-11",
+          "reverify_days": 30,
+          "stale_after": "2026-10-11"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Grizzly warrants house-brand products for one year to the original purchaser; misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, and consumable parts are excluded.",
+          "display_value": "1-year limited warranty for the original purchaser, subject to Grizzly's published exclusions and proof-of-purchase requirements.",
+          "evidence_tier": "T2",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-09-11",
+          "reverify_days": 180,
+          "stale_after": "2027-03-10"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B08B6G2L6P?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-11"
+        }
+      ],
+      "repairability": {
+        "product_id": 18,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0899/parts",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 64,
+        "verified_date": "2026-09-11"
+      },
+      "warranty": {
+        "warranty_length": "1 year to the original purchaser from the date of purchase.",
+        "warranty_coverage": "Defects covered under Grizzly's house-brand limited warranty; proof of purchase is required.",
+        "warranty_exclusions": "Misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, consumable parts, third-party repair costs, and transport expenses are excluded or not reimbursed.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-09-11"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 5,
       "slug": "sawstop-pcs31230-tgp236",
       "brand": "SawStop",
@@ -2841,6 +3019,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0899",
+      "field_name": "street_price",
+      "verified_date": "2026-09-11",
+      "reverify_days": 30,
+      "stale_after": "2026-10-11",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -3790,6 +3976,62 @@
       "verified_date": "2026-09-08",
       "reverify_days": 180,
       "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "identity",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "warranty",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
       "is_stale": false
     }
   ]

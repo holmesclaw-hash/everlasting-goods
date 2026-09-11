@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25",
-  "current_published_records": 17,
+  "generated_at": "2026-09-11",
+  "current_published_records": 18,
   "target_total_records": 100,
-  "candidate_count": 84,
+  "candidate_count": 83,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -578,21 +578,6 @@
         "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty"
       ],
       "reason": "The official Grizzly product page identifies this exact table-saw model/SKU, and Grizzly's official support site provides warranty evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "G0899",
-      "sku": "G0899",
-      "category": "table-saws",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
-      "evidence_urls": [
-        "https://www.grizzly.com/products/g0899/parts",
-        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty"
-      ],
-      "reason": "The official Grizzly product page identifies G0899 as the exact cabinet-saw model/SKU, and Grizzly provides an exact-model parts page plus official warranty evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
