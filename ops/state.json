@@ -36,30 +36,28 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-09T06:34:56Z",
-  "last_action": "Patched the production framework and image-processing dependency chain after the required audit identified current critical and high-severity advisories: Next.js and its matching ESLint config moved from 16.3.2 to 16.3.4, sharp resolved from 0.35.3 to 0.35.4, and vulnerable development transitive packages were refreshed",
+  "last_verified_at": "2026-09-11T05:21:00Z",
+  "last_action": "Synchronized the homepage restored-guide count with the same image-eligible guide collection used by the blog index, replacing a stale hard-coded count",
   "last_live_url": "https://everlasting-goods.com/",
-  "last_commit": "8c43dce795af0fd9fe64fdd2664cc73a5ff71414",
+  "last_commit": "2b43bbe410134a8099e737ee60d4a5e9bf26bd2b",
   "last_evidence": {
-    "local_gates": "The pre-change npm audit --omit=dev failed on two current Next.js critical advisories and a high-severity sharp advisory. After the dependency update, npm run verify passed 84 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev and the full npm audit both passed with 0 vulnerabilities.",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit 8c43dce795af0fd9fe64fdd2664cc73a5ff71414 completed successfully.",
-    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the homepage, verified products hub, Estwing evidence guide, sitemap, and the Next.js image-optimization route. The commercial routes retained their exact canonicals, nearby Amazon disclosure, approved everlastin08f-20 tag, no stale tag, exact ASIN B00002N5NI destination, and CTA placement labels. Deployed JavaScript retained the affiliate_click and affiliatePlacement analytics hooks, and the checked products and article routes remained in the sitemap.",
+    "local_gates": "The guide-discovery regression test failed before implementation and passed afterward. npm run verify passed 84 tests plus quality, lint, typecheck, and the Next.js production build; npm audit --omit=dev and the full npm audit both passed with 0 vulnerabilities; git diff --check passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit 2b43bbe410134a8099e737ee60d4a5e9bf26bd2b completed successfully.",
+    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the homepage, blog index, and sitemap. The homepage rendered the current count of 4 restored guides, the blog exposed exactly the four image-compliant restored guides, and those guide routes plus /blog remained in the sitemap.",
     "source_urls": [
-      "https://github.com/advisories/GHSA-p293-qw3h-jr36",
-      "https://github.com/advisories/GHSA-2xp9-vwfh-vxw4",
-      "https://github.com/advisories/GHSA-rgj7-g3m4-5g8c",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8c43dce795af0fd9fe64fdd2664cc73a5ff71414/status",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/2b43bbe410134a8099e737ee60d4a5e9bf26bd2b/status",
       "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+      "https://everlasting-goods.com/blog",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
       "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/blog",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
       "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-      "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/_next/image?url=%2Fimages%2Farticles%2Festwing-b3-3lb-drilling-hammer.jpg&w=640&q=75"
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/sitemap.xml"
     ]
   },
   "blockers": [
