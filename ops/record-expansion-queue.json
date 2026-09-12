@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11",
-  "current_published_records": 18,
+  "generated_at": "2026-09-12",
+  "current_published_records": 19,
   "target_total_records": 100,
-  "candidate_count": 83,
+  "candidate_count": 82,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -568,20 +568,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Grizzly",
-      "model": "G0771Z",
-      "sku": "G0771Z",
-      "category": "table-saws",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-10-2-hp-120v-hybrid-table-saw-w-t-shaped-fence/g0771z",
-      "evidence_urls": [
-        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty"
-      ],
-      "reason": "The official Grizzly product page identifies this exact table-saw model/SKU, and Grizzly's official support site provides warranty evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "18V LXT Brushless 2 Gallon HEPA Filter Portable Wet/Dry Dust Extractor/Vacuum, Tool Only",
