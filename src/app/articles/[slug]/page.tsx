@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
+import { restoredGuides as restoredGuideIndex } from "@/content/restored-guides";
 
 import { amazonLink } from "@/lib/affiliate.mjs";
 import { renderArticleHtml } from "@/lib/article-html.mjs";
@@ -160,6 +161,7 @@ function RestoredGuide({
   const content = renderArticleHtml(article.content);
   const canonical = `https://everlasting-goods.com/articles/${article.slug}`;
   const imageEvidence = articleImageEvidence[config.slug];
+  const relatedGuides = restoredGuideIndex.filter((guide) => guide.slug !== config.slug);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -210,6 +212,23 @@ function RestoredGuide({
         <ExactModelDestination config={config} placement="decision-start" />
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
         <ExactModelDestination config={config} placement="decision-end" />
+        <aside aria-labelledby="related-guides-heading" className="mt-12 border-t border-cream-200 pt-8">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-wider text-brown-accent">Continue researching</p>
+              <h2 id="related-guides-heading" className="mt-2 font-serif text-2xl font-bold text-charcoal">More evidence-reviewed guides</h2>
+            </div>
+            <Link href="/blog" className="text-sm font-semibold text-forest-600 hover:underline">Browse all verified guides →</Link>
+          </div>
+          <div className="mt-5 grid gap-4 md:grid-cols-3">
+            {relatedGuides.map((guide) => (
+              <Link key={guide.slug} href={`/articles/${guide.slug}`} className="rounded-2xl border border-cream-200 bg-white p-5 hover:border-forest-500/40">
+                <h3 className="font-serif text-lg font-bold text-charcoal">{guide.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-charcoal/55">{guide.description}</p>
+              </Link>
+            ))}
+          </div>
+        </aside>
         <div className="mt-12 flex flex-wrap gap-3 border-t border-cream-200 pt-8">
           {"databaseSlug" in config ? (
             <Link href={`/database/${config.databaseSlug}`} className="rounded-xl bg-brown-accent px-5 py-3 font-semibold text-white hover:bg-brown-dark">Review repairability record</Link>

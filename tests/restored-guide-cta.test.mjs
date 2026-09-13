@@ -48,6 +48,16 @@ test("restored guides offer a disclosed, measured exact-model destination before
   assert.equal(ctaUses.length, 2, "each restored guide should render start and end CTAs");
 });
 
+test("restored guides cross-link only to other photo-verified restored guides", async () => {
+  const page = await text("src/app/articles/[slug]/page.tsx");
+
+  assert.match(page, /restoredGuides as restoredGuideIndex/);
+  assert.match(page, /restoredGuideIndex\.filter\(\(guide\) => guide\.slug !== config\.slug\)/);
+  assert.match(page, /More evidence-reviewed guides/);
+  assert.match(page, /href=\{`\/articles\/\$\{guide\.slug\}`\}/);
+  assert.doesNotMatch(page, /articles\.filter\(\(guide\) => guide\.slug !== config\.slug\)/);
+});
+
 test("the delegated click tracker sends the CTA placement", async () => {
   const tracker = await text("src/components/AffiliateClickTracker.tsx");
   assert.match(tracker, /anchor\.dataset\.affiliatePlacement/);
