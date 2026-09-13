@@ -29,8 +29,13 @@ test("the Grizzly G0771Z record preserves exact-model construction, repair, owne
     "https://www.grizzly.com/products/g0771z/parts",
     "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
     "https://www.reddit.com/r/woodworking/comments/16qco9f/table_saw_lifting_mechanism_problems/",
-    "https://www.reddit.com/r/woodworking/comments/10ub8xc/dewalt_jobsite_or_grizzly_hybrid_table_saw/",
   ]) assert.ok(sourceUrls.has(url), `${slug} missing ${url}`);
+  assert.ok(
+    !sourceUrls.has(
+      "https://www.reddit.com/r/woodworking/comments/10ub8xc/dewalt_jobsite_or_grizzly_hybrid_table_saw/",
+    ),
+    "the G0962A40 owner follow-up must not be attributed to the G0771Z",
+  );
 
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
   assert.match(fields.identity.display_value, /G0771Z.*10-inch.*2 HP.*120V\/240V.*cast-iron/i);

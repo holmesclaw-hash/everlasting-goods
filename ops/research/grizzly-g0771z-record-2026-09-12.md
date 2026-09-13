@@ -18,9 +18,9 @@ Grizzly's published warranty states that Grizzly products are covered for one ye
 
 One exact-model owner reported that a blade-lift e-clip failed after sawdust and grease had obstructed the mechanism; the owner also reported that the replacement part remained backordered for months.[9]
 
-In a two-year follow-up, another exact-model owner reported frequent home-improvement use, described the saw as solid, and identified imperfect dust collection as the main product drawback.[11]
+A second thread initially compared the G0771Z with another Grizzly hybrid saw, but its author later stated that they purchased the G0962A40. The author's two-year follow-up therefore does not describe ownership of the G0771Z and must not be attributed to this record.[11]
 
-These individual reports provide mixed ownership context but do not establish a recurring failure rate, expected service life, or a buy recommendation. Those fields remain not yet verified.
+The one exact-model report provides limited repair context but does not establish a recurring failure rate, expected service life, or a buy recommendation. Those fields remain not yet verified.
 
 ## Commercial destination and image decision
 
@@ -36,5 +36,5 @@ No reusable-rights basis was verified for an exact-model product photograph, so 
 [7] https://cdn0.grizzly.com/partslists/g0771z_pl.pdf
 [8] https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty
 [9] https://www.reddit.com/r/woodworking/comments/16qco9f/table_saw_lifting_mechanism_problems
-[11] https://www.reddit.com/r/woodworking/comments/10ub8xc/dewalt_jobsite_or_grizzly_hybrid_table_saw
+[11] https://www.reddit.com/r/woodworking/comments/10ub8xc/dewalt_jobsite_or_grizzly_hybrid_table_saw — comparison thread whose author purchased the sibling G0962A40, not the G0771Z
 [12] https://www.amazon.com/dp/B07K7SZPBR

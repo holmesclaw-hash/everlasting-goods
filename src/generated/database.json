@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "4b71ef368ed11c841e1584a738d70a4959789466f2654ae23e55d57ff8a27f5f",
+  "database_sha256": "2300b5ee8e2efd8d2465d3136a86292c7a8e65d23bbeedc157f505367f76c5ef",
   "generated_at": "2026-09-12T00:00:00.000Z",
   "products": [
     {
@@ -2555,7 +2555,7 @@
       "variant_notes": "Current 10-inch 2 HP hybrid table-saw configuration; match the machine manufacture date to the applicable manual and part revision before ordering service parts.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation verifies cast-iron tables and trunnions, a model-specific manual/update, revision-specific parts documentation, an exact-model parts catalog, and a one-year limited warranty. A two-year owner follow-up and a separate repair report provide mixed context but do not establish expected service life, recurring failure rates, or a recommendation.",
+      "recommendation_reasoning": "Manufacturer documentation verifies cast-iron tables and trunnions, a model-specific manual/update, revision-specific parts documentation, an exact-model parts catalog, and a one-year limited warranty. One exact-model repair report provides limited owner context but does not establish expected service life, recurring failure rates, or a recommendation.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2603,13 +2603,6 @@
           "source_type": "manufacturer",
           "retrieved_date": "2026-09-12",
           "purpose": "revision-specific parts documentation"
-        },
-        {
-          "url": "https://www.reddit.com/r/woodworking/comments/10ub8xc/dewalt_jobsite_or_grizzly_hybrid_table_saw/",
-          "title": "Reddit: G0771Z two-year owner follow-up",
-          "source_type": "owner-report",
-          "retrieved_date": "2026-09-12",
-          "purpose": "two-year owner-reported use and dust-collection context"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
