@@ -16,7 +16,7 @@ const articleImages = Array.from(
 );
 
 test("every article has a parsed image or explicit text-only presentation", () => {
-  assert.equal(articleImages.length, 54);
+  assert.equal(articleImages.length, 55);
   for (const { slug, image } of articleImages) {
     if (image.startsWith("/images/articles/")) {
       assert.equal(articleImageEvidence[slug]?.image, image, `${slug} local image needs provenance`);

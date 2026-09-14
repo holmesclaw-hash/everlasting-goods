@@ -2,6 +2,12 @@ import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 
 const restoredGuideCandidates = [
   {
+    slug: "is-a-moccamaster-buy-it-for-life",
+    title: "Moccamaster K741.64B and KBGV Evidence Review",
+    description: "A 15-year-old K741.64B, current KBGV parts and repair support, warranty limits, maintenance, and owner tradeoffs.",
+    reviewedAt: "2026-09-14",
+  },
+  {
     slug: "best-estwing-hammers-that-last-a-lifetime",
     title: "Estwing B3-3LB Drilling Hammer Evidence Review",
     description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",

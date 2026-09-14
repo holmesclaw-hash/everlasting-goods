@@ -4,6 +4,7 @@ import {
 import { castIronSkilletContent } from "../content/cast-iron-skillets.mjs";
 import { deltaEssaFaucetContent } from "../content/delta-essa-faucet.mjs";
 import { estwingDrillingHammerContent } from "../content/estwing-drilling-hammer.mjs";
+import { moccamasterK741Content } from "../content/moccamaster-k741.mjs";
 import { safetyRazorContent } from "../content/safety-razors.mjs";
 import { victorinoxFibroxContent } from "../content/victorinox-fibrox.mjs";
 
@@ -221,6 +222,22 @@ export const products: Product[] = [
 ];
 
 export const articles: Article[] = [
+
+  {
+    slug: "is-a-moccamaster-buy-it-for-life",
+    title: "Is a Moccamaster Buy It for Life?",
+    excerpt:
+      "A source-checked look at a 15-year-old K741.64B, the current KBGV Select, replacement parts, factory repair, warranty limits, and owner tradeoffs.",
+    category: "kitchen",
+    image: "/images/articles/moccamaster-k741-64b.jpg",
+    author: "Everlasting Goods Editorial Team",
+    date: "2026-09-14",
+    updatedAt: "2026-09-14",
+    readTime: "9 min read",
+    featured: false,
+    products: [],
+    content: moccamasterK741Content,
+  },
 
   {
     slug: "best-thermal-shock-resistant-glass-drink-dispensers-that-hold-up",

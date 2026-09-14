@@ -17,8 +17,20 @@ const RESTORED_GUIDE_SLUG = "best-safety-razors-that-last-a-lifetime";
 const CAST_IRON_GUIDE_SLUG = "best-cast-iron-skillets-that-last-forever";
 const ESTWING_GUIDE_SLUG = "best-estwing-hammers-that-last-a-lifetime";
 const VICTORINOX_GUIDE_SLUG = "best-kitchen-knives-that-last-a-lifetime";
+const MOCCAMASTER_GUIDE_SLUG = "is-a-moccamaster-buy-it-for-life";
 
 const restoredGuides = {
+  [MOCCAMASTER_GUIDE_SLUG]: {
+    slug: MOCCAMASTER_GUIDE_SLUG,
+    title: "Is a Moccamaster Buy It for Life? K741.64B and KBGV Evidence Review",
+    description: "A source-checked review of a 15-year-old K741.64B and the current KBGV Select, including parts support, factory repair, warranty limits, care, and owner tradeoffs.",
+    reviewedAt: "2026-09-14",
+    asin: "B093DXS54M",
+    destinationDescription: "the matte-black Moccamaster 53948 KBGV Select 10-cup brewer, ASIN B093DXS54M",
+    destinationLabel: "View exact Moccamaster 53948 KBGV Select on Amazon",
+    imageWidth: 6550,
+    imageHeight: 4367,
+  },
   [RESTORED_GUIDE_SLUG]: {
     slug: RESTORED_GUIDE_SLUG,
     title: "Safety Razors: Construction, Blade Format, and Maintenance",

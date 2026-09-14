@@ -1,4 +1,14 @@
 export const articleImageEvidence = {
+  "is-a-moccamaster-buy-it-for-life": {
+    image: "/images/articles/moccamaster-k741-64b.jpg",
+    exact_product_model: "Technivorm Moccamaster K741.64B",
+    source_url: "https://commons.wikimedia.org/wiki/File:Technivorm_Moccamaster_K741.64B.jpg",
+    rights_basis: "open-license",
+    license: "CC BY-SA 4.0",
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0",
+    attribution: "Aaaatu / Wikimedia Commons",
+    alt: "Fifteen-year-old Technivorm Moccamaster K741.64B with a replacement water reservoir",
+  },
   "best-kitchen-knives-that-last-a-lifetime": {
     image: "/images/articles/victorinox-fibrox-5-2063-20.jpg",
     exact_product_model: "Victorinox Fibrox 5.2063.20 Chef’s Knife Extra Wide, 8 in",
