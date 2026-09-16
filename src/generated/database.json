@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "26fd191ace1777f010cd6b0784363445f8391e32b3dffe6ec0e073bfc734664a",
-  "generated_at": "2026-09-14T00:00:00.000Z",
+  "database_sha256": "058024dee99945ea4f3a51f5ee342de6ede9b9c8b66928b0ed02a5646f0f0367",
+  "generated_at": "2026-09-16T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -14,7 +14,7 @@
       "variant_notes": null,
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports routine user maintenance and troubleshooting plus an authorized service path. The available owner discussion is mixed, and this exact model's service life remains unverified, so no buy or repair recommendation is published.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -23,7 +23,7 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-16",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
@@ -36,11 +36,25 @@
           "purpose": "identity"
         },
         {
+          "url": "https://californiaairtools.com/maintenance-troubleshooting-guide",
+          "title": "California Air Tools maintenance and troubleshooting guide",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-16",
+          "purpose": "maintenance"
+        },
+        {
           "url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
           "title": "California Air Tools 8010 official manual or downloads",
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
+        },
+        {
+          "url": "https://www.reddit.com/r/Tools/comments/iyaif5/california_air_compressors_any_good",
+          "title": "California air compressors - any good? owner discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-16",
+          "purpose": "owner-evidence"
         },
         {
           "url": "https://californiaairtools.com/contact-us",
@@ -90,13 +104,13 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "Partial support: the official 8010 page identifies replaceable 1 HP air filter part 90227, while the manual directs owners to California Air Tools for service or repair parts.",
+          "display_value": "Partial: replaceable air filter part 90227 is identified, with manufacturer service and parts support.",
+          "evidence_tier": "T2",
+          "source_url": "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
+          "verified_date": "2026-09-16",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-15"
         },
         {
           "name": "repair_manual",
@@ -110,13 +124,13 @@
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manufacturer publishes user procedures for air-filter maintenance, tank draining, connection leaks, and check-valve troubleshooting; the manual routes repair work through authorized service and excludes unauthorized repairs from warranty coverage.",
+          "display_value": "User-serviceable for documented routine maintenance and troubleshooting; repair work is routed through authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://californiaairtools.com/maintenance-troubleshooting-guide",
+          "verified_date": "2026-09-16",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-15"
         },
         {
           "name": "street_price",
@@ -149,14 +163,14 @@
       ],
       "repairability": {
         "product_id": 14,
-        "parts_availability": "not-yet-verified",
-        "parts_url": "https://californiaairtools.com/contact-us",
+        "parts_availability": "partial",
+        "parts_url": "https://californiaairtools.com/maintenance-troubleshooting-guide",
         "repair_manual_available": 1,
         "repair_manual_url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "user-serviceable",
         "ifixit_score": null,
-        "source_id": 37,
-        "verified_date": "2026-08-25"
+        "source_id": 79,
+        "verified_date": "2026-09-16"
       },
       "warranty": null,
       "cost_per_year": null
@@ -3585,14 +3599,6 @@
     },
     {
       "slug": "california-air-tools-8010",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "california-air-tools-8010",
       "field_name": "repair_manual",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -3601,914 +3607,922 @@
     },
     {
       "slug": "california-air-tools-8010",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
       "field_name": "serviceability",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
       "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800d1e1",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "identity",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "parts_availability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "repair_manual",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "serviceability",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "warranty",
+      "verified_date": "2026-08-25",
+      "reverify_days": 180,
+      "stale_after": "2027-02-21",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "identity",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "estwing-b3-3lb",
+      "field_name": "warranty",
+      "verified_date": "2026-09-08",
+      "reverify_days": 180,
+      "stale_after": "2027-03-07",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "identity",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "warranty",
+      "verified_date": "2026-09-11",
+      "reverify_days": 180,
+      "stale_after": "2027-03-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "identity",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0771z",
+      "field_name": "warranty",
+      "verified_date": "2026-09-12",
+      "reverify_days": 180,
+      "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "identity",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "warranty",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
       "is_stale": false
     },
     {
       "slug": "california-air-tools-8010",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
       "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
+      "verified_date": "2026-09-16",
       "reverify_days": 180,
-      "stale_after": "2027-02-21",
+      "stale_after": "2027-03-15",
       "is_stale": false
     },
     {
-      "slug": "dewalt-dcd800b",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
+      "slug": "california-air-tools-8010",
       "field_name": "serviceability",
-      "verified_date": "2026-08-25",
+      "verified_date": "2026-09-16",
       "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800d1e1",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "identity",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "parts_availability",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "repair_manual",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "serviceability",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "estwing-b3-3lb",
-      "field_name": "warranty",
-      "verified_date": "2026-09-08",
-      "reverify_days": 180,
-      "stale_after": "2027-03-07",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "identity",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "parts_availability",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "repair_manual",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "serviceability",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "warranty",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "identity",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "parts_availability",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "repair_manual",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "serviceability",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0771z",
-      "field_name": "warranty",
-      "verified_date": "2026-09-12",
-      "reverify_days": 180,
-      "stale_after": "2027-03-11",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "identity",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "parts_availability",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "repair_manual",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "serviceability",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-800cn",
-      "field_name": "warranty",
-      "verified_date": "2026-09-14",
-      "reverify_days": 180,
-      "stale_after": "2027-03-13",
+      "stale_after": "2027-03-15",
       "is_stale": false
     }
   ]
