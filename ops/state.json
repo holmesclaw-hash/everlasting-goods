@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 19,
-    "research_candidates": 82,
+    "current_published_records": 20,
+    "research_candidates": 81,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "one_open_license_exact_product_image_live_in_product_database",
     "verified_images": 1,
-    "blocked_models": 18,
+    "blocked_models": 19,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,34 +36,31 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-14T06:28:39Z",
-  "last_action": "Published a photo-gated Moccamaster evidence review that separates a documented 15-year-old K741.64B from the current KBGV Select, balances manufacturer support claims with owner and independent tradeoffs, and routes two disclosed measured CTAs to the identity-checked matte-black 53948 exact product",
-  "last_live_url": "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
-  "last_commit": "8494befc27bc8b9a1ebd7e175988fd3311ed7624",
+  "last_verified_at": "2026-09-16T05:18:54Z",
+  "last_action": "Published Bosch GSR18V-800CN as a conservative text-only T2 structured record using exact manufacturer identity, operating/manual, parts-catalog, service, warranty, and exact-destination evidence while leaving lifespan, owner repairability, safety clearance, image rights, and recommendation unverified",
+  "last_live_url": "https://everlasting-goods.com/database/bosch-gsr18v-800cn",
+  "last_commit": "ef6daf430e74e8e8b46a8f419af4abf98e692ae8",
   "last_evidence": {
-    "local_gates": "The new Moccamaster publication regression tests and updated article-count test failed before implementation and passed afterward. npm run verify passed 89 tests plus quality, lint, typecheck, and the Next.js production build; npm audit --omit=dev found 0 vulnerabilities; SQLite integrity and foreign-key checks, git diff --check, citation verification, and the secret, stale-tag, and fake-experience scans passed. The local and live image SHA-256 values both equal 895a11cb7c7f62d02ada8b1e36948cb4b15ff89ce6c87ef80514c421a1b82eb1.",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit 8494befc27bc8b9a1ebd7e175988fd3311ed7624 completed successfully.",
-    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the Moccamaster article, guide hub, homepage, sitemap, and exact-product image. The article is indexable and renders its exact canonical URL, exact K741.64B photo with Aaaatu attribution and CC BY-SA 4.0 license, Everlasting Goods Editorial Team identity, model-separation caveat, linked manufacturer sources, two exact ASIN B093DXS54M CTAs with approved tag everlastin08f-20 and no stale tag, decision-start and decision-end analytics placements, nearby disclosure, and sponsored/nofollow/noopener/noreferrer attributes. The guide hub lists the article, the homepage reports five restored guides, and the sitemap includes the route.",
+    "local_gates": "The Bosch record and queue-accounting tests failed before implementation and passed afterward. npm run verify passed 90 tests plus quality, lint, typecheck, and the Next.js production build; npm audit --omit=dev found 0 vulnerabilities; full ten-migration replay produced integrity ok, no foreign-key output, 20 products, one Bosch record, and one exact tagged destination. Citation coverage passed at 78%; git diff --check and the secret-pattern scan passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit ef6daf430e74e8e8b46a8f419af4abf98e692ae8 completed successfully.",
+    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the Bosch record, products hub, drill-driver comparison, and sitemap. The record renders the exact canonical URL, official identity/manual/parts/warranty sources, repeated Not yet verified limits, an exact ASIN B0CRMB2TPF destination with tag everlastin08f-20, nearby disclosure, and sponsored/nofollow/noopener/noreferrer attributes. Product JSON-LD contains no AggregateRating, Offer, price, or availability. The products hub and drill-driver comparison include the new record, and the sitemap contains its canonical route.",
     "source_urls": [
-      "https://us.moccamaster.com/products/kbgv",
-      "https://us.moccamaster.com/collections/kbgv-select-coffee-brewer-parts",
-      "https://support.moccamaster.com/hc/en-us/articles/1500009429481-Can-I-get-my-Moccamaster-repaired",
-      "https://support.moccamaster.com/hc/en-us/articles/1500012391061-What-warranty-does-my-Moccamaster-coffee-brewer-come-with",
-      "https://commons.wikimedia.org/wiki/File:Technivorm_Moccamaster_K741.64B.jpg",
-      "https://www.reddit.com/r/BuyItForLife/comments/1nvw5m5/my_moccamaster_has_been_brewing_for_30_years_and",
-      "https://bestreviews.com/kitchen/coffee-accessories/technivorm-moccamaster--53923-kbgv-select-coffee-maker-juniper",
-      "https://www.amazon.com/Moccamaster-53948-Select-10-Cup-Coffee/dp/B093DXS54M",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8494befc27bc8b9a1ebd7e175988fd3311ed7624/status",
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/",
+      "https://www.boschtools.com/us/en/products/gsr18v-800cn-06019K6010",
+      "https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf",
+      "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010",
+      "https://www.boschtools.com/us/en/service/product-warranty",
+      "https://us.bosch-press.com/pressportal/us/en/press-release-24768.html",
+      "https://www.amazon.com/dp/B0CRMB2TPF",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/ef6daf430e74e8e8b46a8f419af4abf98e692ae8/status",
+      "https://everlasting-goods.com/database/bosch-gsr18v-800cn",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/images/articles/moccamaster-k741-64b.jpg",
+      "https://everlasting-goods.com/database/bosch-gsr18v-800cn",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/sitemap.xml"
     ]
   },
@@ -74,7 +71,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
-    "Eighteen structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "Nineteen structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
   ]
