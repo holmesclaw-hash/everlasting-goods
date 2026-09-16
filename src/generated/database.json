@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "2300b5ee8e2efd8d2465d3136a86292c7a8e65d23bbeedc157f505367f76c5ef",
-  "generated_at": "2026-09-12T00:00:00.000Z",
+  "database_sha256": "26fd191ace1777f010cd6b0784363445f8391e32b3dffe6ec0e073bfc734664a",
+  "generated_at": "2026-09-14T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -475,6 +475,177 @@
         "verified_date": "2026-08-25"
       },
       "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 20,
+      "slug": "bosch-gsr18v-800cn",
+      "brand": "Bosch",
+      "model": "GSR18V-800CN",
+      "sku": "06019K6010",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": "Current US bare-tool configuration: Bosch order number 06019K6010 includes the GSR18V-800C drill/driver and belt clip; battery, charger, case, and GCY42 connectivity module are not included.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Manufacturer documentation verifies the current bare-tool identity, an operating and safety manual, an exact tool-number spare-parts catalog route, and a five-year limited warranty for qualifying purchases. It does not establish an owner-repair procedure, long-term individual-parts availability, multi-year exact-model owner history, expected service life, or a recommendation.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-09-14",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010",
+          "title": "Bosch GSR18V-800C exact-tool-number spare-parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "exact tool-number parts support"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/products/gsr18v-800cn-06019K6010",
+          "title": "Bosch GSR18V-800CN official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "identity, included items, and construction"
+        },
+        {
+          "url": "https://us.bosch-press.com/pressportal/us/en/press-release-24768.html",
+          "title": "Bosch 2024 GSR18V-800C product announcement",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "model introduction and bare-tool execution"
+        },
+        {
+          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf",
+          "title": "Bosch GSR18V-800C operating and safety manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "operating and safety instructions"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "title": "Bosch 18V limited warranty",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "warranty terms"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "identity",
+          "raw_value": "GSR18V-800CN is Bosch order number 06019K6010, a bare 18V brushless connected-ready 1/2-inch drill/driver with 565 in.-lb. maximum torque, an all-metal chuck, KickBack Control, and a belt clip; battery, charger, case, and GCY42 module are excluded.",
+          "display_value": "GSR18V-800CN bare tool (order 06019K6010): 18V brushless 1/2-inch drill/driver with 565 in.-lb. maximum torque, all-metal chuck, KickBack Control, and belt clip.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/gsr18v-800cn-06019K6010",
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Bosch publishes an exact tool-number 3601JK6010 spare-parts catalog route for the GSR18V-800C; the current depth and continued availability of individual parts were not independently established.",
+          "display_value": "Partial: Bosch publishes an exact tool number 3601JK6010 parts catalog, but individual-part depth and continued availability are not yet verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010",
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Bosch publishes a model-family operating and safety manual for GSR18V-800C and GSB18V-800C. It provides operating, maintenance, and safety instructions but is not an owner-repair manual.",
+          "display_value": "Official GSR18V-800C operating and safety manual is available; it is not an owner-repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf",
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The operating manual directs servicing to qualified repair personnel using identical replacement parts, and the warranty excludes damage caused by repairs outside Bosch or a Bosch Authorized Service Center.",
+          "display_value": "Shop-serviceable through Bosch or authorized service; no owner-repair procedure is documented.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-14",
+          "reverify_days": 30,
+          "stale_after": "2026-10-14"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "For purchases dated June 1, 2023 or later, Bosch warrants 18V cordless power tools to the original end-user purchaser for five years against defects in material or workmanship, subject to the published exclusions and territorial limits.",
+          "display_value": "5-year limited warranty for the original end-user purchaser on qualifying purchases dated June 1, 2023 or later; Bosch exclusions and territorial limits apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "verified_date": "2026-09-14",
+          "reverify_days": 180,
+          "stale_after": "2027-03-13"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0CRMB2TPF?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-14"
+        }
+      ],
+      "repairability": {
+        "product_id": 20,
+        "parts_availability": "partial",
+        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 76,
+        "verified_date": "2026-09-14"
+      },
+      "warranty": {
+        "warranty_length": "5 years from purchase for qualifying purchases dated June 1, 2023 or later.",
+        "warranty_coverage": "Defects in material or workmanship for the original end-user purchaser; Bosch provides repair or replacement of covered defective parts.",
+        "warranty_exclusions": "Published exclusions include damage from non-genuine Bosch parts, abuse, misuse, careless handling, and repairs outside Bosch or a Bosch Authorized Service Center; territorial terms also apply.",
+        "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+        "verified_date": "2026-09-14"
+      },
       "cost_per_year": null
     },
     {
@@ -3213,6 +3384,14 @@
       "is_stale": false
     },
     {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "street_price",
+      "verified_date": "2026-09-14",
+      "reverify_days": 30,
+      "stale_after": "2026-10-14",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -4274,6 +4453,62 @@
       "verified_date": "2026-09-12",
       "reverify_days": 180,
       "stale_after": "2027-03-11",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "identity",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-800cn",
+      "field_name": "warranty",
+      "verified_date": "2026-09-14",
+      "reverify_days": 180,
+      "stale_after": "2027-03-13",
       "is_stale": false
     }
   ]

@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 19,
+  "current_published_records": 20,
   "target_total_records": 100,
-  "candidate_count": 82,
+  "candidate_count": 81,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -174,20 +174,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Bosch",
-      "model": "GSR18V-800CN",
-      "sku": "06019K6010",
-      "category": "drill-drivers",
-      "official_product_url": "https://www.boschtools.com/us/en/products/gsr18v-800cn-06019K6010",
-      "evidence_urls": [
-        "https://www.boschtools.com/us/en/service/product-warranty"
-      ],
-      "reason": "The official Bosch product page identifies this exact drill-driver model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Bosch",
       "model": "GSR18V-535CN",
