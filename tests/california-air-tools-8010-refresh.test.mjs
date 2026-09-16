@@ -21,8 +21,12 @@ test("the California Air Tools 8010 record publishes sourced maintenance and ser
     "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
     "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
     "https://californiaairtools.com/maintenance-troubleshooting-guide",
-    "https://www.reddit.com/r/Tools/comments/iyaif5/california_air_compressors_any_good",
   ]) assert.ok(sourceUrls.has(url), `${slug} missing ${url}`);
+  assert.equal(
+    sourceUrls.has("https://www.reddit.com/r/Tools/comments/iyaif5/california_air_compressors_any_good"),
+    false,
+    "family-level and sibling-model reports must not be attached to the exact 8010 record",
+  );
 
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
   assert.match(fields.parts_availability.display_value, /air filter.*90227.*service.*parts/i);
@@ -35,5 +39,5 @@ test("the California Air Tools 8010 record publishes sourced maintenance and ser
   assert.equal(product.repairability.parts_availability, "partial");
   assert.equal(product.repairability.serviceability, "user-serviceable");
   assert.equal(product.repairability.parts_url, "https://californiaairtools.com/maintenance-troubleshooting-guide");
-  assert.match(product.recommendation_reasoning, /owner discussion is mixed.*service life remains unverified/i);
+  assert.match(product.recommendation_reasoning, /no dated exact-model owner evidence.*service life remains unverified/i);
 });

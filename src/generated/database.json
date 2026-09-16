@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "058024dee99945ea4f3a51f5ee342de6ede9b9c8b66928b0ed02a5646f0f0367",
+  "database_sha256": "ba0795f912e7256ef15fe453f69164b782f5cefdf6537e7b5ff9f6cdd1b573f5",
   "generated_at": "2026-09-16T00:00:00.000Z",
   "products": [
     {
@@ -14,7 +14,7 @@
       "variant_notes": null,
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation supports routine user maintenance and troubleshooting plus an authorized service path. The available owner discussion is mixed, and this exact model's service life remains unverified, so no buy or repair recommendation is published.",
+      "recommendation_reasoning": "Manufacturer documentation supports routine user maintenance and troubleshooting plus an authorized service path. No dated exact-model owner evidence establishes longevity; the 8010 service life remains unverified, so no buy or repair recommendation is published.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -48,13 +48,6 @@
           "source_type": "manufacturer",
           "retrieved_date": "2026-08-25",
           "purpose": "manual"
-        },
-        {
-          "url": "https://www.reddit.com/r/Tools/comments/iyaif5/california_air_compressors_any_good",
-          "title": "California air compressors - any good? owner discussion",
-          "source_type": "owner-report",
-          "retrieved_date": "2026-09-16",
-          "purpose": "owner-evidence"
         },
         {
           "url": "https://californiaairtools.com/contact-us",

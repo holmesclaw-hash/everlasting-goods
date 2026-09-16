@@ -12,13 +12,13 @@ The exact-model manual directs owners to California Air Tools for service or rep
 
 The manufacturer’s troubleshooting guide documents owner procedures for air-filter maintenance, tank draining, connection leaks, and check-valve troubleshooting; this supports a limited “user-serviceable” classification for documented routine work, not unrestricted repairability.[2]
 
-The owner discussion contains both favorable durability reports and complaints about post-sale replacement-parts support, but it does not establish a reliable service-life figure for the exact 8010.[3] Expected service life and the buy/repair recommendation therefore remain unverified.
+The owner-discussion lead contains reports about the sibling 5510SE and other unidentified California Air Tools compressors, not a dated ownership history for the exact 8010.[3] It is retained here only as a rejected research lead and is not attached to the exact-model record. Expected service life and the buy/repair recommendation therefore remain unverified.
 
 ## Decision
 
 Upgrade `parts_availability` from `not-yet-verified` to `partial` and `serviceability` from `not-yet-verified` to `user-serviceable` with explicit limits.[1][2][4]
 
-Retain expected service life as T4 and the recommendation as `not-yet-verified` because the owner evidence does not support either conclusion.[3]
+Retain expected service life as T4 and the recommendation as `not-yet-verified` because no dated exact-model owner evidence supports either conclusion.[3]
 
 ## Sources
 
