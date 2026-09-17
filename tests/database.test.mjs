@@ -81,6 +81,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "grizzly-g0771z": "B07K7SZPBR",
     "sawstop-pcs31230-tgp236": "B009C7NGTE",
     "bosch-gsr18v-800cn": "B0CRMB2TPF",
+    "dewalt-dwp611": "B0048EFUV8",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -93,6 +94,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
       link.verified_date,
       product.slug === "bosch-gsr18v-800cn"
         ? "2026-09-14"
+        : product.slug === "dewalt-dwp611"
+          ? "2026-09-16"
         : product.slug === "estwing-b3-3lb"
         ? "2026-09-08"
         : product.slug === "grizzly-g0899"
@@ -117,6 +120,7 @@ test("manufacturer research is reconciled to exact manuals and parts catalogs", 
     "makita-xfd14z": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf"],
     "bosch-gsr18v-535fcb15": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110"],
     "bosch-gsr18v-800cn": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010"],
+    "dewalt-dwp611": ["https://assets.dewalt.com/GLOBALBOM/QU/DWP611/1/Instruction_Manual/EN/N336740_DWP611.pdf", "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/ROUTERS/PREMIUM-COMPACT-ROUTER/p/DWP611"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
   };
