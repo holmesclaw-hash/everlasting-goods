@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 20,
-    "research_candidates": 81,
+    "current_published_records": 21,
+    "research_candidates": 80,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "one_open_license_exact_product_image_live_in_product_database",
     "verified_images": 1,
-    "blocked_models": 19,
+    "blocked_models": 20,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,28 +36,33 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-16T06:34:17Z",
-  "last_action": "Corrected the California Air Tools 8010 refresh by removing a family-level and sibling-model Reddit discussion from the exact-model source register; manufacturer-documented partial parts support and limited routine user serviceability remain, while exact-model service life and recommendation remain unverified",
-  "last_live_url": "https://everlasting-goods.com/database/california-air-tools-8010",
-  "last_commit": "e4d0db818a300e82a762317f9809732b89d7a7a6",
+  "last_verified_at": "2026-09-17T06:23:29Z",
+  "last_action": "Published a conservative DEWALT DWP611 Type 1 structured record with current manufacturer identity, manual, parts, service, and warranty evidence; exact-model owner reports document both five years of regular medium use with one brush replacement and an earlier variable-speed failure, so expected service life and recommendation remain unverified",
+  "last_live_url": "https://everlasting-goods.com/database/dewalt-dwp611",
+  "last_commit": "60cb0ac06763e215fb815f8ffcfbb8bbea80e281",
   "last_evidence": {
-    "local_gates": "The corrected exact-model source test failed before migration 012 and passed afterward. Citation verification passed in strict mode at 67% coverage. npm run verify passed 91 tests plus quality, lint, typecheck, and the Next.js production build; npm audit --omit=dev found 0 vulnerabilities. Full twelve-migration replay produced integrity ok, no foreign-key output, 20 products, evidence revision 12, and zero copies of the rejected Reddit source in the database. git diff --check and the complete changed-file secret-pattern scan passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for correction commit e4d0db818a300e82a762317f9809732b89d7a7a6 completed successfully.",
-    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the California Air Tools 8010 record, air-compressors comparison, and sitemap. The exact-model record no longer contains the rejected family-level Reddit URL and now states that no dated exact-model owner evidence establishes longevity. Manufacturer parts and limited serviceability evidence, exact ASIN B00WM1VPKE with tag everlastin08f-20, disclosure, sponsored/nofollow/noopener/noreferrer attributes, and sitemap inclusion remain intact.",
+    "local_gates": "The dedicated DWP611 record test, shared exact-destination and manufacturer-evidence tests, and expansion-queue test passed. Citation verification passed in strict mode at 64% coverage. npm run verify passed 92 tests plus quality, lint, typecheck, and the Next.js production build; npm audit --omit=dev found 0 vulnerabilities. Full thirteen-migration replay produced integrity ok, no foreign-key rows, 21 products, and evidence revision 13. git diff --check and the complete changed-file secret-pattern scan passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for record commit 60cb0ac06763e215fb815f8ffcfbb8bbea80e281 completed successfully.",
+    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the DWP611 record, routers comparison, products hub, database index, and sitemap. The record and commercial discovery routes contain exact ASIN B0048EFUV8 with tag everlastin08f-20, no other affiliate tag, disclosure before commercial links, affiliate analytics hooks, canonical URLs, and the new record in the sitemap. No article was added because no lawful reusable exact-product photograph was verified.",
     "source_urls": [
-      "https://californiaairtools.com/product/california-air-tools-8010-ultra-quiet-1-0-hp-oil-free-lightweight-8-gallon-air-compressor",
-      "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
-      "https://californiaairtools.com/maintenance-troubleshooting-guide",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/e4d0db818a300e82a762317f9809732b89d7a7a6/status",
-      "https://everlasting-goods.com/database/california-air-tools-8010",
-      "https://everlasting-goods.com/database/category/air-compressors",
+      "https://www.dewalt.com/en-us/product/dwp611/1-14-hp-max-torque-variable-speed-compact-router",
+      "https://assets.dewalt.com/GLOBALBOM/QU/DWP611/1/Instruction_Manual/EN/N336740_DWP611.pdf",
+      "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/ROUTERS/PREMIUM-COMPACT-ROUTER/p/DWP611",
+      "https://www.dewalt.com/en-us/support/warranty",
+      "https://support.dewalt.com/hc/en-us/articles/7985430800781-Where-can-I-buy-spare-parts-for-my-tool",
+      "https://www.reddit.com/r/XCarve/comments/1gfuiml/best_spindlerouter_for_original_xcarve/",
+      "https://www.reddit.com/r/Tools/comments/4clk9r/dewalt_dwp611_router_problems/",
+      "https://www.amazon.com/dp/B0048EFUV8",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/60cb0ac06763e215fb815f8ffcfbb8bbea80e281/status",
+      "https://everlasting-goods.com/database/dewalt-dwp611",
+      "https://everlasting-goods.com/database/category/routers",
       "https://everlasting-goods.com/products",
       "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/california-air-tools-8010",
-      "https://everlasting-goods.com/database/category/air-compressors",
+      "https://everlasting-goods.com/database/dewalt-dwp611",
+      "https://everlasting-goods.com/database/category/routers",
       "https://everlasting-goods.com/products",
       "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/sitemap.xml"
@@ -70,7 +75,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
-    "Nineteen structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "Twenty structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
   ]
