@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-09-16T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-09-18T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -96,6 +96,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-09-14"
         : product.slug === "dewalt-dwp611"
           ? "2026-09-16"
+        : product.slug === "dewalt-dwe7491rs"
+          ? "2026-09-18"
         : product.slug === "estwing-b3-3lb"
         ? "2026-09-08"
         : product.slug === "grizzly-g0899"

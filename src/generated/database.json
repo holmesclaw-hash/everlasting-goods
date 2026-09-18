@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "486032162e551311dbf1c654a7aa6ffbd0e26dc67004100936cb165eab982ba6",
-  "generated_at": "2026-09-16T00:00:00.000Z",
+  "database_sha256": "82266bbb3b2c26cfa17ac42101564696ac0fa0988cf50eb9587da2346e33e300",
+  "generated_at": "2026-09-18T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -705,7 +705,7 @@
           "url": "https://www.dewalt.com/en-us/support/warranty",
           "title": "DEWALT warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "warranty"
         }
       ],
@@ -863,7 +863,7 @@
           "url": "https://www.dewalt.com/en-us/support/warranty",
           "title": "DEWALT warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "warranty"
         }
       ],
@@ -2140,7 +2140,7 @@
           "url": "https://www.dewalt.com/en-us/support/warranty",
           "title": "DEWALT warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "warranty"
         }
       ],
@@ -2319,7 +2319,7 @@
           "url": "https://www.dewalt.com/en-us/support/warranty",
           "title": "DEWALT warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "warranty terms"
         }
       ],
@@ -2757,10 +2757,10 @@
       "sku": "DWE7491RS",
       "category": "table-saws",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "DWE7491RS uses type-specific documentation and parts catalogs. DEWALT ServiceNet marks Types 10 and 11 live; Types 1, 2, and 3 are discontinued, so owners must match the type number before ordering parts.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Current manufacturer documentation supports type-specific parts lookup, routine owner maintenance, and authorized repair. One exact-model owner reports close to seven years without general problems while also describing gradual fence drift; a single anecdote is not representative durability data, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2769,17 +2769,31 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-18",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DWE7491RS/11/Instruction_Manual/EN/N531890_DWE7491rs.pdf",
+          "title": "DEWALT DWE7491RS Type 11 instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "current operating and maintenance manual"
+        },
+        {
           "url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
           "title": "DEWALT DWE7491RS official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "identity"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dewalt/comments/1ilj1dt/do_not_purchase_the_dwe7491_table_saw/",
+          "title": "Seven-year DWE7491RS owner report and fence tradeoff",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-18",
+          "purpose": "long-term exact-model owner evidence"
         },
         {
           "url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
@@ -2796,10 +2810,38 @@
           "purpose": "parts"
         },
         {
+          "url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_1",
+          "title": "DEWALT ServiceNet DWE7491RS Type 1 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "type-specific parts status"
+        },
+        {
+          "url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_10",
+          "title": "DEWALT ServiceNet DWE7491RS Type 10 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "type-specific parts status"
+        },
+        {
+          "url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_11",
+          "title": "DEWALT ServiceNet DWE7491RS Type 11 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "type-specific parts status"
+        },
+        {
+          "url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_2",
+          "title": "DEWALT ServiceNet DWE7491RS Type 2 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "type-specific parts status"
+        },
+        {
           "url": "https://www.dewalt.com/en-us/support/warranty",
           "title": "DEWALT warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-18",
           "purpose": "warranty"
         }
       ],
@@ -2810,9 +2852,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         },
         {
           "name": "expected_service_life",
@@ -2820,49 +2862,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         },
         {
           "name": "identity",
-          "raw_value": "10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity",
-          "display_value": "10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity",
+          "raw_value": "DWE7491RS is a corded 10-inch jobsite table saw package with a rolling stand, 15-amp motor, rack-and-pinion fence, and 32-1/2-inch rip capacity.",
+          "display_value": "Corded 10-inch jobsite table saw with rolling stand and 32-1/2-inch rip capacity.",
           "evidence_tier": "T2",
           "source_url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: manufacturer exploded diagram and ServiceNet support are linked.",
-          "display_value": "Partial: manufacturer exploded diagram and ServiceNet support are linked.",
+          "raw_value": "DEWALT ServiceNet publishes type-specific DWE7491RS catalogs. Types 10 and 11 are marked live, while Types 1, 2, and 3 are marked discontinued; individual component availability varies and owners must match the type number.",
+          "display_value": "Partial: type-specific ServiceNet catalogs are available, with Types 10 and 11 marked live and older types discontinued.",
           "evidence_tier": "T2",
-          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Exploded_Diagram/EN/EA024890.gif",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_11",
+          "verified_date": "2026-09-18",
+          "reverify_days": 90,
+          "stale_after": "2026-12-17"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "DEWALT publishes a current Type 11 instruction manual with setup, alignment, operation, cleaning, lubrication, maintenance, and safety procedures. It routes repairs to DEWALT factory or authorized service centers and is not an owner-repair manual.",
+          "display_value": "Official Type 11 operating and maintenance manual is available; it is not an owner-repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
-          "verified_date": "2026-08-25",
+          "source_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DWE7491RS/11/Instruction_Manual/EN/N531890_DWE7491rs.pdf",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The Type 11 manual documents owner procedures for fence alignment, dust-system cleanup, and periodic cleaning and lubrication of the height-adjustment screw. It directs repairs, maintenance, and adjustment beyond those procedures to DEWALT factory or authorized service centers.",
+          "display_value": "User-serviceable for documented fence alignment, dust cleanup, and height-adjustment screw maintenance; repairs are routed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DWE7491RS/11/Instruction_Manual/EN/N531890_DWE7491rs.pdf",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         },
         {
           "name": "street_price",
@@ -2870,19 +2912,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-18",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-18"
         },
         {
           "name": "warranty",
-          "raw_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
-          "display_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "raw_value": "The exact product page lists a 3-year limited warranty, 1-year free service, and 90-day satisfaction guarantee; current DEWALT policy controls eligibility, exclusions, and proof requirements.",
+          "display_value": "3-year limited warranty, 1-year free service, and 90-day satisfaction guarantee; current DEWALT terms apply.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/en-us/support/warranty",
-          "verified_date": "2026-08-25",
+          "source_url": "https://www.dewalt.com/en-us/product/dwe7491rs/10-jobsite-table-saw-and-rolling-stand",
+          "verified_date": "2026-09-18",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-17"
         }
       ],
       "affiliate_links": [
@@ -2890,21 +2932,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00F2CGXGG?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-09-18"
         }
       ],
       "repairability": {
         "product_id": 6,
         "parts_availability": "partial",
-        "parts_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Exploded_Diagram/EN/EA024890.gif",
-        "repair_manual_available": 1,
-        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DWE7491RS/2/Instruction_Manual/EN/N376167_DWE7490.pdf",
-        "serviceability": "not-yet-verified",
+        "parts_url": "https://www.toolservicenet.com/dewalt/en//Dewalt/WOODWORKING/UNIVERSAL-SAWS/10IN-JOBSITE-TABLE-SAW-WITH-32-1-2IN/p/DWE7491RS_11",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DWE7491RS/11/Instruction_Manual/EN/N531890_DWE7491rs.pdf",
+        "serviceability": "user-serviceable",
         "ifixit_score": null,
-        "source_id": 52,
-        "verified_date": "2026-08-25"
+        "source_id": 89,
+        "verified_date": "2026-09-18"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "3-year limited warranty; 1-year free service; 90-day satisfaction guarantee.",
+        "warranty_coverage": "The exact product page lists all three support periods; the general policy defines current coverage and claim requirements.",
+        "warranty_exclusions": "Normal wear, tool abuse, unauthorized-seller limits, and attempted unauthorized repairs are subject to the current DEWALT policy.",
+        "source_url": "https://www.dewalt.com/en-us/support/warranty",
+        "verified_date": "2026-09-18"
+      },
       "cost_per_year": null
     },
     {
@@ -3480,14 +3528,6 @@
       "is_stale": false
     },
     {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": false
-    },
-    {
       "slug": "fein-turbo-i",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -3592,6 +3632,22 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "street_price",
+      "verified_date": "2026-09-18",
+      "reverify_days": 30,
+      "stale_after": "2026-10-18",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-18",
+      "reverify_days": 90,
+      "stale_after": "2026-12-17",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -3961,62 +4017,6 @@
     },
     {
       "slug": "dewalt-dcw600b",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dwe7491rs",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -4765,6 +4765,54 @@
       "verified_date": "2026-09-16",
       "reverify_days": 180,
       "stale_after": "2027-03-15",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "identity",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dwe7491rs",
+      "field_name": "warranty",
+      "verified_date": "2026-09-18",
+      "reverify_days": 180,
+      "stale_after": "2027-03-17",
       "is_stale": false
     }
   ]
