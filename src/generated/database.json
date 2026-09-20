@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "a031ef409d89b02d28b6137baa46784692b20d5b46d144457eb271bc766106be",
-  "generated_at": "2026-09-19T00:00:00.000Z",
+  "database_sha256": "b0fc3175540a0d276fa4157906784cee864d246b0225c65a58ad04f2027d31b8",
+  "generated_at": "2026-09-20T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -3332,10 +3332,10 @@
       "sku": "PCS31230-TGP236",
       "category": "table-saws",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "PCS31230 identifies the 3 HP, single-phase, 230V saw body; TGP236 identifies the 36-inch Professional T-Glide fence, rails, and extension-table package. Evidence must match both boundaries when package-specific.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports exact-model maintenance, exploded parts lists, model-compatible replacement components, and a current two-year new-product warranty. A manufacturer-independent owner reports several years with a PCS and continued overall satisfaction while also describing dado-setup interference and other annoyances. That PCS-family anecdote does not independently verify the exact TGP236 rail package, use intensity, or representative durability, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -3344,37 +3344,58 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-20",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.sawstop.com/product/main-power-cable-pcs31230-pcs175-and-230v-cns",
+          "title": "SawStop PCS31230 main power cable",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-20",
+          "purpose": "PCS31230-compatible replacement component"
+        },
+        {
           "url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",
           "title": "SawStop PCS31230-TGP236 official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-20",
           "purpose": "identity"
         },
         {
           "url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
           "title": "SawStop PCS31230-TGP236 official manual or downloads",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-20",
           "purpose": "manual"
+        },
+        {
+          "url": "https://www.sawstop.com/product/pcs-double-pulley-assembly",
+          "title": "SawStop PCS double pulley assembly",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-20",
+          "purpose": "model-compatible replacement component"
         },
         {
           "url": "https://www.sawstop.com/product-category/parts/pcs",
           "title": "SawStop PCS replacement-parts storefront",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-20",
           "purpose": "parts"
+        },
+        {
+          "url": "https://lumberjocks.com/threads/my-thoughts-on-the-sawstop-professional-table-saw.323061/page-2",
+          "title": "Several-year SawStop PCS owner report and setup tradeoffs",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-20",
+          "purpose": "qualified long-term PCS-family owner evidence"
         },
         {
           "url": "https://www.sawstop.com/support/warranty-information/",
           "title": "SawStop warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-20",
           "purpose": "warranty"
         }
       ],
@@ -3385,9 +3406,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         },
         {
           "name": "expected_service_life",
@@ -3395,49 +3416,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         },
         {
           "name": "identity",
-          "raw_value": "10-inch Professional Cabinet Saw, 3 HP, 36-inch T-Glide fence system",
-          "display_value": "10-inch Professional Cabinet Saw, 3 HP, 36-inch T-Glide fence system",
+          "raw_value": "PCS31230-TGP236 is the 3 HP, single-phase, 230V Professional Cabinet Saw package with a 36-inch Professional T-Glide fence system, rails, and extension table.",
+          "display_value": "3 HP, 230V Professional Cabinet Saw with 36-inch Professional T-Glide fence package.",
           "evidence_tier": "T2",
           "source_url": "https://www.sawstop.com/product/professional-cabinet-saw-pcs31230-tgp236",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: manufacturer PCS replacement-parts storefront and support manuals are linked.",
-          "display_value": "Partial: manufacturer PCS replacement-parts storefront and support manuals are linked.",
+          "raw_value": "The official PCS31230 manual contains cabinet, internal, arbor, blade-guard, and miter-gauge exploded views and parts lists. SawStop also publishes purchasable PCS-compatible components, including the PCS-WA-039 double pulley assembly and PCS-059 230V main power cable; complete current inventory was not verified.",
+          "display_value": "Partial: official exploded parts lists and model-compatible replacement components are published; complete inventory is not verified.",
           "evidence_tier": "T2",
-          "source_url": "https://www.sawstop.com/product-category/parts/pcs",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
+          "verified_date": "2026-09-20",
+          "reverify_days": 90,
+          "stale_after": "2026-12-19"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "SawStop publishes an exact PCS31230 owner manual covering operation, adjustment, troubleshooting, maintenance, exploded views, and parts lists. It is not a comprehensive owner-repair manual.",
+          "display_value": "Official owner operating and maintenance manual is available; it is not a comprehensive repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The exact-model manual documents owner procedures for brake-cartridge replacement and inspection, blade and table alignment, belt-tension and gearing adjustments, cabinet cleaning, rust prevention, and lubrication. Exploded parts lists support diagnosis, but the manual does not document every component repair.",
+          "display_value": "User-serviceable for brake cartridge work, alignment, belt tension, cleaning, and lubrication; comprehensive repairs are not documented.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         },
         {
           "name": "street_price",
@@ -3445,19 +3466,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-20"
         },
         {
           "name": "warranty",
-          "raw_value": "Two-year limited warranty for a new Professional Cabinet Saw purchased from an authorized distributor.",
-          "display_value": "Two-year limited warranty for a new Professional Cabinet Saw purchased from an authorized distributor.",
+          "raw_value": "SawStop warrants a new Professional Cabinet Saw bought by the original retail purchaser from an authorized distributor against defects in material or workmanship for two years; refurbished saws receive one year. Current exclusions and claim terms apply.",
+          "display_value": "2 years new or 1 year refurbished for the original retail purchaser; current SawStop terms apply.",
           "evidence_tier": "T2",
           "source_url": "https://www.sawstop.com/support/warranty-information/",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-20",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-19"
         }
       ],
       "affiliate_links": [
@@ -3465,21 +3486,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B009C7NGTE?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-09-20"
         }
       ],
       "repairability": {
         "product_id": 5,
         "parts_availability": "partial",
         "parts_url": "https://www.sawstop.com/product-category/parts/pcs",
-        "repair_manual_available": 1,
+        "repair_manual_available": 0,
         "repair_manual_url": "https://www.sawstop.com/wp-content/uploads/2021/10/Owners-Manual_Feb-2024.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "user-serviceable",
         "ifixit_score": null,
-        "source_id": 50,
-        "verified_date": "2026-08-25"
+        "source_id": 13,
+        "verified_date": "2026-09-20"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "2 years new; 1 year refurbished.",
+        "warranty_coverage": "Defects in material or workmanship for the original retail purchaser of a Professional Cabinet Saw purchased from an authorized SawStop distributor.",
+        "warranty_exclusions": "Misuse, abuse, negligence, accidents, normal wear and tear, unauthorized repair or alteration, and lack of maintenance are excluded; current SawStop terms apply.",
+        "source_url": "https://www.sawstop.com/support/warranty-information/",
+        "verified_date": "2026-09-20"
+      },
       "cost_per_year": null
     }
   ],
@@ -3589,14 +3616,6 @@
       "is_stale": false
     },
     {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": false
-    },
-    {
       "slug": "estwing-b3-3lb",
       "field_name": "street_price",
       "verified_date": "2026-09-08",
@@ -3653,6 +3672,14 @@
       "is_stale": false
     },
     {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "street_price",
+      "verified_date": "2026-09-20",
+      "reverify_days": 30,
+      "stale_after": "2026-10-20",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -3669,6 +3696,14 @@
       "is_stale": false
     },
     {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-20",
+      "reverify_days": 90,
+      "stale_after": "2026-12-19",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -4374,62 +4409,6 @@
     },
     {
       "slug": "milwaukee-2904-20",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "sawstop-pcs31230-tgp236",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -4826,6 +4805,54 @@
       "verified_date": "2026-09-19",
       "reverify_days": 180,
       "stale_after": "2027-03-18",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "identity",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-pcs31230-tgp236",
+      "field_name": "warranty",
+      "verified_date": "2026-09-20",
+      "reverify_days": 180,
+      "stale_after": "2027-03-19",
       "is_stale": false
     }
   ]
