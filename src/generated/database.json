@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "b0fc3175540a0d276fa4157906784cee864d246b0225c65a58ad04f2027d31b8",
-  "generated_at": "2026-09-20T00:00:00.000Z",
+  "database_sha256": "5a586a72c6758b3527959770b1b4476939b7337cdd7b3424c64c570cda7d2d27",
+  "generated_at": "2026-09-21T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -176,10 +176,10 @@
       "sku": "MAC210Q",
       "category": "air-compressors",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "MAC210Q identifies the U.S. 120V, 1 HP, 2-gallon oil-free Quiet Series compressor package with one 1/4-inch universal quick coupler. Evidence for other voltages or renewed MAC210Q-R condition is qualified separately.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact 120V package, a current component-level parts breakdown, routine owner maintenance, authorized service, and a one-year general-product warranty. One exact-model owner reports driving close to 3,500 framing nails while finishing a basement and successful trim-nailer use; a separate renewed-unit owner reports repeated use and correct operation after about one year. Those reports do not establish representative multi-year durability for a new MAC210Q, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -188,37 +188,65 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-21",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.makita.ca/data/upload/parts_breakdown/MAC210Q%20-%20JUN2025.pdf",
+          "title": "Makita MAC210Q May 2025 parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-21",
+          "purpose": "current exact-model component parts breakdown"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/79423a15-98e1-4185-b52b-d513cfbf30ec_MAC100Q_IM.pdf",
+          "title": "Makita Quiet Series MAC100Q/MAC210Q/MAC320Q instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-21",
+          "purpose": "exact-model operating and maintenance manual"
+        },
+        {
           "url": "https://www.makitatools.com/products/details/MAC210Q",
           "title": "Makita MAC210Q official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "identity"
         },
         {
           "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
-          "title": "Makita MAC210Q official manual or downloads",
+          "title": "Makita MAC210Q new-tool overview",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "manual"
         },
         {
           "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
           "title": "Makita parts or service support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "parts"
+        },
+        {
+          "url": "https://www.reddit.com/r/Makita/comments/17deniq/choosing_between_compressors",
+          "title": "Exact-model MAC210Q owner workload report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-21",
+          "purpose": "qualified exact-model owner workload evidence"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B08GYFBQV1",
+          "title": "Renewed MAC210Q owner report after about one year",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-21",
+          "purpose": "qualified one-year renewed-unit owner evidence"
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "warranty"
         }
       ],
@@ -229,9 +257,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         },
         {
           "name": "expected_service_life",
@@ -239,49 +267,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         },
         {
           "name": "identity",
-          "raw_value": "Quiet Series 1 HP, 2-gallon, oil-free electric air compressor; manufacturer lists 60 dB and 135 PSI maximum pressure",
-          "display_value": "Quiet Series 1 HP, 2-gallon, oil-free electric air compressor; manufacturer lists 60 dB and 135 PSI maximum pressure",
+          "raw_value": "MAC210Q is the U.S. 120V Quiet Series compressor with a 1 HP induction motor, 2-gallon oil-free dual-piston pump, 2 CFM at 90 PSI, 135 PSI maximum pressure, and one included 1/4-inch universal quick coupler.",
+          "display_value": "120V, 1 HP, 2-gallon oil-free compressor rated at 2 CFM at 90 PSI with one quick coupler.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/products/details/MAC210Q",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Makita publishes a May 2025 exact-model breakdown identifying replaceable assemblies and components including the motor assembly, reed-valve head, piston ring, air-filter set, check valve, switch, capacitor, tank, safety valve, regulator, gauges, coupler, and drain valve. The document is a parts list, not proof that every component is currently orderable.",
+          "display_value": "Partial: a May 2025 exact-model parts breakdown identifies component part numbers; current orderability is not verified.",
           "evidence_tier": "T2",
-          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://www.makita.ca/data/upload/parts_breakdown/MAC210Q%20-%20JUN2025.pdf",
+          "verified_date": "2026-09-21",
+          "reverify_days": 90,
+          "stale_after": "2026-12-20"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Makita publishes an exact-family instruction manual covering the MAC210Q with setup, operation, tank draining, air-filter care, safety-valve and check-valve inspection, troubleshooting, and storage. It directs abnormal operation and repairs to authorized service and is not a component-repair manual.",
+          "display_value": "Official operating and maintenance manual is available; it is not a component-repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
-          "verified_date": "2026-08-25",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/79423a15-98e1-4185-b52b-d513cfbf30ec_MAC100Q_IM.pdf",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manual documents owner procedures for draining the tank after use, keeping the air filter clean, checking the safety valve, yearly check-valve inspection, and keeping fasteners tight. Abnormal operation and other repair work are routed to Makita authorized service.",
+          "display_value": "User-serviceable for tank draining, air-filter cleaning, and safety/check-valve inspection; repairs go to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/79423a15-98e1-4185-b52b-d513cfbf30ec_MAC100Q_IM.pdf",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         },
         {
           "name": "street_price",
@@ -289,19 +317,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-21",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-21"
         },
         {
           "name": "warranty",
-          "raw_value": "See current Makita USA warranty policy for this model.",
-          "display_value": "See current Makita USA warranty policy for this model.",
+          "raw_value": "Makita covers general products against defects in workmanship and materials for one year from original purchase and may repair or replace after inspection. Current limitations, exclusions, and claim requirements apply.",
+          "display_value": "1-year general-product limited warranty from original purchase; current Makita terms apply.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/service/warranty",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-20"
         }
       ],
       "affiliate_links": [
@@ -309,21 +337,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B084GYHQFY?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-09-21"
         }
       ],
       "repairability": {
         "product_id": 15,
         "parts_availability": "partial",
-        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/e873ff0c-05fb-4bd9-91b6-d0a120917ccb_MAC210Q_PB_Breakdown_MAC210Q_05-20.pdf",
-        "repair_manual_available": 1,
-        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/4ee5e20d-9b00-4a9c-81c3-175c3d0dabb3_MAC210Q_NTFE.pdf",
-        "serviceability": "not-yet-verified",
+        "parts_url": "https://www.makita.ca/data/upload/parts_breakdown/MAC210Q%20-%20JUN2025.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/79423a15-98e1-4185-b52b-d513cfbf30ec_MAC100Q_IM.pdf",
+        "serviceability": "user-serviceable",
         "ifixit_score": null,
-        "source_id": 40,
-        "verified_date": "2026-08-25"
+        "source_id": 96,
+        "verified_date": "2026-09-21"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "1-year limited warranty.",
+        "warranty_coverage": "Defects in workmanship and materials for Makita products; Makita may repair or replace after inspection.",
+        "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-09-21"
+      },
       "cost_per_year": null
     },
     {
@@ -1021,7 +1055,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "warranty"
         }
       ],
@@ -1653,7 +1687,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "warranty"
         }
       ],
@@ -2483,7 +2517,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-09-21",
           "purpose": "warranty"
         }
       ],
@@ -3576,14 +3610,6 @@
       "is_stale": false
     },
     {
-      "slug": "makita-mac210q",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": false
-    },
-    {
       "slug": "makita-rt0701c",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -3680,6 +3706,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-mac210q",
+      "field_name": "street_price",
+      "verified_date": "2026-09-21",
+      "reverify_days": 30,
+      "stale_after": "2026-10-21",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -3704,6 +3738,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-mac210q",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-21",
+      "reverify_days": 90,
+      "stale_after": "2026-12-20",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -4129,62 +4171,6 @@
     },
     {
       "slug": "festool-ct-26-ei-hepa",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-mac210q",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -4853,6 +4839,54 @@
       "verified_date": "2026-09-20",
       "reverify_days": 180,
       "stale_after": "2027-03-19",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "identity",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac210q",
+      "field_name": "warranty",
+      "verified_date": "2026-09-21",
+      "reverify_days": 180,
+      "stale_after": "2027-03-20",
       "is_stale": false
     }
   ]
