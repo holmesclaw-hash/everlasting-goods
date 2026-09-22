@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-09-21T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-09-22T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -92,7 +92,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "makita-mac210q"
+      product.slug === "dewalt-dcd800d1e1"
+        ? "2026-09-22"
+      : product.slug === "makita-mac210q"
         ? "2026-09-21"
       : product.slug === "sawstop-pcs31230-tgp236"
         ? "2026-09-20"
