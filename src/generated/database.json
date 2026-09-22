@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "37afe65e81e3157e347d65fd63d56c3b2edc01a079ccc235e48f31a08057a47c",
+  "database_sha256": "cf179377debbee7870f3adc14a6cb712988a962c6590e197e1fa133631128842",
   "generated_at": "2026-09-22T00:00:00.000Z",
   "products": [
     {
@@ -980,8 +980,8 @@
         },
         {
           "name": "identity",
-          "raw_value": "DCD800D1E1 is the 20V MAX XR brushless 1/2-inch drill/driver kit containing one DCD800 drill/driver, one DCBP034 POWERSTACK battery, one DCB203 2Ah battery, one DCB112 charger, one kit bag, and one belt hook.",
-          "display_value": "DCD800D1E1 drill/driver kit with two batteries, charger, bag, and belt hook.",
+          "raw_value": "DCD800D1E1 is the 20V MAX XR brushless 1/2-inch drill/driver kit containing one DCD800 drill/driver, one DCBP034 POWERSTACK battery, one DCB203 2Ah battery, one DCB112 charger, one kit bag, and one belt hook. No impact driver is included.",
+          "display_value": "DCD800D1E1 drill/driver kit with two batteries, charger, bag, and belt hook; no impact driver is included.",
           "evidence_tier": "T2",
           "source_url": "https://www.dewalt.com/en-us/product/dcd800d1e1/20v-max-xr-brushless-cordless-12-drilldriver-kit",
           "verified_date": "2026-09-22",

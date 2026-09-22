@@ -36,7 +36,7 @@ test("the DEWALT DCD800D1E1 record separates the exact kit from a misleading ret
   ]) assert.ok(sourceUrls.has(url), `${slug} missing ${url}`);
 
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
-  assert.match(fields.identity.display_value, /DCD800D1E1.*drill\/driver kit.*two batteries.*charger/i);
+  assert.match(fields.identity.display_value, /DCD800D1E1.*drill\/driver kit.*two batteries.*charger.*no impact driver/i);
   assert.match(fields.parts_availability.display_value, /partial.*Type 1.*exploded diagram.*orderability.*not verified/i);
   assert.match(fields.repair_manual.display_value, /operating and maintenance manual.*not.*repair manual/i);
   assert.match(fields.serviceability.display_value, /air-vent cleaning.*repairs.*factory or authorized service/i);
