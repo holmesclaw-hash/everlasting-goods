@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "cf179377debbee7870f3adc14a6cb712988a962c6590e197e1fa133631128842",
-  "generated_at": "2026-09-22T00:00:00.000Z",
+  "database_sha256": "f657b248cd8de90d50dd78b962ec6008d5788fc1cbb40ca4122efcca7b0ee462",
+  "generated_at": "2026-09-23T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -2530,6 +2530,191 @@
       "cost_per_year": null
     },
     {
+      "id": 22,
+      "slug": "makita-rf1101",
+      "brand": "Makita",
+      "model": "RF1101",
+      "sku": "RF1101",
+      "category": "routers",
+      "category_group": "tools-shop",
+      "variant_notes": "Standalone fixed-base package with RF1101 motor, 1/4-inch and 1/2-inch collets, and wrench. It is not RF1101KIT2, the separate kit that adds a plunge base. The product page also contains a conflicting Base: Plunge specification line, so that line is not treated as package evidence.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Manufacturer documentation establishes exact identity, an operating manual with an owner carbon-brush procedure, an exact parts breakdown, factory and authorized service routes, and current warranty terms. Exact-model owner reports include several years without problems and a separate speed-control fault after seven years and substantial router-table use; those anecdotes do not establish representative service life, so expected lifespan and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-09-23",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-21",
+          "purpose": "current warranty terms"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/d592ab2b-3110-437b-b4b1-963239e0f331_RF1101_PB.pdf",
+          "title": "Makita RF1101 parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-23",
+          "purpose": "exact-model parts identification"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-23",
+          "purpose": "factory and authorized service path"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/RF1101",
+          "title": "Makita RF1101 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-23",
+          "purpose": "identity, package, construction, and current accessories"
+        },
+        {
+          "url": "https://www.lumberjocks.com/threads/makita-router-question-rf1101-varible-speed.42433/",
+          "title": "Seven-year Makita RF1101 speed-control report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-23",
+          "purpose": "negative exact-model owner evidence"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/71c406df-49e6-4f04-8ffa-2fe5cf660011_RF1101_IM.pdf",
+          "title": "Makita RF1101 instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-23",
+          "purpose": "operating, maintenance, brush replacement, and safety instructions"
+        },
+        {
+          "url": "https://mimf.com/phpbb/viewtopic.php?t=2845",
+          "title": "Several-year Makita RF1101 owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-23",
+          "purpose": "positive exact-model owner evidence"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "identity",
+          "raw_value": "RF1101 is a corded fixed-base router with an 11-amp motor, 2-1/4 maximum horsepower, variable speed from 8,000 to 24,000 RPM, aluminum motor housing, all-ball-bearing construction, and 1/4-inch and 1/2-inch collet capacity.",
+          "display_value": "Corded fixed-base 2-1/4 HP maximum router with 8,000–24,000 RPM variable speed and 1/4-inch and 1/2-inch collets.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/RF1101",
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes an exact RF1101 parts breakdown with identifiers for the controller, switch, armature, bearings, carbon brushes, collets, base components, cord, and hardware. The current product page links several compatible accessories, but individual repair-part orderability was not verified.",
+          "display_value": "Partial: exact RF1101 parts breakdown is published, but individual repair-part orderability is not verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/d592ab2b-3110-437b-b4b1-963239e0f331_RF1101_PB.pdf",
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Makita publishes an operating and safety manual that documents inspection and replacement of both externally accessible carbon brushes. It directs all other repairs, maintenance, or adjustment to Makita Authorized or Factory Service Centers and is not a full owner-repair manual.",
+          "display_value": "Official operating manual documents carbon-brush replacement; it is not a full owner-repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/71c406df-49e6-4f04-8ffa-2fe5cf660011_RF1101_IM.pdf",
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The manual gives an owner procedure for replacing both carbon brushes. It reserves all other repairs, maintenance, and adjustments for Makita Authorized or Factory Service Centers, and Makita maintains current factory and authorized service routes.",
+          "display_value": "User-serviceable for documented carbon-brush replacement; deeper work is directed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/71c406df-49e6-4f04-8ffa-2fe5cf660011_RF1101_IM.pdf",
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-23",
+          "reverify_days": 30,
+          "stale_after": "2026-10-23"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "The exact product page displays Makita 1 Year-30 Day Warranty; the current general policy provides a one-year limited warranty against defects in workmanship and materials and a 30-day return or replacement guarantee, subject to published limitations.",
+          "display_value": "1-year general product limited warranty and 30-day return or replacement guarantee; current Makita terms apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-09-23",
+          "reverify_days": 180,
+          "stale_after": "2027-03-22"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00004YN3N?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-23"
+        }
+      ],
+      "repairability": {
+        "product_id": 22,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/d592ab2b-3110-437b-b4b1-963239e0f331_RF1101_PB.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/71c406df-49e6-4f04-8ffa-2fe5cf660011_RF1101_IM.pdf",
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 109,
+        "verified_date": "2026-09-23"
+      },
+      "warranty": {
+        "warranty_length": "1-year general product limited warranty; 30-day return or replacement guarantee.",
+        "warranty_coverage": "Defects in workmanship and materials during the one-year period, with repair or replacement after inspection through a Makita Factory or Authorized Service Center.",
+        "warranty_exclusions": "Published exclusions include attempted third-party repair, normal wear, abuse, misuse, improper maintenance, and alteration; current terms and jurisdictional rights control.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-09-23"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 8,
       "slug": "makita-rt0701c",
       "brand": "Makita",
@@ -3776,6 +3961,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-rf1101",
+      "field_name": "street_price",
+      "verified_date": "2026-09-23",
+      "reverify_days": 30,
+      "stale_after": "2026-10-23",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -4949,6 +5142,62 @@
       "verified_date": "2026-09-22",
       "reverify_days": 180,
       "stale_after": "2027-03-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "identity",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rf1101",
+      "field_name": "warranty",
+      "verified_date": "2026-09-23",
+      "reverify_days": 180,
+      "stale_after": "2027-03-22",
       "is_stale": false
     }
   ]

@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-09-22T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-09-23T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -82,6 +82,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "sawstop-pcs31230-tgp236": "B009C7NGTE",
     "bosch-gsr18v-800cn": "B0CRMB2TPF",
     "dewalt-dwp611": "B0048EFUV8",
+    "makita-rf1101": "B00004YN3N",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -92,7 +93,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "dewalt-dcd800d1e1"
+      product.slug === "makita-rf1101"
+        ? "2026-09-23"
+      : product.slug === "dewalt-dcd800d1e1"
         ? "2026-09-22"
       : product.slug === "makita-mac210q"
         ? "2026-09-21"
@@ -131,6 +134,7 @@ test("manufacturer research is reconciled to exact manuals and parts catalogs", 
     "bosch-gsr18v-535fcb15": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110"],
     "bosch-gsr18v-800cn": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o256028v2_2610070413_GSR18V800C_202308.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-800cn-3601JK6010"],
     "dewalt-dwp611": ["https://assets.dewalt.com/GLOBALBOM/QU/DWP611/1/Instruction_Manual/EN/N336740_DWP611.pdf", "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/ROUTERS/PREMIUM-COMPACT-ROUTER/p/DWP611"],
+    "makita-rf1101": ["https://cdn.makitatools.com/apps/cms/doc/prod/RF1/71c406df-49e6-4f04-8ffa-2fe5cf660011_RF1101_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RF1/d592ab2b-3110-437b-b4b1-963239e0f331_RF1101_PB.pdf"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
   };

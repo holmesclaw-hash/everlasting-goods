@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 21,
+  "current_published_records": 22,
   "target_total_records": 100,
-  "candidate_count": 80,
+  "candidate_count": 79,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -288,20 +288,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "RF1101",
-      "sku": "RF1101",
-      "category": "routers",
-      "official_product_url": "https://www.makitatools.com/products/details/RF1101",
-      "evidence_urls": [
-        "https://www.makitatools.com/service/warranty"
-      ],
-      "reason": "The official Makita product page identifies this exact router model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Bosch",
       "model": "MRC23EVSK",
