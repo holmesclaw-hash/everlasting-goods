@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "fe9f8a40948b3640c4e5117c32099f1b420cf1844ea14869292f1a41f6d801cc",
+  "database_sha256": "76f37b944182682b52a24b30fde1f8b86d67762158dce3dc209ffedcd2fec70d",
   "generated_at": "2026-09-24T00:00:00.000Z",
   "products": [
     {
@@ -244,9 +244,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita warranty policy",
+          "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-21",
+          "retrieved_date": "2026-09-24",
           "purpose": "warranty"
         }
       ],
@@ -1115,9 +1115,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita warranty policy",
+          "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-21",
+          "retrieved_date": "2026-09-24",
           "purpose": "warranty"
         }
       ],
@@ -1747,9 +1747,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita warranty policy",
+          "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-21",
+          "retrieved_date": "2026-09-24",
           "purpose": "warranty"
         }
       ],
@@ -1855,6 +1855,184 @@
         "verified_date": "2026-08-25"
       },
       "warranty": null,
+      "cost_per_year": null
+    },
+    {
+      "id": 24,
+      "slug": "makita-xcv11z",
+      "brand": "Makita",
+      "model": "XCV11Z",
+      "sku": "XCV11Z",
+      "category": "dust-extractors",
+      "category_group": "tools-shop",
+      "variant_notes": "Standalone XCV11Z tool-only package with flexible hose, wide nozzle, crevice nozzle, HEPA filter, and pre-filter. Battery, charger, and shoulder strap are not included. Evidence from the XCV11T two-battery kit and ADCV11Z Outdoor Adventure variant is not transferred to this record.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Makita documentation establishes exact tool-only identity, owner filter and tank maintenance, an exact parts breakdown with numbered components, factory and authorized service routes, and a three-year lithium-ion tool warranty. Exact-model owner reports conflict: one reports six years of frequent use and useful planer collection while acknowledging limited saw extraction, another reports years of hard use without complaint, and the thread author returned the unit immediately because of poor suction. These reports are anecdotal and do not establish representative service life or performance, so expected lifespan and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-09-24",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.reddit.com/r/Makita/comments/1jhmkwv/bought_the_xcv11z_wetdry_vac_returned_it_less/",
+          "title": "Mixed exact-model Makita XCV11Z owner reports",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-24",
+          "purpose": "conflicting exact-model owner evidence including six-year use and an immediate return"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "current lithium-ion tool warranty terms"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/45b60f26-d035-407f-959f-112510220571_XCV11_PB_Breakdown_XCV11Z_01-19.pdf",
+          "title": "Makita XCV11Z parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "exact-model exploded diagrams and numbered parts list"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "factory, authorized, and direct-repair service paths"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/XCV11Z",
+          "title": "Makita XCV11Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "identity, tool-only package, included accessories, and current specifications"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/db17dbf5-e6dc-42f4-bed4-ee2ed457e129_XCV11_IM_885666A942_C6977.pdf",
+          "title": "Makita XCV11 instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "owner maintenance, filter care, operating limits, and authorized-service boundary"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "identity",
+          "raw_value": "XCV11Z is an 18V LXT brushless cordless two-gallon HEPA portable wet/dry dust extractor and vacuum sold as a tool-only package. Makita specifies 57 CFM, 27 inches of water lift, and included hose, wide nozzle, crevice nozzle, HEPA filter, and pre-filter; battery and charger are not included.",
+          "display_value": "18V LXT brushless 2-gallon HEPA portable wet/dry vacuum, tool-only, with 57 CFM and 27-inch water lift.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/XCV11Z",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes an exact XCV11Z parts breakdown with part numbers for the switch, controller, stator, rotor, fan, seals, filter, tank, hose, and nozzles. The current product page identifies filter and accessory part numbers, but individual internal repair-part orderability was not verified.",
+          "display_value": "Partial: exact XCV11Z parts breakdown and part numbers are published, but individual repair-part orderability is not verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/45b60f26-d035-407f-959f-112510220571_XCV11_PB_Breakdown_XCV11Z_01-19.pdf",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Makita publishes an exact XCV11 operating, safety, and maintenance manual. It documents tank emptying and HEPA filter removal, cleaning, washing, drying, and replacement, but directs repairs and other maintenance or adjustment to Makita Authorized or Factory Service Centers and is not an owner-repair manual.",
+          "display_value": "Official operating and maintenance manual is available; it is not an owner-repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/db17dbf5-e6dc-42f4-bed4-ee2ed457e129_XCV11_IM_885666A942_C6977.pdf",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The manual documents owner tank emptying and HEPA filter cleaning and replacement. It directs internal repair and other maintenance or adjustment to Makita Authorized or Factory Service Centers, and Makita maintains current factory, authorized, and direct-repair routes.",
+          "display_value": "Owner maintenance covers the tank and filters; internal repair is directed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/db17dbf5-e6dc-42f4-bed4-ee2ed457e129_XCV11_IM_885666A942_C6977.pdf",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 30,
+          "stale_after": "2026-10-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Makita classifies XCV11Z as a lithium-ion tool and currently warrants lithium-ion tools against defects in workmanship and materials for three years from original purchase, subject to published limitations and exclusions.",
+          "display_value": "3-year limited warranty for Makita lithium-ion tools; current Makita terms apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07M8JTDNS?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-24"
+        }
+      ],
+      "repairability": {
+        "product_id": 24,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/45b60f26-d035-407f-959f-112510220571_XCV11_PB_Breakdown_XCV11Z_01-19.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/db17dbf5-e6dc-42f4-bed4-ee2ed457e129_XCV11_IM_885666A942_C6977.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 121,
+        "verified_date": "2026-09-24"
+      },
+      "warranty": {
+        "warranty_length": "3-year limited warranty for Makita lithium-ion tools.",
+        "warranty_coverage": "Repair or replacement after inspection when trouble during the three-year period is caused by defective workmanship or material.",
+        "warranty_exclusions": "Published exclusions include third-party repair attempts, normal wear, abuse, misuse, improper maintenance, non-genuine batteries, and alteration; current terms and jurisdictional rights control.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-09-24"
+      },
       "cost_per_year": null
     },
     {
@@ -2741,9 +2919,9 @@
       "sources": [
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita warranty policy",
+          "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-21",
+          "retrieved_date": "2026-09-24",
           "purpose": "current warranty terms"
         },
         {
@@ -2757,7 +2935,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-23",
+          "retrieved_date": "2026-09-24",
           "purpose": "factory and authorized service path"
         },
         {
@@ -2947,9 +3125,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita warranty policy",
+          "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-21",
+          "retrieved_date": "2026-09-24",
           "purpose": "warranty"
         }
       ],
@@ -4155,6 +4333,14 @@
     },
     {
       "slug": "bosch-pr20evs",
+      "field_name": "street_price",
+      "verified_date": "2026-09-24",
+      "reverify_days": 30,
+      "stale_after": "2026-10-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
       "field_name": "street_price",
       "verified_date": "2026-09-24",
       "reverify_days": 30,
@@ -5443,6 +5629,62 @@
     },
     {
       "slug": "bosch-pr20evs",
+      "field_name": "warranty",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "identity",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv11z",
       "field_name": "warranty",
       "verified_date": "2026-09-24",
       "reverify_days": 180,

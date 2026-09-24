@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 23,
+  "current_published_records": 24,
   "target_total_records": 100,
-  "candidate_count": 78,
+  "candidate_count": 77,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -515,20 +515,7 @@
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
 
-    {
-      "brand": "Makita",
-      "model": "18V LXT Brushless 2 Gallon HEPA Filter Portable Wet/Dry Dust Extractor/Vacuum, Tool Only",
-      "sku": "XCV11Z",
-      "category": "dust extractor",
-      "official_product_url": "https://www.makitatools.com/products/details/XCV11Z",
-      "evidence_urls": [
-        "https://www.makitatools.com/warranty"
-      ],
-      "reason": "Makita's model-specific product page identifies XCV11Z as a portable HEPA wet/dry dust extractor, and Makita publishes manufacturer warranty support for its products.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "36V (18V X2) LXT/Corded 2.1 Gallon HEPA Filter Dry Dust Extractor/Vacuum, Tool Only",
