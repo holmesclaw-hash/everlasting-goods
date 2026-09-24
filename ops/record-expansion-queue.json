@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 22,
+  "current_published_records": 23,
   "target_total_records": 100,
-  "candidate_count": 79,
+  "candidate_count": 78,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -295,20 +295,6 @@
       "sku": "0601624012",
       "category": "routers",
       "official_product_url": "https://www.boschtools.com/us/en/products/mrc23evsk-0601624012",
-      "evidence_urls": [
-        "https://www.boschtools.com/us/en/service/product-warranty"
-      ],
-      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Bosch",
-      "model": "PR20EVS",
-      "sku": "060160A71A",
-      "category": "routers",
-      "official_product_url": "https://www.boschtools.com/us/en/products/pr20evs-060160A71A",
       "evidence_urls": [
         "https://www.boschtools.com/us/en/service/product-warranty"
       ],
