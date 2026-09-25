@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 24,
+  "current_published_records": 25,
   "target_total_records": 100,
-  "candidate_count": 77,
+  "candidate_count": 76,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -309,20 +309,6 @@
       "sku": "0601617763",
       "category": "routers",
       "official_product_url": "https://www.boschtools.com/us/en/products/1617evs-0601617763",
-      "evidence_urls": [
-        "https://www.boschtools.com/us/en/service/product-warranty"
-      ],
-      "reason": "The official Bosch product page identifies this exact router model/SKU, and the official Bosch warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Bosch",
-      "model": "GKF125CEN",
-      "sku": "0601628010",
-      "category": "routers",
-      "official_product_url": "https://www.boschtools.com/us/en/products/gkf125cen-0601628010",
       "evidence_urls": [
         "https://www.boschtools.com/us/en/service/product-warranty"
       ],

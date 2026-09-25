@@ -6,9 +6,9 @@ const queueUrl = new URL("../ops/record-expansion-queue.json", import.meta.url);
 
 test("record expansion queue reaches the 100-record planning target without publishing unverified candidates", async () => {
   const queue = JSON.parse(await readFile(queueUrl, "utf8"));
-  assert.equal(queue.current_published_records, 24);
+  assert.equal(queue.current_published_records, 25);
   assert.equal(queue.target_total_records, 100);
-  assert.equal(queue.candidates.length, 77);
+  assert.equal(queue.candidates.length, 76);
   assert.ok(queue.current_published_records + queue.candidates.length >= queue.target_total_records);
   assert.equal(
     queue.candidates.some((candidate) => candidate.model === "GSR18V-800CN"),
@@ -34,6 +34,11 @@ test("record expansion queue reaches the 100-record planning target without publ
     queue.candidates.some((candidate) => candidate.sku === "XCV11Z"),
     false,
     "published XCV11Z must leave the research queue",
+  );
+  assert.equal(
+    queue.candidates.some((candidate) => candidate.sku === "0601628010"),
+    false,
+    "published GKF125CEN must leave the research queue",
   );
 
   const identities = new Set();

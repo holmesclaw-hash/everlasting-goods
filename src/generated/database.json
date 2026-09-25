@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "76f37b944182682b52a24b30fde1f8b86d67762158dce3dc209ffedcd2fec70d",
+  "database_sha256": "88c07e0543afabb0cd717a205227bcd601a156824c744c0557529d09fff7212c",
   "generated_at": "2026-09-24T00:00:00.000Z",
   "products": [
     {
@@ -2365,6 +2365,191 @@
       "cost_per_year": null
     },
     {
+      "id": 25,
+      "slug": "bosch-gkf125cen",
+      "brand": "Bosch",
+      "model": "GKF125CEN",
+      "sku": "0601628010",
+      "category": "routers",
+      "category_group": "tools-shop",
+      "variant_notes": "Standalone fixed-base GKF125CEN package with GKF125CE motor, PR101 base, 1/4-inch self-releasing collet, and collet wrench. Evidence from the GKF125CEK fixed-base kit and GKF125CEPK combination kit is not transferred to this record.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Bosch documentation establishes exact identity, an official operating and maintenance manual, an exact spare-parts route keyed to service number 3601F28110, current replacement-parts support, and a one-year corded-tool warranty. One exact-model owner reports liking the router after three years; another described a very lightly used example after a few home-DIY projects. These reports are anecdotal and do not establish representative service life, so expected lifespan and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-09-24",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.boschtools.com/us/en/service/replacement-parts",
+          "title": "Bosch replacement-parts support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "current Bosch original-parts ordering path"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "title": "Bosch 18V limited warranty",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-14",
+          "purpose": "current corded portable power-tool warranty terms"
+        },
+        {
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gkf125cen-3601F28110",
+          "title": "Bosch GKF125CEN exact spare-parts route",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "exact-model spare-parts route; temporarily unavailable at retrieval"
+        },
+        {
+          "url": "https://www.boschtools.com/us/en/products/gkf125cen-0601628010",
+          "title": "Bosch GKF125CEN official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "identity, standalone package, construction, and exact service identifier"
+        },
+        {
+          "url": "https://www.reddit.com/r/Tools/comments/gwrtmo/bosch_resale_value/",
+          "title": "Light-use Bosch GKF125CEN owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-24",
+          "purpose": "light-use exact-model owner evidence without duration"
+        },
+        {
+          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o200941v2_2610052572_0918_GKF125CE.pdf",
+          "title": "Bosch GKF125CE operating and safety manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-24",
+          "purpose": "operating, collet-care, brush-inspection, bearing, and authorized-service boundaries"
+        },
+        {
+          "url": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1oucjav/router_choice/",
+          "title": "Three-year Bosch GKF125CEN owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-24",
+          "purpose": "three-year exact-model owner evidence"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "identity",
+          "raw_value": "GKF125CEN order number 0601628010 is a 120V corded fixed-base palm router with a 7.0-amp 1.25 maximum-horsepower motor, 16,000 to 35,000 RPM variable speed, aluminum PR101 base, and 1/4-inch collet.",
+          "display_value": "Corded fixed-base 1.25 HP maximum palm router with 16,000–35,000 RPM variable speed and a 1/4-inch collet.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/gkf125cen-0601628010",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Bosch links GKF125CEN service identifier 3601F28110 to an exact spare-parts route and maintains a current original replacement-parts ordering program. The exact catalog returned a maintenance page at retrieval, so individual component availability was not verified.",
+          "display_value": "Partial: exact 3601F28110 spare-parts route is linked, but the catalog was temporarily unavailable and individual component availability is unverified.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/products/gkf125cen-0601628010",
+          "verified_date": "2026-09-24",
+          "reverify_days": 90,
+          "stale_after": "2026-12-23"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Bosch publishes an exact GKF125CE-family operating, safety, and maintenance manual that names GKF125CEN in its included-accessory table. It documents collet cleaning and brush inspection but recommends that all tool service be performed by a Bosch Factory Service Center or Authorized Bosch Service Station.",
+          "display_value": "Official operating and maintenance manual is available; it is not an owner-repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o200941v2_2610052572_0918_GKF125CE.pdf",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The manual documents collet cleaning and examination of carbon brushes every two to six months. It recommends Bosch Factory or Authorized Service for tool service and immediate bearing replacement when noisy, so internal repair is not characterized as owner-serviceable.",
+          "display_value": "Shop-serviceable: owner collet care and brush inspection are documented; internal work is directed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o200941v2_2610052572_0918_GKF125CE.pdf",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-09-24",
+          "reverify_days": 30,
+          "stale_after": "2026-10-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Bosch currently warrants corded portable power tools to the original purchaser against defects in material or workmanship for one year from purchase, with repair or replacement through Bosch or an authorized service station and published exclusions.",
+          "display_value": "1-year limited warranty for Bosch corded portable power tools; current Bosch terms apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "verified_date": "2026-09-24",
+          "reverify_days": 180,
+          "stale_after": "2027-03-23"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B01AX4A95S?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-09-24"
+        }
+      ],
+      "repairability": {
+        "product_id": 25,
+        "parts_availability": "partial",
+        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gkf125cen-3601F28110",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o200941v2_2610052572_0918_GKF125CE.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 125,
+        "verified_date": "2026-09-24"
+      },
+      "warranty": {
+        "warranty_length": "1-year limited warranty for corded portable power tools.",
+        "warranty_coverage": "Repair or replacement of parts defective in material or workmanship for the original purchaser during the one-year period.",
+        "warranty_exclusions": "Published terms exclude misuse, careless handling, improper third-party repair, accessories, and consequential damages; current terms and jurisdictional rights control.",
+        "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+        "verified_date": "2026-09-24"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 23,
       "slug": "bosch-pr20evs",
       "brand": "Bosch",
@@ -4161,7 +4346,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "bosch-gsr18v-535fcb15",
@@ -4169,7 +4354,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "california-air-tools-8010",
@@ -4177,7 +4362,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd800b",
@@ -4185,7 +4370,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcw600b",
@@ -4193,7 +4378,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "fein-turbo-i",
@@ -4201,7 +4386,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "festool-ct-26-ei-hepa",
@@ -4209,7 +4394,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-rt0701c",
@@ -4217,7 +4402,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-vc4210l",
@@ -4225,7 +4410,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-xfd14z",
@@ -4233,7 +4418,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "milwaukee-2904-20",
@@ -4241,7 +4426,7 @@
       "verified_date": "2026-08-25",
       "reverify_days": 30,
       "stale_after": "2026-09-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "estwing-b3-3lb",
@@ -4332,6 +4517,14 @@
       "is_stale": false
     },
     {
+      "slug": "bosch-gkf125cen",
+      "field_name": "street_price",
+      "verified_date": "2026-09-24",
+      "reverify_days": 30,
+      "stale_after": "2026-10-24",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-pr20evs",
       "field_name": "street_price",
       "verified_date": "2026-09-24",
@@ -4385,6 +4578,14 @@
       "verified_date": "2026-09-22",
       "reverify_days": 90,
       "stale_after": "2026-12-21",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-24",
+      "reverify_days": 90,
+      "stale_after": "2026-12-23",
       "is_stale": false
     },
     {
@@ -5585,6 +5786,54 @@
       "verified_date": "2026-09-23",
       "reverify_days": 180,
       "stale_after": "2027-03-22",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "identity",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gkf125cen",
+      "field_name": "warranty",
+      "verified_date": "2026-09-24",
+      "reverify_days": 180,
+      "stale_after": "2027-03-23",
       "is_stale": false
     },
     {
