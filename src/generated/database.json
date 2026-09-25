@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "88c07e0543afabb0cd717a205227bcd601a156824c744c0557529d09fff7212c",
-  "generated_at": "2026-09-24T00:00:00.000Z",
+  "database_sha256": "5232c7098de2d015b472997c3df203b1207ab6fb762598c13cd149a94f4bef2e",
+  "generated_at": "2026-09-25T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1233,10 +1233,10 @@
       "sku": "2904-20",
       "category": "drill-drivers",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "Catalog 2904-20 is the M18 FUEL 1/2-inch Hammer Drill/Driver cordless power-tool package. Milwaukee lists one 2904-20 tool, one side handle, and one belt clip in the box; no battery or charger is listed for this catalog number.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact 2904-20 package, owner cleaning and inspection, a May 2025 component-level service-parts list, authorized repair, and a five-year limited power-tool warranty whose normal-wear exclusions specifically include chucks. One exact-model owner reports a failure after about 2.5 years followed by no-cost warranty replacement; another reports chuck wobble after a few months and an unresolved outcome after multiple service attempts; a third says a replacement chuck resolved binding. These reports are anecdotal and conflicting, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -1245,38 +1245,66 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-25",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
-          "title": "Milwaukee 2904-20 official product page",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
-        },
-        {
-          "url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-          "title": "Milwaukee 2904-20 operator manual",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
-        },
-        {
           "url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
           "title": "Milwaukee 2904-20 service parts list",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-09-25",
+          "purpose": "May 2025 exact-model service parts and assembly procedures"
         },
         {
           "url": "https://www.milwaukeetool.com/support/registration-and-warranty",
           "title": "Milwaukee warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "warranty"
+          "retrieved_date": "2026-09-25",
+          "purpose": "current Milwaukee power-tool warranty terms"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
+          "title": "Milwaukee 2904-20 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-25",
+          "purpose": "exact catalog identity, package contents, and current product documentation"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0BB854SJ8",
+          "title": "Amazon exact Milwaukee 2904-20 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-09-25",
+          "purpose": "exact-model commercial destination"
+        },
+        {
+          "url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
+          "title": "Milwaukee 2904-20 operator manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-25",
+          "purpose": "operating, owner-maintenance, inspection, warranty, and authorized-service boundaries"
+        },
+        {
+          "url": "https://www.reddit.com/r/MilwaukeeTool/comments/1su3pj4/milwaukee_5_year_warranty_is_not_a_joke/",
+          "title": "2904-20 owner report: replacement after failure under warranty",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-25",
+          "purpose": "qualified exact-model 2.5-year failure and replacement owner report"
+        },
+        {
+          "url": "https://www.reddit.com/r/MilwaukeeTool/comments/16g1f1f/",
+          "title": "2904 owner report: replacement chuck resolved binding",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-25",
+          "purpose": "qualified exact-model replacement-chuck owner report"
+        },
+        {
+          "url": "https://www.reddit.com/r/MilwaukeeTool/comments/1sa31uk/warranty_disappointment_saga/",
+          "title": "2904-20 owner report: unresolved chuck wobble after service",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-25",
+          "purpose": "qualified exact-model unresolved chuck-wobble owner report"
         }
       ],
       "fields": [
@@ -1286,9 +1314,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         },
         {
           "name": "expected_service_life",
@@ -1296,49 +1324,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         },
         {
           "name": "identity",
-          "raw_value": "M18 FUEL 1/2-inch Hammer Drill/Driver",
-          "display_value": "M18 FUEL 1/2-inch Hammer Drill/Driver",
+          "raw_value": "Catalog 2904-20 is Milwaukee’s M18 FUEL 1/2-inch Hammer Drill/Driver cordless power tool. The manufacturer lists the tool, side handle, and belt clip in the package; no battery or charger is listed.",
+          "display_value": "2904-20 M18 FUEL 1/2-inch Hammer Drill/Driver; package lists the tool, side handle, and belt clip without a battery or charger.",
           "evidence_tier": "T2",
           "source_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: manufacturer service-parts list and repair portal are linked.",
-          "display_value": "Partial: manufacturer service-parts list and repair portal are linked.",
+          "raw_value": "Milwaukee’s May 2025 exact-model service-parts list identifies the keyless chuck, gearbox, rotor, electronic, housing, side-handle, and other service assemblies, and provides chuck removal and installation procedures. The document does not prove that every listed component is currently orderable.",
+          "display_value": "Partial: a May 2025 exact-model list identifies chuck, gearbox, rotor, and electronic service parts; current individual orderability is not verified.",
           "evidence_tier": "T2",
           "source_url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "verified_date": "2026-09-25",
+          "reverify_days": 90,
+          "stale_after": "2026-12-24"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official operator manual is linked.",
-          "display_value": "Official operator manual is linked.",
+          "raw_value": "Milwaukee publishes a combined 2903-20 and 2904-20 operator manual covering operation, inspection, cleaning, battery-contact cleaning, and service intervals. It states that the tool should not be disassembled and directs all repairs to a Milwaukee service facility; the separate service-parts list is not presented as an owner-repair manual.",
+          "display_value": "Official operator manual is available; it is not an owner-repair manual, and the separate service-parts list does not override the authorized-service direction.",
           "evidence_tier": "T2",
           "source_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The operator manual documents exterior cleaning, inspection for noise, misalignment, binding, or broken parts, and cleaning battery contacts. It recommends inspection after six months to one year depending on use, prohibits disassembly, and routes internal repairs to a Milwaukee service facility.",
+          "display_value": "Owner care covers cleaning, inspection, and battery contacts; internal repairs are directed to a Milwaukee service facility.",
+          "evidence_tier": "T2",
+          "source_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         },
         {
           "name": "street_price",
@@ -1346,19 +1374,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-25"
         },
         {
           "name": "warranty",
-          "raw_value": "Manufacturer publishes a five-year limited power-tool warranty subject to listed exceptions.",
-          "display_value": "Manufacturer publishes a five-year limited power-tool warranty subject to listed exceptions.",
+          "raw_value": "Milwaukee’s current portable electric power-tool policy provides a five-year limited warranty for the original purchaser, subject to examination, claim requirements, exceptions, and exclusions. The policy identifies chucks among normal-wear parts not covered when normal use exhausts the part.",
+          "display_value": "5-year limited power-tool warranty; normal-wear exclusions specifically include chucks, and current Milwaukee terms apply.",
           "evidence_tier": "T2",
           "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-25",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-24"
         }
       ],
       "affiliate_links": [
@@ -1366,21 +1394,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B0BB854SJ8?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-09-25"
         }
       ],
       "repairability": {
         "product_id": 2,
         "parts_availability": "partial",
         "parts_url": "https://documents.milwaukeetool.com/54-24-2990R.pdf",
-        "repair_manual_available": 1,
+        "repair_manual_available": 0,
         "repair_manual_url": "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 45,
-        "verified_date": "2026-08-25"
+        "source_id": 44,
+        "verified_date": "2026-09-25"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "5-year limited power-tool warranty.",
+        "warranty_coverage": "For the original purchaser, Milwaukee may repair or replace parts it determines defective in material or workmanship, subject to current terms and exceptions.",
+        "warranty_exclusions": "Unauthorized repair attempts, misuse, alterations, abuse, normal wear, lack of maintenance, and accidents are excluded; the policy specifically lists chucks among normal-wear parts.",
+        "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+        "verified_date": "2026-09-25"
+      },
       "cost_per_year": null
     },
     {
@@ -4421,14 +4455,6 @@
       "is_stale": true
     },
     {
-      "slug": "milwaukee-2904-20",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "estwing-b3-3lb",
       "field_name": "street_price",
       "verified_date": "2026-09-08",
@@ -4541,6 +4567,14 @@
       "is_stale": false
     },
     {
+      "slug": "milwaukee-2904-20",
+      "field_name": "street_price",
+      "verified_date": "2026-09-25",
+      "reverify_days": 30,
+      "stale_after": "2026-10-25",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -4597,6 +4631,14 @@
       "is_stale": false
     },
     {
+      "slug": "milwaukee-2904-20",
+      "field_name": "parts_availability",
+      "verified_date": "2026-09-25",
+      "reverify_days": 90,
+      "stale_after": "2026-12-24",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-1617evspk",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -5134,62 +5176,6 @@
     },
     {
       "slug": "makita-xfd14z",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "milwaukee-2904-20",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -5938,6 +5924,54 @@
       "verified_date": "2026-09-24",
       "reverify_days": 180,
       "stale_after": "2027-03-23",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "identity",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-2904-20",
+      "field_name": "warranty",
+      "verified_date": "2026-09-25",
+      "reverify_days": 180,
+      "stale_after": "2027-03-24",
       "is_stale": false
     }
   ]
