@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "9867b03d3e5df1b7e3a6c5c6efe03c1acb205efd815c1ac814a3864e9301958c",
+  "database_sha256": "e054316bcc16ce81bec803b5de86ad6c9930e9e7d1e580dcbfae4b87852010cc",
   "generated_at": "2026-09-26T00:00:00.000Z",
   "products": [
     {
@@ -2248,10 +2248,10 @@
       "sku": "1617EVSPK",
       "category": "routers",
       "category_group": "tools-shop",
-      "variant_notes": "Bosch identifies 1617EVSPK as the 2.25 HP variable-speed combination kit with fixed and plunge bases. The current catalog page lists part number 06016176A1, while the exact Bosch service catalog maps the kit to technical part number 3601F75710; those identifiers should not be substituted for another 1617 package.",
+      "variant_notes": "Bosch identifies 1617EVSPK as the 2.25 HP variable-speed combination kit with fixed and plunge bases. The current catalog page displays part number 06016176A1; the 0601617577 value in the page URL is not presented as the current part number.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation supports the exact fixed-base and plunge-base package, owner cleaning and bit or collet procedures, an exact technical-part-number spare-parts catalog, authorized service, and a one-year limited warranty. One 1617-family owner reports about 13 years of trouble-free use before an intermittent switch problem; an exact 1617EVSPK owner reports plunge-base binding after about two years. These reports are anecdotal, cover different failure paths, and do not establish a representative service life, so expected service life and a buy or repair recommendation remain unverified.",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact fixed-base and plunge-base package, owner cleaning and bit or collet procedures, authorized service, and a one-year limited warranty. In one exact-combo discussion, individual owners report about 15 to more than 20 years of use; another exact-model owner reported stiff plunge action on first use. These anecdotes do not establish representative service life, current parts availability, or repair economics, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2280,13 +2280,6 @@
           "purpose": "current catalog identity, performance range, current part number, and package contents"
         },
         {
-          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
-          "title": "Bosch 1617EVSPK exact spare-parts catalog",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-26",
-          "purpose": "exact technical-part-number spare-parts catalog"
-        },
-        {
           "url": "https://www.amazon.com/dp/B00005RHPD",
           "title": "Amazon exact Bosch 1617EVSPK destination",
           "source_type": "other",
@@ -2301,22 +2294,22 @@
           "purpose": "operating, cleaning, bit and collet, maintenance, and authorized-service boundaries"
         },
         {
-          "url": "https://www.garagejournal.com/forum/threads/bosch-1617-router-users-beware.327633/",
-          "title": "Bosch 1617 owner report: switch issue after about 13 years",
+          "url": "https://www.reddit.com/r/woodworking/comments/1iudoea/good_purchase_bosch_router_1617evspk_combo/",
+          "title": "Bosch 1617EVSPK owner discussion: long ownership reports",
           "source_type": "owner-report",
           "retrieved_date": "2026-09-26",
-          "purpose": "qualified 1617-family owner report of about 13 trouble-free years before a switch problem"
+          "purpose": "qualified exact-combo long-ownership anecdotes"
         },
         {
-          "url": "https://festoolownersgroup.com/threads/bosch-1617evspk-combo-router-kit.69166/",
-          "title": "Bosch 1617EVSPK owner report: plunge-base binding after about two years",
+          "url": "https://www.reddit.com/r/woodworking/comments/2tuf2a/bosch_1617evspk_plunge_router_plunging_is_not/",
+          "title": "Bosch 1617EVSPK owner report: stiff plunge action on first use",
           "source_type": "owner-report",
           "retrieved_date": "2026-09-26",
-          "purpose": "qualified exact-combo owner report of plunge-base binding after about two years"
+          "purpose": "qualified exact-model first-use plunge-action report"
         },
         {
-          "url": "https://slickdeals.net/f/18625288-bosch-2-25-hp-variable-speed-router-combination-kit-1617evspk-149-free-shipping",
-          "title": "September 2026 Bosch 1617EVSPK commercial listing corroboration",
+          "url": "https://slickdeals.net/f/19861437-bosch-router-1617evspk-2-25-hp-combination-plunge-and-fixed-base-woodworking-router-179-free-s-h-at-amazon",
+          "title": "August 2026 Bosch 1617EVSPK commercial identity corroboration",
           "source_type": "other",
           "retrieved_date": "2026-09-26",
           "purpose": "recent exact-model commercial identity corroboration"
@@ -2345,7 +2338,7 @@
         },
         {
           "name": "identity",
-          "raw_value": "Bosch identifies 1617EVSPK as a 2.25 HP corded variable-speed router combination kit with fixed and plunge bases, 8,000 to 25,000 rpm speed control, current part number 06016176A1, and exact service technical part number 3601F75710.",
+          "raw_value": "Bosch identifies 1617EVSPK as a 2.25 HP corded variable-speed router combination kit with fixed and plunge bases, 8,000 to 25,000 rpm speed control, and current part number 06016176A1.",
           "display_value": "2.25 HP corded variable-speed router kit, 8,000–25,000 RPM, with fixed and plunge bases.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
@@ -2355,10 +2348,10 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Bosch maps the 1617EVSPK to technical part number 3601F75710 and publishes an exact spare-parts catalog. The review confirmed the catalog route but did not verify current individual orderability for every listed component.",
-          "display_value": "Partial: 3601F75710 maps to an official spare-parts catalog; individual component availability remains unverified.",
-          "evidence_tier": "T2",
-          "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+          "raw_value": "Not yet verified. The previously recorded exact Bosch spare-parts URL returns HTTP 404, and its claimed technical-part-number mapping was not independently corroborated during correction review.",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
           "verified_date": "2026-09-26",
           "reverify_days": 90,
           "stale_after": "2026-12-25"
@@ -2414,8 +2407,8 @@
       ],
       "repairability": {
         "product_id": 9,
-        "parts_availability": "partial",
-        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+        "parts_availability": "not-yet-verified",
+        "parts_url": null,
         "repair_manual_available": 0,
         "repair_manual_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
         "serviceability": "shop-serviceable",
