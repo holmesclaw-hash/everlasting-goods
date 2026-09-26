@@ -36,36 +36,27 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-25T06:35:09Z",
-  "last_action": "Refreshed and production-verified the existing Milwaukee 2904-20 structured record with an exact cordless-tool package boundary, current owner-maintenance and authorized-service limits, a May 2025 service-parts list, explicit five-year warranty exclusions including chuck wear, qualified conflicting exact-model owner reports, and a reverified exact Amazon destination while preserving unverified service life and recommendation fields",
-  "last_live_url": "https://everlasting-goods.com/database/milwaukee-2904-20",
-  "last_commit": "4afa4f8",
+  "last_verified_at": "2026-09-26T05:29:00Z",
+  "last_action": "Investigated Festool OF 1400 EQ-F-Plus SKU 576213 and recorded a safe publication stop: official identity, manual, spare-parts, repair, and warranty routes exist, but the later SKU 578951 has a distinct package and the apparent Amazon destination now identifies 578951, leaving 576213 without a verified exact commercial destination",
+  "last_live_url": null,
+  "last_commit": "8acc37e",
   "last_evidence": {
-    "local_gates": "The dedicated Milwaukee 2904-20 regression test passed after first failing against the stale record. Strict citation verification passed with 100% declared provenance. npm run verify passed 102 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. Full twenty-three-migration replay produced integrity ok, no foreign-key rows, 25 products, evidence revision 23, and a logical dump identical to the tracked database. git diff --check and the modified-file credential scan passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 4afa4f8 completed successfully.",
-    "live_readback": "Cache-busted custom-domain readback returned HTTP 200 for the Milwaukee 2904-20 record, drill-drivers comparison, products hub, database index, and sitemap. The record exposes the exact tool, side-handle, and belt-clip package boundary with no listed battery or charger; owner cleaning and inspection versus authorized internal repair; May 2025 component-level service parts with current individual orderability unverified; five-year limited warranty terms that specifically list chucks as normal-wear parts; and three qualified, conflicting owner anecdotes while leaving expected service life and the buy or repair recommendation unverified. The commercial routes contain exact ASIN B0BB854SJ8 with tag everlastin08f-20, no stale affiliate tag, placement hooks, and disclosures. The record has the correct canonical URL and appears in the database index and sitemap. The text-only structured record is valid without an image, but reusable exact-model image rights were not verified, so the exact-product photo policy continues to block any Milwaukee 2904-20 article.",
+    "local_gates": "The Festool queue-boundary regression failed before the candidate evidence and blocker were updated, then passed. Strict citation verification passed with 86% declared provenance. npm run verify passed 102 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check and the modified-file credential scan passed. No database migration or generated record was created, so the tracked database remains at 25 products and evidence revision 23.",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit 8acc37e completed successfully.",
+    "live_readback": "No public product record or article changed because SKU 576213 stopped at the exact-commercial-destination gate. Cache-busted custom-domain homepage and database-index checks returned HTTP 200 after deployment. Festool identifies 576213 and 578951 as separate OF 1400 EQ-F-Plus packages; 578951 adds an extraction hood with light module. ASIN B09WDWTKB2 currently identifies 578951 and was rejected for 576213. Exact-SKU component orderability, owner duration, expected service life, buy-or-repair recommendation, recall applicability, and lawful reusable photo rights remain unresolved.",
     "source_urls": [
-      "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-hammer-drill-driver-cordless-power-tool/2904-20",
-      "https://documents.milwaukeetool.com/58-14-9998d1.pdf",
-      "https://documents.milwaukeetool.com/54-24-2990R.pdf",
-      "https://www.milwaukeetool.com/support/registration-and-warranty",
-      "https://www.reddit.com/r/MilwaukeeTool/comments/1sa31uk/warranty_disappointment_saga/",
-      "https://www.reddit.com/r/MilwaukeeTool/comments/1su3pj4/milwaukee_5_year_warranty_is_not_a_joke/",
-      "https://www.reddit.com/r/MilwaukeeTool/comments/16g1f1f/",
-      "https://www.amazon.com/dp/B0BB854SJ8",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4afa4f8/status",
-      "https://everlasting-goods.com/database/milwaukee-2904-20",
-      "https://everlasting-goods.com/database/category/drill-drivers",
-      "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://www.festoolusa.com/products/routing/routers/576213---of-1400-eq-f-plus-us",
+      "https://www.festoolusa.com/products/routing/routers/578951---of-1400-eq-f-plus-us",
+      "https://media.cdn.festool.io/productmedia/Images/attachment/ebae769d-53e1-11ef-8a53-005056b3ad01.pdf",
+      "https://www.festoolusa.com/service/repair-service/spare-parts",
+      "https://www.festoolusa.com/service/repair-service",
+      "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
+      "https://www.amazon.com/dp/B09WDWTKB2",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8acc37e/status"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/milwaukee-2904-20",
-      "https://everlasting-goods.com/database/category/drill-drivers",
-      "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/database"
     ]
   },
   "blockers": [
@@ -75,6 +66,7 @@
     "No scheduler change is authorized; weekly digest generation remains on demand",
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
+    "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Twenty-four structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
