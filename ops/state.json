@@ -36,27 +36,31 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-26T05:29:00Z",
-  "last_action": "Investigated Festool OF 1400 EQ-F-Plus SKU 576213 and recorded a safe publication stop: official identity, manual, spare-parts, repair, and warranty routes exist, but the later SKU 578951 has a distinct package and the apparent Amazon destination now identifies 578951, leaving 576213 without a verified exact commercial destination",
-  "last_live_url": null,
-  "last_commit": "8acc37e",
+  "last_verified_at": "2026-09-26T06:28:58Z",
+  "last_action": "Refreshed the existing Bosch 1617EVSPK high-intent router record with current package identifiers, exact parts-catalog support, owner-maintenance and authorized-service boundaries, one-year warranty terms, qualified conflicting owner evidence, and a reverified exact Amazon destination",
+  "last_live_url": "https://everlasting-goods.com/database/bosch-1617evspk",
+  "last_commit": "dfa2f09",
   "last_evidence": {
-    "local_gates": "The Festool queue-boundary regression failed before the candidate evidence and blocker were updated, then passed. Strict citation verification passed with 86% declared provenance. npm run verify passed 102 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check and the modified-file credential scan passed. No database migration or generated record was created, so the tracked database remains at 25 products and evidence revision 23.",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit 8acc37e completed successfully.",
-    "live_readback": "No public product record or article changed because SKU 576213 stopped at the exact-commercial-destination gate. Cache-busted custom-domain homepage and database-index checks returned HTTP 200 after deployment. Festool identifies 576213 and 578951 as separate OF 1400 EQ-F-Plus packages; 578951 adds an extraction hood with light module. ASIN B09WDWTKB2 currently identifies 578951 and was rejected for 576213. Exact-SKU component orderability, owner duration, expected service life, buy-or-repair recommendation, recall applicability, and lawful reusable photo rights remain unresolved.",
+    "local_gates": "The Bosch 1617EVSPK regression test failed before the record refresh and passed afterward. Strict citation verification passed with 91% declared provenance. npm run verify passed 103 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. All 24 migrations replayed with integrity_check=ok, no foreign-key violations, 25 products, evidence revision 24, and an identical logical database dump. git diff --check and the modified-file credential, stale-tag, and unsupported-hands-on scan passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for commit dfa2f09 completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Bosch 1617EVSPK record, routers comparison, products hub, database index, and sitemap. The record exposes the current 06016176A1 catalog identifier, exact service number 3601F75710, fixed and plunge bases, partial parts support, owner cleaning and collet care, authorized internal service, a one-year limited warranty, and qualified conflicting owner reports without claiming expected life. Commercial routes expose disclosures and affiliate-placement hooks, the record uses exact ASIN B00005RHPD with tag everlastin08f-20, no stale tag appeared, the canonical is correct, and the database index and sitemap expose the record. No article was added or restored, so the exact-product article-photo publication gate did not apply.",
     "source_urls": [
-      "https://www.festoolusa.com/products/routing/routers/576213---of-1400-eq-f-plus-us",
-      "https://www.festoolusa.com/products/routing/routers/578951---of-1400-eq-f-plus-us",
-      "https://media.cdn.festool.io/productmedia/Images/attachment/ebae769d-53e1-11ef-8a53-005056b3ad01.pdf",
-      "https://www.festoolusa.com/service/repair-service/spare-parts",
-      "https://www.festoolusa.com/service/repair-service",
-      "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
-      "https://www.amazon.com/dp/B09WDWTKB2",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8acc37e/status"
+      "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
+      "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+      "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
+      "https://www.boschtools.com/us/en/service/product-warranty/",
+      "https://www.garagejournal.com/forum/threads/bosch-1617-router-users-beware.327633/",
+      "https://festoolownersgroup.com/threads/bosch-1617evspk-combo-router-kit.69166/",
+      "https://www.amazon.com/dp/B00005RHPD",
+      "https://slickdeals.net/f/18625288-bosch-2-25-hp-variable-speed-router-combination-kit-1617evspk-149-free-shipping",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/dfa2f09/status"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/database"
+      "https://everlasting-goods.com/database/bosch-1617evspk",
+      "https://everlasting-goods.com/database/category/routers",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/sitemap.xml"
     ]
   },
   "blockers": [
