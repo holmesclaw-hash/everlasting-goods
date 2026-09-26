@@ -36,24 +36,23 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-26T06:28:58Z",
-  "last_action": "Refreshed the existing Bosch 1617EVSPK high-intent router record with current package identifiers, exact parts-catalog support, owner-maintenance and authorized-service boundaries, one-year warranty terms, qualified conflicting owner evidence, and a reverified exact Amazon destination",
+  "last_verified_at": "2026-09-26T06:44:32Z",
+  "last_action": "Corrected the Bosch 1617EVSPK record after live source review found one dead parts route and three mismatched forum or commercial URLs; parts availability is now unverified and replacement owner and commercial sources were directly verified",
   "last_live_url": "https://everlasting-goods.com/database/bosch-1617evspk",
-  "last_commit": "dfa2f09",
+  "last_commit": "11dab65",
   "last_evidence": {
-    "local_gates": "The Bosch 1617EVSPK regression test failed before the record refresh and passed afterward. Strict citation verification passed with 91% declared provenance. npm run verify passed 103 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. All 24 migrations replayed with integrity_check=ok, no foreign-key violations, 25 products, evidence revision 24, and an identical logical database dump. git diff --check and the modified-file credential, stale-tag, and unsupported-hands-on scan passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit dfa2f09 completed successfully.",
-    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Bosch 1617EVSPK record, routers comparison, products hub, database index, and sitemap. The record exposes the current 06016176A1 catalog identifier, exact service number 3601F75710, fixed and plunge bases, partial parts support, owner cleaning and collet care, authorized internal service, a one-year limited warranty, and qualified conflicting owner reports without claiming expected life. Commercial routes expose disclosures and affiliate-placement hooks, the record uses exact ASIN B00005RHPD with tag everlastin08f-20, no stale tag appeared, the canonical is correct, and the database index and sitemap expose the record. No article was added or restored, so the exact-product article-photo publication gate did not apply.",
+    "local_gates": "The Bosch 1617EVSPK correction regression failed before migration 025 and passed afterward. Strict citation verification passed with 83% declared provenance. npm run verify passed 103 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. All 25 migrations replayed with integrity_check=ok, no foreign-key violations, 25 products, evidence revision 25, and an identical logical database dump. git diff --check and the modified-file credential scan passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for correction commit 11dab65 completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Bosch 1617EVSPK record, routers comparison, products hub, database index, and sitemap. The record exposes the exact fixed-and-plunge-base identity, parts availability as not yet verified, owner cleaning and collet care, authorized internal service, a one-year limited warranty, and directly verified qualified owner reports without claiming expected life. The dead parts mapping and mismatched Garage Journal, Festool Owners Group, and Slickdeals URLs are absent. Commercial routes expose disclosures and affiliate-placement hooks, the record uses exact ASIN B00005RHPD with tag everlastin08f-20, the canonical is correct, and the database index and sitemap expose the record. No article was added or restored; the photo gate did not block this text-only correction but still blocks any future exact-model article without complete lawful photo provenance.",
     "source_urls": [
       "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
-      "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
       "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
       "https://www.boschtools.com/us/en/service/product-warranty/",
-      "https://www.garagejournal.com/forum/threads/bosch-1617-router-users-beware.327633/",
-      "https://festoolownersgroup.com/threads/bosch-1617evspk-combo-router-kit.69166/",
+      "https://www.reddit.com/r/woodworking/comments/1iudoea/good_purchase_bosch_router_1617evspk_combo/",
+      "https://www.reddit.com/r/woodworking/comments/2tuf2a/bosch_1617evspk_plunge_router_plunging_is_not/",
       "https://www.amazon.com/dp/B00005RHPD",
-      "https://slickdeals.net/f/18625288-bosch-2-25-hp-variable-speed-router-combination-kit-1617evspk-149-free-shipping",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/dfa2f09/status"
+      "https://slickdeals.net/f/19861437-bosch-router-1617evspk-2-25-hp-combination-plunge-and-fixed-base-woodworking-router-179-free-s-h-at-amazon",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/11dab65/status"
     ],
     "live_routes": [
       "https://everlasting-goods.com/database/bosch-1617evspk",
@@ -71,6 +70,7 @@
     "The definition-of-done requirement for two consecutive weekly digests cannot be satisfied before a second weekly period exists",
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
+    "Bosch 1617EVSPK exact current parts-catalog support remains unverified after the previously recorded route returned HTTP 404",
     "Twenty-four structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
