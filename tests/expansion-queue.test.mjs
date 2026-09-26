@@ -41,6 +41,20 @@ test("record expansion queue reaches the 100-record planning target without publ
     "published GKF125CEN must leave the research queue",
   );
 
+  const festoolOf1400 = queue.candidates.find(
+    (candidate) => candidate.brand === "Festool" && candidate.sku === "576213",
+  );
+  assert.ok(festoolOf1400, "historical Festool 576213 must remain a separate candidate");
+  assert.ok(
+    festoolOf1400.evidence_urls.includes(
+      "https://media.cdn.festool.io/productmedia/Images/attachment/ebae769d-53e1-11ef-8a53-005056b3ad01.pdf",
+    ),
+    "Festool 576213 candidate must retain the official OF 1400 manual",
+  );
+  assert.match(festoolOf1400.next_gate, /578951/);
+  assert.match(festoolOf1400.next_gate, /B09WDWTKB2/);
+  assert.match(festoolOf1400.next_gate, /exact commercial destination/i);
+
   const identities = new Set();
   for (const candidate of queue.candidates) {
     assert.equal(candidate.status, "research-candidate");

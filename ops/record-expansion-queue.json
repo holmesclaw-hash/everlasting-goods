@@ -338,12 +338,16 @@
       "category": "routers",
       "official_product_url": "https://www.festoolusa.com/products/routing/routers/576213---of-1400-eq-f-plus-us",
       "evidence_urls": [
-        "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions"
+        "https://media.cdn.festool.io/productmedia/Images/attachment/ebae769d-53e1-11ef-8a53-005056b3ad01.pdf",
+        "https://www.festoolusa.com/service/repair-service/spare-parts",
+        "https://www.festoolusa.com/service/repair-service",
+        "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
+        "https://www.festoolusa.com/products/routing/routers/578951---of-1400-eq-f-plus-us"
       ],
-      "reason": "The official Festool product page identifies this exact router model/SKU, and the official Festool warranty page provides manufacturer support evidence.",
+      "reason": "Festool identifies 576213 as an OF 1400 EQ-F-Plus package and provides an OF 1400 manual, spare-parts shop, repair route, and warranty terms. Festool also lists the later 578951 package under the same model name with an added light-module extraction hood, so the SKUs must remain separate.",
       "status": "research-candidate",
       "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+      "next_gate": "BLOCKED: verify an exact commercial destination for historical SKU 576213. Do not use ASIN B09WDWTKB2 for 576213 because its current Amazon identity is SKU 578951; keep 576213 and 578951 separate. Exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights also remain unresolved."
     },
     {
       "brand": "Festool",
