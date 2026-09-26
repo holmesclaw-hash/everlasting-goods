@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "5232c7098de2d015b472997c3df203b1207ab6fb762598c13cd149a94f4bef2e",
-  "generated_at": "2026-09-25T00:00:00.000Z",
+  "database_sha256": "9867b03d3e5df1b7e3a6c5c6efe03c1acb205efd815c1ac814a3864e9301958c",
+  "generated_at": "2026-09-26T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -410,7 +410,7 @@
           "url": "https://www.boschtools.com/us/en/service/product-warranty/",
           "title": "Bosch warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-19",
+          "retrieved_date": "2026-09-26",
           "purpose": "warranty"
         }
       ],
@@ -2248,10 +2248,10 @@
       "sku": "1617EVSPK",
       "category": "routers",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "Bosch identifies 1617EVSPK as the 2.25 HP variable-speed combination kit with fixed and plunge bases. The current catalog page lists part number 06016176A1, while the exact Bosch service catalog maps the kit to technical part number 3601F75710; those identifiers should not be substituted for another 1617 package.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact fixed-base and plunge-base package, owner cleaning and bit or collet procedures, an exact technical-part-number spare-parts catalog, authorized service, and a one-year limited warranty. One 1617-family owner reports about 13 years of trouble-free use before an intermittent switch problem; an exact 1617EVSPK owner reports plunge-base binding after about two years. These reports are anecdotal, cover different failure paths, and do not establish a representative service life, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2260,38 +2260,66 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-09-26",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
+          "title": "Bosch warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-26",
+          "purpose": "current Bosch corded-tool warranty terms"
+        },
+        {
           "url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
           "title": "Bosch 1617EVSPK official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-09-26",
+          "purpose": "current catalog identity, performance range, current part number, and package contents"
+        },
+        {
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+          "title": "Bosch 1617EVSPK exact spare-parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-26",
+          "purpose": "exact technical-part-number spare-parts catalog"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B00005RHPD",
+          "title": "Amazon exact Bosch 1617EVSPK destination",
+          "source_type": "other",
+          "retrieved_date": "2026-09-26",
+          "purpose": "exact-model commercial destination"
         },
         {
           "url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
           "title": "Bosch 1617EVSPK official manual or downloads",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "retrieved_date": "2026-09-26",
+          "purpose": "operating, cleaning, bit and collet, maintenance, and authorized-service boundaries"
         },
         {
-          "url": "https://www.boschtools.com/us/en/service/service-and-support/",
-          "title": "Bosch parts or service support",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "url": "https://www.garagejournal.com/forum/threads/bosch-1617-router-users-beware.327633/",
+          "title": "Bosch 1617 owner report: switch issue after about 13 years",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-26",
+          "purpose": "qualified 1617-family owner report of about 13 trouble-free years before a switch problem"
         },
         {
-          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
-          "title": "Bosch warranty policy",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-19",
-          "purpose": "warranty"
+          "url": "https://festoolownersgroup.com/threads/bosch-1617evspk-combo-router-kit.69166/",
+          "title": "Bosch 1617EVSPK owner report: plunge-base binding after about two years",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-09-26",
+          "purpose": "qualified exact-combo owner report of plunge-base binding after about two years"
+        },
+        {
+          "url": "https://slickdeals.net/f/18625288-bosch-2-25-hp-variable-speed-router-combination-kit-1617evspk-149-free-shipping",
+          "title": "September 2026 Bosch 1617EVSPK commercial listing corroboration",
+          "source_type": "other",
+          "retrieved_date": "2026-09-26",
+          "purpose": "recent exact-model commercial identity corroboration"
         }
       ],
       "fields": [
@@ -2301,9 +2329,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         },
         {
           "name": "expected_service_life",
@@ -2311,49 +2339,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         },
         {
           "name": "identity",
-          "raw_value": "2.25 HP variable-speed router combo kit",
-          "display_value": "2.25 HP variable-speed router combo kit",
+          "raw_value": "Bosch identifies 1617EVSPK as a 2.25 HP corded variable-speed router combination kit with fixed and plunge bases, 8,000 to 25,000 rpm speed control, current part number 06016176A1, and exact service technical part number 3601F75710.",
+          "display_value": "2.25 HP corded variable-speed router kit, 8,000–25,000 RPM, with fixed and plunge bases.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Bosch maps the 1617EVSPK to technical part number 3601F75710 and publishes an exact spare-parts catalog. The review confirmed the catalog route but did not verify current individual orderability for every listed component.",
+          "display_value": "Partial: 3601F75710 maps to an official spare-parts catalog; individual component availability remains unverified.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/service/service-and-support/",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+          "verified_date": "2026-09-26",
+          "reverify_days": 90,
+          "stale_after": "2026-12-25"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Bosch publishes an operating and safety manual for the 1617EVS and 1617EVSPK covering setup, operation, cleaning, ventilation, bit and collet handling, maintenance, and service. It is not an owner-repair manual and routes service to Bosch factory or authorized service facilities.",
+          "display_value": "Official operating and maintenance manual is available; it is not an owner-repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The official manual documents owner cleaning with compressed air, ventilation upkeep, bit installation and removal, and collet care. It routes internal service to Bosch factory or authorized service facilities rather than documenting owner disassembly and repair.",
+          "display_value": "Owner care covers cleaning, ventilation, bit changes, and collet care; internal repair is routed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         },
         {
           "name": "street_price",
@@ -2361,19 +2389,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-26"
         },
         {
           "name": "warranty",
-          "raw_value": "See current Bosch warranty policy for corded power tools.",
-          "display_value": "See current Bosch warranty policy for corded power tools.",
+          "raw_value": "Bosch provides a one-year limited warranty to the original purchaser of corded portable and benchtop power tools for defects in material or workmanship. Current exclusions and claim requirements apply.",
+          "display_value": "1-year limited warranty for the original purchaser; current Bosch terms apply.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-09-26",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-25"
         }
       ],
       "affiliate_links": [
@@ -2381,21 +2409,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00005RHPD?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-09-26"
         }
       ],
       "repairability": {
         "product_id": 9,
         "parts_availability": "partial",
-        "parts_url": "https://www.boschtools.com/us/en/service/service-and-support/",
-        "repair_manual_available": 1,
+        "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-3601F75710",
+        "repair_manual_available": 0,
         "repair_manual_url": "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 11,
-        "verified_date": "2026-08-25"
+        "source_id": 21,
+        "verified_date": "2026-09-26"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "1-year limited warranty.",
+        "warranty_coverage": "Defects in material or workmanship for the original purchaser of Bosch corded portable and benchtop power tools.",
+        "warranty_exclusions": "Misuse, careless handling, unauthorized misrepair, and accessory items are excluded; current Bosch terms and claim requirements apply.",
+        "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
+        "verified_date": "2026-09-26"
+      },
       "cost_per_year": null
     },
     {
@@ -3511,7 +3545,7 @@
           "url": "https://www.boschtools.com/us/en/service/product-warranty/",
           "title": "Bosch warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-19",
+          "retrieved_date": "2026-09-26",
           "purpose": "warranty"
         }
       ],
@@ -4375,14 +4409,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "bosch-1617evspk",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -4575,6 +4601,14 @@
       "is_stale": false
     },
     {
+      "slug": "bosch-1617evspk",
+      "field_name": "street_price",
+      "verified_date": "2026-09-26",
+      "reverify_days": 30,
+      "stale_after": "2026-10-26",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -4640,58 +4674,10 @@
     },
     {
       "slug": "bosch-1617evspk",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
       "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-1617evspk",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
+      "verified_date": "2026-09-26",
+      "reverify_days": 90,
+      "stale_after": "2026-12-25",
       "is_stale": false
     },
     {
@@ -5972,6 +5958,54 @@
       "verified_date": "2026-09-25",
       "reverify_days": 180,
       "stale_after": "2027-03-24",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "identity",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "repair_manual",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "serviceability",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "warranty",
+      "verified_date": "2026-09-26",
+      "reverify_days": 180,
+      "stale_after": "2027-03-25",
       "is_stale": false
     }
   ]
