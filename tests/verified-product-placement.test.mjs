@@ -7,8 +7,9 @@ async function source(path) {
 }
 
 test("every verified-product affiliate CTA declares a stable placement", async () => {
-  const [productsPage, card, categoryPage, recordPage, tracker] = await Promise.all([
+  const [productsPage, databasePage, card, categoryPage, recordPage, tracker] = await Promise.all([
     source("src/app/products/page.tsx"),
+    source("src/app/database/page.tsx"),
     source("src/components/DatabaseProductCard.tsx"),
     source("src/app/database/category/[category]/page.tsx"),
     source("src/app/database/[slug]/page.tsx"),
@@ -16,6 +17,7 @@ test("every verified-product affiliate CTA declares a stable placement", async (
   ]);
 
   assert.match(productsPage, /affiliatePlacement="products-grid"/);
+  assert.match(databasePage, /affiliatePlacement="database-grid"/);
   assert.match(card, /data-affiliate-placement=\{affiliatePlacement\}/);
   assert.match(categoryPage, /data-affiliate-placement="database-category-comparison"/);
   assert.match(recordPage, /data-affiliate-placement="database-record-sidebar"/);

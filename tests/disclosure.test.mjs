@@ -60,6 +60,17 @@ test("verified products hub discloses before card-level exact-model destinations
   assert.match(cardSource, /Price and availability are shown only by the merchant/);
 });
 
+test("database hub discloses before card-level exact-model destinations", async () => {
+  const pageSource = await readFile(path.join(appRoot, "database", "page.tsx"), "utf8");
+  const disclosureIndex = pageSource.indexOf("<AffiliateDisclosure");
+  const productCardsIndex = pageSource.indexOf("<DatabaseProductCard");
+
+  assert.ok(pageSource.includes('import AffiliateDisclosure from "@/components/AffiliateDisclosure";'));
+  assert.ok(disclosureIndex >= 0, "database hub must render AffiliateDisclosure");
+  assert.ok(productCardsIndex > disclosureIndex, "disclosure must precede database product cards");
+  assert.match(pageSource, /affiliatePlacement="database-grid"/);
+});
+
 test("commercial product routes disclose before links or publish no affiliate destinations", async () => {
   const disclosureSource = await readFile(disclosurePath, "utf8").catch(() => "");
   assert.ok(disclosureSource.includes(requiredStatement), "reusable disclosure must contain the required Amazon statement");

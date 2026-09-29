@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import DatabaseProductCard from "@/components/DatabaseProductCard";
 import { databaseCategories, databaseProducts, formatCategory, getDatabaseProductsByCategory } from "@/lib/product-database";
 
@@ -28,6 +29,7 @@ export default function DatabasePage() {
       </section>
 
       <section className="mx-auto max-w-7xl space-y-16 px-4 py-16 sm:px-6 lg:px-8">
+        <AffiliateDisclosure />
         {databaseCategories.map((category) => {
           const products = getDatabaseProductsByCategory(category);
           return (
@@ -40,7 +42,7 @@ export default function DatabasePage() {
                 <Link href={`/database/category/${category}`} className="text-sm font-semibold text-forest-600 hover:underline">Compare →</Link>
               </div>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {products.map((product) => <DatabaseProductCard key={product.slug} product={product} />)}
+                {products.map((product) => <DatabaseProductCard key={product.slug} product={product} affiliatePlacement="database-grid" />)}
               </div>
             </div>
           );
