@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 25,
+  "current_published_records": 26,
   "target_total_records": 100,
-  "candidate_count": 76,
+  "candidate_count": 75,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -369,20 +369,6 @@
       "sku": "DWE7485",
       "category": "table-saws",
       "official_product_url": "https://www.dewalt.com/en-us/product/dwe7485/15-amp-8-14-compact-portable-jobsite-table-saw",
-      "evidence_urls": [
-        "https://www.dewalt.com/en-us/support/warranty"
-      ],
-      "reason": "The official DEWALT product page identifies this exact table-saw model/SKU, and the official DEWALT warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "DEWALT",
-      "model": "DCS7485",
-      "sku": "DCS7485B",
-      "category": "table-saws",
-      "official_product_url": "https://www.dewalt.com/en-us/product/dcs7485b/60v-max-table-saw-tool-only",
       "evidence_urls": [
         "https://www.dewalt.com/en-us/support/warranty"
       ],
