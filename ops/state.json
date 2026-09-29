@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 25,
-    "research_candidates": 76,
+    "current_published_records": 26,
+    "research_candidates": 75,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "one_open_license_exact_product_image_live_in_product_database",
     "verified_images": 1,
-    "blocked_models": 24,
+    "blocked_models": 25,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,27 +36,30 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-26T06:44:32Z",
-  "last_action": "Corrected the Bosch 1617EVSPK record after live source review found one dead parts route and three mismatched forum or commercial URLs; parts availability is now unverified and replacement owner and commercial sources were directly verified",
-  "last_live_url": "https://everlasting-goods.com/database/bosch-1617evspk",
-  "last_commit": "11dab65",
+  "last_verified_at": "2026-09-29T05:32:10Z",
+  "last_action": "Published and live-verified a conservative text-only T2 repairability record for the DEWALT DCS7485B bare-tool table saw after confirming package, type-specific manuals, partial parts support, maintenance, authorized-repair, warranty, safety-search, and exact commercial boundaries",
+  "last_live_url": "https://everlasting-goods.com/database/dewalt-dcs7485b",
+  "last_commit": "84aeeff",
   "last_evidence": {
-    "local_gates": "The Bosch 1617EVSPK correction regression failed before migration 025 and passed afterward. Strict citation verification passed with 83% declared provenance. npm run verify passed 103 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. All 25 migrations replayed with integrity_check=ok, no foreign-key violations, 25 products, evidence revision 25, and an identical logical database dump. git diff --check and the modified-file credential scan passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for correction commit 11dab65 completed successfully.",
-    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Bosch 1617EVSPK record, routers comparison, products hub, database index, and sitemap. The record exposes the exact fixed-and-plunge-base identity, parts availability as not yet verified, owner cleaning and collet care, authorized internal service, a one-year limited warranty, and directly verified qualified owner reports without claiming expected life. The dead parts mapping and mismatched Garage Journal, Festool Owners Group, and Slickdeals URLs are absent. Commercial routes expose disclosures and affiliate-placement hooks, the record uses exact ASIN B00005RHPD with tag everlastin08f-20, the canonical is correct, and the database index and sitemap expose the record. No article was added or restored; the photo gate did not block this text-only correction but still blocks any future exact-model article without complete lawful photo provenance.",
+    "local_gates": "The DCS7485B record, database, and queue regressions failed before migration 026 and passed afterward. Strict citation verification passed with 88% declared provenance. npm run verify passed 104 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. All 26 migrations replayed with integrity_check=ok, no foreign-key violations, 26 products, evidence revision 26, and an identical logical database dump. git diff --check and the modified-file credential scans passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 84aeeff completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the DCS7485B record, table-saws comparison, products hub, database index, and sitemap. The record exposes the DCS7485B bare-tool boundary, separates DCS7485T1, requires type matching, marks parts support partial, documents owner cleaning and height-adjustment-screw lubrication, routes internal repair to authorized service, applies current DEWALT warranty terms, and leaves expected life and recommendation unverified. Commercial routes expose disclosure and affiliate-placement hooks, the exact ASIN B01H9BLZ6A uses tag everlastin08f-20 with sponsored, nofollow, noopener, and noreferrer attributes, the canonical is correct, and the database index and sitemap expose the record. No article or image was published because lawful reusable exact-product photo rights remain unverified.",
     "source_urls": [
-      "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
-      "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
-      "https://www.boschtools.com/us/en/service/product-warranty/",
-      "https://www.reddit.com/r/woodworking/comments/1iudoea/good_purchase_bosch_router_1617evspk_combo/",
-      "https://www.reddit.com/r/woodworking/comments/2tuf2a/bosch_1617evspk_plunge_router_plunging_is_not/",
-      "https://www.amazon.com/dp/B00005RHPD",
-      "https://slickdeals.net/f/19861437-bosch-router-1617evspk-2-25-hp-combination-plunge-and-fixed-base-woodworking-router-179-free-s-h-at-amazon",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/11dab65/status"
+      "https://www.dewalt.com/en-us/product/dcs7485b/60v-max-table-saw-tool-only",
+      "https://www.dewalt.com/en-us/product/dcs7485t1/60v-max-table-saw-kit",
+      "https://assets.dewalt.com/GLOBALBOM/QU/DCS7485B/3/Instruction_Manual/EN/N785278_DCS7485_NA.pdf",
+      "https://assets.dewalt.com/GLOBALBOM/QU/DCS7485B/10/Instruction_Manual/EN/NA136581_DCS7485_NA.pdf",
+      "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/BENCH-SAWS/60V-MAX-TABLE-SAW---BARE/p/DCS7485B_10",
+      "https://support.dewalt.com/hc/en-us/articles/7985430800781-Where-can-I-buy-spare-parts-for-my-tool",
+      "https://www.dewalt.com/en-us/support/warranty",
+      "https://www.amazon.com/dp/B01H9BLZ6A",
+      "https://www.acmetools.com/dewalt-flexvolt-60v-max-8-1-4in-table-saw-bare-tool-dcs7485b/885911454162.html",
+      "https://www.cpsc.gov/Recalls?search_api_fulltext=DCS7485B",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/84aeeff/status"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/bosch-1617evspk",
-      "https://everlasting-goods.com/database/category/routers",
+      "https://everlasting-goods.com/database/dewalt-dcs7485b",
+      "https://everlasting-goods.com/database/category/table-saws",
       "https://everlasting-goods.com/products",
       "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/sitemap.xml"
@@ -71,7 +74,8 @@
     "Delta Essa 9113-AR-DST remains blocked from publication until a lawful exact-model photograph with complete provenance is verified",
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Bosch 1617EVSPK exact current parts-catalog support remains unverified after the previously recorded route returned HTTP 404",
-    "Twenty-four structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
+    "Twenty-five structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
   ]
