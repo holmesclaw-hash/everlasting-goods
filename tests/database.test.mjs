@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-09-29T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-09-30T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -87,6 +87,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "bosch-pr20evs": "B01M0J08MF",
     "bosch-gkf125cen": "B01AX4A95S",
     "dewalt-dcs7485b": "B01H9BLZ6A",
+    "sawstop-cns175-tgp236": "B006G36VHG",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -105,6 +106,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-09-24"
       : product.slug === "dewalt-dcs7485b"
         ? "2026-09-29"
+      : product.slug === "sawstop-cns175-tgp236"
+        ? "2026-09-30"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"
       : product.slug === "bosch-pr20evs"
@@ -155,6 +158,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "bosch-pr20evs": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o18973v2_2610021461_0612_PR1020E.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/pr20evs-3601F0A710"],
     "bosch-gkf125cen": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o200941v2_2610052572_0918_GKF125CE.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gkf125cen-3601F28110"],
     "dewalt-dcs7485b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCS7485B/3/Instruction_Manual/EN/N785278_DCS7485_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/BENCH-SAWS/60V-MAX-TABLE-SAW---BARE/p/DCS7485B_10"],
+    "sawstop-cns175-tgp236": ["https://www.sawstop.com/wp-content/uploads/2026/04/Contractor-Saw-Owners-Manual_US_EN-3-1.pdf", "https://www.sawstop.com/wp-content/uploads/2026/04/Parts_Lists_CNS.pdf", "https://sawstop.com/product-category/parts/cns"],
     "bosch-1617evspk": ["https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],

@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 26,
+  "current_published_records": 27,
   "target_total_records": 100,
-  "candidate_count": 75,
+  "candidate_count": 74,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -402,20 +402,6 @@
         "https://ocsmedia.boschtools.com/binary/manualsmedia/o255240v2_1609B07797_GTS1510_Table_Saw_OSI_20230420.pdf"
       ],
       "reason": "The official Bosch product page identifies order number 0601B54013 as GTS15-10, and Bosch publishes an exact-model instruction manual.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "SawStop",
-      "model": "Contractor Saw",
-      "sku": "CNS175-TGP236",
-      "category": "table-saws",
-      "official_product_url": "https://www.sawstop.com/product/contractor-saw-cns175-tgp236",
-      "evidence_urls": [
-        "https://www.sawstop.com/support/warranty-information/"
-      ],
-      "reason": "The official SawStop product page identifies this exact table-saw configuration/SKU, and the official SawStop warranty page provides manufacturer support evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
