@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 26,
-    "research_candidates": 75,
+    "current_published_records": 27,
+    "research_candidates": 74,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "one_open_license_exact_product_image_live_in_product_database",
     "verified_images": 1,
-    "blocked_models": 25,
+    "blocked_models": 26,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,20 +36,24 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-29T06:19:23Z",
-  "last_action": "Activated disclosed, measured exact-model Amazon destinations on the main repairability database grid so its existing high-intent product cards now provide a direct commercial path without adding products, articles, prices, ratings, or unsupported claims",
-  "last_live_url": "https://everlasting-goods.com/database",
-  "last_commit": "51ca94f",
+  "last_verified_at": "2026-09-30T06:39:25Z",
+  "last_action": "Published a conservative T2 SawStop CNS175-TGP236 repairability record with exact configuration boundaries, official owner-maintenance and exploded-parts evidence, partial parts availability, official warranty terms, and one measured exact-model Amazon destination; service life, price, maintenance cost, and buy-or-repair recommendation remain unpublished",
+  "last_live_url": "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
+  "last_commit": "bd8a9bf",
   "last_evidence": {
-    "local_gates": "The new database-hub disclosure and placement regressions failed before implementation and passed afterward. npm run verify passed 105 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check and the modified-file credential, private-key, and stale-affiliate-tag scan passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 51ca94f completed successfully.",
-    "live_readback": "A cache-busted custom-domain check returned HTTP 200 for the database hub and confirmed one disclosure before the commercial grid, 26 database-grid affiliate placement hooks, 26 exact-model destination cards, only tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, merchant-only price and availability language, the correct canonical URL, and database sitemap inclusion. No product facts, article, image, price, rating, or availability claim changed.",
+    "local_gates": "The new exact-record regression failed against origin/main before implementation and passed afterward. A clean migration replay produced 27 products and passed SQLite integrity checks. npm run verify passed 106 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. The grounded research note verified at 87 percent declared provenance. git diff --check and credential, private-key, and affiliate-tag scans passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit bd8a9bf completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the new record, database hub, table-saw comparison, and sitemap. Readback confirmed the exact B006G36VHG destination, only tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before the affiliate link, stable database-record-sidebar, database-grid, and database-category-comparison analytics placements, merchant-only price and availability language, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, or buy-or-repair claim was added.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/51ca94f/status",
-      "https://everlasting-goods.com/database"
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/bd8a9bf68c1f6998cbff19dc6077fbd8fb0fc8d9/status",
+      "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/database/category/table-saws"
     ],
     "live_routes": [
+      "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
       "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/database/category/table-saws",
       "https://everlasting-goods.com/sitemap.xml"
     ]
   },
@@ -63,7 +67,8 @@
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Bosch 1617EVSPK exact current parts-catalog support remains unverified after the previously recorded route returned HTTP 404",
     "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
-    "Twenty-five structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "Twenty-six structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
   ]
