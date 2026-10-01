@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "6163713058977b27159e8bff3568d8499e27c2225c8a78f9d1ee59efc4942120",
-  "generated_at": "2026-09-30T00:00:00.000Z",
+  "database_sha256": "6080343b78bf380a2b1e7c1fc7996efb0874f8e5ba10396e421f40d0bec53a41",
+  "generated_at": "2026-10-01T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1583,10 +1583,10 @@
       "sku": "577871",
       "category": "dust-extractors",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "Festool order number 577871 is the United States CT 26 EI HEPA package. It is the EI generation with Bluetooth functions and must not be conflated with the earlier CT 26 E or non-U.S. package variants.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact 577871 package, Bluetooth remote-start functions, owner filter and sensor maintenance, an official spare-parts ordering path with a published ten-year post-discontinuation availability policy, and three-year Warranty all-inclusive terms after timely registration. Festool announced this EI generation for spring 2025, and the exact-model owner discussion located during this refresh is short-term purchasing and use context rather than multi-year ownership evidence. Expected service life and a buy or repair recommendation therefore remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -1595,38 +1595,59 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-10-01",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
+          "title": "Festool USA Warranty all-inclusive terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-01",
+          "purpose": "current United States registration, coverage, and exclusion terms"
+        },
+        {
           "url": "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
           "title": "Festool CT 26 EI HEPA official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-10-01",
+          "purpose": "exact United States order number, identity, package contents, and Bluetooth functions"
         },
         {
-          "url": "https://www.festoolusa.com/service/downloads",
-          "title": "Festool CT 26 EI HEPA official manual or downloads",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "url": "https://www.amazon.com/dp/B0DYK9VDC1",
+          "title": "Amazon exact Festool CT 26 EI HEPA destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-01",
+          "purpose": "exact-model commercial destination"
         },
         {
-          "url": "https://www.festoolusa.com/service/repair-service",
-          "title": "Festool parts or service support",
+          "url": "https://www.festoolusa.com/service/repair-service/spare-parts",
+          "title": "Festool spare-parts ordering page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-10-01",
+          "purpose": "manufacturer spare-parts availability policy and ordering path"
         },
         {
-          "url": "https://www.festoolusa.com/knowledge/faqs/faq-warranty-all-inclusive",
-          "title": "Festool warranty policy",
+          "url": "https://media.cdn.festool.io/productmedia/Images/attachment/9f0a0bce-9848-11f0-8a66-005056b3ad01.pdf",
+          "title": "Festool CT 26/36/48 EI operating instructions",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "warranty"
+          "retrieved_date": "2026-10-01",
+          "purpose": "operating, owner-maintenance, filter, sensor-cleaning, and qualified-repair boundaries"
+        },
+        {
+          "url": "https://festoolownersgroup.com/threads/help-me-decide-new-ct-26-ei-or-new-ct-midi-i.77345/",
+          "title": "Festool Owners Group CT 26 EI owner discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-01",
+          "purpose": "qualified exact-model short-term owner discussion without multi-year duration evidence"
+        },
+        {
+          "url": "https://www.festoolusa.com/-/media/tts/fcp/festool-usa/downloads/press-releases/festool_2025_springlaunch_press-release.pdf",
+          "title": "Festool 2025 spring launch press release",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-01",
+          "purpose": "spring 2025 United States generation launch date"
         }
       ],
       "fields": [
@@ -1636,9 +1657,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         },
         {
           "name": "expected_service_life",
@@ -1646,49 +1667,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         },
         {
           "name": "identity",
-          "raw_value": "CT 26 EI HEPA CLEANTEC dust extractor",
-          "display_value": "CT 26 EI HEPA CLEANTEC dust extractor",
+          "raw_value": "Festool order number 577871 is the United States CT 26 EI HEPA CLEANTEC mobile dust extractor. The product page documents Bluetooth automatic starting from a compatible battery pack and optional remote control, plus the supplied HEPA main filter, SELFCLEAN filter bag, and smooth suction hose.",
+          "display_value": "Order 577871 CT 26 EI HEPA mobile dust extractor with Bluetooth remote-start functions and the documented U.S. package.",
           "evidence_tier": "T2",
           "source_url": "https://www.festoolusa.com/products/dust-extractors/workshop-dust-extractors/577871---ct-26-ei-hepa-us",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Festool publishes an official spare-parts ordering path and states that original spare parts remain available for at least ten years after product discontinuation. That policy does not prove current orderability for every CT 26 EI component or identify a complete exact-model parts catalog.",
+          "display_value": "Partial: Festool states original spare parts remain available for at least 10 years after discontinuation; exact CT 26 EI component orderability is not verified.",
           "evidence_tier": "T2",
-          "source_url": "https://www.festoolusa.com/service/repair-service",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://www.festoolusa.com/service/repair-service/spare-parts",
+          "verified_date": "2026-10-01",
+          "reverify_days": 90,
+          "stale_after": "2026-12-30"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Festool publishes current CT 26/36/48 EI operating instructions covering setup, operation, filter-bag and main-filter replacement, fill-level sensor cleaning, troubleshooting, transport, and storage. The document directs repairs to qualified specialists and is not an owner-repair manual.",
+          "display_value": "Official operating and maintenance manual is available; it is not an owner-repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://www.festoolusa.com/service/downloads",
-          "verified_date": "2026-08-25",
+          "source_url": "https://media.cdn.festool.io/productmedia/Images/attachment/9f0a0bce-9848-11f0-8a66-005056b3ad01.pdf",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The operating instructions document owner replacement of the filter bag and main filter, emptying the dust container, cleaning the automatic fill-level sensors, and routine cleaning. Internal repairs and damaged protective devices are directed to a qualified specialist or approved service workshop.",
+          "display_value": "User-serviceable for filter bag, main filter, dust-container, and fill-level sensors; internal repairs go to a qualified service specialist.",
+          "evidence_tier": "T2",
+          "source_url": "https://media.cdn.festool.io/productmedia/Images/attachment/9f0a0bce-9848-11f0-8a66-005056b3ad01.pdf",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         },
         {
           "name": "street_price",
@@ -1696,19 +1717,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-01",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-10-31"
         },
         {
           "name": "warranty",
-          "raw_value": "Warranty All-Inclusive terms are published by Festool; registration and eligibility conditions apply.",
-          "display_value": "Warranty All-Inclusive terms are published by Festool; registration and eligibility conditions apply.",
+          "raw_value": "Festool USA publishes three-year Warranty all-inclusive terms for eligible new tools purchased from an authorized dealer when the purchaser registers within 30 days and provides proof of purchase. Current exclusions and claim conditions apply.",
+          "display_value": "3-year Warranty all-inclusive coverage for eligible authorized-dealer purchases registered within 30 days; current terms apply.",
           "evidence_tier": "T2",
-          "source_url": "https://www.festoolusa.com/knowledge/faqs/faq-warranty-all-inclusive",
-          "verified_date": "2026-08-25",
+          "source_url": "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
+          "verified_date": "2026-10-01",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-03-30"
         }
       ],
       "affiliate_links": [
@@ -1716,21 +1737,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B0DYK9VDC1?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-10-01"
         }
       ],
       "repairability": {
         "product_id": 11,
         "parts_availability": "partial",
-        "parts_url": "https://www.festoolusa.com/service/repair-service",
-        "repair_manual_available": 1,
-        "repair_manual_url": "https://www.festoolusa.com/service/downloads",
-        "serviceability": "not-yet-verified",
+        "parts_url": "https://www.festoolusa.com/service/repair-service/spare-parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://media.cdn.festool.io/productmedia/Images/attachment/9f0a0bce-9848-11f0-8a66-005056b3ad01.pdf",
+        "serviceability": "user-serviceable",
         "ifixit_score": null,
-        "source_id": 26,
-        "verified_date": "2026-08-25"
+        "source_id": 153,
+        "verified_date": "2026-10-01"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "3-year Warranty all-inclusive coverage after timely registration.",
+        "warranty_coverage": "Eligible new tools bought from an authorized dealer receive Festool's published three-year coverage and service benefits, subject to current terms.",
+        "warranty_exclusions": "Registration within 30 days and proof of purchase are required; consumables, misuse, improper use, unauthorized modifications, and published exclusions are not covered.",
+        "source_url": "https://www.festoolusa.com/service/warranty-all-inclusive/service-terms-and-conditions",
+        "verified_date": "2026-10-01"
+      },
       "cost_per_year": null
     },
     {
@@ -4819,14 +4846,6 @@
       "is_stale": true
     },
     {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "makita-rt0701c",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -4995,6 +5014,14 @@
       "is_stale": false
     },
     {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "street_price",
+      "verified_date": "2026-10-01",
+      "reverify_days": 30,
+      "stale_after": "2026-10-31",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -5083,6 +5110,14 @@
       "is_stale": false
     },
     {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-01",
+      "reverify_days": 90,
+      "stale_after": "2026-12-30",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -5340,62 +5375,6 @@
     },
     {
       "slug": "fein-turbo-i",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "festool-ct-26-ei-hepa",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -6504,6 +6483,54 @@
       "verified_date": "2026-09-30",
       "reverify_days": 180,
       "stale_after": "2027-03-29",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "identity",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "festool-ct-26-ei-hepa",
+      "field_name": "warranty",
+      "verified_date": "2026-10-01",
+      "reverify_days": 180,
+      "stale_after": "2027-03-30",
       "is_stale": false
     }
   ]
