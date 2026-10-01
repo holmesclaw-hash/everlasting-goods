@@ -36,24 +36,23 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-09-30T06:39:25Z",
-  "last_action": "Published a conservative T2 SawStop CNS175-TGP236 repairability record with exact configuration boundaries, official owner-maintenance and exploded-parts evidence, partial parts availability, official warranty terms, and one measured exact-model Amazon destination; service life, price, maintenance cost, and buy-or-repair recommendation remain unpublished",
-  "last_live_url": "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
-  "last_commit": "bd8a9bf",
+  "last_verified_at": "2026-10-01T06:31:48Z",
+  "last_action": "Refreshed the existing Festool CT 26 EI HEPA record to remove a dead generic downloads URL, bind the exact United States 577871 package to the current EI operating instructions, document conservative owner-maintenance and qualified-repair boundaries, add current spare-parts and warranty terms, and reverify the exact Amazon destination; service life, price, maintenance cost, and buy-or-repair recommendation remain unpublished",
+  "last_live_url": "https://everlasting-goods.com/database/festool-ct-26-ei-hepa",
+  "last_commit": "3061ed9",
   "last_evidence": {
-    "local_gates": "The new exact-record regression failed against origin/main before implementation and passed afterward. A clean migration replay produced 27 products and passed SQLite integrity checks. npm run verify passed 106 tests plus quality, lint, typecheck, and the Next.js 16.3.4 production build; npm audit --omit=dev found 0 vulnerabilities. The grounded research note verified at 87 percent declared provenance. git diff --check and credential, private-key, and affiliate-tag scans passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit bd8a9bf completed successfully.",
-    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the new record, database hub, table-saw comparison, and sitemap. Readback confirmed the exact B006G36VHG destination, only tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before the affiliate link, stable database-record-sidebar, database-grid, and database-category-comparison analytics placements, merchant-only price and availability language, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, or buy-or-repair claim was added.",
+    "local_gates": "The Festool refresh regression failed against origin/main before implementation and passed afterward. A clean migration replay produced 27 products, evidence revision 28, and passed SQLite integrity checks. npm run verify passed 107 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities. The grounded research note verified at 77 percent declared provenance. git diff --check and credential, private-key, stale-tag, unsupported-experience, and affiliate-tag reviews passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 3061ed9 completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Festool record, dust-extractor comparison, and sitemap. Readback confirmed the current exact EI operating-manual URL, removal of the dead generic downloads URL, conservative spare-parts and three-year warranty language, the exact B0DYK9VDC1 destination, only tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before the affiliate link, stable database-record-sidebar and database-category-comparison analytics placements, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, or buy-or-repair claim was added.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/bd8a9bf68c1f6998cbff19dc6077fbd8fb0fc8d9/status",
-      "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/table-saws"
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/3061ed9738980c9603a4271713dc4e971cad90bb/status",
+      "https://everlasting-goods.com/database/festool-ct-26-ei-hepa",
+      "https://everlasting-goods.com/database/category/dust-extractors",
+      "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/sawstop-cns175-tgp236",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/table-saws",
+      "https://everlasting-goods.com/database/festool-ct-26-ei-hepa",
+      "https://everlasting-goods.com/database/category/dust-extractors",
       "https://everlasting-goods.com/sitemap.xml"
     ]
   },
@@ -70,6 +69,6 @@
     "Twenty-six structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
-    "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.4"
+    "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.8"
   ]
 }
