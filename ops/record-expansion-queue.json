@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 27,
+  "current_published_records": 28,
   "target_total_records": 100,
-  "candidate_count": 74,
+  "candidate_count": 73,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -434,20 +434,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "SawStop",
-      "model": "Jobsite Saw Pro",
-      "sku": "JSS-120A60",
-      "category": "table-saws",
-      "official_product_url": "https://www.sawstop.com/product/jobsite-saw-pro-jss-120a60",
-      "evidence_urls": [
-        "https://www.sawstop.com/support/warranty-information/"
-      ],
-      "reason": "The official SawStop product page identifies this exact table-saw model/SKU, and the official SawStop warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "SawStop",
       "model": "Industrial Cabinet Saw",

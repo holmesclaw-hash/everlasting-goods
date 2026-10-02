@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "6080343b78bf380a2b1e7c1fc7996efb0874f8e5ba10396e421f40d0bec53a41",
-  "generated_at": "2026-10-01T00:00:00.000Z",
+  "database_sha256": "72c5bb35d3b343c3816f062d58fb343dd857278475d7419d76caf60768a6d9ae",
+  "generated_at": "2026-10-02T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -4619,6 +4619,205 @@
       "cost_per_year": null
     },
     {
+      "id": 28,
+      "slug": "sawstop-jss-120a60",
+      "brand": "SawStop",
+      "model": "Jobsite Saw Pro",
+      "sku": "JSS-120A60",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": "JSS-120A60 is the United States 120V/60Hz Jobsite Saw Pro sold and shipped only as a full set with its mobile cart and high/low fence. The 230V JSS-230A50I, legacy JSS-MCA, and smaller CTS-120A60 Compact Table Saw remain separate models and configurations.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "SawStop documentation establishes the exact JSS-120A60 package, owner maintenance and adjustments, model-specific exploded parts lists, current orderable replacement assemblies, official belt and switch-box service procedures, and current Jobsite Saw warranty terms. The used-sale discovery discussion did not establish ownership duration, and no qualifying exact-SKU duration evidence was verified, so expected service life and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-02",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.sawstop.com/support/warranty-information/",
+          "title": "SawStop warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-20",
+          "purpose": "current Jobsite Saw warranty terms and exclusions"
+        },
+        {
+          "url": "https://www.sawstop.com/product-category/parts/jss/jss-120a60/",
+          "title": "SawStop JSS-120A60 official parts store",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "current official JSS-120A60 replacement-part categories"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B07WV5X277",
+          "title": "Amazon exact SawStop JSS-120A60 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-02",
+          "purpose": "exact Amazon model-to-ASIN destination"
+        },
+        {
+          "url": "https://www.sawstop.com/product/jobsite-saw-pro-jss-120a60",
+          "title": "SawStop JSS-120A60 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "exact identity, full-set package, specifications, included mobile cart, and variant boundaries"
+        },
+        {
+          "url": "https://www.mcguckin.com/2925123/product/Sawstop-JSS-120A60",
+          "title": "McGuckin Hardware SawStop JSS-120A60 commercial corroboration",
+          "source_type": "other",
+          "retrieved_date": "2026-10-02",
+          "purpose": "independent exact-SKU and UPC commercial corroboration"
+        },
+        {
+          "url": "https://www.sawstop.com/wp-content/uploads/2026/04/Parts-Lists-JSS-Pro-WEB-1.pdf",
+          "title": "SawStop Jobsite Saw Pro parts lists",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "model-specific exploded assemblies and part numbers"
+        },
+        {
+          "url": "https://www.sawstop.com/wp-content/uploads/2025/10/Belt-Replacing-JSS-Belt-Motor.pdf",
+          "title": "SawStop JSS belt replacement procedure",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "official belt service procedure and service-kit boundary"
+        },
+        {
+          "url": "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf",
+          "title": "SawStop JSS switch-box replacement procedure",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "official exact-model switch-box replacement procedure and safety boundary"
+        },
+        {
+          "url": "https://www.sawstop.com/wp-content/uploads/2026/04/Jobsite-Saw-Pro-Owners-Manual.pdf",
+          "title": "SawStop Jobsite Saw Pro owner's manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-02",
+          "purpose": "operation, safety, owner maintenance, adjustments, and user-replaceable-parts boundaries"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        },
+        {
+          "name": "identity",
+          "raw_value": "SawStop identifies JSS-120A60 as the United States 120 VAC, 60 Hz Jobsite Saw Pro with a 15-amp universal motor, 10-inch blade, 25-1/2-inch right rip capacity, high/low T-style fence, and collapsible mobile cart. SawStop states that this package is sold and shipped as a full set only, with no cartless option.",
+          "display_value": "120V, 15A 10-inch Jobsite Saw Pro with mobile cart and 25-1/2-inch rip capacity; full-set package only.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/product/jobsite-saw-pro-jss-120a60",
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "SawStop publishes current JSS-120A60 exploded parts lists and an exact-model parts store. Current categories and listings include the 120V motor, switch box, arbor and belt assemblies, fence and rail components, mobile-cart parts, guards, inserts, and smaller hardware. Current orderability was not confirmed for every item in the exploded lists.",
+          "display_value": "Partial: official current listings cover the motor, switch box, fence, cart, belt, guards, and other components, but not every listed part was confirmed orderable.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/product-category/parts/jss/jss-120a60/",
+          "verified_date": "2026-10-02",
+          "reverify_days": 90,
+          "stale_after": "2026-12-31"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "The owner's manual documents maintenance, user-replaceable parts, troubleshooting, and adjustments. SawStop separately publishes service procedures for belt replacement and for exact-model JSS-120A60 switch-box replacement, including required tools, safety warnings, disassembly, replacement, and reassembly.",
+          "display_value": "Official owner's manual plus service procedures for belt and switch-box replacement.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf",
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The owner's manual identifies owner maintenance, adjustments, and user-replaceable parts including the power cord and blade guard. Official service procedures document internal belt and switch-box replacement with safety warnings and substantial disassembly. This supports competent shop service rather than unrestricted novice internal repair.",
+          "display_value": "Shop-serviceable: owner power-cord and blade-guard work plus official belt and switch-box procedures with safety and disassembly requirements.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf",
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-02",
+          "reverify_days": 30,
+          "stale_after": "2026-11-01"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "The current SawStop warranty page covers a new Jobsite Saw purchased by the original retail purchaser from an authorized distributor for two years from purchase with product registration, and a refurbished Jobsite Saw Pro for one year. Normal wear, misuse, abuse, negligence, accidents, unauthorized repair or alteration, and lack of maintenance are excluded under current terms.",
+          "display_value": "Two-year limited warranty for an eligible new Jobsite Saw with product registration; current SawStop terms apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.sawstop.com/support/warranty-information/",
+          "verified_date": "2026-10-02",
+          "reverify_days": 180,
+          "stale_after": "2027-03-31"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07WV5X277?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-02"
+        }
+      ],
+      "repairability": {
+        "product_id": 28,
+        "parts_availability": "partial",
+        "parts_url": "https://www.sawstop.com/product-category/parts/jss/jss-120a60/",
+        "repair_manual_available": 1,
+        "repair_manual_url": "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 164,
+        "verified_date": "2026-10-02"
+      },
+      "warranty": {
+        "warranty_length": "Two years from purchase with product registration for an eligible new Jobsite Saw; one year for an eligible refurbished Jobsite Saw Pro.",
+        "warranty_coverage": "Original retail purchaser from an authorized SawStop distributor, subject to current terms and proof of purchase.",
+        "warranty_exclusions": "Misuse, abuse, negligence, accidents, normal wear, unauthorized repair or alteration, lack of maintenance, unauthorized modification, and operation outside the distributor country are excluded under current terms.",
+        "source_url": "https://www.sawstop.com/support/warranty-information/",
+        "verified_date": "2026-10-02"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 5,
       "slug": "sawstop-pcs31230-tgp236",
       "brand": "SawStop",
@@ -5022,6 +5221,14 @@
       "is_stale": false
     },
     {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "street_price",
+      "verified_date": "2026-10-02",
+      "reverify_days": 30,
+      "stale_after": "2026-11-01",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -5118,6 +5325,14 @@
       "is_stale": false
     },
     {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-02",
+      "reverify_days": 90,
+      "stale_after": "2026-12-31",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -6531,6 +6746,54 @@
       "verified_date": "2026-10-01",
       "reverify_days": 180,
       "stale_after": "2027-03-30",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "identity",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "sawstop-jss-120a60",
+      "field_name": "warranty",
+      "verified_date": "2026-10-02",
+      "reverify_days": 180,
+      "stale_after": "2027-03-31",
       "is_stale": false
     }
   ]
