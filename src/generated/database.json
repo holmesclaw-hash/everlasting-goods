@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "2a6d4c86a253a3b53ef76688445aeb7e365db7e948edb1798b8aeab535269d8b",
-  "generated_at": "2026-10-02T00:00:00.000Z",
+  "database_sha256": "98023b0948d67bd8ae888cf32110947f5b1a06a8d9fe9d00e4d8c75a2ed96b36",
+  "generated_at": "2026-10-03T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -4441,6 +4441,205 @@
       "cost_per_year": null
     },
     {
+      "id": 29,
+      "slug": "metabo-hpt-c10rjs",
+      "brand": "Metabo HPT",
+      "model": "C10RJS",
+      "sku": "C10RJS",
+      "category": "table-saws",
+      "category_group": "tools-shop",
+      "variant_notes": "Metabo HPT catalogs the complete saw-and-stand package as C10RJS and displays C10RJ(S) on the product page and owner's manual. U.S. retail corroboration identifies manufacturer part number C10RJSM and UPC 717709027831 for that package. The earlier C10RJ and international HiKOKI variants remain separate identities unless exact revision equivalence is documented.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Metabo HPT documentation establishes the exact C10RJS saw-and-fold-and-roll-stand package, owner cleaning and adjustment procedures, a detailed C10RJS E3 exploded parts list, an official parts-ordering path, factory repair support, and a two-year warranty. One exact-model owner report documents a broken alignment bolt and concern about finding parts but states no ownership duration. No qualifying exact-SKU duration evidence was verified, so expected service life and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-03",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.reddit.com/r/Tools/comments/1prvy6b/how_do_i_even_fix_this_there_isnt_even_a_parts/",
+          "title": "C10RJS owner report about a broken alignment bolt",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-03",
+          "purpose": "anecdotal exact-model failure and parts-discovery report without ownership duration"
+        },
+        {
+          "url": "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty",
+          "title": "Metabo HPT tool warranty terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "current limited-warranty conditions and exclusions"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B086YHDYPW",
+          "title": "Amazon exact Metabo HPT C10RJS destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-03",
+          "purpose": "exact Amazon model-to-ASIN destination"
+        },
+        {
+          "url": "https://www.metabo-hpt.com/docs/default-source/product-parts-lists/c10rjs_e3_bd.pdf?sfvrsn=5c64e2db_1",
+          "title": "Metabo HPT C10RJS E3 parts list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "exact C10RJS E3 exploded assemblies and component numbers"
+        },
+        {
+          "url": "https://metabo-hpt.com/products/product/c10rjs-10-jobsite-table-saw-w-fold-roll-stand-metabo-hpt",
+          "title": "Metabo HPT C10RJS official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "exact identity, specifications, included stand and accessories, and two-year warranty statement"
+        },
+        {
+          "url": "https://www.metabo-hpt.com/support/tool-repair-service",
+          "title": "Metabo HPT factory repair service",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "factory-trained repair support with genuine parts"
+        },
+        {
+          "url": "https://www.acmetools.com/metabo-hpt-10in-jobsite-table-saw-with-fold-roll-stand-c10rjsm/717709027831.html",
+          "title": "Acme Tools C10RJSM commercial corroboration",
+          "source_type": "other",
+          "retrieved_date": "2026-10-03",
+          "purpose": "independent MPN, UPC, 120V configuration, and stand-package corroboration"
+        },
+        {
+          "url": "https://www.metabo-hpt.com/support/parts",
+          "title": "Metabo HPT official parts ordering page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "official OEM-parts ordering path"
+        },
+        {
+          "url": "https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1",
+          "title": "Metabo HPT C10RJ(S) owner's manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-03",
+          "purpose": "operation, adjustments, owner maintenance, troubleshooting, and authorized-service boundaries"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Metabo HPT identifies C10RJS/C10RJ(S) as a 120V corded 10-inch jobsite table saw with a 15-amp, 4,500-RPM motor, 35-inch right and 22-inch left rip capacity, aluminum table, soft start, electric brake, overload protection, and included fold-and-roll stand. Acme Tools corroborates manufacturer part number C10RJSM and UPC 717709027831 for the U.S. package.",
+          "display_value": "120V, 15A 10-inch C10RJS jobsite table saw with included fold-and-roll stand and 35-inch right rip capacity.",
+          "evidence_tier": "T2",
+          "source_url": "https://metabo-hpt.com/products/product/c10rjs-10-jobsite-table-saw-w-fold-roll-stand-metabo-hpt",
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Metabo HPT publishes an exact C10RJS E3 exploded parts list identifying components including the switch, motor rotor and stator, bearings, carbon brushes, power cord, fence, guards, table, and rolling-stand parts. Its official parts page routes owners to an OEM-parts search. Current orderability was not verified for individual C10RJS components.",
+          "display_value": "Partial: an official exploded parts list identifies the switch, motor, carbon brushes, fence, guards, and stand components, but individual orderability remains unverified.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.metabo-hpt.com/docs/default-source/product-parts-lists/c10rjs_e3_bd.pdf?sfvrsn=5c64e2db_1",
+          "verified_date": "2026-10-03",
+          "reverify_days": 90,
+          "stale_after": "2027-01-01"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Metabo HPT publishes the C10RJ(S) owner's manual with setup, operation, adjustments, troubleshooting, cleaning, fastener inspection, guard checks, and lubrication guidance. It states that all service other than routine maintenance must be performed by an authorized Metabo HPT repair center, so it is not an owner repair manual.",
+          "display_value": "Official owner's manual covers maintenance and adjustments but is not an internal repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1",
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The owner's manual documents owner cleaning, periodic fastener and table-insert inspection, blade-guard checks, alignment adjustments, and no-additional-lubrication guidance. It directs internal electrical or mechanical repairs and all service beyond routine maintenance to qualified technicians or an authorized repair center. Metabo HPT also offers factory-trained repair using genuine parts.",
+          "display_value": "Shop-serviceable: owner cleaning, fastener and guard checks, and adjustments are documented; internal work is directed to authorized repair.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1",
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-03",
+          "reverify_days": 30,
+          "stale_after": "2026-11-02"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "The exact product page states a two-year warranty. Current Metabo HPT terms cover the eligible original purchaser for defects in materials and workmanship, require proof of purchase, and exclude normal wear, abuse, improper or missing maintenance, improper setup or adjustment, unauthorized repair or alteration, accidents, and nonconforming parts.",
+          "display_value": "Two-year limited warranty for the eligible original purchaser; current Metabo HPT terms apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty",
+          "verified_date": "2026-10-03",
+          "reverify_days": 180,
+          "stale_after": "2027-04-01"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B086YHDYPW?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-03"
+        }
+      ],
+      "repairability": {
+        "product_id": 29,
+        "parts_availability": "partial",
+        "parts_url": "https://www.metabo-hpt.com/support/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 170,
+        "verified_date": "2026-10-03"
+      },
+      "warranty": {
+        "warranty_length": "Two years from the original purchase date for the eligible C10RJS package.",
+        "warranty_coverage": "Original purchaser coverage against defects in materials and workmanship, subject to current terms and proof of purchase.",
+        "warranty_exclusions": "Normal wear, abuse, operation contrary to the manual, improper or missing maintenance, improper setup or adjustment, unauthorized repair or alteration, accidents, and nonconforming parts are excluded under current terms.",
+        "source_url": "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty",
+        "verified_date": "2026-10-03"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 27,
       "slug": "sawstop-cns175-tgp236",
       "brand": "SawStop",
@@ -5244,6 +5443,14 @@
       "is_stale": false
     },
     {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "street_price",
+      "verified_date": "2026-10-03",
+      "reverify_days": 30,
+      "stale_after": "2026-11-02",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -5340,6 +5547,14 @@
       "is_stale": false
     },
     {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-03",
+      "reverify_days": 90,
+      "stale_after": "2027-01-01",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -6801,6 +7016,54 @@
       "verified_date": "2026-10-02",
       "reverify_days": 180,
       "stale_after": "2027-03-31",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "identity",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
+      "is_stale": false
+    },
+    {
+      "slug": "metabo-hpt-c10rjs",
+      "field_name": "warranty",
+      "verified_date": "2026-10-03",
+      "reverify_days": 180,
+      "stale_after": "2027-04-01",
       "is_stale": false
     }
   ]

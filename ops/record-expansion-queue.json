@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 28,
+  "current_published_records": 29,
   "target_total_records": 100,
-  "candidate_count": 73,
+  "candidate_count": 72,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -449,21 +449,6 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Metabo HPT",
-      "model": "C10RJS",
-      "sku": "C10RJS",
-      "category": "table-saws",
-      "official_product_url": "https://metabo-hpt.com/products/product/c10rjs-10-jobsite-table-saw-w-fold-roll-stand-metabo-hpt",
-      "evidence_urls": [
-        "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty"
-      ],
-      "reason": "The official Metabo HPT product page identifies this exact table-saw model/SKU, and the official Metabo HPT warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-
 
     {
       "brand": "Makita",

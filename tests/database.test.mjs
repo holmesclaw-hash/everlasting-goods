@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-02T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-03T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -89,6 +89,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "dewalt-dcs7485b": "B01H9BLZ6A",
     "sawstop-cns175-tgp236": "B006G36VHG",
     "sawstop-jss-120a60": "B07WV5X277",
+    "metabo-hpt-c10rjs": "B086YHDYPW",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -113,6 +114,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-09-30"
       : product.slug === "sawstop-jss-120a60"
         ? "2026-10-02"
+      : product.slug === "metabo-hpt-c10rjs"
+        ? "2026-10-03"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"
       : product.slug === "bosch-pr20evs"
@@ -165,6 +168,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "dewalt-dcs7485b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCS7485B/3/Instruction_Manual/EN/N785278_DCS7485_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/WOODWORKING/BENCH-SAWS/60V-MAX-TABLE-SAW---BARE/p/DCS7485B_10"],
     "sawstop-cns175-tgp236": ["https://www.sawstop.com/wp-content/uploads/2026/04/Contractor-Saw-Owners-Manual_US_EN-3-1.pdf", "https://www.sawstop.com/wp-content/uploads/2026/04/Parts_Lists_CNS.pdf", "https://sawstop.com/product-category/parts/cns"],
     "sawstop-jss-120a60": ["https://www.sawstop.com/wp-content/uploads/2026/04/Jobsite-Saw-Pro-Owners-Manual.pdf", "https://www.sawstop.com/wp-content/uploads/2026/04/Parts-Lists-JSS-Pro-WEB-1.pdf", "https://www.sawstop.com/product-category/parts/jss/jss-120a60/", "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf"],
+    "metabo-hpt-c10rjs": ["https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1", "https://www.metabo-hpt.com/docs/default-source/product-parts-lists/c10rjs_e3_bd.pdf?sfvrsn=5c64e2db_1", "https://www.metabo-hpt.com/support/parts"],
     "bosch-1617evspk": ["https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
