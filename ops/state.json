@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 28,
-    "research_candidates": 73,
+    "current_published_records": 29,
+    "research_candidates": 72,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "one_open_license_exact_product_image_live_in_product_database",
     "verified_images": 1,
-    "blocked_models": 27,
+    "blocked_models": 28,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -36,26 +36,35 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-02T06:24:44Z",
-  "last_action": "Refreshed the existing Bosch 1617EVSPK record to restore a live exact-model manufacturer parts path: Bosch exposes spare-parts ordering from the exact product page and documents online or phone replacement-parts ordering, while the outbound exact-model catalog currently returns HTTP 404; parts support is therefore partial T2 and individual component orderability remains explicitly unverified",
-  "last_live_url": "https://everlasting-goods.com/database/bosch-1617evspk",
-  "last_commit": "6cb20e5",
+  "last_verified_at": "2026-10-03T06:19:07Z",
+  "last_action": "Published and live-verified a conservative Metabo HPT C10RJS repairability record with exact package identity, manufacturer owner-maintenance guidance, an exact exploded parts list, official parts and factory-service paths, current warranty terms, and an exact Amazon destination; parts availability remains partial because individual component orderability was not established, while expected service life and a buy-or-repair recommendation remain unverified",
+  "last_live_url": "https://everlasting-goods.com/database/metabo-hpt-c10rjs",
+  "last_commit": "2fe4999",
   "last_evidence": {
-    "local_gates": "The Bosch 1617EVSPK regression failed against origin/main before implementation and passed afterward. A clean migration replay applied all 30 migrations, produced 28 products at evidence revision 30, returned SQLite integrity ok with zero foreign-key violations, and matched the tracked database logically. npm run verify passed all 108 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities. The grounded research note passed strict citation verification at 50% sentence coverage. git diff --check and credential, private-key, stale-tag, unsupported-experience, and affiliate-tag reviews passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 6cb20e5 completed successfully.",
-    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Bosch 1617EVSPK record, router comparison, database hub, and sitemap. Readback confirmed the live exact-model Bosch parts destination, partial-parts wording, absence of the dead outbound catalog route, the exact B00005RHPD destination with tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before affiliate links, stable database-record-sidebar, database-category-comparison, and database-grid analytics placements, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, individual-component-orderability, or buy-or-repair claim was added.",
+    "local_gates": "The Metabo HPT C10RJS regression was added before the record implementation and passes. A clean replay applied all 31 migrations, produced 29 products at evidence revision 31, returned SQLite integrity ok with zero foreign-key violations, and matched the tracked database logically. npm run verify passed all 109 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check passed.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 2fe4999 completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Metabo HPT C10RJS record, table-saw comparison, database hub, and sitemap. Readback confirmed the exact C10RJS package wording, partial-parts and shop-serviceable boundaries, explicit unverified service-life and recommendation limits, exact ASIN B086YHDYPW with tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before the commercial link, stable database-record-sidebar, database-category-comparison, and database-grid analytics placements, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, individual-component-orderability, or buy-or-repair claim was added.",
     "source_urls": [
-      "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
-      "https://www.boschtools.com/us/en/service/replacement-parts/",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/6cb20e5/status",
-      "https://everlasting-goods.com/database/bosch-1617evspk",
-      "https://everlasting-goods.com/database/category/routers",
+      "https://metabo-hpt.com/products/product/c10rjs-10-jobsite-table-saw-w-fold-roll-stand-metabo-hpt",
+      "https://www.metabo-hpt.com/docs/default-source/2020-tool-cards-metabo-hpt/ic133_metabo-hpt_c10rjs_tool-card_3-19-20.pdf?sfvrsn=d850e266_2",
+      "https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1",
+      "https://www.metabo-hpt.com/docs/default-source/product-parts-lists/c10rjs_e3_bd.pdf?sfvrsn=5c64e2db_1",
+      "https://www.metabo-hpt.com/support/parts",
+      "https://www.metabo-hpt.com/support/tool-repair-service",
+      "https://www.metabo-hpt.com/support/warranty-information/metabo-hpt-tool-warranty",
+      "https://www.acmetools.com/metabo-hpt-10in-jobsite-table-saw-with-fold-roll-stand-c10rjsm/717709027831.html",
+      "https://www.reddit.com/r/Tools/comments/1prvy6b/how_do_i_even_fix_this_there_isnt_even_a_parts/",
+      "https://www.amazon.com/dp/B086YHDYPW",
+      "https://www.cpsc.gov/Recalls?search_api_fulltext=C10RJS",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/2fe4999/status",
+      "https://everlasting-goods.com/database/metabo-hpt-c10rjs",
+      "https://everlasting-goods.com/database/category/table-saws",
       "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/bosch-1617evspk",
-      "https://everlasting-goods.com/database/category/routers",
+      "https://everlasting-goods.com/database/metabo-hpt-c10rjs",
+      "https://everlasting-goods.com/database/category/table-saws",
       "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/sitemap.xml"
     ]
@@ -70,9 +79,10 @@
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Bosch 1617EVSPK individual component orderability remains unverified because the exact product page exposes a parts-ordering entry but its outbound exact-model catalog currently returns HTTP 404",
     "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
-    "Twenty-seven structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "Twenty-eight structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
     "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "SawStop JSS-120A60 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
+    "Metabo HPT C10RJS expected service life and buy-or-repair recommendation remain unverified because the exact-model owner report supplied no ownership duration; individual component orderability also remains unverified, and article publication is blocked by missing lawful reusable exact-product image rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.8"
   ]
