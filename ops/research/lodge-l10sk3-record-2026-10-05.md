@@ -1,7 +1,7 @@
 # Lodge L10SK3 repairability-record evidence card
 
 Reviewed: 2026-10-05
-Status: implementation candidate pending local gates and live deployment verification
+Status: implemented, gated, and live-verified
 
 ## Exact product and destination
 

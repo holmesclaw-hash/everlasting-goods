@@ -8,7 +8,7 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 31,
+    "current_published_records": 32,
     "research_candidates": 70,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
@@ -21,14 +21,15 @@
     "policy_path": "ops/editorial-photo-policy.md"
   },
   "product_photo_pipeline": {
-    "status": "one_open_license_exact_product_image_live_in_product_database",
-    "verified_images": 1,
+    "status": "two_open_license_exact_product_images_live_in_product_database",
+    "verified_images": 2,
     "blocked_models": 30,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
       "Approved Amazon Product Advertising API images configured outside chat",
-      "Written manufacturer editorial-use permission"
+      "Written manufacturer editorial-use permission",
+      "Properly attributed open-license exact-product images"
     ]
   },
   "program_status": "live_revenue_paths_active_account_integrations_remaining",
@@ -36,37 +37,39 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-05T05:25:12Z",
-  "last_action": "Published and live-verified a conservative Makita XCV24ZX repairability record with exact discontinued tool-only identity, manufacturer owner-maintenance guidance, an exact XCV24 exploded parts breakdown, mixed third-party OEM-parts availability, current service and warranty paths, and an exact Amazon destination; parts availability remains partial while expected service life and a buy-or-repair recommendation remain unverified",
-  "last_live_url": "https://everlasting-goods.com/database/makita-xcv24zx",
-  "last_commit": "9b46828",
+  "last_verified_at": "2026-10-05T06:39:53Z",
+  "last_action": "Published and live-verified a Lodge 12-Inch Classic Cast Iron Skillet repairability record, connected the existing cast-iron guide to it, and reused the guide's documented CC BY-SA exact-product photograph in the database; the record preserves manufacturer maintenance and warranty limits, exact ASIN B00006JSUB, and owner-evidence boundaries while expected service life, price, maintenance cost, and a repair-versus-replace recommendation remain unverified",
+  "last_live_url": "https://everlasting-goods.com/database/lodge-l10sk3",
+  "last_commit": "be6cc53",
   "last_evidence": {
-    "local_gates": "The Makita XCV24ZX regression was added before the record implementation and passes. A clean replay applied all 33 migrations, produced 31 products at evidence revision 33, returned SQLite integrity ok with zero foreign-key violations, and matched the tracked database logically. npm run verify passed all 111 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 9b46828 completed successfully.",
-    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Makita XCV24ZX record, dust-extractor comparison, database hub, and sitemap. Readback confirmed the discontinued XCV24ZX tool-only package boundary, batteries-and-charger exclusion, partial-parts and shop-serviceable limits, exact ASIN B09SNVX392 with tag everlastin08f-20, sponsored/nofollow/noopener/noreferrer qualification, disclosure before the commercial link, stable database-record-sidebar, database-category-comparison, and database-grid analytics placements, correct canonicals, and sitemap inclusion. No article or image was published, and no price, rating, seller, availability, lifespan, maintenance-cost, complete component-orderability, or buy-or-repair claim was added.",
+    "local_gates": "The Lodge L10SK3 regression was added before the record implementation and passes. A clean replay applied all 34 migrations, produced 32 products at evidence revision 34, returned SQLite integrity ok with zero foreign-key violations, and matched the tracked database logically. npm run verify passed all 113 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities. git diff --check passed, and the database image copy matched the already documented article original by SHA-256.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit be6cc53 completed successfully.",
+    "live_readback": "Cache-busted custom-domain checks returned HTTP 200 for the Lodge L10SK3 record, skillet comparison, cast-iron guide, database hub, sitemap, and exact-product image. Readback confirmed the exact standalone 12-inch ASIN B00006JSUB with tag everlastin08f-20, absence of stale tags, sponsored/nofollow/noopener/noreferrer link qualification, disclosure before commercial links, database-record-sidebar, database-category-comparison, database-grid, decision-start, and decision-end analytics placements, the guide-to-record link, CC BY-SA photo attribution and rights link, correct canonicals, and sitemap inclusion. No price, rating, seller, availability, population-level lifespan, failure rate, maintenance-cost, or repair-versus-replace claim was added.",
     "source_urls": [
-      "https://www.makitatools.com/products/details/XCV24ZX",
-      "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf",
-      "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf",
-      "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/f0459c40-0721-4500-849e-c26581c4f5ef_XCV24ZX_NTFE.pdf",
-      "https://www.makitatools.com/service/warranty",
-      "https://www.makitatools.com/service/service-centers",
-      "https://makitatools.com/company/press-releases/2022/makita-expands-dust-extraction-system-with-two-new-hepa-dry-vacuums",
-      "https://www.ereplacementparts.com/models/canister-vacuum/makita/id1348887/xcv24zx/",
-      "https://www.amazon.com/dp/B09SNVX392",
-      "https://toolup.com/products/makita-xcv24zx-36v-18v-x2-lxt-hepa-filter-dry-dust-extractor-4-gal-tool-only",
-      "https://www.cpsc.gov/Recalls?search_api_fulltext=XCV24ZX",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/9b46828/status",
-      "https://everlasting-goods.com/database/makita-xcv24zx",
-      "https://everlasting-goods.com/database/category/dust-extractors",
+      "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet?variant=51685752242548",
+      "https://www.lodgecastiron.com/pages/lodge-promise",
+      "https://www.lodgecastiron.com/pages/how-to-clean",
+      "https://www.lodgecastiron.com/pages/how-to-season",
+      "https://commons.wikimedia.org/wiki/File:Lodge_skillet.jpg",
+      "https://www.centurylife.org/in-depth-product-review-lodge-12-inch-cast-iron-skillet-10sk-l10sk3ashh41b",
+      "https://permies.com/t/21138/Lodge-good-skillet-brand",
+      "https://www.reddit.com/r/BuyItForLife/comments/etysnu",
+      "https://www.amazon.com/dp/B00006JSUB",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/be6cc538f7dd091dc0a705b81c30bbe4126af8c6/status",
+      "https://everlasting-goods.com/database/lodge-l10sk3",
+      "https://everlasting-goods.com/database/category/skillets",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://everlasting-goods.com/sitemap.xml",
+      "https://everlasting-goods.com/images/products/lodge-l10sk3-12-inch-skillet.jpg"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/makita-xcv24zx",
-      "https://everlasting-goods.com/database/category/dust-extractors",
+      "https://everlasting-goods.com/database/lodge-l10sk3",
+      "https://everlasting-goods.com/database/category/skillets",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://everlasting-goods.com/sitemap.xml",
+      "https://everlasting-goods.com/images/products/lodge-l10sk3-12-inch-skillet.jpg"
     ]
   },
   "blockers": [
@@ -79,7 +82,7 @@
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Bosch 1617EVSPK individual component orderability remains unverified because the exact product page exposes a parts-ordering entry but its outbound exact-model catalog currently returns HTTP 404",
     "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
-    "Thirty structured product records remain without reusable exact-model image rights; the Estwing B3-3LB record is the only product-database record with a verified reusable exact-product image",
+    "Thirty structured product records remain without reusable exact-model image rights; the Estwing B3-3LB and Lodge 12-Inch Classic Cast Iron Skillet records have verified reusable exact-product images",
     "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "SawStop JSS-120A60 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "Metabo HPT C10RJS expected service life and buy-or-repair recommendation remain unverified because the exact-model owner report supplied no ownership duration; individual component orderability also remains unverified, and article publication is blocked by missing lawful reusable exact-product image rights",
