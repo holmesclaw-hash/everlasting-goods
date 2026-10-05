@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-04T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-05T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -91,6 +91,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "sawstop-jss-120a60": "B07WV5X277",
     "metabo-hpt-c10rjs": "B086YHDYPW",
     "makita-xcv22ptu": "B0B52D7QP4",
+    "makita-xcv24zx": "B09SNVX392",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -119,6 +120,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-10-03"
       : product.slug === "makita-xcv22ptu"
         ? "2026-10-04"
+      : product.slug === "makita-xcv24zx"
+        ? "2026-10-05"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"
       : product.slug === "bosch-pr20evs"
@@ -173,6 +176,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "sawstop-jss-120a60": ["https://www.sawstop.com/wp-content/uploads/2026/04/Jobsite-Saw-Pro-Owners-Manual.pdf", "https://www.sawstop.com/wp-content/uploads/2026/04/Parts-Lists-JSS-Pro-WEB-1.pdf", "https://www.sawstop.com/product-category/parts/jss/jss-120a60/", "https://www.sawstop.com/wp-content/uploads/2025/10/Switchbox-JSS-Switchbox-Replacement.pdf"],
     "metabo-hpt-c10rjs": ["https://www.metabo-hpt.com/docs/default-source/product-owners-manuals/c10rj(s)-instruction-manual-071320.pdf?sfvrsn=4a65d267_1", "https://www.metabo-hpt.com/docs/default-source/product-parts-lists/c10rjs_e3_bd.pdf?sfvrsn=5c64e2db_1", "https://www.metabo-hpt.com/support/parts"],
     "makita-xcv22ptu": ["https://cdn.makitatools.com/apps/cms/doc/prod/XCV/327ba01a-87b8-469b-b38e-6be962ae4f80_XCV22,XCV25_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/0334bc58-3f68-4102-9b70-b4ea1c4be548_XCV22_PB_Breakdown_XCV22PTU,ZU_03-22.pdf", "https://www.makitatools.com/service/service-centers"],
+    "makita-xcv24zx": ["https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf", "https://www.makitatools.com/service/service-centers"],
     "bosch-1617evspk": ["https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],

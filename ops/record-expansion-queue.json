@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 30,
+  "current_published_records": 31,
   "target_total_records": 100,
-  "candidate_count": 71,
+  "candidate_count": 70,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -479,20 +479,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "36V (18V X2) LXT Brushless 4 Gallon HEPA Filter Dry Dust Extractor, Tool Only",
-      "sku": "XCV24ZX",
-      "category": "dust extractor",
-      "official_product_url": "https://www.makitatools.com/products/details/XCV24ZX",
-      "evidence_urls": [
-        "https://www.makitatools.com/warranty"
-      ],
-      "reason": "The manufacturer page identifies XCV24ZX as a four-gallon HEPA dry dust extractor, while Makita's official warranty provides support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "2.5 HP Big Bore Air Compressor",

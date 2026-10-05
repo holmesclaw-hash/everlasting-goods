@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "fa9ff4fc089d7ee6bb36f28d4feab076d2a538ccf46136eaf2b3295b132e3323",
-  "generated_at": "2026-10-04T00:00:00.000Z",
+  "database_sha256": "b9723bf965e3c65e3a262056a7f19ab32594a90ebb00f88dd3cfca7a44cffd9c",
+  "generated_at": "2026-10-05T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -246,7 +246,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "warranty"
         }
       ],
@@ -1117,7 +1117,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "warranty"
         }
       ],
@@ -1810,7 +1810,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "warranty"
         }
       ],
@@ -1954,7 +1954,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -1968,7 +1968,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2132,7 +2132,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -2160,7 +2160,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2292,6 +2292,212 @@
         "warranty_exclusions": "Published exclusions include third-party repair attempts, normal wear, abuse, misuse, improper maintenance or operation, non-genuine batteries, and alteration; current terms and jurisdictional rights control.",
         "source_url": "https://www.makitatools.com/service/warranty",
         "verified_date": "2026-10-04"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 31,
+      "slug": "makita-xcv24zx",
+      "brand": "Makita",
+      "model": "XCV24ZX",
+      "sku": "XCV24ZX",
+      "category": "dust-extractors",
+      "category_group": "tools-shop",
+      "variant_notes": "XCV24ZX is the four-gallon dry dust extractor sold as a tool-only package; Makita now labels its official product page discontinued. Batteries and charger are not included. XCV21ZX and XCV21PTX are separate 2.1-gallon packages, XCV25ZX is a separate 18V four-gallon AWS vacuum, and XCV23Z is a separate wet/dry package. Evidence from those sibling products is not transferred.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Makita introduced XCV24ZX in 2022 and still publishes the exact owner manual, exploded parts breakdown, service paths, and warranty policy, but the current official product page is marked discontinued. A third-party OEM-parts snapshot shows mixed availability rather than complete support, and no qualifying exact-SKU owner report with ownership duration was located. Expected service life, repair economics, and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-05",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://makitatools.com/company/press-releases/2022/makita-expands-dust-extraction-system-with-two-new-hepa-dry-vacuums",
+          "title": "Makita XCV21 and XCV24 launch release",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "February 2022 introduction and XCV21-versus-XCV24 package distinctions"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "current lithium-ion tool, battery, and charger warranty terms"
+        },
+        {
+          "url": "https://www.ereplacementparts.com/models/canister-vacuum/makita/id1348887/xcv24zx/",
+          "title": "eReplacementParts XCV24ZX OEM-parts snapshot",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "dated third-party snapshot showing mixed OEM-part availability, not manufacturer-wide availability"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B09SNVX392",
+          "title": "Amazon exact Makita XCV24ZX destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact Amazon model-to-ASIN destination"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf",
+          "title": "Makita XCV24ZX parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact exploded diagram and internal component part numbers"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/f0459c40-0721-4500-849e-c26581c4f5ef_XCV24ZX_NTFE.pdf",
+          "title": "Makita XCV24ZX new-tool overview",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact specifications, UPC, standard equipment, and tool-only battery boundary"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/XCV24ZX",
+          "title": "Makita XCV24ZX official discontinued product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact tool-only identity, discontinued status, specifications, included maintenance items, and package boundary"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "factory, authorized, and direct-repair service paths"
+        },
+        {
+          "url": "https://toolup.com/products/makita-xcv24zx-36v-18v-x2-lxt-hepa-filter-dry-dust-extractor-4-gal-tool-only",
+          "title": "Toolup XCV24ZX commercial corroboration",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "independent SKU, UPC, package contents, and tool-only corroboration"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf",
+          "title": "Makita XCV21 and XCV24 instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "owner operation, filter and tank maintenance, battery care, and authorized-service boundary"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Makita identifies XCV24ZX as its 36V (18V X2) LXT brushless four-gallon HEPA dry dust extractor, tool only. The package includes an anti-static hose, HEPA filter, damper, pre-filter, disposal bags, three cuff adapters, and storage caddy; batteries and charger are not included. Makita specifies UPC 088381898959 and now labels the official product page discontinued.",
+          "display_value": "36V (18V X2) brushless four-gallon dry HEPA extractor, tool-only; batteries and charger not included; UPC 088381898959; official product page marked discontinued.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/XCV24ZX",
+          "verified_date": "2026-10-05",
+          "reverify_days": 90,
+          "stale_after": "2027-01-03"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes an exact XCV24ZX parts breakdown identifying the motor assembly, rotor, stator, controllers, switches, terminals, HEPA and pre-filters, dampers, tank, casters, hose, cuffs, and storage box. A dated third-party OEM-parts snapshot shows mixed availability, including some stocked or special-order hardware and at least one damper marked no longer available. This snapshot does not establish manufacturer-wide orderability for every component.",
+          "display_value": "Partial: the exact XCV24 parts breakdown identifies the motor, rotor, stator, controllers, filters, tank, and accessories; a dated reseller snapshot shows mixed orderability rather than complete support.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 90,
+          "stale_after": "2027-01-03"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Makita publishes a shared XCV21 and XCV24 instruction manual covering setup, operation, battery care, filter installation and cleaning, tank and bag emptying, hose care, storage, and troubleshooting. It directs repairs and other maintenance or adjustment to Makita Authorized or Factory Service Centers, so it is not an internal repair manual.",
+          "display_value": "Official owner manual covers filter, tank, bag, hose, and battery maintenance; it is not an internal repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "The manual documents owner filter cleaning and replacement, tank and bag emptying, hose care, battery care, caster operation, and basic troubleshooting. It directs internal repair and all other maintenance or adjustment to Makita Authorized or Factory Service Centers using Makita replacement parts.",
+          "display_value": "Owner maintenance covers filters, bags, hose, batteries, and tank; internal work is directed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 30,
+          "stale_after": "2026-11-04"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Makita currently warrants lithium-ion tools, batteries, and chargers against defects in workmanship and materials for three years from original purchase, subject to current terms and exclusions. XCV24ZX is sold without batteries or charger, so package contents and warranty coverage must not be conflated.",
+          "display_value": "Three-year limited warranty for the lithium-ion tool; separately purchased Makita batteries and chargers have their own three-year coverage under current terms.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B09SNVX392?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-05"
+        }
+      ],
+      "repairability": {
+        "product_id": 31,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 185,
+        "verified_date": "2026-10-05"
+      },
+      "warranty": {
+        "warranty_length": "Three-year limited warranty for the lithium-ion tool; batteries and charger are not included in XCV24ZX.",
+        "warranty_coverage": "Repair or replacement after inspection when trouble during the three-year period is caused by defective workmanship or material; separately purchased lithium-ion batteries and chargers have their own coverage under the policy.",
+        "warranty_exclusions": "Published exclusions include third-party repair attempts, normal wear, abuse, misuse, improper maintenance or operation, non-genuine batteries, and alteration; current terms and jurisdictional rights control.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-10-05"
       },
       "cost_per_year": null
     },
@@ -3400,7 +3606,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "current warranty terms"
         },
         {
@@ -3414,7 +3620,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "factory and authorized service path"
         },
         {
@@ -3606,7 +3812,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-04",
+          "retrieved_date": "2026-10-05",
           "purpose": "warranty"
         }
       ],
@@ -5658,6 +5864,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-xcv24zx",
+      "field_name": "street_price",
+      "verified_date": "2026-10-05",
+      "reverify_days": 30,
+      "stale_after": "2026-11-04",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -5770,6 +5984,22 @@
       "is_stale": false
     },
     {
+      "slug": "makita-xcv24zx",
+      "field_name": "identity",
+      "verified_date": "2026-10-05",
+      "reverify_days": 90,
+      "stale_after": "2027-01-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 90,
+      "stale_after": "2027-01-03",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -7327,6 +7557,46 @@
       "verified_date": "2026-10-04",
       "reverify_days": 180,
       "stale_after": "2027-04-02",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xcv24zx",
+      "field_name": "warranty",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
       "is_stale": false
     }
   ]

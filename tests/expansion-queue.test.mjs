@@ -6,10 +6,10 @@ const queueUrl = new URL("../ops/record-expansion-queue.json", import.meta.url);
 
 test("record expansion queue reaches the 100-record planning target without publishing unverified candidates", async () => {
   const queue = JSON.parse(await readFile(queueUrl, "utf8"));
-  assert.equal(queue.current_published_records, 30);
+  assert.equal(queue.current_published_records, 31);
   assert.equal(queue.target_total_records, 100);
-  assert.equal(queue.candidate_count, 71);
-  assert.equal(queue.candidates.length, 71);
+  assert.equal(queue.candidate_count, 70);
+  assert.equal(queue.candidates.length, 70);
   assert.ok(queue.current_published_records + queue.candidates.length >= queue.target_total_records);
   assert.equal(
     queue.candidates.some((candidate) => candidate.model === "GSR18V-800CN"),
@@ -65,6 +65,11 @@ test("record expansion queue reaches the 100-record planning target without publ
     queue.candidates.some((candidate) => candidate.sku === "XCV22PTU"),
     false,
     "published XCV22PTU must leave the research queue",
+  );
+  assert.equal(
+    queue.candidates.some((candidate) => candidate.sku === "XCV24ZX"),
+    false,
+    "published XCV24ZX must leave the research queue",
   );
 
   const festoolOf1400 = queue.candidates.find(
