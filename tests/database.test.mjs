@@ -92,6 +92,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "metabo-hpt-c10rjs": "B086YHDYPW",
     "makita-xcv22ptu": "B0B52D7QP4",
     "makita-xcv24zx": "B09SNVX392",
+    "lodge-l10sk3": "B00006JSUB",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -121,6 +122,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
       : product.slug === "makita-xcv22ptu"
         ? "2026-10-04"
       : product.slug === "makita-xcv24zx"
+        ? "2026-10-05"
+      : product.slug === "lodge-l10sk3"
         ? "2026-10-05"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"

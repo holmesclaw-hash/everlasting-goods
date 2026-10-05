@@ -44,6 +44,7 @@ const restoredGuides = {
   },
   [CAST_IRON_GUIDE_SLUG]: {
     slug: CAST_IRON_GUIDE_SLUG,
+    databaseSlug: "lodge-l10sk3",
     title: "Cast-Iron Skillets That Last: Lodge 12-Inch Evidence Review",
     description: "A source-checked review of the Lodge 12-inch Classic Cast Iron Skillet, including maintainable seasoning, warranty limits, ownership tradeoffs, and dated owner evidence.",
     reviewedAt: "2026-08-30",

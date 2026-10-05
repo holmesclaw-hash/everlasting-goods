@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "b9723bf965e3c65e3a262056a7f19ab32594a90ebb00f88dd3cfca7a44cffd9c",
+  "database_sha256": "6f83ea41e058b3dcc1612550a5c7744e082b48ff12f494d223419473a96bd0de",
   "generated_at": "2026-10-05T00:00:00.000Z",
   "products": [
     {
@@ -3921,6 +3921,205 @@
       "cost_per_year": null
     },
     {
+      "id": 32,
+      "slug": "lodge-l10sk3",
+      "brand": "Lodge",
+      "model": "12-Inch Classic Cast Iron Skillet",
+      "sku": "L10SK3",
+      "category": "skillets",
+      "category_group": "kitchen",
+      "variant_notes": "This record is for the standalone Lodge 12-inch seasoned skillet associated with SKU L10SK3 and exact ASIN B00006JSUB. The 10.25-inch B00006JSUA variant and packages that add a silicone handle holder or other accessories are separate configurations; their package facts are not transferred.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Lodge documents a solid cast-iron body, renewable seasoning, cleaning and rust recovery, and a limited lifetime warranty with explicit exclusions. Independent reports describe meaningful weight, heating, and surface tradeoffs, and one exact-family owner report spans 12 years, but the evidence does not establish a population-level expected service life, failure rate, or repair-versus-replace recommendation.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": "/images/products/lodge-l10sk3-12-inch-skillet.jpg",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lodge_skillet.jpg",
+      "image_license_basis": "The open-license record identifies the exact model as a Lodge 12-inch cast-iron skillet; it supports the exact named 12-inch product model but does not independently establish the current L10SK3 SKU.",
+      "last_reviewed_date": "2026-10-05",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "image_attribution": "Jim Heaphy (Cullen328) / Wikimedia Commons",
+      "image_alt": "Lodge 12-Inch Classic Cast Iron Skillet viewed from above, showing the seasoned cooking surface, long handle, helper handle, and pour spouts",
+      "sources": [
+        {
+          "url": "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet?variant=51685752242548",
+          "title": "Lodge Classic Cast Iron Skillet official 12-inch product-family page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "12-inch product-family identity, solid cast-iron construction, seasoning, origin, and use surfaces"
+        },
+        {
+          "url": "https://permies.com/t/21138/Lodge-good-skillet-brand",
+          "title": "Permies Lodge 12-inch skillet owner discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-05",
+          "purpose": "dated Lodge 12-inch owner-duration context"
+        },
+        {
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/etysnu",
+          "title": "Reddit BuyItForLife Lodge 10SK 12-inch owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact 10SK 12-inch owner report spanning 2008 to 2020"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B00006JSUB",
+          "title": "Amazon exact standalone Lodge 12-inch skillet destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact standalone 12-inch Amazon model destination"
+        },
+        {
+          "url": "https://www.centurylife.org/in-depth-product-review-lodge-12-inch-cast-iron-skillet-10sk-l10sk3ashh41b",
+          "title": "CenturyLife Lodge 10SK and L10SK3 12-inch skillet review",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact-family independent review and ownership tradeoffs"
+        },
+        {
+          "url": "https://www.lodgecastiron.com/pages/lodge-promise",
+          "title": "Lodge Made Right limited lifetime warranty",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "limited lifetime warranty coverage and exclusions"
+        },
+        {
+          "url": "https://www.lodgecastiron.com/pages/how-to-season",
+          "title": "Lodge cast-iron seasoning guidance",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "manufacturer re-seasoning process for renewable surface maintenance"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Lodge_skillet.jpg",
+          "title": "Wikimedia Commons Lodge 12-inch skillet image and license record",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "open-license Lodge 12-inch product-class photograph and rights record"
+        },
+        {
+          "url": "https://www.lodgecastiron.com/pages/how-to-clean",
+          "title": "Lodge cast-iron cleaning and rust-recovery guidance",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "owner cleaning, drying, oiling, and rust-recovery path"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Lodge offers a 12-inch size in its Classic Cast Iron Skillet family. The manufacturer describes the skillet as solid cast iron, seasoned with natural vegetable oil, made in the USA, and usable on induction and other stovetops, in the oven, on a grill, or over a campfire.",
+          "display_value": "12-inch seasoned solid cast-iron skillet made in the USA for induction and other stovetops, ovens, grills, and campfires.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet?variant=51685752242548",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "The product is a solid cast-iron skillet with integrated handles, and Lodge does not document replaceable product assemblies for this exact configuration. Routine surface wear or rust is addressed by cleaning, oiling, and re-seasoning rather than replacement parts.",
+          "display_value": "No replaceable assemblies are documented; routine surface wear or rust is addressed through cleaning, oiling, and re-seasoning.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.lodgecastiron.com/products/round-cast-iron-classic-skillet?variant=51685752242548",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Lodge publishes official cleaning, drying, oiling, rust-removal, and re-seasoning guidance. These instructions support surface recovery but are not a model-specific structural repair manual.",
+          "display_value": "Official cleaning, rust-recovery, and re-seasoning guidance is available; it is maintenance guidance, not a structural repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.lodgecastiron.com/pages/how-to-clean",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Owners can perform Lodge-documented cleaning, rust removal, oiling, and re-seasoning. Structural cracks or warping are not documented as user repairs and instead fall within the warranty decision path when coverage conditions are met.",
+          "display_value": "User-serviceable for cleaning, rust removal, and seasoning recovery; structural cracks or warping are not documented user repairs.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.lodgecastiron.com/pages/how-to-clean",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 30,
+          "stale_after": "2026-11-04"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Lodge describes its Made Right coverage as a limited lifetime warranty for cast-iron cookware used normally in a household. Covered conditions include cracks, warping, specified casting defects, and shipping damage; exclusions include accidents, drops, mishandling, overheating, rust, pitting, roughness, sticky or flaking seasoning, odors, commercial use, and care inconsistent with the instructions.",
+          "display_value": "Limited lifetime warranty covers specified cracks, warping, casting defects, and shipping damage; rust, pitting, seasoning condition, misuse, overheating, drops, and commercial use are excluded.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.lodgecastiron.com/pages/lodge-promise",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B00006JSUB?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-05"
+        }
+      ],
+      "repairability": {
+        "product_id": 32,
+        "parts_availability": "none",
+        "parts_url": null,
+        "repair_manual_available": 0,
+        "repair_manual_url": null,
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 194,
+        "verified_date": "2026-10-05"
+      },
+      "warranty": {
+        "warranty_length": "Limited lifetime warranty for covered Lodge cast-iron cookware under normal household use.",
+        "warranty_coverage": "Lodge lists cracks, warping, specified casting defects, and shipping damage among covered conditions, subject to its claim process and current terms.",
+        "warranty_exclusions": "Published exclusions include accidents, drops, mishandling, overheating, rust, pitting, roughness, sticky or flaking seasoning, odors, commercial use, and failure to follow care instructions.",
+        "source_url": "https://www.lodgecastiron.com/pages/lodge-promise",
+        "verified_date": "2026-10-05"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 7,
       "slug": "bosch-4100xc-10",
       "brand": "Bosch",
@@ -5864,6 +6063,14 @@
       "is_stale": false
     },
     {
+      "slug": "lodge-l10sk3",
+      "field_name": "street_price",
+      "verified_date": "2026-10-05",
+      "reverify_days": 30,
+      "stale_after": "2026-11-04",
+      "is_stale": false
+    },
+    {
       "slug": "makita-xcv24zx",
       "field_name": "street_price",
       "verified_date": "2026-10-05",
@@ -7557,6 +7764,62 @@
       "verified_date": "2026-10-04",
       "reverify_days": 180,
       "stale_after": "2027-04-02",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "identity",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "lodge-l10sk3",
+      "field_name": "warranty",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
       "is_stale": false
     },
     {
