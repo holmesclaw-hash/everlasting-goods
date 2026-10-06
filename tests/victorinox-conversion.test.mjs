@@ -35,7 +35,7 @@ test("restored Victorinox guide separates current specifications, owner evidence
   assert.match(content, /barbecuefaq\.com\/victorinox-knives-review/);
   assert.match(content, /individual owner report, not controlled lifespan data/i);
   assert.match(content, /not modularly repairable/i);
-  assert.match(data, /content:\s*victorinoxFibroxContent,\s*updatedAt: "2026-08-31"/);
+  assert.match(data, /content:\s*victorinoxFibroxContent,\s*updatedAt: "2026-10-06"/);
   assert.match(data, /slug: "best-kitchen-knives-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/victorinox-fibrox-5-2063-20\.jpg"/);
   assert.match(sitemap, /articles\/best-kitchen-knives-that-last-a-lifetime/);
 });

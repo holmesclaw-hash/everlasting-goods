@@ -68,9 +68,10 @@ const restoredGuides = {
   },
   [VICTORINOX_GUIDE_SLUG]: {
     slug: VICTORINOX_GUIDE_SLUG,
+    databaseSlug: "victorinox-fibrox-5-2063-20",
     title: "Kitchen Knives That Last: Victorinox Fibrox 8-Inch Evidence Review",
     description: "A source-checked review of the Victorinox Fibrox 5.2063.20 chef’s knife, including edge maintenance, warranty limits, repairability boundaries, and dated owner evidence.",
-    reviewedAt: "2026-08-31",
+    reviewedAt: "2026-10-06",
     asin: "B008M5U1C2",
     destinationDescription: "the black Victorinox Fibrox Pro 8-inch chef’s knife, ASIN B008M5U1C2",
     destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",

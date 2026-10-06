@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-05T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-06T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -94,6 +94,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "makita-xcv24zx": "B09SNVX392",
     "lodge-l10sk3": "B00006JSUB",
     "makita-mac5200": "B0001Q2VPU",
+    "victorinox-fibrox-5-2063-20": "B008M5U1C2",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -128,6 +129,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-10-05"
       : product.slug === "makita-mac5200"
         ? "2026-10-05"
+      : product.slug === "victorinox-fibrox-5-2063-20"
+        ? "2026-10-06"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"
       : product.slug === "bosch-pr20evs"

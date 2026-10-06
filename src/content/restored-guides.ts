@@ -17,7 +17,7 @@ const restoredGuideCandidates = [
     slug: "best-kitchen-knives-that-last-a-lifetime",
     title: "Victorinox Fibrox 8-Inch Evidence Review",
     description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",
-    reviewedAt: "2026-08-31",
+    reviewedAt: "2026-10-06",
   },
   {
     slug: "best-cast-iron-skillets-that-last-forever",

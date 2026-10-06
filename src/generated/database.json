@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "0303eeedf517aa2a5548bf5f689f7f303add5465fb1aca7e33d4f8f0a8432d27",
-  "generated_at": "2026-10-05T00:00:00.000Z",
+  "database_sha256": "5919767ed017f9411e7649ddf16fe57904408ffdb1adb452bc093ae348f8df95",
+  "generated_at": "2026-10-06T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -556,6 +556,184 @@
         "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
         "source_url": "https://www.makitatools.com/service/warranty",
         "verified_date": "2026-10-05"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 34,
+      "slug": "victorinox-fibrox-5-2063-20",
+      "brand": "Victorinox",
+      "model": "Fibrox Chef’s Knife Extra Wide, 8 in",
+      "sku": "5.2063.20",
+      "category": "chef-knives",
+      "category_group": "kitchen",
+      "variant_notes": "This record is for Victorinox item 5.2063.20, the black, extra-wide approximately 8-inch Fibrox chef’s knife, and exact ASIN B008M5U1C2. Other blade lengths, colors, handles, sets, and retail packages are separate configurations; their facts are not transferred.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Victorinox documents the exact item identity, a renewable plain edge, user honing and sharpening, optional professional sharpening, and lifetime coverage for material or manufacturer defects during normal use subject to purchase requirements. One owner report describes 15-plus years with Victorinox knives and shows a Fibrox chef knife, but it does not establish the exact current SKU’s expected service life, a population-level failure rate, or a repair-versus-replace recommendation.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": "/images/products/victorinox-fibrox-5-2063-20.jpg",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Victorinox_Fibrox_5.2063.20_chef%27s_knife.jpg",
+      "image_license_basis": "The open-license record identifies the photographed knife as the exact model, Victorinox Fibrox 5.2063.20; it supports visual model identity but does not independently establish the current Amazon commercial destination.",
+      "last_reviewed_date": "2026-10-06",
+      "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "image_attribution": "Francis Flinch / Wikimedia Commons",
+      "image_alt": "Victorinox Fibrox Chef’s Knife Extra Wide, 8 in, item 5.2063.20, with a black textured TPE handle on a white background",
+      "sources": [
+        {
+          "url": "https://barbecuefaq.com/victorinox-knives-review/",
+          "title": "Barbecue FAQ Victorinox review from a 15-plus-year owner",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-06",
+          "purpose": "dated long-term Victorinox owner report with a shown Fibrox chef knife and stated limitations"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B008M5U1C2",
+          "title": "Amazon exact Victorinox Fibrox Pro 8-inch destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-06",
+          "purpose": "exact black Victorinox Fibrox Pro 8-inch Amazon destination"
+        },
+        {
+          "url": "https://www.victorinox.com/en-US/p/5.2063.20",
+          "title": "Victorinox Fibrox Chef’s Knife Extra Wide 5.2063.20 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-06",
+          "purpose": "exact item identity, dimensions, origin, construction, edge, handle, care statement, and product warranty status"
+        },
+        {
+          "url": "https://www.victorinox.com/en-US/Cutlery-Warranties/cms/service-cutlery-warranties/",
+          "title": "Victorinox US cutlery warranty terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-06",
+          "purpose": "lifetime defect coverage and purchase requirements"
+        },
+        {
+          "url": "https://www.victorinox.com/en-US/Cutlery/Information/How-to-Sharpen-Your-Kitchen-Knife/cms/how-to-sharpen-your-kitchen-knife/",
+          "title": "Victorinox knife sharpening and honing guidance",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-06",
+          "purpose": "manufacturer honing, sharpening, and professional sharpening guidance"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Victorinox_Fibrox_5.2063.20_chef%27s_knife.jpg",
+          "title": "Wikimedia Commons Victorinox Fibrox 5.2063.20 image and license record",
+          "source_type": "other",
+          "retrieved_date": "2026-10-06",
+          "purpose": "open-license exact-model photograph and rights record"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Victorinox identifies item 5.2063.20 as the Fibrox Chef’s Knife Extra Wide in black. The page lists a 7.9-inch blade, Swiss origin, non-forged construction, a straight edge, and a thermoplastic-elastomer handle.",
+          "display_value": "Approximately 8-inch Swiss-made, non-forged chef’s knife with a straight edge, extra-wide blade, and black TPE handle.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.victorinox.com/en-US/p/5.2063.20",
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "The reviewed exact product, sharpening, and warranty pages do not document a model-specific replacement blade, molded handle, or field-parts program for item 5.2063.20.",
+          "display_value": "No model-specific replacement blade or handle is documented in the reviewed manufacturer sources.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.victorinox.com/en-US/p/5.2063.20",
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "Victorinox publishes general knife honing and sharpening instructions and offers professional sharpening through stores. This supports edge maintenance but is not a model-specific structural repair manual.",
+          "display_value": "Official sharpening and honing guidance is available for edge maintenance; it is not a model-specific structural repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.victorinox.com/en-US/Cutlery/Information/How-to-Sharpen-Your-Kitchen-Knife/cms/how-to-sharpen-your-kitchen-knife/",
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Owners can hone the edge regularly and sharpen it when honing no longer restores performance. Victorinox also describes an in-store professional sharpening option.",
+          "display_value": "User-serviceable through honing and sharpening, with professional sharpening also documented by Victorinox.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.victorinox.com/en-US/Cutlery/Information/How-to-Sharpen-Your-Kitchen-Knife/cms/how-to-sharpen-your-kitchen-knife/",
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-06",
+          "reverify_days": 30,
+          "stale_after": "2026-11-05"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Victorinox states that the product has its lifetime warranty. The US cutlery warranty covers material or manufacturer defects appearing during normal use for the lifetime of the product and requires proof of purchase from an authorised Victorinox store or retailer.",
+          "display_value": "Lifetime coverage for material or manufacturer defects during normal use; proof of purchase from an authorised Victorinox store or retailer is required.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.victorinox.com/en-US/Cutlery-Warranties/cms/service-cutlery-warranties/",
+          "verified_date": "2026-10-06",
+          "reverify_days": 180,
+          "stale_after": "2027-04-04"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B008M5U1C2?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-06"
+        }
+      ],
+      "repairability": {
+        "product_id": 34,
+        "parts_availability": "none",
+        "parts_url": null,
+        "repair_manual_available": 0,
+        "repair_manual_url": null,
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 209,
+        "verified_date": "2026-10-06"
+      },
+      "warranty": {
+        "warranty_length": "Lifetime warranty for covered Victorinox products.",
+        "warranty_coverage": "Victorinox covers material or manufacturer defects that appear during normal use for the lifetime of the product, subject to its current terms and purchase requirements.",
+        "warranty_exclusions": "Coverage is limited to material or manufacturer defects during normal use. Proof of purchase from an authorised Victorinox store or retailer is required; the reviewed page does not state that ordinary edge dulling is covered.",
+        "source_url": "https://www.victorinox.com/en-US/Cutlery-Warranties/cms/service-cutlery-warranties/",
+        "verified_date": "2026-10-06"
       },
       "cost_per_year": null
     },
@@ -6286,6 +6464,14 @@
       "is_stale": false
     },
     {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "street_price",
+      "verified_date": "2026-10-06",
+      "reverify_days": 30,
+      "stale_after": "2026-11-05",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -8123,6 +8309,62 @@
       "verified_date": "2026-10-05",
       "reverify_days": 180,
       "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "identity",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "victorinox-fibrox-5-2063-20",
+      "field_name": "warranty",
+      "verified_date": "2026-10-06",
+      "reverify_days": 180,
+      "stale_after": "2027-04-04",
       "is_stale": false
     }
   ]
