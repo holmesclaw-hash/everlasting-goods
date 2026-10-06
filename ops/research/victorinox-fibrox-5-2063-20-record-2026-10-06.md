@@ -26,7 +26,7 @@ The warranty evidence does not establish that ordinary edge dulling or wear is c
 
 ## Owner evidence and recommendation limit
 
-A dated owner review reports 15-plus years with Victorinox knives and discusses a shown Fibrox chef knife, including handle, weight, edge, and cleaning experience.[4] This is one owner’s report, not controlled lifespan evidence for every current `5.2063.20` knife.[4]
+A Victorinox owner review published in December 2023 and updated in December 2024 reports 15-plus years with the brand and separately discusses and shows a Fibrox chef knife, including handle, weight, edge, and cleaning experience.[4] The source does not establish that the pictured `5.2063.20` itself was owned or used for 15-plus years. This is one owner’s report, not controlled exact-model lifespan evidence.[4]
 
 The record therefore leaves expected service life and the repair-versus-replace recommendation unverified.
 

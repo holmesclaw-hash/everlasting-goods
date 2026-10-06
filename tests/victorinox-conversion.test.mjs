@@ -33,8 +33,14 @@ test("restored Victorinox guide separates current specifications, owner evidence
   assert.match(content, /victorinox\.com\/en-US\/Cutlery-Warranties/);
   assert.match(content, /victorinox\.com\/en-US\/Cutlery\/Information\/How-to-Sharpen/);
   assert.match(content, /barbecuefaq\.com\/victorinox-knives-review/);
+  assert.match(content, /published in December 2023 and updated in December 2024/i);
+  assert.match(content, /does not establish that the pictured 5\.2063\.20 was owned or used for 15-plus years/i);
   assert.match(content, /individual owner report, not controlled lifespan data/i);
   assert.match(content, /not modularly repairable/i);
+  assert.match(content, /recommend.*wash all large knives by hand/i);
+  assert.doesNotMatch(content, /can remain serviceable in one long-term ownership context/i);
+  assert.doesNotMatch(content, /identified the review as his experience rather than a laboratory test/i);
+  assert.doesNotMatch(content, /<strong>Stamped construction:/i);
   assert.match(data, /content:\s*victorinoxFibroxContent,\s*updatedAt: "2026-10-06"/);
   assert.match(data, /slug: "best-kitchen-knives-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/victorinox-fibrox-5-2063-20\.jpg"/);
   assert.match(sitemap, /articles\/best-kitchen-knives-that-last-a-lifetime/);
