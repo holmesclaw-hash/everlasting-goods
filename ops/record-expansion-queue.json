@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 32,
+  "current_published_records": 33,
   "target_total_records": 100,
-  "candidate_count": 70,
+  "candidate_count": 69,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -494,20 +494,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "3.0 HP Big Bore Air Compressor",
-      "sku": "MAC5200",
-      "category": "air compressor",
-      "official_product_url": "https://www.makitatools.com/products/details/MAC5200",
-      "evidence_urls": [
-        "https://www.makitatools.com/warranty"
-      ],
-      "reason": "The official manufacturer page identifies the MAC5200 as a wheeled Big Bore air compressor, with support evidence supplied by Makita's warranty page.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "Quiet Series 1-1/2 HP, 3 Gallon, Oil-Free Electric Air Compressor",

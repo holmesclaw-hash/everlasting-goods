@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "6f83ea41e058b3dcc1612550a5c7744e082b48ff12f494d223419473a96bd0de",
+  "database_sha256": "0303eeedf517aa2a5548bf5f689f7f303add5465fb1aca7e33d4f8f0a8432d27",
   "generated_at": "2026-10-05T00:00:00.000Z",
   "products": [
     {
@@ -357,6 +357,205 @@
         "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
         "source_url": "https://www.makitatools.com/service/warranty",
         "verified_date": "2026-09-21"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 33,
+      "slug": "makita-mac5200",
+      "brand": "Makita",
+      "model": "MAC5200",
+      "sku": "MAC5200",
+      "category": "air-compressors",
+      "category_group": "tools-shop",
+      "variant_notes": "MAC5200 identifies the United States 120V, 5.2-gallon oil-lubricated Big Bore compressor package with two 1/4-inch universal quick couplers and compressor oil. Makita does not list an air hose or air tool as included. The MAC2400 and MAC700 are separate lower-output Big Bore compressor models; their package and owner evidence are not transferred.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Makita publishes the exact MAC5200 owner manual, a component-level parts breakdown, a current parts price list, warranty terms, and factory or authorized service paths. The manual supports substantial owner maintenance and an external check-valve procedure, while electrical, motor, pressure-control, and tank work retain safety or qualified-service boundaries. No qualifying exact-model owner report with verifiable ownership duration was accepted, so expected service life, repair economics, and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-05",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "current general-product warranty coverage and exclusions"
+        },
+        {
+          "url": "https://www.makitatools.com/recall",
+          "title": "Makita USA current safety notices",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "current manufacturer safety-notice check; no exact MAC5200 notice listed"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
+          "title": "Makita USA September 2026 parts price list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "dated current-catalog snapshot for repair-significant component numbers and supersession limits"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0001Q2VPU",
+          "title": "Amazon exact Makita MAC5200 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact Amazon model-to-ASIN destination"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/22580537-bd3c-41b9-ac3f-25cdf10bbfc0_MAC5200_PB.pdf",
+          "title": "Makita MAC5200 exact-model parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact exploded diagram, component part numbers, and ring and gasket kits"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/MAC5200",
+          "title": "Makita MAC5200 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "exact identity, construction, specifications, included oil and couplers, and package boundary"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "factory and authorized pneumatic-service paths"
+        },
+        {
+          "url": "https://www.makitatools.com/service/directrepair",
+          "title": "Makita USA Direct Repair terms and shipping limits",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "factory repair path and 100-pound packaged-shipment limit"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/6c053afe-5af8-4199-9800-542d3ad26216_MAC5200_IM.pdf",
+          "title": "Makita MAC5200 oil-lubricated air-compressor owner manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-05",
+          "purpose": "operation, break-in, duty cycle, oil and filter maintenance, tank draining, check-valve service, troubleshooting, and safety boundaries"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Makita identifies MAC5200 as a 120V, 3.0 maximum-horsepower Big Bore air compressor with a 5.2-gallon tank, oil-lubricated cast-iron pump, 6.5 CFM at 90 PSI, 140 PSI cut-out pressure, roll cage, folding handle, wheels, and two included 1/4-inch universal quick couplers. The owner manual lists 2.1 running horsepower, 13.8 amps at maximum pressure, and a recommended maximum 50 percent duty cycle.",
+          "display_value": "120V, 3.0 HP maximum, 5.2-gallon oil-lubricated compressor rated at 6.5 CFM at 90 PSI and 140 PSI, with two quick couplers.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/MAC5200",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes an exact parts breakdown identifying the cylinder, piston, rings, crankshaft, connecting rod, motor and crankcase, tank and frame, regulator, gauges, check and safety valves, drain, switches, capacitors, ring kit, and gasket kit. Makita USA's September 2026 parts price list still catalogs many repair-significant numbers, including the motor and crankcase 251209-E, tank and frame 401125-E, regulator 410029-E, ring kit RK5200-E, and gasket kit GK5200-E. Pressure switch 412025-E is marked discontinued with alternate 412024-E. The price list is a catalog snapshot, not proof of current stock or orderability for every component.",
+          "display_value": "Partial: exact parts breakdown and current price list identify the motor, tank, regulator, ring and gasket kits; the pressure switch has an alternate, but stock and complete orderability are not verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/22580537-bd3c-41b9-ac3f-25cdf10bbfc0_MAC5200_PB.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 90,
+          "stale_after": "2027-01-03"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "The exact owner manual documents break-in, oil service every 300 operating hours or three months, tank draining, intake-filter care, safety-valve checks, annual pump-valve and check-valve inspection, external brass check-valve removal and replacement, and troubleshooting. It routes electrical work to qualified personnel and motor or capacitor faults to authorized service, so it is not a complete internal repair manual.",
+          "display_value": "Exact owner manual covers oil, filter, tank, safety-valve, and external check-valve work; it is not a complete internal repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/6c053afe-5af8-4199-9800-542d3ad26216_MAC5200_IM.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Owners can perform the documented oil fill and changes, tank draining, intake-filter replacement, leak checks, safety-valve checks, and external check-valve cleaning or replacement after unplugging and depressurizing the unit. Electrical work requires qualified service, motor or capacitor faults route to authorized service, and a leaking tank must be replaced rather than drilled, welded, or patched. Makita Direct Repair has a 100-pound packaged limit, while the product page lists a 107-pound shipping weight, so mail-in eligibility cannot be assumed.",
+          "display_value": "User-serviceable for oil, filter, tank-drain, and external check-valve work; electrical faults go to authorized service, and a leaking tank must be replaced.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/6c053afe-5af8-4199-9800-542d3ad26216_MAC5200_IM.pdf",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-05",
+          "reverify_days": 30,
+          "stale_after": "2026-11-04"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Makita currently warrants general products against defects in workmanship and materials for one year from original purchase and may repair or replace after inspection. Published exclusions include third-party repair attempts, normal wear, abuse, misuse, improper maintenance or operation, and alterations.",
+          "display_value": "One-year general-product limited warranty from original purchase; current Makita terms and exclusions apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-10-05",
+          "reverify_days": 180,
+          "stale_after": "2027-04-03"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0001Q2VPU?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-05"
+        }
+      ],
+      "repairability": {
+        "product_id": 33,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/22580537-bd3c-41b9-ac3f-25cdf10bbfc0_MAC5200_PB.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/6c053afe-5af8-4199-9800-542d3ad26216_MAC5200_IM.pdf",
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 202,
+        "verified_date": "2026-10-05"
+      },
+      "warranty": {
+        "warranty_length": "One-year general-product limited warranty.",
+        "warranty_coverage": "Defects in workmanship and materials; Makita may repair or replace after inspection under the current policy.",
+        "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-10-05"
       },
       "cost_per_year": null
     },
@@ -6071,6 +6270,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-mac5200",
+      "field_name": "street_price",
+      "verified_date": "2026-10-05",
+      "reverify_days": 30,
+      "stale_after": "2026-11-04",
+      "is_stale": false
+    },
+    {
       "slug": "makita-xcv24zx",
       "field_name": "street_price",
       "verified_date": "2026-10-05",
@@ -6191,6 +6398,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-mac5200",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 90,
+      "stale_after": "2027-01-03",
+      "is_stale": false
+    },
+    {
       "slug": "makita-xcv24zx",
       "field_name": "identity",
       "verified_date": "2026-10-05",
@@ -7816,6 +8031,54 @@
     },
     {
       "slug": "lodge-l10sk3",
+      "field_name": "warranty",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
+      "field_name": "identity",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-05",
+      "reverify_days": 180,
+      "stale_after": "2027-04-03",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-mac5200",
       "field_name": "warranty",
       "verified_date": "2026-10-05",
       "reverify_days": 180,
