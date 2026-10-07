@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 34,
+  "current_published_records": 35,
   "target_total_records": 100,
-  "candidate_count": 69,
+  "candidate_count": 68,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -537,20 +537,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "8-1/2-Inch Slide Compound Miter Saw",
-      "sku": "LS0816F",
-      "category": "miter saw",
-      "official_product_url": "https://www.makitatools.com/products/details/LS0816F",
-      "evidence_urls": [
-        "https://www.makitatools.com/warranty"
-      ],
-      "reason": "The manufacturer publishes a dedicated product page for the LS0816F slide compound miter saw and an official warranty covering Makita products.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "10-Inch Slide Compound Miter Saw",

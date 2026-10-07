@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "5919767ed017f9411e7649ddf16fe57904408ffdb1adb452bc093ae348f8df95",
-  "generated_at": "2026-10-06T00:00:00.000Z",
+  "database_sha256": "6104e335b24e670164f14cdc876c7ed431f7fb7e3664257373b2bb1db10f9634",
+  "generated_at": "2026-10-07T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -246,7 +246,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "warranty"
         }
       ],
@@ -389,21 +389,21 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
           "url": "https://www.makitatools.com/recall",
           "title": "Makita USA current safety notices",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current manufacturer safety-notice check; no exact MAC5200 notice listed"
         },
         {
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
           "title": "Makita USA September 2026 parts price list",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "dated current-catalog snapshot for repair-significant component numbers and supersession limits"
         },
         {
@@ -431,14 +431,14 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory and authorized pneumatic-service paths"
         },
         {
           "url": "https://www.makitatools.com/service/directrepair",
-          "title": "Makita USA Direct Repair terms and shipping limits",
+          "title": "Makita USA Direct Repair terms",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory repair path and 100-pound packaged-shipment limit"
         },
         {
@@ -1494,7 +1494,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "warranty"
         }
       ],
@@ -2187,7 +2187,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "warranty"
         }
       ],
@@ -2331,7 +2331,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -2345,7 +2345,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2509,7 +2509,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -2537,7 +2537,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2708,7 +2708,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -2750,7 +2750,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -3046,6 +3046,212 @@
         "warranty_exclusions": "Misuse, abuse, wearing out, unauthorized repairs, alterations, tampering, and listed damage are excluded or require disposal.",
         "source_url": "https://www.estwing.com/resources/warranty/",
         "verified_date": "2026-09-08"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 35,
+      "slug": "makita-ls0816f",
+      "brand": "Makita",
+      "model": "LS0816F",
+      "sku": "LS0816F",
+      "category": "miter-saws",
+      "category_group": "tools-shop",
+      "variant_notes": "This record is for the current U.S. LS0816F 120V configuration with a 5/8-inch arbor. The listed package includes an 8-1/2-inch 40-tooth carbide-tipped blade, hex wrench, dust bag, and vertical vise; a stand is not included. LS0815F, LS0815FL, LS1019L, and regional 110V or 220V–240V LS0816F configurations with different arbors are separate products or configurations; their package, parts, and owner evidence are not transferred.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Makita publishes an exact North American owner manual, an exact U.S. 120V parts breakdown, a dated September 2026 parts price list, warranty terms, and factory or authorized service routes. The manual documents blade and carbon-brush replacement, alignment, cleaning, and limited lubrication, but it is not an internal repair manual and routes guard, brake, switch, and other service beyond those instructions to authorized service. No qualifying exact-model owner report with verifiable ownership duration was accepted, so expected service life, failure rate, repair economics, and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-07",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/5a667c69-f6b2-4cc6-89d1-683656871f48_LS0816F_IM_NA3-2311.pdf",
+          "title": "Makita LS0816F North American owner manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "North American operation, blade and carbon-brush replacement, alignment, cleaning, lubrication, and safety-service boundaries"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "current general-product warranty coverage and exclusions"
+        },
+        {
+          "url": "https://www.makitatools.com/recall",
+          "title": "Makita USA current safety notices",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "current manufacturer safety-notice check; no exact LS0816F notice listed"
+        },
+        {
+          "url": "https://www.cpsc.gov/s3fs-public/recall-data/recalls_recall_listing.csv",
+          "title": "CPSC public recall listing dataset",
+          "source_type": "other",
+          "retrieved_date": "2026-10-07",
+          "purpose": "current public recall-dataset check; no LS0816F text match found, which is not safety clearance"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
+          "title": "Makita USA September 2026 parts price list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "dated current-catalog snapshot for many exact repair-significant part numbers; not a live-stock check"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0CRHR8FBC",
+          "title": "Amazon exact Makita LS0816F destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-07",
+          "purpose": "exact Amazon LS0816F model-to-ASIN destination"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/f3b24fa2-2e6e-451c-86a1-2497a27b408b_LS0816F_PB_Breakdown_LS0816F_11-24.pdf",
+          "title": "Makita LS0816F US 120V exact-model parts breakdown",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "exact US 120V exploded diagrams, component part numbers, and configuration boundary"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/LS0816F",
+          "title": "Makita LS0816F official US product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "exact US identity, specifications, cutting capacities, included blade and accessories, and package boundary"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "factory and authorized service paths"
+        },
+        {
+          "url": "https://www.makitatools.com/service/directrepair",
+          "title": "Makita USA Direct Repair terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "factory mail-in repair path and current terms"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Makita identifies LS0816F as a corded 8-1/2-inch slide compound miter saw with a 10.5 AMP direct-drive motor, 5,000 RPM no-load speed, miter range to 47 degrees left and right, bevel range to 47 degrees left and 2 degrees right, built-in LED shadow line-of-cut light, 30.6-pound net weight, and up to 12-inch crosscut capacity at 90 degrees. The current U.S. page lists a 40-tooth carbide blade, hex wrench, dust bag, and vertical vise as standard equipment.",
+          "display_value": "8-1/2-inch corded slide compound miter saw with 10.5 AMP motor, 5,000 RPM speed, 47° left/right miter, 47° left/2° right bevel, LED line-of-cut light, 30.6-pound weight, and up to 12-inch crosscuts.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/LS0816F",
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes an exact U.S. 120V parts breakdown identifying the motor housing, field and armature assemblies, switch, controller and soft-start circuit, spindle, gears and bearings, blade and center covers, safety cover and guard link, brushes and brush holders, fences, turn base, slide pipes, bevel mechanism, and fasteners. The September 2026 Makita USA parts price list catalogs many exact repair-significant numbers from that breakdown. The list is a dated catalog snapshot, not proof of current stock or orderability for every diagrammed component.",
+          "display_value": "Partial: exact parts breakdown and September 2026 price list cover the motor, switch, soft-start circuit, guards, and brushes, but live stock and complete orderability are not verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/f3b24fa2-2e6e-451c-86a1-2497a27b408b_LS0816F_PB_Breakdown_LS0816F_11-24.pdf",
+          "verified_date": "2026-10-07",
+          "reverify_days": 90,
+          "stale_after": "2027-01-05"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "The exact North American owner manual documents blade installation and removal, kerf-board and fence alignment, miter and bevel adjustment, carbon-brush inspection and replacement, cleaning, and limited oil or grease maintenance. It also states that blade guard, electric brake, and other maintenance or adjustment not described in the manual should be handled by Makita authorized service, so it is not a complete internal repair manual.",
+          "display_value": "Exact owner manual covers blade and carbon brushes, alignment, cleaning, and lubrication; it is not a complete internal repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/5a667c69-f6b2-4cc6-89d1-683656871f48_LS0816F_IM_NA3-2311.pdf",
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Owners can perform the documented blade and carbon-brush replacement, kerf-board and fence alignment, angle adjustments, cleaning, and limited lubrication. Blade-guard, switch, brake, controller, motor, and other internal service is not documented for owner repair and routes to Makita authorized service.",
+          "display_value": "User-serviceable for blade, carbon brushes, alignment, cleaning, and lubrication; guard, switch, brake, and internal repairs route to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/5a667c69-f6b2-4cc6-89d1-683656871f48_LS0816F_IM_NA3-2311.pdf",
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-07",
+          "reverify_days": 30,
+          "stale_after": "2026-11-06"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Makita currently warrants general products against defects in workmanship and materials for one year from original purchase and may repair or replace after inspection. Published exclusions include third-party repair attempts, normal wear and tear, abuse, misuse, improper maintenance or operation, alterations, and accessories.",
+          "display_value": "One-year general-product limited warranty from original purchase; current Makita terms and exclusions apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-10-07",
+          "reverify_days": 180,
+          "stale_after": "2027-04-05"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0CRHR8FBC?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-07"
+        }
+      ],
+      "repairability": {
+        "product_id": 35,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/f3b24fa2-2e6e-451c-86a1-2497a27b408b_LS0816F_PB_Breakdown_LS0816F_11-24.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/5a667c69-f6b2-4cc6-89d1-683656871f48_LS0816F_IM_NA3-2311.pdf",
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 215,
+        "verified_date": "2026-10-07"
+      },
+      "warranty": {
+        "warranty_length": "One-year general-product limited warranty.",
+        "warranty_coverage": "Defects in workmanship and materials; Makita may repair or replace after inspection under the current policy.",
+        "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, alterations, and accessories are excluded; current Makita terms apply.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-10-07"
       },
       "cost_per_year": null
     },
@@ -3983,7 +4189,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "current warranty terms"
         },
         {
@@ -3997,7 +4203,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "factory and authorized service path"
         },
         {
@@ -4189,7 +4395,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-05",
+          "retrieved_date": "2026-10-07",
           "purpose": "warranty"
         }
       ],
@@ -6472,6 +6678,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-ls0816f",
+      "field_name": "street_price",
+      "verified_date": "2026-10-07",
+      "reverify_days": 30,
+      "stale_after": "2026-11-06",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -6608,6 +6822,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-ls0816f",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-07",
+      "reverify_days": 90,
+      "stale_after": "2027-01-05",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -8365,6 +8587,54 @@
       "verified_date": "2026-10-06",
       "reverify_days": 180,
       "stale_after": "2027-04-04",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "identity",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-ls0816f",
+      "field_name": "warranty",
+      "verified_date": "2026-10-07",
+      "reverify_days": 180,
+      "stale_after": "2027-04-05",
       "is_stale": false
     }
   ]
