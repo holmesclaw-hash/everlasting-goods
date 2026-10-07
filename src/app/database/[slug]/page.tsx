@@ -73,6 +73,15 @@ export default async function ProductRecordPage({ params }: PageProps) {
         </div>
       </section>
 
+      {product.variant_notes && (
+        <section className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
+          <div className="rounded-2xl border border-cream-200 bg-cream-100 p-6">
+            <h2 className="font-serif text-xl font-bold text-charcoal">Configuration boundary</h2>
+            <p className="mt-3 leading-relaxed text-charcoal/65">{product.variant_notes}</p>
+          </div>
+        </section>
+      )}
+
       {image && (
         <figure className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-2xl border border-cream-200 bg-white">

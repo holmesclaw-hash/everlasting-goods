@@ -9,6 +9,7 @@ const partsUrl = "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/f3b24fa2-2e6
 const priceListUrl = "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx";
 const warrantyUrl = "https://www.makitatools.com/service/warranty";
 const serviceUrl = "https://www.makitatools.com/service/service-centers";
+const recordPageUrl = new URL("../src/app/database/[slug]/page.tsx", import.meta.url);
 
 async function record() {
   const database = JSON.parse(
@@ -79,4 +80,10 @@ test("the Makita LS0816F record preserves U.S. package, maintenance, parts, and 
     exact_model: true,
     verified_date: "2026-10-07",
   }]);
+});
+
+test("database records expose exact configuration boundaries to readers", async () => {
+  const source = await readFile(recordPageUrl, "utf8");
+  assert.match(source, /Configuration boundary/);
+  assert.match(source, /\{product\.variant_notes\}/);
 });
