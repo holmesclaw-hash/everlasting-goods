@@ -107,7 +107,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "festool-ct-26-ei-hepa"
+      product.slug === "california-air-tools-8010"
+        ? "2026-10-08"
+      : product.slug === "festool-ct-26-ei-hepa"
         ? "2026-10-01"
       : product.slug === "bosch-1617evspk"
         ? "2026-09-26"
