@@ -46,6 +46,7 @@ test("the California Air Tools 8010 record publishes sourced maintenance and ser
 
   assert.equal(product.repairability.parts_availability, "partial");
   assert.equal(product.repairability.serviceability, "user-serviceable");
+  assert.equal(product.repairability.repair_manual_available, 0);
   assert.equal(product.repairability.parts_url, "https://californiaairtools.com/maintenance-troubleshooting-guide");
   assert.match(product.recommendation_reasoning, /two exact-model owners.*few years.*years.*anecdotal.*service life remains unverified/i);
   assert.equal(product.warranty.warranty_length, "12 months parts and labor.");

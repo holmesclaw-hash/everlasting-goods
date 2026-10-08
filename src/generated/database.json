@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "082fc06f9d8623e2e7bbadfaf77561bea9c27b9b1a3e9d6600911059807f517d",
+  "database_sha256": "df233bfb4e5545abb96af70be72e3a985fea90f5fc68db42ec9594282f8fa62e",
   "generated_at": "2026-10-08T00:00:00.000Z",
   "products": [
     {
@@ -186,7 +186,7 @@
         "product_id": 14,
         "parts_availability": "partial",
         "parts_url": "https://californiaairtools.com/maintenance-troubleshooting-guide",
-        "repair_manual_available": 1,
+        "repair_manual_available": 0,
         "repair_manual_url": "https://californiaairtools.com/wp-content/uploads/2025/09/8010-Owners-Manual-EN-FR-2025-09-29.pdf",
         "serviceability": "user-serviceable",
         "ifixit_score": null,
