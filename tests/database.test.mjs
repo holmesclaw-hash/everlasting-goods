@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-07T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-08T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -96,6 +96,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "makita-mac5200": "B0001Q2VPU",
     "victorinox-fibrox-5-2063-20": "B008M5U1C2",
     "makita-ls0816f": "B0CRHR8FBC",
+    "makita-ls1219l": "B07B3WF2Y2",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -134,6 +135,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-10-06"
       : product.slug === "makita-ls0816f"
         ? "2026-10-07"
+      : product.slug === "makita-ls1219l"
+        ? "2026-10-08"
       : product.slug === "makita-xcv11z"
         ? "2026-09-24"
       : product.slug === "bosch-pr20evs"
@@ -191,6 +194,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "makita-xcv24zx": ["https://cdn.makitatools.com/apps/cms/doc/prod/XCV/b58f6877-de2d-4939-96c0-2ea531cdeddd_XCV24_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XCV/2c7a26bd-5cec-457d-87d5-c35c68b0d626_XCV24_PB_Breakdown_XCV24ZX_03-22.pdf", "https://www.makitatools.com/service/service-centers"],
     "makita-mac5200": ["https://cdn.makitatools.com/apps/cms/doc/prod/MAC/6c053afe-5af8-4199-9800-542d3ad26216_MAC5200_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/MAC/22580537-bd3c-41b9-ac3f-25cdf10bbfc0_MAC5200_PB.pdf", "https://www.makitatools.com/service/service-centers"],
     "makita-ls0816f": ["https://cdn.makitatools.com/apps/cms/doc/prod/LS0/5a667c69-f6b2-4cc6-89d1-683656871f48_LS0816F_IM_NA3-2311.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/LS0/f3b24fa2-2e6e-451c-86a1-2497a27b408b_LS0816F_PB_Breakdown_LS0816F_11-24.pdf", "https://www.makitatools.com/service/service-centers"],
+    "makita-ls1219l": ["https://cdn.makitatools.com/apps/cms/doc/prod/LS1/b54a9ea9-3bbb-491a-befd-b66075fc70e3_LS1219L_IM__885618A943_C1920.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/LS1/d654a02d-1035-4495-9ada-4eb6b6bcc3b9_LS1219L_PB_Breakdown_LS1219L_01-18.pdf", "https://www.makitatools.com/service/service-centers"],
     "bosch-1617evspk": ["https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
