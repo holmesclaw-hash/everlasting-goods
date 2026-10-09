@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 36,
+  "current_published_records": 37,
   "target_total_records": 100,
-  "candidate_count": 67,
+  "candidate_count": 66,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -567,20 +567,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "3-1/4-Inch Planer with Tool Case",
-      "sku": "KP0800K",
-      "category": "handheld planer",
-      "official_product_url": "https://www.makitatools.com/products/details/KP0800K",
-      "evidence_urls": [
-        "https://www.makitatools.com/warranty"
-      ],
-      "reason": "The official Makita page identifies the KP0800K planer and exact kit configuration; Makita's warranty supplies manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Grizzly",
       "model": "1-1/2 HP Wall-Mount Dust Collector with Canister Filter",

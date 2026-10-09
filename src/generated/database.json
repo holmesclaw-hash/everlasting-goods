@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "df233bfb4e5545abb96af70be72e3a985fea90f5fc68db42ec9594282f8fa62e",
-  "generated_at": "2026-10-08T00:00:00.000Z",
+  "database_sha256": "cb4f52d4eef06f5b095c4400d0059caa561a904777a88c5a1f0d8ad4893f0916",
+  "generated_at": "2026-10-09T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -280,7 +280,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "warranty"
         }
       ],
@@ -423,21 +423,21 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
           "url": "https://www.makitatools.com/recall",
           "title": "Makita USA current safety notices",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current manufacturer safety-notice check; no exact MAC5200 notice listed"
         },
         {
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
           "title": "Makita USA September 2026 parts price list",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "dated current-catalog snapshot for repair-significant component numbers and supersession limits"
         },
         {
@@ -465,7 +465,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory and authorized pneumatic-service paths"
         },
         {
@@ -1528,7 +1528,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "warranty"
         }
       ],
@@ -2221,7 +2221,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "warranty"
         }
       ],
@@ -2365,7 +2365,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -2379,7 +2379,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2543,7 +2543,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -2571,7 +2571,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -2742,7 +2742,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -2784,7 +2784,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -3084,6 +3084,226 @@
       "cost_per_year": null
     },
     {
+      "id": 37,
+      "slug": "makita-kp0800k",
+      "brand": "Makita",
+      "model": "KP0800K",
+      "sku": "KP0800K",
+      "category": "handheld-planers",
+      "category_group": "tools-shop",
+      "variant_notes": "This record is for the current U.S. KP0800K cased kit. The tool inside is identified as the KP0800 planer by the owner manual and parts drawings. The current U.S. package lists a D-46246 two-blade pack, 123010-1 blade gauge, 782209-3 socket wrench, 165581-2 guide rule, and 824892-1 tool case. KP0800 tool-only listings, KP0800KX packages, UK suffix variants, the New Zealand 230V configuration, and other regional voltages, accessories, warranties, and package contents are not transferred to this U.S. record.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Makita publishes a current exact U.S. KP0800K kit page, an owner manual and parts breakdown for the KP0800 tool inside the kit, a dated September 2026 parts list, one-year general-product warranty terms, and factory or authorized service routes. The owner manual documents blade installation, conventional-blade sharpening, dust-bag cleaning, and carbon-brush replacement but is not an internal repair manual. One regional exact-name owner report says the tool was bought in July 2020; the report was published in June 2022 and describes extensive hardwood use without issues, but it is anecdotal, regionally configured, and not representative. Expected service life, failure rate, repair economics, and a buy or repair recommendation remain unverified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": null,
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-09",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/69b0a804-31cf-45e1-a370-0dfb478ff682_KP0800K_IM.pdf",
+          "title": "Makita KP0800 owner manual linked from the US KP0800K page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "KP0800 tool operation, blade work, conventional-blade sharpening, dust collection, carbon-brush replacement, and authorized-service boundary"
+        },
+        {
+          "url": "https://www.productreview.com.au/reviews/c9fb61e2-1546-5478-982c-9553c0d69fb4",
+          "title": "Regional Makita KP0800K owner report published June 2022",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-09",
+          "purpose": "anecdotal regional exact-name ownership from July 2020 to a June 2022 report; not US configuration or population-level lifespan evidence"
+        },
+        {
+          "url": "https://www.cpsc.gov/manufacturer/makita",
+          "title": "CPSC Makita manufacturer recall index",
+          "source_type": "other",
+          "retrieved_date": "2026-10-09",
+          "purpose": "current CPSC manufacturer-index check; no exact KP0800 or KP0800K notice was found, which is not safety clearance"
+        },
+        {
+          "url": "https://www.makitatools.com/products/details/KP0800K",
+          "title": "Makita KP0800K official US product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "current exact US kit identity, UPC, specifications, current included equipment, and package"
+        },
+        {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "current general-product warranty coverage and exclusions"
+        },
+        {
+          "url": "https://www.makitatools.com/recall",
+          "title": "Makita USA current safety notices",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "current manufacturer safety-notice check; no exact KP0800 or KP0800K notice was found"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/99eafa22-ff0d-4654-9ef1-c525d875c5e6_KP0800K_PB.pdf",
+          "title": "Makita KP0800 parts breakdown linked from the US KP0800K page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "dated KP0800 exploded diagrams, US 115V components, individual part numbers, and legacy standard equipment"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
+          "title": "Makita USA September 2026 parts price list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "dated catalog evidence for frame, drum, belt, armature, field, switch, cord, and discontinued base components; not a live-stock check"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0033WSK5O",
+          "title": "Amazon exact Makita KP0800K destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-09",
+          "purpose": "exact Amazon KP0800K model-to-ASIN destination"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "factory and authorized service paths"
+        },
+        {
+          "url": "https://www.makitatools.com/service/directrepair",
+          "title": "Makita USA Direct Repair terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-07",
+          "purpose": "general factory mail-in repair terms; exact-model eligibility was not independently confirmed"
+        },
+        {
+          "url": "https://www.makitatools.com/products/buy-online/KP0800K",
+          "title": "Makita USA KP0800K authorized online-dealer destinations",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "manufacturer dealer page that links the exact US KP0800K to Amazon ASIN B0033WSK5O"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Makita identifies the current U.S. KP0800K, UPC 088381-603935, as a cased kit containing the corded KP0800 planer. The current product page specifies a 3-1/4-inch width, 3/32-inch maximum depth, 6.5 AMP motor, 17,000 RPM no-load speed, 11-1/4-inch overall length, and 5.7-pound tool weight.",
+          "display_value": "3-1/4-inch corded handheld planer with a 6.5 AMP motor, 17,000 RPM speed, 3/32-inch maximum planing depth, and 5.7-pound tool weight.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/products/details/KP0800K",
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "Makita publishes a 2009 KP0800 parts breakdown identifying the 115V field and armature, main frame, drum, belt, switch, power cord, bases, bearings, pulleys, brushes, covers, and hardware. The September 2026 Makita USA workbook contains rows for the main frame, drum, belt, armature, field, switch, and cord, while both diagrammed base components are marked discontinued without alternates. The workbook is dated catalog evidence and does not prove live stock or complete orderability.",
+          "display_value": "Partial: exact parts breakdown and September 2026 catalog cover motor, drum, belt, switch, and cord components, but both bases are discontinued and live stock and complete orderability are not verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/99eafa22-ff0d-4654-9ef1-c525d875c5e6_KP0800K_PB.pdf",
+          "verified_date": "2026-10-09",
+          "reverify_days": 90,
+          "stale_after": "2027-01-07"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "The KP0800 owner manual linked from the U.S. KP0800K page documents removal, gauge alignment, installation, and clearance checks for mini and conventional blades; conventional-blade sharpening; dust-bag cleaning; and paired carbon-brush replacement. It routes repairs and other undocumented maintenance or adjustment to Makita authorized or factory service and does not provide motor, bearing, belt, switch, cord, base, or wiring repair procedures.",
+          "display_value": "Exact owner manual covers blade work, conventional-blade sharpening, dust-bag cleaning, and carbon brushes; it is not an internal repair manual.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/69b0a804-31cf-45e1-a370-0dfb478ff682_KP0800K_IM.pdf",
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "Owners can perform documented blade removal, gauge setup and installation, conventional-blade sharpening, dust-bag cleaning, and paired carbon-brush replacement. The manual routes all other repairs and undocumented maintenance or adjustment to Makita authorized or factory service.",
+          "display_value": "User-serviceable for blade setup, sharpening, cleaning, and carbon-brush replacement; internal repair routes to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/69b0a804-31cf-45e1-a370-0dfb478ff682_KP0800K_IM.pdf",
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        },
+        {
+          "name": "street_price",
+          "raw_value": "Not yet verified",
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-09",
+          "reverify_days": 30,
+          "stale_after": "2026-11-08"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "Makita currently warrants general products against defects in workmanship and materials for one year from original purchase and may repair or replace after inspection. Published exclusions include third-party repair attempts, normal wear and tear, abuse, misuse, improper maintenance or operation, alterations, and accessories.",
+          "display_value": "One-year general-product limited warranty from original purchase; current Makita terms and exclusions apply.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/warranty",
+          "verified_date": "2026-10-09",
+          "reverify_days": 180,
+          "stale_after": "2027-04-07"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0033WSK5O?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-09"
+        }
+      ],
+      "repairability": {
+        "product_id": 37,
+        "parts_availability": "partial",
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/99eafa22-ff0d-4654-9ef1-c525d875c5e6_KP0800K_PB.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/69b0a804-31cf-45e1-a370-0dfb478ff682_KP0800K_IM.pdf",
+        "serviceability": "user-serviceable",
+        "ifixit_score": null,
+        "source_id": 231,
+        "verified_date": "2026-10-09"
+      },
+      "warranty": {
+        "warranty_length": "One-year general-product limited warranty.",
+        "warranty_coverage": "Defects in workmanship and materials; Makita may repair or replace after inspection under the current policy.",
+        "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, alterations, and accessories are excluded; current Makita terms apply.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-10-09"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 35,
       "slug": "makita-ls0816f",
       "brand": "Makita",
@@ -3119,14 +3339,14 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
           "url": "https://www.makitatools.com/recall",
           "title": "Makita USA current safety notices",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current manufacturer safety-notice check; no exact LS0816F notice listed"
         },
         {
@@ -3140,7 +3360,7 @@
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
           "title": "Makita USA September 2026 parts price list",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "dated current-catalog snapshot for many exact repair-significant part numbers; not a live-stock check"
         },
         {
@@ -3168,7 +3388,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -3346,14 +3566,14 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
           "url": "https://www.makitatools.com/recall",
           "title": "Makita USA current safety notices",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current manufacturer safety-notice check; no exact LS1219L notice listed"
         },
         {
@@ -3367,7 +3587,7 @@
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx",
           "title": "Makita USA September 2026 parts price list",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "dated catalog snapshot for repair-significant exact part numbers; not a live-stock check"
         },
         {
@@ -3388,7 +3608,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -4443,7 +4663,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "current warranty terms"
         },
         {
@@ -4457,7 +4677,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory and authorized service path"
         },
         {
@@ -4649,7 +4869,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-08",
+          "retrieved_date": "2026-10-09",
           "purpose": "warranty"
         }
       ],
@@ -6713,7 +6933,7 @@
       "verified_date": "2026-09-08",
       "reverify_days": 30,
       "stale_after": "2026-10-08",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g0899",
@@ -6948,6 +7168,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-kp0800k",
+      "field_name": "street_price",
+      "verified_date": "2026-10-09",
+      "reverify_days": 30,
+      "stale_after": "2026-11-08",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -7100,6 +7328,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-kp0800k",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-09",
+      "reverify_days": 90,
+      "stale_after": "2027-01-07",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -8953,6 +9189,54 @@
       "verified_date": "2026-10-08",
       "reverify_days": 180,
       "stale_after": "2027-04-06",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "identity",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-kp0800k",
+      "field_name": "warranty",
+      "verified_date": "2026-10-09",
+      "reverify_days": 180,
+      "stale_after": "2027-04-07",
       "is_stale": false
     }
   ]
