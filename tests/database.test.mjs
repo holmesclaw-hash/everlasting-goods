@@ -110,6 +110,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
       link.verified_date,
       product.slug === "california-air-tools-8010"
         ? "2026-10-08"
+      : product.slug === "dewalt-dcd800b"
+        ? "2026-10-09"
       : product.slug === "festool-ct-26-ei-hepa"
         ? "2026-10-01"
       : product.slug === "bosch-1617evspk"
@@ -181,7 +183,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
 test("manufacturer research is reconciled to exact manuals and only verified parts catalogs", async () => {
   const generated = await loadGeneratedDatabase();
   const expected = {
-    "dewalt-dcd800b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA043446_DCD800_DCD805_NA.pdf", "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
+    "dewalt-dcd800b": ["https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf", "https://www.toolservicenet.com/en/p/DCD800B", "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
     "milwaukee-2904-20": ["https://documents.milwaukeetool.com/58-14-9998d1.pdf", "https://documents.milwaukeetool.com/54-24-2990R.pdf"],
     "makita-xfd14z": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf"],
     "bosch-gsr18v-535fcb15": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110"],
