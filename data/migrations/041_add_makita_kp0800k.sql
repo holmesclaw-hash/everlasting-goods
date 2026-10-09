@@ -20,8 +20,11 @@ WHERE url IN (
   'https://cdn.makitatools.com/apps/PriceManagement/upload/Sept%202026%20Parts%20Price%20List_2026_09_16_1425PM.xlsx',
   'https://www.makitatools.com/service/warranty',
   'https://www.makitatools.com/service/service-centers',
+  'https://www.makitatools.com/service/directrepair',
   'https://www.makitatools.com/recall'
 );
+UPDATE sources SET title = 'Makita USA Direct Repair service', retrieved_date = '2026-10-09'
+WHERE url = 'https://www.makitatools.com/service/directrepair';
 
 INSERT INTO products (
   id, slug, brand, model, sku, category, category_group, variant_notes,

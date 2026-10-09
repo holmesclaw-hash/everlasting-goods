@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "cb4f52d4eef06f5b095c4400d0059caa561a904777a88c5a1f0d8ad4893f0916",
+  "database_sha256": "ed671fc5f5f47fad222fa4641a1deb06ea550a056953a9974fa48f693863fb53",
   "generated_at": "2026-10-09T00:00:00.000Z",
   "products": [
     {
@@ -470,9 +470,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/directrepair",
-          "title": "Makita USA Direct Repair terms",
+          "title": "Makita USA Direct Repair service",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-07",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory repair path and 100-pound packaged-shipment limit"
         },
         {
@@ -3180,9 +3180,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/directrepair",
-          "title": "Makita USA Direct Repair terms",
+          "title": "Makita USA Direct Repair service",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-07",
+          "retrieved_date": "2026-10-09",
           "purpose": "general factory mail-in repair terms; exact-model eligibility was not independently confirmed"
         },
         {
@@ -3393,9 +3393,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/directrepair",
-          "title": "Makita USA Direct Repair terms",
+          "title": "Makita USA Direct Repair service",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-07",
+          "retrieved_date": "2026-10-09",
           "purpose": "factory mail-in repair path and current terms"
         }
       ],
