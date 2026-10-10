@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
+import { formatFieldFreshness } from "@/lib/database-utils.mjs";
 import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct } from "@/lib/product-database";
 
 interface PageProps { params: Promise<{ slug: string }> }
@@ -107,7 +108,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
                 </div>
                 <div>
                   <p className="text-charcoal/70">{field.display_value}</p>
-                  <p className="mt-2 text-xs text-charcoal/45">Verified {field.verified_date}; recheck every {field.reverify_days} days; stale after {field.stale_after}</p>
+                  <p className="mt-2 text-xs text-charcoal/45">{formatFieldFreshness(field)}</p>
                   {field.source_url && <a href={field.source_url} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-forest-600 hover:underline">Manufacturer source ↗</a>}
                 </div>
               </div>

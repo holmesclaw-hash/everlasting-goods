@@ -4,6 +4,7 @@ import test from "node:test";
 import {
   calculateCostPerYear,
   evidenceLabel,
+  formatFieldFreshness,
   groupProductsByCategory,
   repairOrReplaceDecision,
 } from "../src/lib/database-utils.mjs";
@@ -44,4 +45,28 @@ test("evidence tier labels are public-facing and T4 is explicit", () => {
   assert.equal(evidenceLabel("T2"), "T2 — Manufacturer documentation");
   assert.equal(evidenceLabel("T3"), "T3 — Corroborated owner reports");
   assert.equal(evidenceLabel("T4"), "T4 — Not yet verified");
+});
+
+test("field freshness copy never labels an unverified T4 value as verified", () => {
+  assert.equal(
+    formatFieldFreshness({
+      evidence_tier: "T4",
+      verified_date: "2026-08-25",
+      reverify_days: 30,
+      stale_after: "2026-09-24",
+    }),
+    "Evidence gap reviewed 2026-08-25; no verified value yet; research review due 2026-09-24.",
+  );
+});
+
+test("field freshness copy preserves verification language for sourced values", () => {
+  assert.equal(
+    formatFieldFreshness({
+      evidence_tier: "T2",
+      verified_date: "2026-10-10",
+      reverify_days: 90,
+      stale_after: "2027-01-08",
+    }),
+    "Verified 2026-10-10; recheck every 90 days; stale after 2027-01-08.",
+  );
 });

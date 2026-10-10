@@ -35,3 +35,11 @@ export function evidenceLabel(tier) {
     T4: "T4 — Not yet verified",
   }[tier] ?? "Evidence tier unavailable";
 }
+
+export function formatFieldFreshness(field) {
+  if (field.evidence_tier === "T4") {
+    return `Evidence gap reviewed ${field.verified_date}; no verified value yet; research review due ${field.stale_after}.`;
+  }
+
+  return `Verified ${field.verified_date}; recheck every ${field.reverify_days} days; stale after ${field.stale_after}.`;
+}
