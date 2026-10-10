@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "f4f19efe20b89fa337a65b868bc9281f9577e7f11640cfa2d8cf225cd3568a5a",
-  "generated_at": "2026-10-09T00:00:00.000Z",
+  "database_sha256": "ab8dad09e4abb4f72ec7e4e74c2a6f4b45cf10284698fed5ff5f7e0a39e10613",
+  "generated_at": "2026-10-10T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1894,6 +1894,233 @@
         "warranty_exclusions": "Unauthorized repair attempts, misuse, alterations, abuse, normal wear, lack of maintenance, and accidents are excluded; the policy specifically lists chucks among normal-wear parts.",
         "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
         "verified_date": "2026-09-25"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 38,
+      "slug": "grizzly-g0860",
+      "brand": "Grizzly",
+      "model": "G0860",
+      "sku": "G0860",
+      "category": "dust-collectors",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is the current U.S. G0860 portable two-stage cyclone configuration with a 1-1/2 HP, 110V single-phase 15A motor, 20-gallon collection drum, 6-inch inlet, and included two-port 4-inch adapter. The related G0861 is a 2 HP, 220V machine and the G0862 is a 3 HP, 220V machine; their specifications, parts, ownership reports, and commercial identities are not transferred to G0860.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Official documentation establishes the exact current G0860 configuration, replaceable filter, exact-model illustrated parts catalog, maintenance and troubleshooting scope, one-year warranty, and manufacturer repair route. Owner evidence is mixed and anecdotal: a 2021 hands-on reviewer bought the test unit but reported no ownership duration, while a 2020 owner reported startup and electrical problems after roughly one year. Expected service life, representative failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; the accepted exact-model owner reports are mixed anecdotes and do not establish a representative lifespan.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-10",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.cpsc.gov/Recalls?search_combined_fields=G0860",
+          "title": "CPSC recalls search for G0860",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-10",
+          "purpose": "CPSC model-number recall-search lead; no-match search is not safety clearance"
+        },
+        {
+          "url": "https://www.lumberjocks.com/threads/dc-question.309661/",
+          "title": "LumberJocks G0860 owner startup and service report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-10",
+          "purpose": "bounded negative exact-model owner report after roughly one year"
+        },
+        {
+          "url": "https://www.finewoodworking.com/2021/01/12/tool-review-grizzly-g0860-dust-collector",
+          "title": "Fine Woodworking hands-on Grizzly G0860 review",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-10",
+          "purpose": "bounded positive hands-on evidence without long-term duration"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B07K1YTJZD",
+          "title": "Amazon exact Grizzly G0860 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-10",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-portable-cyclone-dust-collector/g0860",
+          "title": "Grizzly G0860 product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "exact identity, current U.S. configuration, included equipment, and manufacturer status"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g0860_ds.pdf",
+          "title": "Grizzly G0860 data sheet",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "exact-model manufacturer specifications"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0860/parts",
+          "title": "Grizzly G0860 exact-model parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "exact-model online parts catalog and ordering path"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-replacement-filter-for-g0860-g0861/t30314",
+          "title": "Grizzly T30314 replacement filter for G0860 and G0861",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "exact-model replacement canister filter"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/partslists/g0860_pl.pdf",
+          "title": "Grizzly G0860 illustrated parts list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "illustrated parts breakdown and availability limitation"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "manufacturer recall-page bounded search"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "manufacturer repair intake and paid-service route"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0860_m.pdf",
+          "title": "Grizzly G0860/G0861/G0862 owner manual and G0860/G0861 update",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "operation, maintenance, troubleshooting, electrical boundaries, wiring, and service procedures"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-10",
+          "purpose": "warranty duration, coverage, purchaser boundary, and exclusions"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-10",
+          "reverify_days": 90,
+          "stale_after": "2027-01-08"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-10",
+          "reverify_days": 90,
+          "stale_after": "2027-01-08"
+        },
+        {
+          "name": "identity",
+          "raw_value": "G0860; 1-1/2 HP; 110V; single-phase; 15A; 20-gallon drum; 6-inch inlet; two 4-inch adapter ports",
+          "display_value": "Exact U.S. G0860 portable two-stage cyclone dust collector; 1-1/2 HP, 110V single-phase, 15A, with 20-gallon collection drum.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-portable-cyclone-dust-collector/g0860",
+          "verified_date": "2026-10-10",
+          "reverify_days": 180,
+          "stale_after": "2027-04-08"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Grizzly publishes an exact-model online parts catalog and illustrated list plus order pages for the replacement filter and major assemblies; the parts list says availability is not guaranteed.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g0860/parts",
+          "verified_date": "2026-10-10",
+          "reverify_days": 90,
+          "stale_after": "2027-01-08"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-verified",
+          "display_value": "The owner manual covers maintenance, filter and collection-bag procedures, troubleshooting, wiring diagrams, and illustrated parts, but it does not provide step-by-step internal repair procedures.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0860_m.pdf",
+          "verified_date": "2026-10-10",
+          "reverify_days": 180,
+          "stale_after": "2027-04-08"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can clean or replace the filter and collection bags and perform documented maintenance; internal electrical diagnosis or repair requires a qualified person, with Grizzly offering repair intake.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0860_m.pdf",
+          "verified_date": "2026-10-10",
+          "reverify_days": 180,
+          "stale_after": "2027-04-08"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-10",
+          "reverify_days": 30,
+          "stale_after": "2026-11-09"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser, subject to proof-of-purchase requirements and published exclusions.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-10",
+          "reverify_days": 180,
+          "stale_after": "2027-04-08"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B07K1YTJZD?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-10"
+        }
+      ],
+      "repairability": {
+        "product_id": 38,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0860/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0860_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 249,
+        "verified_date": "2026-10-10"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly-manufactured products are warranted to the original purchaser for one year from purchase or shipment against defects in material and workmanship, with proof of purchase required.",
+        "warranty_exclusions": "Published exclusions include unauthorized repair or alteration, misuse, abuse, negligence, accidents, improper conditions, lack of maintenance, damage caused by non-Grizzly parts, normal wear, and consumable parts.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-10"
       },
       "cost_per_year": null
     },
@@ -5878,7 +6105,7 @@
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
           "title": "Grizzly limited warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-11",
+          "retrieved_date": "2026-10-10",
           "purpose": "warranty terms"
         }
       ],
@@ -6056,7 +6283,7 @@
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
           "title": "Grizzly limited warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-11",
+          "retrieved_date": "2026-10-10",
           "purpose": "warranty terms"
         }
       ],
@@ -7253,6 +7480,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0860",
+      "field_name": "street_price",
+      "verified_date": "2026-10-10",
+      "reverify_days": 30,
+      "stale_after": "2026-11-09",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -7413,6 +7648,30 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0860",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-10",
+      "reverify_days": 90,
+      "stale_after": "2027-01-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-10",
+      "reverify_days": 90,
+      "stale_after": "2027-01-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-10",
+      "reverify_days": 90,
+      "stale_after": "2027-01-08",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -9306,6 +9565,38 @@
       "verified_date": "2026-10-09",
       "reverify_days": 180,
       "stale_after": "2027-04-07",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "identity",
+      "verified_date": "2026-10-10",
+      "reverify_days": 180,
+      "stale_after": "2027-04-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-10",
+      "reverify_days": 180,
+      "stale_after": "2027-04-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-10",
+      "reverify_days": 180,
+      "stale_after": "2027-04-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0860",
+      "field_name": "warranty",
+      "verified_date": "2026-10-10",
+      "reverify_days": 180,
+      "stale_after": "2027-04-08",
       "is_stale": false
     }
   ]

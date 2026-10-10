@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-09T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-10T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -80,6 +80,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "estwing-b3-3lb": "B00002N5NI",
     "grizzly-g0899": "B08B6G2L6P",
     "grizzly-g0771z": "B07K7SZPBR",
+    "grizzly-g0860": "B07K1YTJZD",
     "sawstop-pcs31230-tgp236": "B009C7NGTE",
     "bosch-gsr18v-800cn": "B0CRMB2TPF",
     "dewalt-dwp611": "B0048EFUV8",
@@ -112,6 +113,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-10-08"
       : product.slug === "dewalt-dcd800b"
         ? "2026-10-09"
+      : product.slug === "grizzly-g0860"
+        ? "2026-10-10"
       : product.slug === "festool-ct-26-ei-hepa"
         ? "2026-10-01"
       : product.slug === "bosch-1617evspk"

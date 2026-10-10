@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 37,
+  "current_published_records": 38,
   "target_total_records": 100,
-  "candidate_count": 66,
+  "candidate_count": 65,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -578,20 +578,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "Grizzly's exact-model page verifies the wall-mounted canister-filter collector, and Grizzly's official warranty covers its house-brand products.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "1-1/2 HP Portable Cyclone Dust Collector",
-      "sku": "G0860",
-      "category": "cyclone dust collector",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-1-1-2-hp-portable-cyclone-dust-collector/g0860",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "The official manufacturer page identifies G0860 as a portable cyclone collector, while Grizzly's warranty page supplies support evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
