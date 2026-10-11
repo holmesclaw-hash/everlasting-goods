@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "ab8dad09e4abb4f72ec7e4e74c2a6f4b45cf10284698fed5ff5f7e0a39e10613",
-  "generated_at": "2026-10-10T00:00:00.000Z",
+  "database_sha256": "fcea46a06f06c53e2202fd71dfb08d464437a2ead3d637768ecc1f4ead15ef11",
+  "generated_at": "2026-10-11T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1898,6 +1898,254 @@
       "cost_per_year": null
     },
     {
+      "id": 39,
+      "slug": "grizzly-g0785",
+      "brand": "Grizzly",
+      "model": "G0785",
+      "sku": "G0785",
+      "category": "dust-collectors",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is the current U.S. G0785 single-stage wall-mount configuration with a 1 HP, 120V/240V single-phase motor, one 4-inch inlet, 1-micron canister filter, and lower collection bag. No specifications, parts claims, owner reports, or commercial identities are transferred from G0785Z, the higher-capacity G0944 or G0944HEP, Shop Fox W1844, or other related collectors and revisions.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Official documentation establishes the exact current G0785 configuration, maintenance scope, exact-model illustrated parts catalog, representative orderable motor, impeller, canister-filter, and collection-bag parts, one-year warranty, and manufacturer repair route. A 2020 independent hands-on test reported good suction and chip capacity and very good bag emptying but no ownership duration. A separate exact-model owner said the unit had difficulty keeping up with a planer and jointer but supplied no ownership duration. Expected service life, representative failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; the accepted exact-model evidence includes a bounded 2020 hands-on test and an owner performance anecdote, neither of which establishes representative service life.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-11",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G0785&format=json",
+          "title": "CPSC recall API query for G0785",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-11",
+          "purpose": "CPSC recall API exact-product-name query returned no records; no-match query is not safety clearance"
+        },
+        {
+          "url": "https://www.finewoodworking.com/project-guides/shop-machines/tool-test-wall-mounted-dust-collectors",
+          "title": "Fine Woodworking wall-mounted dust collector test including G0785",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-11",
+          "purpose": "bounded 2020 independent exact-model performance test without ownership duration"
+        },
+        {
+          "url": "https://www.reddit.com/r/woodworking/comments/1n2x91e/is_a_dedicated_dust_collection_set_up_worth_it/",
+          "title": "Reddit exact-model G0785 owner performance report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-11",
+          "purpose": "bounded exact-model owner report about planer and jointer performance without ownership duration"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-dust-collection-bag-for-g0785-and-g0944-series-3-pk./t21820",
+          "title": "Grizzly T21820 replacement collection bags for G0785 and G0944 series",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "current exact-model compatible replacement collection-bag order page"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B083JQWX18",
+          "title": "Amazon exact Grizzly G0785 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g0785_ds.pdf",
+          "title": "Grizzly G0785 specification sheet",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact current configuration, electrical specification, package contents, construction, and warranty summary"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-1-hp-wall-mount-dust-collector-with-canister-filter/g0785",
+          "title": "Grizzly G0785 product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact identity, current U.S. product status, configuration, and manufacturer support"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0785/parts",
+          "title": "Grizzly G0785 exact-model parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact-model online parts catalog, revision cautions, and ordering path"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-canister-filter/p0785001",
+          "title": "Grizzly P0785001 replacement canister filter",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact-model replacement canister filter order page"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-aluminium-impeller-10/p0785009",
+          "title": "Grizzly P0785009 replacement impeller",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact-model replacement impeller order page"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-motor-1hp-120-240v-1-ph/p0785010",
+          "title": "Grizzly P0785010 replacement motor",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "exact-model replacement motor order page"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/partslists/g0785_pl.pdf",
+          "title": "Grizzly G0785 illustrated parts list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "illustrated parts breakdown and component identities"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "manufacturer recall-page bounded search"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "manufacturer repair intake, technical support, paid repair route, and post-discontinuation parts policy"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0785_m.pdf",
+          "title": "Grizzly G0785 owner manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "operation, maintenance, troubleshooting, wiring, impeller-tightening procedure, and service boundaries"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-11",
+          "purpose": "warranty duration, original-purchaser boundary, proof-of-purchase requirement, and exclusions"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-11",
+          "reverify_days": 90,
+          "stale_after": "2027-01-09"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-11",
+          "reverify_days": 90,
+          "stale_after": "2027-01-09"
+        },
+        {
+          "name": "identity",
+          "raw_value": "G0785; wall-mount; single-stage; 1 HP; 120V/240V; single-phase; one 4-inch inlet; 1-micron canister; collection bag",
+          "display_value": "Exact current U.S. G0785 wall-mount single-stage collector; 1 HP, 120V/240V single-phase, with one 4-inch inlet, 1-micron canister filter, and lower collection bag.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/grizzly-1-hp-wall-mount-dust-collector-with-canister-filter/g0785",
+          "verified_date": "2026-10-11",
+          "reverify_days": 180,
+          "stale_after": "2027-04-09"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Grizzly publishes an exact-model catalog and illustrated list, with current order pages verified for the motor, impeller, canister filter, and collection bags; not every listed component was independently confirmed orderable.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g0785/parts",
+          "verified_date": "2026-10-11",
+          "reverify_days": 90,
+          "stale_after": "2027-01-09"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-verified",
+          "display_value": "The owner manual covers maintenance, troubleshooting, wiring, illustrated parts, and one impeller-tightening procedure, but it does not provide a comprehensive step-by-step internal repair manual.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0785_m.pdf",
+          "verified_date": "2026-10-11",
+          "reverify_days": 180,
+          "stale_after": "2027-04-09"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can clean or replace the canister filter and collection bag and follow the documented impeller-tightening procedure; electrical work is reserved for a qualified electrician or service personnel, and Grizzly offers repair intake.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0785_m.pdf",
+          "verified_date": "2026-10-11",
+          "reverify_days": 180,
+          "stale_after": "2027-04-09"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-11",
+          "reverify_days": 30,
+          "stale_after": "2026-11-10"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser, subject to proof-of-purchase requirements and published exclusions.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-11",
+          "reverify_days": 180,
+          "stale_after": "2027-04-09"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B083JQWX18?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-11"
+        }
+      ],
+      "repairability": {
+        "product_id": 39,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0785/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0785_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 262,
+        "verified_date": "2026-10-11"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly house-brand products are warranted to the original purchaser for one year from purchase, with proof of purchase required.",
+        "warranty_exclusions": "Published exclusions include misuse, abuse, negligence, accidents, unauthorized repairs, improper wiring, alterations, lack of maintenance, and consumable parts.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-11"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 38,
       "slug": "grizzly-g0860",
       "brand": "Grizzly",
@@ -1989,14 +2237,14 @@
           "url": "https://www.grizzly.com/recalls",
           "title": "Grizzly recalled-items page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-10",
+          "retrieved_date": "2026-10-11",
           "purpose": "manufacturer recall-page bounded search"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
           "title": "Grizzly repair-service policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-10",
+          "retrieved_date": "2026-10-11",
           "purpose": "manufacturer repair intake and paid-service route"
         },
         {
@@ -2010,7 +2258,7 @@
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
           "title": "Grizzly limited warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-10",
+          "retrieved_date": "2026-10-11",
           "purpose": "warranty duration, coverage, purchaser boundary, and exclusions"
         }
       ],
@@ -6105,7 +6353,7 @@
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
           "title": "Grizzly limited warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-10",
+          "retrieved_date": "2026-10-11",
           "purpose": "warranty terms"
         }
       ],
@@ -6283,7 +6531,7 @@
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
           "title": "Grizzly limited warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-10",
+          "retrieved_date": "2026-10-11",
           "purpose": "warranty terms"
         }
       ],
@@ -7488,6 +7736,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0785",
+      "field_name": "street_price",
+      "verified_date": "2026-10-11",
+      "reverify_days": 30,
+      "stale_after": "2026-11-10",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -7672,6 +7928,30 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0785",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-11",
+      "reverify_days": 90,
+      "stale_after": "2027-01-09",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-11",
+      "reverify_days": 90,
+      "stale_after": "2027-01-09",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-11",
+      "reverify_days": 90,
+      "stale_after": "2027-01-09",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -9597,6 +9877,38 @@
       "verified_date": "2026-10-10",
       "reverify_days": 180,
       "stale_after": "2027-04-08",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "identity",
+      "verified_date": "2026-10-11",
+      "reverify_days": 180,
+      "stale_after": "2027-04-09",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-11",
+      "reverify_days": 180,
+      "stale_after": "2027-04-09",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-11",
+      "reverify_days": 180,
+      "stale_after": "2027-04-09",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0785",
+      "field_name": "warranty",
+      "verified_date": "2026-10-11",
+      "reverify_days": 180,
+      "stale_after": "2027-04-09",
       "is_stale": false
     }
   ]

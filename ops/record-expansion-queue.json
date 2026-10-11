@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 38,
+  "current_published_records": 39,
   "target_total_records": 100,
-  "candidate_count": 65,
+  "candidate_count": 64,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -592,20 +592,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "Grizzly publishes a dedicated exact-SKU page for the HEPA-equipped G0944HEP and an official house-brand warranty.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "1 HP Wall-Mount Dust Collector with Canister Filter",
-      "sku": "G0785",
-      "category": "dust collector",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-1-hp-wall-mount-dust-collector-with-canister-filter/g0785",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "The model-specific Grizzly page verifies the G0785 wall-mount collector and canister configuration; the official warranty supplies support evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
