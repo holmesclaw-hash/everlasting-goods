@@ -22,9 +22,10 @@ const MOCCAMASTER_GUIDE_SLUG = "is-a-moccamaster-buy-it-for-life";
 const restoredGuides = {
   [MOCCAMASTER_GUIDE_SLUG]: {
     slug: MOCCAMASTER_GUIDE_SLUG,
+    databaseSlug: "moccamaster-kbgv-select-53948",
     title: "Is a Moccamaster Buy It for Life? K741.64B and KBGV Evidence Review",
     description: "A source-checked review of a 15-year-old K741.64B and the current KBGV Select, including parts support, factory repair, warranty limits, care, and owner tradeoffs.",
-    reviewedAt: "2026-09-14",
+    reviewedAt: "2026-10-13",
     asin: "B093DXS54M",
     destinationDescription: "the matte-black Moccamaster 53948 KBGV Select 10-cup brewer, ASIN B093DXS54M",
     destinationLabel: "View exact Moccamaster 53948 KBGV Select on Amazon",

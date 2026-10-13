@@ -232,7 +232,7 @@ export const articles: Article[] = [
     image: "/images/articles/moccamaster-k741-64b.jpg",
     author: "Everlasting Goods Editorial Team",
     date: "2026-09-14",
-    updatedAt: "2026-09-14",
+    updatedAt: "2026-10-13",
     readTime: "9 min read",
     featured: false,
     products: [],

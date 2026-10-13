@@ -46,7 +46,7 @@ test("the Moccamaster review separates historical owner evidence from the curren
   assert.match(content, /us\.moccamaster\.com\/products\/kbgv/);
   assert.match(content, /collections\/kbgv-select-coffee-brewer-parts/);
   assert.match(content, /1500009429481-Can-I-get-my-Moccamaster-repaired/);
-  assert.match(content, /1500012391061-What-warranty-does-my-Moccamaster-coffee-brewer-come-with/);
+  assert.match(content, /1500012391061-What-is-the-warranty-on-my-Moccamaster-brewer/);
   assert.match(content, /commons\.wikimedia\.org\/wiki\/File:Technivorm_Moccamaster_K741\.64B\.jpg/);
   assert.match(content, /reddit\.com\/r\/BuyItForLife\/comments\/1nvw5m5/);
   assert.match(content, /bestreviews\.com\/kitchen\/coffee-accessories/);

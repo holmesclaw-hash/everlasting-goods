@@ -18,7 +18,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-12T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-13T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -102,6 +102,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "makita-ls0816f": "B0CRHR8FBC",
     "makita-ls1219l": "B07B3WF2Y2",
     "makita-kp0800k": "B0033WSK5O",
+    "moccamaster-kbgv-select-53948": "B093DXS54M",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -112,7 +113,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "california-air-tools-8010"
+      product.slug === "moccamaster-kbgv-select-53948"
+        ? "2026-10-13"
+      : product.slug === "california-air-tools-8010"
         ? "2026-10-08"
       : product.slug === "dewalt-dcd800b"
         ? "2026-10-09"

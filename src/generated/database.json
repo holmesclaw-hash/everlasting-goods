@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "090bd314ab11e57dcd56db7d1229be48e0ebac5a4420d3260a96bb0b744fdf6f",
-  "generated_at": "2026-10-12T00:00:00.000Z",
+  "database_sha256": "e23c124a8e3270add060033a6dc9aa9398a560a7d03edbf1402a8483c5dbc72a",
+  "generated_at": "2026-10-13T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -2219,6 +2219,219 @@
         "warranty_exclusions": "Unauthorized repair attempts, misuse, alterations, abuse, normal wear, lack of maintenance, and accidents are excluded; the policy specifically lists chucks among normal-wear parts.",
         "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
         "verified_date": "2026-09-25"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 42,
+      "slug": "moccamaster-kbgv-select-53948",
+      "brand": "Moccamaster",
+      "model": "KBGV Select",
+      "sku": "53948",
+      "category": "drip-coffee-makers",
+      "category_group": "kitchen",
+      "variant_notes": "This exact commercial record is for the U.S. Moccamaster KBGV Select 10-cup brewer in Matte Black, model 53948, with a 40-ounce glass carafe and half- or full-carafe selector. Other KBGV colors have separate model numbers. The photographed 15-year-old K741.64B in the related editorial guide is historical family evidence, not the same model, and its service duration is not transferred to the current 53948.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Current manufacturer documentation establishes the KBGV Select configuration, separately sold external parts, a factory repair channel, a five-year original-purchaser warranty, and required cleaning and descaling. A five-year owner report concerns a Moccamaster family machine without proving the exact 53948 configuration, while the 15-year K741.64B and roughly 30-year inherited machine are different historical models. Exact-53948 expected service life, representative failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; long-duration evidence reviewed for older or incompletely identified Moccamaster family machines cannot establish the expected service life of exact model 53948.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-13",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Technivorm_Moccamaster_K741.64B.jpg",
+          "title": "Wikimedia Commons 15-year-old Technivorm Moccamaster K741.64B owner photograph",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-13",
+          "purpose": "bounded 15-year historical K741.64B evidence with replacement reservoir; different-model boundary"
+        },
+        {
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1356i6h/five_years_with_a_moccamaster/",
+          "title": "Reddit five-year Moccamaster owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-13",
+          "purpose": "bounded five-year Moccamaster owner report without exact 53948 identity"
+        },
+        {
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1nvw5m5/my_moccamaster_has_been_brewing_for_30_years_and/",
+          "title": "Reddit inherited roughly 30-year Moccamaster owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-13",
+          "purpose": "bounded roughly 30-year inherited historical Moccamaster report without exact current-model identity"
+        },
+        {
+          "url": "https://device.report/technivorm-moccamaster/53948",
+          "title": "Model 53948 and ASIN B093DXS54M commercial identity corroboration",
+          "source_type": "other",
+          "retrieved_date": "2026-10-13",
+          "purpose": "commercial corroboration mapping model 53948 to Matte Black KBGV Select and ASIN B093DXS54M"
+        },
+        {
+          "url": "https://us.moccamaster.com/products/kbgv",
+          "title": "Moccamaster KBGV Select official U.S. product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-13",
+          "purpose": "current KBGV Select identity, capacity, glass-carafe configuration, selector, shutoff, construction, care, and color family"
+        },
+        {
+          "url": "https://us.moccamaster.com/collections/kbgv-select-coffee-brewer-parts",
+          "title": "Moccamaster KBGV Select replacement-parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-13",
+          "purpose": "current exact-family external replacement-parts catalog and older-brewer support statement"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B093DXS54M",
+          "title": "Amazon exact Moccamaster 53948 KBGV Select destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-13",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://support.moccamaster.com/hc/en-us/articles/1500012391061-What-is-the-warranty-on-my-Moccamaster-brewer",
+          "title": "Moccamaster USA brewer warranty terms",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-13",
+          "purpose": "five-year original-purchaser warranty, exclusions, and registration guidance"
+        },
+        {
+          "url": "https://bestreviews.com/kitchen/coffee-accessories/technivorm-moccamaster--53923-kbgv-select-coffee-maker-juniper",
+          "title": "BestReviews KBGV Select independent testing report",
+          "source_type": "other",
+          "retrieved_date": "2026-10-13",
+          "purpose": "independent KBGV Select usability and construction tradeoffs; not long-term lifespan evidence"
+        },
+        {
+          "url": "https://support.moccamaster.com/hc/en-us/articles/1500009429481-Can-I-get-my-Moccamaster-repaired",
+          "title": "Moccamaster USA factory repair program",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-13",
+          "purpose": "manufacturer flat-rate factory repair route and repaired-brewer warranty"
+        },
+        {
+          "url": "https://support.moccamaster.com/hc/en-us/article_attachments/1500014339002",
+          "title": "Moccamaster KBGV Select official owner manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-13",
+          "purpose": "owner operation, cleaning, descaling, troubleshooting, safety boundaries, and no-user-serviceable-parts warning"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-13",
+          "reverify_days": 90,
+          "stale_after": "2027-01-11"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-13",
+          "reverify_days": 90,
+          "stale_after": "2027-01-11"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Moccamaster KBGV Select; model 53948; Matte Black; 10 cup; 40 oz; glass carafe; half/full selector; automatic drip-stop; automatic shutoff",
+          "display_value": "Exact U.S. model 53948 KBGV Select in Matte Black: a 40-ounce, glass-carafe brewer with a half- or full-carafe selector, automatic drip-stop, and automatic shutoff.",
+          "evidence_tier": "T2",
+          "source_url": "https://us.moccamaster.com/products/kbgv",
+          "verified_date": "2026-10-13",
+          "reverify_days": 180,
+          "stale_after": "2027-04-11"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Moccamaster sells KBGV Select carafes, brew baskets, lids, an outlet arm, switches, and other external pieces, and says it supports parts for some older brewers; the reviewed catalog does not establish open ordering for every internal component.",
+          "evidence_tier": "T1",
+          "source_url": "https://us.moccamaster.com/collections/kbgv-select-coffee-brewer-parts",
+          "verified_date": "2026-10-13",
+          "reverify_days": 90,
+          "stale_after": "2027-01-11"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-comprehensive",
+          "display_value": "The owner manual covers operation, cleaning, descaling, troubleshooting, and safety limits, but states that no user-serviceable parts are inside and is not an internal repair manual.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.moccamaster.com/hc/en-us/article_attachments/1500014339002",
+          "verified_date": "2026-10-13",
+          "reverify_days": 180,
+          "stale_after": "2027-04-11"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can clean, descale, and replace documented external parts; internal faults follow Moccamaster USA’s factory repair path because the manual identifies no user-serviceable internal parts.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.moccamaster.com/hc/en-us/articles/1500009429481-Can-I-get-my-Moccamaster-repaired",
+          "verified_date": "2026-10-13",
+          "reverify_days": 180,
+          "stale_after": "2027-04-11"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-13",
+          "reverify_days": 30,
+          "stale_after": "2026-11-12"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "5-year limited warranty",
+          "display_value": "Five-year limited warranty for the original purchaser of a new brewer bought from an authorized retailer; the glass carafe and parts are excluded, and coverage is not transferable.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.moccamaster.com/hc/en-us/articles/1500012391061-What-is-the-warranty-on-my-Moccamaster-brewer",
+          "verified_date": "2026-10-13",
+          "reverify_days": 180,
+          "stale_after": "2027-04-11"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B093DXS54M?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-13"
+        }
+      ],
+      "repairability": {
+        "product_id": 42,
+        "parts_availability": "partial",
+        "parts_url": "https://us.moccamaster.com/collections/kbgv-select-coffee-brewer-parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://support.moccamaster.com/hc/en-us/article_attachments/1500014339002",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 320,
+        "verified_date": "2026-10-13"
+      },
+      "warranty": {
+        "warranty_length": "5 years limited warranty",
+        "warranty_coverage": "Moccamaster USA warrants a new brewer to the original purchaser for five years from the purchase date against defects in materials and workmanship, subject to its current terms.",
+        "warranty_exclusions": "The warranty is not transferable, excludes the glass carafe and parts, and excludes misuse, improper cleaning or descaling, unauthorized modification or repair, and other published conditions.",
+        "source_url": "https://support.moccamaster.com/hc/en-us/articles/1500012391061-What-is-the-warranty-on-my-Moccamaster-brewer",
+        "verified_date": "2026-10-13"
       },
       "cost_per_year": null
     },
@@ -8382,6 +8595,14 @@
       "is_stale": false
     },
     {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "street_price",
+      "verified_date": "2026-10-13",
+      "reverify_days": 30,
+      "stale_after": "2026-11-12",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -8638,6 +8859,30 @@
       "is_stale": false
     },
     {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-13",
+      "reverify_days": 90,
+      "stale_after": "2027-01-11",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-13",
+      "reverify_days": 90,
+      "stale_after": "2027-01-11",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-13",
+      "reverify_days": 90,
+      "stale_after": "2027-01-11",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -10659,6 +10904,38 @@
       "verified_date": "2026-10-12",
       "reverify_days": 180,
       "stale_after": "2027-04-10",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "identity",
+      "verified_date": "2026-10-13",
+      "reverify_days": 180,
+      "stale_after": "2027-04-11",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-13",
+      "reverify_days": 180,
+      "stale_after": "2027-04-11",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-13",
+      "reverify_days": 180,
+      "stale_after": "2027-04-11",
+      "is_stale": false
+    },
+    {
+      "slug": "moccamaster-kbgv-select-53948",
+      "field_name": "warranty",
+      "verified_date": "2026-10-13",
+      "reverify_days": 180,
+      "stale_after": "2027-04-11",
       "is_stale": false
     }
   ]
