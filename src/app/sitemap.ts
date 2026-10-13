@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/articles/best-estwing-hammers-that-last-a-lifetime`, lastModified: new Date("2026-09-04"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/articles/best-kitchen-knives-that-last-a-lifetime`, lastModified: new Date("2026-08-31"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/articles/best-safety-razors-that-last-a-lifetime`, lastModified: new Date("2026-08-29"), changeFrequency: "monthly", priority: 0.7 },
-    { url: `${baseUrl}/articles/is-a-moccamaster-buy-it-for-life`, lastModified: new Date("2026-09-14"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/articles/is-a-moccamaster-buy-it-for-life`, lastModified: new Date("2026-10-13"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/about`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/methodology`, lastModified: reviewed, changeFrequency: "monthly", priority: 0.6 },
     { url: `${baseUrl}/contact`, lastModified: reviewed, changeFrequency: "yearly", priority: 0.3 },

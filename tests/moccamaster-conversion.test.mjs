@@ -34,7 +34,11 @@ test("the Moccamaster evidence review is photo-gated, discoverable, and indexabl
   assert.match(data, /moccamasterK741Content/);
   assert.match(data, /slug: "is-a-moccamaster-buy-it-for-life"/);
   assert.match(registry, /is-a-moccamaster-buy-it-for-life/);
-  assert.match(sitemap, /is-a-moccamaster-buy-it-for-life/);
+  assert.match(
+    sitemap,
+    /articles\/is-a-moccamaster-buy-it-for-life`, lastModified: new Date\("2026-10-13"\)/,
+    "the sitemap freshness date must match the refreshed guide",
+  );
 });
 
 test("the Moccamaster review separates historical owner evidence from the current commercial model", async () => {
