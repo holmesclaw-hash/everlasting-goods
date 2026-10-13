@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "053d788fb8aecbee6f065df739b01436c71ffd0a4d64fe9a0b56033ac1baf03e",
+  "database_sha256": "090bd314ab11e57dcd56db7d1229be48e0ebac5a4420d3260a96bb0b744fdf6f",
   "generated_at": "2026-10-12T00:00:00.000Z",
   "products": [
     {
@@ -590,6 +590,331 @@
         "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
         "source_url": "https://www.makitatools.com/service/warranty",
         "verified_date": "2026-10-05"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 41,
+      "slug": "grizzly-g0940",
+      "brand": "Grizzly",
+      "model": "G0940",
+      "sku": "G0940",
+      "category": "benchtop-planers",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is the current U.S. G0940 13-inch benchtop planer with a 2 HP, 120V single-phase 15A motor, a two-row helical cutterhead carrying 30 H9893-compatible 15 x 15 x 2.5 mm carbide inserts, and a granite table. The downloadable V3 manual and parts list cover machines manufactured since 03/25, while the parts catalog identifies a separate V4 manual for machines manufactured 10/25 and later. The manufacture date and serial number must be checked before applying revision-specific instructions or ordering parts. No specifications, parts claims, owner reports, recall status, or commercial identities are transferred from G0939, G0505, G0959, G0999, recalled G0815, Shop Fox W1877, or other related planers and revisions.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Official documentation establishes the exact current G0940 configuration, revision-aware parts catalog, consumable inserts, representative order pages, substantial owner maintenance, one advanced cutterhead-bearing procedure, a one-year warranty, and manufacturer repair intake. Accepted owner evidence remains anecdotal: one scratch-and-dent machine required substantial initial alignment before the owner reported a good surface finish, and another buyer reported three successive units damaged during shipping. Neither report establishes representative operating life. Expected service life, population failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; accepted exact-model evidence covers one scratch-and-dent unit and a separate shipping-damage sequence, not representative multi-year operating life.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-12",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G0940&format=json",
+          "title": "CPSC recall API query for G0940",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-12",
+          "purpose": "CPSC recall API exact-product-name query returned no records; no-match query is not safety clearance"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/39161065351319-Which-Knives-Inserts-or-Cutterhead-Upgrades-Fit-My-Jointer-or-Planer",
+          "title": "Grizzly planer insert compatibility guide",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "G0940 compatibility with thirty H9893 inserts"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/partslists/g0940_pl.pdf",
+          "title": "Grizzly G0940 V3 illustrated parts list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "V3 illustrated parts breakdown and explicit parts-availability limitation"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0940_m.pdf",
+          "title": "Grizzly G0939/G0940 V3 owner manual for machines manufactured since March 2025",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "V3 revision scope, assembly, maintenance, troubleshooting, component replacement, calibration, wiring, and safety limits"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/41752518807191-G0940-Planer-Cutterhead-Bearing-Replacement",
+          "title": "Grizzly G0940 advanced cutterhead-bearing replacement procedure",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "advanced exact-model cutterhead-bearing replacement procedure"
+        },
+        {
+          "url": "https://forestryforum.com/board?topic=123522.0",
+          "title": "Forestry Forum G0940 scratch-and-dent owner adjustment report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-12",
+          "purpose": "bounded scratch-and-dent unit adjustment and finish report"
+        },
+        {
+          "url": "https://sawmillcreek.org/threads/in-search-of-a-benchtop-wood-planer.295150/",
+          "title": "Sawmill Creek G0940 shipping-damage owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-12",
+          "purpose": "bounded three-unit shipping-damage and support report"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-indexable-carbide-insert-15-x-15-x-2.5mm-10-pk./h9893",
+          "title": "Grizzly H9893 G0940-compatible carbide inserts",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current G0940-compatible replacement-insert order page"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g0940_ds.pdf",
+          "title": "Grizzly G0940 specification sheet dated May 4, 2026",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current electrical, cutterhead, capacity, construction, packaging, and warranty specifications"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/34323368216983-FAQ-G0940-13-2-HP-Benchtop-Planer-w-Helical-Cutterhead",
+          "title": "Grizzly G0940 exact-model FAQ",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current exact-model design, voltage, insert, and configuration FAQ"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-cutterhead-13-helical/p0940129",
+          "title": "Grizzly P0940129 G0940 helical cutterhead order page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "direct exact-model helical-cutterhead order page"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-poly-v-belt-135j/p0940111",
+          "title": "Grizzly G0940 Poly-V belt supersession page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "direct replacement-belt supersession page"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-carbon-brush-2-pk/p0940135",
+          "title": "Grizzly G0940 carbon-brush supersession page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "direct replacement-brush supersession page"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0BBKQ4W6S",
+          "title": "Amazon exact Grizzly G0940 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-12",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer-w-helical-cutterhead/g0940",
+          "title": "Grizzly G0940 product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "exact current identity, configuration, capacity, product status, and support route"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0940/parts",
+          "title": "Grizzly G0940 exact-model parts and manuals catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "exact-model revision-aware online parts and manuals catalog"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+          "title": "Grizzly replacement-parts ordering and availability policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer parts-ordering, supersession, and availability boundaries"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer recall-page bounded search"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer repair intake, technical support, paid repair route, and post-discontinuation parts policy"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-12-1-2-2-hp-benchtop-planer/g0505",
+          "title": "Grizzly G0505 product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate G0505 planer identity"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Grizzly-Industrial-Recalls-Heavy-Duty-Planers-Due-to-Impact-and-Laceration-Hazards",
+          "title": "CPSC recall notice for separate Grizzly G0815 planer",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate G0815 recall boundary"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer/g0939",
+          "title": "Grizzly G0939 straight-knife product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate G0939 straight-knife identity"
+        },
+        {
+          "url": "https://grizzly.com/products/grizzly-12-combo-planer-jointer/g0959",
+          "title": "Grizzly G0959 combination planer-jointer product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate G0959 combination-machine identity"
+        },
+        {
+          "url": "https://grizzly.com/products/grizzly-15-2-hp-benchtop-planer-with-spiral-cutterhead/g0999",
+          "title": "Grizzly G0999 15-inch spiral-cutterhead planer product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate G0999 15-inch spiral-cutterhead identity"
+        },
+        {
+          "url": "https://www.grizzly.com/products/shop-fox-13-benchtop-planer-w-spiral-type-cutterhead/w1877",
+          "title": "Shop Fox W1877 spiral-type-cutterhead planer product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate Shop Fox W1877 identity"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/grizzly-manual-g0939-g0940-mfd-10.25-v4.10.25/p0939manv4",
+          "title": "Grizzly G0939/G0940 V4 manual listing for machines manufactured October 2025 and later",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate V4 manual identity for machines manufactured October 2025 and later"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "warranty duration, original-purchaser boundary, proof-of-purchase requirement, and exclusions"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-12",
+          "reverify_days": 90,
+          "stale_after": "2027-01-10"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-12",
+          "reverify_days": 90,
+          "stale_after": "2027-01-10"
+        },
+        {
+          "name": "identity",
+          "raw_value": "G0940; 13-inch; 2 HP; 120V; single-phase; 15A; two-row helical cutterhead; 30 inserts; granite table",
+          "display_value": "Exact current U.S. G0940 13-inch benchtop planer; 2 HP, 120V single-phase, 15A, with a two-row helical cutterhead carrying 30 four-edge 15 x 15 x 2.5 mm carbide inserts and a granite table.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer-w-helical-cutterhead/g0940",
+          "verified_date": "2026-10-12",
+          "reverify_days": 180,
+          "stale_after": "2027-04-10"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Grizzly publishes an exact-model revision-aware catalog and illustrated list, with direct pages for H9893 inserts, superseded brushes and belt, and the complete helical cutterhead; present purchase information is mixed for major assemblies including the motor and feed rollers, and the parts list disclaims guaranteed availability.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g0940/parts",
+          "verified_date": "2026-10-12",
+          "reverify_days": 90,
+          "stale_after": "2027-01-10"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-comprehensive",
+          "display_value": "The V3 owner manual covers insert rotation, motor-brush and belt replacement, pinion-gear replacement, lubrication, troubleshooting, and calibration, and Grizzly separately publishes an advanced cutterhead-bearing procedure; these resources do not form a comprehensive internal repair manual for every subsystem or revision.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0940_m.pdf",
+          "verified_date": "2026-10-12",
+          "reverify_days": 180,
+          "stale_after": "2027-04-10"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can rotate or replace individual inserts and service brushes and the belt; the documented bearing procedure is advanced, revision-specific work requires manufacture-date checks, and electrical repair remains qualified-service work.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/41752518807191-G0940-Planer-Cutterhead-Bearing-Replacement",
+          "verified_date": "2026-10-12",
+          "reverify_days": 180,
+          "stale_after": "2027-04-10"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-12",
+          "reverify_days": 30,
+          "stale_after": "2026-11-11"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser, subject to proof-of-purchase requirements and published exclusions.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-12",
+          "reverify_days": 180,
+          "stale_after": "2027-04-10"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0BBKQ4W6S?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-12"
+        }
+      ],
+      "repairability": {
+        "product_id": 41,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0940/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0940_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 296,
+        "verified_date": "2026-10-12"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly house-brand products are warranted to the original purchaser for one year from purchase, with proof of purchase required.",
+        "warranty_exclusions": "Published exclusions include misuse, abuse, negligence, accidents, unauthorized repairs, improper wiring, alterations, lack of maintenance, and consumable parts.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-12"
       },
       "cost_per_year": null
     },
@@ -7782,7 +8107,7 @@
       "verified_date": "2026-09-12",
       "reverify_days": 30,
       "stale_after": "2026-10-12",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "bosch-gsr18v-800cn",
@@ -8049,6 +8374,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0940",
+      "field_name": "street_price",
+      "verified_date": "2026-10-12",
+      "reverify_days": 30,
+      "stale_after": "2026-11-11",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -8281,6 +8614,30 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0940",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-12",
+      "reverify_days": 90,
+      "stale_after": "2027-01-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-12",
+      "reverify_days": 90,
+      "stale_after": "2027-01-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-12",
+      "reverify_days": 90,
+      "stale_after": "2027-01-10",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -10266,6 +10623,38 @@
     },
     {
       "slug": "grizzly-g0548zp",
+      "field_name": "warranty",
+      "verified_date": "2026-10-12",
+      "reverify_days": 180,
+      "stale_after": "2027-04-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
+      "field_name": "identity",
+      "verified_date": "2026-10-12",
+      "reverify_days": 180,
+      "stale_after": "2027-04-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-12",
+      "reverify_days": 180,
+      "stale_after": "2027-04-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-12",
+      "reverify_days": 180,
+      "stale_after": "2027-04-10",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0940",
       "field_name": "warranty",
       "verified_date": "2026-10-12",
       "reverify_days": 180,

@@ -83,6 +83,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "grizzly-g0860": "B07K1YTJZD",
     "grizzly-g0785": "B083JQWX18",
     "grizzly-g0548zp": "B00DQJPBJ2",
+    "grizzly-g0940": "B0BBKQ4W6S",
     "sawstop-pcs31230-tgp236": "B009C7NGTE",
     "bosch-gsr18v-800cn": "B0CRMB2TPF",
     "dewalt-dwp611": "B0048EFUV8",
@@ -116,6 +117,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
       : product.slug === "dewalt-dcd800b"
         ? "2026-10-09"
       : product.slug === "grizzly-g0548zp"
+        ? "2026-10-12"
+      : product.slug === "grizzly-g0940"
         ? "2026-10-12"
       : product.slug === "grizzly-g0785"
         ? "2026-10-11"

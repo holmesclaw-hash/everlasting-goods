@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 40,
+  "current_published_records": 41,
   "target_total_records": 100,
-  "candidate_count": 63,
+  "candidate_count": 62,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -620,20 +620,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "Grizzly publishes a dedicated page for the G1028Z2 portable collector and an official warranty for Grizzly house-brand equipment.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "13-Inch 2 HP Benchtop Planer with Helical Cutterhead",
-      "sku": "G0940",
-      "category": "benchtop planer",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-13-2-hp-benchtop-planer-w-helical-cutterhead/g0940",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "The official model page verifies the G0940 benchtop planer and helical cutterhead; Grizzly's warranty provides manufacturer support evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
