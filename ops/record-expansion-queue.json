@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 42,
+  "current_published_records": 43,
   "target_total_records": 100,
-  "candidate_count": 62,
+  "candidate_count": 61,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -634,20 +634,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "Grizzly's exact-model product page establishes the G0815 planer identity, and the official warranty covers Grizzly house-brand machinery.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "15-Inch 3 HP Planer with Spiral Cutterhead",
-      "sku": "G0453Z",
-      "category": "planer",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-w-spiral-cutterhead/g0453z",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "The manufacturer maintains a dedicated G0453Z page identifying its spiral-cutterhead configuration and an official warranty support page.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."

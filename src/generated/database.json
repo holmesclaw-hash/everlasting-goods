@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "e23c124a8e3270add060033a6dc9aa9398a560a7d03edbf1402a8483c5dbc72a",
-  "generated_at": "2026-10-13T00:00:00.000Z",
+  "database_sha256": "282c431ee5bb93769ff482ef799a4b2338027d074f849123ab2c4fd649e382b7",
+  "generated_at": "2026-10-14T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -6556,6 +6556,303 @@
       "cost_per_year": null
     },
     {
+      "id": 43,
+      "slug": "grizzly-g0453z",
+      "brand": "Grizzly",
+      "model": "G0453Z",
+      "sku": "G0453Z",
+      "category": "stationary-planers",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is for the current U.S. G0453Z 15-inch stationary planer with a 3 HP, 240V single-phase 15A motor, four-row spiral cutterhead, and 74 indexable carbide inserts. Machines manufactured 03/15 and earlier use T21348 inserts, while machines manufactured 04/15 and later use H7319 inserts; the manufacture date on the ID label must be checked before ordering cutterhead parts. Machines manufactured since 09/17 use a later rubber outfeed roller. Specifications, parts, owner reports, recall status, and commercial identities are not transferred from G0453, G0453P, G0453PX, G0453W, G0453ZW, G0453ZX, G0454Z, recalled G0815, or other related planers and revisions.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Exact-model owner reports include a two-year machine with a replaced motor after repeated capacitor trouble, a three-year machine with an undiagnosed oil leak, a four-year lightly used machine whose start problem was attributed to the centrifugal switch, and one owner reporting in 2018 that a G0453Z used since 2010 still had the same belts. These are anecdotal experiences across different usage and manufacturing revisions, not representative evidence. Expected service life, representative failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; dated exact-model reports describe individual multi-year machines and repairs but do not establish representative G0453Z service life.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-14",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G0453Z&format=json",
+          "title": "SaferProducts exact-model G0453Z recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-14",
+          "purpose": "bounded exact-model recall API query returning no results; not safety clearance"
+        },
+        {
+          "url": "https://sawmillcreek.org/threads/grizzly-g0453w-planer-belt-life.262847/post-2786219",
+          "title": "Sawmill Creek G0453Z same-belts-since-2010 owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-14",
+          "purpose": "bounded exact-model same-belts-since-2010 report; not expected-life evidence"
+        },
+        {
+          "url": "https://www.lumberjocks.com/threads/grizzly-15-inch-planer-help.56358/",
+          "title": "LumberJocks four-year G0453Z capacitor and centrifugal-switch owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-14",
+          "purpose": "bounded four-year exact-model start-circuit report with owner-attributed centrifugal-switch resolution"
+        },
+        {
+          "url": "https://sawmillcreek.org/threads/grizzly-15-planer-leaking-gearbox-oil.197376/post-2040047",
+          "title": "Sawmill Creek three-year G0453Z undiagnosed oil-leak owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-14",
+          "purpose": "bounded three-year exact-model oil-leak report without confirmed diagnosis"
+        },
+        {
+          "url": "https://sawmillcreek.org/threads/15-planer-recommendations.192413/post-1986882",
+          "title": "Sawmill Creek two-year G0453Z motor and capacitor owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-14",
+          "purpose": "bounded two-year exact-model motor and capacitor report; not representative failure-rate evidence"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current Grizzly recalls page and separate G0815 planer recall boundary"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-indexable-carbide-inserts-14-x-14-x-2mm-10-pk./h7319",
+          "title": "Grizzly H7319 inserts for G0453Z machines manufactured 04/15 and later",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "current H7319 consumable identity and fit for G0453Z manufactured 04/15 and later"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-indexable-carbide-inserts-14.18-x-14.18-x-2mm-10-pk./t21348",
+          "title": "Grizzly T21348 inserts for G0453Z machines manufactured 03/15 and earlier",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "current T21348 consumable identity and fit for G0453Z manufactured 03/15 and earlier"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g0453z_ds.pdf",
+          "title": "Grizzly G0453Z specification sheet dated 2026-04-30",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "current exact G0453Z electrical, motor, capacity, cutterhead, table, construction, weight, and certification specifications"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-w-spiral-cutterhead/g0453z",
+          "title": "Grizzly G0453Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "current exact-model identity, summary specifications, warranty statement, and March-April 2015 insert boundary"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/35556139763863-FAQ-G0453Z-G0453ZX-15-Planer",
+          "title": "Grizzly G0453Z and G0453ZX comparison FAQ",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "exact G0453Z versus G0453ZX differences and current operating specifications"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0017IF2RU",
+          "title": "Amazon exact Grizzly G0453Z commercial destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-14",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0453z/parts",
+          "title": "Grizzly G0453Z revision-aware parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "exact-model online parts catalog, manual revisions, substitutions, and item-level availability"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/partslists/g0453z_pl.pdf",
+          "title": "Grizzly G0453Z illustrated parts list and revision updates",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "illustrated exact-model parts and August 2012, April 2015, and September 2017 revision boundaries"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P0453Z063V2",
+          "title": "Grizzly G0453Z later rubber outfeed roller part page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "later rubber outfeed-roller substitution and G0453W exclusion"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer depot repair route, freight burden, and prior-authorization requirements"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+          "title": "Grizzly replacement-parts ordering and availability policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer parts-availability policy, version handling, and availability limits"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/41750070246423-Checking-and-Adjusting-Table-Parallelism-on-Fixed-Head-Planers",
+          "title": "Grizzly fixed-head planer table-parallelism procedure",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "manufacturer table-parallelism inspection and adjustment guidance with exact-model direction and movement boundary"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "one-year limited warranty terms and exclusions"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P0453Z551V2",
+          "title": "Grizzly G0453Z V2 magnetic switch assembly part page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "representative current magnetic-switch component listing"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P0453Z518V2",
+          "title": "Grizzly G0453Z V2 3 HP 240V motor part page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "representative current motor component listing"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0453z_m.pdf",
+          "title": "Grizzly G0453Z and G0454Z owner manual with revision updates",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-14",
+          "purpose": "revision-aware operation, maintenance, troubleshooting, wiring, adjustment, insert, belt, chain, and illustrated-parts documentation"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Grizzly-Industrial-Recalls-Heavy-Duty-Planers-Due-to-Impact-and-Laceration-Hazards",
+          "title": "CPSC recall notice for separate Grizzly G0815 planer",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate CPSC G0815 planer recall that must not be transferred to G0453Z"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-14",
+          "reverify_days": 90,
+          "stale_after": "2027-01-12"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-14",
+          "reverify_days": 90,
+          "stale_after": "2027-01-12"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Grizzly G0453Z; stationary thickness planer; 15 in.; 3 HP; 240V; single-phase; 15A; four-row spiral cutterhead; 74 carbide inserts; current inserts 14 x 14 x 2 mm",
+          "display_value": "Exact current U.S. G0453Z 15-inch stationary planer with a 3 HP, 240V single-phase 15A motor and a four-row spiral cutterhead carrying 74 indexable 14 x 14 x 2 mm carbide inserts.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/specsheets/g0453z_ds.pdf",
+          "verified_date": "2026-10-14",
+          "reverify_days": 180,
+          "stale_after": "2027-04-12"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Grizzly publishes a revision-aware exact-model catalog with currently listed H7319 and T21348 inserts, a 3 HP motor, magnetic switch, and revision-specific outfeed roller, but manufacture-date compatibility is critical and not every catalog component was independently confirmed orderable.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g0453z/parts",
+          "verified_date": "2026-10-14",
+          "reverify_days": 90,
+          "stale_after": "2027-01-12"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-comprehensive",
+          "display_value": "The owner manual covers maintenance, troubleshooting, wiring, illustrated parts, insert rotation and replacement, belt service, chain service, and mechanical adjustment; it is substantial owner and technician guidance, not a comprehensive internal repair manual for every subsystem and production revision.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0453z_m.pdf",
+          "verified_date": "2026-10-14",
+          "reverify_days": 180,
+          "stale_after": "2027-04-12"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can rotate or replace inserts, service belts and chains, and follow revision-specific table parallelism guidance; 240V electrical work requires a qualified person, and depot repair of this 655-pound machine can require customer-arranged crating and LTL freight.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/41750070246423-Checking-and-Adjusting-Table-Parallelism-on-Fixed-Head-Planers",
+          "verified_date": "2026-10-14",
+          "reverify_days": 180,
+          "stale_after": "2027-04-12"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-14",
+          "reverify_days": 30,
+          "stale_after": "2026-11-13"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser covering manufacturing defects; consumables and published misuse, wiring, unauthorized-repair, and maintenance exclusions apply, and coverage is non-transferable.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-14",
+          "reverify_days": 180,
+          "stale_after": "2027-04-12"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0017IF2RU?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-14"
+        }
+      ],
+      "repairability": {
+        "product_id": 43,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0453z/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0453z_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 334,
+        "verified_date": "2026-10-14"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly warrants the machine to the original purchaser for one year from purchase against defects in materials and workmanship, subject to its current terms.",
+        "warranty_exclusions": "The warranty is non-transferable and excludes consumables, misuse, abuse, negligence, accidents, improper wiring, unauthorized repairs or alterations, and lack of maintenance; proof of purchase is required.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-14"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 7,
       "slug": "bosch-4100xc-10",
       "brand": "Bosch",
@@ -8603,6 +8900,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0453z",
+      "field_name": "street_price",
+      "verified_date": "2026-10-14",
+      "reverify_days": 30,
+      "stale_after": "2026-11-13",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dwe7491rs",
       "field_name": "parts_availability",
       "verified_date": "2026-09-18",
@@ -8883,6 +9188,30 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0453z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-14",
+      "reverify_days": 90,
+      "stale_after": "2027-01-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-14",
+      "reverify_days": 90,
+      "stale_after": "2027-01-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-14",
+      "reverify_days": 90,
+      "stale_after": "2027-01-12",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -10936,6 +11265,38 @@
       "verified_date": "2026-10-13",
       "reverify_days": 180,
       "stale_after": "2027-04-11",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "identity",
+      "verified_date": "2026-10-14",
+      "reverify_days": 180,
+      "stale_after": "2027-04-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-14",
+      "reverify_days": 180,
+      "stale_after": "2027-04-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-14",
+      "reverify_days": 180,
+      "stale_after": "2027-04-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0453z",
+      "field_name": "warranty",
+      "verified_date": "2026-10-14",
+      "reverify_days": 180,
+      "stale_after": "2027-04-12",
       "is_stale": false
     }
   ]
