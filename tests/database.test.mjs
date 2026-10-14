@@ -104,6 +104,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "makita-ls1219l": "B07B3WF2Y2",
     "makita-kp0800k": "B0033WSK5O",
     "moccamaster-kbgv-select-53948": "B093DXS54M",
+    "merkur-34c": "B002A8JO1Q",
   };
 
   assert.equal(generated.products.length, Object.keys(expectedAsins).length);
@@ -114,7 +115,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "grizzly-g0453z"
+      product.slug === "merkur-34c"
+        ? "2026-10-14"
+      : product.slug === "grizzly-g0453z"
         ? "2026-10-14"
       : product.slug === "moccamaster-kbgv-select-53948"
         ? "2026-10-13"

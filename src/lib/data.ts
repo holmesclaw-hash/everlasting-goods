@@ -4689,7 +4689,7 @@ export function getArticleBySlug(slug: string): Article | undefined {
     return {
       ...reviewedArticle,
       content: safetyRazorContent,
-      updatedAt: "2026-08-29",
+      updatedAt: "2026-10-14",
       author: "Everlasting Goods Editorial Team",
     };
   }

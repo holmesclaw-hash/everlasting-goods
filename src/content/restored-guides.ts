@@ -29,7 +29,7 @@ const restoredGuideCandidates = [
     slug: "best-safety-razors-that-last-a-lifetime",
     title: "Safety Razors: Construction and Maintenance",
     description: "Manufacturer-documented materials and blade systems, plus clearly limited owner evidence for the MERKUR 34C.",
-    reviewedAt: "2026-08-29",
+    reviewedAt: "2026-10-14",
   },
 ] as const;
 

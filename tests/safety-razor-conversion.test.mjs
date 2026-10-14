@@ -30,5 +30,7 @@ test("restored safety-razor guide separates manufacturer facts from dated owner 
   assert.match(content, /individual owner reports, not controlled durability testing/);
   assert.match(content, /original-34c-thursdays\.656755/);
   assert.match(content, /merkur-34c\.612135/);
-  assert.match(data, /content:\s*safetyRazorContent,\s*updatedAt: "2026-08-29"/);
+  assert.match(content, /MK-90004 Top Plate 34/);
+  assert.match(content, /overtightening can damage it/);
+  assert.match(data, /content:\s*safetyRazorContent,\s*updatedAt: "2026-10-14"/);
 });

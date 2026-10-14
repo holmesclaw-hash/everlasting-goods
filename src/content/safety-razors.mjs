@@ -10,8 +10,9 @@ export const safetyRazorContent = `
 <p>The manufacturer offers several DE89 handles and finishes. Confirm the exact SKU and finish rather than treating every DE89 listing as identical.</p>
 
 <h2 id="merkur-34c">MERKUR 34C</h2>
-<p>MERKUR&apos;s current <a href="https://merkur-razors.com/produkt/merkur-34c/?lang=en" target="_blank" rel="noopener noreferrer">34C documentation</a> lists a brass handle, die-cast zinc razor head, galvanized surfaces, and a bright chrome-plated finish. The product page identifies the model as MERKUR 34001 and publishes the current dimensions and material breakdown.</p>
+<p>MERKUR&apos;s current <a href="https://merkur-razors.com/produkt/merkur-34c/?lang=en" target="_blank" rel="noopener noreferrer">34C documentation</a> and <a href="https://shopmerkur.com/products/merkur-double-edge-safety-razor-straight-cut-extra-thick-handle-chrome" target="_blank" rel="noopener noreferrer">North American product page</a> list a brass handle, die-cast zinc or zinc-alloy razor head, galvanized surfaces, and a bright chrome-plated finish. The current North American page identifies the bright-chrome model as SKU MK-34001 and publishes the two-piece construction, 78-gram product weight, dimensions, and standard double-edge blade format.</p>
 <p>This is a two-piece design: the handle remains attached to the base plate during a blade change. That is a construction difference, not evidence that it will last longer than another model.</p>
+<p>Current parts support is partial. MERKUR&apos;s North American shop lists a <a href="https://shopmerkur.com/products/merkur-34c-top-plate-with-long-screw-in-chrome-finish-mk-90004" target="_blank" rel="noopener noreferrer">bright-chrome MK-90004 Top Plate 34</a> as compatible with the 34C. We did not verify separate current ordering for the base plate, complete handle, internal expansion ring, or every structural component.</p>
 
 <h2 id="henson-al13">Henson AL13</h2>
 <p>Henson&apos;s <a href="https://hensonshaving.com/products/henson-al13-in-aircraft-aluminum" target="_blank" rel="noopener noreferrer">AL13 product documentation</a> describes an aluminum razor with a fixed blade angle, 37-gram listed weight, and Type II anodized finish. Henson also states that the model accepts standard double-edge blades rather than a proprietary cartridge.</p>
@@ -40,6 +41,7 @@ export const safetyRazorContent = `
 <li>Rinse away residue without touching the blade edge.</li>
 <li>Allow the hardware to dry rather than leaving it in standing water.</li>
 <li>Clean threaded joints carefully and avoid cross-threading during reassembly.</li>
+<li>Do not overtighten the two-piece mechanism; MERKUR&apos;s blade-change guide warns that overtightening can damage it.</li>
 <li>Stop using bent, cracked, loose, or visibly misaligned hardware.</li>
 </ol>
 
@@ -47,6 +49,10 @@ export const safetyRazorContent = `
 <ul>
 <li><a href="https://edwinjagger.co.uk/edwin-jagger-de89-chrome-knurled-de-safety-razor-closed-comb.html" target="_blank" rel="noopener noreferrer">Edwin Jagger DE89 Chrome Knurled product page</a></li>
 <li><a href="https://merkur-razors.com/produkt/merkur-34c/?lang=en" target="_blank" rel="noopener noreferrer">MERKUR 34C / 34001 product page</a></li>
+<li><a href="https://shopmerkur.com/products/merkur-double-edge-safety-razor-straight-cut-extra-thick-handle-chrome" target="_blank" rel="noopener noreferrer">ShopMerkur North American MERKUR 34C / MK-34001 product page</a></li>
+<li><a href="https://shopmerkur.com/products/merkur-34c-top-plate-with-long-screw-in-chrome-finish-mk-90004" target="_blank" rel="noopener noreferrer">ShopMerkur MK-90004 Top Plate 34 replacement part</a></li>
+<li><a href="https://www.merkur-razors.com/wp-content/uploads/2024/07/safety-razor-two-piece-blade-replacement.pdf" target="_blank" rel="noopener noreferrer">MERKUR two-piece safety-razor blade replacement guide</a></li>
+<li><a href="https://www.merkur-razors.com/care-for-shaving-tools/?lang=en" target="_blank" rel="noopener noreferrer">MERKUR shaving-tool care guidance</a></li>
 <li><a href="https://hensonshaving.com/products/henson-al13-in-aircraft-aluminum" target="_blank" rel="noopener noreferrer">Henson AL13 product page</a></li>
 <li><a href="https://www.muehle-shaving.com/en/TRADITIONAL-Razor/R-41" target="_blank" rel="noopener noreferrer">MÜHLE R 41 product page</a></li>
 </ul>

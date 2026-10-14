@@ -34,9 +34,10 @@ const restoredGuides = {
   },
   [RESTORED_GUIDE_SLUG]: {
     slug: RESTORED_GUIDE_SLUG,
+    databaseSlug: "merkur-34c",
     title: "Safety Razors: Construction, Blade Format, and Maintenance",
     description: "A manufacturer-sourced comparison of Edwin Jagger DE89, MERKUR 34C, Henson AL13, and MÜHLE R 41 construction and maintainability.",
-    reviewedAt: "2026-08-29",
+    reviewedAt: "2026-10-14",
     asin: "B002A8JO1Q",
     destinationDescription: "MERKUR Classic MK-34C, ASIN B002A8JO1Q",
     destinationLabel: "View exact MERKUR 34C on Amazon",
