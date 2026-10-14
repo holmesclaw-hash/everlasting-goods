@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 42,
-    "research_candidates": 62,
+    "current_published_records": 43,
+    "research_candidates": 61,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "three_open_license_exact_product_images_live_in_product_database",
     "verified_images": 3,
-    "blocked_models": 39,
+    "blocked_models": 40,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -37,30 +37,27 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-13T06:47:21Z",
-  "last_action": "Published and live-verified a conservative T2 Moccamaster KBGV Select model 53948 structured repairability record, refreshed the existing Moccamaster evidence review, linked the high-intent guide to the record while preserving the boundary between the current 53948 and historical K741.64B owner evidence, and corrected the refreshed guide's sitemap date",
-  "last_live_url": "https://everlasting-goods.com/database/moccamaster-kbgv-select-53948",
-  "last_commit": "6fbf437",
+  "last_verified_at": "2026-10-14T05:30:56Z",
+  "last_action": "Published and live-verified a conservative T2 Grizzly G0453Z structured repairability record with manufacture-date-specific insert and outfeed-roller boundaries, partial parts support, explicit evidence gaps, and no article because lawful exact-model image rights and representative durability evidence remain unverified",
+  "last_live_url": "https://everlasting-goods.com/database/grizzly-g0453z",
+  "last_commit": "6bc8cad",
   "last_evidence": {
-    "local_gates": "The exact-record, guide-link, and refreshed-sitemap-date regression tests are present. npm run verify passed all 129 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 47 migrations matched the tracked database logically across 1,193 rows in all 10 tables with integrity ok and zero foreign-key violations.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 2ff2208, state commit 6d0f253, and sitemap-fix commit 6fbf437 completed successfully.",
-    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the Moccamaster KBGV Select 53948 record, the refreshed Moccamaster evidence review, the database hub, the drip-coffee-maker category, the products hub, and the sitemap. The record exposed the exact current 53948 Matte Black configuration, conservative T2 tier, partial external-parts support, owner-manual versus internal-repair boundary, factory repair path, five-year original-purchaser warranty limits, explicit lifespan and repair-economics gaps, canonical URL, exact Amazon ASIN B093DXS54M with tag everlastin08f-20, disclosure before the measured sponsored CTA, required link attributes, no stale affiliate tag, no Amazon price/rating/availability display, no unverified exact-current-model product photo, and sitemap inclusion. The restored guide showed its existing lawful K741.64B photograph, current source-review date, two measured exact-model CTAs, and a new link to the structured 53948 record. The sitemap now reports 2026-10-13 as the refreshed guide's last-modified date. The database hub reported 42 records, and the database, products, article, and category pages linked the new route.",
+    "local_gates": "The exact-record, database, and expansion-queue regression tests are present. npm run verify passed all 130 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 48 migrations matched the tracked database logically across 1,246 rows in all 10 tables with integrity ok and zero foreign-key violations.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 6bc8cad completed successfully.",
+    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the Grizzly G0453Z record, the database hub, the stationary-planer category, the products hub, and the sitemap. The record exposed the exact current U.S. 15-inch, 3 HP, 240V single-phase 15A configuration, four-row spiral cutterhead and 74 inserts; the 03/15 versus 04/15 insert transition; the since-09/17 outfeed-roller revision; exact-model boundaries against G0453-family variants and G0815; conservative partial parts support; the owner-manual versus comprehensive internal-repair boundary; explicit service-life, failure-rate, maintenance-cost, repair-economics, and recommendation gaps; canonical URL; exact Amazon ASIN B0017IF2RU with tag everlastin08f-20; disclosure before the measured sponsored CTA; required link attributes; no stale affiliate tag; no Amazon price, rating, seller, or availability claims; no unverified product image; and sitemap inclusion dated 2026-10-14. The database hub reported 43 records, and the database, products, and category pages linked the new route.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/2ff2208/status",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/6fbf437/status",
-      "https://everlasting-goods.com/database/moccamaster-kbgv-select-53948",
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/6bc8cad/status",
+      "https://everlasting-goods.com/database/grizzly-g0453z",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/drip-coffee-makers",
+      "https://everlasting-goods.com/database/category/stationary-planers",
       "https://everlasting-goods.com/products",
       "https://everlasting-goods.com/sitemap.xml",
       "https://raw.githubusercontent.com/holmesclaw-hash/everlasting-goods/main/ops/state.json"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/moccamaster-kbgv-select-53948",
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
+      "https://everlasting-goods.com/database/grizzly-g0453z",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/drip-coffee-makers",
+      "https://everlasting-goods.com/database/category/stationary-planers",
       "https://everlasting-goods.com/products",
       "https://everlasting-goods.com/sitemap.xml"
     ]
@@ -91,6 +88,7 @@
     "Grizzly G0548ZP expected service life, representative failure rate, repair economics, and buy-or-repair recommendation remain unverified because the accepted evidence consists of short-duration owner anecdotes and a measured comparison without qualifying ownership duration; not every catalog part was independently confirmed orderable, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "Grizzly G0940 expected service life, representative failure rate, repair economics, and buy-or-repair recommendation remain unverified because the accepted evidence consists of a scratch-and-dent adjustment report and a separate three-unit shipping-damage report rather than representative multi-year operating evidence; current parts information is mixed across production revisions, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "Moccamaster KBGV Select model 53948 expected service life, representative failure rate, repair economics, and buy-or-repair recommendation remain unverified because long-duration owner evidence covers older or incompletely identified family machines rather than the exact current 53948; internal work follows a manufacturer repair path, and the structured record lacks a lawful reusable exact-53948 photograph",
+    "Grizzly G0453Z expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because exact-model owner reports are anecdotal across different usage and manufacturing revisions; parts compatibility changes at the 03/15-to-04/15 insert transition and the since-09/17 outfeed-roller revision, not every catalog part was independently confirmed orderable, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "Victorinox Fibrox 5.2063.20 expected service life and repair-versus-replace recommendation remain unverified because the accepted owner report covers 15-plus years with Victorinox knives and a shown Fibrox chef knife but does not establish controlled lifespan evidence for the exact current SKU; no model-specific replacement blade, handle, or structural repair program was documented",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.8"
