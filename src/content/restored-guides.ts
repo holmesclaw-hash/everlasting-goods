@@ -23,7 +23,7 @@ const restoredGuideCandidates = [
     slug: "best-cast-iron-skillets-that-last-forever",
     title: "Lodge 12-Inch Cast-Iron Skillet Evidence Review",
     description: "Maintainable seasoning, warranty exclusions, ownership tradeoffs, and dated owner evidence for the Lodge 12-inch skillet.",
-    reviewedAt: "2026-08-30",
+    reviewedAt: "2026-10-15",
   },
   {
     slug: "best-safety-razors-that-last-a-lifetime",

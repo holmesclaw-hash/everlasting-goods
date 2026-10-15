@@ -4681,7 +4681,7 @@ export function getArticleBySlug(slug: string): Article | undefined {
     return {
       ...reviewedArticle,
       content: castIronSkilletContent,
-      updatedAt: "2026-08-30",
+      updatedAt: "2026-10-15",
       author: "Everlasting Goods Editorial Team",
     };
   }

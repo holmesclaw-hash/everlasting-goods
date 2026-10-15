@@ -28,14 +28,19 @@ test("restored cast-iron guide separates manufacturer facts, owner reports, and 
   const sitemap = await text("src/app/sitemap.ts");
 
   assert.match(content, /We did not perform a hands-on or long-term test/);
-  assert.match(content, /lodgecastiron\.com\/products\/round-cast-iron-classic-skillet/);
+  assert.match(content, /lodgecastiron\.com\/products\/round-cast-iron-classic-skillet\?variant=51685752242548/);
+  assert.match(content, /7\.69 pounds/i);
   assert.match(content, /lodgecastiron\.com\/pages\/lodge-promise/);
   assert.match(content, /lodgecastiron\.com\/pages\/how-to-clean/);
   assert.match(content, /centurylife\.org\/in-depth-product-review-lodge-12-inch-cast-iron-skillet/);
   assert.match(content, /permies\.com\/t\/21138\/Lodge-good-skillet-brand/);
+  assert.match(content, /reddit\.com\/r\/BuyItForLife\/comments\/etysnu/);
+  assert.match(content, /received in 2008.*still in use in 2020/is);
   assert.match(content, /individual owner reports, not controlled lifespan data/i);
-  assert.match(data, /content:\s*castIronSkilletContent,\s*updatedAt: "2026-08-30"/);
+  assert.match(content, /href="\/database\/lodge-l10sk3"/);
+  assert.match(data, /content:\s*castIronSkilletContent,\s*updatedAt: "2026-10-15"/);
   assert.match(sitemap, /articles\/best-cast-iron-skillets-that-last-forever/);
+  assert.match(sitemap, /best-cast-iron-skillets-that-last-forever`, lastModified: new Date\("2026-10-15"\)/);
 });
 
 test("restored cast-iron guide discloses before its verified exact-model destination", async () => {
