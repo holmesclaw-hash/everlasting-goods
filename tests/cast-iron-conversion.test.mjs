@@ -35,7 +35,9 @@ test("restored cast-iron guide separates manufacturer facts, owner reports, and 
   assert.match(content, /centurylife\.org\/in-depth-product-review-lodge-12-inch-cast-iron-skillet/);
   assert.match(content, /permies\.com\/t\/21138\/Lodge-good-skillet-brand/);
   assert.match(content, /reddit\.com\/r\/BuyItForLife\/comments\/etysnu/);
-  assert.match(content, /received in 2008.*still in use in 2020/is);
+  assert.match(content, /2020.*bought.*12-inch Lodge.*12 years.*most meals cooked at home/is);
+  assert.doesNotMatch(content, /received in 2008/i);
+  assert.doesNotMatch(content, /exact 10SK owner post/i);
   assert.match(content, /individual owner reports, not controlled lifespan data/i);
   assert.match(content, /href="\/database\/lodge-l10sk3"/);
   assert.match(data, /content:\s*castIronSkilletContent,\s*updatedAt: "2026-10-15"/);

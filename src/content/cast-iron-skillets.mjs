@@ -20,7 +20,7 @@ export const castIronSkilletContent = `
 
 <h2 id="owner-evidence">Long-Term Owner Evidence and Its Limits</h2>
 <p>In a 2013 <a href="https://permies.com/t/21138/Lodge-good-skillet-brand" target="_blank" rel="noopener noreferrer">Permies cookware discussion</a>, one participant listed multiple Lodge pieces including a 12-inch skillet, reported having the cookware for several years, and described cast iron as the cookware kept on the stove. Other participants reported routine use but disagreed about initial washing and seasoning practices.</p>
-<p>A separate 2020 <a href="https://www.reddit.com/r/BuyItForLife/comments/etysnu" target="_blank" rel="noopener noreferrer">exact 10SK owner post</a> says the 12-inch skillet was received in 2008 and was still in use in 2020. That is a bounded 12-year individual report for the exact size and model family, not representative lifespan data.</p>
+<p>A separate 2020 <a href="https://www.reddit.com/r/BuyItForLife/comments/etysnu" target="_blank" rel="noopener noreferrer">owner post</a> says the owner bought a 12-inch Lodge about 12 years earlier and used it for most meals cooked at home. That is a bounded individual report for a 12-inch Lodge skillet, not a verified current-SKU ownership history or representative lifespan data.</p>
 <p>These are individual owner reports, not controlled lifespan data. They show that examples can remain in service for years, but they do not establish a failure rate, expected service life, or guarantee for a skillet purchased today. The independent exact-family review also shows why “durable” should not be confused with “maintenance-free” or “best for every cook.”</p>
 
 <h2 id="care">Manufacturer-Documented Care and Recovery</h2>
@@ -39,7 +39,7 @@ export const castIronSkilletContent = `
 <li><a href="https://www.lodgecastiron.com/pages/how-to-season" target="_blank" rel="noopener noreferrer">Lodge seasoning guidance</a></li>
 <li><a href="https://www.centurylife.org/in-depth-product-review-lodge-12-inch-cast-iron-skillet-10sk-l10sk3ashh41b" target="_blank" rel="noopener noreferrer">CenturyLife exact-family independent review</a></li>
 <li><a href="https://permies.com/t/21138/Lodge-good-skillet-brand" target="_blank" rel="noopener noreferrer">Permies dated Lodge owner discussion</a></li>
-<li><a href="https://www.reddit.com/r/BuyItForLife/comments/etysnu" target="_blank" rel="noopener noreferrer">Reddit exact 10SK 12-inch owner report spanning 2008 to 2020</a></li>
+<li><a href="https://www.reddit.com/r/BuyItForLife/comments/etysnu" target="_blank" rel="noopener noreferrer">Reddit 12-inch Lodge owner report spanning about 12 years</a></li>
 </ul>
 
 <h2 id="faq">Frequently Asked Questions</h2>
