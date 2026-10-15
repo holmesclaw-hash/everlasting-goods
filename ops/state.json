@@ -37,29 +37,29 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-15T05:31:55Z",
-  "last_action": "Published and live-verified a conservative text-only T2 Grizzly G1021Z structured repairability record with exact current identity, manufacture-date manual boundaries, conflicting official amperage and weight documentation preserved, partial revision-aware parts support, bounded exact-model owner reports, recall and related-model exclusions, and an exact commercial destination; did not publish the proposed buy-it-for-life article because lawful reusable exact-model image rights and representative durability evidence remain unavailable",
-  "last_live_url": "https://everlasting-goods.com/database/grizzly-g1021z",
-  "last_commit": "4d9a28c",
+  "last_verified_at": "2026-10-15T06:25:08Z",
+  "last_action": "Refreshed and live-verified the existing high-intent Lodge L10SK3 12-inch cast-iron guide with the current exact manufacturer variant URL and dimensions, a bounded exact-family 2008-to-2020 owner report, a direct internal link to the structured repairability record, and synchronized article, guide-hub, and sitemap review dates; preserved the lawful exact-product image, exact Amazon destination, warranty and maintenance boundaries, and unverified representative lifespan and repair-economics limits",
+  "last_live_url": "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+  "last_commit": "9859a0f",
   "last_evidence": {
-    "local_gates": "The G1021Z exact-record, database, and expansion-queue regression tests are present. npm run verify passed all 133 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 50 migrations matched the tracked database logically across 1,327 rows in all 10 tables with integrity ok and zero foreign-key violations.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 4d9a28c completed successfully.",
-    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the G1021Z record, database hub, stationary-planer category, products hub, and sitemap. The record exposed the exact current G1021Z cabinet-stand and three-knife configuration; the official 12A/474-pound versus 15A/507-pound document conflict; manufacture-date manual selection; G1021X2, G1021, G0453Z, and recalled G0815 exclusions; partial revision-aware parts support; substantial but non-comprehensive owner documentation; bounded 15-year rebuild and two-year reliability reports without a representative-lifespan claim; canonical URL; exact Amazon ASIN B0000DD0AS with tag everlastin08f-20; disclosure before the measured sponsored CTA; required link attributes; no stale affiliate tag; no Amazon price, rating, seller, or availability claim; and sitemap inclusion. The database hub reported 45 records, and the database, products, stationary-planer category, and sitemap linked the new route.",
+    "local_gates": "The cast-iron conversion regression test was updated before the guide change and failed on the prior content as expected. npm run verify then passed all 133 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 50 migrations matched the tracked database logically across 1,327 rows in all 10 tables with integrity ok and zero foreign-key violations.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 9859a0f completed successfully.",
+    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the refreshed Lodge guide, Lodge L10SK3 database record, verified-guides hub, sitemap, and exact-product image. The guide displayed the current 12-inch variant dimensions and 7.69-pound listed weight, the bounded exact 10SK owner report from 2008 to 2020, explicit individual-report limits, and a direct repairability-record link; it retained the CC BY-SA 3.0 exact-product photograph and attribution, canonical URL, exact ASIN B00006JSUB with tag everlastin08f-20, disclosure before both measured sponsored CTAs, no stale tag, no Amazon price, rating, seller, or availability display, and the live affiliate_click analytics hook. The guide hub showed the 2026-10-15 review date, and the sitemap listed the route with lastmod 2026-10-15T00:00:00.000Z.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4d9a28c/status",
-      "https://everlasting-goods.com/database/grizzly-g1021z",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/stationary-planers",
-      "https://everlasting-goods.com/products",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/9859a0f/status",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/database/lodge-l10sk3",
+      "https://everlasting-goods.com/blog",
       "https://everlasting-goods.com/sitemap.xml",
+      "https://everlasting-goods.com/images/articles/lodge-12-inch-skillet.jpg",
       "https://raw.githubusercontent.com/holmesclaw-hash/everlasting-goods/main/ops/state.json"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/grizzly-g1021z",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/stationary-planers",
-      "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/sitemap.xml"
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/database/lodge-l10sk3",
+      "https://everlasting-goods.com/blog",
+      "https://everlasting-goods.com/sitemap.xml",
+      "https://everlasting-goods.com/images/articles/lodge-12-inch-skillet.jpg"
     ]
   },
   "blockers": [
