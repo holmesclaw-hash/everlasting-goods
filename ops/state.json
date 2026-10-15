@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 44,
-    "research_candidates": 61,
+    "current_published_records": 45,
+    "research_candidates": 60,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "four_open_license_exact_product_images_live_in_product_database",
     "verified_images": 4,
-    "blocked_models": 40,
+    "blocked_models": 41,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -37,36 +37,29 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-14T06:43:55Z",
-  "last_action": "Published and live-verified a conservative T2 MERKUR 34C structured repairability record with current MK-34001 configuration, partial top-plate support, explicit production-revision and warranty boundaries, a lawful historical exact-model image, and a refreshed safety-razor guide linked to the new record; corrected the refreshed guide's sitemap date",
-  "last_live_url": "https://everlasting-goods.com/database/merkur-34c",
-  "last_commit": "4d28e4b",
+  "last_verified_at": "2026-10-15T05:31:55Z",
+  "last_action": "Published and live-verified a conservative text-only T2 Grizzly G1021Z structured repairability record with exact current identity, manufacture-date manual boundaries, conflicting official amperage and weight documentation preserved, partial revision-aware parts support, bounded exact-model owner reports, recall and related-model exclusions, and an exact commercial destination; did not publish the proposed buy-it-for-life article because lawful reusable exact-model image rights and representative durability evidence remain unavailable",
+  "last_live_url": "https://everlasting-goods.com/database/grizzly-g1021z",
+  "last_commit": "4d9a28c",
   "last_evidence": {
-    "local_gates": "The MERKUR exact-record, safety-razor conversion, refreshed-sitemap-date, database, image-provenance, and expansion-queue regression tests are present. npm run verify passed all 132 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 49 migrations matched the tracked database logically across 1,284 rows in all 10 tables with integrity ok and zero foreign-key violations. The grounded research note passed citation verification at 95% sentence coverage.",
-    "deployment": "Both GitHub-reported Vercel project statuses for content commit 59586bd, state commit a517ae6, and sitemap-fix commit 4d28e4b completed successfully.",
-    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the MERKUR 34C record, refreshed safety-razor guide, database hub, safety-razor category, products hub, blog, sitemap, and exact-product image. The record exposed the current North American MK-34001 two-piece, closed-comb, 78-gram bright-chrome configuration; partial MK-90004 top-plate support; blade-change, care, and service boundaries; no universal U.S. or lifetime-warranty claim; bounded eight-year and five-year owner reports without a representative-lifespan claim; a clearly historical 2008 exact-model image with Hustvedt attribution and CC BY-SA 3.0 rights; canonical URL; exact Amazon ASIN B002A8JO1Q with tag everlastin08f-20; disclosure before the measured sponsored CTA; required link attributes; no stale affiliate tag; no Amazon price, rating, seller, or availability display; and sitemap inclusion. The refreshed guide links the structured record, shows the current review date, preserves two measured disclosed exact-model CTAs, and adds the current top-plate and overtightening boundaries. Its sitemap entry now reports 2026-10-14 as the last-modified date. The database hub reported 44 records, and the database, products, category, blog, and sitemap surfaces linked the changed routes.",
+    "local_gates": "The G1021Z exact-record, database, and expansion-queue regression tests are present. npm run verify passed all 133 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build; npm audit --omit=dev found 0 vulnerabilities; git diff --check passed. Rebuilding a scratch SQLite database from all 50 migrations matched the tracked database logically across 1,327 rows in all 10 tables with integrity ok and zero foreign-key violations.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 4d9a28c completed successfully.",
+    "live_readback": "Fresh custom-domain checks returned HTTP 200 for the G1021Z record, database hub, stationary-planer category, products hub, and sitemap. The record exposed the exact current G1021Z cabinet-stand and three-knife configuration; the official 12A/474-pound versus 15A/507-pound document conflict; manufacture-date manual selection; G1021X2, G1021, G0453Z, and recalled G0815 exclusions; partial revision-aware parts support; substantial but non-comprehensive owner documentation; bounded 15-year rebuild and two-year reliability reports without a representative-lifespan claim; canonical URL; exact Amazon ASIN B0000DD0AS with tag everlastin08f-20; disclosure before the measured sponsored CTA; required link attributes; no stale affiliate tag; no Amazon price, rating, seller, or availability claim; and sitemap inclusion. The database hub reported 45 records, and the database, products, stationary-planer category, and sitemap linked the new route.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/59586bd/status",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4d28e4b/status",
-      "https://everlasting-goods.com/database/merkur-34c",
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4d9a28c/status",
+      "https://everlasting-goods.com/database/grizzly-g1021z",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/safety-razors",
+      "https://everlasting-goods.com/database/category/stationary-planers",
       "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/blog",
       "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/images/products/merkur-34c-safety-razor.jpg",
       "https://raw.githubusercontent.com/holmesclaw-hash/everlasting-goods/main/ops/state.json"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/merkur-34c",
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/database/grizzly-g1021z",
       "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/safety-razors",
+      "https://everlasting-goods.com/database/category/stationary-planers",
       "https://everlasting-goods.com/products",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/images/products/merkur-34c-safety-razor.jpg"
+      "https://everlasting-goods.com/sitemap.xml"
     ]
   },
   "blockers": [
@@ -79,7 +72,7 @@
     "Festool OF 1400 EQ-F-Plus SKU 576213 remains a research candidate because no exact commercial destination was verified; ASIN B09WDWTKB2 currently identifies the separate 578951 package, and exact-SKU component orderability, owner duration, recall applicability, and lawful photo rights remain unresolved",
     "Bosch 1617EVSPK individual component orderability remains unverified because the exact product page exposes a parts-ordering entry but its outbound exact-model catalog currently returns HTTP 404",
     "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
-    "Forty structured product records remain without reusable exact-model image rights; the Estwing B3-3LB, Lodge 12-Inch Classic Cast Iron Skillet, Victorinox Fibrox 5.2063.20, and MERKUR 34C records have verified reusable exact-product images",
+    "Forty-one structured product records remain without reusable exact-model image rights; the Estwing B3-3LB, Lodge 12-Inch Classic Cast Iron Skillet, Victorinox Fibrox 5.2063.20, and MERKUR 34C records have verified reusable exact-product images",
     "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "SawStop JSS-120A60 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "Metabo HPT C10RJS expected service life and buy-or-repair recommendation remain unverified because the exact-model owner report supplied no ownership duration; individual component orderability also remains unverified, and article publication is blocked by missing lawful reusable exact-product image rights",
@@ -96,6 +89,7 @@
     "Grizzly G0940 expected service life, representative failure rate, repair economics, and buy-or-repair recommendation remain unverified because the accepted evidence consists of a scratch-and-dent adjustment report and a separate three-unit shipping-damage report rather than representative multi-year operating evidence; current parts information is mixed across production revisions, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "Moccamaster KBGV Select model 53948 expected service life, representative failure rate, repair economics, and buy-or-repair recommendation remain unverified because long-duration owner evidence covers older or incompletely identified family machines rather than the exact current 53948; internal work follows a manufacturer repair path, and the structured record lacks a lawful reusable exact-53948 photograph",
     "Grizzly G0453Z expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because exact-model owner reports are anecdotal across different usage and manufacturing revisions; parts compatibility changes at the 03/15-to-04/15 insert transition and the since-09/17 outfeed-roller revision, not every catalog part was independently confirmed orderable, and article publication remains blocked by missing lawful reusable exact-product image rights",
+    "Grizzly G1021Z expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because the accepted evidence consists of individual 15-year rebuild and two-year reliability reports rather than representative durability data; parts and manuals vary by manufacture date, current official documents conflict on amperage and weight, not every catalog part was independently confirmed orderable, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "MERKUR 34C expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because the accepted exact-model evidence consists of individual five- and eight-year owner reports rather than representative durability data; only the current MK-90004 top plate was verified as a separately sold structural part, production-revision concerns remain anecdotal, and no universal U.S. or lifetime-warranty term was verified",
     "Victorinox Fibrox 5.2063.20 expected service life and repair-versus-replace recommendation remain unverified because the accepted owner report covers 15-plus years with Victorinox knives and a shown Fibrox chef knife but does not establish controlled lifespan evidence for the exact current SKU; no model-specific replacement blade, handle, or structural repair program was documented",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
