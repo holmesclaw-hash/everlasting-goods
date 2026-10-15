@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "191d376850e6723e28b54910389937150013c23ad4745245ec1816cd34e3e35f",
-  "generated_at": "2026-10-14T00:00:00.000Z",
+  "database_sha256": "af12cf6daf6c1e17b03b2c093d800ead525cb90d07cae5d77df1641eea43d4b4",
+  "generated_at": "2026-10-15T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -7080,6 +7080,268 @@
       "cost_per_year": null
     },
     {
+      "id": 45,
+      "slug": "grizzly-g1021z",
+      "brand": "Grizzly",
+      "model": "G1021Z",
+      "sku": "G1021Z",
+      "category": "stationary-planers",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is for the current U.S. G1021Z 15-inch stationary planer with a 3 HP, 230V single-phase 12A motor, three-knife cutterhead, and cabinet stand. Grizzly publishes manufacture-date-specific manual versions covering 01/00 through 04/20 and later; owners must use the manufacture date on the machine ID label to select the matching manual version and compatible parts. The current specification sheet lists 12A and 474 pounds, while the current manual's illustrated machine label lists 15A and 507 pounds; this official-document conflict is preserved rather than silently reconciled. Specifications, parts, owner reports, recall status, and commercial identity are not transferred from the spiral-cutterhead G1021X2, historical G1021, G0453Z, recalled G0815, or other related planers and manufacturing revisions.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "One exact-model owner reported purchasing a G1021Z in 2005, using it primarily outdoors for 15 years, then replacing rust-damaged or missing parts and several bearings during a rebuild before installing a helical cutterhead. Another owner reported a used G1021Z was reliable through heavy hobby loads during two years of ownership. The first machine's later upgraded configuration is not treated as stock G1021Z evidence. These are individual anecdotes, not representative durability data; expected service life, representative failure rate, repair economics, and a repair-versus-replace recommendation are not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; individual exact-model reports cover two years of reliable use and a 15-year machine later rebuilt and modified, but they do not establish representative G1021Z service life.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-15",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.woodworkingtalk.com/threads/grizzly-g1021z-planer-rebuild-helical-cutter-install-and-other-upgrades.221945/",
+          "title": "WoodworkingTalk 2005 G1021Z purchase, 15-year outdoor-use history, rebuild, and later modification report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-15",
+          "purpose": "bounded exact-model 2005 purchase, 15-year outdoor-use, bearing-replacement, rebuild, and post-rebuild modification report"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G1021Z&format=json",
+          "title": "SaferProducts exact-model G1021Z recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-15",
+          "purpose": "bounded exact-model recall API query returning no results; not safety clearance"
+        },
+        {
+          "url": "https://sawmillcreek.org/threads/grizzly-g1021-planer-opinions-please.219189/",
+          "title": "Sawmill Creek two-year used G1021Z reliability report and separate G1021 discussion",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-15",
+          "purpose": "bounded two-year exact-model reliability report; separate historical G1021 reports excluded from G1021Z durability claims"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current Grizzly recalls page and separate G0815 planer recall boundary"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g1021z_ds.pdf",
+          "title": "Grizzly G1021Z current specification sheet",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current exact G1021Z electrical, motor, capacity, cutterhead, table, construction, and weight specifications"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-with-cabinet-stand/g1021z",
+          "title": "Grizzly G1021Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current exact-model identity, summary specifications, cabinet-stand configuration, and support resources"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/partslists/g1021z_pl.pdf",
+          "title": "Grizzly G1021Z illustrated parts list for machines manufactured since November 2020",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current illustrated exact-model parts list and conflicting 15A, 507-pound illustrated ID-label specifications"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P1021Z170",
+          "title": "Grizzly G1021Z planer knives and current G6701 supersession",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current three-knife consumable identity, supersession, dimensions, and exact G1021-series fit"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0000DD0AS",
+          "title": "Amazon exact Grizzly G1021Z commercial destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-15",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g1021z_m.pdf",
+          "title": "Grizzly G1021X2 and G1021Z owner manual V5.04.21",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "latest combined-manual exact G1021Z setup, operation, maintenance, troubleshooting, wiring, adjustment, and service guidance"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g1021z/parts",
+          "title": "Grizzly G1021Z revision-aware online parts catalog and manual index",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "manufacture-date manual index, revision-aware online parts catalog, substitutions, and item-level availability"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer depot repair route, freight burden, and prior-authorization requirements"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+          "title": "Grizzly replacement-parts ordering and availability policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer parts-availability policy, version handling, substitutions, and availability limits"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "one-year limited warranty terms and exclusions"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P1021Z109AV2",
+          "title": "Grizzly G1021Z V2 gearbox assembly part page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "representative current gearbox assembly listing"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P1021Z040V2",
+          "title": "Grizzly G1021Z V2 magnetic switch assembly part page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "representative current magnetic-switch assembly listing"
+        },
+        {
+          "url": "https://www.grizzly.com/parts/P1021Z016V2",
+          "title": "Grizzly G1021Z V2 motor part and current supersession",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "representative current motor supersession and listing"
+        },
+        {
+          "url": "https://www.cpsc.gov/Recalls/2026/Grizzly-Industrial-Recalls-Heavy-Duty-Planers-Due-to-Impact-and-Laceration-Hazards",
+          "title": "CPSC recall notice for separate Grizzly G0815 planer",
+          "source_type": "first-party",
+          "retrieved_date": "2026-10-12",
+          "purpose": "separate CPSC G0815 planer recall that must not be transferred to G1021Z"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Grizzly G1021Z; stationary thickness planer; cabinet stand; 15 in.; 3 HP; 230V; single-phase; 12A; three-knife cutterhead; knives 15 x 1 x 1/8 in.; 16 and 28 FPM",
+          "display_value": "Exact current U.S. G1021Z 15-inch stationary planer with a cabinet stand, 3 HP 230V single-phase 12A motor, three-knife cutterhead using 15 x 1 x 1/8-inch HSS knives, and 16 and 28 FPM feed rates.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/specsheets/g1021z_ds.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: Grizzly publishes a revision-aware exact-model catalog with currently listed or substituted motor, magnetic switch, knives, gearbox, belts, chains, bearings, and many smaller components, but compatibility depends on manufacture date and manual version, and not every catalog component was independently confirmed orderable.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g1021z/parts",
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-comprehensive",
+          "display_value": "The owner manual covers setup, maintenance, troubleshooting, wiring, illustrated parts, knife replacement and adjustment, belt and chain service, gearbox oil, and mechanical adjustment; it is substantial owner and technician guidance, not a comprehensive internal repair manual for every subsystem and manufacturing revision.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g1021z_m.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can replace or adjust knives, service belts and chains, change gearbox oil, lubricate the machine, and perform documented mechanical adjustments; 230V electrical work requires a qualified person, and depot repair of this 474-pound machine can require customer-arranged crating and LTL freight.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g1021z_m.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 30,
+          "stale_after": "2026-11-14"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser covering manufacturing defects; consumables and published misuse, wiring, unauthorized-repair, and maintenance exclusions apply, and coverage is non-transferable.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0000DD0AS?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-15"
+        }
+      ],
+      "repairability": {
+        "product_id": 45,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g1021z/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g1021z_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 362,
+        "verified_date": "2026-10-15"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly warrants the machine to the original purchaser for one year from purchase against defects in materials and workmanship, subject to its current terms.",
+        "warranty_exclusions": "The warranty is non-transferable and excludes consumables, misuse, abuse, negligence, accidents, improper wiring, unauthorized repairs or alterations, and lack of maintenance; proof of purchase is required.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-15"
+      },
+      "cost_per_year": null
+    },
+    {
       "id": 7,
       "slug": "bosch-4100xc-10",
       "brand": "Bosch",
@@ -8852,7 +9114,7 @@
       "verified_date": "2026-09-14",
       "reverify_days": 30,
       "stale_after": "2026-10-14",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dwp611",
@@ -9140,6 +9402,14 @@
       "verified_date": "2026-10-14",
       "reverify_days": 30,
       "stale_after": "2026-11-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "street_price",
+      "verified_date": "2026-10-15",
+      "reverify_days": 30,
+      "stale_after": "2026-11-14",
       "is_stale": false
     },
     {
@@ -9471,6 +9741,30 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g1021z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
       "slug": "bosch-gsr18v-535fcb15",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -11588,6 +11882,38 @@
       "verified_date": "2026-10-14",
       "reverify_days": 180,
       "stale_after": "2027-04-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "identity",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g1021z",
+      "field_name": "warranty",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
       "is_stale": false
     }
   ]

@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 44,
+  "current_published_records": 45,
   "target_total_records": 100,
-  "candidate_count": 61,
+  "candidate_count": 60,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -662,20 +662,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "The official Grizzly page identifies the exact G0939 benchtop planer, and Grizzly's house-brand warranty supplies support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "15-Inch 3 HP Planer with Cabinet Stand",
-      "sku": "G1021Z",
-      "category": "planer",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-15-3-hp-planer-with-cabinet-stand/g1021z",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "The manufacturer's exact-model page verifies the G1021Z and cabinet-stand configuration; Grizzly's official warranty provides support evidence.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
