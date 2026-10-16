@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 45,
+  "current_published_records": 46,
   "target_total_records": 100,
-  "candidate_count": 60,
+  "candidate_count": 59,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -690,20 +690,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "The official model page verifies the G0958 combination planer/jointer and helical cutterhead; Grizzly's warranty supplies support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "6-Inch Benchtop Jointer with Spiral-Type Cutterhead",
-      "sku": "G0946",
-      "category": "benchtop jointer",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-6-benchtop-jointer-with-spiral-type-cutterhead/g0946",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "Grizzly's dedicated G0946 page identifies this spiral-type benchtop jointer, and the manufacturer publishes an applicable warranty.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."

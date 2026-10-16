@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "af12cf6daf6c1e17b03b2c093d800ead525cb90d07cae5d77df1641eea43d4b4",
+  "database_sha256": "2313f28dfb0fec26b3ee1e5dbb3279b3b700e00bbf411b1e9eff78f1cbf75976",
   "generated_at": "2026-10-15T00:00:00.000Z",
   "products": [
     {
@@ -590,6 +590,243 @@
         "warranty_exclusions": "Repairs made or attempted by others, normal wear and tear, abuse, misuse, improper maintenance or operation, and alterations are excluded; current Makita terms apply.",
         "source_url": "https://www.makitatools.com/service/warranty",
         "verified_date": "2026-10-05"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 46,
+      "slug": "grizzly-g0946",
+      "brand": "Grizzly",
+      "model": "G0946",
+      "sku": "G0946",
+      "category": "benchtop-jointers",
+      "category_group": "tools-shop",
+      "variant_notes": "This exact record is for the current U.S. G0946 six-inch benchtop jointer with a 1-1/2 HP, 120V single-phase 10A universal motor, belt drive, six-row spiral-type cutterhead, and 12 two-sided 14 x 14 x 2 mm HSS inserts. The current V3.11.23 combined G0945/G0946/G0947 manual applies to machines manufactured since 12/23; owners must use the manufacture date on the machine ID label when matching manuals and revision-marked parts. G0945 straight-knife, G0947 eight-inch, G0986 ten-inch, and other jointer specifications and owner histories are not transferred to G0946. Official insert information conflicts: the current product specifications identify 12 HSS inserts, the manual parts list labels P0946160-2 as carbide, the product page calls the larger T32739 carbide insert compatible but says all 26 must be replaced despite listing 12 inserts, and the current parts page maps P0946160-2 to T32937, described there as a saw-blade/scoring product rather than an insert. These conflicts are preserved, and this record does not advise a full insert change without confirmation from Grizzly.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "An exact-model owner post published April 5, 2024 describes easy initial setup, portability, and satisfactory early-use results on 6/4 rough cherry. It does not provide multi-year ownership, repair history, or sustained workload evidence. This is one early-use anecdote, not representative durability data; expected service life, failure rate, annual maintenance cost, repair economics, and a repair-versus-replace recommendation are not yet verified. A bounded exact-model recall API query returned an empty array, which is not safety clearance.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified; the accepted exact-model evidence is one April 2024 early-use report without multi-year ownership duration or repair history.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-15",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.lumberjocks.com/threads/review-grizzly-g0946-6-inch-bench-top-spiral-head-jointer.357799/",
+          "title": "LumberJocks April 2024 exact G0946 early-use owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-15",
+          "purpose": "bounded April 2024 exact-model early-use report without long ownership duration"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G0946&format=json",
+          "title": "SaferProducts exact-model G0946 recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-15",
+          "purpose": "bounded exact-model recall API query returning no results; not safety clearance"
+        },
+        {
+          "url": "https://www.grizzly.com/recalls",
+          "title": "Grizzly recalled-items page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "current Grizzly recalled-items page and related-model recall boundary"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/specsheets/g0946_ds.pdf",
+          "title": "Grizzly G0946 specification sheet as of October 14, 2026",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current exact G0946 electrical, motor, cutterhead, insert, table, construction, dimension, and warranty specifications"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-6-benchtop-jointer-with-spiral-type-cutterhead/g0946",
+          "title": "Grizzly G0946 official product page and current specifications",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "current exact-model identity, specifications, stock-insert material, replacement-insert claim, and contradictory 26-insert instruction"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0B75GFZ98",
+          "title": "Amazon exact Grizzly G0946 commercial destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-15",
+          "purpose": "exact commercial destination"
+        },
+        {
+          "url": "https://cdn0.grizzly.com/manuals/g0946_m.pdf",
+          "title": "Grizzly G0945 G0946 G0947 owner manual V3.11.23 for machines manufactured since December 2023",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "manufacture-date scope, maintenance, troubleshooting, insert service, table and fence adjustment, belt and motor-brush replacement, wiring, and illustrated parts"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-indexable-carbide-inserts-14.25-x-14.25-x-2mm-10-pk./t32739",
+          "title": "Grizzly T32739 replacement carbide insert page naming G0946 compatibility",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "manufacturer claim that the 14.25 x 14.25 x 2 mm T32739 carbide insert fits G0946"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly repair-service policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer depot repair route and required serial and manufacture-date information"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4404772793495-Grizzly-Terms-Conditions",
+          "title": "Grizzly website terms and image-reuse restrictions",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "manufacturer image-rights restriction and article image-gate evidence"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+          "title": "Grizzly replacement-parts ordering and availability policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "manufacturer parts-purchasing route, current and legacy listings, substitutions, and availability limits"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "title": "Grizzly limited warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-12",
+          "purpose": "one-year house-brand limited warranty terms and exclusions"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0946/parts",
+          "title": "Grizzly G0946 revision-aware online parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-15",
+          "purpose": "revision-aware exact-model parts catalog, item-level order controls, substitutions, and availability limits"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "identity",
+          "raw_value": "Grizzly G0946; benchtop jointer; 6 in.; 1-1/2 HP; 120V; single-phase; 10A; universal motor; belt drive; six-row spiral-type cutterhead; 12 two-sided HSS inserts; 14 x 14 x 2 mm; 11,000 RPM; 30 x 6-1/4 in. cast-aluminum table",
+          "display_value": "Exact current U.S. G0946 six-inch benchtop jointer with a 1-1/2 HP, 120V single-phase 10A universal motor, belt drive, six-row spiral-type cutterhead, 12 two-sided HSS inserts measuring 14 x 14 x 2 mm, 11,000 RPM cutterhead speed, and a 30 x 6-1/4-inch cast-aluminum table.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/specsheets/g0946_ds.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "insert_compatibility",
+          "raw_value": "official sources conflict",
+          "display_value": "Official sources conflict: the current specifications identify 12 two-sided HSS inserts at 14 x 14 x 2 mm; the current manual parts list labels P0946160-2 as a carbide insert at that size; Grizzly names the larger 14.25 x 14.25 x 2 mm T32739 carbide insert as G0946-compatible but the product page says all 26 must be replaced despite listing 12 inserts; and the current parts page maps P0946160-2 to T32937, described there as a saw-blade/scoring product rather than an insert. Confirm a complete replacement set and procedure with Grizzly before purchase or installation.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.grizzly.com/products/grizzly-6-benchtop-jointer-with-spiral-type-cutterhead/g0946",
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial: the exact-model catalog currently displays order controls for the table assembly, table, cutterhead assembly, and some smaller parts, while the manual separately identifies the Poly-V belt, 6201ZZ bearing, motor, carbon brushes, paddle switch, power cord, fence, guard, and other components. The T32739 replacement-insert page separately names G0946 compatibility. Not every listed component was independently confirmed orderable, and manufacture-date and insert-compatibility conflicts require confirmation.",
+          "evidence_tier": "T1",
+          "source_url": "https://www.grizzly.com/products/g0946/parts",
+          "verified_date": "2026-10-15",
+          "reverify_days": 90,
+          "stale_after": "2027-01-13"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "not-comprehensive",
+          "display_value": "The owner manual covers maintenance, troubleshooting, insert rotation and replacement, table parallelism, fence positive-stop adjustment, belt tension and replacement, motor-brush replacement, wiring, and illustrated parts. It is substantial owner and service guidance, not a comprehensive internal repair manual for every subsystem or production revision.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0946_m.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Owners can rotate or replace individual cutterhead inserts, tension or replace the belt, replace motor brushes, and adjust table parallelism and fence stops using published procedures. Electrical diagnosis and work beyond the documented procedures should follow the manual and qualified-service boundaries.",
+          "evidence_tier": "T1",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0946_m.pdf",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-15",
+          "reverify_days": 30,
+          "stale_after": "2026-11-14"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "1-year limited warranty",
+          "display_value": "One-year limited warranty for the original purchaser; proof of purchase is required, and consumables, misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, and lack of maintenance are excluded.",
+          "evidence_tier": "T1",
+          "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+          "verified_date": "2026-10-15",
+          "reverify_days": 180,
+          "stale_after": "2027-04-13"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0B75GFZ98?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-15"
+        }
+      ],
+      "repairability": {
+        "product_id": 46,
+        "parts_availability": "partial",
+        "parts_url": "https://www.grizzly.com/products/g0946/parts",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://cdn0.grizzly.com/manuals/g0946_m.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 375,
+        "verified_date": "2026-10-15"
+      },
+      "warranty": {
+        "warranty_length": "1 year limited warranty",
+        "warranty_coverage": "Grizzly warrants the machine to the original purchaser for one year from purchase against covered defects, subject to its current terms and proof-of-purchase requirement.",
+        "warranty_exclusions": "The warranty excludes consumables, misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, and lack of maintenance; third-party repair and transportation expenses are not reimbursed.",
+        "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "verified_date": "2026-10-15"
       },
       "cost_per_year": null
     },
@@ -9405,6 +9642,14 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0946",
+      "field_name": "street_price",
+      "verified_date": "2026-10-15",
+      "reverify_days": 30,
+      "stale_after": "2026-11-14",
+      "is_stale": false
+    },
+    {
       "slug": "grizzly-g1021z",
       "field_name": "street_price",
       "verified_date": "2026-10-15",
@@ -9741,6 +9986,38 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0946",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "insert_compatibility",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-15",
+      "reverify_days": 90,
+      "stale_after": "2027-01-13",
+      "is_stale": false
+    },
+    {
       "slug": "grizzly-g1021z",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-10-15",
@@ -11882,6 +12159,38 @@
       "verified_date": "2026-10-14",
       "reverify_days": 180,
       "stale_after": "2027-04-12",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "identity",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0946",
+      "field_name": "warranty",
+      "verified_date": "2026-10-15",
+      "reverify_days": 180,
+      "stale_after": "2027-04-13",
       "is_stale": false
     },
     {
