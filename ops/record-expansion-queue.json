@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 46,
+  "current_published_records": 47,
   "target_total_records": 100,
-  "candidate_count": 59,
+  "candidate_count": 58,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -732,20 +732,6 @@
         "https://grizzly.com/forms/warranty"
       ],
       "reason": "The official product page establishes the exact G0945 jointer identity, while Grizzly's warranty supplies manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Grizzly",
-      "model": "8-Inch Benchtop Drill Press",
-      "sku": "G0925",
-      "category": "drill press",
-      "official_product_url": "https://www.grizzly.com/products/grizzly-8-benchtop-drill-press/g0925",
-      "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
-      ],
-      "reason": "Grizzly's dedicated G0925 page identifies this compact benchtop drill press, and its official warranty documents house-brand support.",
       "status": "research-candidate",
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
