@@ -757,12 +757,22 @@
       "category": "drill press",
       "official_product_url": "https://www.grizzly.com/products/grizzly-12-variable-speed-benchtop-drill-press-with-laser/t31739",
       "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
+        "https://cdn0.grizzly.com/specsheets/t31739_ds.pdf",
+        "https://cdn0.grizzly.com/manuals/t31739_m.pdf",
+        "https://cdn0.grizzly.com/partslists/t31739_pl.pdf",
+        "https://www.grizzly.com/products/t31739/parts",
+        "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+        "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "https://grizzly.com/recalls",
+        "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=T31739&format=json",
+        "https://www.finewoodworking.com/forum/newfangled-drill-press",
+        "https://support.grizzly.com/hc/en-us/articles/4404772793495-Grizzly-Terms-Conditions"
       ],
-      "reason": "Grizzly's exact-SKU page verifies the T31739 variable-speed drill press, and the official house-brand warranty supplies support evidence.",
+      "reason": "Current first-party identity, two manufacture-date-bounded manual revisions, partial parts support, owner-service procedures, factory repair, and warranty evidence support future T2 treatment, but no exact Amazon Associates destination was verified and the article gates also failed.",
       "status": "research-candidate",
       "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+      "next_gate": "Verify an exact Amazon Associates destination before any structured record; require representative long-duration owner evidence and a lawful exact-model photograph with complete provenance before any article."
     },
     {
       "brand": "Grizzly",
