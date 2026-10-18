@@ -6,9 +6,37 @@ import { notFound } from "next/navigation";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
 import { formatFieldFreshness } from "@/lib/database-utils.mjs";
-import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct } from "@/lib/product-database";
+import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct, type DatabaseProduct } from "@/lib/product-database";
 
 interface PageProps { params: Promise<{ slug: string }> }
+
+type DatabaseAffiliateLink = DatabaseProduct["affiliate_links"][number];
+
+function DatabaseAffiliateDestination({
+  link,
+  placement,
+}: {
+  link: DatabaseAffiliateLink;
+  placement: "database-record-mobile" | "database-record-sidebar";
+}) {
+  return (
+    <div className="rounded-2xl border border-cream-200 bg-white p-6">
+      <AffiliateDisclosure />
+      <a
+        href={link.url}
+        data-affiliate-placement={placement}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
+      >
+        View exact model on Amazon
+      </a>
+      <p className="mt-3 text-xs leading-relaxed text-charcoal/45">
+        Exact model destination verified {link.verified_date}. Price and availability are shown only by the merchant.
+      </p>
+    </div>
+  );
+}
 
 export function generateStaticParams() {
   return databaseProducts.map((product) => ({ slug: product.slug }));
@@ -34,6 +62,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
   if (!product) notFound();
 
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
+  const affiliateLink = product.affiliate_links[0];
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,
@@ -96,6 +125,12 @@ export default async function ProductRecordPage({ params }: PageProps) {
         </figure>
       )}
 
+      {affiliateLink && (
+        <section className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:hidden">
+          <DatabaseAffiliateDestination link={affiliateLink} placement="database-record-mobile" />
+        </section>
+      )}
+
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_340px] lg:px-8">
         <div>
           <h2 className="font-serif text-3xl font-bold text-charcoal">Evidence fields</h2>
@@ -117,26 +152,9 @@ export default async function ProductRecordPage({ params }: PageProps) {
         </div>
 
         <aside className="space-y-6">
-          {product.affiliate_links.length > 0 && (
-            <div className="rounded-2xl border border-cream-200 bg-white p-6">
-              <AffiliateDisclosure />
-              <div className="space-y-3">
-                {product.affiliate_links.map((link) => (
-                  <a
-                    key={`${link.program_name}-${link.url}`}
-                    href={link.url}
-                    data-affiliate-placement="database-record-sidebar"
-                    target="_blank"
-                    rel="sponsored nofollow noopener noreferrer"
-                    className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
-                  >
-                    View exact model on Amazon
-                  </a>
-                ))}
-              </div>
-              <p className="mt-3 text-xs leading-relaxed text-charcoal/45">
-                Exact model destination verified {product.affiliate_links[0].verified_date}. Price and availability are shown only by the merchant.
-              </p>
+          {affiliateLink && (
+            <div className="hidden lg:block">
+              <DatabaseAffiliateDestination link={affiliateLink} placement="database-record-sidebar" />
             </div>
           )}
           <div className="rounded-2xl border border-cream-200 bg-white p-6">

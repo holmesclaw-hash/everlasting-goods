@@ -21,12 +21,18 @@ async function pageFiles(directory) {
 
 test("database record pages disclose before exact-model affiliate destinations", async () => {
   const source = await readFile(path.join(appRoot, "database", "[slug]", "page.tsx"), "utf8");
-  const disclosureIndex = source.indexOf("<AffiliateDisclosure");
-  const affiliateLinksIndex = source.indexOf("product.affiliate_links.map");
+  const componentStart = source.indexOf("function DatabaseAffiliateDestination");
+  const componentEnd = source.indexOf("export function generateStaticParams");
+  const component = source.slice(componentStart, componentEnd);
+  const disclosureIndex = component.indexOf("<AffiliateDisclosure");
+  const affiliateLinkIndex = component.indexOf("<a");
 
   assert.ok(source.includes('import AffiliateDisclosure from "@/components/AffiliateDisclosure";'));
+  assert.ok(componentStart >= 0 && componentEnd > componentStart, "database record page must define the shared destination component");
   assert.ok(disclosureIndex >= 0, "database record page must render AffiliateDisclosure");
-  assert.ok(affiliateLinksIndex > disclosureIndex, "disclosure must precede affiliate destinations");
+  assert.ok(affiliateLinkIndex > disclosureIndex, "disclosure must precede affiliate destinations");
+  assert.match(source, /placement="database-record-mobile"/);
+  assert.match(source, /placement="database-record-sidebar"/);
   assert.match(source, /rel="sponsored nofollow noopener noreferrer"/);
   assert.match(source, /View exact model on Amazon/);
 });

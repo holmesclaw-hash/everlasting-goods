@@ -20,6 +20,8 @@ test("every verified-product affiliate CTA declares a stable placement", async (
   assert.match(databasePage, /affiliatePlacement="database-grid"/);
   assert.match(card, /data-affiliate-placement=\{affiliatePlacement\}/);
   assert.match(categoryPage, /data-affiliate-placement="database-category-comparison"/);
-  assert.match(recordPage, /data-affiliate-placement="database-record-sidebar"/);
+  assert.match(recordPage, /data-affiliate-placement=\{placement\}/);
+  assert.match(recordPage, /placement="database-record-mobile"/);
+  assert.match(recordPage, /placement="database-record-sidebar"/);
   assert.match(tracker, /anchor\.dataset\.affiliatePlacement/);
 });
