@@ -1,11 +1,23 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
+import { createRequire } from "node:module";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+
+import initSqlJs from "sql.js";
+
+const require = createRequire(import.meta.url);
 
 async function loadGeneratedDatabase() {
   const text = await readFile(new URL("../src/generated/database.json", import.meta.url), "utf8");
   return JSON.parse(text);
+}
+
+async function loadSqliteDatabase() {
+  const wasmPath = require.resolve("sql.js/dist/sql-wasm.wasm");
+  const SQL = await initSqlJs({ locateFile: () => wasmPath });
+  const database = await readFile(new URL("../data/everlasting.db", import.meta.url));
+  return new SQL.Database(database);
 }
 
 test("generated database is synchronized to the tracked SQLite source", async () => {
@@ -18,7 +30,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-16T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-19T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -56,6 +68,23 @@ test("published fields declare evidence and freshness instead of plausible guess
       }
     }
   }
+});
+
+test("T1 fields are backed only by first-party sources", async () => {
+  const db = await loadSqliteDatabase();
+  const result = db.exec(`
+    SELECT p.slug, pf.name, COALESCE(s.source_type, 'missing') AS source_type
+    FROM product_fields pf
+    JOIN products p ON p.id = pf.product_id
+    LEFT JOIN sources s ON s.id = pf.source_id
+    WHERE pf.evidence_tier = 'T1'
+      AND COALESCE(s.source_type, 'missing') <> 'first-party'
+    ORDER BY p.slug, pf.name
+  `);
+  const rows = result[0]?.values ?? [];
+  db.close();
+
+  assert.deepEqual(rows, [], `T1 fields must not cite manufacturer or missing sources: ${JSON.stringify(rows)}`);
 });
 
 test("affiliate destinations are exact-model Amazon links for every published record", async () => {
