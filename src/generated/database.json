@@ -9626,7 +9626,7 @@
       "verified_date": "2026-09-19",
       "reverify_days": 30,
       "stale_after": "2026-10-19",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "sawstop-pcs31230-tgp236",
