@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "cc06a51fff98983bbabc4279a961ef3092ab209b9ee4f0cfbea0a356ddf23c4a",
-  "generated_at": "2026-10-19T00:00:00.000Z",
+  "database_sha256": "518dbca1c10301d948119354d0bd2bf3c193bbeba017178c8462642a7eef5600",
+  "generated_at": "2026-10-21T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1338,13 +1338,13 @@
       "slug": "bosch-gsr18v-535fcb15",
       "brand": "Bosch",
       "model": "GSR18V-535FCB15",
-      "sku": "GSR18V-535FCB15",
+      "sku": "06019G7114",
       "category": "drill-drivers",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "GSR18V-535FCB15 is Bosch order number 06019G7114: a kit built around the GSR18V-535FC 18V FlexiClick drill/driver. Bosch lists one CORE18V 4 Ah battery, one 18V charger, a metal keyless chuck attachment, right-angle attachment, offset-angle attachment, belt clip, and carrying bag. The optional GFA18-H rotary-hammer attachment and GCY42 connectivity module are not included.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation verifies the exact kit, operating and maintenance guidance, a current component catalog for exact tool number 3601JG7110, authorized service, and limited warranty terms. A Fine Homebuilding reviewer reports using the GSR18V-535FC for a little over three years to drill thousands of holes and drive many screws. In a separate owner thread, one user reported attachment looseness and wear after about a year, while another later participant reported years of use without that complaint. These are anecdotal reports with different usage and no representative failure-rate data, so expected service life, annual maintenance cost, repair economics, and a buy-or-repair recommendation remain not yet verified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -1353,38 +1353,59 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-10-21",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
-          "title": "Bosch GSR18V-535FCB15 official product page",
+          "url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "title": "Bosch 18V limited warranty",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
-        },
-        {
-          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
-          "title": "Bosch GSR18V-535FC instruction manual",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "retrieved_date": "2026-10-21",
+          "purpose": "current 18V tool and battery warranty terms, exclusions, and service route"
         },
         {
           "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
           "title": "Bosch GSR18V-535FCB15 spare-parts catalog",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-10-21",
+          "purpose": "current exact-tool-number component catalog and order route"
         },
         {
-          "url": "https://www.boschtools.com/us/en/service/product-warranty/",
-          "title": "Bosch warranty policy",
+          "url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
+          "title": "Bosch GSR18V-535FCB15 official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-26",
-          "purpose": "warranty"
+          "retrieved_date": "2026-10-21",
+          "purpose": "exact kit identity, order number, included items, and manufacturer specifications"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B07Z5QNBVS",
+          "title": "Amazon exact Bosch GSR18V-535FCB15 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-21",
+          "purpose": "exact-model commercial destination"
+        },
+        {
+          "url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
+          "title": "Bosch GSR18V-535FC instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-21",
+          "purpose": "operating, maintenance, and qualified-service boundaries"
+        },
+        {
+          "url": "https://festoolownersgroup.com/threads/bosch-18v-cabinet-makers-drill.69974/",
+          "title": "Bosch GSR18V-535FC owner thread covering attachment retention and continued use",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-21",
+          "purpose": "qualified exact-tool owner reports covering one-year attachment wear and contrasting multi-year use"
+        },
+        {
+          "url": "https://www.finehomebuilding.com/2026/07/20/multi-head-drills",
+          "title": "Fine Homebuilding long-term Bosch GSR18V-535FC use report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-21",
+          "purpose": "qualified exact-tool three-year use report covering thousands of holes and screws"
         }
       ],
       "fields": [
@@ -1394,9 +1415,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         },
         {
           "name": "expected_service_life",
@@ -1404,49 +1425,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         },
         {
           "name": "identity",
-          "raw_value": "18V Connected-Ready FlexiClick drill/driver kit",
-          "display_value": "18V Connected-Ready FlexiClick drill/driver kit",
+          "raw_value": "Bosch GSR18V-535FCB15 is order number 06019G7114, an 18V brushless FlexiClick kit rated at up to 535 in.-lb. The package lists the GSR18V-535FC drill/driver, one CORE18V 4 Ah battery, one charger, metal keyless chuck, right-angle attachment, offset-angle attachment, belt clip, and carrying bag.",
+          "display_value": "GSR18V-535FCB15 kit (order 06019G7114): 535 in.-lb. GSR18V-535FC drill/driver, one CORE18V 4 Ah battery, charger, and three included chuck/angle attachments.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/products/gsr18v-535fcb15-06019G7114",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: exact manufacturer spare-parts catalog is linked.",
-          "display_value": "Partial: exact manufacturer spare-parts catalog is linked.",
+          "raw_value": "Bosch currently publishes an exact tool-number 3601JG7110 catalog with component listings for the housing, gearbox, electronics module, printed-board assemblies, stator, DC motor, bit holder, switchover unit, keyless chuck attachment, right-angle attachment, and eccentric attachment. Catalog presence supports component-level parts access but does not prove perpetual stock or compatibility across every production revision.",
+          "display_value": "Partial: the current 3601JG7110 catalog lists gearbox, electronics, motor, housing, and FlexiClick attachments; continued stock and every production revision are not guaranteed.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "verified_date": "2026-10-21",
+          "reverify_days": 90,
+          "stale_after": "2027-01-19"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Bosch publishes a GSR18V-535FC and GSR18V-535FCB15 operating and safety manual. It covers operation, battery handling, inspection, cleaning, and service safety, but it does not provide component-level owner disassembly or repair procedures.",
+          "display_value": "Official operating and safety manual is available; it covers maintenance boundaries but is not an owner-repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manual limits owner care to safe battery removal, inspection, ventilation-slot and exterior cleaning, and accessory handling. It directs power-tool service to qualified repair personnel using identical replacement parts. Bosch warranty terms exclude damage caused by repairs outside Bosch or a Bosch Authorized Service Center.",
+          "display_value": "Owner care covers inspection and cleaning; internal work is directed to qualified repair personnel through Bosch or an authorized service center.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         },
         {
           "name": "street_price",
@@ -1454,19 +1475,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-21",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-11-20"
         },
         {
           "name": "warranty",
-          "raw_value": "Bosch publishes a five-year limited warranty for 18V cordless power tools, subject to exclusions.",
-          "display_value": "Bosch publishes a five-year limited warranty for 18V cordless power tools, subject to exclusions.",
+          "raw_value": "Bosch warrants qualifying 18V cordless power tools to the original end-user purchaser for five years from purchase and 18V batteries for three years. Coverage is limited to defects in material or workmanship; published exclusions include non-genuine parts, repairs outside Bosch or an authorized service center, abuse, misuse, careless handling, and normal wear.",
+          "display_value": "5-year limited warranty for the 18V power tool and 3-year limited warranty for the battery, for the original end-user purchaser; current exclusions apply.",
           "evidence_tier": "T2",
-          "source_url": "https://www.boschtools.com/us/en/service/product-warranty/",
-          "verified_date": "2026-08-25",
+          "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+          "verified_date": "2026-10-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-19"
         }
       ],
       "affiliate_links": [
@@ -1474,21 +1495,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B07Z5QNBVS?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-10-21"
         }
       ],
       "repairability": {
         "product_id": 4,
         "parts_availability": "partial",
         "parts_url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/gsr18v-535fcb15-3601JG7110",
-        "repair_manual_available": 1,
+        "repair_manual_available": 0,
         "repair_manual_url": "https://ocsmedia.boschtools.com/binary/manualsmedia/o206866v2_2610055572GSR18V535FC012020.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
         "source_id": 49,
-        "verified_date": "2026-08-25"
+        "verified_date": "2026-10-21"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "5 years for the 18V power tool; 3 years for the included 18V battery.",
+        "warranty_coverage": "For the original end-user purchaser, Bosch may repair or replace parts defective in material or workmanship under the current limited-warranty terms.",
+        "warranty_exclusions": "Damage from non-genuine Bosch parts, repairs outside Bosch or an authorized service center, abuse, misuse, careless handling, and normal wear is excluded.",
+        "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
+        "verified_date": "2026-10-21"
+      },
       "cost_per_year": null
     },
     {
@@ -1548,7 +1575,7 @@
           "url": "https://www.boschtools.com/us/en/service/product-warranty",
           "title": "Bosch 18V limited warranty",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-14",
+          "retrieved_date": "2026-10-21",
           "purpose": "warranty terms"
         }
       ],
@@ -5824,7 +5851,7 @@
           "url": "https://www.boschtools.com/us/en/service/product-warranty",
           "title": "Bosch 18V limited warranty",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-14",
+          "retrieved_date": "2026-10-21",
           "purpose": "current corded portable power-tool warranty terms"
         },
         {
@@ -6009,7 +6036,7 @@
           "url": "https://www.boschtools.com/us/en/service/product-warranty",
           "title": "Bosch 18V limited warranty",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-14",
+          "retrieved_date": "2026-10-21",
           "purpose": "current corded portable power-tool warranty terms"
         },
         {
@@ -9525,14 +9552,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "dewalt-dcw600b",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -9634,7 +9653,7 @@
       "verified_date": "2026-09-20",
       "reverify_days": 30,
       "stale_after": "2026-10-20",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-mac210q",
@@ -9914,6 +9933,14 @@
       "verified_date": "2026-10-16",
       "reverify_days": 30,
       "stale_after": "2026-11-15",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "street_price",
+      "verified_date": "2026-10-21",
+      "reverify_days": 30,
+      "stale_after": "2026-11-20",
       "is_stale": false
     },
     {
@@ -10326,58 +10353,10 @@
     },
     {
       "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
       "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "bosch-gsr18v-535fcb15",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
+      "verified_date": "2026-10-21",
+      "reverify_days": 90,
+      "stale_after": "2027-01-19",
       "is_stale": false
     },
     {
@@ -12546,6 +12525,54 @@
       "verified_date": "2026-10-16",
       "reverify_days": 180,
       "stale_after": "2027-04-14",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "identity",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-gsr18v-535fcb15",
+      "field_name": "warranty",
+      "verified_date": "2026-10-21",
+      "reverify_days": 180,
+      "stale_after": "2027-04-19",
       "is_stale": false
     }
   ]
