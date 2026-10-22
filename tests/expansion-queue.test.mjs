@@ -162,6 +162,23 @@ test("record expansion queue reaches the 100-record planning target without publ
   assert.match(grizzlyT31739.next_gate, /long-duration owner evidence/i);
   assert.match(grizzlyT31739.next_gate, /lawful exact-model photograph/i);
 
+  const grizzlyG0787 = queue.candidates.find(
+    (candidate) => candidate.brand === "Grizzly" && candidate.sku === "G0787",
+  );
+  assert.ok(grizzlyG0787, "G0787 must remain queued after its safe publication stop");
+  for (const url of [
+    "https://cdn0.grizzly.com/specsheets/g0787_ds.pdf",
+    "https://cdn2.grizzly.com/manuals/g0787_m.pdf",
+    "https://cdn0.grizzly.com/partslists/g0787_pl.pdf",
+    "https://www.grizzly.com/products/g0787/parts",
+  ]) {
+    assert.ok(grizzlyG0787.evidence_urls.includes(url), `G0787 must retain ${url}`);
+  }
+  assert.match(grizzlyG0787.next_gate, /exact Amazon Associates destination/i);
+  assert.match(grizzlyG0787.next_gate, /current individual-part orderability/i);
+  assert.match(grizzlyG0787.next_gate, /long-duration owner evidence/i);
+  assert.match(grizzlyG0787.next_gate, /lawful exact-model photograph/i);
+
   const identities = new Set();
   for (const candidate of queue.candidates) {
     assert.equal(candidate.status, "research-candidate");

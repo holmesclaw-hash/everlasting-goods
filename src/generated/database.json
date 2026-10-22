@@ -9661,7 +9661,7 @@
       "verified_date": "2026-09-21",
       "reverify_days": 30,
       "stale_after": "2026-10-21",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd800d1e1",

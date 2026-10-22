@@ -823,12 +823,23 @@
       "category": "belt/disc sander",
       "official_product_url": "https://www.grizzly.com/products/grizzly-4-x-36-horizontal-vertical-belt-sander-with-6-disc/g0787",
       "evidence_urls": [
-        "https://grizzly.com/forms/warranty"
+        "https://cdn0.grizzly.com/specsheets/g0787_ds.pdf",
+        "https://cdn2.grizzly.com/manuals/g0787_m.pdf",
+        "https://cdn0.grizzly.com/partslists/g0787_pl.pdf",
+        "https://www.grizzly.com/products/g0787/parts",
+        "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+        "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+        "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
+        "https://support.grizzly.com/hc/en-us/articles/34277374404503-How-Do-I-Submit-a-Warranty-Claim",
+        "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=G0787",
+        "https://www.cpsc.gov/s3fs-public/recall-data/recalls_recall_listing.csv",
+        "https://shipsofscale.com/sosforums/threads/any-opinions-on-the-grizzly-disc-belt-sander-combo.4724/",
+        "https://support.grizzly.com/hc/en-us/articles/4404772793495-Grizzly-Terms-Conditions"
       ],
-      "reason": "Grizzly's exact-model page identifies the G0787 belt/disc sander configuration, and the manufacturer's warranty provides support evidence.",
+      "reason": "Current manufacturer documentation verifies the exact G0787 identity, the since-09/25 revision, owner maintenance and limited component-replacement procedures, an illustrated parts catalog, factory repair routes, and a one-year warranty. Publication remains blocked because no exact Amazon Associates destination or current individual-part orderability was independently verified; the proposed article also lacks representative long-duration owner evidence and lawful exact-model photography.",
       "status": "research-candidate",
       "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+      "next_gate": "Verify an exact Amazon Associates destination for SKU G0787 and current individual-part orderability for revision-matched components before reconsidering a structured record. An article additionally requires representative long-duration owner evidence and a lawful exact-model photograph with complete provenance."
     },
     {
       "brand": "Grizzly",
