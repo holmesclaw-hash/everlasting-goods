@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "518dbca1c10301d948119354d0bd2bf3c193bbeba017178c8462642a7eef5600",
-  "generated_at": "2026-10-21T00:00:00.000Z",
+  "database_sha256": "36ca56b81665ee3faee13c016019b958097d6914d8f95dde7881b9061096de7b",
+  "generated_at": "2026-10-22T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -280,7 +280,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "warranty"
         }
       ],
@@ -423,7 +423,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -465,7 +465,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory and authorized pneumatic-service paths"
         },
         {
@@ -2186,7 +2186,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "warranty"
         }
       ],
@@ -4115,7 +4115,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "warranty"
         }
       ],
@@ -4259,7 +4259,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -4273,7 +4273,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -4437,7 +4437,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -4465,7 +4465,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -4636,7 +4636,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -4678,7 +4678,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -5034,7 +5034,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -5069,7 +5069,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -5233,7 +5233,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -5282,7 +5282,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -5460,7 +5460,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -5502,7 +5502,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -6557,7 +6557,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "current warranty terms"
         },
         {
@@ -6571,7 +6571,7 @@
           "url": "https://www.makitatools.com/service/service-centers",
           "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-10-22",
           "purpose": "factory and authorized service path"
         },
         {
@@ -6721,10 +6721,10 @@
       "sku": "RT0701C",
       "category": "routers",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "RT0701C is the U.S. corded fixed-base package. Makita lists one trimmer base, one 1/4-inch collet, one straight guide, and two spanner wrenches. It is not the RT0701CX3 multi-base kit and does not include a plunge, tilt, or offset base.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Manufacturer documentation verifies the exact fixed-base package, owner-replaceable carbon brushes, a component breakdown, current manufacturer-list entries for several electrical and structural components, and factory or authorized service. On the exact-ASIN page, one verified-purchase owner reports repeated 5-9 hour CNC jobs and no need yet for purchased replacement brushes, but gives no precise ownership duration; the same page exposes mixed durability excerpts rather than representative failure data. A professional woodworker separately reports six years and an estimated 1,500 hard hours on the jointly documented RT0700C sibling model. Sibling-model and anecdotal exact-model reports do not establish representative RT0701C expected service life, annual maintenance cost, repair economics, or a buy-or-repair recommendation, so those remain not yet verified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -6733,38 +6733,73 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-10-22",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
+          "url": "https://www.makitatools.com/service/warranty",
+          "title": "Makita USA warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-22",
+          "purpose": "current corded-tool warranty term and exclusions"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+          "title": "Makita USA October 2026 complete parts MSRP list",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-22",
+          "purpose": "current manufacturer parts-list status for structural, electrical, and wear components"
+        },
+        {
           "url": "https://www.makitatools.com/products/details/RT0701C",
           "title": "Makita RT0701C official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-10-22",
+          "purpose": "exact U.S. fixed-base model identity, specifications, included items, and current accessories"
         },
         {
-          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
-          "title": "Makita RT0701C instruction manual",
+          "url": "https://www.amazon.com/dp/B00E7D3V4S",
+          "title": "Amazon exact Makita RT0701C destination and owner reports",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-22",
+          "purpose": "exact-model commercial identity and bounded owner-use reports"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=RT0701C",
+          "title": "CPSC recall API exact-title query for RT0701C",
+          "source_type": "other",
+          "retrieved_date": "2026-10-22",
+          "purpose": "exact-title recall query returned no matching CPSC records on review date"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA service-center support",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "retrieved_date": "2026-10-22",
+          "purpose": "factory, authorized, and direct-repair service routes"
         },
         {
           "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
           "title": "Makita RT0701C parts breakdown",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-10-22",
+          "purpose": "illustrated component breakdown and exact component numbers"
         },
         {
-          "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
+          "title": "Makita RT0701C instruction manual",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "warranty"
+          "retrieved_date": "2026-10-22",
+          "purpose": "operating, maintenance, carbon-brush replacement, service, and warranty boundaries"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=29PIqz--MAM",
+          "title": "Professional woodworker six-year Makita RT0700C sibling-model review",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-22",
+          "purpose": "six-year professional-use report for jointly documented RT0700C sibling model"
         }
       ],
       "fields": [
@@ -6774,9 +6809,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         },
         {
           "name": "expected_service_life",
@@ -6784,49 +6819,49 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         },
         {
           "name": "identity",
-          "raw_value": "1-1/4 HP compact router",
-          "display_value": "1-1/4 HP compact router",
+          "raw_value": "Makita RT0701C is a corded fixed-base compact router with a 6.5A motor, 10,000-30,000 RPM variable speed, electronic speed control, soft start, a heavy-duty aluminum motor housing, and a 1/4-inch collet. The U.S. package includes the trimmer base, straight guide, and two spanner wrenches.",
+          "display_value": "RT0701C corded fixed-base compact router: 6.5A, 10,000-30,000 RPM, 1/4-inch collet, trimmer base, straight guide, and two wrenches.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/products/details/RT0701C",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts breakdown and factory/authorized service path are linked.",
-          "display_value": "Partial: official parts breakdown and factory/authorized service path are linked.",
+          "raw_value": "Makita publishes an RT0701C component breakdown. Its October 2026 complete parts list carries the RT0701C armature assembly, controller, field, outer housing, and bearings, along with the switch, cord, carbon-brush set, collet nut, and related base components. Some older breakdown numbers are marked discontinued or substituted, and a list entry does not guarantee current on-hand stock or indefinite future supply.",
+          "display_value": "Partial: the October 2026 manufacturer list carries the armature, controller, field, switch, cord, carbon-brush set, collet nut, housing, and base components; some older numbers are discontinued or substituted, and current stock is not guaranteed.",
           "evidence_tier": "T2",
-          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "source_url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+          "verified_date": "2026-10-22",
+          "reverify_days": 90,
+          "stale_after": "2027-01-20"
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "The joint RT0700C/RT0701C instruction manual covers operation, bit and base setup, overload limits, inspection, maintenance, and owner carbon-brush replacement. It does not provide component-level diagnosis, electrical testing, disassembly, or internal repair procedures.",
+          "display_value": "Official instruction manual includes inspection and carbon-brush replacement, but it is not a component-level repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manual permits the owner to inspect the tool and replace both carbon brushes through the brush-holder caps. It directs repairs, other maintenance, and adjustment to Makita Authorized or Factory Service Centers using Makita replacement parts. Makita also publishes factory, authorized, and direct-repair routes.",
+          "display_value": "Owner maintenance includes inspection and paired carbon-brush replacement; internal repair and adjustment are directed to Makita authorized or factory service.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.makitatools.com/service/service-centers",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         },
         {
           "name": "street_price",
@@ -6834,19 +6869,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 30,
-          "stale_after": "2026-09-24"
+          "stale_after": "2026-11-21"
         },
         {
           "name": "warranty",
-          "raw_value": "See current Makita USA warranty policy for this model.",
-          "display_value": "See current Makita USA warranty policy for this model.",
+          "raw_value": "As a corded tool, RT0701C falls under Makita USA's general product limited warranty: one year from original purchase against defects in workmanship and materials, plus a 30-day return or replacement guarantee. Published exclusions include repairs attempted by others, normal wear, abuse, misuse, improper maintenance, and alterations.",
+          "display_value": "1-year general product limited warranty for workmanship and materials, plus a 30-day return/replacement guarantee; normal wear, unauthorized repair, abuse, misuse, improper maintenance, and alterations are excluded.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/service/warranty",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-10-22",
           "reverify_days": 180,
-          "stale_after": "2027-02-21"
+          "stale_after": "2027-04-20"
         }
       ],
       "affiliate_links": [
@@ -6854,21 +6889,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00E7D3V4S?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-10-22"
         }
       ],
       "repairability": {
         "product_id": 8,
         "parts_availability": "partial",
-        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
-        "repair_manual_available": 1,
+        "parts_url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+        "repair_manual_available": 0,
         "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 56,
-        "verified_date": "2026-08-25"
+        "source_id": 394,
+        "verified_date": "2026-10-22"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "1-year general product limited warranty; 30-day return/replacement guarantee.",
+        "warranty_coverage": "For the original purchase period, Makita may repair or replace a complete product when inspection finds defective workmanship or materials.",
+        "warranty_exclusions": "Repairs attempted by others, normal wear, abuse, misuse, improper maintenance, and alterations are excluded; accessories and wear items have separate limits.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-10-22"
+      },
       "cost_per_year": null
     },
     {
@@ -9568,14 +9609,6 @@
       "is_stale": true
     },
     {
-      "slug": "makita-rt0701c",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "makita-vc4210l",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -9941,6 +9974,14 @@
       "verified_date": "2026-10-21",
       "reverify_days": 30,
       "stale_after": "2026-11-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "street_price",
+      "verified_date": "2026-10-22",
+      "reverify_days": 30,
+      "stale_after": "2026-11-21",
       "is_stale": false
     },
     {
@@ -10360,6 +10401,14 @@
       "is_stale": false
     },
     {
+      "slug": "makita-rt0701c",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-22",
+      "reverify_days": 90,
+      "stale_after": "2027-01-20",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcw600b",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -10465,62 +10514,6 @@
     },
     {
       "slug": "fein-turbo-i",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-rt0701c",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -12573,6 +12566,54 @@
       "verified_date": "2026-10-21",
       "reverify_days": 180,
       "stale_after": "2027-04-19",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "identity",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-rt0701c",
+      "field_name": "warranty",
+      "verified_date": "2026-10-22",
+      "reverify_days": 180,
+      "stale_after": "2027-04-20",
       "is_stale": false
     }
   ]
