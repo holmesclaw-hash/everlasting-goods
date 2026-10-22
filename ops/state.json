@@ -37,32 +37,33 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-22T05:33:47Z",
-  "last_action": "Completed an exact-model evidence review of the queued Grizzly G0787 belt/disc sander and recorded a safe publication stop. Current identity, the since-09/25 revision, owner maintenance, limited component-replacement documentation, illustrated parts, factory repair routes, and one-year warranty were verified, but no exact Amazon Associates destination or current individual-part orderability was established. The proposed article also lacks representative long-duration owner evidence and lawful exact-model photography.",
-  "last_live_url": null,
-  "last_commit": "5366282",
+  "last_verified_at": "2026-10-22T06:38:36Z",
+  "last_action": "Refreshed the published Makita RT0701C structured record with exact U.S. fixed-base package boundaries, current manufacturer parts-list evidence, bounded owner maintenance and service routing, current warranty terms, exact-ASIN owner evidence, a dated CPSC exact-title query, and explicit sibling-model and stock limitations. No article, price, rating, availability claim, photograph, or purchase recommendation was added.",
+  "last_live_url": "https://everlasting-goods.com/database/makita-rt0701c",
+  "last_commit": "9440cf3",
   "last_evidence": {
-    "local_gates": "The new G0787 queue regression failed first because the candidate retained only a generic warranty lead. After preserving exact specification, current-manual, parts-list, parts, service, warranty, recall, owner-lead, and rights sources plus explicit re-entry gates, npm run verify passed all 141 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the generated freshness data correctly rolled one DEWALT DCD800D1E1 field stale after its October 21 boundary.",
-    "deployment": "Both GitHub-reported Vercel project statuses for G0787 research-stop commit 5366282 completed successfully.",
-    "live_readback": "The homepage and database hub returned HTTP 200 after deployment. Exact G0787 database and proposed article routes both remain HTTP 404, confirming that no below-gate public record or article was published.",
+    "local_gates": "The RT0701C regression failed against the stale record before implementation. After migration 055, strict grounded-citation verification passed at 83% declared provenance, migration replay matched the current SQLite dump exactly, SQLite integrity and foreign keys passed, and npm run verify passed 142 tests plus quality, lint, typecheck, and the Next.js 16.3.8 production build. npm audit --omit=dev found 0 vulnerabilities, and staged diff checks found no secrets, stale affiliate tag, unsupported experience claim, or unrelated content.",
+    "deployment": "Both GitHub-reported Vercel project statuses for content commit 9440cf3 completed successfully.",
+    "live_readback": "The homepage, RT0701C record, routers comparison, database hub, products hub, and sitemap returned HTTP 200. The record exposes the exact package boundary, refreshed parts, service, warranty, and owner-evidence limits, exact canonical, two measured and disclosed exact-ASIN CTAs with tag everlastin08f-20, no stale tag, and a 2026-10-22 review date. The sitemap includes the record and routers category and gives the homepage, database hub, products hub, record, and routers category a 2026-10-22 last-modified timestamp.",
     "source_urls": [
-      "https://www.grizzly.com/products/grizzly-4-x-36-horizontal-vertical-belt-sander-with-6-disc/g0787",
-      "https://cdn0.grizzly.com/specsheets/g0787_ds.pdf",
-      "https://cdn2.grizzly.com/manuals/g0787_m.pdf",
-      "https://cdn0.grizzly.com/partslists/g0787_pl.pdf",
-      "https://www.grizzly.com/products/g0787/parts",
-      "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-      "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-      "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-      "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=G0787",
-      "https://www.cpsc.gov/s3fs-public/recall-data/recalls_recall_listing.csv",
-      "https://shipsofscale.com/sosforums/threads/any-opinions-on-the-grizzly-disc-belt-sander-combo.4724/",
-      "https://support.grizzly.com/hc/en-us/articles/4404772793495-Grizzly-Terms-Conditions",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/5366282/status"
+      "https://www.makitatools.com/products/details/RT0701C",
+      "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf",
+      "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf",
+      "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+      "https://www.makitatools.com/service/service-centers",
+      "https://www.makitatools.com/service/warranty",
+      "https://www.amazon.com/dp/B00E7D3V4S",
+      "https://www.youtube.com/watch?v=29PIqz--MAM",
+      "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=RT0701C",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/9440cf3/status"
     ],
     "live_routes": [
       "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/database"
+      "https://everlasting-goods.com/database/makita-rt0701c",
+      "https://everlasting-goods.com/database/category/routers",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/sitemap.xml"
     ]
   },
   "blockers": [
@@ -100,6 +101,7 @@
     "Grizzly G0787 remains a research candidate because no exact Amazon Associates product destination or current individual-part orderability was verified; V1 documentation for machines since 09/14 and current V2 documentation for machines since 09/25 must be matched to the manufacture date, owner evidence does not establish duration or repair history, and article publication is independently blocked by missing representative long-duration evidence and lawful reusable exact-model photo rights",
     "MERKUR 34C expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because the accepted exact-model evidence consists of individual five- and eight-year owner reports rather than representative durability data; only the current MK-90004 top plate was verified as a separately sold structural part, production-revision concerns remain anecdotal, and no universal U.S. or lifetime-warranty term was verified",
     "Victorinox Fibrox 5.2063.20 expected service life and repair-versus-replace recommendation remain unverified because the accepted owner report covers 15-plus years with Victorinox knives and a shown Fibrox chef knife but does not establish controlled lifespan evidence for the exact current SKU; no model-specific replacement blade, handle, or structural repair program was documented",
+    "Makita RT0701C expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because exact-model owner reports are anecdotal and do not state controlled ownership duration, while the six-year 1,500-hour report covers the jointly documented RT0700C sibling model; manufacturer parts-list presence does not guarantee live stock, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.3.8"
   ]
