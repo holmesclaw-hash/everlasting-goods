@@ -3,30 +3,35 @@ import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 const restoredGuideCandidates = [
   {
     slug: "is-a-moccamaster-buy-it-for-life",
+    databaseSlug: "moccamaster-kbgv-select-53948",
     title: "Moccamaster K741.64B and KBGV Evidence Review",
     description: "A 15-year-old K741.64B, current KBGV parts and repair support, warranty limits, maintenance, and owner tradeoffs.",
     reviewedAt: "2026-10-13",
   },
   {
     slug: "best-estwing-hammers-that-last-a-lifetime",
+    databaseSlug: "estwing-b3-3lb",
     title: "Estwing B3-3LB Drilling Hammer Evidence Review",
     description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
-    reviewedAt: "2026-09-04",
+    reviewedAt: "2026-09-08",
   },
   {
     slug: "best-kitchen-knives-that-last-a-lifetime",
+    databaseSlug: "victorinox-fibrox-5-2063-20",
     title: "Victorinox Fibrox 8-Inch Evidence Review",
     description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",
     reviewedAt: "2026-10-06",
   },
   {
     slug: "best-cast-iron-skillets-that-last-forever",
+    databaseSlug: "lodge-l10sk3",
     title: "Lodge 12-Inch Cast-Iron Skillet Evidence Review",
     description: "Maintainable seasoning, warranty exclusions, ownership tradeoffs, and dated owner evidence for the Lodge 12-inch skillet.",
     reviewedAt: "2026-10-15",
   },
   {
     slug: "best-safety-razors-that-last-a-lifetime",
+    databaseSlug: "merkur-34c",
     title: "Safety Razors: Construction and Maintenance",
     description: "Manufacturer-documented materials and blade systems, plus clearly limited owner evidence for the MERKUR 34C.",
     reviewedAt: "2026-10-14",

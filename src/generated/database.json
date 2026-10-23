@@ -9702,7 +9702,7 @@
       "verified_date": "2026-09-22",
       "reverify_days": 30,
       "stale_after": "2026-10-22",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-rf1101",

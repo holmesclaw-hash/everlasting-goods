@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
+import { restoredGuides } from "@/content/restored-guides";
 import { formatFieldFreshness } from "@/lib/database-utils.mjs";
 import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct, type DatabaseProduct } from "@/lib/product-database";
 
@@ -63,6 +64,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
 
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
   const affiliateLink = product.affiliate_links[0];
+  const evidenceGuide = restoredGuides.find((guide) => guide.databaseSlug === product.slug);
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,
@@ -100,6 +102,15 @@ export default async function ProductRecordPage({ params }: PageProps) {
             <EvidenceBadge tier={product.evidence_tier} />
           </div>
           <p className="mt-6 text-sm text-charcoal/45">Last reviewed: {product.last_reviewed_date}</p>
+          {evidenceGuide && (
+            <Link
+              href={`/articles/${evidenceGuide.slug}`}
+              data-internal-placement="database-record-evidence-guide"
+              className="mt-5 inline-flex rounded-xl border border-forest-500/30 bg-forest-50 px-4 py-2 text-sm font-semibold text-forest-700 hover:border-forest-500/60 hover:bg-forest-100"
+            >
+              Read the evidence-reviewed guide →
+            </Link>
+          )}
         </div>
       </section>
 
