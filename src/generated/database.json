@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "b207b9ac89b4fa753ab1d7202b7a584d1fc6709621e47d4967be1f5ae78c171e",
-  "generated_at": "2026-10-24T00:00:00.000Z",
+  "database_sha256": "b5d8b7b439a2bbe24a8df2811386ec097c81038fa41274d8a26f94bcee85b833",
+  "generated_at": "2026-10-25T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -2353,6 +2353,233 @@
         "warranty_exclusions": "Normal wear, tool abuse, accessories, unauthorized repair damage, and unauthorized-seller limitations apply; proof of purchase may be required.",
         "source_url": "https://www.dewalt.com/en-us/support/warranty",
         "verified_date": "2026-09-22"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 49,
+      "slug": "dewalt-dcd801b",
+      "brand": "DEWALT",
+      "model": "DCD801",
+      "sku": "DCD801B",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": "Exact U.S. DCD801B 20V MAX XR brushless 1/2-inch drill/driver tool-only package. DEWALT lists the DCD801 drill/driver and belt hook; battery, charger, and optional TOOL CONNECT chip are sold separately. The support evidence reviewed here is for DCD801B Type 1. Do not transfer these findings to DCD801QQ2 or DCD801H1 kits, the DCD806 hammer drill, DCD800 or DCD805 tools, regional packages, combo kits, batteries, chargers, or another type/revision.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "DEWALT identifies the exact DCD801B tool-only drill/driver and publishes Type 1 documentation. The October 25, 2026 ServiceNet snapshot marked 22 entries purchasable; the housing, motor-and-switch assembly, sensor, and selector had positive numeric stock, while the transmission was marked purchasable and inStock but showed a numeric stock level of zero. That inconsistency and normal inventory volatility limit the finding to partial dated support. An August 8, 2026 Reddit post says its author bought the DCD801QQ2 kit several months earlier and had thoroughly enjoyed the included DCD801 for woodworking projects. DEWALT confirms that kit contains a DCD801 drill/driver, but the report concerns a kit rather than the DCD801B tool-only package, gives no repair history, and is anecdotal short-duration evidence. The exact-title SaferProducts recall query returned an empty result and the DEWALT safety-notices page did not identify DCD801 in the bounded review; neither check is safety clearance. Expected service life, representative failure rate, maintenance cost, repair economics, and a Buy-It-for-Life recommendation remain not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified. The accepted exact-tool owner report describes only several months of use from a DCD801QQ2 kit and cannot establish representative service life for the DCD801B tool-only package.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=DCD801",
+          "title": "SaferProducts exact-title DCD801 recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Bounded exact-title federal recall query with empty result"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dewalt/comments/1vj2fpl/dcd801qq2_hd_in_store_clearance_135/",
+          "title": "DCD801 owner report from a DCD801QQ2 kit on r/Dewalt",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Bounded exact-tool owner report from a separately identified kit package"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/safety-notices-and-recalls",
+          "title": "DEWALT safety notices and recalls",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-24",
+          "purpose": "Bounded manufacturer safety-notice review"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd801qq2/20v-max-xr-brushless-cordless-12-drilldriver-2-4ah-powerpack-batteries",
+          "title": "DEWALT DCD801QQ2 kit product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Confirmation that the owner-report DCD801QQ2 kit contains a DCD801 drill/driver"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/360012666378-Where-can-I-find-manuals-part-lists-and-diagrams",
+          "title": "DEWALT manuals, parts lists, and diagrams support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "DEWALT manuals, parts-list, and diagram support path"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/7985430800781-Where-can-I-buy-spare-parts-for-my-tool",
+          "title": "DEWALT spare-parts support policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-16",
+          "purpose": "DEWALT spare-parts ordering policy and ServiceNet path"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "DEWALT warranty terms"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0F94FMBYW",
+          "title": "Amazon exact DCD801B tool-only destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Exact DCD801B commercial destination verified without price, rating, seller, or availability claims"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd801b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+          "title": "DEWALT DCD801B 20V MAX XR brushless 1/2-inch drill/driver product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Exact U.S. DCD801B tool-only identity, package boundary, and manufacturer specifications"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/360056765252-Where-can-my-product-be-repaired-under-warranty",
+          "title": "DEWALT warranty repair path",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "Manufacturer warranty-repair service-center path"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Exploded_Diagram/EN/NA370838-SRD1_DCD801_.svg",
+          "title": "DEWALT DCD801B Type 1 exploded diagram",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Type 1 exploded assembly documentation"
+        },
+        {
+          "url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1",
+          "title": "DEWALT ServiceNet DCD801B Type 1 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Type 1 live model status and dated individual-part orderability and stock snapshot"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf",
+          "title": "DEWALT DCD801 and DCD806 Type 1 North America instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Type 1 operation, maintenance, cleaning, and repair-path boundaries"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "identity",
+          "raw_value": "DCD801B 20V MAX XR brushless 1/2-inch drill/driver, tool-only, Type 1",
+          "display_value": "Exact U.S. DEWALT DCD801B 20V MAX XR brushless 1/2-inch drill/driver, tool-only; Type 1 evidence reviewed. It has the ANTI-ROTATION system, 0-650 and 0-2,000 RPM settings, a 1/2-inch metal ratcheting chuck, and a 70-lumen adjustable worklight.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd801b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial — the October 25, 2026 ServiceNet Type 1 snapshot marked 22 entries purchasable. The housing, motor-and-switch assembly, sensor, and selector showed positive numeric stock. The transmission was marked purchasable and inStock while its numeric stock level read zero, so the snapshot is internally inconsistent and does not guarantee current checkout, future stock, or complete component-level support.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1",
+          "verified_date": "2026-10-25",
+          "reverify_days": 30,
+          "stale_after": "2026-11-24"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "false",
+          "display_value": "No comprehensive internal repair manual verified. The Type 1 owner manual covers operation, adjustment, routine maintenance, weekly cleaning, and safety, then directs repairs, maintenance, and adjustment to factory or authorized service centers.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf",
+          "verified_date": "2026-10-25",
+          "reverify_days": 365,
+          "stale_after": "2027-10-25"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Shop-serviceable through DEWALT service centers. Owner guidance includes blowing dust from air vents with clean, dry air at least weekly and cleaning nonmetallic exterior parts with water and mild soap; internal repair is not documented as an owner procedure.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 30,
+          "stale_after": "2026-11-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "3-year limited warranty; 1-year free service; 90-day money-back guarantee",
+          "display_value": "DEWALT states a three-year limited warranty, one-year free service, and 90-day money-back guarantee for covered products, subject to the published terms and exclusions.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0F94FMBYW?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-25"
+        }
+      ],
+      "repairability": {
+        "product_id": 49,
+        "parts_availability": "partial",
+        "parts_url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 409,
+        "verified_date": "2026-10-25"
+      },
+      "warranty": {
+        "warranty_length": "3-year limited warranty; 1-year free service; 90-day money-back guarantee",
+        "warranty_coverage": "The published policy covers repair without charge for defects due to faulty materials or workmanship for three years from purchase and includes one year of free maintenance/service on covered DEWALT tools.",
+        "warranty_exclusions": "The published policy excludes part failure due to normal wear or tool abuse and is subject to DEWALT's full terms, proof-of-purchase, product, and regional conditions.",
+        "source_url": "https://www.dewalt.com/en-us/support/warranty",
+        "verified_date": "2026-10-25"
       },
       "cost_per_year": null
     },
@@ -9938,7 +10165,7 @@
       "verified_date": "2026-09-24",
       "reverify_days": 30,
       "stale_after": "2026-10-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "bosch-pr20evs",
@@ -9946,7 +10173,7 @@
       "verified_date": "2026-09-24",
       "reverify_days": 30,
       "stale_after": "2026-10-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-xcv11z",
@@ -9954,7 +10181,7 @@
       "verified_date": "2026-09-24",
       "reverify_days": 30,
       "stale_after": "2026-10-24",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "milwaukee-2904-20",
@@ -10218,6 +10445,22 @@
       "verified_date": "2026-10-24",
       "reverify_days": 30,
       "stale_after": "2026-11-23",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-25",
+      "reverify_days": 30,
+      "stale_after": "2026-11-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "street_price",
+      "verified_date": "2026-10-25",
+      "reverify_days": 30,
+      "stale_after": "2026-11-24",
       "is_stale": false
     },
     {
@@ -12893,11 +13136,59 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dcd801b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "identity",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "warranty",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
       "reverify_days": 365,
       "stale_after": "2027-10-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd801b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-25",
+      "reverify_days": 365,
+      "stale_after": "2027-10-25",
       "is_stale": false
     }
   ]

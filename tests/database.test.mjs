@@ -30,7 +30,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-24T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-25T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -94,6 +94,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "makita-mac210q": "B084GYHQFY",
     "bosch-gsr18v-535fcb15": "B07Z5QNBVS",
     "dewalt-dcd794b": "B0BY1QMH24",
+    "dewalt-dcd801b": "B0F94FMBYW",
     "dewalt-dcd800b": "B09ZQ4VTXK",
     "dewalt-dcd800d1e1": "B00EOOZT5E",
     "makita-xfd14z": "B093QS3VJR",
@@ -148,7 +149,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "dewalt-dcd794b"
+      product.slug === "dewalt-dcd801b"
+        ? "2026-10-25"
+      : product.slug === "dewalt-dcd794b"
         ? "2026-10-24"
       : product.slug === "makita-rt0701c"
         ? "2026-10-22"
@@ -248,6 +251,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
   const generated = await loadGeneratedDatabase();
   const expected = {
     "dewalt-dcd794b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Instruction_Manual/EN/NA597019_DCD794_DCD799_NA_NBC.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-COMPACT-DRILL-DRIVER-BARE/p/DCD794B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Exploded_Diagram/EN/DCD794_B_C1_D1_T1.svg"],
+    "dewalt-dcd801b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Exploded_Diagram/EN/NA370838-SRD1_DCD801_.svg"],
     "dewalt-dcd800b": ["https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf", "https://www.toolservicenet.com/en/p/DCD800B", "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
     "milwaukee-2904-20": ["https://documents.milwaukeetool.com/58-14-9998d1.pdf", "https://documents.milwaukeetool.com/54-24-2990R.pdf"],
     "makita-xfd14z": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf"],
