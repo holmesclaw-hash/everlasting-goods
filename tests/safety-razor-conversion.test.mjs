@@ -23,7 +23,7 @@ test("restored safety-razor guide discloses before its verified exact-model dest
 test("restored safety-razor guide separates manufacturer facts from dated owner reports", async () => {
   const content = await text("src/content/safety-razors.mjs");
   const data = await text("src/lib/data.ts");
-  const sitemap = await text("src/app/sitemap.ts");
+  const registry = await text("src/content/restored-guides.ts");
 
   assert.match(content, /Long-Term Owner Evidence and Its Limits/);
   assert.match(content, /Started wet shaving 8 years ago with a 34C and still revisit it frequently/);
@@ -34,5 +34,5 @@ test("restored safety-razor guide separates manufacturer facts from dated owner 
   assert.match(content, /MK-90004 Top Plate 34/);
   assert.match(content, /overtightening can damage it/);
   assert.match(data, /content:\s*safetyRazorContent,\s*updatedAt: "2026-10-14"/);
-  assert.match(sitemap, /best-safety-razors-that-last-a-lifetime[^\n]*lastModified: new Date\("2026-10-14"\)/);
+  assert.match(registry, /slug: "best-safety-razors-that-last-a-lifetime"[\s\S]*?reviewedAt: "2026-10-14"/);
 });

@@ -26,7 +26,7 @@ test("restored Victorinox guide has a lawful exact-product photo", async () => {
 test("restored Victorinox guide separates current specifications, owner evidence, and limitations", async () => {
   const content = await text("src/content/victorinox-fibrox.mjs");
   const data = await text("src/lib/data.ts");
-  const sitemap = await text("src/app/sitemap.ts");
+  const registry = await text("src/content/restored-guides.ts");
 
   assert.match(content, /We did not perform a hands-on or long-term test/);
   assert.match(content, /victorinox\.com\/en-US\/Products\/Cutlery/);
@@ -43,7 +43,7 @@ test("restored Victorinox guide separates current specifications, owner evidence
   assert.doesNotMatch(content, /<strong>Stamped construction:/i);
   assert.match(data, /content:\s*victorinoxFibroxContent,\s*updatedAt: "2026-10-06"/);
   assert.match(data, /slug: "best-kitchen-knives-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/victorinox-fibrox-5-2063-20\.jpg"/);
-  assert.match(sitemap, /articles\/best-kitchen-knives-that-last-a-lifetime/);
+  assert.match(registry, /slug: "best-kitchen-knives-that-last-a-lifetime"[\s\S]*?reviewedAt: "2026-10-06"/);
 });
 
 test("restored Victorinox guide discloses before its verified exact-model destination", async () => {

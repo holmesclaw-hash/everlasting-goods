@@ -11,3 +11,13 @@ export function latestReviewDate(products) {
 export function latestCategoryReviewDate(products, category) {
   return latestReviewDate(products.filter((product) => product.category === category));
 }
+
+export function latestGuideReviewDate(guides) {
+  let latest = null;
+  for (const guide of guides) {
+    const reviewed = guide?.reviewedAt;
+    if (typeof reviewed !== "string") continue;
+    if (latest === null || reviewed > latest) latest = reviewed;
+  }
+  return latest;
+}

@@ -25,7 +25,7 @@ test("restored cast-iron guide has a lawful exact-product photo", async () => {
 test("restored cast-iron guide separates manufacturer facts, owner reports, and evidence limits", async () => {
   const content = await text("src/content/cast-iron-skillets.mjs");
   const data = await text("src/lib/data.ts");
-  const sitemap = await text("src/app/sitemap.ts");
+  const registry = await text("src/content/restored-guides.ts");
 
   assert.match(content, /We did not perform a hands-on or long-term test/);
   assert.match(content, /lodgecastiron\.com\/products\/round-cast-iron-classic-skillet\?variant=51685752242548/);
@@ -41,8 +41,7 @@ test("restored cast-iron guide separates manufacturer facts, owner reports, and 
   assert.match(content, /individual owner reports, not controlled lifespan data/i);
   assert.match(content, /href="\/database\/lodge-l10sk3"/);
   assert.match(data, /content:\s*castIronSkilletContent,\s*updatedAt: "2026-10-15"/);
-  assert.match(sitemap, /articles\/best-cast-iron-skillets-that-last-forever/);
-  assert.match(sitemap, /best-cast-iron-skillets-that-last-forever`, lastModified: new Date\("2026-10-15"\)/);
+  assert.match(registry, /slug: "best-cast-iron-skillets-that-last-forever"[\s\S]*?reviewedAt: "2026-10-15"/);
 });
 
 test("restored cast-iron guide discloses before its verified exact-model destination", async () => {

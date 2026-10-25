@@ -36,10 +36,15 @@ test("public discovery surfaces use generated database records instead of legacy
 });
 
 test("sitemap publishes database records and only audited restored guides", async () => {
-  const source = await text("src/app/sitemap.ts");
+  const [source, registry] = await Promise.all([
+    text("src/app/sitemap.ts"),
+    text("src/content/restored-guides.ts"),
+  ]);
   assert.match(source, /database\/\$\{product\.slug\}/);
-  assert.match(source, /articles\/best-cast-iron-skillets-that-last-forever/);
-  assert.match(source, /articles\/best-safety-razors-that-last-a-lifetime/);
+  assert.match(source, /restoredGuides\.map\(\(guide\) =>/);
+  assert.match(source, /articles\/\$\{guide\.slug\}/);
+  assert.match(registry, /best-cast-iron-skillets-that-last-forever/);
+  assert.match(registry, /best-safety-razors-that-last-a-lifetime/);
   assert.doesNotMatch(source, /articles\.map/);
   for (const route of ["/contact", "/privacy", "/terms"]) {
     assert.ok(source.includes(route), `${route} must be included in the sitemap`);

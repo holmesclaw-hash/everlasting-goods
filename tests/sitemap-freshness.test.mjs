@@ -4,6 +4,7 @@ import test from "node:test";
 
 import {
   latestCategoryReviewDate,
+  latestGuideReviewDate,
   latestReviewDate,
 } from "../src/lib/sitemap-freshness.mjs";
 
@@ -22,6 +23,17 @@ test("database discovery pages inherit the newest review date in their product s
   assert.equal(latestCategoryReviewDate(products, "missing-category"), null);
 });
 
+test("guide discovery freshness inherits the newest reviewed guide date", () => {
+  const guides = [
+    { slug: "older-guide", reviewedAt: "2026-09-08" },
+    { slug: "newest-guide", reviewedAt: "2026-10-15" },
+    { slug: "undated-guide" },
+  ];
+
+  assert.equal(latestGuideReviewDate(guides), "2026-10-15");
+  assert.equal(latestGuideReviewDate([]), null);
+});
+
 test("the sitemap uses content-derived freshness for commercial discovery routes", async () => {
   const sitemap = await readFile(new URL("../src/app/sitemap.ts", import.meta.url), "utf8");
 
@@ -29,4 +41,7 @@ test("the sitemap uses content-derived freshness for commercial discovery routes
   assert.match(sitemap, /lastModified: databaseReviewed/);
   assert.match(sitemap, /latestCategoryReviewDate\(database\.products, category\)/);
   assert.doesNotMatch(sitemap, /database\/category\/\$\{category\}[^\n]*lastModified: reviewed/);
+  assert.match(sitemap, /latestGuideReviewDate\(restoredGuides\)/);
+  assert.match(sitemap, /restoredGuides\.map\(\(guide\) =>/);
+  assert.doesNotMatch(sitemap, /articles\/best-kitchen-knives-that-last-a-lifetime[^\n]*new Date\("2026-08-31"\)/);
 });

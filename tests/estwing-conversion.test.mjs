@@ -26,7 +26,7 @@ test("restored Estwing guide has a lawful exact-product photo", async () => {
 test("restored Estwing guide separates product facts, owner reports, warranty limits, and safety boundaries", async () => {
   const content = await text("src/content/estwing-drilling-hammer.mjs");
   const data = await text("src/lib/data.ts");
-  const sitemap = await text("src/app/sitemap.ts");
+  const registry = await text("src/content/restored-guides.ts");
 
   assert.match(content, /We did not perform a hands-on or long-term test/);
   assert.match(content, /estwing\.com\/product\/drilling-hammer/);
@@ -39,7 +39,7 @@ test("restored Estwing guide separates product facts, owner reports, warranty li
   assert.match(content, /manufacturer’s stated uses/i);
   assert.match(data, /content:\s*estwingDrillingHammerContent,\s*updatedAt: "2026-09-08"/);
   assert.match(data, /slug: "best-estwing-hammers-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/estwing-b3-3lb-drilling-hammer\.jpg"/);
-  assert.match(sitemap, /articles\/best-estwing-hammers-that-last-a-lifetime/);
+  assert.match(registry, /slug: "best-estwing-hammers-that-last-a-lifetime"[\s\S]*?reviewedAt: "2026-09-08"/);
 });
 
 test("restored Estwing guide discloses before its verified exact-model destination", async () => {
