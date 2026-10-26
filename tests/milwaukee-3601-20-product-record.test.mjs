@@ -25,7 +25,7 @@ test("the Milwaukee 3601-20 record preserves bare-tool, service-parts, and owner
   assert.equal(product.category_group, "tools-shop");
   assert.equal(product.evidence_tier, "T2");
   assert.equal(product.recommendation, "not-yet-verified");
-  assert.equal(product.last_reviewed_date, "2026-10-25");
+  assert.equal(product.last_reviewed_date, "2026-10-26");
   assert.match(product.variant_notes, /3601-20.*M18.*compact.*brushless.*1\/2-inch.*bare[- ]tool/is);
   assert.match(product.variant_notes, /belt clip.*battery.*charger.*not included/is);
   assert.match(product.variant_notes, /3601-22CT.*kit/is);
@@ -65,10 +65,10 @@ test("the Milwaukee 3601-20 record preserves bare-tool, service-parts, and owner
   assert.equal(product.repairability.repair_manual_available, 0);
   assert.equal(product.repairability.repair_manual_url, manualUrl);
   assert.equal(product.repairability.serviceability, "shop-serviceable");
-  assert.equal(product.repairability.verified_date, "2026-10-25");
+  assert.equal(product.repairability.verified_date, "2026-10-26");
 
   assert.equal(product.warranty.warranty_length, "5-year limited power-tool warranty");
-  assert.equal(product.warranty.verified_date, "2026-10-25");
+  assert.equal(product.warranty.verified_date, "2026-10-26");
 
   assert.equal(product.expected_service_life_years, null);
   assert.equal(product.street_price_cents, null);
@@ -84,6 +84,6 @@ test("the Milwaukee 3601-20 record preserves bare-tool, service-parts, and owner
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B0CRPLWH24?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-25",
+    verified_date: "2026-10-26",
   }]);
 });

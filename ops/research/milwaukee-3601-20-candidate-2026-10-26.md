@@ -1,4 +1,4 @@
-# Milwaukee 3601-20 research review — 2026-10-25
+# Milwaukee 3601-20 research review — 2026-10-26
 
 ## Decision
 
@@ -39,7 +39,7 @@ The discovery lead titled “My dad’s drill. 40 years and still going strong!�
 
 ## Recall and safety boundary
 
-The exact-title SaferProducts query for `3601-20` returned an empty JSON array on October 25, 2026. This is a dated, bounded no-result check, not universal recall clearance or a safety certification.
+The exact-title SaferProducts query for `3601-20` returned an empty JSON array on October 26, 2026. This is a dated, bounded no-result check, not universal recall clearance or a safety certification.
 
 ## Commercial destination
 
