@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "2ed0c5b5ba9071539f942647174cb1cf837e98cc21eb7882bd8afc247cee8f53",
+  "database_sha256": "6841f7b9721670f5b30d8aad63bf4dd908de5e58555f322ec2437e645e20fc9e",
   "generated_at": "2026-10-26T00:00:00.000Z",
   "products": [
     {
@@ -1686,6 +1686,226 @@
         "warranty_exclusions": "Published exclusions include damage from non-genuine Bosch parts, abuse, misuse, careless handling, and repairs outside Bosch or a Bosch Authorized Service Center; territorial terms also apply.",
         "source_url": "https://www.boschtools.com/us/en/service/product-warranty",
         "verified_date": "2026-09-14"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 51,
+      "slug": "dewalt-dcd793b",
+      "brand": "DEWALT",
+      "model": "DCD793",
+      "sku": "DCD793B",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": "Exact U.S. DCD793B 20V MAX brushless cordless 1/2-inch drill/driver tool-only package. DEWALT lists the DCD793 drill/driver and belt hook; battery and charger are sold separately. The support evidence reviewed here is for DCD793B Type 1. Do not transfer these findings to the DCD793D1 battery-and-charger kit, the DCD798 hammer drill, the DCD794 ATOMIC drill/driver, XR models, combo kits, batteries, chargers, regional packages, or another type/revision.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "DEWALT identifies the exact DCD793B tool-only drill/driver and publishes Type 1 documentation. The October 26, 2026 ServiceNet snapshot marked 13 entries purchasable, including the clamshell, motor-and-switch, selector, and transmission assemblies, all with positive numeric stock; normal inventory volatility limits that finding to partial dated support. An August 4, 2025 TechGearLab review documents hands-on drilling and driving tests of the exact DCD793B, but it is not ownership-duration or repair-history evidence. No credible long-duration exact-model owner report was accepted. The exact-title SaferProducts recall query returned an empty result and the DEWALT safety-notices page did not identify DCD793 in the bounded review; neither check is safety clearance. Expected service life, representative failure rate, maintenance cost, repair economics, and a Buy-It-for-Life recommendation remain not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified. The accepted exact-model evidence is a 2025 hands-on performance review rather than long-duration ownership or repair-history evidence, and no credible long-duration exact-model owner report was accepted.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-26",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.techgearlab.com/reviews/tools/drill/dewalt-20v-max-brushless-1-2-in-cordless-compact-drill-driver-dcd793b",
+          "title": "TechGearLab hands-on DEWALT DCD793B drill review",
+          "source_type": "other",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Bounded exact-model hands-on testing that does not establish ownership duration or service life"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=DCD793",
+          "title": "SaferProducts exact-title DCD793 recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Bounded exact-title federal recall query with empty result"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/safety-notices-and-recalls",
+          "title": "DEWALT safety notices and recalls",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-24",
+          "purpose": "Bounded manufacturer safety-notice review"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/360012666378-Where-can-I-find-manuals-part-lists-and-diagrams",
+          "title": "DEWALT manuals, parts lists, and diagrams support",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "DEWALT manuals, parts-list, and diagram support path"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/7985430800781-Where-can-I-buy-spare-parts-for-my-tool",
+          "title": "DEWALT spare-parts support policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-16",
+          "purpose": "DEWALT spare-parts ordering policy and ServiceNet path"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/support/warranty",
+          "title": "DEWALT warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-18",
+          "purpose": "DEWALT warranty terms"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0BY13XZXT",
+          "title": "Amazon exact DEWALT DCD793B tool-only destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Exact DCD793B commercial destination verified without price, rating, seller, or availability claims"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcd793b/20v-max-brushless-cordless-12-drilldriver-tool-only",
+          "title": "DEWALT DCD793B 20V MAX brushless 1/2-inch drill/driver product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Exact U.S. DCD793B tool-only identity, package boundary, and manufacturer specifications"
+        },
+        {
+          "url": "https://support.dewalt.com/hc/en-us/articles/360056765252-Where-can-my-product-be-repaired-under-warranty",
+          "title": "DEWALT warranty repair path",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-09",
+          "purpose": "Manufacturer warranty-repair service-center path"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Exploded_Diagram/EN/E21151.svg",
+          "title": "DEWALT DCD793B Type 1 exploded diagram",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Type 1 exploded assembly documentation"
+        },
+        {
+          "url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1",
+          "title": "DEWALT ServiceNet DCD793B Type 1 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Type 1 live model status and dated individual-part orderability and stock snapshot"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf",
+          "title": "DEWALT DCD793 and DCD798 Type 1 North America instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-26",
+          "purpose": "Type 1 operation, maintenance, cleaning, and repair-path boundaries"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-26",
+          "reverify_days": 180,
+          "stale_after": "2027-04-24"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-26",
+          "reverify_days": 180,
+          "stale_after": "2027-04-24"
+        },
+        {
+          "name": "identity",
+          "raw_value": "DCD793B 20V MAX brushless cordless 1/2-inch drill/driver, tool-only, Type 1",
+          "display_value": "Exact U.S. DEWALT DCD793B 20V MAX brushless cordless 1/2-inch drill/driver, tool-only; Type 1 evidence reviewed. DEWALT documents a 6.38-inch tool-head length, 404 UWO, up to 1,650 RPM no load, a 1/2-inch ratcheting chuck, and an LED work light.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd793b/20v-max-brushless-cordless-12-drilldriver-tool-only",
+          "verified_date": "2026-10-26",
+          "reverify_days": 180,
+          "stale_after": "2027-04-24"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial — the October 26, 2026 ServiceNet Type 1 snapshot marked 13 entries purchasable. The clamshell, motor-and-switch, selector, and transmission assemblies all showed positive numeric stock. This is a dated snapshot and does not guarantee current checkout, future stock, or complete component-level support.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1",
+          "verified_date": "2026-10-26",
+          "reverify_days": 30,
+          "stale_after": "2026-11-25"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "false",
+          "display_value": "No comprehensive internal repair manual verified. The Type 1 owner manual covers operation, adjustment, routine maintenance, weekly cleaning, and safety, then directs repairs, maintenance, and adjustment to factory or authorized service centers.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf",
+          "verified_date": "2026-10-26",
+          "reverify_days": 365,
+          "stale_after": "2027-10-26"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Shop-serviceable through DEWALT service centers. Owner guidance includes blowing dirt and dust from air vents with clean, dry air at least once a week and cleaning nonmetallic exterior parts with water and mild soap; internal repair is not documented as an owner procedure.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf",
+          "verified_date": "2026-10-26",
+          "reverify_days": 180,
+          "stale_after": "2027-04-24"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-26",
+          "reverify_days": 30,
+          "stale_after": "2026-11-25"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "3-year limited warranty; 1-year free service; 90-day money-back guarantee",
+          "display_value": "DEWALT states a three-year limited warranty, one-year free service, and 90-day money-back guarantee for covered products, subject to the published terms and exclusions.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.dewalt.com/en-us/support/warranty",
+          "verified_date": "2026-10-26",
+          "reverify_days": 180,
+          "stale_after": "2027-04-24"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0BY13XZXT?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-26"
+        }
+      ],
+      "repairability": {
+        "product_id": 51,
+        "parts_availability": "partial",
+        "parts_url": "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 423,
+        "verified_date": "2026-10-26"
+      },
+      "warranty": {
+        "warranty_length": "3-year limited warranty; 1-year free service; 90-day money-back guarantee",
+        "warranty_coverage": "The published policy covers repair without charge for defects due to faulty materials or workmanship for three years from purchase and includes one year of free maintenance/service on covered DEWALT tools.",
+        "warranty_exclusions": "The published policy excludes part failure due to normal wear or tool abuse and is subject to DEWALT's full terms, proof-of-purchase, product, and regional conditions.",
+        "source_url": "https://www.dewalt.com/en-us/support/warranty",
+        "verified_date": "2026-10-26"
       },
       "cost_per_year": null
     },
@@ -10656,6 +10876,22 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dcd793b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-26",
+      "reverify_days": 30,
+      "stale_after": "2026-11-25",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "street_price",
+      "verified_date": "2026-10-26",
+      "reverify_days": 30,
+      "stale_after": "2026-11-25",
+      "is_stale": false
+    },
+    {
       "slug": "milwaukee-3601-20",
       "field_name": "street_price",
       "verified_date": "2026-10-26",
@@ -13384,6 +13620,46 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dcd793b",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-26",
+      "reverify_days": 180,
+      "stale_after": "2027-04-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-26",
+      "reverify_days": 180,
+      "stale_after": "2027-04-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "identity",
+      "verified_date": "2026-10-26",
+      "reverify_days": 180,
+      "stale_after": "2027-04-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-26",
+      "reverify_days": 180,
+      "stale_after": "2027-04-24",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "warranty",
+      "verified_date": "2026-10-26",
+      "reverify_days": 180,
+      "stale_after": "2027-04-24",
+      "is_stale": false
+    },
+    {
       "slug": "milwaukee-3601-20",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-10-26",
@@ -13437,6 +13713,14 @@
       "verified_date": "2026-10-25",
       "reverify_days": 365,
       "stale_after": "2027-10-25",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd793b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-26",
+      "reverify_days": 365,
+      "stale_after": "2027-10-26",
       "is_stale": false
     },
     {

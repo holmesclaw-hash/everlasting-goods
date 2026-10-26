@@ -93,6 +93,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "california-air-tools-8010": "B00WM1VPKE",
     "makita-mac210q": "B084GYHQFY",
     "bosch-gsr18v-535fcb15": "B07Z5QNBVS",
+    "dewalt-dcd793b": "B0BY13XZXT",
     "dewalt-dcd794b": "B0BY1QMH24",
     "dewalt-dcd801b": "B0F94FMBYW",
     "dewalt-dcd800b": "B09ZQ4VTXK",
@@ -150,7 +151,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "milwaukee-3601-20"
+      product.slug === "dewalt-dcd793b" || product.slug === "milwaukee-3601-20"
         ? "2026-10-26"
       : product.slug === "dewalt-dcd801b"
         ? "2026-10-25"
@@ -253,6 +254,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
 test("manufacturer research is reconciled to exact manuals and only verified parts catalogs", async () => {
   const generated = await loadGeneratedDatabase();
   const expected = {
+    "dewalt-dcd793b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Exploded_Diagram/EN/E21151.svg"],
     "dewalt-dcd794b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Instruction_Manual/EN/NA597019_DCD794_DCD799_NA_NBC.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-COMPACT-DRILL-DRIVER-BARE/p/DCD794B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Exploded_Diagram/EN/DCD794_B_C1_D1_T1.svg"],
     "dewalt-dcd801b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Exploded_Diagram/EN/NA370838-SRD1_DCD801_.svg"],
     "dewalt-dcd800b": ["https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf", "https://www.toolservicenet.com/en/p/DCD800B", "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
