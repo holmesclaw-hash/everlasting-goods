@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_sha256": "b5d8b7b439a2bbe24a8df2811386ec097c81038fa41274d8a26f94bcee85b833",
+  "database_sha256": "9fe67eba2e913cf79cb9ff963deb1363260816164ddbe8deaf332025af6fe608",
   "generated_at": "2026-10-25T00:00:00.000Z",
   "products": [
     {
@@ -2930,6 +2930,198 @@
         "warranty_exclusions": "Unauthorized repair attempts, misuse, alterations, abuse, normal wear, lack of maintenance, and accidents are excluded; the policy specifically lists chucks among normal-wear parts.",
         "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
         "verified_date": "2026-09-25"
+      },
+      "cost_per_year": null
+    },
+    {
+      "id": 50,
+      "slug": "milwaukee-3601-20",
+      "brand": "Milwaukee",
+      "model": "3601-20",
+      "sku": "3601-20",
+      "category": "drill-drivers",
+      "category_group": "tools-shop",
+      "variant_notes": "Exact U.S. Milwaukee 3601-20 M18 compact brushless 1/2-inch drill/driver bare-tool package. Milwaukee lists the 3601-20 tool and belt clip; battery and charger are not included. Do not transfer these findings to the 3601-22CT battery-and-charger kit, the 3602-20 hammer drill, other combo kits, batteries, chargers, regional packages, or another serial/revision configuration. The service-parts evidence reviewed is the July 2025 list for starting serial N66A.",
+      "evidence_tier": "T2",
+      "recommendation": "not-yet-verified",
+      "recommendation_reasoning": "Milwaukee identifies the exact 3601-20 bare-tool package and publishes an operator manual plus a July 2025 N66A service-parts list. The service document identifies chuck, rotor, gearbox, electronic, housing, and belt-clip assemblies and provides limited chuck, wiring, and torque procedures, but current individual-part orderability was not independently verified. A June 13, 2026 Reddit post reports that a 3601-20 chuck screw sheared and says the owner encountered an inconvenient physical-shop warranty path; it gives no purchase date, ownership duration, workload, repair outcome, or representative failure context. The discovery lead about a 40-year-old drill does not identify a 3601-20 and predates this model by decades, so it is not exact-model longevity evidence. An exact-title SaferProducts recall query returned an empty result; that bounded check is not safety clearance. Expected service life, representative failure rate, annual maintenance cost, repair economics, and a Buy-It-for-Life recommendation remain not yet verified.",
+      "street_price_cents": null,
+      "price_verified_date": null,
+      "expected_service_life_years": null,
+      "expected_service_life_basis": "Not yet verified. The only accepted exact-model owner report describes a sheared chuck screw without a purchase date, ownership duration, workload, completed repair, or representative service-life evidence.",
+      "annual_maintenance_cost_cents": null,
+      "image_url": null,
+      "image_source_url": null,
+      "image_license_basis": null,
+      "last_reviewed_date": "2026-10-25",
+      "image_license_url": null,
+      "image_attribution": null,
+      "image_alt": null,
+      "sources": [
+        {
+          "url": "https://www.reddit.com/r/MilwaukeeTool/comments/1u55mxz/how_do_i_replace_chuck_screw_that_sheared_off_on/",
+          "title": "Milwaukee 3601-20 owner report about a sheared chuck screw",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Bounded exact-model sheared-chuck-screw and warranty-access owner report"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=3601-20",
+          "title": "SaferProducts exact-title 3601-20 recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Bounded exact-title federal recall query with empty result"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+          "title": "Milwaukee warranty policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-09-25",
+          "purpose": "Current Milwaukee power-tool warranty terms"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B0CRPLWH24",
+          "title": "Amazon exact Milwaukee 3601-20 bare-tool destination",
+          "source_type": "other",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Exact 3601-20 commercial destination verified without price, rating, seller, or availability claims"
+        },
+        {
+          "url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+          "title": "Milwaukee 3601-20 M18 compact brushless 1/2-inch drill/driver product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Exact U.S. 3601-20 bare-tool identity, package boundary, specifications, release date, and official documents"
+        },
+        {
+          "url": "https://documents.milwaukeetool.com/54-06-2995R.pdf",
+          "title": "Milwaukee 3601-20 N66A service parts list revised July 2025",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "July 2025 N66A service assemblies, chuck procedure, wiring diagram, and torque specifications"
+        },
+        {
+          "url": "https://documents.milwaukeetool.com/58-14-9845d2.pdf",
+          "title": "Milwaukee 3601-20 and 3602-20 operator manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Operation, owner maintenance, inspection, warranty, and authorized-service boundaries"
+        },
+        {
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1keezh2/my_dads_drill_40_years_and_still_going_strong/",
+          "title": "Forty-year drill report rejected as non-exact Milwaukee 3601-20 evidence",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-10-25",
+          "purpose": "Rejected non-exact discovery lead that is not used as 3601-20 longevity evidence"
+        }
+      ],
+      "fields": [
+        {
+          "name": "annual_maintenance_cost",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "expected_service_life",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "identity",
+          "raw_value": "3601-20 M18 compact brushless 1/2-inch drill/driver, bare tool with belt clip",
+          "display_value": "Exact U.S. Milwaukee 3601-20 M18 compact brushless 1/2-inch drill/driver bare tool with belt clip. Milwaukee documents a 5.7-inch tool length, 2.3-pound tool-only weight, 550 in-lb maximum torque, and 0-550 and 0-1,700 RPM settings.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "parts_availability",
+          "raw_value": "partial",
+          "display_value": "Partial — Milwaukee's July 2025 N66A service-parts list identifies chuck, rotor, gearbox, electronic, housing, and belt-clip assemblies plus fasteners. Current individual orderability and durable future stock were not independently verified.",
+          "evidence_tier": "T2",
+          "source_url": "https://documents.milwaukeetool.com/54-06-2995R.pdf",
+          "verified_date": "2026-10-25",
+          "reverify_days": 90,
+          "stale_after": "2027-01-23"
+        },
+        {
+          "name": "repair_manual",
+          "raw_value": "false",
+          "display_value": "No comprehensive owner repair manual verified. The service-parts list provides limited chuck removal and installation, wiring routing, assembly, and torque procedures, while the operator manual says never to disassemble the tool and directs all repairs to a Milwaukee service facility.",
+          "evidence_tier": "T2",
+          "source_url": "https://documents.milwaukeetool.com/54-06-2995R.pdf",
+          "verified_date": "2026-10-25",
+          "reverify_days": 365,
+          "stale_after": "2027-10-25"
+        },
+        {
+          "name": "serviceability",
+          "raw_value": "shop-serviceable",
+          "display_value": "Shop-serviceable through Milwaukee service facilities. Owner care covers vent cleaning, mild-soap exterior cleaning, inspection for noise, misalignment, binding, or broken parts, battery-contact cleaning, and a six-month-to-one-year inspection interval depending on use.",
+          "evidence_tier": "T2",
+          "source_url": "https://documents.milwaukeetool.com/58-14-9845d2.pdf",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        },
+        {
+          "name": "street_price",
+          "raw_value": null,
+          "display_value": "Not yet verified",
+          "evidence_tier": "T4",
+          "source_url": null,
+          "verified_date": "2026-10-25",
+          "reverify_days": 30,
+          "stale_after": "2026-11-24"
+        },
+        {
+          "name": "warranty",
+          "raw_value": "5-year limited power-tool warranty",
+          "display_value": "Milwaukee states a five-year limited power-tool warranty for the original purchaser from an authorized distributor, subject to proof, examination, terms, and exclusions; chucks are specifically listed among normal-wear parts when normal use exhausts them.",
+          "evidence_tier": "T2",
+          "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+          "verified_date": "2026-10-25",
+          "reverify_days": 180,
+          "stale_after": "2027-04-23"
+        }
+      ],
+      "affiliate_links": [
+        {
+          "program_name": "Amazon Associates",
+          "url": "https://www.amazon.com/dp/B0CRPLWH24?tag=everlastin08f-20",
+          "exact_model": true,
+          "verified_date": "2026-10-25"
+        }
+      ],
+      "repairability": {
+        "product_id": 50,
+        "parts_availability": "partial",
+        "parts_url": "https://documents.milwaukeetool.com/54-06-2995R.pdf",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://documents.milwaukeetool.com/58-14-9845d2.pdf",
+        "serviceability": "shop-serviceable",
+        "ifixit_score": null,
+        "source_id": 416,
+        "verified_date": "2026-10-25"
+      },
+      "warranty": {
+        "warranty_length": "5-year limited power-tool warranty",
+        "warranty_coverage": "For the original purchaser from an authorized Milwaukee distributor, Milwaukee may repair or replace parts it determines defective in material or workmanship, subject to the current terms, examination, proof, and exceptions.",
+        "warranty_exclusions": "Unauthorized repair attempts, misuse, alterations, abuse, normal wear, lack of maintenance, and accidents are excluded; chucks are specifically listed among normal-wear parts when normal use exhausts them.",
+        "source_url": "https://www.milwaukeetool.com/support/registration-and-warranty",
+        "verified_date": "2026-10-25"
       },
       "cost_per_year": null
     },
@@ -10189,7 +10381,7 @@
       "verified_date": "2026-09-25",
       "reverify_days": 30,
       "stale_after": "2026-10-25",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "bosch-1617evspk",
@@ -10457,6 +10649,14 @@
     },
     {
       "slug": "dewalt-dcd801b",
+      "field_name": "street_price",
+      "verified_date": "2026-10-25",
+      "reverify_days": 30,
+      "stale_after": "2026-11-24",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
       "field_name": "street_price",
       "verified_date": "2026-10-25",
       "reverify_days": 30,
@@ -10885,6 +11085,14 @@
       "verified_date": "2026-10-22",
       "reverify_days": 90,
       "stale_after": "2027-01-20",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
+      "field_name": "parts_availability",
+      "verified_date": "2026-10-25",
+      "reverify_days": 90,
+      "stale_after": "2027-01-23",
       "is_stale": false
     },
     {
@@ -13176,6 +13384,46 @@
       "is_stale": false
     },
     {
+      "slug": "milwaukee-3601-20",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
+      "field_name": "identity",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
+      "field_name": "serviceability",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
+      "field_name": "warranty",
+      "verified_date": "2026-10-25",
+      "reverify_days": 180,
+      "stale_after": "2027-04-23",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
@@ -13185,6 +13433,14 @@
     },
     {
       "slug": "dewalt-dcd801b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-10-25",
+      "reverify_days": 365,
+      "stale_after": "2027-10-25",
+      "is_stale": false
+    },
+    {
+      "slug": "milwaukee-3601-20",
       "field_name": "repair_manual",
       "verified_date": "2026-10-25",
       "reverify_days": 365,

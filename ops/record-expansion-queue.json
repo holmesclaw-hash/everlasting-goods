@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 49,
+  "current_published_records": 50,
   "target_total_records": 100,
-  "candidate_count": 56,
+  "candidate_count": 55,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -40,20 +40,6 @@
       "sku": "2903-20",
       "category": "drill-drivers",
       "official_product_url": "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-drill-driver/2903-20",
-      "evidence_urls": [
-        "https://www.milwaukeetool.com/support/registration-and-warranty"
-      ],
-      "reason": "The official Milwaukee product page identifies this exact drill-driver model/SKU, and the official Milwaukee warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
-    {
-      "brand": "Milwaukee",
-      "model": "3601-20",
-      "sku": "3601-20",
-      "category": "drill-drivers",
-      "official_product_url": "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
       "evidence_urls": [
         "https://www.milwaukeetool.com/support/registration-and-warranty"
       ],
