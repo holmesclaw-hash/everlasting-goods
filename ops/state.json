@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 49,
-    "research_candidates": 56,
+    "current_published_records": 50,
+    "research_candidates": 55,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "four_open_license_exact_product_images_live_in_product_database",
     "verified_images": 4,
-    "blocked_models": 45,
+    "blocked_models": 46,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -37,28 +37,28 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-25T06:45:58Z",
-  "last_action": "Published a conservative text-only repairability record for the exact U.S. DEWALT DCD801B Type 1 tool-only drill/driver after verifying identity, documentation, a dated ServiceNet parts snapshot, warranty and service paths, bounded kit-level owner evidence, recall checks, and exact Amazon destination B0F94FMBYW. Rejected the proposed Buy-It-for-Life article because representative long-duration exact-model evidence and a lawfully reusable exact-model photograph were not found.",
-  "last_live_url": "https://everlasting-goods.com/database/dewalt-dcd801b",
-  "last_commit": "e5af0f5",
+  "last_verified_at": "2026-10-26T05:33:23Z",
+  "last_action": "Published a conservative text-only repairability record for the exact U.S. Milwaukee 3601-20 M18 bare-tool drill/driver after verifying identity, package boundaries, the operator manual, the July 2025 N66A service-parts list, warranty and service limits, bounded exact-model owner evidence, a recall query, and exact Amazon destination B0CRPLWH24. Rejected the proposed Buy-It-for-Life article because representative long-duration exact-model evidence and a lawfully reusable exact-model photograph were not found. An additive follow-up migration aligned the completed review and freshness date to October 26, 2026 after the local date changed during verification.",
+  "last_live_url": "https://everlasting-goods.com/database/milwaukee-3601-20",
+  "last_commit": "a267e8f",
   "last_evidence": {
-    "local_gates": "The DCD801B regression failed before implementation and passed after migration 057. npm run verify passed 147 tests plus quality, lint, typecheck, deterministic 49-record database generation, and the Next.js 16.4.2 production build; npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. A clean replay of all 57 migrations produced 10 tables and 1,482 logical rows identical to the tracked database, with integrity ok, zero foreign-key violations, 49 products, and evidence revision 57.",
-    "deployment": "Both GitHub-reported Vercel project statuses for commit e5af0f5 completed successfully.",
-    "live_readback": "The DCD801B record, drill-driver category, database hub, and sitemap returned HTTP 200. The exact record has its canonical URL, no product image, nearby affiliate disclosure, sponsored/nofollow attributes, both database-record-mobile and database-record-sidebar placement hooks, and only affiliate tag everlastin08f-20. The 82-entry sitemap includes the record with October 25, 2026 freshness. An independent pre-publication audit reproduced the restored-guide sitemap repair at 81 entries: /blog had October 15, 2026 freshness, and the stale August 31 Victorinox and September 4 Estwing dates were absent.",
+    "local_gates": "The Milwaukee 3601-20 regression failed before implementation and passed after migration 058; migration 059 additively aligned the completed review date. npm run verify passed 148 tests plus quality, lint, typecheck, deterministic 50-record database generation, and the Next.js 16.4.2 production build; npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. A clean replay of all 59 migrations produced 10 tables and 1,509 logical rows identical to the tracked database, with integrity ok, zero foreign-key violations, 50 products, evidence revision 59, and migration date October 26, 2026.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for the Milwaukee content commit b842ca3 and the additive date-alignment commit a267e8f.",
+    "live_readback": "The Milwaukee 3601-20 record, drill-driver category, database hub, and sitemap returned HTTP 200. The exact record has its canonical URL, no product image, nearby affiliate disclosure, sponsored/nofollow attributes, both database-record-mobile and database-record-sidebar placement hooks, exact ASIN B0CRPLWH24, and only affiliate tag everlastin08f-20. The 83-entry sitemap includes the record with October 26, 2026 freshness.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/e5af0f5/status",
-      "https://www.dewalt.com/en-us/product/dcd801b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
-      "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf",
-      "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1",
-      "https://www.amazon.com/dp/B0F94FMBYW",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/a267e8f/status",
+      "https://www.milwaukeetool.com/products/details/m18-compact-brushless-1-2-drill-driver/3601-20",
+      "https://documents.milwaukeetool.com/58-14-9845d2.pdf",
+      "https://documents.milwaukeetool.com/54-06-2995R.pdf",
+      "https://www.amazon.com/dp/B0CRPLWH24",
       "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/database/dewalt-dcd801b",
+      "https://everlasting-goods.com/database/milwaukee-3601-20",
       "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/database"
     ],
     "live_routes": [
       "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/database/dewalt-dcd801b",
+      "https://everlasting-goods.com/database/milwaukee-3601-20",
       "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/database"
     ]
@@ -74,7 +74,7 @@
     "Bosch GSR18V-535FCB15 expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because the accepted evidence consists of one three-year professional use report and conflicting owner anecdotes rather than representative durability data; continued parts stock and every production revision are not guaranteed",
     "Bosch 1617EVSPK individual component orderability remains unverified because the exact product page exposes a parts-ordering entry but its outbound exact-model catalog currently returns HTTP 404",
     "DEWALT DCS7485B expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
-    "Forty-five structured product records remain without reusable exact-model image rights; the Estwing B3-3LB, Lodge 12-Inch Classic Cast Iron Skillet, Victorinox Fibrox 5.2063.20, and MERKUR 34C records have verified reusable exact-product images",
+    "Forty-six structured product records remain without reusable exact-model image rights; the Estwing B3-3LB, Lodge 12-Inch Classic Cast Iron Skillet, Victorinox Fibrox 5.2063.20, and MERKUR 34C records have verified reusable exact-product images",
     "SawStop CNS175-TGP236 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "SawStop JSS-120A60 expected service life and buy-or-repair recommendation remain unverified because no qualifying exact-SKU duration evidence was found; article publication also remains blocked by missing lawful reusable exact-product image rights",
     "Metabo HPT C10RJS expected service life and buy-or-repair recommendation remain unverified because the exact-model owner report supplied no ownership duration; individual component orderability also remains unverified, and article publication is blocked by missing lawful reusable exact-product image rights",
@@ -101,6 +101,7 @@
     "Makita RT0701C expected service life, representative failure rate, annual maintenance cost, repair economics, and buy-or-repair recommendation remain unverified because exact-model owner reports are anecdotal and do not state controlled ownership duration, while the six-year 1,500-hour report covers the jointly documented RT0700C sibling model; manufacturer parts-list presence does not guarantee live stock, and article publication remains blocked by missing lawful reusable exact-product image rights",
     "DEWALT DCD794B expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the accepted exact-model evidence consists of one two-to-three-month report and one about-one-year owner comment rather than representative durability data; ServiceNet stock is volatile, and article publication remains blocked by missing representative long-duration evidence and lawful reusable exact-model photo rights",
     "DEWALT DCD801B expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the accepted owner report covers only several months with a DCD801 included in the separate DCD801QQ2 kit; ServiceNet orderability and stock are a dated, internally inconsistent snapshot, and article publication remains blocked by missing representative long-duration exact-model evidence and lawful reusable exact-model photo rights",
+    "Milwaukee 3601-20 expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the only accepted exact-model owner report describes a sheared chuck screw without a purchase date, ownership duration, workload, or completed repair; current individual-part orderability is unverified, and article publication remains blocked by missing representative long-duration evidence and lawful reusable exact-model photo rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.4.2"
   ]
