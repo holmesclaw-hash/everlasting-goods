@@ -1,9 +1,9 @@
 {
   "version": 1,
   "generated_at": "2026-09-12",
-  "current_published_records": 51,
+  "current_published_records": 52,
   "target_total_records": 100,
-  "candidate_count": 54,
+  "candidate_count": 53,
   "policy": "This is a research queue, not published product data. No candidate is publish-ready until its exact identity and evidence bundle are independently re-verified during implementation.",
   "candidates": [
     {
@@ -62,20 +62,7 @@
       "publish_ready": false,
       "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
     },
-    {
-      "brand": "Makita",
-      "model": "XFD15ZB",
-      "sku": "XFD15ZB",
-      "category": "drill-drivers",
-      "official_product_url": "https://www.makitatools.com/products/details/XFD15ZB",
-      "evidence_urls": [
-        "https://www.makitatools.com/service/warranty"
-      ],
-      "reason": "The official Makita product page identifies this exact drill-driver model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
-      "status": "research-candidate",
-      "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
-    },
+
     {
       "brand": "Makita",
       "model": "XFD16Z",

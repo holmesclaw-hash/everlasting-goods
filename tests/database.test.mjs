@@ -30,7 +30,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-10-26T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-10-27T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -96,6 +96,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
     "dewalt-dcd793b": "B0BY13XZXT",
     "dewalt-dcd794b": "B0BY1QMH24",
     "dewalt-dcd801b": "B0F94FMBYW",
+    "makita-xfd15zb": "B09BXZTGR1",
     "dewalt-dcd800b": "B09ZQ4VTXK",
     "dewalt-dcd800d1e1": "B00EOOZT5E",
     "makita-xfd14z": "B093QS3VJR",
@@ -151,7 +152,9 @@ test("affiliate destinations are exact-model Amazon links for every published re
     assert.equal(link.exact_model, true);
     assert.equal(
       link.verified_date,
-      product.slug === "dewalt-dcd793b" || product.slug === "milwaukee-3601-20"
+      product.slug === "makita-xfd15zb"
+        ? "2026-10-27"
+      : product.slug === "dewalt-dcd793b" || product.slug === "milwaukee-3601-20"
         ? "2026-10-26"
       : product.slug === "dewalt-dcd801b"
         ? "2026-10-25"
@@ -254,6 +257,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
 test("manufacturer research is reconciled to exact manuals and only verified parts catalogs", async () => {
   const generated = await loadGeneratedDatabase();
   const expected = {
+    "makita-xfd15zb": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/cac6dead-d147-406d-ba4b-19ef50ba65e4_XFD15_IM_885850-949.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/2ff76fd6-57f3-49ab-b2a7-56d05d27421e_XFD15_PB_Breakdown_XFD15RB,ZB_06-21.pdf", "https://www.makitatools.com/service/service-centers"],
     "dewalt-dcd793b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Exploded_Diagram/EN/E21151.svg"],
     "dewalt-dcd794b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Instruction_Manual/EN/NA597019_DCD794_DCD799_NA_NBC.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-COMPACT-DRILL-DRIVER-BARE/p/DCD794B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Exploded_Diagram/EN/DCD794_B_C1_D1_T1.svg"],
     "dewalt-dcd801b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Exploded_Diagram/EN/NA370838-SRD1_DCD801_.svg"],
