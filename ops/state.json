@@ -8,8 +8,8 @@
   "production_branch": "main",
   "max_new_articles_per_7_days": 2,
   "record_expansion_queue": {
-    "current_published_records": 51,
-    "research_candidates": 54,
+    "current_published_records": 52,
+    "research_candidates": 53,
     "target_total_records": 100,
     "status": "research_only_not_publish_ready",
     "path": "ops/record-expansion-queue.json"
@@ -23,7 +23,7 @@
   "product_photo_pipeline": {
     "status": "four_open_license_exact_product_images_live_in_product_database",
     "verified_images": 4,
-    "blocked_models": 47,
+    "blocked_models": 48,
     "rights_audit": "ops/audit/product-image-rights-2026-08-28.json",
     "accepted_paths": [
       "Daniel-supplied owned originals",
@@ -37,29 +37,30 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-26T06:29:38Z",
-  "last_action": "Published a conservative text-only repairability record for the exact U.S. DEWALT DCD793B tool-only drill/driver after verifying identity and package boundaries, the Type 1 manual and exploded diagram, a dated ServiceNet snapshot with 13 purchasable entries, warranty and service limits, bounded exact-model hands-on evidence, a recall query, and exact Amazon destination B0BY13XZXT. Rejected the proposed Buy-It-for-Life article because no credible long-duration exact-model owner evidence and no lawfully reusable exact-model photograph were found.",
-  "last_live_url": "https://everlasting-goods.com/database/dewalt-dcd793b",
-  "last_commit": "24f4673",
+  "last_verified_at": "2026-10-27T06:27:19Z",
+  "last_action": "Published a conservative text-only repairability record for the exact U.S. Makita XFD15ZB tool-only drill/driver after verifying identity and package boundaries, the XFD15 manual and June 2021 illustrated breakdown, an October 2026 manufacturer parts-list snapshot with 11 model-labeled entries, warranty and service limits, a bounded tool-family owner comment, recall queries, and exact Amazon destination B09BXZTGR1. Rejected the proposed Buy-It-for-Life article because no representative long-duration exact-model owner evidence and no lawfully reusable exact-model photograph were found.",
+  "last_live_url": "https://everlasting-goods.com/database/makita-xfd15zb",
+  "last_commit": "4db24a6",
   "last_evidence": {
-    "local_gates": "The DEWALT DCD793B regression failed before implementation and passed after migration 060. npm run verify passed 149 tests plus quality, lint, typecheck, deterministic 51-record database generation, and the Next.js 16.4.2 production build; npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. A clean replay of all 60 migrations produced 10 tables and 1,540 logical rows identical to the tracked database, with integrity ok, zero foreign-key violations, 51 products, evidence revision 60, and migration date October 26, 2026. The grounded research note passed strict citation verification with 71% sentence coverage and all 16 registered sources cited.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for the DEWALT DCD793B content commit 24f4673.",
-    "live_readback": "The DEWALT DCD793B record, drill-driver category, database hub, and sitemap returned HTTP 200. The exact record has its canonical URL, no product image, nearby affiliate disclosure, sponsored/nofollow attributes, both database-record-mobile and database-record-sidebar placement hooks, exact ASIN B0BY13XZXT, and only affiliate tag everlastin08f-20. The 84-entry sitemap includes the record with October 26, 2026 freshness.",
+    "local_gates": "The Makita XFD15ZB regression failed against pre-change HEAD and passed after migration 061. npm run verify passed 150 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build; npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. A clean replay of all 61 migrations produced 10 tables and 1,567 logical rows identical to the tracked database, with integrity ok, zero foreign-key violations, 52 products, evidence revision 61, and migration date October 27, 2026. The grounded research note passed strict citation verification with 70% sentence coverage and all 15 registered sources cited.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for the Makita XFD15ZB content commit 4db24a6.",
+    "live_readback": "The Makita XFD15ZB record, drill-driver category, database hub, and sitemap returned HTTP 200. The exact record has its canonical URL, no product image or Product-schema image claim, nearby affiliate disclosure, sponsored/nofollow attributes on both measured CTA placements, exact ASIN B09BXZTGR1, and only affiliate tag everlastin08f-20. The 85-entry sitemap includes the record and discovery routes with October 27, 2026 freshness.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/24f4673/status",
-      "https://www.dewalt.com/en-us/product/dcd793b/20v-max-brushless-cordless-12-drilldriver-tool-only",
-      "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf",
-      "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1",
-      "https://www.techgearlab.com/reviews/tools/drill/dewalt-20v-max-brushless-1-2-in-cordless-compact-drill-driver-dcd793b",
-      "https://www.amazon.com/dp/B0BY13XZXT",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4db24a6/status",
+      "https://www.makitatools.com/products/details/XFD15ZB",
+      "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/cac6dead-d147-406d-ba4b-19ef50ba65e4_XFD15_IM_885850-949.pdf",
+      "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/2ff76fd6-57f3-49ab-b2a7-56d05d27421e_XFD15_PB_Breakdown_XFD15RB,ZB_06-21.pdf",
+      "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+      "https://www.reddit.com/r/Makita/comments/1h4ud5v/advice_on_drill/",
+      "https://www.amazon.com/dp/B09BXZTGR1",
       "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/database/dewalt-dcd793b",
+      "https://everlasting-goods.com/database/makita-xfd15zb",
       "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/database"
     ],
     "live_routes": [
       "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/database/dewalt-dcd793b",
+      "https://everlasting-goods.com/database/makita-xfd15zb",
       "https://everlasting-goods.com/database/category/drill-drivers",
       "https://everlasting-goods.com/database"
     ]
@@ -104,6 +105,7 @@
     "DEWALT DCD801B expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the accepted owner report covers only several months with a DCD801 included in the separate DCD801QQ2 kit; ServiceNet orderability and stock are a dated, internally inconsistent snapshot, and article publication remains blocked by missing representative long-duration exact-model evidence and lawful reusable exact-model photo rights",
     "Milwaukee 3601-20 expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the only accepted exact-model owner report describes a sheared chuck screw without a purchase date, ownership duration, workload, or completed repair; current individual-part orderability is unverified, and article publication remains blocked by missing representative long-duration evidence and lawful reusable exact-model photo rights",
     "DEWALT DCD793B expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the accepted exact-model evidence is a 2025 hands-on performance review rather than long-duration ownership or repair-history evidence; the ServiceNet parts finding is a dated snapshot, and article publication remains blocked by missing credible long-duration exact-model evidence and lawful reusable exact-model photo rights",
+    "Makita XFD15ZB expected service life, representative failure rate, annual maintenance cost, repair economics, and Buy-It-for-Life recommendation remain unverified because the accepted owner evidence is one positive XFD15 tool-family comment without original package, purchase date, ownership duration, workload, or repair history; the manufacturer parts list is a dated listing rather than live-stock proof, and article publication remains blocked by missing representative long-duration exact-model evidence and lawful reusable exact-model photo rights",
     "Two Vercel projects deploy main; confirm which project owns the custom domain before removing either integration",
     "AGENTS.md still names Next.js 16.3.2 because the protected instruction file could not be edited in this unattended run; package.json, package-lock.json, the verified build, and production now use 16.4.2"
   ]
