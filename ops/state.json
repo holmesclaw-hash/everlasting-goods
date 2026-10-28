@@ -37,37 +37,28 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-28T06:31:11Z",
-  "last_action": "Refreshed the existing Estwing B3-3LB evidence guide and structured record with the current manufacturer page, Estwing's 2026 catalog, a bounded exact-model defect-and-replacement owner report, an exact-title federal recall query, and a reverified exact Amazon destination. The route remains an evidence review rather than a hands-on review, and the recommendation remains not yet verified.",
+  "last_verified_at": "2026-10-28T06:40:13Z",
+  "last_action": "Audited the live Estwing B3-3LB refresh, confirmed its evidence and deployment gates, then corrected a sitewide analytics defect in the shared restored-guide CTAs: the two placements were measured but used generic decision-start and decision-end labels instead of the required guide-decision-start and guide-decision-end namespace. All five restored guides now emit the required stable placement labels.",
   "last_live_url": "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-  "last_commit": "a8968bc",
+  "last_commit": "7718f3a",
   "last_evidence": {
-    "local_gates": "The Estwing refresh regressions failed against pre-change content and data, then passed after the guide, migration, generated database, and freshness expectations were updated. npm run verify passed 150 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. All 62 migrations replayed to 10 tables and 1,575 logical rows with integrity OK and zero foreign-key violations. The research note passed strict citation verification at 62% coverage.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for the Estwing refresh commit a8968bc.",
-    "live_readback": "The Estwing guide, Estwing record, guide hub, database hub, and 85-entry sitemap returned HTTP 200. The guide exposes the October 28, 2026 review date, exact-model photograph and attribution, current catalog, bounded owner report, recall-query limitation, canonical URL, two measured CTA placements, nearby affiliate disclosures, sponsored/nofollow attributes, ASIN B00002N5NI, only tag everlastin08f-20, and no merchant price, rating, or availability. The record carries the refreshed evidence and exact destination. Both routes appear in the sitemap with October 28, 2026 freshness.",
+    "local_gates": "The restored-guide CTA regression failed after it was strengthened to require the guide-decision-start and guide-decision-end analytics namespace, then passed after the shared guide component was corrected. npm run verify passed 150 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities and git diff --check passed. An independent replay of all 62 migrations produced 10 tables and 1,575 logical rows identical to the tracked database, with integrity OK and zero foreign-key violations.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for the guide CTA namespace correction commit 7718f3a.",
+    "live_readback": "The Estwing guide and the other four restored evidence guides returned both required data-affiliate-placement values: guide-decision-start and guide-decision-end. The independently audited Estwing guide and record remained HTTP 200 with correct canonicals, October 28, 2026 freshness, exact ASIN B00002N5NI, only tag everlastin08f-20, nearby affiliate disclosure, sponsored/nofollow attributes, no merchant price/rating/availability claims, and the existing lawful exact-model photograph. The guide hub, database hub, and 85-entry sitemap remained healthy.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/a8968bc/status",
-      "https://www.estwing.com/product/drilling-hammer/",
-      "https://www.estwing.com/resources/warranty/",
-      "https://www.estwing.com/wp-content/uploads/2026/03/Estwing-Catalog.pdf",
-      "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
-      "https://www.garagejournal.com/forum/threads/good-estwing-customer-service-experience.219369/",
-      "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
-      "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
-      "https://www.amazon.com/dp/B00002N5NI",
-      "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=B3-3LB",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/7718f3a/status",
       "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-      "https://everlasting-goods.com/database/estwing-b3-3lb",
-      "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/database"
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life"
     ],
     "live_routes": [
       "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-      "https://everlasting-goods.com/database/estwing-b3-3lb",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/sitemap.xml",
-      "https://everlasting-goods.com/"
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life"
     ]
   },
   "blockers": [
