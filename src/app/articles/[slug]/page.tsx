@@ -61,7 +61,7 @@ const restoredGuides = {
     databaseSlug: "estwing-b3-3lb",
     title: "Estwing B3-3LB Drilling Hammer: Durability and Limits",
     description: "A source-checked review of the Estwing B3-3LB 3-lb drilling hammer, including one-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs.",
-    reviewedAt: "2026-09-08",
+    reviewedAt: "2026-10-28",
     asin: "B00002N5NI",
     destinationDescription: "the Estwing B3-3LB 3-lb drilling/crack hammer, ASIN B00002N5NI",
     destinationLabel: "View exact Estwing B3-3LB on Amazon",

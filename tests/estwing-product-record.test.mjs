@@ -31,15 +31,19 @@ test("the Estwing B3-3LB record preserves manufacturer, owner, photo, and exact-
   assert.equal(product.sku, "B3-3LB");
   assert.equal(product.category, "hammers");
   assert.equal(product.evidence_tier, "T2");
-  assert.equal(product.last_reviewed_date, "2026-09-08");
+  assert.equal(product.last_reviewed_date, "2026-10-28");
 
   const sourceUrls = new Set(product.sources.map((source) => source.url));
   for (const url of [
     "https://www.estwing.com/product/drilling-hammer/",
     "https://www.estwing.com/resources/warranty/",
+    "https://www.estwing.com/wp-content/uploads/2026/03/Estwing-Catalog.pdf",
     "https://www.garagejournal.com/forum/threads/estwing-sledgehammer.522660/",
+    "https://www.garagejournal.com/forum/threads/good-estwing-customer-service-experience.219369/",
     "https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/",
     "https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg",
+    "https://www.amazon.com/dp/B00002N5NI",
+    "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=B3-3LB",
   ]) assert.ok(sourceUrls.has(url), `${slug} missing ${url}`);
 
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
@@ -66,5 +70,5 @@ test("the Estwing B3-3LB record preserves manufacturer, owner, photo, and exact-
   assert.equal(destination.pathname, "/dp/B00002N5NI");
   assert.equal(destination.searchParams.get("tag"), "everlastin08f-20");
   assert.equal(product.affiliate_links[0].exact_model, true);
-  assert.equal(product.affiliate_links[0].verified_date, "2026-09-08");
+  assert.equal(product.affiliate_links[0].verified_date, "2026-10-28");
 });

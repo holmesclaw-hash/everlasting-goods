@@ -13,7 +13,7 @@ const restoredGuideCandidates = [
     databaseSlug: "estwing-b3-3lb",
     title: "Estwing B3-3LB Drilling Hammer Evidence Review",
     description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
-    reviewedAt: "2026-09-08",
+    reviewedAt: "2026-10-28",
   },
   {
     slug: "best-kitchen-knives-that-last-a-lifetime",

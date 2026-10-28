@@ -737,7 +737,7 @@ export const articles: Article[] = [
         featured: false,
         products: [],
         content: estwingDrillingHammerContent,
-        updatedAt: "2026-09-08",
+        updatedAt: "2026-10-28",
       },
 
       {
