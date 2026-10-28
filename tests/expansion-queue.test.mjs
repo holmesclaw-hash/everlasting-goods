@@ -21,6 +21,10 @@ test("record expansion queue reaches the 100-record planning target without publ
     false,
     "published XFD15ZB must leave the research queue",
   );
+  const gfd01z = queue.candidates.find((candidate) => candidate.sku === "GFD01Z");
+  assert.ok(gfd01z, "blocked GFD01Z must remain in the research queue");
+  assert.equal(gfd01z.status, "research-candidate");
+  assert.match(gfd01z.next_gate, /exact Amazon Associates destination/i);
   assert.equal(
     queue.candidates.some((candidate) => candidate.sku === "DCD794B"),
     false,

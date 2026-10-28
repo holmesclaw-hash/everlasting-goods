@@ -84,12 +84,15 @@
       "category": "drill-drivers",
       "official_product_url": "https://www.makitatools.com/products/details/GFD01Z",
       "evidence_urls": [
+        "https://cdn.makitatools.com/apps/cms/doc/prod/GFD/92ae2d6c-a7ff-4a32-a3f5-144c9a2b71d1_GFD01_IM_885766-948.pdf",
+        "https://cdn.makitatools.com/apps/cms/doc/prod/GFD/921f9eb5-ec01-44ae-8c38-32ea18cc36ba_GFD01_PB_Breakdown_GFD01_03-21.pdf",
+        "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
         "https://www.makitatools.com/service/warranty"
       ],
-      "reason": "The official Makita product page identifies this exact drill-driver model/SKU, and the official Makita warranty page provides manufacturer support evidence.",
+      "reason": "Makita marks the exact GFD01Z tool-only package discontinued and names GFD03Z as its replacement. The official manual, March 2021 breakdown, October 2026 parts-list entries, and warranty route remain available, but the historical exact Amazon ASIN B08VNZX5C8 currently returns HTTP 404 and no other exact Amazon destination was verified.",
       "status": "research-candidate",
       "publish_ready": false,
-      "next_gate": "Re-fetch every official URL, capture exact-model identity plus manual/parts/warranty evidence, then add through a tested SQLite migration."
+      "next_gate": "Verify a live exact Amazon Associates destination for GFD01Z without substituting GFD01M1 kits, GFD03Z, GPH01 hammer drills, or other XGT packages. An article additionally requires representative long-duration exact-model owner evidence and lawful exact-model photography."
     },
     {
       "brand": "Bosch",
