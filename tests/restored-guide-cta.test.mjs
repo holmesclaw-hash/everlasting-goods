@@ -14,7 +14,7 @@ test("affiliate click events identify the CTA placement", () => {
       "https://www.amazon.com/dp/B008M5U1C2?tag=everlastin08f-20",
       "View exact Victorinox Fibrox 8-inch on Amazon",
       "/articles/best-kitchen-knives-that-last-a-lifetime",
-      "decision-end"
+      "guide-decision-end"
     ),
     {
       eventName: "affiliate_click",
@@ -23,7 +23,7 @@ test("affiliate click events identify the CTA placement", () => {
         affiliate_path: "/dp/B008M5U1C2",
         link_text: "View exact Victorinox Fibrox 8-inch on Amazon",
         page_path: "/articles/best-kitchen-knives-that-last-a-lifetime",
-        link_placement: "decision-end",
+        link_placement: "guide-decision-end",
       },
     }
   );
@@ -34,8 +34,8 @@ test("restored guides offer a disclosed, measured exact-model destination before
 
   assert.match(page, /function ExactModelDestination/);
   assert.match(page, /data-affiliate-placement=\{placement\}/);
-  assert.match(page, /placement="decision-start"/);
-  assert.match(page, /placement="decision-end"/);
+  assert.match(page, /placement="guide-decision-start"/);
+  assert.match(page, /placement="guide-decision-end"/);
   assert.match(page, /asin: "B002A8JO1Q"/);
   assert.match(page, /asin: "B00006JSUB"/);
   assert.match(page, /asin: "B008M5U1C2"/);

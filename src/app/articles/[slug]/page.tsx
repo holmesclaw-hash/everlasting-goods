@@ -100,15 +100,15 @@ function ExactModelDestination({
   placement,
 }: {
   config: RestoredGuideConfig;
-  placement: "decision-start" | "decision-end";
+  placement: "guide-decision-start" | "guide-decision-end";
 }) {
   return (
-    <div className={placement === "decision-start"
+    <div className={placement === "guide-decision-start"
       ? "mb-10 rounded-2xl border border-cream-200 bg-white p-6"
       : "mt-12 rounded-2xl border border-forest-200 bg-white p-6"}>
       <AffiliateDisclosure />
       <h2 className="font-serif text-2xl font-bold text-charcoal">
-        {placement === "decision-start" ? "Exact model checked" : "Compare the exact model"}
+        {placement === "guide-decision-start" ? "Exact model checked" : "Compare the exact model"}
       </h2>
       <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
         The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
@@ -225,9 +225,9 @@ function RestoredGuide({
         <div className="mb-8 rounded-2xl border border-cream-200 bg-cream-100 p-5 text-sm leading-relaxed text-charcoal/65">
           This restored guide uses two disclosed links to one independently identity-checked exact-product affiliate destination. It contains no price, rating, availability, or hands-on claim. Manufacturer statements and owner reports are attributed; editorial observations are identified as such.
         </div>
-        <ExactModelDestination config={config} placement="decision-start" />
+        <ExactModelDestination config={config} placement="guide-decision-start" />
         <div className="article-content" dangerouslySetInnerHTML={{ __html: content }} />
-        <ExactModelDestination config={config} placement="decision-end" />
+        <ExactModelDestination config={config} placement="guide-decision-end" />
         <aside aria-labelledby="related-guides-heading" className="mt-12 border-t border-cream-200 pt-8">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
