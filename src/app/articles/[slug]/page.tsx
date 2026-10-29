@@ -27,6 +27,7 @@ const restoredGuides = {
     description: "A source-checked review of a 15-year-old K741.64B and the current KBGV Select, including parts support, factory repair, warranty limits, care, and owner tradeoffs.",
     reviewedAt: "2026-10-13",
     asin: "B093DXS54M",
+    destinationVerifiedAt: "2026-10-29",
     destinationDescription: "the matte-black Moccamaster 53948 KBGV Select 10-cup brewer, ASIN B093DXS54M",
     destinationLabel: "View exact Moccamaster 53948 KBGV Select on Amazon",
     imageWidth: 6550,
@@ -39,6 +40,7 @@ const restoredGuides = {
     description: "A manufacturer-sourced comparison of Edwin Jagger DE89, MERKUR 34C, Henson AL13, and MÜHLE R 41 construction and maintainability.",
     reviewedAt: "2026-10-14",
     asin: "B002A8JO1Q",
+    destinationVerifiedAt: "2026-10-29",
     destinationDescription: "MERKUR Classic MK-34C, ASIN B002A8JO1Q",
     destinationLabel: "View exact MERKUR 34C on Amazon",
     imageWidth: 1504,
@@ -51,6 +53,7 @@ const restoredGuides = {
     description: "A source-checked review of the Lodge 12-inch Classic Cast Iron Skillet, including maintainable seasoning, warranty limits, ownership tradeoffs, and dated owner evidence.",
     reviewedAt: "2026-10-15",
     asin: "B00006JSUB",
+    destinationVerifiedAt: "2026-10-29",
     destinationDescription: "the standalone Lodge L10SK3 12-inch skillet, ASIN B00006JSUB",
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
     imageWidth: 1494,
@@ -63,6 +66,7 @@ const restoredGuides = {
     description: "A source-checked review of the Estwing B3-3LB 3-lb drilling hammer, including one-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs.",
     reviewedAt: "2026-10-28",
     asin: "B00002N5NI",
+    destinationVerifiedAt: "2026-10-29",
     destinationDescription: "the Estwing B3-3LB 3-lb drilling/crack hammer, ASIN B00002N5NI",
     destinationLabel: "View exact Estwing B3-3LB on Amazon",
     imageWidth: 1800,
@@ -75,6 +79,7 @@ const restoredGuides = {
     description: "A source-checked review of the Victorinox Fibrox 5.2063.20 chef’s knife, including edge maintenance, warranty limits, repairability boundaries, and dated owner evidence.",
     reviewedAt: "2026-10-06",
     asin: "B008M5U1C2",
+    destinationVerifiedAt: "2026-10-29",
     destinationDescription: "the black Victorinox Fibrox Pro 8-inch chef’s knife, ASIN B008M5U1C2",
     destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",
     imageWidth: 1198,
@@ -111,7 +116,7 @@ function ExactModelDestination({
         {placement === "guide-decision-start" ? "Exact model checked" : "Compare the exact model"}
       </h2>
       <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-        The destination below was checked for {config.destinationDescription}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
+        The destination below was checked for {config.destinationDescription}. Exact model destination verified {config.destinationVerifiedAt}. Confirm the model, size, seller, and included items before ordering. Price and availability are shown only by the merchant.
       </p>
       <a
         href={amazonLink(config.asin)}

@@ -81,7 +81,7 @@ test("the Moccamaster KBGV Select 53948 record preserves current-model, repair, 
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B093DXS54M?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-13",
+    verified_date: "2026-10-29",
   }]);
 });
 

@@ -70,5 +70,5 @@ test("the Estwing B3-3LB record preserves manufacturer, owner, photo, and exact-
   assert.equal(destination.pathname, "/dp/B00002N5NI");
   assert.equal(destination.searchParams.get("tag"), "everlastin08f-20");
   assert.equal(product.affiliate_links[0].exact_model, true);
-  assert.equal(product.affiliate_links[0].verified_date, "2026-10-28");
+  assert.equal(product.affiliate_links[0].verified_date, "2026-10-29");
 });

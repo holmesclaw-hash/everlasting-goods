@@ -82,6 +82,6 @@ test("the Lodge L10SK3 record preserves exact identity, maintenance, warranty, p
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B00006JSUB?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-05",
+    verified_date: "2026-10-29",
   }]);
 });

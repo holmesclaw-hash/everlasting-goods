@@ -86,7 +86,7 @@ test("the MERKUR 34C record preserves current configuration, partial repair, rev
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B002A8JO1Q?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-14",
+    verified_date: "2026-10-29",
   }]);
 });
 

@@ -79,6 +79,6 @@ test("the Victorinox Fibrox record preserves exact identity, edge maintenance, w
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B008M5U1C2?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-06",
+    verified_date: "2026-10-29",
   }]);
 });
