@@ -10836,7 +10836,7 @@
       "verified_date": "2026-09-29",
       "reverify_days": 30,
       "stale_after": "2026-10-29",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "sawstop-cns175-tgp236",
