@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import { articleImageEvidence } from "@/content/article-image-evidence.mjs";
 import { restoredGuides } from "@/content/restored-guides";
+import { amazonLink } from "@/lib/affiliate.mjs";
 
 export const metadata: Metadata = {
   title: "Durable Product Guides",
@@ -26,6 +28,7 @@ export default function GuideHubPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <AffiliateDisclosure />
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
           {restoredGuides.map((guide) => {
             const image = articleImageEvidence[guide.slug];
@@ -49,6 +52,20 @@ export default function GuideHubPage() {
                   </h2>
                   <p className="mt-4 flex-1 text-sm leading-relaxed text-charcoal/60">{guide.description}</p>
                   <Link href={`/articles/${guide.slug}`} className="mt-6 font-semibold text-forest-600 hover:underline">Read the evidence review →</Link>
+                  <div className="mt-5 border-t border-cream-200 pt-5">
+                    <a
+                      href={amazonLink(guide.asin)}
+                      data-affiliate-placement="guide-hub-card"
+                      target="_blank"
+                      rel="sponsored nofollow noopener noreferrer"
+                      className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
+                    >
+                      {guide.destinationLabel}
+                    </a>
+                    <p className="mt-2 text-xs leading-relaxed text-charcoal/45">
+                      Destination verified {guide.destinationVerifiedAt}. Price and availability are shown only by the merchant.
+                    </p>
+                  </div>
                   {image ? (
                     <p className="mt-5 border-t border-cream-200 pt-4 text-[11px] leading-relaxed text-charcoal/45">
                       Photo: {image.attribution}.{" "}

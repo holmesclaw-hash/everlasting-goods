@@ -28,11 +28,34 @@ test("the guide hub is an indexable discovery page for only restored guides", as
   assert.match(hub, /Image/);
   assert.doesNotMatch(hub, /text-only/);
   assert.doesNotMatch(hub, /best-faucet-brands-that-actually-last/);
-  assert.doesNotMatch(hub, /amazon\.com|amazonLink|amazonSearchLink/);
 
   for (const slug of restoredGuideSlugs) {
     assert.ok(guideRegistry.includes(slug), `guide registry must include ${slug}`);
   }
+});
+
+test("the guide hub exposes disclosed, measured exact-model destinations from the restored-guide registry", async () => {
+  const [hub, guideRegistry] = await Promise.all([
+    text("src/app/blog/page.tsx"),
+    text("src/content/restored-guides.ts"),
+  ]);
+  const disclosureIndex = hub.indexOf("<AffiliateDisclosure");
+  const guideCardsIndex = hub.indexOf("restoredGuides.map");
+
+  assert.match(hub, /import AffiliateDisclosure from "@\/components\/AffiliateDisclosure"/);
+  assert.match(hub, /import \{ amazonLink \} from "@\/lib\/affiliate\.mjs"/);
+  assert.ok(disclosureIndex >= 0, "guide hub must render the affiliate disclosure");
+  assert.ok(guideCardsIndex > disclosureIndex, "disclosure must precede guide-card affiliate destinations");
+  assert.match(hub, /href=\{amazonLink\(guide\.asin\)\}/);
+  assert.match(hub, /data-affiliate-placement="guide-hub-card"/);
+  assert.match(hub, /rel="sponsored nofollow noopener noreferrer"/);
+  assert.match(hub, /\{guide\.destinationLabel\}/);
+  assert.match(hub, /Destination verified \{guide\.destinationVerifiedAt\}/);
+  assert.match(hub, /Price and availability are shown only by the merchant/);
+
+  assert.equal(guideRegistry.match(/asin: "B[A-Z0-9]{9}"/g)?.length, 5);
+  assert.equal(guideRegistry.match(/destinationVerifiedAt: "2026-10-29"/g)?.length, 5);
+  assert.equal(guideRegistry.match(/destinationLabel:/g)?.length, 5);
 });
 
 test("the homepage and sitemap expose the restored-guide hub without replacing the database focus", async () => {
