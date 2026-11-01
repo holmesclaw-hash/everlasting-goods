@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
+import { getRestoredGuideByDatabaseSlug } from "@/content/restored-guides";
 import { databaseCategories, fieldFor, formatCategory, getDatabaseProductsByCategory } from "@/lib/product-database";
 
 interface PageProps { params: Promise<{ category: string }> }
@@ -44,9 +45,22 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
             <tbody>
               {products.map((product) => {
                 const affiliateLink = product.affiliate_links[0];
+                const evidenceGuide = getRestoredGuideByDatabaseSlug(product.slug);
                 return (
                   <tr key={product.slug} className="border-t border-cream-200 align-top">
-                    <td className="p-4"><Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link><p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p></td>
+                    <td className="p-4">
+                      <Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link>
+                      <p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p>
+                      {evidenceGuide && (
+                        <Link
+                          href={`/articles/${evidenceGuide.slug}`}
+                          data-internal-placement="database-category-evidence-guide"
+                          className="mt-3 inline-block text-xs font-semibold text-forest-600 hover:underline"
+                        >
+                          Read evidence-reviewed guide →
+                        </Link>
+                      )}
+                    </td>
                     <td className="p-4"><EvidenceBadge tier={product.evidence_tier} /></td>
                     <td className="p-4 text-charcoal/65">{fieldFor(product, "warranty")?.display_value}</td>
                     <td className="p-4 text-charcoal/65">{fieldFor(product, "parts_availability")?.display_value}</td>

@@ -55,3 +55,7 @@ const restoredGuideCandidates = [
 
 export const restoredGuides = restoredGuideCandidates.filter((guide) => articleImageEvidence[guide.slug]);
 export const restoredGuideCount = restoredGuides.length;
+
+export function getRestoredGuideByDatabaseSlug(databaseSlug: string) {
+  return restoredGuides.find((guide) => guide.databaseSlug === databaseSlug);
+}

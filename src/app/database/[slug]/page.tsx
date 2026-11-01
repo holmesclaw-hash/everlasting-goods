@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
-import { restoredGuides } from "@/content/restored-guides";
+import { getRestoredGuideByDatabaseSlug } from "@/content/restored-guides";
 import { formatFieldFreshness } from "@/lib/database-utils.mjs";
 import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct, type DatabaseProduct } from "@/lib/product-database";
 
@@ -64,7 +64,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
 
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
   const affiliateLink = product.affiliate_links[0];
-  const evidenceGuide = restoredGuides.find((guide) => guide.databaseSlug === product.slug);
+  const evidenceGuide = getRestoredGuideByDatabaseSlug(product.slug);
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,

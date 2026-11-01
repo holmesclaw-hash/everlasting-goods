@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import EvidenceBadge from "@/components/EvidenceBadge";
+import { getRestoredGuideByDatabaseSlug } from "@/content/restored-guides";
 import type { DatabaseProduct } from "@/lib/product-database";
 
 interface DatabaseProductCardProps {
@@ -11,6 +12,7 @@ interface DatabaseProductCardProps {
 
 export default function DatabaseProductCard({ product, affiliatePlacement }: DatabaseProductCardProps) {
   const affiliateLink = affiliatePlacement ? product.affiliate_links[0] : undefined;
+  const evidenceGuide = getRestoredGuideByDatabaseSlug(product.slug);
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,
@@ -56,6 +58,15 @@ export default function DatabaseProductCard({ product, affiliatePlacement }: Dat
           <span className="font-semibold text-forest-600">View evidence →</span>
         </div>
       </Link>
+      {evidenceGuide && (
+        <Link
+          href={`/articles/${evidenceGuide.slug}`}
+          data-internal-placement="database-card-evidence-guide"
+          className="mt-5 block rounded-xl border border-forest-500/30 bg-forest-50 px-4 py-3 text-center text-sm font-semibold text-forest-700 hover:border-forest-500/60 hover:bg-forest-100"
+        >
+          Read evidence-reviewed guide →
+        </Link>
+      )}
       {affiliateLink && (
         <div className="mt-5 border-t border-cream-200 pt-5">
           <a

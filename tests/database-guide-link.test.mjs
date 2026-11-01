@@ -29,9 +29,27 @@ test("every restored guide declares its matching database record", async () => {
 test("verified database records link to their evidence-reviewed guide", async () => {
   const page = await source("src/app/database/[slug]/page.tsx");
 
-  assert.match(page, /import \{ restoredGuides \} from "@\/content\/restored-guides"/);
-  assert.match(page, /restoredGuides\.find\(\(guide\) => guide\.databaseSlug === product\.slug\)/);
+  assert.match(page, /import \{ getRestoredGuideByDatabaseSlug \} from "@\/content\/restored-guides"/);
+  assert.match(page, /getRestoredGuideByDatabaseSlug\(product\.slug\)/);
   assert.match(page, /href=\{`\/articles\/\$\{evidenceGuide\.slug\}`\}/);
   assert.match(page, /Read the evidence-reviewed guide/);
   assert.match(page, /data-internal-placement="database-record-evidence-guide"/);
+});
+
+test("verified guide links surface on shared product cards and category comparisons", async () => {
+  const [registry, card, categoryPage] = await Promise.all([
+    source("src/content/restored-guides.ts"),
+    source("src/components/DatabaseProductCard.tsx"),
+    source("src/app/database/category/[category]/page.tsx"),
+  ]);
+
+  assert.match(registry, /export function getRestoredGuideByDatabaseSlug/);
+
+  assert.match(card, /getRestoredGuideByDatabaseSlug\(product\.slug\)/);
+  assert.match(card, /data-internal-placement="database-card-evidence-guide"/);
+  assert.match(card, /Read evidence-reviewed guide/);
+
+  assert.match(categoryPage, /getRestoredGuideByDatabaseSlug\(product\.slug\)/);
+  assert.match(categoryPage, /data-internal-placement="database-category-evidence-guide"/);
+  assert.match(categoryPage, /Read evidence-reviewed guide/);
 });
