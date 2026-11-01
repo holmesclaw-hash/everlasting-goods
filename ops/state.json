@@ -37,21 +37,37 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-10-31T06:25:03Z",
-  "last_action": "Added disclosed exact-model affiliate destinations to all five evidence-reviewed guide cards on the existing guide hub and assigned the stable guide-hub-card analytics placement so high-intent guide discovery clicks are measurable without adding price, rating, seller, or availability claims.",
-  "last_live_url": "https://everlasting-goods.com/blog",
-  "last_commit": "959dff0",
+  "last_verified_at": "2026-11-01T06:22:04Z",
+  "last_action": "Connected all five photo-verified evidence guides to their matching products across the shared homepage, database, products, and category discovery surfaces, using one image-gated registry lookup and stable internal-link placement labels.",
+  "last_live_url": "https://everlasting-goods.com/database",
+  "last_commit": "bd643ec",
   "last_evidence": {
-    "local_gates": "The new guide-hub conversion regression failed before implementation and passed after the disclosed measured destinations were added. npm run verify passed 154 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities and git diff --check passed.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for guide-hub conversion commit 959dff0.",
-    "live_readback": "The guide hub returned HTTP 200 with canonical https://everlasting-goods.com/blog and all five exact-model Amazon destinations carrying only tag everlastin08f-20, the stable guide-hub-card analytics placement, sponsored/nofollow attributes, the required disclosure before the links, and merchant-only price and availability language. No stale tag was present. The live sitemap included the guide-hub canonical.",
+    "local_gates": "The new database-guide discovery regression failed before implementation and passed after the shared lookup and links were added. npm run verify passed 155 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. The generated database also advanced one source freshness flag at the 2026-11-01 date boundary. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and local production readback returned HTTP 200 with the expected guide-link placements.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for database-guide discovery commit bd643ec.",
+    "live_readback": "The homepage, database hub, products hub, five affected category comparisons, and a matching database record returned HTTP 200 with the expected evidence-guide destinations and stable internal placements. Each checked route retained its canonical URL, approved tag everlastin08f-20 only, affiliate measurement attributes, sponsored/nofollow link attributes, and disclosure. The live sitemap included all checked canonicals.",
     "source_urls": [
-      "https://everlasting-goods.com/blog",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/959dff0/status",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/bd643ec/status",
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/chef-knives",
+      "https://everlasting-goods.com/database/category/drip-coffee-makers",
+      "https://everlasting-goods.com/database/category/hammers",
+      "https://everlasting-goods.com/database/category/safety-razors",
+      "https://everlasting-goods.com/database/category/skillets",
+      "https://everlasting-goods.com/database/victorinox-fibrox-5-2063-20",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/blog"
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database/category/chef-knives",
+      "https://everlasting-goods.com/database/category/drip-coffee-makers",
+      "https://everlasting-goods.com/database/category/hammers",
+      "https://everlasting-goods.com/database/category/safety-razors",
+      "https://everlasting-goods.com/database/category/skillets",
+      "https://everlasting-goods.com/database/victorinox-fibrox-5-2063-20"
     ]
   },
   "blockers": [
