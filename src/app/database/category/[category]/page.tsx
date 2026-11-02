@@ -5,9 +5,38 @@ import { notFound } from "next/navigation";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import EvidenceBadge from "@/components/EvidenceBadge";
 import { getRestoredGuideByDatabaseSlug } from "@/content/restored-guides";
-import { databaseCategories, fieldFor, formatCategory, getDatabaseProductsByCategory } from "@/lib/product-database";
+import { databaseCategories, fieldFor, formatCategory, getDatabaseProductsByCategory, type DatabaseProduct } from "@/lib/product-database";
 
 interface PageProps { params: Promise<{ category: string }> }
+
+type CategoryAffiliateLink = DatabaseProduct["affiliate_links"][number];
+
+function CategoryAffiliateDestination({
+  link,
+  placement,
+}: {
+  link: CategoryAffiliateLink | undefined;
+  placement: "database-category-mobile" | "database-category-comparison";
+}) {
+  if (!link) return <span className="text-xs text-charcoal/45">No verified destination</span>;
+
+  return (
+    <>
+      <a
+        href={link.url}
+        data-affiliate-placement={placement}
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark"
+      >
+        View exact model on Amazon
+      </a>
+      <p className="mt-2 text-xs leading-relaxed text-charcoal/45">
+        Destination verified {link.verified_date}. Price and availability are shown only by the merchant.
+      </p>
+    </>
+  );
+}
 
 export function generateStaticParams() {
   return databaseCategories.map((category) => ({ category }));
@@ -41,7 +70,7 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
         <AffiliateDisclosure />
         <div className="overflow-x-auto rounded-2xl border border-cream-200 bg-white">
           <table className="min-w-full text-left text-sm">
-            <thead className="bg-cream-100 text-charcoal"><tr><th className="p-4">Product</th><th className="p-4">Evidence</th><th className="p-4">Warranty</th><th className="p-4">Parts</th><th className="p-4">Manual</th><th className="p-4">Cost/year</th><th className="p-4">Exact model</th></tr></thead>
+            <thead className="bg-cream-100 text-charcoal"><tr><th className="p-4">Product</th><th className="p-4">Evidence</th><th className="p-4">Warranty</th><th className="p-4">Parts</th><th className="p-4">Manual</th><th className="p-4">Cost/year</th><th className="hidden p-4 md:table-cell">Exact model</th></tr></thead>
             <tbody>
               {products.map((product) => {
                 const affiliateLink = product.affiliate_links[0];
@@ -51,6 +80,9 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                     <td className="p-4">
                       <Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link>
                       <p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p>
+                      <div className="mt-4 md:hidden">
+                        <CategoryAffiliateDestination link={affiliateLink} placement="database-category-mobile" />
+                      </div>
                       {evidenceGuide && (
                         <Link
                           href={`/articles/${evidenceGuide.slug}`}
@@ -66,15 +98,8 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                     <td className="p-4 text-charcoal/65">{fieldFor(product, "parts_availability")?.display_value}</td>
                     <td className="p-4 text-charcoal/65">{fieldFor(product, "repair_manual")?.display_value}</td>
                     <td className="p-4 font-semibold text-charcoal">{product.cost_per_year == null ? "Not yet verified" : `$${product.cost_per_year}`}</td>
-                    <td className="min-w-52 p-4">
-                      {affiliateLink ? (
-                        <>
-                          <a href={affiliateLink.url} data-affiliate-placement="database-category-comparison" target="_blank" rel="sponsored nofollow noopener noreferrer" className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark">View exact model on Amazon</a>
-                          <p className="mt-2 text-xs leading-relaxed text-charcoal/45">Destination verified {affiliateLink.verified_date}. Price and availability are shown only by the merchant.</p>
-                        </>
-                      ) : (
-                        <span className="text-xs text-charcoal/45">No verified destination</span>
-                      )}
+                    <td className="hidden min-w-52 p-4 md:table-cell">
+                      <CategoryAffiliateDestination link={affiliateLink} placement="database-category-comparison" />
                     </td>
                   </tr>
                 );

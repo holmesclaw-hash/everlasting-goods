@@ -19,9 +19,25 @@ test("every verified-product affiliate CTA declares a stable placement", async (
   assert.match(productsPage, /affiliatePlacement="products-grid"/);
   assert.match(databasePage, /affiliatePlacement="database-grid"/);
   assert.match(card, /data-affiliate-placement=\{affiliatePlacement\}/);
-  assert.match(categoryPage, /data-affiliate-placement="database-category-comparison"/);
+  assert.match(categoryPage, /data-affiliate-placement=\{placement\}/);
+  assert.match(categoryPage, /placement="database-category-mobile"/);
+  assert.match(categoryPage, /placement="database-category-comparison"/);
   assert.match(recordPage, /data-affiliate-placement=\{placement\}/);
   assert.match(recordPage, /placement="database-record-mobile"/);
   assert.match(recordPage, /placement="database-record-sidebar"/);
   assert.match(tracker, /anchor\.dataset\.affiliatePlacement/);
+});
+
+test("category comparisons expose the exact-model destination beside the product on mobile", async () => {
+  const categoryPage = await source("src/app/database/category/[category]/page.tsx");
+
+  const mobileDestinationIndex = categoryPage.indexOf('placement="database-category-mobile"');
+  const desktopDestinationIndex = categoryPage.indexOf('placement="database-category-comparison"');
+
+  assert.match(categoryPage, /function CategoryAffiliateDestination/);
+  assert.match(categoryPage, /data-affiliate-placement=\{placement\}/);
+  assert.ok(mobileDestinationIndex >= 0, "category comparison must render a mobile exact-model destination");
+  assert.ok(desktopDestinationIndex > mobileDestinationIndex, "mobile destination must appear beside the product before the desktop-only destination column");
+  assert.match(categoryPage, /className="[^"]*md:hidden[^"]*"/);
+  assert.match(categoryPage, /className="[^"]*hidden[^"]*md:table-cell[^"]*"/);
 });
