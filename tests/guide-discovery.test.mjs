@@ -72,3 +72,16 @@ test("the homepage and sitemap expose the restored-guide hub without replacing t
   assert.match(home, /Evidence-reviewed guides/);
   assert.match(sitemap, /\$\{baseUrl\}\/blog/);
 });
+
+test("database-to-guide discovery links are measured after analytics consent", async () => {
+  const [layout, tracker] = await Promise.all([
+    text("src/app/layout.tsx"),
+    text("src/components/InternalLinkClickTracker.tsx"),
+  ]);
+
+  assert.match(layout, /import InternalLinkClickTracker from "@\/components\/InternalLinkClickTracker"/);
+  assert.match(layout, /<InternalLinkClickTracker \/>/);
+  assert.match(tracker, /anchor\.dataset\.internalPlacement/);
+  assert.match(tracker, /trackInternalLinkClick/);
+  assert.match(tracker, /shouldTrackAffiliateClicks/);
+});

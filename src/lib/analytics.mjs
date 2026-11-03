@@ -30,6 +30,23 @@ export function trackAffiliateClick(gtag, value, linkText, pagePath, linkPlaceme
   gtag("event", event.eventName, event.parameters);
 }
 
+export function internalLinkClickEvent(targetPath, linkText, pagePath, linkPlacement) {
+  return {
+    eventName: "internal_link_click",
+    parameters: {
+      link_text: linkText.trim(),
+      link_placement: linkPlacement,
+      page_path: pagePath,
+      target_path: targetPath,
+    },
+  };
+}
+
+export function trackInternalLinkClick(gtag, targetPath, linkText, pagePath, linkPlacement) {
+  const event = internalLinkClickEvent(targetPath, linkText, pagePath, linkPlacement);
+  gtag("event", event.eventName, event.parameters);
+}
+
 const llmHosts = new Set([
   "chatgpt.com",
   "chat.openai.com",

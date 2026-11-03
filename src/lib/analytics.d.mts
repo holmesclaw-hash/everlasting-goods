@@ -21,6 +21,27 @@ export function trackAffiliateClick(
   pagePath: string,
   linkPlacement?: string
 ): void;
+export function internalLinkClickEvent(
+  targetPath: string,
+  linkText: string,
+  pagePath: string,
+  linkPlacement: string
+): {
+  eventName: "internal_link_click";
+  parameters: {
+    link_text: string;
+    link_placement: string;
+    page_path: string;
+    target_path: string;
+  };
+};
+export function trackInternalLinkClick(
+  gtag: (...args: unknown[]) => void,
+  targetPath: string,
+  linkText: string,
+  pagePath: string,
+  linkPlacement: string
+): void;
 export type ReferralClass = "llm" | "organic" | "direct" | "referral";
 export function classifyReferral(referrer: string): ReferralClass;
 export function referralVisitEvent(

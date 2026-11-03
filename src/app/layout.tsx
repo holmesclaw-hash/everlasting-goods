@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AffiliateClickTracker from "@/components/AffiliateClickTracker";
+import InternalLinkClickTracker from "@/components/InternalLinkClickTracker";
 import ReferralTracker from "@/components/ReferralTracker";
 import ConsentManager from "@/components/ConsentManager";
 
@@ -79,6 +80,7 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer />
         <AffiliateClickTracker />
+        <InternalLinkClickTracker />
         <ReferralTracker />
         <ConsentManager />
       </body>

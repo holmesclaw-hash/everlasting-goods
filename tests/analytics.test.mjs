@@ -4,9 +4,11 @@ import test from "node:test";
 import {
   affiliateClickEvent,
   classifyReferral,
+  internalLinkClickEvent,
   isAmazonAffiliateUrl,
   referralVisitEvent,
   trackAffiliateClick,
+  trackInternalLinkClick,
 } from "../src/lib/analytics.mjs";
 
 test("recognizes Amazon affiliate destinations without accepting lookalikes", () => {
@@ -56,6 +58,46 @@ test("dispatches the affiliate event through the supplied GA4 function", () => {
       affiliate_path: "/dp/B00006JSUA",
       link_text: "Check Price on Amazon",
       page_path: "/products",
+    },
+  ]]);
+});
+
+test("creates and dispatches a stable internal-link click event", () => {
+  assert.deepEqual(
+    internalLinkClickEvent(
+      "/articles/best-estwing-hammers-that-last-a-lifetime",
+      "Read evidence-reviewed guide →",
+      "/database/estwing-b3-3lb",
+      "database-record-evidence-guide"
+    ),
+    {
+      eventName: "internal_link_click",
+      parameters: {
+        link_text: "Read evidence-reviewed guide →",
+        link_placement: "database-record-evidence-guide",
+        page_path: "/database/estwing-b3-3lb",
+        target_path: "/articles/best-estwing-hammers-that-last-a-lifetime",
+      },
+    }
+  );
+
+  const calls = [];
+  trackInternalLinkClick(
+    (...args) => calls.push(args),
+    "/articles/best-estwing-hammers-that-last-a-lifetime",
+    "Read evidence-reviewed guide →",
+    "/database/estwing-b3-3lb",
+    "database-record-evidence-guide"
+  );
+
+  assert.deepEqual(calls, [[
+    "event",
+    "internal_link_click",
+    {
+      link_text: "Read evidence-reviewed guide →",
+      link_placement: "database-record-evidence-guide",
+      page_path: "/database/estwing-b3-3lb",
+      target_path: "/articles/best-estwing-hammers-that-last-a-lifetime",
     },
   ]]);
 });
