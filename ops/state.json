@@ -37,25 +37,30 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-03T07:23:25Z",
-  "last_action": "Activated consent-gated GA4 measurement for the existing database-to-guide discovery links on product cards, category comparisons, and exact product records.",
-  "last_live_url": "https://everlasting-goods.com/database/estwing-b3-3lb",
-  "last_commit": "1eed6be",
+  "last_verified_at": "2026-11-04T07:23:46Z",
+  "last_action": "Activated consent-gated measurement for restored-guide downstream research paths, including related guides, the guide hub, exact repairability records, methodology, and the database; live verification also removed an extra auto-affiliated Estwing source-register link so the page again carries exactly the two disclosed decision destinations.",
+  "last_live_url": "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+  "last_commit": "c7f7c6c",
   "last_evidence": {
-    "local_gates": "The new internal-guide click regression failed before implementation and passed after adding the delegated tracker and stable internal_link_click event. npm run verify passed 158 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. Generation advanced one source freshness flag at the 2026-11-03 date boundary. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff/secret review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for internal guide discovery measurement commit 1eed6be.",
-    "live_readback": "The database hub, hammers category comparison, and Estwing B3-3LB record returned HTTP 200 with their distinct database-card, database-category, and database-record internal placement markers. The deployed JavaScript contains the consent-gated internal_link_click measurement path. Each route retained its canonical URL, approved tag everlastin08f-20 only, sponsored/nofollow affiliate attributes, and sitemap inclusion.",
+    "local_gates": "The restored-guide placement regression failed before implementation and passed after five distinct data-internal-placement labels were added. Live readback exposed a pre-existing third auto-affiliated Estwing source-register link; a second regression failed before that link was removed and passed afterward. npm run verify passed 159 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff/secret review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for restored-guide research-path measurement commit 45eabc8 and Estwing affiliate-count correction commit c7f7c6c.",
+    "live_readback": "All five restored guides returned HTTP 200 with guide-related-hub, guide-related-guide, guide-footer-record, guide-footer-methodology, and guide-footer-database measurement markers. Each retained its canonical URL, affiliate disclosure, exactly two sponsored/nofollow exact-model destinations using approved tag everlastin08f-20 only, corresponding database-record link, and sitemap inclusion. The Estwing guide also exposes dateModified 2026-11-04 and no longer converts its source-register identity citation into a third commercial destination.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/1eed6be/status",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/hammers",
-      "https://everlasting-goods.com/database/estwing-b3-3lb",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/45eabc8/status",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/c7f7c6c/status",
+      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/database/category/hammers",
-      "https://everlasting-goods.com/database/estwing-b3-3lb"
+      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
+      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
+      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime"
     ]
   },
   "blockers": [
