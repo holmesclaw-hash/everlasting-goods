@@ -239,11 +239,22 @@ function RestoredGuide({
               <p className="text-sm font-semibold uppercase tracking-wider text-brown-accent">Continue researching</p>
               <h2 id="related-guides-heading" className="mt-2 font-serif text-2xl font-bold text-charcoal">More evidence-reviewed guides</h2>
             </div>
-            <Link href="/blog" className="text-sm font-semibold text-forest-600 hover:underline">Browse all verified guides →</Link>
+            <Link
+              href="/blog"
+              data-internal-placement="guide-related-hub"
+              className="text-sm font-semibold text-forest-600 hover:underline"
+            >
+              Browse all verified guides →
+            </Link>
           </div>
           <div className="mt-5 grid gap-4 md:grid-cols-3">
             {relatedGuides.map((guide) => (
-              <Link key={guide.slug} href={`/articles/${guide.slug}`} className="rounded-2xl border border-cream-200 bg-white p-5 hover:border-forest-500/40">
+              <Link
+                key={guide.slug}
+                href={`/articles/${guide.slug}`}
+                data-internal-placement="guide-related-guide"
+                className="rounded-2xl border border-cream-200 bg-white p-5 hover:border-forest-500/40"
+              >
                 <h3 className="font-serif text-lg font-bold text-charcoal">{guide.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-charcoal/55">{guide.description}</p>
               </Link>
@@ -252,10 +263,28 @@ function RestoredGuide({
         </aside>
         <div className="mt-12 flex flex-wrap gap-3 border-t border-cream-200 pt-8">
           {"databaseSlug" in config ? (
-            <Link href={`/database/${config.databaseSlug}`} className="rounded-xl bg-brown-accent px-5 py-3 font-semibold text-white hover:bg-brown-dark">Review repairability record</Link>
+            <Link
+              href={`/database/${config.databaseSlug}`}
+              data-internal-placement="guide-footer-record"
+              className="rounded-xl bg-brown-accent px-5 py-3 font-semibold text-white hover:bg-brown-dark"
+            >
+              Review repairability record
+            </Link>
           ) : null}
-          <Link href="/methodology" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Evidence methodology</Link>
-          <Link href="/database" className="rounded-xl border border-cream-200 bg-white px-5 py-3 font-semibold text-charcoal hover:bg-cream-100">Verified product database</Link>
+          <Link
+            href="/methodology"
+            data-internal-placement="guide-footer-methodology"
+            className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"
+          >
+            Evidence methodology
+          </Link>
+          <Link
+            href="/database"
+            data-internal-placement="guide-footer-database"
+            className="rounded-xl border border-cream-200 bg-white px-5 py-3 font-semibold text-charcoal hover:bg-cream-100"
+          >
+            Verified product database
+          </Link>
         </div>
       </section>
     </>

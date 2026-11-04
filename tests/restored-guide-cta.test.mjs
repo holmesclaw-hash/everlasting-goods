@@ -58,6 +58,16 @@ test("restored guides cross-link only to other photo-verified restored guides", 
   assert.doesNotMatch(page, /articles\.filter\(\(guide\) => guide\.slug !== config\.slug\)/);
 });
 
+test("restored guides measure downstream research choices with distinct placements", async () => {
+  const page = await text("src/app/articles/[slug]/page.tsx");
+
+  assert.match(page, /data-internal-placement="guide-related-hub"/);
+  assert.match(page, /data-internal-placement="guide-related-guide"/);
+  assert.match(page, /data-internal-placement="guide-footer-record"/);
+  assert.match(page, /data-internal-placement="guide-footer-methodology"/);
+  assert.match(page, /data-internal-placement="guide-footer-database"/);
+});
+
 test("the delegated click tracker sends the CTA placement", async () => {
   const tracker = await text("src/components/AffiliateClickTracker.tsx");
   assert.match(tracker, /anchor\.dataset\.affiliatePlacement/);
