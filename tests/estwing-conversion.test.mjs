@@ -42,7 +42,12 @@ test("restored Estwing guide separates product facts, owner reports, warranty li
   assert.match(content, /not a lifetime warranty/i);
   assert.match(content, /cannot repair, re-grip, or refurbish/i);
   assert.match(content, /manufacturer’s stated uses/i);
-  assert.match(data, /content:\s*estwingDrillingHammerContent,\s*updatedAt: "2026-10-28"/);
+  assert.doesNotMatch(
+    content,
+    /<a href="https:\/\/www\.amazon\.com\//,
+    "the shared guide template owns the only two affiliate destinations"
+  );
+  assert.match(data, /content:\s*estwingDrillingHammerContent,\s*updatedAt: "2026-11-04"/);
   assert.match(data, /slug: "best-estwing-hammers-that-last-a-lifetime"[\s\S]*?image: "\/images\/articles\/estwing-b3-3lb-drilling-hammer\.jpg"/);
   assert.match(registry, /slug: "best-estwing-hammers-that-last-a-lifetime"[\s\S]*?reviewedAt: "2026-10-28"/);
 });

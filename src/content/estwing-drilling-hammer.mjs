@@ -47,7 +47,6 @@ export const estwingDrillingHammerContent = `
 <li><a href="https://www.garagejournal.com/forum/threads/good-estwing-customer-service-experience.219369/" target="_blank" rel="noopener noreferrer">Garage Journal: Good Estwing customer service experience (2013 exact-model defect and replacement report)</a></li>
 <li><a href="https://www.practicalmachinist.com/forum/threads/ot-estwing-hammers-worth-the-extra.145239/" target="_blank" rel="noopener noreferrer">Practical Machinist: Estwing Hammers, worth the extra? (2007 long-term owner discussion)</a></li>
 <li><a href="https://commons.wikimedia.org/wiki/File:Estwing_3-lb._drilling_hammer.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons product-family photograph and license record</a></li>
-<li><a href="https://www.amazon.com/dp/B00002N5NI" target="_blank" rel="nofollow noopener noreferrer">Amazon exact-product identity page for ASIN B00002N5NI</a></li>
 <li><a href="https://www.saferproducts.gov/RestWebServices/Recall?format=json&amp;RecallTitle=B3-3LB" target="_blank" rel="noopener noreferrer">SaferProducts federal recall API exact-title query for B3-3LB</a></li>
 </ul>
 
