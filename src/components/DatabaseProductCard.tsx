@@ -76,7 +76,7 @@ export default function DatabaseProductCard({ product, affiliatePlacement }: Dat
             rel="sponsored nofollow noopener noreferrer"
             className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
           >
-            View exact model on Amazon
+            View {product.brand} {product.model} on Amazon
           </a>
           <p className="mt-2 text-xs leading-relaxed text-charcoal/45">
             Destination verified {affiliateLink.verified_date}. Price and availability are shown only by the merchant.

@@ -34,7 +34,7 @@ test("database record pages disclose before exact-model affiliate destinations",
   assert.match(source, /placement="database-record-mobile"/);
   assert.match(source, /placement="database-record-sidebar"/);
   assert.match(source, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(source, /View exact model on Amazon/);
+  assert.match(source, /View \{productLabel\} on Amazon/);
 });
 
 test("category comparison pages disclose before exact-model affiliate destinations", async () => {
@@ -46,7 +46,7 @@ test("category comparison pages disclose before exact-model affiliate destinatio
   assert.ok(disclosureIndex >= 0, "category comparison page must render AffiliateDisclosure");
   assert.ok(affiliateLinkIndex > disclosureIndex, "disclosure must precede affiliate destinations");
   assert.match(source, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(source, /View exact model on Amazon/);
+  assert.match(source, /View \{productLabel\} on Amazon/);
   assert.match(source, /Price and availability are shown only by the merchant/);
 });
 
@@ -62,7 +62,7 @@ test("verified products hub discloses before card-level exact-model destinations
   assert.match(pageSource, /affiliatePlacement="products-grid"/);
   assert.match(cardSource, /product\.affiliate_links\[0\]/);
   assert.match(cardSource, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(cardSource, /View exact model on Amazon/);
+  assert.match(cardSource, /View \{product\.brand\} \{product\.model\} on Amazon/);
   assert.match(cardSource, /Price and availability are shown only by the merchant/);
 });
 

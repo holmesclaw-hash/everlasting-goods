@@ -29,6 +29,6 @@ test("the shared database-record destination keeps disclosure and merchant-only 
   assert.ok(componentStart >= 0 && componentEnd > componentStart);
   assert.ok(component.indexOf("<AffiliateDisclosure />") < component.indexOf("<a"));
   assert.match(component, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(component, /View exact model on Amazon/);
+  assert.match(component, /View \{productLabel\} on Amazon/);
   assert.match(component, /Price and availability are shown only by the merchant/);
 });

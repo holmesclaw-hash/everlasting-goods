@@ -14,9 +14,11 @@ type CategoryAffiliateLink = DatabaseProduct["affiliate_links"][number];
 function CategoryAffiliateDestination({
   link,
   placement,
+  productLabel,
 }: {
   link: CategoryAffiliateLink | undefined;
   placement: "database-category-mobile" | "database-category-comparison";
+  productLabel: string;
 }) {
   if (!link) return <span className="text-xs text-charcoal/45">No verified destination</span>;
 
@@ -29,7 +31,7 @@ function CategoryAffiliateDestination({
         rel="sponsored nofollow noopener noreferrer"
         className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark"
       >
-        View exact model on Amazon
+        View {productLabel} on Amazon
       </a>
       <p className="mt-2 text-xs leading-relaxed text-charcoal/45">
         Destination verified {link.verified_date}. Price and availability are shown only by the merchant.
@@ -81,7 +83,11 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                       <Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link>
                       <p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p>
                       <div className="mt-4 md:hidden">
-                        <CategoryAffiliateDestination link={affiliateLink} placement="database-category-mobile" />
+                        <CategoryAffiliateDestination
+                          link={affiliateLink}
+                          placement="database-category-mobile"
+                          productLabel={`${product.brand} ${product.model}`}
+                        />
                       </div>
                       {evidenceGuide && (
                         <Link
@@ -99,7 +105,11 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                     <td className="p-4 text-charcoal/65">{fieldFor(product, "repair_manual")?.display_value}</td>
                     <td className="p-4 font-semibold text-charcoal">{product.cost_per_year == null ? "Not yet verified" : `$${product.cost_per_year}`}</td>
                     <td className="hidden min-w-52 p-4 md:table-cell">
-                      <CategoryAffiliateDestination link={affiliateLink} placement="database-category-comparison" />
+                      <CategoryAffiliateDestination
+                        link={affiliateLink}
+                        placement="database-category-comparison"
+                        productLabel={`${product.brand} ${product.model}`}
+                      />
                     </td>
                   </tr>
                 );

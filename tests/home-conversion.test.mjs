@@ -20,6 +20,6 @@ test("homepage featured records expose disclosed, measurable exact-model destina
   assert.match(home, /affiliatePlacement="home-featured"/);
   assert.match(card, /data-affiliate-placement=\{affiliatePlacement\}/);
   assert.match(card, /rel="sponsored nofollow noopener noreferrer"/);
-  assert.match(card, /View exact model on Amazon/);
+  assert.match(card, /View \{product\.brand\} \{product\.model\} on Amazon/);
   assert.match(card, /Price and availability are shown only by the merchant/);
 });

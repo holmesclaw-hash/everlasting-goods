@@ -16,9 +16,11 @@ type DatabaseAffiliateLink = DatabaseProduct["affiliate_links"][number];
 function DatabaseAffiliateDestination({
   link,
   placement,
+  productLabel,
 }: {
   link: DatabaseAffiliateLink;
   placement: "database-record-mobile" | "database-record-sidebar";
+  productLabel: string;
 }) {
   return (
     <div className="rounded-2xl border border-cream-200 bg-white p-6">
@@ -30,7 +32,7 @@ function DatabaseAffiliateDestination({
         rel="sponsored nofollow noopener noreferrer"
         className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
       >
-        View exact model on Amazon
+        View {productLabel} on Amazon
       </a>
       <p className="mt-3 text-xs leading-relaxed text-charcoal/45">
         Exact model destination verified {link.verified_date}. Price and availability are shown only by the merchant.
@@ -138,7 +140,11 @@ export default async function ProductRecordPage({ params }: PageProps) {
 
       {affiliateLink && (
         <section className="mx-auto max-w-5xl px-4 pt-10 sm:px-6 lg:hidden">
-          <DatabaseAffiliateDestination link={affiliateLink} placement="database-record-mobile" />
+          <DatabaseAffiliateDestination
+            link={affiliateLink}
+            placement="database-record-mobile"
+            productLabel={`${product.brand} ${product.model}`}
+          />
         </section>
       )}
 
@@ -165,7 +171,11 @@ export default async function ProductRecordPage({ params }: PageProps) {
         <aside className="space-y-6">
           {affiliateLink && (
             <div className="hidden lg:block">
-              <DatabaseAffiliateDestination link={affiliateLink} placement="database-record-sidebar" />
+              <DatabaseAffiliateDestination
+                link={affiliateLink}
+                placement="database-record-sidebar"
+                productLabel={`${product.brand} ${product.model}`}
+              />
             </div>
           )}
           <div className="rounded-2xl border border-cream-200 bg-white p-6">

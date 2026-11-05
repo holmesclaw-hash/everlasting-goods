@@ -10892,7 +10892,7 @@
       "verified_date": "2026-10-05",
       "reverify_days": 30,
       "stale_after": "2026-11-04",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-mac5200",
@@ -10900,7 +10900,7 @@
       "verified_date": "2026-10-05",
       "reverify_days": 30,
       "stale_after": "2026-11-04",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-xcv24zx",
@@ -10908,7 +10908,7 @@
       "verified_date": "2026-10-05",
       "reverify_days": 30,
       "stale_after": "2026-11-04",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "victorinox-fibrox-5-2063-20",
