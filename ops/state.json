@@ -37,30 +37,29 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-04T07:23:46Z",
-  "last_action": "Activated consent-gated measurement for restored-guide downstream research paths, including related guides, the guide hub, exact repairability records, methodology, and the database; live verification also removed an extra auto-affiliated Estwing source-register link so the page again carries exactly the two disclosed decision destinations.",
-  "last_live_url": "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-  "last_commit": "c7f7c6c",
+  "last_verified_at": "2026-11-05T07:22:21Z",
+  "last_action": "Replaced generic database affiliate CTA copy with the exact verified brand and model across shared cards, category comparisons, and product-record destinations so shoppers can identify the destination before leaving the site.",
+  "last_live_url": "https://everlasting-goods.com/database",
+  "last_commit": "eecfbc6",
   "last_evidence": {
-    "local_gates": "The restored-guide placement regression failed before implementation and passed after five distinct data-internal-placement labels were added. Live readback exposed a pre-existing third auto-affiliated Estwing source-register link; a second regression failed before that link was removed and passed afterward. npm run verify passed 159 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff/secret review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for restored-guide research-path measurement commit 45eabc8 and Estwing affiliate-count correction commit c7f7c6c.",
-    "live_readback": "All five restored guides returned HTTP 200 with guide-related-hub, guide-related-guide, guide-footer-record, guide-footer-methodology, and guide-footer-database measurement markers. Each retained its canonical URL, affiliate disclosure, exactly two sponsored/nofollow exact-model destinations using approved tag everlastin08f-20 only, corresponding database-record link, and sitemap inclusion. The Estwing guide also exposes dateModified 2026-11-04 and no longer converts its source-register identity citation into a third commercial destination.",
+    "local_gates": "The exact-brand-and-model CTA regression failed before implementation and passed afterward across shared database cards, category comparisons, and product records. npm run verify passed 160 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff/secret review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for exact-model CTA commit eecfbc6.",
+    "live_readback": "Automated production readback checked 72 changed routes: the homepage, products hub, database hub, all 17 category comparisons, and all 52 product records. Every route returned HTTP 200 with its canonical URL, disclosure before the first measured affiliate destination, exact brand-and-model CTA copy, approved tag everlastin08f-20 only on 318 measured exact-product links, expected placement markers, and sitemap inclusion.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/45eabc8/status",
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/c7f7c6c/status",
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
-      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/eecfbc6f8b08e1f20c1eca7c7551fcbb9708a60b/status",
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/database/category/air-compressors",
+      "https://everlasting-goods.com/database/california-air-tools-8010",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/articles/is-a-moccamaster-buy-it-for-life",
-      "https://everlasting-goods.com/articles/best-safety-razors-that-last-a-lifetime",
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
-      "https://everlasting-goods.com/articles/best-estwing-hammers-that-last-a-lifetime",
-      "https://everlasting-goods.com/articles/best-kitchen-knives-that-last-a-lifetime"
+      "https://everlasting-goods.com/",
+      "https://everlasting-goods.com/products",
+      "https://everlasting-goods.com/database",
+      "https://everlasting-goods.com/database/category/air-compressors",
+      "https://everlasting-goods.com/database/california-air-tools-8010"
     ]
   },
   "blockers": [
