@@ -42,7 +42,7 @@ export default function DatabasePage() {
                 <Link href={`/database/category/${category}`} className="text-sm font-semibold text-forest-600 hover:underline">Compare →</Link>
               </div>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {products.map((product) => <DatabaseProductCard key={product.slug} product={product} affiliatePlacement="database-grid" />)}
+                {products.map((product) => <DatabaseProductCard key={product.slug} product={product} recordPlacement="database-grid-record" affiliatePlacement="database-grid" />)}
               </div>
             </div>
           );

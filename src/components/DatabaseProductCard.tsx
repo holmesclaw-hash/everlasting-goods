@@ -7,10 +7,11 @@ import type { DatabaseProduct } from "@/lib/product-database";
 
 interface DatabaseProductCardProps {
   product: DatabaseProduct;
+  recordPlacement: string;
   affiliatePlacement?: string;
 }
 
-export default function DatabaseProductCard({ product, affiliatePlacement }: DatabaseProductCardProps) {
+export default function DatabaseProductCard({ product, recordPlacement, affiliatePlacement }: DatabaseProductCardProps) {
   const affiliateLink = affiliatePlacement ? product.affiliate_links[0] : undefined;
   const evidenceGuide = getRestoredGuideByDatabaseSlug(product.slug);
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
@@ -27,7 +28,11 @@ export default function DatabaseProductCard({ product, affiliatePlacement }: Dat
     <article className="flex flex-col overflow-hidden rounded-2xl border border-cream-200 bg-white transition hover:border-forest-500/40 hover:shadow-sm">
       {image && (
         <figure className="border-b border-cream-200 bg-cream-50">
-          <Link href={`/database/${product.slug}`} className="block">
+          <Link
+            href={`/database/${product.slug}`}
+            data-internal-placement={`${recordPlacement}-image`}
+            className="block"
+          >
             <Image
               src={image.url}
               alt={image.alt}
@@ -44,7 +49,11 @@ export default function DatabaseProductCard({ product, affiliatePlacement }: Dat
         </figure>
       )}
       <div className="flex flex-1 flex-col p-6">
-      <Link href={`/database/${product.slug}`} className="block flex-1">
+      <Link
+        href={`/database/${product.slug}`}
+        data-internal-placement={`${recordPlacement}-details`}
+        className="block flex-1"
+      >
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/45">{product.brand}</p>

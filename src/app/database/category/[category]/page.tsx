@@ -80,7 +80,13 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                 return (
                   <tr key={product.slug} className="border-t border-cream-200 align-top">
                     <td className="p-4">
-                      <Link href={`/database/${product.slug}`} className="font-semibold text-forest-600 hover:underline">{product.brand} {product.model}</Link>
+                      <Link
+                        href={`/database/${product.slug}`}
+                        data-internal-placement="database-category-record"
+                        className="font-semibold text-forest-600 hover:underline"
+                      >
+                        {product.brand} {product.model}
+                      </Link>
                       <p className="mt-1 text-xs text-charcoal/45">{fieldFor(product, "identity")?.display_value}</p>
                       <div className="mt-4 md:hidden">
                         <CategoryAffiliateDestination

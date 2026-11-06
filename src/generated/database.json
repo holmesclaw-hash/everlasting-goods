@@ -10916,7 +10916,7 @@
       "verified_date": "2026-10-06",
       "reverify_days": 30,
       "stale_after": "2026-11-05",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-ls0816f",
