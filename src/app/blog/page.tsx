@@ -35,7 +35,11 @@ export default function GuideHubPage() {
             return (
               <article key={guide.slug} className="flex flex-col overflow-hidden rounded-2xl border border-cream-200 bg-white shadow-sm">
                 {image ? (
-                  <Link href={`/articles/${guide.slug}`} className="block border-b border-cream-200 bg-cream-50">
+                  <Link
+                    href={`/articles/${guide.slug}`}
+                    data-internal-placement="guide-hub-card-image"
+                    className="block border-b border-cream-200 bg-cream-50"
+                  >
                     <Image
                       src={image.image}
                       alt={image.alt}
@@ -48,10 +52,22 @@ export default function GuideHubPage() {
                 <div className="flex flex-1 flex-col p-6">
                   <p className="text-xs font-semibold uppercase tracking-wider text-brown-accent">Reviewed {guide.reviewedAt}</p>
                   <h2 className="mt-2 font-serif text-2xl font-bold leading-tight text-charcoal">
-                    <Link href={`/articles/${guide.slug}`} className="hover:text-forest-600">{guide.title}</Link>
+                    <Link
+                      href={`/articles/${guide.slug}`}
+                      data-internal-placement="guide-hub-card-title"
+                      className="hover:text-forest-600"
+                    >
+                      {guide.title}
+                    </Link>
                   </h2>
                   <p className="mt-4 flex-1 text-sm leading-relaxed text-charcoal/60">{guide.description}</p>
-                  <Link href={`/articles/${guide.slug}`} className="mt-6 font-semibold text-forest-600 hover:underline">Read the evidence review →</Link>
+                  <Link
+                    href={`/articles/${guide.slug}`}
+                    data-internal-placement="guide-hub-card-review"
+                    className="mt-6 font-semibold text-forest-600 hover:underline"
+                  >
+                    Read the evidence review →
+                  </Link>
                   <div className="mt-5 border-t border-cream-200 pt-5">
                     <a
                       href={amazonLink(guide.asin)}
@@ -84,7 +100,13 @@ export default function GuideHubPage() {
             <h2 className="font-serif text-3xl font-bold">Need structured repairability data?</h2>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/65">The product database keeps manufacturer evidence, verification dates, unknown fields, and exact-model records separate from editorial guides.</p>
           </div>
-          <Link href="/database" className="mt-6 inline-block shrink-0 rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600 md:mt-0">Open the database</Link>
+          <Link
+            href="/database"
+            data-internal-placement="guide-hub-database"
+            className="mt-6 inline-block shrink-0 rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600 md:mt-0"
+          >
+            Open the database
+          </Link>
         </div>
       </section>
     </>

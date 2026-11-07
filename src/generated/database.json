@@ -10924,7 +10924,7 @@
       "verified_date": "2026-10-07",
       "reverify_days": 30,
       "stale_after": "2026-11-06",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "california-air-tools-8010",

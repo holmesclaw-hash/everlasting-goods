@@ -73,6 +73,15 @@ test("the homepage and sitemap expose the restored-guide hub without replacing t
   assert.match(sitemap, /\$\{baseUrl\}\/blog/);
 });
 
+test("the guide hub measures each path into a guide and the database handoff", async () => {
+  const hub = await text("src/app/blog/page.tsx");
+
+  assert.match(hub, /data-internal-placement="guide-hub-card-image"/);
+  assert.match(hub, /data-internal-placement="guide-hub-card-title"/);
+  assert.match(hub, /data-internal-placement="guide-hub-card-review"/);
+  assert.match(hub, /data-internal-placement="guide-hub-database"/);
+});
+
 test("database-to-guide discovery links are measured after analytics consent", async () => {
   const [layout, tracker] = await Promise.all([
     text("src/app/layout.tsx"),
