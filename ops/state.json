@@ -37,22 +37,22 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-07T07:21:13Z",
-  "last_action": "Added consent-gated internal-link measurement to each guide-hub path into an evidence-reviewed guide—image, title, and review link—and to the guide hub's database handoff so research progression can be attributed before downstream exact-model affiliate clicks.",
-  "last_live_url": "https://everlasting-goods.com/blog",
-  "last_commit": "aab66ba",
+  "last_verified_at": "2026-11-08T07:19:37Z",
+  "last_action": "Added consent-gated internal-link measurement to the homepage's primary research choices: the hero database and methodology actions, all-records handoff, category comparisons, and verified-guide hub.",
+  "last_live_url": "https://everlasting-goods.com/",
+  "last_commit": "038d8d1",
   "last_evidence": {
-    "local_gates": "The guide-hub discovery regression failed before implementation and passed afterward. npm run verify passed 163 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff/secret review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for guide-hub research-path measurement commit aab66ba.",
-    "live_readback": "Production readback of /blog returned HTTP 200 with the correct canonical URL, five image placements, five title placements, five review-link placements, and one database-handoff placement. Disclosure preceded the first exact-model destination, every observed Amazon tag was everlastin08f-20, the deployed JavaScript contained the consent-gated internal_link_click tracker and internal-placement selector, and the sitemap retained /blog.",
+    "local_gates": "The homepage research-path regression failed before implementation and passed afterward. npm run verify passed 164 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for homepage research-path measurement commit 038d8d1.",
+    "live_readback": "Production readback of / returned HTTP 200 with the correct canonical URL and the five intended homepage placement classes: one hero-database, one hero-methodology, one all-records, seventeen category-comparison, and one guide-hub marker. Disclosure preceded the first exact-model destination, all twelve observed Amazon destinations used everlastin08f-20, the deployed JavaScript contained the consent-gated internal_link_click tracker and internal-placement selector, and the sitemap retained the homepage and /blog.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/aab66bac2ce939ba6251018e26c08d2ea49d3e82/status",
-      "https://everlasting-goods.com/blog",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/038d8d17751317ef4fa52c6c0f18fe26fef6cde0/status",
+      "https://everlasting-goods.com/",
       "https://everlasting-goods.com/_next/static/immutable/chunks/28g_de-9qoqcv.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/blog"
+      "https://everlasting-goods.com/"
     ]
   },
   "blockers": [
