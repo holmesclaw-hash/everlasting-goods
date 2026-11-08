@@ -10932,7 +10932,7 @@
       "verified_date": "2026-10-08",
       "reverify_days": 30,
       "stale_after": "2026-11-07",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-ls1219l",
@@ -10940,7 +10940,7 @@
       "verified_date": "2026-10-08",
       "reverify_days": 30,
       "stale_after": "2026-11-07",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd800b",

@@ -23,3 +23,13 @@ test("homepage featured records expose disclosed, measurable exact-model destina
   assert.match(card, /View \{product\.brand\} \{product\.model\} on Amazon/);
   assert.match(card, /Price and availability are shown only by the merchant/);
 });
+
+test("homepage measures its primary research-path choices", async () => {
+  const home = await source("src/app/page.tsx");
+
+  assert.match(home, /data-internal-placement="home-hero-database"/);
+  assert.match(home, /data-internal-placement="home-hero-methodology"/);
+  assert.match(home, /data-internal-placement="home-all-records"/);
+  assert.match(home, /data-internal-placement="home-category-comparison"/);
+  assert.match(home, /data-internal-placement="home-guide-hub"/);
+});
