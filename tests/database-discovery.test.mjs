@@ -30,3 +30,11 @@ test("category comparisons measure clicks into individual product records", asyn
   assert.match(category, /data-internal-placement="database-category-record"/);
   assert.match(category, /href=\{`\/database\/\$\{product\.slug\}`\}/);
 });
+
+test("database landing page measures its primary research-path choices", async () => {
+  const database = await text("src/app/database/page.tsx");
+
+  assert.match(database, /data-internal-placement="database-cost-per-year"/);
+  assert.match(database, /data-internal-placement="database-repair-or-replace"/);
+  assert.match(database, /data-internal-placement="database-category-comparison"/);
+});

@@ -22,8 +22,8 @@ export default function DatabasePage() {
             {databaseProducts.length} tool and shop-equipment records generated from a tracked evidence database. T2 fields link to manufacturer documentation. Unknown service life, price, and repair economics remain explicitly unverified.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/tools/cost-per-year" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Cost-per-year calculator</Link>
-            <Link href="/tools/repair-or-replace" className="rounded-xl border border-white/20 bg-white/10 px-5 py-3 font-semibold text-white hover:bg-white/15">Repair-or-replace tool</Link>
+            <Link href="/tools/cost-per-year" data-internal-placement="database-cost-per-year" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Cost-per-year calculator</Link>
+            <Link href="/tools/repair-or-replace" data-internal-placement="database-repair-or-replace" className="rounded-xl border border-white/20 bg-white/10 px-5 py-3 font-semibold text-white hover:bg-white/15">Repair-or-replace tool</Link>
           </div>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function DatabasePage() {
                   <h2 className="font-serif text-3xl font-bold text-charcoal">{formatCategory(category)}</h2>
                   <p className="mt-1 text-sm text-charcoal/50">{products.length} manufacturer-documented records</p>
                 </div>
-                <Link href={`/database/category/${category}`} className="text-sm font-semibold text-forest-600 hover:underline">Compare →</Link>
+                <Link href={`/database/category/${category}`} data-internal-placement="database-category-comparison" className="text-sm font-semibold text-forest-600 hover:underline">Compare →</Link>
               </div>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {products.map((product) => <DatabaseProductCard key={product.slug} product={product} recordPlacement="database-grid-record" affiliatePlacement="database-grid" />)}
