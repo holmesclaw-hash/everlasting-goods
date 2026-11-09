@@ -37,22 +37,22 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-08T07:19:37Z",
-  "last_action": "Added consent-gated internal-link measurement to the homepage's primary research choices: the hero database and methodology actions, all-records handoff, category comparisons, and verified-guide hub.",
-  "last_live_url": "https://everlasting-goods.com/",
-  "last_commit": "038d8d1",
+  "last_verified_at": "2026-11-09T07:20:56Z",
+  "last_action": "Added consent-gated internal-link measurement to the database landing page's primary research choices: the cost-per-year calculator, repair-or-replace tool, and all seventeen category comparisons.",
+  "last_live_url": "https://everlasting-goods.com/database",
+  "last_commit": "8d97152",
   "last_evidence": {
-    "local_gates": "The homepage research-path regression failed before implementation and passed afterward. npm run verify passed 164 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for homepage research-path measurement commit 038d8d1.",
-    "live_readback": "Production readback of / returned HTTP 200 with the correct canonical URL and the five intended homepage placement classes: one hero-database, one hero-methodology, one all-records, seventeen category-comparison, and one guide-hub marker. Disclosure preceded the first exact-model destination, all twelve observed Amazon destinations used everlastin08f-20, the deployed JavaScript contained the consent-gated internal_link_click tracker and internal-placement selector, and the sitemap retained the homepage and /blog.",
+    "local_gates": "The database research-path regression failed before implementation and passed afterward. npm run verify passed 165 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag outside intentional test fixtures, fake experience, or credential material. Date-driven generation correctly marked the DEWALT DCD800B parts and street-price fields plus the Makita KP0800K street-price field stale after their November 8, 2026 deadlines.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for database research-path measurement commit 8d97152.",
+    "live_readback": "Production readback of /database returned HTTP 200 with the correct canonical URL and the three intended placement classes: cost-per-year, repair-or-replace, and category-comparison across all seventeen categories. Disclosure preceded the first exact-model destination, all fifty-two rendered Amazon destinations used everlastin08f-20 with no stale tag, the deployed JavaScript contained the consent-gated internal_link_click tracker and internal-placement selector, and the sitemap retained /database and /blog.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/038d8d17751317ef4fa52c6c0f18fe26fef6cde0/status",
-      "https://everlasting-goods.com/",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8d97152db402d9ea5b7ef9ce5908f5115adbdf99/status",
+      "https://everlasting-goods.com/database",
       "https://everlasting-goods.com/_next/static/immutable/chunks/28g_de-9qoqcv.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/"
+      "https://everlasting-goods.com/database"
     ]
   },
   "blockers": [
