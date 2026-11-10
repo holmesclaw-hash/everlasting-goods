@@ -37,22 +37,26 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-09T07:20:56Z",
-  "last_action": "Added consent-gated internal-link measurement to the database landing page's primary research choices: the cost-per-year calculator, repair-or-replace tool, and all seventeen category comparisons.",
-  "last_live_url": "https://everlasting-goods.com/database",
-  "last_commit": "8d97152",
+  "last_verified_at": "2026-11-10T07:22:03Z",
+  "last_action": "Added one-time, consent-gated completion measurement to the cost-per-year and repair-or-replace tools without transmitting user-entered prices, quotes, service-life assumptions, maintenance values, or symptom text.",
+  "last_live_url": "https://everlasting-goods.com/tools/repair-or-replace",
+  "last_commit": "f4d87f6",
   "last_evidence": {
-    "local_gates": "The database research-path regression failed before implementation and passed afterward. npm run verify passed 165 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag outside intentional test fixtures, fake experience, or credential material. Date-driven generation correctly marked the DEWALT DCD800B parts and street-price fields plus the Makita KP0800K street-price field stale after their November 8, 2026 deadlines.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for database research-path measurement commit 8d97152.",
-    "live_readback": "Production readback of /database returned HTTP 200 with the correct canonical URL and the three intended placement classes: cost-per-year, repair-or-replace, and category-comparison across all seventeen categories. Disclosure preceded the first exact-model destination, all fifty-two rendered Amazon destinations used everlastin08f-20 with no stale tag, the deployed JavaScript contained the consent-gated internal_link_click tracker and internal-placement selector, and the sitemap retained /database and /blog.",
+    "local_gates": "The decision-tool measurement regressions failed before implementation and passed afterward. npm run verify passed 167 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. Date-driven generation correctly marked the Grizzly G0860 street-price field stale after its November 9, 2026 deadline.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for decision-tool completion measurement commit f4d87f6.",
+    "live_readback": "Production readback of /tools/cost-per-year and /tools/repair-or-replace returned HTTP 200 with their correct canonical URLs. The deployed tool bundles contained one-time completion guards, the accepted-consent check, and their distinct cost_per_year_available and comparison_available outcomes. The deployed shared analytics bundle emitted decision_tool_complete with only tool_name, outcome_status, page_path, and optional product_slug; no user-entered numeric or symptom values were included. The sitemap retained both tool routes.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/8d97152db402d9ea5b7ef9ce5908f5115adbdf99/status",
-      "https://everlasting-goods.com/database",
-      "https://everlasting-goods.com/_next/static/immutable/chunks/28g_de-9qoqcv.js",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/f4d87f6d2c7191db9ae4da685026ecb14e2c9cb2/status",
+      "https://everlasting-goods.com/tools/cost-per-year",
+      "https://everlasting-goods.com/tools/repair-or-replace",
+      "https://everlasting-goods.com/_next/static/immutable/chunks/1kt5y83aajkz1.js",
+      "https://everlasting-goods.com/_next/static/immutable/chunks/0q_d84c_wvbyn.js",
+      "https://everlasting-goods.com/_next/static/immutable/chunks/3wchkxiebxn9n.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database"
+      "https://everlasting-goods.com/tools/cost-per-year",
+      "https://everlasting-goods.com/tools/repair-or-replace"
     ]
   },
   "blockers": [
