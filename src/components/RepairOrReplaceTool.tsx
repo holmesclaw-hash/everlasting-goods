@@ -1,8 +1,17 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
+import { trackDecisionToolCompletion } from "@/lib/analytics.mjs";
+import { shouldTrackAffiliateClicks } from "@/lib/consent.mjs";
 import { repairOrReplaceDecision } from "@/lib/database-utils.mjs";
+
+const CONSENT_KEY = "everlasting-goods-consent";
+
+type AnalyticsWindow = Window & {
+  gtag?: (...args: unknown[]) => void;
+  everlastingGoodsAnalyticsDisabled?: boolean;
+};
 
 interface ProductOption { slug: string; label: string }
 
@@ -12,11 +21,32 @@ export default function RepairOrReplaceTool({ products }: { products: ProductOpt
   const [quote, setQuote] = useState("");
   const [replacement, setReplacement] = useState("");
   const [years, setYears] = useState("");
+  const hasTrackedCompletion = useRef(false);
   const result = useMemo(() => repairOrReplaceDecision({
     repairQuote: quote === "" ? 0 : Number(quote),
     replacementPrice: replacement === "" ? null : Number(replacement),
     expectedServiceLifeYears: years === "" ? null : Number(years),
   }), [quote, replacement, years]);
+
+  useEffect(() => {
+    if (result.status === "insufficient-evidence" || hasTrackedCompletion.current) return;
+
+    const analyticsWindow = window as AnalyticsWindow;
+    if (!shouldTrackAffiliateClicks(
+      window.localStorage.getItem(CONSENT_KEY),
+      analyticsWindow.everlastingGoodsAnalyticsDisabled
+    )) return;
+    if (typeof analyticsWindow.gtag !== "function") return;
+
+    trackDecisionToolCompletion(
+      analyticsWindow.gtag,
+      "repair_or_replace",
+      "comparison_available",
+      window.location.pathname,
+      product
+    );
+    hasTrackedCompletion.current = true;
+  }, [product, result.status]);
 
   return (
     <div className="rounded-2xl border border-cream-200 bg-white p-6 md:p-8">

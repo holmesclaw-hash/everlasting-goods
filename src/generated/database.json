@@ -10972,7 +10972,7 @@
       "verified_date": "2026-10-10",
       "reverify_days": 30,
       "stale_after": "2026-11-09",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g0785",

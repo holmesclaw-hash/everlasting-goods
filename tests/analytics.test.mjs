@@ -4,10 +4,12 @@ import test from "node:test";
 import {
   affiliateClickEvent,
   classifyReferral,
+  decisionToolCompletionEvent,
   internalLinkClickEvent,
   isAmazonAffiliateUrl,
   referralVisitEvent,
   trackAffiliateClick,
+  trackDecisionToolCompletion,
   trackInternalLinkClick,
 } from "../src/lib/analytics.mjs";
 
@@ -98,6 +100,44 @@ test("creates and dispatches a stable internal-link click event", () => {
       link_placement: "database-record-evidence-guide",
       page_path: "/database/estwing-b3-3lb",
       target_path: "/articles/best-estwing-hammers-that-last-a-lifetime",
+    },
+  ]]);
+});
+
+test("creates and dispatches a privacy-bounded decision-tool completion event", () => {
+  assert.deepEqual(
+    decisionToolCompletionEvent(
+      "repair_or_replace",
+      "comparison_available",
+      "/tools/repair-or-replace",
+      "makita-mac5200"
+    ),
+    {
+      eventName: "decision_tool_complete",
+      parameters: {
+        tool_name: "repair_or_replace",
+        outcome_status: "comparison_available",
+        page_path: "/tools/repair-or-replace",
+        product_slug: "makita-mac5200",
+      },
+    }
+  );
+
+  const calls = [];
+  trackDecisionToolCompletion(
+    (...args) => calls.push(args),
+    "cost_per_year",
+    "cost_per_year_available",
+    "/tools/cost-per-year"
+  );
+
+  assert.deepEqual(calls, [[
+    "event",
+    "decision_tool_complete",
+    {
+      tool_name: "cost_per_year",
+      outcome_status: "cost_per_year_available",
+      page_path: "/tools/cost-per-year",
     },
   ]]);
 });

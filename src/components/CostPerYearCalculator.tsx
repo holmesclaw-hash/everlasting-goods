@@ -1,18 +1,47 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
+import { trackDecisionToolCompletion } from "@/lib/analytics.mjs";
+import { shouldTrackAffiliateClicks } from "@/lib/consent.mjs";
 import { calculateCostPerYear } from "@/lib/database-utils.mjs";
+
+const CONSENT_KEY = "everlasting-goods-consent";
+
+type AnalyticsWindow = Window & {
+  gtag?: (...args: unknown[]) => void;
+  everlastingGoodsAnalyticsDisabled?: boolean;
+};
 
 export default function CostPerYearCalculator() {
   const [price, setPrice] = useState("");
   const [years, setYears] = useState("");
   const [maintenance, setMaintenance] = useState("0");
+  const hasTrackedCompletion = useRef(false);
   const result = useMemo(() => calculateCostPerYear({
     price: price === "" ? null : Number(price),
     serviceLifeYears: years === "" ? null : Number(years),
     annualMaintenance: maintenance === "" ? 0 : Number(maintenance),
   }), [price, years, maintenance]);
+
+  useEffect(() => {
+    if (result == null || hasTrackedCompletion.current) return;
+
+    const analyticsWindow = window as AnalyticsWindow;
+    if (!shouldTrackAffiliateClicks(
+      window.localStorage.getItem(CONSENT_KEY),
+      analyticsWindow.everlastingGoodsAnalyticsDisabled
+    )) return;
+    if (typeof analyticsWindow.gtag !== "function") return;
+
+    trackDecisionToolCompletion(
+      analyticsWindow.gtag,
+      "cost_per_year",
+      "cost_per_year_available",
+      window.location.pathname
+    );
+    hasTrackedCompletion.current = true;
+  }, [result]);
 
   return (
     <div className="rounded-2xl border border-cream-200 bg-white p-6 md:p-8">

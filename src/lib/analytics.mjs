@@ -47,6 +47,23 @@ export function trackInternalLinkClick(gtag, targetPath, linkText, pagePath, lin
   gtag("event", event.eventName, event.parameters);
 }
 
+export function decisionToolCompletionEvent(toolName, outcomeStatus, pagePath, productSlug) {
+  return {
+    eventName: "decision_tool_complete",
+    parameters: {
+      tool_name: toolName,
+      outcome_status: outcomeStatus,
+      page_path: pagePath,
+      ...(productSlug ? { product_slug: productSlug } : {}),
+    },
+  };
+}
+
+export function trackDecisionToolCompletion(gtag, toolName, outcomeStatus, pagePath, productSlug) {
+  const event = decisionToolCompletionEvent(toolName, outcomeStatus, pagePath, productSlug);
+  gtag("event", event.eventName, event.parameters);
+}
+
 const llmHosts = new Set([
   "chatgpt.com",
   "chat.openai.com",
