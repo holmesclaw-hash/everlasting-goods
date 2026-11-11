@@ -15,10 +15,12 @@ function CategoryAffiliateDestination({
   link,
   placement,
   productLabel,
+  productSlug,
 }: {
   link: CategoryAffiliateLink | undefined;
   placement: "database-category-mobile" | "database-category-comparison";
   productLabel: string;
+  productSlug: string;
 }) {
   if (!link) return <span className="text-xs text-charcoal/45">No verified destination</span>;
 
@@ -27,6 +29,7 @@ function CategoryAffiliateDestination({
       <a
         href={link.url}
         data-affiliate-placement={placement}
+        data-affiliate-product={productSlug}
         target="_blank"
         rel="sponsored nofollow noopener noreferrer"
         className="inline-block rounded-xl bg-brown-accent px-4 py-3 text-center text-xs font-semibold text-white hover:bg-brown-dark"
@@ -93,6 +96,7 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                           link={affiliateLink}
                           placement="database-category-mobile"
                           productLabel={`${product.brand} ${product.model}`}
+                          productSlug={product.slug}
                         />
                       </div>
                       {evidenceGuide && (
@@ -115,6 +119,7 @@ export default async function DatabaseCategoryPage({ params }: PageProps) {
                         link={affiliateLink}
                         placement="database-category-comparison"
                         productLabel={`${product.brand} ${product.model}`}
+                        productSlug={product.slug}
                       />
                     </td>
                   </tr>

@@ -64,6 +64,29 @@ test("dispatches the affiliate event through the supplied GA4 function", () => {
   ]]);
 });
 
+test("affiliate click events attribute the exact internal product record", () => {
+  assert.deepEqual(
+    affiliateClickEvent(
+      "https://www.amazon.com/dp/B00006JSUB?tag=everlastin08f-20",
+      "View Lodge L10SK3 on Amazon",
+      "/database/category/cast-iron-cookware",
+      "database-category-comparison",
+      "lodge-l10sk3"
+    ),
+    {
+      eventName: "affiliate_click",
+      parameters: {
+        affiliate_host: "www.amazon.com",
+        affiliate_path: "/dp/B00006JSUB",
+        link_text: "View Lodge L10SK3 on Amazon",
+        page_path: "/database/category/cast-iron-cookware",
+        link_placement: "database-category-comparison",
+        product_slug: "lodge-l10sk3",
+      },
+    }
+  );
+});
+
 test("creates and dispatches a stable internal-link click event", () => {
   assert.deepEqual(
     internalLinkClickEvent(

@@ -72,6 +72,7 @@ export default function GuideHubPage() {
                     <a
                       href={amazonLink(guide.asin)}
                       data-affiliate-placement="guide-hub-card"
+                      data-affiliate-product={guide.databaseSlug}
                       target="_blank"
                       rel="sponsored nofollow noopener noreferrer"
                       className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"

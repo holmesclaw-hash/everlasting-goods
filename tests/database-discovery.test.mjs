@@ -31,6 +31,13 @@ test("category comparisons measure clicks into individual product records", asyn
   assert.match(category, /href=\{`\/database\/\$\{product\.slug\}`\}/);
 });
 
+test("category comparison destinations attribute clicks to the exact product record", async () => {
+  const category = await text("src/app/database/category/[category]/page.tsx");
+
+  assert.match(category, /data-affiliate-product=\{productSlug\}/);
+  assert.match(category, /productSlug=\{product\.slug\}/);
+});
+
 test("database landing page measures its primary research-path choices", async () => {
   const database = await text("src/app/database/page.tsx");
 

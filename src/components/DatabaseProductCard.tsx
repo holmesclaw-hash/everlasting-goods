@@ -81,6 +81,7 @@ export default function DatabaseProductCard({ product, recordPlacement, affiliat
           <a
             href={affiliateLink.url}
             data-affiliate-placement={affiliatePlacement}
+            data-affiliate-product={product.slug}
             target="_blank"
             rel="sponsored nofollow noopener noreferrer"
             className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"

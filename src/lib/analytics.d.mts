@@ -3,7 +3,8 @@ export function affiliateClickEvent(
   value: string,
   linkText: string,
   pagePath: string,
-  linkPlacement?: string
+  linkPlacement?: string,
+  productSlug?: string
 ): {
   eventName: "affiliate_click";
   parameters: {
@@ -12,6 +13,7 @@ export function affiliateClickEvent(
     link_text: string;
     page_path: string;
     link_placement?: string;
+    product_slug?: string;
   };
 };
 export function trackAffiliateClick(
@@ -19,7 +21,8 @@ export function trackAffiliateClick(
   value: string,
   linkText: string,
   pagePath: string,
-  linkPlacement?: string
+  linkPlacement?: string,
+  productSlug?: string
 ): void;
 export function internalLinkClickEvent(
   targetPath: string,

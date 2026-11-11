@@ -17,10 +17,12 @@ function DatabaseAffiliateDestination({
   link,
   placement,
   productLabel,
+  productSlug,
 }: {
   link: DatabaseAffiliateLink;
   placement: "database-record-mobile" | "database-record-sidebar";
   productLabel: string;
+  productSlug: string;
 }) {
   return (
     <div className="rounded-2xl border border-cream-200 bg-white p-6">
@@ -28,6 +30,7 @@ function DatabaseAffiliateDestination({
       <a
         href={link.url}
         data-affiliate-placement={placement}
+        data-affiliate-product={productSlug}
         target="_blank"
         rel="sponsored nofollow noopener noreferrer"
         className="block rounded-xl bg-brown-accent px-4 py-3 text-center text-sm font-semibold text-white hover:bg-brown-dark"
@@ -144,6 +147,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
             link={affiliateLink}
             placement="database-record-mobile"
             productLabel={`${product.brand} ${product.model}`}
+            productSlug={product.slug}
           />
         </section>
       )}
@@ -175,6 +179,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
                 link={affiliateLink}
                 placement="database-record-sidebar"
                 productLabel={`${product.brand} ${product.model}`}
+                productSlug={product.slug}
               />
             </div>
           )}

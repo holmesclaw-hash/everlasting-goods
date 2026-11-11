@@ -13,6 +13,7 @@ test("database record pages expose one measured exact-model destination early on
 
   assert.match(page, /function DatabaseAffiliateDestination/);
   assert.match(page, /data-affiliate-placement=\{placement\}/);
+  assert.match(page, /data-affiliate-product=\{productSlug\}/);
   assert.ok(mobileCtaIndex >= 0, "record page must render the mobile exact-model destination");
   assert.ok(evidenceFieldsIndex > mobileCtaIndex, "mobile destination must precede the evidence fields");
   assert.match(page, /className="[^"]*lg:hidden[^"]*"/);

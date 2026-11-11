@@ -71,4 +71,10 @@ test("restored guides measure downstream research choices with distinct placemen
 test("the delegated click tracker sends the CTA placement", async () => {
   const tracker = await text("src/components/AffiliateClickTracker.tsx");
   assert.match(tracker, /anchor\.dataset\.affiliatePlacement/);
+  assert.match(tracker, /anchor\.dataset\.affiliateProduct/);
+});
+
+test("every restored-guide destination identifies its exact database product", async () => {
+  const page = await text("src/app/articles/[slug]/page.tsx");
+  assert.match(page, /data-affiliate-product=\{config\.databaseSlug\}/);
 });

@@ -36,7 +36,8 @@ export default function AffiliateClickTracker() {
         anchor.href,
         anchor.textContent ?? "",
         window.location.pathname,
-        anchor.dataset.affiliatePlacement
+        anchor.dataset.affiliatePlacement,
+        anchor.dataset.affiliateProduct
       );
     };
 

@@ -19,6 +19,7 @@ test("homepage featured records expose disclosed, measurable exact-model destina
   assert.ok(featuredCardsIndex > disclosureIndex, "disclosure must precede featured affiliate cards");
   assert.match(home, /affiliatePlacement="home-featured"/);
   assert.match(card, /data-affiliate-placement=\{affiliatePlacement\}/);
+  assert.match(card, /data-affiliate-product=\{product\.slug\}/);
   assert.match(card, /rel="sponsored nofollow noopener noreferrer"/);
   assert.match(card, /View \{product\.brand\} \{product\.model\} on Amazon/);
   assert.match(card, /Price and availability are shown only by the merchant/);

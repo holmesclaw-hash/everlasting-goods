@@ -11,7 +11,7 @@ export function isAmazonAffiliateUrl(value) {
   return url.protocol === "https:" && isAmazon;
 }
 
-export function affiliateClickEvent(value, linkText, pagePath, linkPlacement) {
+export function affiliateClickEvent(value, linkText, pagePath, linkPlacement, productSlug) {
   const url = new URL(value);
   return {
     eventName: "affiliate_click",
@@ -21,12 +21,13 @@ export function affiliateClickEvent(value, linkText, pagePath, linkPlacement) {
       link_text: linkText.trim(),
       page_path: pagePath,
       ...(linkPlacement ? { link_placement: linkPlacement } : {}),
+      ...(productSlug ? { product_slug: productSlug } : {}),
     },
   };
 }
 
-export function trackAffiliateClick(gtag, value, linkText, pagePath, linkPlacement) {
-  const event = affiliateClickEvent(value, linkText, pagePath, linkPlacement);
+export function trackAffiliateClick(gtag, value, linkText, pagePath, linkPlacement, productSlug) {
+  const event = affiliateClickEvent(value, linkText, pagePath, linkPlacement, productSlug);
   gtag("event", event.eventName, event.parameters);
 }
 

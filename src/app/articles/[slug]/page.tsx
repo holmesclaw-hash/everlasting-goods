@@ -121,6 +121,7 @@ function ExactModelDestination({
       <a
         href={amazonLink(config.asin)}
         data-affiliate-placement={placement}
+        data-affiliate-product={config.databaseSlug}
         target="_blank"
         rel="sponsored nofollow noopener noreferrer"
         className="mt-5 inline-flex rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600"

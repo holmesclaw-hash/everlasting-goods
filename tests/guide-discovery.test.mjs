@@ -82,6 +82,13 @@ test("the guide hub measures each path into a guide and the database handoff", a
   assert.match(hub, /data-internal-placement="guide-hub-database"/);
 });
 
+test("guide-hub affiliate destinations attribute clicks to the exact product record", async () => {
+  const blog = await text("src/app/blog/page.tsx");
+
+  assert.match(blog, /data-affiliate-placement="guide-hub-card"/);
+  assert.match(blog, /data-affiliate-product=\{guide\.databaseSlug\}/);
+});
+
 test("database-to-guide discovery links are measured after analytics consent", async () => {
   const [layout, tracker] = await Promise.all([
     text("src/app/layout.tsx"),
