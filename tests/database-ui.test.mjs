@@ -4,6 +4,7 @@ import test from "node:test";
 import {
   calculateCostPerYear,
   evidenceLabel,
+  formatDatabaseLabel,
   formatFieldFreshness,
   groupProductsByCategory,
   repairOrReplaceDecision,
@@ -18,6 +19,12 @@ const sample = [
 test("database products group deterministically by category", () => {
   assert.deepEqual(Object.keys(groupProductsByCategory(sample)), ["drill-drivers", "routers"]);
   assert.equal(groupProductsByCategory(sample).routers.length, 2);
+});
+
+test("database labels render hyphenated categories and underscored field names as readable words", () => {
+  assert.equal(formatDatabaseLabel("drill-drivers"), "Drill Drivers");
+  assert.equal(formatDatabaseLabel("parts_availability"), "Parts Availability");
+  assert.equal(formatDatabaseLabel("repair_manual"), "Repair Manual");
 });
 
 test("cost per year is computed only from declared inputs", () => {

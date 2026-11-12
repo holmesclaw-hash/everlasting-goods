@@ -10988,7 +10988,7 @@
       "verified_date": "2026-10-12",
       "reverify_days": 30,
       "stale_after": "2026-11-11",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g0940",
@@ -10996,7 +10996,7 @@
       "verified_date": "2026-10-12",
       "reverify_days": 30,
       "stale_after": "2026-11-11",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "moccamaster-kbgv-select-53948",

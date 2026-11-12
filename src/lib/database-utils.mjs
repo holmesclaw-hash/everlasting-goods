@@ -7,6 +7,14 @@ export function groupProductsByCategory(products) {
     }, {});
 }
 
+export function formatDatabaseLabel(value) {
+  return value
+    .split(/[-_]+/)
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
 export function calculateCostPerYear({ price, serviceLifeYears, annualMaintenance = 0 }) {
   if (price == null || serviceLifeYears == null || serviceLifeYears <= 0) return null;
   return Math.round((price / serviceLifeYears + (annualMaintenance ?? 0)) * 100) / 100;

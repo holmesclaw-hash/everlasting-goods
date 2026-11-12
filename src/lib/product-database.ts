@@ -1,4 +1,5 @@
 import database from "@/generated/database.json";
+import { formatDatabaseLabel } from "@/lib/database-utils.mjs";
 
 export type DatabaseProduct = (typeof database.products)[number];
 
@@ -16,7 +17,7 @@ export function getDatabaseProductsByCategory(category: string): DatabaseProduct
 export const databaseCategories = Array.from(new Set(databaseProducts.map((product) => product.category))).sort();
 
 export function formatCategory(category: string): string {
-  return category.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+  return formatDatabaseLabel(category);
 }
 
 export function fieldFor(product: DatabaseProduct, name: string) {
