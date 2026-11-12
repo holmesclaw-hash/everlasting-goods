@@ -37,28 +37,22 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-11T07:26:53Z",
-  "last_action": "Added consent-gated exact-product attribution to every affiliate click across featured product cards, the guide hub, restored guides, database records, and category comparisons.",
+  "last_verified_at": "2026-11-12T07:21:04Z",
+  "last_action": "Repaired database label rendering so underscored evidence-field identifiers display as readable words across all product records while hyphenated category labels remain correct.",
   "last_live_url": "https://everlasting-goods.com/database/lodge-l10sk3",
-  "last_commit": "b23dd90",
+  "last_commit": "4bfb3c1",
   "last_evidence": {
-    "local_gates": "The exact-product attribution regressions failed before implementation and passed afterward. npm run verify passed 171 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. Date-driven generation marked the Grizzly G0548ZP street-price evidence gap stale after its November 10, 2026 review deadline.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for exact-product affiliate attribution commit b23dd90.",
-    "live_readback": "Production readback returned HTTP 200 with correct canonical URLs for the homepage, guide hub, Lodge guide, Lodge database record, and skillets comparison. Every tested commercial surface rendered data-affiliate-product with the exact internal product slug, retained the adjacent disclosure and approved everlastin08f-20 tag, and exposed no alternate affiliate tag. The deployed analytics bundle emitted affiliate_click with product_slug alongside placement and page path, and the sitemap retained the changed public routes.",
+    "local_gates": "The readable-label regression failed before implementation and passed afterward. npm run verify passed 172 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. Date-driven generation marked the Grizzly G0548ZP and G0940 street-price evidence gaps stale after their November 11, 2026 review deadlines.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for readable database-label commit 4bfb3c1.",
+    "live_readback": "Production readback returned HTTP 200 with correct canonical URLs for the Lodge L10SK3 database record and skillets comparison. The record renders Parts Availability and Repair Manual without exposing underscored labels; both tested commercial routes retain the adjacent Amazon disclosure, approved everlastin08f-20 tag, exact product attribution, consent-gated affiliate analytics hook, and sitemap inclusion.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/b23dd90bbcb196a37928db14bf7484d8154aa78b/status",
-      "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4bfb3c174418900220b26f2d8286ad7fbd248961/status",
       "https://everlasting-goods.com/database/lodge-l10sk3",
       "https://everlasting-goods.com/database/category/skillets",
       "https://everlasting-goods.com/_next/static/immutable/chunks/2kaw_nzy4dfpe.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/",
-      "https://everlasting-goods.com/blog",
-      "https://everlasting-goods.com/articles/best-cast-iron-skillets-that-last-forever",
       "https://everlasting-goods.com/database/lodge-l10sk3",
       "https://everlasting-goods.com/database/category/skillets"
     ]
