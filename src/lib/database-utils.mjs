@@ -46,8 +46,14 @@ export function evidenceLabel(tier) {
 
 export function formatFieldFreshness(field) {
   if (field.evidence_tier === "T4") {
+    if (field.is_stale) {
+      return `Evidence gap reviewed ${field.verified_date}; no verified value yet; research review overdue since ${field.stale_after}.`;
+    }
     return `Evidence gap reviewed ${field.verified_date}; no verified value yet; research review due ${field.stale_after}.`;
   }
 
+  if (field.is_stale) {
+    return `Verified ${field.verified_date}; recheck every ${field.reverify_days} days; stale since ${field.stale_after}.`;
+  }
   return `Verified ${field.verified_date}; recheck every ${field.reverify_days} days; stale after ${field.stale_after}.`;
 }

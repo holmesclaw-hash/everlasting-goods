@@ -37,12 +37,13 @@ const products = rows("SELECT * FROM products ORDER BY category, brand, model").
   const fields = rows(`
     SELECT pf.name, pf.raw_value, pf.display_value, pf.evidence_tier,
            s.url AS source_url, pf.verified_date, pf.reverify_days,
-           date(pf.verified_date, '+' || pf.reverify_days || ' days') AS stale_after
+           date(pf.verified_date, '+' || pf.reverify_days || ' days') AS stale_after,
+           date(pf.verified_date, '+' || pf.reverify_days || ' days') < date('now') AS is_stale
     FROM product_fields pf
     LEFT JOIN sources s ON s.id = pf.source_id
     WHERE pf.product_id = ?
     ORDER BY pf.name
-  `, [product.id]);
+  `, [product.id]).map((field) => ({ ...field, is_stale: Boolean(field.is_stale) }));
   const affiliateLinks = rows(`
     SELECT program_name, url, exact_model, verified_date
     FROM affiliate_links

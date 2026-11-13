@@ -66,6 +66,19 @@ test("field freshness copy never labels an unverified T4 value as verified", () 
   );
 });
 
+test("field freshness copy marks overdue T4 research reviews explicitly", () => {
+  assert.equal(
+    formatFieldFreshness({
+      evidence_tier: "T4",
+      verified_date: "2026-10-12",
+      reverify_days: 30,
+      stale_after: "2026-11-11",
+      is_stale: true,
+    }),
+    "Evidence gap reviewed 2026-10-12; no verified value yet; research review overdue since 2026-11-11.",
+  );
+});
+
 test("field freshness copy preserves verification language for sourced values", () => {
   assert.equal(
     formatFieldFreshness({
@@ -75,5 +88,18 @@ test("field freshness copy preserves verification language for sourced values", 
       stale_after: "2027-01-08",
     }),
     "Verified 2026-10-10; recheck every 90 days; stale after 2027-01-08.",
+  );
+});
+
+test("field freshness copy marks stale sourced values explicitly", () => {
+  assert.equal(
+    formatFieldFreshness({
+      evidence_tier: "T2",
+      verified_date: "2026-08-01",
+      reverify_days: 90,
+      stale_after: "2026-10-30",
+      is_stale: true,
+    }),
+    "Verified 2026-08-01; recheck every 90 days; stale since 2026-10-30.",
   );
 });

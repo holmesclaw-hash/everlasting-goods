@@ -61,6 +61,7 @@ test("published fields declare evidence and freshness instead of plausible guess
       assert.ok(["T1", "T2", "T3", "T4"].includes(field.evidence_tier));
       assert.match(field.verified_date, /^\d{4}-\d{2}-\d{2}$/);
       assert.ok(Number.isInteger(field.reverify_days) && field.reverify_days > 0);
+      assert.equal(typeof field.is_stale, "boolean");
       if (field.evidence_tier === "T4") {
         assert.equal(field.display_value, "Not yet verified");
       } else {
