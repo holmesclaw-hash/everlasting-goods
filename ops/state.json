@@ -37,24 +37,24 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-12T07:21:04Z",
-  "last_action": "Repaired database label rendering so underscored evidence-field identifiers display as readable words across all product records while hyphenated category labels remain correct.",
-  "last_live_url": "https://everlasting-goods.com/database/lodge-l10sk3",
-  "last_commit": "4bfb3c1",
+  "last_verified_at": "2026-11-13T07:20:11Z",
+  "last_action": "Made database freshness status explicit by generating a boolean stale state for every evidence field and rendering overdue T4 reviews and expired sourced values as overdue or stale instead of future-facing due dates.",
+  "last_live_url": "https://everlasting-goods.com/database/grizzly-g0548zp",
+  "last_commit": "a017cf7",
   "last_evidence": {
-    "local_gates": "The readable-label regression failed before implementation and passed afterward. npm run verify passed 172 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. Date-driven generation marked the Grizzly G0548ZP and G0940 street-price evidence gaps stale after their November 11, 2026 review deadlines.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for readable database-label commit 4bfb3c1.",
-    "live_readback": "Production readback returned HTTP 200 with correct canonical URLs for the Lodge L10SK3 database record and skillets comparison. The record renders Parts Availability and Repair Manual without exposing underscored labels; both tested commercial routes retain the adjacent Amazon disclosure, approved everlastin08f-20 tag, exact product attribution, consent-gated affiliate analytics hook, and sitemap inclusion.",
+    "local_gates": "The overdue-freshness regressions failed before implementation and passed afterward. npm run verify passed 174 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. Generated records now carry boolean freshness state; 41 evidence fields were stale on November 13, 2026.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for overdue-freshness commit a017cf7.",
+    "live_readback": "Production readback returned HTTP 200 with correct canonical URLs for the Grizzly G0548ZP and G0940 records. Both records now identify the November 11, 2026 street-price research review as overdue instead of merely due, while retaining the adjacent Amazon disclosure, merchant-only price language, approved everlastin08f-20 tag, exact product attribution, consent-gated affiliate analytics hook, and sitemap inclusion.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/4bfb3c174418900220b26f2d8286ad7fbd248961/status",
-      "https://everlasting-goods.com/database/lodge-l10sk3",
-      "https://everlasting-goods.com/database/category/skillets",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/a017cf7d0df34ca4aba3482ca0bc730079108e6c/status",
+      "https://everlasting-goods.com/database/grizzly-g0548zp",
+      "https://everlasting-goods.com/database/grizzly-g0940",
       "https://everlasting-goods.com/_next/static/immutable/chunks/2kaw_nzy4dfpe.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/database/lodge-l10sk3",
-      "https://everlasting-goods.com/database/category/skillets"
+      "https://everlasting-goods.com/database/grizzly-g0548zp",
+      "https://everlasting-goods.com/database/grizzly-g0940"
     ]
   },
   "blockers": [
