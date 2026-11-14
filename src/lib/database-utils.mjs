@@ -15,6 +15,19 @@ export function formatDatabaseLabel(value) {
     .join(" ");
 }
 
+export function selectImageVerifiedProducts(products, limit) {
+  return products
+    .filter((product) =>
+      product.image_url &&
+      product.image_source_url &&
+      product.image_license_basis &&
+      product.image_license_url &&
+      product.image_attribution &&
+      product.image_alt
+    )
+    .slice(0, limit);
+}
+
 export function calculateCostPerYear({ price, serviceLifeYears, annualMaintenance = 0 }) {
   if (price == null || serviceLifeYears == null || serviceLifeYears <= 0) return null;
   return Math.round((price / serviceLifeYears + (annualMaintenance ?? 0)) * 100) / 100;

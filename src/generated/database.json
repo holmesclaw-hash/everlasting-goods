@@ -8505,7 +8505,7 @@
           "verified_date": "2026-10-14",
           "reverify_days": 30,
           "stale_after": "2026-11-13",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -9017,7 +9017,7 @@
           "verified_date": "2026-10-14",
           "reverify_days": 30,
           "stale_after": "2026-11-13",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -11430,7 +11430,7 @@
       "verified_date": "2026-10-14",
       "reverify_days": 30,
       "stale_after": "2026-11-13",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "merkur-34c",
@@ -11438,7 +11438,7 @@
       "verified_date": "2026-10-14",
       "reverify_days": 30,
       "stale_after": "2026-11-13",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g0946",
