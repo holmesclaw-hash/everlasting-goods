@@ -37,22 +37,24 @@
   "phase_approval": "Daniel approved execution through all phases on 2026-08-25; continue unless critically blocked",
   "publishing_freeze": false,
   "publishing_freeze_release_condition": "Satisfied: Phase 1 audit applied and live-verified on 2026-08-25",
-  "last_verified_at": "2026-11-14T07:22:05Z",
-  "last_action": "Replaced the homepage's alphabetical first-six product selection with a provenance-gated feature set containing only records that have complete exact-model photo source, rights, attribution, and alt-text evidence.",
-  "last_live_url": "https://everlasting-goods.com/",
-  "last_commit": "cb327bb",
+  "last_verified_at": "2026-11-15T07:22:04Z",
+  "last_action": "Changed database record freshness copy to derive overdue status from the request date and enabled hourly revalidation, preventing stored build-time flags from showing past-due evidence reviews as still upcoming.",
+  "last_live_url": "https://everlasting-goods.com/database/grizzly-g0946",
+  "last_commit": "80d52e0",
   "last_evidence": {
-    "local_gates": "The homepage photo-provenance regression failed before implementation and passed afterward. npm run verify passed 175 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. The November 14 generation also correctly advanced the MERKUR 34C street-price gap to stale, bringing the current generated stale-field count to 43.",
-    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for homepage feature commit cb327bb.",
-    "live_readback": "Production homepage readback returned HTTP 200 with the correct canonical and an image-verified section containing only Victorinox Fibrox 5.2063.20, Estwing B3-3LB, MERKUR 34C, and Lodge L10SK3. Each card retained its exact photo, source and rights links, adjacent Amazon disclosure, merchant-only price language, approved everlastin08f-20 tag, exact product attribution, and consent-gated affiliate analytics hooks; the prior alphabetical California Air Tools, Makita, and Grizzly records were absent from the featured section.",
+    "local_gates": "The request-date freshness regressions failed before implementation and passed afterward. npm run verify passed 177 tests plus quality, lint, typecheck, deterministic 52-record database generation, and the Next.js 16.4.2 production build. npm audit --omit=dev found 0 vulnerabilities, git diff --check passed, and the diff review found no unrelated content, stale affiliate tag, fake experience, or credential material. The November 15 generation advanced the Grizzly G0946 and G1021Z street-price evidence gaps to stale, bringing the current generated stale-field count to 45. The prerender manifest assigns database records a 3,600-second revalidation interval, and local production readback returned the corrected overdue wording with matching cache headers.",
+    "deployment": "Both GitHub-reported Vercel project statuses completed successfully for freshness commit 80d52e0.",
+    "live_readback": "Production readback returned HTTP 200 for the Grizzly G0946 and G1021Z records with their correct canonicals and the corrected 'research review overdue since 2026-11-14' language; the obsolete future-due wording was absent. Both routes retained the approved everlastin08f-20 tag with no stale tag, adjacent disclosure, merchant-only price language, exact product attribution, affiliate placement data, deployed consent-gated affiliate analytics hooks, and sitemap inclusion.",
     "source_urls": [
-      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/cb327bb8addec87a606eb0abeff9cb8526b4d048/status",
-      "https://everlasting-goods.com/",
+      "https://api.github.com/repos/holmesclaw-hash/everlasting-goods/commits/80d52e01bbe3fcc81103eb144173c6606263944d/status",
+      "https://everlasting-goods.com/database/grizzly-g0946",
+      "https://everlasting-goods.com/database/grizzly-g1021z",
       "https://everlasting-goods.com/_next/static/immutable/chunks/2kaw_nzy4dfpe.js",
       "https://everlasting-goods.com/sitemap.xml"
     ],
     "live_routes": [
-      "https://everlasting-goods.com/"
+      "https://everlasting-goods.com/database/grizzly-g0946",
+      "https://everlasting-goods.com/database/grizzly-g1021z"
     ]
   },
   "blockers": [
