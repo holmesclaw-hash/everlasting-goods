@@ -821,7 +821,7 @@
           "verified_date": "2026-10-15",
           "reverify_days": 30,
           "stale_after": "2026-11-14",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -9287,7 +9287,7 @@
           "verified_date": "2026-10-15",
           "reverify_days": 30,
           "stale_after": "2026-11-14",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -11446,7 +11446,7 @@
       "verified_date": "2026-10-15",
       "reverify_days": 30,
       "stale_after": "2026-11-14",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g1021z",
@@ -11454,7 +11454,7 @@
       "verified_date": "2026-10-15",
       "reverify_days": 30,
       "stale_after": "2026-11-14",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "grizzly-g0925",

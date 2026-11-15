@@ -9,6 +9,8 @@ import { getRestoredGuideByDatabaseSlug } from "@/content/restored-guides";
 import { formatFieldFreshness } from "@/lib/database-utils.mjs";
 import { databaseProducts, fieldFor, formatCategory, getDatabaseProduct, type DatabaseProduct } from "@/lib/product-database";
 
+export const revalidate = 3600;
+
 interface PageProps { params: Promise<{ slug: string }> }
 
 type DatabaseAffiliateLink = DatabaseProduct["affiliate_links"][number];
@@ -70,6 +72,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
   const identity = fieldFor(product, "identity")?.display_value ?? `${product.brand} ${product.model}`;
   const affiliateLink = product.affiliate_links[0];
   const evidenceGuide = getRestoredGuideByDatabaseSlug(product.slug);
+  const freshnessAsOf = new Date().toISOString().slice(0, 10);
   const image = product.image_url && product.image_source_url && product.image_license_url && product.image_attribution && product.image_alt
     ? {
         url: product.image_url,
@@ -164,7 +167,7 @@ export default async function ProductRecordPage({ params }: PageProps) {
                 </div>
                 <div>
                   <p className="text-charcoal/70">{field.display_value}</p>
-                  <p className="mt-2 text-xs text-charcoal/45">{formatFieldFreshness(field)}</p>
+                  <p className="mt-2 text-xs text-charcoal/45">{formatFieldFreshness(field, freshnessAsOf)}</p>
                   {field.source_url && <a href={field.source_url} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-semibold text-forest-600 hover:underline">Manufacturer source ↗</a>}
                 </div>
               </div>

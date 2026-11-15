@@ -57,15 +57,22 @@ export function evidenceLabel(tier) {
   }[tier] ?? "Evidence tier unavailable";
 }
 
-export function formatFieldFreshness(field) {
+function fieldIsStale(field, asOfDate) {
+  if (asOfDate) return field.stale_after < asOfDate;
+  return Boolean(field.is_stale);
+}
+
+export function formatFieldFreshness(field, asOfDate) {
+  const isStale = fieldIsStale(field, asOfDate);
+
   if (field.evidence_tier === "T4") {
-    if (field.is_stale) {
+    if (isStale) {
       return `Evidence gap reviewed ${field.verified_date}; no verified value yet; research review overdue since ${field.stale_after}.`;
     }
     return `Evidence gap reviewed ${field.verified_date}; no verified value yet; research review due ${field.stale_after}.`;
   }
 
-  if (field.is_stale) {
+  if (isStale) {
     return `Verified ${field.verified_date}; recheck every ${field.reverify_days} days; stale since ${field.stale_after}.`;
   }
   return `Verified ${field.verified_date}; recheck every ${field.reverify_days} days; stale after ${field.stale_after}.`;

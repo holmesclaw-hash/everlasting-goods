@@ -103,3 +103,18 @@ test("field freshness copy marks stale sourced values explicitly", () => {
     "Verified 2026-08-01; recheck every 90 days; stale since 2026-10-30.",
   );
 });
+
+test("field freshness can derive overdue status from the request date instead of a stale build snapshot", () => {
+  const field = {
+    evidence_tier: "T4",
+    verified_date: "2026-10-15",
+    reverify_days: 30,
+    stale_after: "2026-11-14",
+    is_stale: false,
+  };
+
+  assert.equal(
+    formatFieldFreshness(field, "2026-11-15"),
+    "Evidence gap reviewed 2026-10-15; no verified value yet; research review overdue since 2026-11-14.",
+  );
+});

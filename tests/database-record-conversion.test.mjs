@@ -33,3 +33,11 @@ test("the shared database-record destination keeps disclosure and merchant-only 
   assert.match(component, /View \{productLabel\} on Amazon/);
   assert.match(component, /Price and availability are shown only by the merchant/);
 });
+
+test("database record freshness is recalculated from the request date and revalidated hourly", async () => {
+  const page = await text("src/app/database/[slug]/page.tsx");
+
+  assert.match(page, /export const revalidate = 3600/);
+  assert.match(page, /new Date\(\)\.toISOString\(\)\.slice\(0, 10\)/);
+  assert.match(page, /formatFieldFreshness\(field, freshnessAsOf\)/);
+});
