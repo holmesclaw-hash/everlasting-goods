@@ -3899,7 +3899,7 @@
           "verified_date": "2026-10-16",
           "reverify_days": 30,
           "stale_after": "2026-11-15",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -11462,7 +11462,7 @@
       "verified_date": "2026-10-16",
       "reverify_days": 30,
       "stale_after": "2026-11-15",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "bosch-gsr18v-535fcb15",

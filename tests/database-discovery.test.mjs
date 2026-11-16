@@ -2,9 +2,25 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
+import { selectToolProducts } from "../src/lib/database-utils.mjs";
+
 async function text(path) {
   return readFile(new URL(`../${path}`, import.meta.url), "utf8");
 }
+
+test("the legacy tools category excludes non-tool product records", async () => {
+  const generated = JSON.parse(await text("src/generated/database.json"));
+  const categoryPage = await text("src/app/categories/[slug]/page.tsx");
+  const tools = selectToolProducts(generated.products);
+
+  assert.equal(generated.products.length, 52);
+  assert.equal(tools.length, 48);
+  assert.ok(generated.products.some((product) => product.category === "chef-knives"));
+  assert.ok(generated.products.some((product) => product.category === "skillets"));
+  assert.ok(tools.every((product) => product.category_group === "tools-shop"));
+  assert.match(categoryPage, /toolDatabaseProducts/);
+  assert.doesNotMatch(categoryPage, /slug === "tools" \? databaseProducts : \[\]/);
+});
 
 test("shared database cards measure product-record discovery by source surface", async () => {
   const [card, home, products, database, categories] = await Promise.all([

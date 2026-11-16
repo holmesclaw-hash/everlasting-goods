@@ -7,7 +7,7 @@ import DatabaseProductCard from "@/components/DatabaseProductCard";
 
 export const metadata: Metadata = {
   title: "Verified Product Records",
-  description: "Evidence-tiered tool and shop-equipment records generated from the Everlasting Goods SQLite database.",
+  description: "Evidence-tiered durable-product records generated from the Everlasting Goods SQLite database.",
   alternates: { canonical: "https://everlasting-goods.com/products" },
 };
 

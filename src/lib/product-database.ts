@@ -1,9 +1,10 @@
 import database from "@/generated/database.json";
-import { formatDatabaseLabel } from "@/lib/database-utils.mjs";
+import { formatDatabaseLabel, selectToolProducts } from "@/lib/database-utils.mjs";
 
 export type DatabaseProduct = (typeof database.products)[number];
 
 export const databaseProducts = database.products as DatabaseProduct[];
+export const toolDatabaseProducts = selectToolProducts(databaseProducts) as DatabaseProduct[];
 export const freshnessQueue = database.freshness_queue;
 
 export function getDatabaseProduct(slug: string): DatabaseProduct | undefined {

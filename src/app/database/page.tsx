@@ -7,7 +7,7 @@ import { databaseCategories, databaseProducts, formatCategory, getDatabaseProduc
 
 export const metadata: Metadata = {
   title: "Repairability & Durability Database",
-  description: "Manufacturer-sourced warranty, manual, parts-support, and evidence-tier data for long-lasting tools and shop equipment.",
+  description: "Manufacturer-sourced warranty, manual, parts-support, and evidence-tier data for durable products.",
   alternates: { canonical: "https://everlasting-goods.com/database" },
 };
 
@@ -19,7 +19,7 @@ export default function DatabasePage() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-forest-300">Repairability database</p>
           <h1 className="mt-4 font-serif text-4xl font-bold md:text-6xl">Facts first. Gaps shown.</h1>
           <p className="mt-6 max-w-3xl text-lg leading-relaxed text-white/70">
-            {databaseProducts.length} tool and shop-equipment records generated from a tracked evidence database. T2 fields link to manufacturer documentation. Unknown service life, price, and repair economics remain explicitly unverified.
+            {databaseProducts.length} durable-product records generated from a tracked evidence database. T2 fields link to manufacturer documentation. Unknown service life, price, and repair economics remain explicitly unverified.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/tools/cost-per-year" data-internal-placement="database-cost-per-year" className="rounded-xl bg-forest-500 px-5 py-3 font-semibold text-white hover:bg-forest-600">Cost-per-year calculator</Link>

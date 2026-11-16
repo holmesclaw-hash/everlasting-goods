@@ -28,6 +28,10 @@ export function selectImageVerifiedProducts(products, limit) {
     .slice(0, limit);
 }
 
+export function selectToolProducts(products) {
+  return products.filter((product) => product.category_group === "tools-shop");
+}
+
 export function calculateCostPerYear({ price, serviceLifeYears, annualMaintenance = 0 }) {
   if (price == null || serviceLifeYears == null || serviceLifeYears <= 0) return null;
   return Math.round((price / serviceLifeYears + (annualMaintenance ?? 0)) * 100) / 100;
