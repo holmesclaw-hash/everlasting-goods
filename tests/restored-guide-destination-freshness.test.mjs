@@ -15,9 +15,9 @@ const restoredGuideRecords = [
 test("restored guides show the current exact-destination verification date beside each CTA", async () => {
   const page = await readFile(new URL("../src/app/articles/[slug]/page.tsx", import.meta.url), "utf8");
 
-  assert.match(page, /destinationVerifiedAt: "2026-10-29"/);
+  assert.match(page, /destinationVerifiedAt: "2026-11-17"/);
   assert.equal(
-    page.match(/destinationVerifiedAt: "2026-10-29"/g)?.length,
+    page.match(/destinationVerifiedAt: "2026-11-17"/g)?.length,
     restoredGuideRecords.length,
     "each restored guide must carry the current exact-destination verification date",
   );
@@ -32,7 +32,7 @@ test("restored-guide database records use the same current exact Amazon destinat
       program_name: "Amazon Associates",
       url: `https://www.amazon.com/dp/${asin}?tag=everlastin08f-20`,
       exact_model: true,
-      verified_date: "2026-10-29",
+      verified_date: "2026-11-17",
     }]);
   }
 });

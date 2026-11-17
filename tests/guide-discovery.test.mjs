@@ -54,7 +54,7 @@ test("the guide hub exposes disclosed, measured exact-model destinations from th
   assert.match(hub, /Price and availability are shown only by the merchant/);
 
   assert.equal(guideRegistry.match(/asin: "B[A-Z0-9]{9}"/g)?.length, 5);
-  assert.equal(guideRegistry.match(/destinationVerifiedAt: "2026-10-29"/g)?.length, 5);
+  assert.equal(guideRegistry.match(/destinationVerifiedAt: "2026-11-17"/g)?.length, 5);
   assert.equal(guideRegistry.match(/destinationLabel:/g)?.length, 5);
 });
 

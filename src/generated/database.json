@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "992dac2e2980aa926aa4cb3d7594fc7e30244f91deed49d52710244efb0cb1db",
-  "generated_at": "2026-10-29T00:00:00.000Z",
+  "database_sha256": "c20cd70fc560d2f20578079224e8aeebf3ade55b38f520f2b40023a7db8fd84c",
+  "generated_at": "2026-11-17T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -1359,7 +1359,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B008M5U1C2?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-29"
+          "verified_date": "2026-11-17"
         }
       ],
       "repairability": {
@@ -4139,7 +4139,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B093DXS54M?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-29"
+          "verified_date": "2026-11-17"
         }
       ],
       "repairability": {
@@ -6274,7 +6274,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00002N5NI?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-29"
+          "verified_date": "2026-11-17"
         }
       ],
       "repairability": {
@@ -8524,7 +8524,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B002A8JO1Q?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-29"
+          "verified_date": "2026-11-17"
         }
       ],
       "repairability": {
@@ -8731,7 +8731,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00006JSUB?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-29"
+          "verified_date": "2026-11-17"
         }
       ],
       "repairability": {

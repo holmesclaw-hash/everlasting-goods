@@ -8,7 +8,7 @@ const restoredGuideCandidates = [
     description: "A 15-year-old K741.64B, current KBGV parts and repair support, warranty limits, maintenance, and owner tradeoffs.",
     reviewedAt: "2026-10-13",
     asin: "B093DXS54M",
-    destinationVerifiedAt: "2026-10-29",
+    destinationVerifiedAt: "2026-11-17",
     destinationLabel: "View exact Moccamaster 53948 KBGV Select on Amazon",
   },
   {
@@ -18,7 +18,7 @@ const restoredGuideCandidates = [
     description: "One-piece construction, warranty and repair limits, safety boundaries, and owner tradeoffs for the 3-lb drilling hammer.",
     reviewedAt: "2026-10-28",
     asin: "B00002N5NI",
-    destinationVerifiedAt: "2026-10-29",
+    destinationVerifiedAt: "2026-11-17",
     destinationLabel: "View exact Estwing B3-3LB on Amazon",
   },
   {
@@ -28,7 +28,7 @@ const restoredGuideCandidates = [
     description: "Edge maintenance, warranty limits, repairability boundaries, and dated long-term owner evidence for model 5.2063.20.",
     reviewedAt: "2026-10-06",
     asin: "B008M5U1C2",
-    destinationVerifiedAt: "2026-10-29",
+    destinationVerifiedAt: "2026-11-17",
     destinationLabel: "View exact Victorinox Fibrox 8-inch on Amazon",
   },
   {
@@ -38,7 +38,7 @@ const restoredGuideCandidates = [
     description: "Maintainable seasoning, warranty exclusions, ownership tradeoffs, and dated owner evidence for the Lodge 12-inch skillet.",
     reviewedAt: "2026-10-15",
     asin: "B00006JSUB",
-    destinationVerifiedAt: "2026-10-29",
+    destinationVerifiedAt: "2026-11-17",
     destinationLabel: "View exact Lodge L10SK3 on Amazon",
   },
   {
@@ -48,7 +48,7 @@ const restoredGuideCandidates = [
     description: "Manufacturer-documented materials and blade systems, plus clearly limited owner evidence for the MERKUR 34C.",
     reviewedAt: "2026-10-14",
     asin: "B002A8JO1Q",
-    destinationVerifiedAt: "2026-10-29",
+    destinationVerifiedAt: "2026-11-17",
     destinationLabel: "View exact MERKUR 34C on Amazon",
   },
 ] as const;
