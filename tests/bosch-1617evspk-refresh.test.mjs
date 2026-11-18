@@ -14,7 +14,7 @@ async function record() {
 test("the Bosch 1617EVSPK record exposes a live exact-model parts entry without claiming component orderability", async () => {
   const product = await record();
   assert.ok(product, `${slug} must be generated from SQLite`);
-  assert.equal(product.last_reviewed_date, "2026-10-02");
+  assert.equal(product.last_reviewed_date, "2026-11-18");
   assert.match(product.variant_notes, /fixed.*plunge.*06016176A1/i);
   assert.doesNotMatch(product.variant_notes, /3601F75710/i);
 
@@ -22,6 +22,7 @@ test("the Bosch 1617EVSPK record exposes a live exact-model parts entry without 
   for (const url of [
     "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
     "https://www.boschtools.com/us/en/service/replacement-parts/",
+    "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-06016176A1",
     "https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf",
     "https://www.boschtools.com/us/en/service/product-warranty/",
     "https://www.reddit.com/r/woodworking/comments/1iudoea/good_purchase_bosch_router_1617evspk_combo/",
@@ -39,6 +40,8 @@ test("the Bosch 1617EVSPK record exposes a live exact-model parts entry without 
   assert.match(fields.identity.display_value, /2\.25 HP.*8,000.*25,000 RPM.*fixed.*plunge/i);
   assert.match(fields.parts_availability.display_value, /partial.*exact product page.*outbound catalog.*unavailable.*component availability.*unverified/i);
   assert.equal(fields.parts_availability.evidence_tier, "T2");
+  assert.equal(fields.parts_availability.verified_date, "2026-11-18");
+  assert.match(fields.parts_availability.raw_value, /06016176A1.*HTTP 404.*2026-11-18/i);
   assert.match(fields.repair_manual.display_value, /operating.*maintenance manual.*not an owner-repair manual/i);
   assert.match(fields.serviceability.display_value, /cleaning.*ventilation.*bit.*collet.*authorized service/i);
   assert.equal(fields.serviceability.evidence_tier, "T2");
@@ -47,6 +50,7 @@ test("the Bosch 1617EVSPK record exposes a live exact-model parts entry without 
 
   assert.equal(product.repairability.parts_availability, "partial");
   assert.equal(product.repairability.parts_url, "https://www.boschtools.com/us/en/products/1617evspk-0601617577");
+  assert.equal(product.repairability.verified_date, "2026-11-18");
   assert.equal(product.repairability.repair_manual_available, 0);
   assert.equal(product.repairability.serviceability, "shop-serviceable");
   assert.match(product.recommendation_reasoning, /spare-parts ordering entry.*outbound.*catalog.*unavailable.*20 years.*plunge.*first use.*remain unverified/i);
@@ -63,6 +67,6 @@ test("the Bosch 1617EVSPK record exposes a live exact-model parts entry without 
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B00005RHPD?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-09-26",
+    verified_date: "2026-11-18",
   }]);
 });

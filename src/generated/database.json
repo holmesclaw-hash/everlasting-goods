@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "c20cd70fc560d2f20578079224e8aeebf3ade55b38f520f2b40023a7db8fd84c",
-  "generated_at": "2026-11-17T00:00:00.000Z",
+  "database_sha256": "421497c06b8a47405399ed83ea6e962f6481b79e673e61646a4f60c3883a9fc4",
+  "generated_at": "2026-11-18T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -6978,7 +6978,7 @@
       "variant_notes": "Bosch identifies 1617EVSPK as the 2.25 HP variable-speed combination kit with fixed and plunge bases. The current catalog page displays part number 06016176A1; the 0601617577 value in the page URL is not presented as the current part number.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation supports the exact fixed-base and plunge-base package, owner cleaning and bit or collet procedures, authorized service, a one-year limited warranty, and an exact-model spare-parts ordering entry. The outbound parts catalog is currently unavailable, so individual component orderability remains unverified. In one exact-combo discussion, individual owners report about 15 to more than 20 years of use; another exact-model owner reported stiff plunge action on first use. These anecdotes do not establish representative service life or repair economics, so expected service life and a buy or repair recommendation remain unverified.",
+      "recommendation_reasoning": "Manufacturer documentation supports the exact fixed-base and plunge-base package, owner cleaning and bit or collet procedures, authorized service, a one-year limited warranty, and an exact-model spare-parts ordering entry. The current manufacturer-linked outbound parts catalog remains unavailable: it returned HTTP 404 on 2026-11-18, so individual component orderability remains unverified. In one exact-combo discussion, individual owners report about 15 to more than 20 years of use; another exact-model owner reported stiff plunge action on first use. These anecdotes do not establish representative service life or repair economics, so expected service life and a buy or repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -6987,7 +6987,7 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-10-02",
+      "last_reviewed_date": "2026-11-18",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
@@ -7003,21 +7003,28 @@
           "url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
           "title": "Bosch 1617EVSPK official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-02",
+          "retrieved_date": "2026-11-18",
           "purpose": "current catalog identity, performance range, current part number, and package contents"
+        },
+        {
+          "url": "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/1617evspk-06016176A1",
+          "title": "Bosch 1617EVSPK current outbound spare-parts catalog route",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-18",
+          "purpose": "current manufacturer-linked exact-model catalog route; returned HTTP 404 on 2026-11-18"
         },
         {
           "url": "https://www.amazon.com/dp/B00005RHPD",
           "title": "Amazon exact Bosch 1617EVSPK destination",
           "source_type": "other",
-          "retrieved_date": "2026-09-26",
+          "retrieved_date": "2026-11-18",
           "purpose": "exact-model commercial destination"
         },
         {
           "url": "https://www.boschtools.com/us/en/service/replacement-parts/",
           "title": "Bosch replacement-parts service page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-02",
+          "retrieved_date": "2026-11-18",
           "purpose": "manufacturer replacement-parts ordering policy and support path"
         },
         {
@@ -7085,14 +7092,14 @@
         },
         {
           "name": "parts_availability",
-          "raw_value": "Bosch's exact 1617EVSPK page identifies current part number 06016176A1 and presents a spare-parts ordering entry. Bosch's replacement-parts page states that genuine replacement parts can be ordered online or by phone. The outbound exact-model catalog link returned HTTP 404 on 2026-10-02, so individual component orderability remains unverified.",
+          "raw_value": "Bosch's exact 1617EVSPK page identifies current part number 06016176A1 and presents a spare-parts ordering entry. Bosch's replacement-parts page states that genuine replacement parts can be ordered online or by phone. The current manufacturer-linked exact-model catalog route for 06016176A1 returned HTTP 404 on 2026-11-18, so individual component orderability remains unverified.",
           "display_value": "Partial: Bosch's exact product page exposes spare-parts ordering, but the outbound catalog is currently unavailable; individual component availability remains unverified.",
           "evidence_tier": "T2",
           "source_url": "https://www.boschtools.com/us/en/products/1617evspk-0601617577",
-          "verified_date": "2026-10-02",
+          "verified_date": "2026-11-18",
           "reverify_days": 30,
-          "stale_after": "2026-11-01",
-          "is_stale": true
+          "stale_after": "2026-12-18",
+          "is_stale": false
         },
         {
           "name": "repair_manual",
@@ -7144,7 +7151,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00005RHPD?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-09-26"
+          "verified_date": "2026-11-18"
         }
       ],
       "repairability": {
@@ -7156,7 +7163,7 @@
         "serviceability": "shop-serviceable",
         "ifixit_score": null,
         "source_id": 20,
-        "verified_date": "2026-10-02"
+        "verified_date": "2026-11-18"
       },
       "warranty": {
         "warranty_length": "1-year limited warranty.",
@@ -11273,14 +11280,6 @@
       "is_stale": true
     },
     {
-      "slug": "bosch-1617evspk",
-      "field_name": "parts_availability",
-      "verified_date": "2026-10-02",
-      "reverify_days": 30,
-      "stale_after": "2026-11-01",
-      "is_stale": true
-    },
-    {
       "slug": "sawstop-jss-120a60",
       "field_name": "street_price",
       "verified_date": "2026-10-02",
@@ -11558,6 +11557,14 @@
       "verified_date": "2026-09-18",
       "reverify_days": 90,
       "stale_after": "2026-12-17",
+      "is_stale": false
+    },
+    {
+      "slug": "bosch-1617evspk",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-18",
+      "reverify_days": 30,
+      "stale_after": "2026-12-18",
       "is_stale": false
     },
     {
