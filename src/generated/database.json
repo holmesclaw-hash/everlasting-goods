@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "421497c06b8a47405399ed83ea6e962f6481b79e673e61646a4f60c3883a9fc4",
-  "generated_at": "2026-11-18T00:00:00.000Z",
+  "database_sha256": "ba3b9d6426628f0e01004fac9b8a1c8f308d85e42a670d25b7826f49506a52b4",
+  "generated_at": "2026-11-19T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -7571,7 +7571,7 @@
       "variant_notes": null,
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "DEWALT currently identifies DCW600B as the tool-only 20V MAX XR brushless compact router and publishes Type 1 instruction manuals plus exploded diagrams. The exact DCW600B-CA Type 1 ServiceNet catalog presented 46 service-part entries as in stock on 2026-11-19, but stock is volatile and the catalog does not establish support for every production revision. A shared-shop report describes a DCW600 believed to be more than five years old ending with a seized spindle and difficult disassembly. That single high-use anecdote is useful failure evidence, not representative lifespan data, so expected service life, failure rate, repair economics, and a buy-or-repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -7580,38 +7580,52 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-11-19",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Exploded_Diagram/EN/EA025823.gif",
+          "title": "DEWALT DCW600B Type 1 exploded diagram EA025823",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-19",
+          "purpose": "Type 1 exploded diagram"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Instruction_Manual/EN/NA115327_DCW600_JUL22.pdf",
+          "title": "DEWALT DCW600 Type 1 instruction manual NA115327",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-19",
+          "purpose": "Type 1 operating, maintenance, and service-routing instructions"
+        },
+        {
+          "url": "https://yo.asmbly.org/t/compact-router-broken-replacement/15448",
+          "title": "Asmbly shared-shop DCW600 failure report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-19",
+          "purpose": "bounded shared-shop duration and failure anecdote"
+        },
+        {
+          "url": "https://www.toolservicenet.com/en/Dewalt/WOODWORKING/ROUTERS/p/DCW600B-CA_1",
+          "title": "DEWALT ServiceNet DCW600B-CA Type 1 parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-19",
+          "purpose": "current DCW600B-CA Type 1 parts catalog and stock snapshot"
+        },
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcw600b/20v-max-xr-brushless-cordless-compact-router-tool-only",
           "title": "DEWALT DCW600B official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-11-19",
+          "purpose": "current exact-model identity, features, downloads, and product-specific warranty program"
         },
         {
-          "url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
-          "title": "DEWALT DCW600B official product page",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
-        },
-        {
-          "url": "https://www.dewalt.com/service-center",
-          "title": "DEWALT parts or service support",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
-        },
-        {
-          "url": "https://www.dewalt.com/en-us/support/warranty",
-          "title": "DEWALT warranty policy",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-18",
-          "purpose": "warranty"
+          "url": "https://www.amazon.com/dp/B07KSRTDML",
+          "title": "Amazon exact DEWALT DCW600B destination",
+          "source_type": "other",
+          "retrieved_date": "2026-11-19",
+          "purpose": "exact-model commercial destination"
         }
       ],
       "fields": [
@@ -7632,53 +7646,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-19",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-18",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "20V MAX XR brushless cordless router, tool only",
-          "display_value": "20V MAX XR brushless cordless router, tool only",
+          "raw_value": "DEWALT identifies DCW600B as the tool-only 20V MAX XR brushless cordless compact router with a fixed base and wrench.",
+          "display_value": "DCW600B 20V MAX XR brushless cordless compact router, tool only, with fixed base and wrench.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
-          "verified_date": "2026-08-25",
+          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/20v-max-xr-brushless-cordless-compact-router-tool-only",
+          "verified_date": "2026-11-19",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-18",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "The exact DCW600B-CA Type 1 ServiceNet page presented 46 service-part entries as in stock on 2026-11-19 and linked the Type 1 exploded diagram. Stock can change, and this snapshot does not prove continued availability or coverage for every production revision.",
+          "display_value": "Partial: the exact Type 1 catalog showed 46 in-stock service-part entries on 2026-11-19; continued stock and every production revision are not guaranteed.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/service-center",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://www.toolservicenet.com/en/Dewalt/WOODWORKING/ROUTERS/p/DCW600B-CA_1",
+          "verified_date": "2026-11-19",
+          "reverify_days": 30,
+          "stale_after": "2026-12-19",
           "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "DEWALT publishes the NA115327 Type 1 instruction manual. It covers operation, bit and collet handling, base and depth adjustment, cleaning, and routing repairs through DEWALT service, but it is not a component-level repair manual.",
+          "display_value": "Official Type 1 operating and maintenance manual; it is not a component-level repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
-          "verified_date": "2026-08-25",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Instruction_Manual/EN/NA115327_DCW600_JUL22.pdf",
+          "verified_date": "2026-11-19",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-18",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The owner documentation supports bit, collet, fixed-base, depth-adjustment, and cleaning tasks. The Type 1 catalog and exploded diagram support part identification, while internal repair is routed to DEWALT factory or authorized service.",
+          "display_value": "Owner-serviceable for bit, collet, base, depth-adjustment, and cleaning tasks; internal repair is routed to authorized service.",
+          "evidence_tier": "T2",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Instruction_Manual/EN/NA115327_DCW600_JUL22.pdf",
+          "verified_date": "2026-11-19",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-18",
           "is_stale": false
         },
         {
@@ -7687,20 +7701,20 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-19",
           "reverify_days": 30,
-          "stale_after": "2026-09-24",
-          "is_stale": true
+          "stale_after": "2026-12-19",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
-          "display_value": "Manufacturer publishes general warranty terms; exact product eligibility should be checked at purchase.",
+          "raw_value": "The exact DCW600B product page publishes a 3-year limited warranty, 1 year of free service, and a 90-day satisfaction guarantee. Eligibility and current claim terms must be confirmed with DEWALT.",
+          "display_value": "3-year limited warranty, 1 year free service, and 90-day satisfaction guarantee; current DEWALT eligibility and claim terms apply.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/en-us/support/warranty",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://www.dewalt.com/en-us/product/dcw600b/20v-max-xr-brushless-cordless-compact-router-tool-only",
+          "verified_date": "2026-11-19",
+          "reverify_days": 90,
+          "stale_after": "2027-02-17",
           "is_stale": false
         }
       ],
@@ -7709,21 +7723,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B07KSRTDML?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-11-19"
         }
       ],
       "repairability": {
         "product_id": 10,
         "parts_availability": "partial",
-        "parts_url": "https://www.dewalt.com/service-center",
-        "repair_manual_available": 1,
-        "repair_manual_url": "https://www.dewalt.com/en-us/product/dcw600b/dewalt-20v-max-xr-brushless-cordless-router-tool-only",
-        "serviceability": "not-yet-verified",
+        "parts_url": "https://www.toolservicenet.com/en/Dewalt/WOODWORKING/ROUTERS/p/DCW600B-CA_1",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Instruction_Manual/EN/NA115327_DCW600_JUL22.pdf",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 3,
-        "verified_date": "2026-08-25"
+        "source_id": 440,
+        "verified_date": "2026-11-19"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "3-year limited warranty; 1 year free service; 90-day satisfaction guarantee",
+        "warranty_coverage": "The exact DCW600B product page publishes DEWALT's 3-year limited warranty, 1-year free service, and 90-day satisfaction guarantee program.",
+        "warranty_exclusions": "Eligibility, exclusions, claim requirements, and current terms must be confirmed with DEWALT for the purchaser and use case.",
+        "source_url": "https://www.dewalt.com/en-us/product/dcw600b/20v-max-xr-brushless-cordless-compact-router-tool-only",
+        "verified_date": "2026-11-19"
+      },
       "cost_per_year": null
     },
     {
@@ -11104,14 +11124,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "dewalt-dcw600b",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "fein-turbo-i",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -11576,6 +11588,22 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dcw600b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-19",
+      "reverify_days": 30,
+      "stale_after": "2026-12-19",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "street_price",
+      "verified_date": "2026-11-19",
+      "reverify_days": 30,
+      "stale_after": "2026-12-19",
+      "is_stale": false
+    },
+    {
       "slug": "sawstop-pcs31230-tgp236",
       "field_name": "parts_availability",
       "verified_date": "2026-09-20",
@@ -12001,55 +12029,15 @@
     },
     {
       "slug": "dewalt-dcw600b",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcw600b",
       "field_name": "warranty",
+      "verified_date": "2026-11-19",
+      "reverify_days": 90,
+      "stale_after": "2027-02-17",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
       "stale_after": "2027-02-21",
@@ -14405,6 +14393,38 @@
       "verified_date": "2026-10-28",
       "reverify_days": 180,
       "stale_after": "2027-04-26",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-19",
+      "reverify_days": 180,
+      "stale_after": "2027-05-18",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "identity",
+      "verified_date": "2026-11-19",
+      "reverify_days": 180,
+      "stale_after": "2027-05-18",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-19",
+      "reverify_days": 180,
+      "stale_after": "2027-05-18",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcw600b",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-19",
+      "reverify_days": 180,
+      "stale_after": "2027-05-18",
       "is_stale": false
     },
     {

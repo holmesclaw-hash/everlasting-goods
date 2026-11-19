@@ -30,7 +30,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-11-18T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-11-19T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -196,6 +196,8 @@ test("affiliate destinations are exact-model Amazon links for every published re
         ? "2026-10-10"
       : product.slug === "festool-ct-26-ei-hepa"
         ? "2026-10-01"
+      : product.slug === "dewalt-dcw600b"
+        ? "2026-11-19"
       : product.slug === "bosch-1617evspk"
         ? "2026-11-18"
       : product.slug === "milwaukee-2904-20"
@@ -293,6 +295,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "makita-ls1219l": ["https://cdn.makitatools.com/apps/cms/doc/prod/LS1/b54a9ea9-3bbb-491a-befd-b66075fc70e3_LS1219L_IM__885618A943_C1920.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/LS1/d654a02d-1035-4495-9ada-4eb6b6bcc3b9_LS1219L_PB_Breakdown_LS1219L_01-18.pdf", "https://www.makitatools.com/service/service-centers"],
     "makita-kp0800k": ["https://cdn.makitatools.com/apps/cms/doc/prod/KP0/69b0a804-31cf-45e1-a370-0dfb478ff682_KP0800K_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/KP0/99eafa22-ff0d-4654-9ef1-c525d875c5e6_KP0800K_PB.pdf", "https://www.makitatools.com/service/service-centers"],
     "bosch-1617evspk": ["https://www.boschtools.com/us/en/ocsmedia/2610051825_1617_0518.pdf"],
+    "dewalt-dcw600b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Instruction_Manual/EN/NA115327_DCW600_JUL22.pdf", "https://www.toolservicenet.com/en/Dewalt/WOODWORKING/ROUTERS/p/DCW600B-CA_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCW600B/1/Exploded_Diagram/EN/EA025823.gif"],
     "bosch-4100xc-10": ["https://ocsmedia.boschtools.com/binary/manualsmedia/o206944v2_1600A01Z1U_1019_4100XC.pdf", "https://www.boschtoolservice.com/us/en/bosch-pt/spareparts/4100xc-10-3601L13015"],
     "makita-rt0701c": ["https://cdn.makitatools.com/apps/cms/doc/prod/RT0/647d7eb3-3b81-48d3-b5c1-3ae0fe4e121d_RT0701C_IM.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/RT0/1a53392d-f910-408c-9f73-fbc7ed56d465_RT0701C_PB_Breakdown_RT0701C_8-13.pdf"],
   };
