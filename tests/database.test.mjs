@@ -30,7 +30,7 @@ test("generated database is synchronized to the tracked SQLite source", async ()
 
 test("database generation is deterministic for a fixed migration", async () => {
   const generated = await loadGeneratedDatabase();
-  assert.equal(generated.generated_at, "2026-11-19T00:00:00.000Z");
+  assert.equal(generated.generated_at, "2026-11-20T00:00:00.000Z");
 });
 
 test("category one contains at least fifteen publishable T1 or T2 tool records", async () => {
@@ -185,7 +185,7 @@ test("affiliate destinations are exact-model Amazon links for every published re
       : product.slug === "california-air-tools-8010"
         ? "2026-10-08"
       : product.slug === "dewalt-dcd800b"
-        ? "2026-10-09"
+        ? "2026-11-20"
       : product.slug === "grizzly-g0548zp"
         ? "2026-10-12"
       : product.slug === "grizzly-g0940"
@@ -273,7 +273,7 @@ test("manufacturer research is reconciled to exact manuals and only verified par
     "dewalt-dcd793b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Instruction_Manual/EN/DCD793-DCD798_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V//p/DCD793B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD793B/1/Exploded_Diagram/EN/E21151.svg"],
     "dewalt-dcd794b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Instruction_Manual/EN/NA597019_DCD794_DCD799_NA_NBC.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-COMPACT-DRILL-DRIVER-BARE/p/DCD794B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD794B/1/Exploded_Diagram/EN/DCD794_B_C1_D1_T1.svg"],
     "dewalt-dcd801b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Instruction_Manual/EN/NA283252_man_cordless_drill_drivers_DCD801_DCD806_NA.pdf", "https://www.toolservicenet.com/en//Dewalt/CORDLESS-DRILLS/DRILLS%2C-20V/20V-MAX-XR-DRILL-DRIVER---BARE/p/DCD801B_1", "https://assets.dewalt.com/GLOBALBOM/QU/DCD801B/1/Exploded_Diagram/EN/NA370838-SRD1_DCD801_.svg"],
-    "dewalt-dcd800b": ["https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf", "https://www.toolservicenet.com/en/p/DCD800B", "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
+    "dewalt-dcd800b": ["https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf", "https://www.toolservicenet.com/en/p/DCD800B", "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif"],
     "milwaukee-2904-20": ["https://documents.milwaukeetool.com/58-14-9998d1.pdf", "https://documents.milwaukeetool.com/54-24-2990R.pdf"],
     "milwaukee-3601-20": ["https://documents.milwaukeetool.com/58-14-9845d2.pdf", "https://documents.milwaukeetool.com/54-06-2995R.pdf"],
     "makita-xfd14z": ["https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf", "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf"],

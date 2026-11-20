@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "ba3b9d6426628f0e01004fac9b8a1c8f308d85e42a670d25b7826f49506a52b4",
-  "generated_at": "2026-11-19T00:00:00.000Z",
+  "database_sha256": "c5b11869867dd4eab0d05853f28c259ead99ec1b0857a999c1680f7cfe463fa7",
+  "generated_at": "2026-11-20T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -2218,10 +2218,10 @@
       "sku": "DCD800B",
       "category": "drill-drivers",
       "category_group": "tools-shop",
-      "variant_notes": "DCD800B is the U.S. tool-only package containing one DCD800 drill/driver and one belt hook; battery and charger are sold separately. DCD800 is the drill/driver, while DCD805 is the separate hammer-drill model covered by the shared instruction manual.",
+      "variant_notes": "DCD800B is the U.S. tool-only package containing one DCD800 drill/driver and one belt hook; battery and charger are sold separately. DCD800 is the drill/driver, while DCD805 is the separate hammer-drill model covered by the shared Type 1 instruction manual.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation supports the exact tool-only package, owner maintenance, an exact Type 1 exploded diagram, currently orderable ServiceNet assemblies, factory or authorized repair, and current warranty terms. One exact-model owner reports a couple of years of daily cabinet and millwork use without problems; another reports intermittent operation beginning just over two years after purchase, and separate reports describe early or frozen chuck problems. These reports are anecdotal and do not establish representative expected service life or failure rate, so repair economics and a buy or repair recommendation remain unverified.",
+      "recommendation_reasoning": "DEWALT currently identifies DCD800B as the tool-only 20V MAX XR brushless 1/2-inch drill/driver and publishes Type 1 manuals plus an exploded diagram. The exact Type 1 ServiceNet catalog exposed 26 entries on 2026-11-20, with 25 marked purchasable, including the motor-and-switch assembly, transmission assembly, and chuck. Its stock metadata is internally inconsistent: every entry carries an in-stock status even though the chuck and bag report stock level zero, while the charger is non-purchasable and also reports zero. This is a volatile catalog snapshot, not proof of continued support. Existing exact-model owner reports include a couple of years of daily cabinet and millwork use without problems, intermittent operation beginning just over two years after purchase, and separate early or frozen chuck reports. These anecdotes do not establish representative expected service life or failure rate, so repair economics and a buy-or-repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2230,11 +2230,25 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-10-09",
+      "last_reviewed_date": "2026-11-20",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
+          "title": "DEWALT DCD800B Type 1 exploded diagram",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-20",
+          "purpose": "Type 1 exploded diagram"
+        },
+        {
+          "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
+          "title": "DEWALT DCD800 and DCD805 Type 1 instruction manual NA229093",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-20",
+          "purpose": "Type 1 operation, maintenance, safety, and service-routing instructions"
+        },
         {
           "url": "https://www.reddit.com/r/Dewalt/comments/1i0ti8r/will_the_dcd800_drill_be_upgraded_like_the_1007",
           "title": "DCD800 owner frozen-chuck report",
@@ -2267,64 +2281,22 @@
           "url": "https://www.toolservicenet.com/en/p/DCD800B",
           "title": "DEWALT ServiceNet DCD800B Type 1 parts catalog",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "current exact Type 1 component catalog and orderability snapshot"
+          "retrieved_date": "2026-11-20",
+          "purpose": "current DCD800B Type 1 parts catalog, purchasability, and internally inconsistent stock snapshot"
         },
         {
-          "url": "https://support.dewalt.com/hc/en-us/articles/8159827713293-USA-CAN-DeWalt-Warranty",
-          "title": "DEWALT USA and Canada warranty terms",
+          "url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-12-brushless-cordless-drilldriver-tool-only",
+          "title": "DEWALT DCD800B official product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "current warranty coverage and exclusions"
-        },
-        {
-          "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
-          "title": "DEWALT DCD800 Type 1 exploded diagram",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "exact Type 1 exploded diagram"
-        },
-        {
-          "url": "https://www.dewalt.com/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
-          "title": "DEWALT DCD800B current product and downloads page",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "exact tool-only identity, included belt hook, specifications, and current downloads"
+          "retrieved_date": "2026-11-20",
+          "purpose": "current exact tool-only identity, features, downloads, package contents, and product-specific warranty program"
         },
         {
           "url": "https://www.amazon.com/dp/B09ZQ4VTXK",
-          "title": "Amazon DCD800B exact-model destination",
+          "title": "Amazon exact DEWALT DCD800B destination",
           "source_type": "other",
-          "retrieved_date": "2026-10-09",
+          "retrieved_date": "2026-11-20",
           "purpose": "exact-model commercial destination; automated retrieval reached Amazon validation"
-        },
-        {
-          "url": "https://support.dewalt.com/hc/en-us/articles/360056765252-Where-can-my-product-be-repaired-under-warranty",
-          "title": "DEWALT warranty repair path",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "factory and authorized warranty-repair route"
-        },
-        {
-          "url": "https://support.dewalt.com/hc/en-us/articles/7985430800781-Where-can-I-buy-spare-parts-for-my-tool",
-          "title": "DEWALT spare-parts support policy",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-16",
-          "purpose": "manufacturer replacement-parts ordering routes"
-        },
-        {
-          "url": "https://support.dewalt.com/hc/en-us/articles/360012666378-Where-can-I-find-manuals-part-lists-and-diagrams",
-          "title": "DEWALT manuals, parts lists, and diagrams support",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "model and type specific document lookup"
-        },
-        {
-          "url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
-          "title": "DEWALT DCD800 and DCD805 Type 1 North America instruction manual",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-10-09",
-          "purpose": "operation, maintenance, cleaning, battery care, and repair boundary"
         }
       ],
       "fields": [
@@ -2345,53 +2317,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-10-09",
+          "verified_date": "2026-11-20",
           "reverify_days": 180,
-          "stale_after": "2027-04-07",
+          "stale_after": "2027-05-19",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "DCD800B is the U.S. tool-only DCD800 20V MAX XR brushless cordless 1/2-inch drill/driver package. It has two speed settings of 0-650 and 0-2,000 RPM, a 6.37-inch tool-head length, a 1/2-inch metal ratcheting chuck, and includes one belt hook. Battery and charger are sold separately.",
+          "raw_value": "DEWALT identifies DCD800B as the U.S. tool-only DCD800 20V MAX XR brushless cordless 1/2-inch drill/driver package. It has two speed settings of 0-650 and 0-2,000 RPM, a 6.37-inch tool-head length, a 1/2-inch metal ratcheting chuck, and includes one belt hook. Battery and charger are sold separately.",
           "display_value": "DCD800B tool-only 20V MAX XR brushless 1/2-inch drill/driver; 0-650 / 0-2,000 RPM and 6.37-inch tool-head length; battery and charger sold separately.",
           "evidence_tier": "T2",
-          "source_url": "https://www.dewalt.com/product/dcd800b/20v-max-xr-brushless-cordless-12-drilldriver-tool-only",
-          "verified_date": "2026-10-09",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-12-brushless-cordless-drilldriver-tool-only",
+          "verified_date": "2026-11-20",
           "reverify_days": 180,
-          "stale_after": "2027-04-07",
+          "stale_after": "2027-05-19",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "The current DCD800B Type 1 ServiceNet catalog publishes an exploded diagram and marked 24 listed entries purchasable and in stock on 2026-10-09, including the housing, motor-and-switch assembly, transmission assembly, chuck, selector, and LED light. Stock is volatile, and the catalog does not prove that every possible internal component is separately orderable.",
-          "display_value": "Partial: the Type 1 ServiceNet catalog currently lists major assemblies including motor and switch, transmission, and chuck as orderable; stock is volatile and complete component coverage is not verified.",
+          "raw_value": "The exact DCD800B Type 1 ServiceNet catalog exposed 26 entries on 2026-11-20. Twenty-five were marked purchasable, including the housing, motor-and-switch assembly, transmission assembly, chuck, selector, and LED light. All 26 carried an in-stock status, but the chuck and bag reported stock level zero; the charger was non-purchasable and also reported zero. The internally inconsistent status is a volatile snapshot and does not prove continued stock or complete component coverage.",
+          "display_value": "Partial: the Type 1 catalog exposed 26 entries and marked 25 purchasable, including motor-and-switch, transmission, and chuck assemblies; stock metadata was internally inconsistent and continued support is not guaranteed.",
           "evidence_tier": "T2",
           "source_url": "https://www.toolservicenet.com/en/p/DCD800B",
-          "verified_date": "2026-10-09",
+          "verified_date": "2026-11-20",
           "reverify_days": 30,
-          "stale_after": "2026-11-08",
-          "is_stale": true
+          "stale_after": "2026-12-20",
+          "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "DEWALT publishes a Type 1 DCD800 and DCD805 instruction manual covering operation, weekly dry-air vent cleaning, mild-soap exterior cleaning, chuck and accessory procedures, and battery care. It directs repairs, maintenance, and adjustment to factory or authorized service and is not an owner-repair manual.",
+          "raw_value": "DEWALT publishes the NA229093 Type 1 DCD800 and DCD805 instruction manual covering operation, weekly dry-air vent cleaning, mild-soap exterior cleaning, chuck and accessory procedures, and battery care. It directs repairs, maintenance, and adjustment to factory or authorized service and is not an owner-repair manual.",
           "display_value": "Official Type 1 operating and maintenance manual is available; it is not an owner-repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
-          "verified_date": "2026-10-09",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
+          "verified_date": "2026-11-20",
           "reverify_days": 180,
-          "stale_after": "2027-04-07",
+          "stale_after": "2027-05-19",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "The manual documents user maintenance through weekly dry-air vent cleaning, mild-soap exterior cleaning, and ordinary chuck, accessory, and battery procedures. Repairs, maintenance, and adjustment are routed to a DEWALT factory or authorized service center even though ServiceNet sells several assemblies.",
+          "raw_value": "The Type 1 manual documents user maintenance through weekly dry-air vent cleaning, mild-soap exterior cleaning, and ordinary chuck, accessory, and battery procedures. Repairs, maintenance, and adjustment are routed to a DEWALT factory or authorized service center even though ServiceNet lists several major assemblies.",
           "display_value": "User maintenance covers air-vent cleaning and ordinary accessory care; repairs go to DEWALT factory or authorized service.",
           "evidence_tier": "T2",
-          "source_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
-          "verified_date": "2026-10-09",
+          "source_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
+          "verified_date": "2026-11-20",
           "reverify_days": 180,
-          "stale_after": "2027-04-07",
+          "stale_after": "2027-05-19",
           "is_stale": false
         },
         {
@@ -2400,20 +2372,20 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-10-09",
+          "verified_date": "2026-11-20",
           "reverify_days": 30,
-          "stale_after": "2026-11-08",
-          "is_stale": true
+          "stale_after": "2026-12-20",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "DEWALT currently lists a 3-year limited warranty, 1-year free service, and 90-day money-back guarantee. Current terms cover faulty materials or workmanship for the original end-user purchaser, include first-year maintenance and normal-use worn-part replacement, and apply stated exclusions and proof requirements.",
+          "raw_value": "The exact DCD800B product page publishes a 3-year limited warranty, 1-year free service, and 90-day money-back guarantee. Eligibility, exclusions, proof requirements, and current claim terms must be confirmed with DEWALT.",
           "display_value": "3-year limited warranty, 1-year free service, and 90-day money-back guarantee; current DEWALT terms apply.",
           "evidence_tier": "T2",
-          "source_url": "https://support.dewalt.com/hc/en-us/articles/8159827713293-USA-CAN-DeWalt-Warranty",
-          "verified_date": "2026-10-09",
-          "reverify_days": 180,
-          "stale_after": "2027-04-07",
+          "source_url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-12-brushless-cordless-drilldriver-tool-only",
+          "verified_date": "2026-11-20",
+          "reverify_days": 90,
+          "stale_after": "2027-02-18",
           "is_stale": false
         }
       ],
@@ -2422,7 +2394,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B09ZQ4VTXK?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-10-09"
+          "verified_date": "2026-11-20"
         }
       ],
       "repairability": {
@@ -2430,18 +2402,18 @@
         "parts_availability": "partial",
         "parts_url": "https://www.toolservicenet.com/en/p/DCD800B",
         "repair_manual_available": 0,
-        "repair_manual_url": "https://www.toolservicenet.com/i/DEWALT/GLOBALBOM/QUCA/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
+        "repair_manual_url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
         "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 238,
-        "verified_date": "2026-10-09"
+        "source_id": 239,
+        "verified_date": "2026-11-20"
       },
       "warranty": {
         "warranty_length": "3-year limited warranty; 1-year free service; 90-day money-back guarantee.",
-        "warranty_coverage": "Faulty materials or workmanship for the original end-user purchaser; first-year free service includes maintenance and replacement of worn parts caused by normal use.",
-        "warranty_exclusions": "Normal wear, tool abuse, accessories, unauthorized repair damage, and unauthorized-seller limitations apply; proof of purchase may be required.",
-        "source_url": "https://support.dewalt.com/hc/en-us/articles/8159827713293-USA-CAN-DeWalt-Warranty",
-        "verified_date": "2026-10-09"
+        "warranty_coverage": "The exact DCD800B product page publishes DEWALT's 3-year limited warranty, 1-year free service, and 90-day money-back guarantee program.",
+        "warranty_exclusions": "Eligibility, exclusions, proof requirements, and current claim terms must be confirmed with DEWALT for the purchaser and use case.",
+        "source_url": "https://www.dewalt.com/en-us/product/dcd800b/20v-max-xr-12-brushless-cordless-drilldriver-tool-only",
+        "verified_date": "2026-11-20"
       },
       "cost_per_year": null
     },
@@ -2479,9 +2451,9 @@
         },
         {
           "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Exploded_Diagram/EN/DCD800.gif",
-          "title": "DEWALT DCD800 exploded diagram",
+          "title": "DEWALT DCD800B Type 1 exploded diagram",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
+          "retrieved_date": "2026-11-20",
           "purpose": "exact Type 1 component diagram"
         },
         {
@@ -2507,9 +2479,9 @@
         },
         {
           "url": "https://assets.dewalt.com/GLOBALBOM/QU/DCD800B/1/Instruction_Manual/EN/NA229093_DCD800_DCD805_T1_NA.pdf",
-          "title": "DEWALT DCD800 and DCD805 Type 1 instruction manual",
+          "title": "DEWALT DCD800 and DCD805 Type 1 instruction manual NA229093",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-22",
+          "retrieved_date": "2026-11-20",
           "purpose": "operating, maintenance, and safety instructions"
         },
         {
@@ -11372,22 +11344,6 @@
       "is_stale": true
     },
     {
-      "slug": "dewalt-dcd800b",
-      "field_name": "parts_availability",
-      "verified_date": "2026-10-09",
-      "reverify_days": 30,
-      "stale_after": "2026-11-08",
-      "is_stale": true
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "street_price",
-      "verified_date": "2026-10-09",
-      "reverify_days": 30,
-      "stale_after": "2026-11-08",
-      "is_stale": true
-    },
-    {
       "slug": "makita-kp0800k",
       "field_name": "street_price",
       "verified_date": "2026-10-09",
@@ -11609,6 +11565,22 @@
       "verified_date": "2026-09-20",
       "reverify_days": 90,
       "stale_after": "2026-12-19",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-20",
+      "reverify_days": 30,
+      "stale_after": "2026-12-20",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "street_price",
+      "verified_date": "2026-11-20",
+      "reverify_days": 30,
+      "stale_after": "2026-12-20",
       "is_stale": false
     },
     {
@@ -12036,6 +12008,14 @@
       "is_stale": false
     },
     {
+      "slug": "dewalt-dcd800b",
+      "field_name": "warranty",
+      "verified_date": "2026-11-20",
+      "reverify_days": 90,
+      "stale_after": "2027-02-18",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcw600b",
       "field_name": "annual_maintenance_cost",
       "verified_date": "2026-08-25",
@@ -13622,46 +13602,6 @@
     {
       "slug": "dewalt-dcd800b",
       "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-10-09",
-      "reverify_days": 180,
-      "stale_after": "2027-04-07",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-10-09",
-      "reverify_days": 180,
-      "stale_after": "2027-04-07",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "identity",
-      "verified_date": "2026-10-09",
-      "reverify_days": 180,
-      "stale_after": "2027-04-07",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "repair_manual",
-      "verified_date": "2026-10-09",
-      "reverify_days": 180,
-      "stale_after": "2027-04-07",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "serviceability",
-      "verified_date": "2026-10-09",
-      "reverify_days": 180,
-      "stale_after": "2027-04-07",
-      "is_stale": false
-    },
-    {
-      "slug": "dewalt-dcd800b",
-      "field_name": "warranty",
       "verified_date": "2026-10-09",
       "reverify_days": 180,
       "stale_after": "2027-04-07",
@@ -14425,6 +14365,38 @@
       "verified_date": "2026-11-19",
       "reverify_days": 180,
       "stale_after": "2027-05-18",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-20",
+      "reverify_days": 180,
+      "stale_after": "2027-05-19",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "identity",
+      "verified_date": "2026-11-20",
+      "reverify_days": 180,
+      "stale_after": "2027-05-19",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-20",
+      "reverify_days": 180,
+      "stale_after": "2027-05-19",
+      "is_stale": false
+    },
+    {
+      "slug": "dewalt-dcd800b",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-20",
+      "reverify_days": 180,
+      "stale_after": "2027-05-19",
       "is_stale": false
     },
     {
