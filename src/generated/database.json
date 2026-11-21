@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "c5b11869867dd4eab0d05853f28c259ead99ec1b0857a999c1680f7cfe463fa7",
-  "generated_at": "2026-11-20T00:00:00.000Z",
+  "database_sha256": "e1164fc7724ddb1a68d92365b1d900cf1b62ca84633cbe404b386ee9675202d3",
+  "generated_at": "2026-11-21T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -288,7 +288,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "warranty"
         }
       ],
@@ -439,7 +439,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -479,9 +479,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory and authorized pneumatic-service paths"
         },
         {
@@ -1533,7 +1533,7 @@
           "verified_date": "2026-10-21",
           "reverify_days": 30,
           "stale_after": "2026-11-20",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -2888,10 +2888,10 @@
       "sku": "XFD14Z",
       "category": "drill-drivers",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "XFD14Z is the exact U.S. 18V LXT brushless 1/2-inch driver-drill tool-only package; battery and charger are not included. XFD14T is the separate kit shown in the shared parts breakdown with batteries, charger, and bag. XPH14 is a separate hammer driver-drill and is not this record.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Makita currently identifies XFD14Z as the U.S. tool-only 18V LXT brushless 1/2-inch driver-drill and publishes an instruction manual plus an illustrated XFD14T/Z breakdown. The November 2026 parts price list contains 22 of 23 selected component numbers from that breakdown. Six original entries are marked discontinued: four map through alternate-part chains, while the pole complete and left arm show no alternate; the breakdown chuck number is absent. List presence does not prove live stock, successful ordering, compatibility with every revision, or future supply. One exact XFD14 workplace owner report describes gear slipping from new and failure after about one year. A separate workplace commenter says an XFD14/DDF486 had been abused a lot with no problem but gives no duration. A regional DDF486 owner reports electronics replacement after four years; DDF486 is treated only as regional sibling evidence, not proof for the U.S. XFD14Z package. These conflicting anecdotes do not establish representative service life or failure rate, so maintenance cost, repair economics, and a Buy-It-for-Life recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -2900,38 +2900,80 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-11-21",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://www.makitatools.com/products/details/XFD14Z",
-          "title": "Makita XFD14Z official product page",
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Nov%202026%20Parts%20Price%20List_2026_11_16_0956AM.xlsx",
+          "title": "Makita USA November 2026 parts price list effective November 16, 2026",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-11-21",
+          "purpose": "November 2026 manufacturer parts-list entries and alternate-part chains for breakdown components"
         },
         {
-          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
-          "title": "Makita XFD14 instruction manual",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "url": "https://www.reddit.com/r/Tools/comments/1adxfhh/makita_drills_xfd16_ddf489_vs_xfd14_ddf486_vs",
+          "title": "Reddit Tools thread with an exact XFD14 one-year workplace failure report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-21",
+          "purpose": "anecdotal exact XFD14 workplace report describing gear slipping from new and failure after about one year"
         },
         {
-          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
-          "title": "Makita XFD14 parts breakdown",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "url": "https://www.reddit.com/r/Makita/comments/1reavmq/should_i_buy_a_used_makita_dhp486_in_2026",
+          "title": "Reddit Makita thread with a regional DDF486 four-year electronics-repair report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-21",
+          "purpose": "anecdotal regional DDF486 report describing electronics replacement after four years"
+        },
+        {
+          "url": "https://www.reddit.com/r/Makita/comments/12wids0/xgt_df001g_bit_the_dust",
+          "title": "Reddit Makita thread with an XFD14 and DDF486 workplace use report without duration",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-21",
+          "purpose": "anecdotal workplace XFD14 and DDF486 report describing heavy abuse without problems but no ownership duration"
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
-          "purpose": "warranty"
+          "retrieved_date": "2026-11-21",
+          "purpose": "current Makita lithium-ion tool warranty term and exclusions"
+        },
+        {
+          "url": "https://makitatools.com/products/details/XFD14Z",
+          "title": "Makita USA XFD14Z official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-21",
+          "purpose": "current exact U.S. tool-only identity, specifications, included-package boundary, and product-specific warranty statement"
+        },
+        {
+          "url": "https://www.makitatools.com/service/service-centers",
+          "title": "Makita USA factory and authorized service-center page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-21",
+          "purpose": "current factory and authorized service routes plus the current parts-list download"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B093QS3VJR",
+          "title": "Amazon exact Makita XFD14Z tool-only destination",
+          "source_type": "other",
+          "retrieved_date": "2026-11-21",
+          "purpose": "exact-model commercial destination; automated retrieval reached Amazon continuation validation"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
+          "title": "Makita XFD14T and XFD14Z illustrated parts breakdown dated February 2021",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-21",
+          "purpose": "illustrated XFD14T and XFD14Z component breakdown dated February 2021"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
+          "title": "Makita XFD14 cordless driver-drill instruction manual",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-21",
+          "purpose": "operation, inspection, maintenance, and authorized-service boundaries"
         }
       ],
       "fields": [
@@ -2941,9 +2983,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-20",
           "is_stale": false
         },
         {
@@ -2952,53 +2994,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-20",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "18V LXT brushless 1/2-inch driver-drill, tool only",
-          "display_value": "18V LXT brushless 1/2-inch driver-drill, tool only",
+          "raw_value": "Makita identifies XFD14Z as the U.S. tool-only 18V LXT brushless cordless 1/2-inch driver-drill. It publishes 1,250 in.lbs. maximum torque, a two-speed 0-550 and 0-2,100 RPM transmission, a 7-inch tool length, an all-metal self-ratcheting chuck, and a tool-only package with battery and charger not included.",
+          "display_value": "Exact U.S. Makita XFD14Z tool-only 18V LXT brushless 1/2-inch driver-drill; 1,250 in.lbs., 0-550 / 0-2,100 RPM, and 7-inch tool length; battery and charger not included.",
           "evidence_tier": "T2",
-          "source_url": "https://www.makitatools.com/products/details/XFD14Z",
-          "verified_date": "2026-08-25",
+          "source_url": "https://makitatools.com/products/details/XFD14Z",
+          "verified_date": "2026-11-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-20",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official exploded parts breakdown and service path are linked.",
-          "display_value": "Partial: official exploded parts breakdown and service path are linked.",
+          "raw_value": "The November 2026 Makita price list contains 22 of 23 selected component numbers from the February 2021 XFD14T/Z breakdown. Six original entries are marked discontinued. The speed-change lever, gear assembly, grip assembly, and stator map through alternate-part chains to later entries; the pole complete and left arm show no alternate. Breakdown chuck part 763252-1 does not appear. Price-list presence is not proof of live stock, checkout success, revision compatibility, or future supply.",
+          "display_value": "Partial: the November 2026 list contains 22 of 23 selected breakdown numbers; 6 originals are discontinued, 4 map through alternate chains, 2 show no alternate, and the breakdown chuck number is absent. Stock and continued supply are unverified.",
           "evidence_tier": "T2",
-          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Nov%202026%20Parts%20Price%20List_2026_11_16_0956AM.xlsx",
+          "verified_date": "2026-11-21",
+          "reverify_days": 30,
+          "stale_after": "2026-12-21",
           "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Makita publishes an XFD14 instruction manual covering operation, inspection, battery and accessory care, and maintenance. The separate illustrated breakdown identifies components. Neither document is a comprehensive internal diagnostic or repair manual.",
+          "display_value": "Official instruction manual and illustrated breakdown are available; the instruction manual is not an internal repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "verified_date": "2026-11-21",
+          "reverify_days": 365,
+          "stale_after": "2027-11-21",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The instruction manual directs repairs, other maintenance, and adjustment to Makita Authorized or Factory Service Centers using Makita replacement parts. Owner guidance covers inspection, ordinary accessory procedures, and safe cleaning; internal repair procedures are not supplied.",
+          "display_value": "Shop-serviceable through Makita Authorized or Factory Service Centers using Makita replacement parts; owner guidance does not cover internal repair.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
+          "verified_date": "2026-11-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-20",
           "is_stale": false
         },
         {
@@ -3007,20 +3049,20 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-21",
           "reverify_days": 30,
-          "stale_after": "2026-09-24",
-          "is_stale": true
+          "stale_after": "2026-12-21",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "See current Makita USA warranty policy for this model.",
-          "display_value": "See current Makita USA warranty policy for this model.",
+          "raw_value": "Makita publishes a three-year limited warranty for lithium-ion tools against defects in workmanship and materials, subject to its current terms and exclusions, including normal wear, misuse, improper maintenance, alterations, and attempted third-party repair.",
+          "display_value": "3-year limited warranty for Makita lithium-ion tools; current terms and exclusions apply.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/service/warranty",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-21",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-20",
           "is_stale": false
         }
       ],
@@ -3029,21 +3071,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B093QS3VJR?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-11-21"
         }
       ],
       "repairability": {
         "product_id": 3,
         "parts_availability": "partial",
-        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/ee24317d-fede-46ed-b1bf-eb8a8c4ac745_XFD14_PB_Breakdown_XFD14T,Z_02-21.pdf",
-        "repair_manual_available": 1,
+        "parts_url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Nov%202026%20Parts%20Price%20List_2026_11_16_0956AM.xlsx",
+        "repair_manual_available": 0,
         "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/XFD/398deb0c-2db4-4690-a5b8-9be116dc1e01_XFD14_IM_885859-941.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 47,
-        "verified_date": "2026-08-25"
+        "source_id": 447,
+        "verified_date": "2026-11-21"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "3-year limited warranty for Makita lithium-ion tools",
+        "warranty_coverage": "Makita states that covered lithium-ion tools are warranted against defects in workmanship and materials for three years from original purchase and may be repaired or replaced after inspection.",
+        "warranty_exclusions": "Published exclusions include normal wear, abuse, misuse, improper maintenance or operation, alterations, non-genuine batteries, and attempted third-party repair; current terms govern.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-11-21"
+      },
       "cost_per_year": null
     },
     {
@@ -3101,9 +3149,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "Factory, authorized, and direct-repair service routes"
         },
         {
@@ -3117,7 +3165,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "Makita lithium-ion tool warranty term and exclusions"
         },
         {
@@ -5339,7 +5387,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "warranty"
         }
       ],
@@ -5491,7 +5539,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -5503,9 +5551,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -5677,7 +5725,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -5703,9 +5751,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -5884,7 +5932,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -5924,9 +5972,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory, authorized, and direct-repair service paths"
         },
         {
@@ -6326,7 +6374,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -6359,9 +6407,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -6533,7 +6581,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -6580,9 +6628,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -6768,7 +6816,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -6808,9 +6856,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory and authorized service paths"
         },
         {
@@ -7940,7 +7988,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current warranty terms"
         },
         {
@@ -7952,9 +8000,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory and authorized service path"
         },
         {
@@ -8133,7 +8181,7 @@
           "url": "https://www.makitatools.com/service/warranty",
           "title": "Makita USA warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "current corded-tool warranty term and exclusions"
         },
         {
@@ -8166,9 +8214,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/service-centers",
-          "title": "Makita USA service-center support",
+          "title": "Makita USA factory and authorized service-center page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-21",
           "purpose": "factory, authorized, and direct-repair service routes"
         },
         {
@@ -11112,14 +11160,6 @@
       "is_stale": true
     },
     {
-      "slug": "makita-xfd14z",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "grizzly-g0899",
       "field_name": "street_price",
       "verified_date": "2026-09-11",
@@ -11437,7 +11477,7 @@
       "verified_date": "2026-10-21",
       "reverify_days": 30,
       "stale_after": "2026-11-20",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-rt0701c",
@@ -11596,6 +11636,22 @@
       "field_name": "parts_availability",
       "verified_date": "2026-09-22",
       "reverify_days": 90,
+      "stale_after": "2026-12-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-21",
+      "reverify_days": 30,
+      "stale_after": "2026-12-21",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "street_price",
+      "verified_date": "2026-11-21",
+      "reverify_days": 30,
       "stale_after": "2026-12-21",
       "is_stale": false
     },
@@ -12129,62 +12185,6 @@
     },
     {
       "slug": "makita-vc4210l",
-      "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-xfd14z",
       "field_name": "warranty",
       "verified_date": "2026-08-25",
       "reverify_days": 180,
@@ -14400,6 +14400,46 @@
       "is_stale": false
     },
     {
+      "slug": "makita-xfd14z",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-11-21",
+      "reverify_days": 180,
+      "stale_after": "2027-05-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-21",
+      "reverify_days": 180,
+      "stale_after": "2027-05-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "identity",
+      "verified_date": "2026-11-21",
+      "reverify_days": 180,
+      "stale_after": "2027-05-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-21",
+      "reverify_days": 180,
+      "stale_after": "2027-05-20",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "warranty",
+      "verified_date": "2026-11-21",
+      "reverify_days": 180,
+      "stale_after": "2027-05-20",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
@@ -14437,6 +14477,14 @@
       "verified_date": "2026-10-27",
       "reverify_days": 365,
       "stale_after": "2027-10-27",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-xfd14z",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-21",
+      "reverify_days": 365,
+      "stale_after": "2027-11-21",
       "is_stale": false
     }
   ]
