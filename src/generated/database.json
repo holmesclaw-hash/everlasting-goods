@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "09fef03cfb77f53752e3a2faae397fb6109517436e6ee0d883710fd8c5611cf4",
-  "generated_at": "2026-11-22T00:00:00.000Z",
+  "database_sha256": "32eb350ebf7b746ba99deeccf138bed75ca9bb8e50ade92df9e9ac3e7a0123cf",
+  "generated_at": "2026-11-23T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -4986,10 +4986,10 @@
       "sku": "9 20 35 236 09 0",
       "category": "dust-extractors",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "9 20 35 236 09 0, also written 92035236090, is the exact United States and Canada 60 Hz, 120 V, 5.8-gallon FEIN Turbo I package. Turbo I HEPA, Turbo II, and Turbo II HEPA are separate configurations and are not this record.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "FEIN currently identifies 92035236090 as the 120 V Turbo I and publishes an exact exploded catalog with 65 component entries. On 2026-11-23 the catalog marked 52 entries available, 12 available soon, and one assembly aid no longer available; available entries included the container, motor, filters, electronics, socket, switch, wiring harness, antistatic hose connection, and hose. Catalog status and displayed euro pricing do not prove U.S. checkout success, revision compatibility, or future supply. Model-labeled owner evidence is positive but limited: one owner reported obtaining a Turbo I about two years before October 2017 and said in November 2018 that it was still working well, implying roughly three years of use; another owner reported in 2023 that a Fein Turbo I had served for seven or eight years and worked effectively with sanders and a Domino, but did not identify the exact package order number or production revision. These anecdotes do not establish representative expected service life or failure rate, so annual maintenance cost, repair economics, and a buy-or-repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -4998,38 +4998,59 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-11-23",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
-          "title": "FEIN Turbo I official product page",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "url": "https://sawmillcreek.org/threads/fein-turbo-i.233488/",
+          "title": "Sawmill Creek exact-model FEIN Turbo I ownership thread",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-23",
+          "purpose": "anecdotal exact-model report progressing from about two to about three years with continued operation and indoor or covered outdoor use"
         },
         {
-          "url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
-          "title": "FEIN Turbo I official manual or downloads",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
+          "url": "https://www.lumberjocks.com/threads/fein-turbo-1.345144/",
+          "title": "LumberJocks FEIN Turbo I seven-to-eight-year owner report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-23",
+          "purpose": "anecdotal model-labeled Turbo I report describing seven to eight years of effective sander and Domino dust extraction"
         },
         {
-          "url": "https://fein.com/en/service/",
-          "title": "FEIN parts or service support",
+          "url": "https://fein.com/en_us/tools/wet-dry-dust-extraction/wet-dry-dust-extraction/turbo-i-92035236090",
+          "title": "FEIN Turbo I 92035236090 official U.S. product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-11-23",
+          "purpose": "current exact U.S. identity, package specifications, power-tool switching, capacity, airflow, vacuum, and noise claims"
         },
         {
-          "url": "https://fein.com/en/service/3-year-fein-plus-warranty/",
-          "title": "FEIN warranty policy",
+          "url": "https://fein.com/en_us/services/3-year-fein-plus-warranty",
+          "title": "FEIN U.S. three-year FEIN PLUS warranty terms and FAQ",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "warranty"
+          "retrieved_date": "2026-11-23",
+          "purpose": "current three-year registration timing, proof requirement, coverage, and exclusions"
+        },
+        {
+          "url": "https://etk.fein.de/spc/index.php?r=item%2Flist&id=9768",
+          "title": "FEIN electronic Turbo I 92035236090 exploded parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-23",
+          "purpose": "exact 92035236090 exploded catalog and dated component-availability status snapshot"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B00K69ILFQ",
+          "title": "Amazon exact FEIN Turbo I 92035236090 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-11-23",
+          "purpose": "exact-model commercial destination for FEIN Turbo I order number 92035236090"
+        },
+        {
+          "url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/8/c/4/8c4a1f4799718a165f3443ea50b4b3f9-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+          "title": "FEIN Turbo I and Turbo II operating and maintenance manual 34101211210",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-23",
+          "purpose": "official operation, filter care, owner-replaceable items, annual inspection, maintenance, and qualified-service boundaries"
         }
       ],
       "fields": [
@@ -5039,9 +5060,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-23",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-22",
           "is_stale": false
         },
         {
@@ -5050,53 +5071,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-23",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-22",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "Wet/dry dust extractor with power-tool connection",
-          "display_value": "Wet/dry dust extractor with power-tool connection",
+          "raw_value": "FEIN identifies order number 9 20 35 236 09 0, compact form 92035236090, as the U.S. and Canada 60 Hz, 120 V Turbo I wet/dry dust extractor. The current page states a 5.8-gallon container, 151 cfm maximum airflow at the blower, 98.4 inches of water lift, 67 dB sound pressure, variable suction, and automatic start and stop through the integrated power-tool socket.",
+          "display_value": "Turbo I 92035236090: 120 V, 5.8-gallon wet/dry extractor with 151 cfm maximum blower airflow, 98.4 in. water lift, 67 dB sound pressure, and automatic power-tool switching.",
           "evidence_tier": "T2",
-          "source_url": "https://fein.com/en_ca/machines/wet/dry-dust-extraction/wet/dry-dust-extraction/turbo-i-92035236090",
-          "verified_date": "2026-08-25",
+          "source_url": "https://fein.com/en_us/tools/wet-dry-dust-extraction/wet-dry-dust-extraction/turbo-i-92035236090",
+          "verified_date": "2026-11-23",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-22",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "The exact FEIN electronic catalog for Turbo I 92035236090 exposed 65 component entries on 2026-11-23. It marked 52 available, 12 available soon, and one assembly aid no longer available. Available entries included the container, motor, filters, electronics, integrated socket, switch, wiring harness, antistatic hose connection, and hose. The catalog requires sign-in for cart use and does not prove U.S. checkout success, compatibility with every production revision, or future supply.",
+          "display_value": "Partial: the exact catalog exposed 65 entries—52 available, 12 available soon, and one assembly aid no longer available—including motor, filter, electronics, socket, switch, wiring, and hose components.",
           "evidence_tier": "T2",
-          "source_url": "https://fein.com/en/service/",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://etk.fein.de/spc/index.php?r=item%2Flist&id=9768",
+          "verified_date": "2026-11-23",
+          "reverify_days": 30,
+          "stale_after": "2026-12-23",
           "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "FEIN publishes the 34101211210 instruction manual for Turbo I, Turbo I HEPA, Turbo II, and Turbo II HEPA. It covers operation, filter and sensor care, owner-replaceable items, maintenance, and service routing. It is an operating and maintenance manual, not a comprehensive internal repair manual.",
+          "display_value": "Official operating and maintenance manual is available; it is not an internal repair manual.",
           "evidence_tier": "T2",
-          "source_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/8/c/4/8c4a1f4799718a165f3443ea50b4b3f9-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+          "verified_date": "2026-11-23",
+          "reverify_days": 365,
+          "stale_after": "2027-11-23",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manual identifies the fleece filter bag, flat-fold filter, filter cartridge, hose, and tool adapter as owner-replaceable. It directs damaged connections, seals, hoses, power cords, and internal service to qualified personnel or FEIN service using original replacement parts. It also calls for container cleaning after use, filter and sensor care, drying after wet pickup, and a dust-technical inspection at least annually.",
+          "display_value": "Shop-serviceable: owner-replaceable filter bag, flat-fold filter, cartridge, hose, and tool adapter; deeper repairs and the annual dust-system inspection are assigned to qualified service.",
+          "evidence_tier": "T2",
+          "source_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/8/c/4/8c4a1f4799718a165f3443ea50b4b3f9-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+          "verified_date": "2026-11-23",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-22",
           "is_stale": false
         },
         {
@@ -5105,19 +5126,19 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-23",
           "reverify_days": 30,
-          "stale_after": "2026-09-24",
-          "is_stale": true
+          "stale_after": "2026-12-23",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "FEIN publishes a three-year PLUS warranty program; registration and conditions apply.",
-          "display_value": "FEIN publishes a three-year PLUS warranty program; registration and conditions apply.",
+          "raw_value": "FEIN states that eligible products receive a three-year FEIN PLUS warranty after registration within six weeks of purchase. Proof of purchase is required. The published terms cover defects in materials, production, or workmanship and exclude wear parts plus damage from improper use, overload, unsuitable accessories, or unauthorized opening or repair.",
+          "display_value": "3-year FEIN PLUS warranty after registration within 6 weeks; proof of purchase is required, and wear, improper use, overload, unsuitable accessories, and unauthorized repair are excluded.",
           "evidence_tier": "T2",
-          "source_url": "https://fein.com/en/service/3-year-fein-plus-warranty/",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
+          "source_url": "https://fein.com/en_us/services/3-year-fein-plus-warranty",
+          "verified_date": "2026-11-23",
+          "reverify_days": 90,
           "stale_after": "2027-02-21",
           "is_stale": false
         }
@@ -5127,21 +5148,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B00K69ILFQ?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-11-23"
         }
       ],
       "repairability": {
         "product_id": 12,
         "parts_availability": "partial",
-        "parts_url": "https://fein.com/en/service/",
-        "repair_manual_available": 1,
-        "repair_manual_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/7/2/8/728aea28cecfc47fa5f60fbab3fe5105-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
-        "serviceability": "not-yet-verified",
+        "parts_url": "https://etk.fein.de/spc/index.php?r=item%2Flist&id=9768",
+        "repair_manual_available": 0,
+        "repair_manual_url": "https://fein.com/fileadmin/Assets/Documents/Products/Instructions/8/c/4/8c4a1f4799718a165f3443ea50b4b3f9-ZBA_34101211210_Turbo_l_ll_20221212.pdf",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 30,
-        "verified_date": "2026-08-25"
+        "source_id": 458,
+        "verified_date": "2026-11-23"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "3-year FEIN PLUS warranty after timely registration.",
+        "warranty_coverage": "FEIN states that registered eligible products receive three years of coverage under the published FEIN PLUS terms, with proof of purchase required.",
+        "warranty_exclusions": "Registration must be completed within six weeks of purchase; current terms exclude wear parts and damage from improper use, overload, unsuitable accessories, or unauthorized opening or repair.",
+        "source_url": "https://fein.com/en_us/services/3-year-fein-plus-warranty",
+        "verified_date": "2026-11-23"
+      },
       "cost_per_year": null
     },
     {
@@ -11151,14 +11178,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "fein-turbo-i",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "makita-vc4210l",
       "field_name": "street_price",
       "verified_date": "2026-08-25",
@@ -11687,6 +11706,22 @@
       "is_stale": false
     },
     {
+      "slug": "fein-turbo-i",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-23",
+      "reverify_days": 30,
+      "stale_after": "2026-12-23",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "street_price",
+      "verified_date": "2026-11-23",
+      "reverify_days": 30,
+      "stale_after": "2026-12-23",
+      "is_stale": false
+    },
+    {
       "slug": "milwaukee-2904-20",
       "field_name": "parts_availability",
       "verified_date": "2026-09-25",
@@ -12104,57 +12139,9 @@
     },
     {
       "slug": "fein-turbo-i",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "fein-turbo-i",
       "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
+      "verified_date": "2026-11-23",
+      "reverify_days": 90,
       "stale_after": "2027-02-21",
       "is_stale": false
     },
@@ -14439,6 +14426,38 @@
       "is_stale": false
     },
     {
+      "slug": "fein-turbo-i",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-11-23",
+      "reverify_days": 180,
+      "stale_after": "2027-05-22",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-23",
+      "reverify_days": 180,
+      "stale_after": "2027-05-22",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "identity",
+      "verified_date": "2026-11-23",
+      "reverify_days": 180,
+      "stale_after": "2027-05-22",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-23",
+      "reverify_days": 180,
+      "stale_after": "2027-05-22",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
@@ -14492,6 +14511,14 @@
       "verified_date": "2026-11-22",
       "reverify_days": 365,
       "stale_after": "2027-11-22",
+      "is_stale": false
+    },
+    {
+      "slug": "fein-turbo-i",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-23",
+      "reverify_days": 365,
+      "stale_after": "2027-11-23",
       "is_stale": false
     }
   ]

@@ -16,9 +16,10 @@ async function generatedProducts() {
 test("database discovery pages inherit the newest review date in their product scope", async () => {
   const products = await generatedProducts();
 
-  assert.equal(latestReviewDate(products), "2026-11-22");
+  assert.equal(latestReviewDate(products), "2026-11-23");
   assert.equal(latestCategoryReviewDate(products, "drill-drivers"), "2026-11-21");
   assert.equal(latestCategoryReviewDate(products, "routers"), "2026-11-22");
+  assert.equal(latestCategoryReviewDate(products, "dust-extractors"), "2026-11-23");
   assert.equal(latestCategoryReviewDate(products, "drill-presses"), "2026-10-16");
   assert.equal(latestCategoryReviewDate(products, "chef-knives"), "2026-10-06");
   assert.equal(latestCategoryReviewDate(products, "missing-category"), null);
