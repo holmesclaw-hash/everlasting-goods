@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "32eb350ebf7b746ba99deeccf138bed75ca9bb8e50ade92df9e9ac3e7a0123cf",
-  "generated_at": "2026-11-23T00:00:00.000Z",
+  "database_sha256": "2c7d2d04f116c0555e934ce3c29b9ad6abd0d8fbee3b4994eafbd55d45aa0324",
+  "generated_at": "2026-11-24T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -286,9 +286,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "warranty"
         }
       ],
@@ -437,9 +437,9 @@
       "sources": [
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -2135,7 +2135,7 @@
           "verified_date": "2026-10-24",
           "reverify_days": 30,
           "stale_after": "2026-11-23",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "repair_manual",
@@ -2168,7 +2168,7 @@
           "verified_date": "2026-10-24",
           "reverify_days": 30,
           "stale_after": "2026-11-23",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -2935,9 +2935,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current Makita lithium-ion tool warranty term and exclusions"
         },
         {
@@ -3163,16 +3163,16 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "Makita lithium-ion tool warranty term and exclusions"
         },
         {
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
-          "title": "Makita USA October 2026 complete parts MSRP list",
+          "title": "Makita USA parts pricing effective October 15 2026",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-24",
           "purpose": "October 2026 manufacturer price-list entries for model-labeled XFD15 components"
         },
         {
@@ -5372,10 +5372,10 @@
       "sku": "VC4210L",
       "category": "dust-extractors",
       "category_group": "tools-shop",
-      "variant_notes": null,
+      "variant_notes": "VC4210L is the exact United States corded 110-120 V, 11-gallon wet/dry HEPA dust extractor package. It is AWS-capable only when used with the separate WUT02U wireless adapter, sold separately; other Makita vacuum models and regional electrical configurations are outside this record.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Not yet verified",
+      "recommendation_reasoning": "Makita currently identifies VC4210L as the U.S. 11-gallon corded HEPA extractor and links an exact operating manual plus a current illustrated U.S. parts breakdown. Makita USA's parts-pricing file effective October 15, 2026 contains 38 entries whose descriptions explicitly name VC4210; none is marked discontinued in that file. The entries include the motor, auto-on/off PCBA, rotary switch, potentiometer, solenoid kit, power cord, reed sensor, container, control panel, covers, seals, handles, and wheels. This dated list-price snapshot does not prove live stock, checkout success, compatibility with every production revision, or future supply. The current product page separately lists exact-model HEPA and flat filters, motor filter, bags, hose, cuffs, and other accessories. No qualifying exact-model owner report with a stated multi-year ownership duration and repair history was accepted during this review. Expected service life, representative failure rate, annual maintenance cost, repair economics, and a buy-or-repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -5384,38 +5384,52 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-08-25",
+      "last_reviewed_date": "2026-11-24",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
           "url": "https://www.makitatools.com/products/details/VC4210L",
-          "title": "Makita VC4210L official product page",
+          "title": "Makita VC4210L official U.S. product page",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "identity"
+          "retrieved_date": "2026-11-24",
+          "purpose": "current exact U.S. identity, specifications, automatic filter cleaning, tool-activated outlet, AWS-capable boundary, included items, and separately listed exact-model filters and accessories"
         },
         {
-          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
-          "title": "Makita VC4210L official manual or downloads",
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/1b731b99-245e-4fac-a87c-5aa08ecda139_VC4210L_US_en-US.pdf",
+          "title": "Makita current VC4210L U.S. parts breakdown",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "manual"
-        },
-        {
-          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
-          "title": "Makita parts or service support",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-08-25",
-          "purpose": "parts"
+          "retrieved_date": "2026-11-24",
+          "purpose": "current exact-model illustrated U.S. parts breakdown linked by the manufacturer"
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
-          "purpose": "warranty"
+          "retrieved_date": "2026-11-24",
+          "purpose": "current general-product one-year coverage, authorized-service path, and published limitations and exclusions"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+          "title": "Makita USA parts pricing effective October 15 2026",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-24",
+          "purpose": "dated U.S. component-listing snapshot for 38 exact VC4210 entries and their discontinued-marker status"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B07ZMN75V2",
+          "title": "Amazon exact Makita VC4210L destination",
+          "source_type": "other",
+          "retrieved_date": "2026-11-24",
+          "purpose": "exact-model commercial destination whose page title identifies Makita VC4210L 11 Gallon Wet/Dry HEPA Filter Dust Extractor/Vacuum"
+        },
+        {
+          "url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
+          "title": "Makita VC4210L operating and maintenance manual 107418274",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-24",
+          "purpose": "official operation, filter and bag replacement, cooling-air and seal cleaning, annual inspection, maintenance, and qualified-service boundaries"
         }
       ],
       "fields": [
@@ -5425,9 +5439,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-24",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-23",
           "is_stale": false
         },
         {
@@ -5436,53 +5450,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-24",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-23",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "11-gallon wet/dry HEPA filter dust extractor/vacuum, AWS capable",
-          "display_value": "11-gallon wet/dry HEPA filter dust extractor/vacuum, AWS capable",
+          "raw_value": "Makita identifies VC4210L as the corded 11-gallon wet/dry HEPA dust extractor for the U.S. market. The current page states a 12 A motor, 148 CFM airflow, 92 inches of water lift, 60 dB(A) working sound level, automatic filter cleaning, a tool-activated outlet, and AWS capability through the separate WUT02U adapter. The official manual identifies the CA, U.S., and Mexico configuration as 110-120 V.",
+          "display_value": "VC4210L: U.S. 110-120 V corded 11-gallon HEPA extractor with 12 A motor, 148 CFM airflow, 92 in. water lift, 60 dB(A) working sound, and AWS-capable operation through a separately sold adapter.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/products/details/VC4210L",
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-24",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-23",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "Partial: official parts or service support is linked.",
-          "display_value": "Partial: official parts or service support is linked.",
+          "raw_value": "Makita's current U.S. product page links an exact VC4210L illustrated parts breakdown and separately lists exact-model HEPA and flat filters, a motor filter, filter and disposal bags, hose, cuffs, and other accessories. The Makita USA parts-pricing file effective October 15, 2026 contains 38 entries whose descriptions explicitly name VC4210; none carries the file's discontinued marker. Listed components include the motor, auto-on/off PCBA, rotary switch, potentiometer, solenoid kit, power cord, reed sensor, container, control panel, covers, seals, handles, and wheels. The list-price file does not prove live stock, checkout success, compatibility with every production revision, or future supply.",
+          "display_value": "Partial: the October 2026 U.S. file lists 38 exact VC4210 components not marked discontinued, including the motor, PCBA, switch, power cord, container, seals, handles, and wheels; current live stock and revision compatibility are not proven.",
           "evidence_tier": "T2",
-          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "source_url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
+          "verified_date": "2026-11-24",
+          "reverify_days": 30,
+          "stale_after": "2026-12-24",
           "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official manual or downloads are linked.",
-          "display_value": "Official manual or downloads are linked.",
+          "raw_value": "Makita publishes the VC4210L operating manual 107418274. It covers setup, operation, automatic filter cleaning, wet and dry pickup, transport, storage, bag and filter replacement, motor cooling-air diffuser cleaning, gasket and floater cleaning, regular inspection, and maintenance. It is an operating and maintenance manual, not a comprehensive internal repair manual.",
+          "display_value": "Official operating and maintenance manual covers use, cleaning, consumable replacement, and inspection; it is not an internal repair manual.",
           "evidence_tier": "T2",
           "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "verified_date": "2026-11-24",
+          "reverify_days": 365,
+          "stale_after": "2027-11-24",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "Not yet verified",
-          "display_value": "Not yet verified",
-          "evidence_tier": "T4",
-          "source_url": null,
-          "verified_date": "2026-08-25",
+          "raw_value": "The manual documents owner replacement of filter and disposal bags and the flat filter, plus cleaning of the motor cooling-air diffuser, gaskets, floater, container, and water-level device. It says damaged electrical or mechanical parts should be repaired by a competent service center or the manufacturer, and calls for suitably qualified personnel to perform regular servicing and inspection. At least once a year, a Makita technician or instructed person must inspect the filters, air tightness, and control mechanisms.",
+          "display_value": "Shop-serviceable: owner filter and bag replacement plus cooling-air, gasket, floater, and container cleaning; deeper repair and at least annual technical inspection go to qualified personnel.",
+          "evidence_tier": "T2",
+          "source_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
+          "verified_date": "2026-11-24",
           "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "stale_after": "2027-05-23",
           "is_stale": false
         },
         {
@@ -5491,20 +5505,20 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-08-25",
+          "verified_date": "2026-11-24",
           "reverify_days": 30,
-          "stale_after": "2026-09-24",
-          "is_stale": true
+          "stale_after": "2026-12-24",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "See current Makita USA warranty policy for this model.",
-          "display_value": "See current Makita USA warranty policy for this model.",
+          "raw_value": "Makita's current general-product limited warranty covers defects in workmanship and materials for one year from original purchase and directs the complete product to a Makita Factory or Authorized Service Center for inspection and repair or replacement. Published limitations exclude accessories and cases involving attempted third-party repair, normal wear and tear, abuse, misuse, improper maintenance or operation, or alterations.",
+          "display_value": "1-year general-product limited warranty from original purchase through Makita factory or authorized service; normal wear, misuse, improper maintenance, alterations, and attempted third-party repair are excluded.",
           "evidence_tier": "T2",
           "source_url": "https://www.makitatools.com/service/warranty",
-          "verified_date": "2026-08-25",
-          "reverify_days": 180,
-          "stale_after": "2027-02-21",
+          "verified_date": "2026-11-24",
+          "reverify_days": 90,
+          "stale_after": "2027-02-22",
           "is_stale": false
         }
       ],
@@ -5513,21 +5527,27 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B07ZMN75V2?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-08-25"
+          "verified_date": "2026-11-24"
         }
       ],
       "repairability": {
         "product_id": 13,
         "parts_availability": "partial",
-        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/fd0212e7-61ef-4d8b-865c-979472515c43_VC4210L_PB_Breakdown_VC4210L_10-19.pdf",
-        "repair_manual_available": 1,
+        "parts_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/1b731b99-245e-4fac-a87c-5aa08ecda139_VC4210L_US_en-US.pdf",
+        "repair_manual_available": 0,
         "repair_manual_url": "https://cdn.makitatools.com/apps/cms/doc/prod/VC4/5fb7ef75-dbeb-446e-a746-1b5dd0569c35_VC4210L_IM.pdf",
-        "serviceability": "not-yet-verified",
+        "serviceability": "shop-serviceable",
         "ifixit_score": null,
-        "source_id": 33,
-        "verified_date": "2026-08-25"
+        "source_id": 394,
+        "verified_date": "2026-11-24"
       },
-      "warranty": null,
+      "warranty": {
+        "warranty_length": "1-year general product limited warranty.",
+        "warranty_coverage": "Makita states that its general products are covered against defects in workmanship and materials for one year from original purchase, with inspection and repair or replacement through a Makita Factory or Authorized Service Center.",
+        "warranty_exclusions": "The published limitations exclude accessories and cases involving attempted third-party repair, normal wear and tear, abuse, misuse, improper maintenance or operation, or alterations.",
+        "source_url": "https://www.makitatools.com/service/warranty",
+        "verified_date": "2026-11-24"
+      },
       "cost_per_year": null
     },
     {
@@ -5564,9 +5584,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current lithium-ion tool warranty terms"
         },
         {
@@ -5750,9 +5770,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -5957,9 +5977,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current lithium-ion tool, battery, and charger warranty terms"
         },
         {
@@ -6399,9 +6419,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -6606,9 +6626,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -6841,9 +6861,9 @@
         },
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current general-product warranty coverage and exclusions"
         },
         {
@@ -8020,9 +8040,9 @@
       "sources": [
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current warranty terms"
         },
         {
@@ -8213,16 +8233,16 @@
       "sources": [
         {
           "url": "https://www.makitatools.com/service/warranty",
-          "title": "Makita USA warranty policy",
+          "title": "Makita USA current warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-11-21",
+          "retrieved_date": "2026-11-24",
           "purpose": "current corded-tool warranty term and exclusions"
         },
         {
           "url": "https://cdn.makitatools.com/apps/PriceManagement/upload/Oct%202026%20Parts%20Price%20List_2026_10_16_0637AM.xlsx",
-          "title": "Makita USA October 2026 complete parts MSRP list",
+          "title": "Makita USA parts pricing effective October 15 2026",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-27",
+          "retrieved_date": "2026-11-24",
           "purpose": "current manufacturer parts-list status for structural, electrical, and wear components"
         },
         {
@@ -11178,14 +11198,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "makita-vc4210l",
-      "field_name": "street_price",
-      "verified_date": "2026-08-25",
-      "reverify_days": 30,
-      "stale_after": "2026-09-24",
-      "is_stale": true
-    },
-    {
       "slug": "grizzly-g0899",
       "field_name": "street_price",
       "verified_date": "2026-09-11",
@@ -11511,7 +11523,7 @@
       "verified_date": "2026-10-24",
       "reverify_days": 30,
       "stale_after": "2026-11-23",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd794b",
@@ -11519,7 +11531,7 @@
       "verified_date": "2026-10-24",
       "reverify_days": 30,
       "stale_after": "2026-11-23",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd801b",
@@ -11719,6 +11731,22 @@
       "verified_date": "2026-11-23",
       "reverify_days": 30,
       "stale_after": "2026-12-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-24",
+      "reverify_days": 30,
+      "stale_after": "2026-12-24",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "street_price",
+      "verified_date": "2026-11-24",
+      "reverify_days": 30,
+      "stale_after": "2026-12-24",
       "is_stale": false
     },
     {
@@ -12147,58 +12175,10 @@
     },
     {
       "slug": "makita-vc4210l",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "identity",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "parts_availability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "repair_manual",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
-      "field_name": "serviceability",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
-      "is_stale": false
-    },
-    {
-      "slug": "makita-vc4210l",
       "field_name": "warranty",
-      "verified_date": "2026-08-25",
-      "reverify_days": 180,
-      "stale_after": "2027-02-21",
+      "verified_date": "2026-11-24",
+      "reverify_days": 90,
+      "stale_after": "2027-02-22",
       "is_stale": false
     },
     {
@@ -14458,6 +14438,38 @@
       "is_stale": false
     },
     {
+      "slug": "makita-vc4210l",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-11-24",
+      "reverify_days": 180,
+      "stale_after": "2027-05-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-24",
+      "reverify_days": 180,
+      "stale_after": "2027-05-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "identity",
+      "verified_date": "2026-11-24",
+      "reverify_days": 180,
+      "stale_after": "2027-05-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-24",
+      "reverify_days": 180,
+      "stale_after": "2027-05-23",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
@@ -14519,6 +14531,14 @@
       "verified_date": "2026-11-23",
       "reverify_days": 365,
       "stale_after": "2027-11-23",
+      "is_stale": false
+    },
+    {
+      "slug": "makita-vc4210l",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-24",
+      "reverify_days": 365,
+      "stale_after": "2027-11-24",
       "is_stale": false
     }
   ]
