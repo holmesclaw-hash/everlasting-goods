@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_sha256": "74b7f7c0cda4ece37c55ec3f09a8b15a50b0000bd2165f78a9009eb55d0b3049",
-  "generated_at": "2026-11-25T00:00:00.000Z",
+  "database_sha256": "396124adafdb2e98f701c1fd3f10f735a51a6d349ebcfd68f3e92e639320dfdb",
+  "generated_at": "2026-11-26T00:00:00.000Z",
   "products": [
     {
       "id": 14,
@@ -700,9 +700,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer depot repair route and required serial and manufacture-date information"
         },
         {
@@ -714,16 +714,16 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-          "title": "Grizzly replacement-parts ordering and availability policy",
+          "title": "Grizzly current parts-purchasing and revision policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer parts-purchasing route, current and legacy listings, substitutions, and availability limits"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "one-year house-brand limited warranty terms and exclusions"
         },
         {
@@ -1002,9 +1002,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-          "title": "Grizzly replacement-parts ordering and availability policy",
+          "title": "Grizzly current parts-purchasing and revision policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer parts-ordering, supersession, and availability boundaries"
         },
         {
@@ -1016,9 +1016,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer repair intake, technical support, paid repair route, and post-discontinuation parts policy"
         },
         {
@@ -1072,9 +1072,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "warranty duration, original-purchaser boundary, proof-of-purchase requirement, and exclusions"
         }
       ],
@@ -1907,7 +1907,7 @@
           "verified_date": "2026-10-26",
           "reverify_days": 30,
           "stale_after": "2026-11-25",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "repair_manual",
@@ -1940,7 +1940,7 @@
           "verified_date": "2026-10-26",
           "reverify_days": 30,
           "stale_after": "2026-11-25",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -3659,7 +3659,7 @@
           "verified_date": "2026-10-26",
           "reverify_days": 30,
           "stale_after": "2026-11-25",
-          "is_stale": false
+          "is_stale": true
         },
         {
           "name": "warranty",
@@ -3791,9 +3791,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer depot repair route and required serial and manufacture-date information"
         },
         {
@@ -3805,16 +3805,16 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-          "title": "Grizzly replacement-parts ordering and availability policy",
+          "title": "Grizzly current parts-purchasing and revision policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer parts-purchasing route, current and legacy listings, substitutions, and availability limits"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "one-year house-brand limited warranty terms and exclusions"
         },
         {
@@ -4314,9 +4314,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer repair intake, technical support, paid repair route, and post-discontinuation parts policy"
         },
         {
@@ -4363,9 +4363,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "warranty duration, original-purchaser boundary, proof-of-purchase requirement, and exclusions"
         }
       ],
@@ -4605,9 +4605,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer repair intake, technical support, paid repair route, and post-discontinuation parts policy"
         },
         {
@@ -4619,9 +4619,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "warranty duration, original-purchaser boundary, proof-of-purchase requirement, and exclusions"
         }
       ],
@@ -4840,9 +4840,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer repair intake and paid-service route"
         },
         {
@@ -4854,9 +4854,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "warranty duration, coverage, purchaser boundary, and exclusions"
         }
       ],
@@ -8987,16 +8987,16 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer depot repair route, freight burden, and prior-authorization requirements"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-          "title": "Grizzly replacement-parts ordering and availability policy",
+          "title": "Grizzly current parts-purchasing and revision policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer parts-availability policy, version handling, and availability limits"
         },
         {
@@ -9008,9 +9008,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "one-year limited warranty terms and exclusions"
         },
         {
@@ -9264,23 +9264,23 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
-          "title": "Grizzly repair-service policy",
+          "title": "Grizzly current factory-repair policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer depot repair route, freight burden, and prior-authorization requirements"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
-          "title": "Grizzly replacement-parts ordering and availability policy",
+          "title": "Grizzly current parts-purchasing and revision policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "manufacturer parts-availability policy, version handling, substitutions, and availability limits"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "one-year limited warranty terms and exclusions"
         },
         {
@@ -10092,9 +10092,9 @@
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
+          "retrieved_date": "2026-11-26",
           "purpose": "warranty terms"
         }
       ],
@@ -10224,10 +10224,10 @@
       "sku": "G0899",
       "category": "table-saws",
       "category_group": "tools-shop",
-      "variant_notes": "Current 10-inch 2 HP 115V/230V cabinet-saw configuration; verify the manufacture date against the matching manual revision before ordering service parts.",
+      "variant_notes": "G0899 is the exact current 10-inch, 2 HP, single-phase 115V/230V saw configuration. The current owner-service manual is revision V4.02.26 for models manufactured since 02/26, and both the manual and online catalog contain versioned components. Owners must match the machine manufacture date and serial number to the applicable documentation before ordering service parts.",
       "evidence_tier": "T2",
       "recommendation": "not-yet-verified",
-      "recommendation_reasoning": "Manufacturer documentation verifies cast-iron tables and trunnions, a detailed owner-service manual, an exact-model parts catalog, and a one-year limited warranty. Two exact-model owner reports provide mixed quality context but do not establish expected service life or a recommendation.",
+      "recommendation_reasoning": "Grizzly currently documents cast-iron tables and trunnions, a revision-bounded owner-service manual, an exact-model online parts catalog, and factory repair support. One January 2026 exact-model owner comment reports having the G0899 for about five years and calls it great, but gives no workload, maintenance, or repair history. A launch-period 2021 owner reported a twisted fence, difficult blade-guard and riving-knife access, and dust-hose clogging; the current V4.02.26 manual establishes a later production boundary but does not prove those particular concerns persist or were corrected. A September 2026 owner described flat and accurate surfaces, a mid-level fence, and minor annoyances without stating ownership duration. These mixed anecdotes are not representative durability evidence. Expected service life, representative failure rate, annual maintenance cost, repair economics, and a buy-or-repair recommendation remain unverified.",
       "street_price_cents": null,
       "price_verified_date": null,
       "expected_service_life_years": null,
@@ -10236,52 +10236,87 @@
       "image_url": null,
       "image_source_url": null,
       "image_license_basis": null,
-      "last_reviewed_date": "2026-09-11",
+      "last_reviewed_date": "2026-11-26",
       "image_license_url": null,
       "image_attribution": null,
       "image_alt": null,
       "sources": [
         {
-          "url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
-          "title": "Grizzly G0899 official product page",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-11",
-          "purpose": "identity and construction"
-        },
-        {
-          "url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
-          "title": "Grizzly G0899 owner manual",
-          "source_type": "manufacturer",
-          "retrieved_date": "2026-09-11",
-          "purpose": "maintenance and service manual"
+          "url": "https://www.reddit.com/r/woodworking/comments/1qm4thj/major_upgrade_for_me_today_new_cabinet_saw/o1n8a0p/",
+          "title": "Reddit: G0899 owner report after about five years",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-26",
+          "purpose": "January 2026 exact-model anecdote reporting about five years of ownership and a positive overall experience without workload or repair history"
         },
         {
           "url": "https://www.reddit.com/r/woodworking/comments/1w68e2p/tablesaw_recommendations/",
-          "title": "Reddit: current G0899 owner report",
+          "title": "Reddit: September 2026 G0899 owner report without duration",
           "source_type": "owner-report",
-          "retrieved_date": "2026-09-11",
-          "purpose": "owner-reported durability and accuracy context"
+          "retrieved_date": "2026-11-26",
+          "purpose": "September 2026 exact-model anecdote reporting flat accurate surfaces, a mid-level fence, and minor annoyances without ownership duration"
         },
         {
-          "url": "https://www.reddit.com/r/woodworking/comments/rdhckn/awful_experience_with_grizzly/",
-          "title": "Reddit: G0899 owner quality and service report",
-          "source_type": "owner-report",
-          "retrieved_date": "2026-09-11",
-          "purpose": "owner-reported initial quality and service context"
-        },
-        {
-          "url": "https://www.grizzly.com/products/g0899/parts",
-          "title": "Grizzly G0899 exact-model parts catalog",
+          "url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+          "title": "Grizzly G0899 owner-service manual V4.02.26",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-09-11",
-          "purpose": "parts availability"
+          "retrieved_date": "2026-11-26",
+          "purpose": "current V4.02.26 manual for machines manufactured since February 2026, including maintenance, alignment, belt replacement, wiring, and illustrated parts"
+        },
+        {
+          "url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
+          "title": "Grizzly G0899 official product page",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-26",
+          "purpose": "current exact-model identity, construction, electrical configuration, cutting capacities, specifications, and manufacturer support boundary"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/4405505042839-How-can-I-purchase-parts",
+          "title": "Grizzly current parts-purchasing and revision policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-26",
+          "purpose": "current manufacturer explanation of online diagrams, legacy parts, substitutes, availability labels, and manufacture-date revision matching"
         },
         {
           "url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "title": "Grizzly limited warranty policy",
+          "title": "Grizzly current limited-warranty policy",
           "source_type": "manufacturer",
-          "retrieved_date": "2026-10-12",
-          "purpose": "warranty terms"
+          "retrieved_date": "2026-11-26",
+          "purpose": "current one-year house-brand warranty, proof requirement, liability boundary, and exclusions"
+        },
+        {
+          "url": "https://support.grizzly.com/hc/en-us/articles/23294713462167-Can-you-repair-my-item",
+          "title": "Grizzly current factory-repair policy",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-26",
+          "purpose": "current technical-support and factory-repair path, authorization, shipping, diagnostic, labor, and parts-availability boundaries"
+        },
+        {
+          "url": "https://www.grizzly.com/products/g0899/parts",
+          "title": "Grizzly G0899 exact-model online parts catalog",
+          "source_type": "manufacturer",
+          "retrieved_date": "2026-11-26",
+          "purpose": "dated exact-model catalog snapshot with 316 rendered rows, direct add-to-cart controls, legacy replacement mappings, and unavailable legacy components"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B08B6G2L6P",
+          "title": "Amazon exact Grizzly G0899 destination",
+          "source_type": "other",
+          "retrieved_date": "2026-11-26",
+          "purpose": "exact-model commercial destination whose current page title identifies Grizzly Industrial G0899"
+        },
+        {
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?ProductName=G0899&format=json",
+          "title": "SaferProducts exact-model G0899 recall API query",
+          "source_type": "other",
+          "retrieved_date": "2026-11-26",
+          "purpose": "exact-model recall query returned an empty result on 2026-11-26; not a universal safety clearance"
+        },
+        {
+          "url": "https://www.reddit.com/r/woodworking/comments/rdhckn/awful_experience_with_grizzly/",
+          "title": "Reddit: launch-period G0899 quality and service report",
+          "source_type": "owner-report",
+          "retrieved_date": "2026-11-26",
+          "purpose": "launch-period exact-model anecdote reporting a twisted fence, blade-guard and riving-knife access difficulty, and dust-hose clogging"
         }
       ],
       "fields": [
@@ -10291,9 +10326,9 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-09-11",
+          "verified_date": "2026-11-26",
           "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "stale_after": "2027-05-25",
           "is_stale": false
         },
         {
@@ -10302,53 +10337,53 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-09-11",
+          "verified_date": "2026-11-26",
           "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "stale_after": "2027-05-25",
           "is_stale": false
         },
         {
           "name": "identity",
-          "raw_value": "G0899 10-inch 2 HP 115V/230V cabinet table saw with precision-ground cast-iron table and cabinet-mounted cast-iron trunnion.",
-          "display_value": "G0899 10-inch 2 HP 115V/230V cabinet table saw with a precision-ground cast-iron table and cabinet-mounted cast-iron trunnion.",
+          "raw_value": "Grizzly identifies G0899 as the current 10-inch stationary or cabinet-format table saw with a 2 HP single-phase TEFC induction motor. It is prewired for 115V at 16 A and can be converted to 230V at 8 A with the specified conversion parts. The current manual lists a 4,000 RPM arbor, 31-1/2-inch maximum rip to the right of the blade, 11-3/8-inch rip to the left, 3-1/8-inch maximum depth at 90 degrees, 2-1/8-inch depth at 45 degrees, a precision-ground cast-iron table and wings, and cast-iron trunnions.",
+          "display_value": "G0899 current configuration: 2 HP, 115V/230V, 16 A/8 A, 4,000 RPM, 31-1/2 in. right rip, and maximum cuts of 3-1/8 in. at 90 degrees and 2-1/8 in. at 45 degrees, with cast-iron table, wings, and trunnions.",
           "evidence_tier": "T2",
-          "source_url": "https://www.grizzly.com/products/grizzly-10-2-hp-115v-230v-cabinet-saw/g0899",
-          "verified_date": "2026-09-11",
+          "source_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
+          "verified_date": "2026-11-26",
           "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "stale_after": "2027-05-25",
           "is_stale": false
         },
         {
           "name": "parts_availability",
-          "raw_value": "Exact-model online catalog and parts list provide diagrams, revision-specific part numbers, replacements, and availability status; Grizzly does not guarantee every shown part remains available.",
-          "display_value": "Partial: exact-model parts diagrams and ordering links are published, but Grizzly states that availability is not guaranteed for every listed part.",
+          "raw_value": "The exact-model online catalog rendered 316 component rows on 2026-11-26. Of those, 180 exposed direct add-to-cart controls, 134 legacy rows pointed to named replacement parts, and two legacy rows—the V1 cabinet and V1 switch box—were disabled without a listed replacement. Direct-order rows included the complete 2 HP motor and motor components, capacitors, centrifugal switch, arbor and pulleys, poly V-belt, paddle switch, power cord, trunnions, fence assembly and rails, blade-guard assembly, and riving knife. Add-to-cart controls do not prove on-hand inventory, successful checkout, manufacture-date compatibility, or future supply.",
+          "display_value": "Partial: 316 exact-model catalog rows included 180 direct add-to-cart entries, 134 legacy-to-replacement mappings, and 2 disabled legacy entries without a listed replacement; motor, arbor, belt, switch, fence, trunnion, guard, and riving-knife parts were represented, but stock and revision fit remain unproven.",
           "evidence_tier": "T2",
           "source_url": "https://www.grizzly.com/products/g0899/parts",
-          "verified_date": "2026-09-11",
-          "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "verified_date": "2026-11-26",
+          "reverify_days": 30,
+          "stale_after": "2026-12-26",
           "is_stale": false
         },
         {
           "name": "repair_manual",
-          "raw_value": "Official G0899 owner manual includes maintenance, service, troubleshooting, alignment, belt replacement, wiring, and parts sections.",
-          "display_value": "Official owner manual includes maintenance, service, troubleshooting, alignment, belt replacement, wiring, and parts sections.",
+          "raw_value": "Grizzly publishes the G0899 owner-service manual revision V4.02.26 for models manufactured since February 2026. It covers setup, operation, weekly and monthly maintenance, six-to-twelve-month lubrication, troubleshooting, blade and fence alignment, riving-knife alignment, insert and miter-gauge adjustment, belt tension and replacement, wiring diagrams, electrical components, and illustrated parts lists. It is a substantial owner-service manual, while deeper factory repair remains a separate support path.",
+          "display_value": "V4.02.26 owner-service manual for models since 02/26 covers maintenance, alignment, belt replacement, wiring, troubleshooting, and illustrated parts; factory repair remains separately available.",
           "evidence_tier": "T2",
           "source_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
-          "verified_date": "2026-09-11",
-          "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "verified_date": "2026-11-26",
+          "reverify_days": 365,
+          "stale_after": "2027-11-26",
           "is_stale": false
         },
         {
           "name": "serviceability",
-          "raw_value": "The owner manual documents maintenance, alignment, troubleshooting, and belt replacement; electrical installation and conversion are reserved for qualified personnel.",
-          "display_value": "User-serviceable for documented maintenance, alignment, and belt replacement; electrical work is reserved for qualified personnel.",
+          "raw_value": "The current manual schedules weekly table, miter-slot, cast-iron, and fence cleaning; monthly cabinet and motor dust removal plus belt inspection; and trunnion-slide, worm-gear, bull-gear, and leadscrew lubrication every six to twelve months. It documents owner alignment, calibration, troubleshooting, belt tension, and belt replacement. Grizzly technical support may walk owners through minor adjustments or repairs, while authorized factory repair requires prior approval and shipping or drop-off.",
+          "display_value": "User-serviceable: weekly cleaning, monthly dust and belt checks, 6–12-month lubrication, alignment and calibration, plus belt replacement; phone support and authorized factory repair cover deeper work.",
           "evidence_tier": "T2",
           "source_url": "https://cdn0.grizzly.com/manuals/g0899_m.pdf",
-          "verified_date": "2026-09-11",
+          "verified_date": "2026-11-26",
           "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "stale_after": "2027-05-25",
           "is_stale": false
         },
         {
@@ -10357,20 +10392,20 @@
           "display_value": "Not yet verified",
           "evidence_tier": "T4",
           "source_url": null,
-          "verified_date": "2026-09-11",
+          "verified_date": "2026-11-26",
           "reverify_days": 30,
-          "stale_after": "2026-10-11",
-          "is_stale": true
+          "stale_after": "2026-12-26",
+          "is_stale": false
         },
         {
           "name": "warranty",
-          "raw_value": "Grizzly warrants house-brand products for one year to the original purchaser; misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, and consumable parts are excluded.",
-          "display_value": "1-year limited warranty for the original purchaser, subject to Grizzly's published exclusions and proof-of-purchase requirements.",
+          "raw_value": "Grizzly currently warrants house-brand products for one year to the original purchaser from the date of purchase. Registration is not required, but proof of purchase is required. The published policy excludes defects caused directly or indirectly by misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, or consumable parts, and it does not reimburse third-party repairs or machinery transport expenses.",
+          "display_value": "1-year limited warranty for the original purchaser with proof of purchase; misuse, repairs, improper wiring, alterations, lack of maintenance, consumables, third-party work, and transport costs are excluded or unreimbursed.",
           "evidence_tier": "T2",
           "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-          "verified_date": "2026-09-11",
-          "reverify_days": 180,
-          "stale_after": "2027-03-10",
+          "verified_date": "2026-11-26",
+          "reverify_days": 90,
+          "stale_after": "2027-02-24",
           "is_stale": false
         }
       ],
@@ -10379,7 +10414,7 @@
           "program_name": "Amazon Associates",
           "url": "https://www.amazon.com/dp/B08B6G2L6P?tag=everlastin08f-20",
           "exact_model": true,
-          "verified_date": "2026-09-11"
+          "verified_date": "2026-11-26"
         }
       ],
       "repairability": {
@@ -10391,14 +10426,14 @@
         "serviceability": "user-serviceable",
         "ifixit_score": null,
         "source_id": 64,
-        "verified_date": "2026-09-11"
+        "verified_date": "2026-11-26"
       },
       "warranty": {
         "warranty_length": "1 year to the original purchaser from the date of purchase.",
-        "warranty_coverage": "Defects covered under Grizzly's house-brand limited warranty; proof of purchase is required.",
-        "warranty_exclusions": "Misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, consumable parts, third-party repair costs, and transport expenses are excluded or not reimbursed.",
+        "warranty_coverage": "Grizzly warrants its house-brand products to the original purchaser; registration is not required, but proof of purchase is required for a claim.",
+        "warranty_exclusions": "Misuse, abuse, negligence, accidents, repairs, improper wiring, alterations, lack of maintenance, and consumable parts are excluded; third-party repair and machinery transport expenses are not reimbursed.",
         "source_url": "https://support.grizzly.com/hc/en-us/articles/4407181257751-Do-your-items-carry-a-warranty",
-        "verified_date": "2026-09-11"
+        "verified_date": "2026-11-26"
       },
       "cost_per_year": null
     },
@@ -11205,14 +11240,6 @@
   ],
   "freshness_queue": [
     {
-      "slug": "grizzly-g0899",
-      "field_name": "street_price",
-      "verified_date": "2026-09-11",
-      "reverify_days": 30,
-      "stale_after": "2026-10-11",
-      "is_stale": true
-    },
-    {
       "slug": "grizzly-g0771z",
       "field_name": "street_price",
       "verified_date": "2026-09-12",
@@ -11554,7 +11581,7 @@
       "verified_date": "2026-10-26",
       "reverify_days": 30,
       "stale_after": "2026-11-25",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "dewalt-dcd793b",
@@ -11562,7 +11589,7 @@
       "verified_date": "2026-10-26",
       "reverify_days": 30,
       "stale_after": "2026-11-25",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "milwaukee-3601-20",
@@ -11570,7 +11597,7 @@
       "verified_date": "2026-10-26",
       "reverify_days": 30,
       "stale_after": "2026-11-25",
-      "is_stale": false
+      "is_stale": true
     },
     {
       "slug": "makita-xfd15zb",
@@ -11762,6 +11789,22 @@
       "verified_date": "2026-11-25",
       "reverify_days": 30,
       "stale_after": "2026-12-25",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "parts_availability",
+      "verified_date": "2026-11-26",
+      "reverify_days": 30,
+      "stale_after": "2026-12-26",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "street_price",
+      "verified_date": "2026-11-26",
+      "reverify_days": 30,
+      "stale_after": "2026-12-26",
       "is_stale": false
     },
     {
@@ -12198,58 +12241,10 @@
     },
     {
       "slug": "grizzly-g0899",
-      "field_name": "annual_maintenance_cost",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "expected_service_life",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "identity",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "parts_availability",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "repair_manual",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
-      "field_name": "serviceability",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
-      "is_stale": false
-    },
-    {
-      "slug": "grizzly-g0899",
       "field_name": "warranty",
-      "verified_date": "2026-09-11",
-      "reverify_days": 180,
-      "stale_after": "2027-03-10",
+      "verified_date": "2026-11-26",
+      "reverify_days": 90,
+      "stale_after": "2027-02-24",
       "is_stale": false
     },
     {
@@ -14469,6 +14464,38 @@
       "is_stale": false
     },
     {
+      "slug": "grizzly-g0899",
+      "field_name": "annual_maintenance_cost",
+      "verified_date": "2026-11-26",
+      "reverify_days": 180,
+      "stale_after": "2027-05-25",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "expected_service_life",
+      "verified_date": "2026-11-26",
+      "reverify_days": 180,
+      "stale_after": "2027-05-25",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "identity",
+      "verified_date": "2026-11-26",
+      "reverify_days": 180,
+      "stale_after": "2027-05-25",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "serviceability",
+      "verified_date": "2026-11-26",
+      "reverify_days": 180,
+      "stale_after": "2027-05-25",
+      "is_stale": false
+    },
+    {
       "slug": "dewalt-dcd794b",
       "field_name": "repair_manual",
       "verified_date": "2026-10-24",
@@ -14546,6 +14573,14 @@
       "verified_date": "2026-11-25",
       "reverify_days": 365,
       "stale_after": "2027-11-25",
+      "is_stale": false
+    },
+    {
+      "slug": "grizzly-g0899",
+      "field_name": "repair_manual",
+      "verified_date": "2026-11-26",
+      "reverify_days": 365,
+      "stale_after": "2027-11-26",
       "is_stale": false
     }
   ]
