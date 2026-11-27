@@ -12,6 +12,10 @@ const repairUrl = "https://support.dewalt.com/hc/en-us/articles/360056765252-Whe
 const manualsPolicyUrl = "https://support.dewalt.com/hc/en-us/articles/360012666378-Where-can-I-find-manuals-part-lists-and-diagrams";
 const warrantyUrl = "https://www.dewalt.com/en-us/support/warranty";
 const ownerUrl = "https://www.reddit.com/r/Dewalt/comments/1uzcdvm/in_love_with_the_dcd794_3_month_review/";
+const ownerFailureUrl = "https://www.reddit.com/r/Dewalt/comments/16dtzsj/drill_making_clicking_sound_when_stopping/";
+const ownerWarrantyUrl = "https://www.reddit.com/r/Dewalt/comments/1w1qjlt/anyone_have_experience_turning_in_a_faulty_drill/";
+const launchFailureUrl = "https://www.youtube.com/watch?v=Cxw9j8wbx6I";
+const launchReviewUrl = "https://www.youtube.com/watch?v=gtK2VAAOluY";
 const recallsUrl = "https://www.dewalt.com/en-us/support/safety-notices-and-recalls";
 const recallApiUrl = "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=DCD794";
 
@@ -30,7 +34,7 @@ test("the DEWALT DCD794B record preserves exact package and Type 1 evidence boun
   assert.equal(product.category_group, "tools-shop");
   assert.equal(product.evidence_tier, "T2");
   assert.equal(product.recommendation, "not-yet-verified");
-  assert.equal(product.last_reviewed_date, "2026-10-24");
+  assert.equal(product.last_reviewed_date, "2026-11-27");
   assert.match(product.variant_notes, /DCD794B.*20V MAX.*brushless.*1\/2-inch.*tool-only/is);
   assert.match(product.variant_notes, /belt hook.*battery.*charger.*sold separately/is);
   assert.match(product.variant_notes, /Type 1/is);
@@ -50,27 +54,33 @@ test("the DEWALT DCD794B record preserves exact package and Type 1 evidence boun
     manualsPolicyUrl,
     warrantyUrl,
     ownerUrl,
+    ownerFailureUrl,
+    ownerWarrantyUrl,
+    launchFailureUrl,
+    launchReviewUrl,
     recallsUrl,
     recallApiUrl,
   ]) assert.ok(sourceUrls.has(url), `missing source ${url}`);
 
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
-  assert.match(fields.identity.display_value, /DCD794B.*ATOMIC.*20V MAX.*brushless.*1\/2-inch.*compact.*tool-only/is);
-  assert.match(fields.parts_availability.display_value, /Partial.*Type 1.*chuck.*clamshell.*transmission.*motor.*selector/is);
-  assert.match(fields.parts_availability.display_value, /snapshot.*not.*future stock/is);
+  assert.match(fields.identity.display_value, /DCD794B.*ATOMIC.*20V MAX.*brushless.*1\/2-inch.*tool-only.*1,650 RPM.*15.*clutch.*6\.7.*2\.75.*belt hook.*battery.*charger/is);
+  assert.match(fields.parts_availability.display_value, /Partial.*Type 1.*19.*17.*purchasable.*15.*tool-specific.*chuck.*clamshell.*transmission.*motor.*selector/is);
+  assert.match(fields.parts_availability.display_value, /positive.*stock.*snapshot.*not.*future support/is);
   assert.match(fields.repair_manual.display_value, /no comprehensive internal repair manual/is);
   assert.match(fields.repair_manual.display_value, /owner manual.*operation.*maintenance.*troubleshooting/is);
   assert.match(fields.serviceability.display_value, /service network.*clean.*compressed air.*mild soap/is);
-  assert.match(fields.warranty.display_value, /three-year.*limited.*one-year.*free service.*90-day/is);
+  assert.match(fields.warranty.display_value, /3-year.*limited.*1-year.*free service.*90-day.*original end-user.*normal wear.*abuse/is);
   assert.equal(fields.expected_service_life.evidence_tier, "T4");
   assert.equal(fields.expected_service_life.display_value, "Not yet verified");
   assert.equal(fields.street_price.evidence_tier, "T4");
   assert.equal(fields.street_price.display_value, "Not yet verified");
   assert.equal(fields.annual_maintenance_cost.evidence_tier, "T4");
   assert.equal(fields.annual_maintenance_cost.display_value, "Not yet verified");
-  assert.match(product.recommendation_reasoning, /July 17, 2026.*two to three months.*continuous.*use/is);
-  assert.match(product.recommendation_reasoning, /about one year.*home maintenance/is);
-  assert.match(product.recommendation_reasoning, /anecdotal.*representative.*service life.*failure rate/is);
+  assert.match(product.recommendation_reasoning, /launch-period.*gearbox.*follow-up testing.*replacement/is);
+  assert.match(product.recommendation_reasoning, /few days.*gearbox.*warranty.*two weeks/is);
+  assert.match(product.recommendation_reasoning, /two to three months.*continuous.*about one year.*home maintenance/is);
+  assert.match(product.recommendation_reasoning, /September 2026.*wobble.*warranty/is);
+  assert.match(product.recommendation_reasoning, /anecdotes.*no qualifying long-term.*representative.*service life.*failure rate/is);
   assert.match(product.recommendation_reasoning, /recall.*empty.*(?:not|neither).*safety clearance/is);
 
   assert.equal(product.repairability.parts_availability, "partial");
@@ -78,10 +88,10 @@ test("the DEWALT DCD794B record preserves exact package and Type 1 evidence boun
   assert.equal(product.repairability.repair_manual_available, 0);
   assert.equal(product.repairability.repair_manual_url, manualUrl);
   assert.equal(product.repairability.serviceability, "shop-serviceable");
-  assert.equal(product.repairability.verified_date, "2026-10-24");
+  assert.equal(product.repairability.verified_date, "2026-11-27");
 
   assert.equal(product.warranty.warranty_length, "3-year limited warranty; 1-year free service; 90-day money-back guarantee");
-  assert.equal(product.warranty.verified_date, "2026-10-24");
+  assert.equal(product.warranty.verified_date, "2026-11-27");
 
   assert.equal(product.expected_service_life_years, null);
   assert.equal(product.street_price_cents, null);
@@ -97,6 +107,6 @@ test("the DEWALT DCD794B record preserves exact package and Type 1 evidence boun
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B0BY1QMH24?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-24",
+    verified_date: "2026-11-27",
   }]);
 });
