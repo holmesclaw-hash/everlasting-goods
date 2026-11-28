@@ -12,6 +12,7 @@ const repairUrl = "https://support.dewalt.com/hc/en-us/articles/360056765252-Whe
 const manualsPolicyUrl = "https://support.dewalt.com/hc/en-us/articles/360012666378-Where-can-I-find-manuals-part-lists-and-diagrams";
 const warrantyUrl = "https://www.dewalt.com/en-us/support/warranty";
 const ownerUrl = "https://www.reddit.com/r/Dewalt/comments/1vj2fpl/dcd801qq2_hd_in_store_clearance_135/";
+const repairReportUrl = "https://www.youtube.com/watch?v=Bq5epMgLdQk";
 const recallsUrl = "https://www.dewalt.com/en-us/support/safety-notices-and-recalls";
 const recallApiUrl = "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallTitle=DCD801";
 
@@ -30,7 +31,7 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
   assert.equal(product.category_group, "tools-shop");
   assert.equal(product.evidence_tier, "T2");
   assert.equal(product.recommendation, "not-yet-verified");
-  assert.equal(product.last_reviewed_date, "2026-10-25");
+  assert.equal(product.last_reviewed_date, "2026-11-28");
   assert.match(product.variant_notes, /DCD801B.*tool-only/is);
   assert.match(product.variant_notes, /20V MAX.*XR.*brushless.*1\/2-inch/is);
   assert.match(product.variant_notes, /belt hook.*battery.*charger.*sold separately/is);
@@ -52,6 +53,7 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
     manualsPolicyUrl,
     warrantyUrl,
     ownerUrl,
+    repairReportUrl,
     recallsUrl,
     recallApiUrl,
   ]) assert.ok(sourceUrls.has(url), `missing source ${url}`);
@@ -59,9 +61,9 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
   const fields = Object.fromEntries(product.fields.map((field) => [field.name, field]));
   assert.match(fields.identity.display_value, /DCD801B.*20V MAX.*XR.*brushless.*1\/2-inch.*tool-only/is);
   assert.match(fields.identity.display_value, /ANTI-ROTATION.*0-650.*0-2,000.*70-lumen/is);
-  assert.match(fields.parts_availability.display_value, /Partial.*Type 1.*22.*purchasable/is);
-  assert.match(fields.parts_availability.display_value, /housing.*motor.*switch.*sensor.*selector/is);
-  assert.match(fields.parts_availability.display_value, /transmission.*zero.*inconsistent/is);
+  assert.match(fields.parts_availability.display_value, /Partial.*Type 1.*22.*purchasable.*19.*positive/is);
+  assert.match(fields.parts_availability.display_value, /housing.*motor.*switch.*transmission.*sensor.*selector/is);
+  assert.match(fields.parts_availability.display_value, /dated snapshot.*future support/is);
   assert.match(fields.repair_manual.display_value, /no comprehensive internal repair manual/is);
   assert.match(fields.repair_manual.display_value, /owner manual.*operation.*maintenance.*cleaning/is);
   assert.match(fields.serviceability.display_value, /shop-serviceable.*service center/is);
@@ -76,7 +78,8 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
   assert.match(product.recommendation_reasoning, /August 8, 2026.*several months.*woodworking/is);
   assert.match(product.recommendation_reasoning, /DCD801QQ2.*kit/is);
   assert.match(product.recommendation_reasoning, /rather than.*DCD801B.*tool-only/is);
-  assert.match(product.recommendation_reasoning, /anecdotal short-duration evidence/is);
+  assert.match(product.recommendation_reasoning, /November 5, 2025.*repair.*new.*returned to service/is);
+  assert.match(product.recommendation_reasoning, /no qualifying long-term.*ownership history/is);
   assert.match(product.recommendation_reasoning, /expected service life.*representative failure rate/is);
   assert.match(product.recommendation_reasoning, /recall.*empty.*(?:not|neither).*safety clearance/is);
 
@@ -85,10 +88,10 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
   assert.equal(product.repairability.repair_manual_available, 0);
   assert.equal(product.repairability.repair_manual_url, manualUrl);
   assert.equal(product.repairability.serviceability, "shop-serviceable");
-  assert.equal(product.repairability.verified_date, "2026-10-25");
+  assert.equal(product.repairability.verified_date, "2026-11-28");
 
   assert.equal(product.warranty.warranty_length, "3-year limited warranty; 1-year free service; 90-day money-back guarantee");
-  assert.equal(product.warranty.verified_date, "2026-10-25");
+  assert.equal(product.warranty.verified_date, "2026-11-28");
 
   assert.equal(product.expected_service_life_years, null);
   assert.equal(product.street_price_cents, null);
@@ -104,6 +107,6 @@ test("the DEWALT DCD801B record preserves exact package, Type 1, parts, and owne
     program_name: "Amazon Associates",
     url: "https://www.amazon.com/dp/B0F94FMBYW?tag=everlastin08f-20",
     exact_model: true,
-    verified_date: "2026-10-25",
+    verified_date: "2026-11-28",
   }]);
 });
